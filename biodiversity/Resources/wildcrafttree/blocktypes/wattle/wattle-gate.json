@@ -1,0 +1,149 @@
+{
+	code: "wattlefencegate",
+	class: "BlockFenceGateRoughHewn",
+	behaviors: [ {name: "Lockable" } ],
+    "attributes": {
+	"reinforcable": true,
+        "isFence": true,
+        "handbook": {
+            "groupBy": ["wattlefencegate-*"]
+        },
+	    "triggerSound": "sounds/block/hewnfancegate",
+    },
+	variantgroups: [
+		{ code: "wood", "states": ["larch", "tuja", "honeylocust", "birch", "brideinwhite", "alder", "bearnut", "willow", "redwillow", "poplar", "aspen", "eucalyptus", "kapok", "sapele"] },
+		{ code: "type", states: ["n", "w"] },
+		{ code: "state", states: ["opened", "closed"] },
+		{ code: "cover", states: ["free"] }
+	],
+	creativeinventory: { "general": ["*-n-closed-free"], "decorative": ["*-n-closed-free"], "wildcrafttree": ["*-n-closed-free"] },
+	shapebytype: {
+		"*-n-opened-free": { base: "wildcrafttree:block/wattle/gate-open" },
+		"*-w-opened-free": { base: "wildcrafttree:block/wattle/gate-open", rotateY: 90},
+		"*-n-closed-free": { base: "wildcrafttree:block/wattle/gate-closed"},
+		"*-w-closed-free": { base: "wildcrafttree:block/wattle/gate-closed" , rotateY: 90 },
+	},
+    "texturesByType": {
+        "*-willow-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/willow-wattle",
+        }
+        },
+        "*-redwillow-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/redwillow-wattle",
+        }
+        },
+        "*-alder-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/alder-wattle",
+        }
+        },
+        "*-kapok-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/kapok-wattle",
+        }
+        },
+        "*-bearnut-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/bearnut-wattle",
+        }
+        },
+        "*-birch-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/birch-wattle",
+        }
+        },
+        "*-honeylocust-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/honeylocust-wattle",
+        }
+        },
+        "*-larch-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/larch-wattle",
+        }
+        },
+        "*-tuja-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/tuja-wattle",
+        }
+        },
+        "*-poplar-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/poplar-wattle",
+        }
+        },
+        "*-eucalyptus-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/eucalyptus-wattle",
+        }
+        },
+        "*-brideinwhite-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/brideinwhite-wattle",
+        }
+        },
+        "*-aspen-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/aspen-wattle",
+        }
+        },
+        "*-sapele-*": {
+        "trunk": {
+            "base": "wildcrafttree:block/wood/roughfence/sapele-wattle",
+        }
+        },
+    },
+	drawtypeByType: {
+		"*-free": "JSON"
+	},
+	faceCullMode: "NeverCull",
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 1,
+	sidesolid: {
+		all: false
+	},
+	sideopaque: { all: false },
+	emitsideao: {
+		all: false
+	},
+	sounds: {
+		"place": "game:block/planks",
+      		"hit": "game:block/stickhit",
+      	 	"break": "game:block/stickbreak",
+		"walk": "game:walk/wood"
+	},
+	collisionboxbytype: {
+		"*-n-opened-free": null,
+		"*-w-opened-free": null,
+		"*-n-closed-free": { x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 1.3125, z2: 0.6 },
+		"*-w-closed-free": { x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 1.3125, z2: 1 },
+	},
+	selectionboxesbytype: {
+		"*-n-opened-free": [{ x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 0.88, z2: 0.6 }, { x1: 0, y1: 0, z1: -0.03, x2: 0.2, y2: 0.88, z2: 0.6 }],
+		"*-w-opened-free": [{ x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 0.88, z2: 1 }, { x1: -0.03, y1: 0, z1: 0.8, x2: 0.625, y2: 0.88, z2: 1 }],
+		"*-n-closed-free": [{ x1: 0, y1: 0, z1: 0.375, x2: 1, y2: 0.88, z2: 0.6 }],
+		"*-w-closed-free": [{ x1: 0.375, y1: 0, z1: 0, x2: 0.625, y2: 0.88, z2: 1 }],
+	},
+	combustiblePropsByType: {
+		"*": {
+			burnTemperature: 600,
+			burnDuration: 10,
+		}
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.2 },
+		rotation: { x: 5, y: -3, z: -96 },
+		scale: 0.37
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.05, z: 0 },
+		rotation: { x: 90, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.07
+	}
+}

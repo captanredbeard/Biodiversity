@@ -1,0 +1,46 @@
+{
+	code: "foragebasket",
+	maxstacksize: 1,
+	shape: { base: "wildcrafttree:item/foragebasket" },
+	behaviors: [
+                { name: "GroundStorable", properties: { layout: "SingleCenter", collisionBox: { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 0.375, z2: 0.75 }}},
+		{ name: "HeldBag" }
+        ],
+	storageFlags: 2,
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcrafttree": ["*"] },
+	materialDensity: 450,
+	guiTransform: {
+		translation: { x: 1, y: 0, z: 0 },
+		rotation: { x: -21, y: 16, z: 180 },
+		origin: { x: 0.53, y: 0.22, z: 0.5 },
+		scale: 2.15,
+		rotate: true
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0.3 },
+		rotation: { x: 20, y: -73, z: 10 },
+		scale: 1.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.7, z: -0.8 },
+		rotation: { x: -19, y: 81, z: -27 },
+		scale: 0.68
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 180, y: 33, z: -180 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3
+	},
+	attributes: {
+		backpack: {
+			quantitySlots: 10,
+			storageFlags: 32,
+			slotBgColor: "#C1F27C"
+		}
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 12,
+	}
+}

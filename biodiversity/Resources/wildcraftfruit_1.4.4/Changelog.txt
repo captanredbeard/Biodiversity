@@ -1,0 +1,347 @@
+ 1.4.4
+
+- Added blossom quince, ginkgo, bladdernut and their associated products
+- Added two more fruiting oak tree variants - summer oak with very bitter acorns and burr oak with acorns that don't require leaching at all
+- Added ginkgo seed, bladdernut, chestnut and soybean bars
+- Added racahout and xocolatl
+- Added all the missing crock labels for modded vegetables and olives
+- Reogranized one massive "nuts" json file into several smaller ones, remaps included
+- Pumpkins and carrots are now juiceable
+- Most nuts now can be ground, added to soups or turned into nut(not) milk
+- Now you don't have to prepare acorns for pigs, they will eat them raw just fine, acorns are also edible for deer
+- Baneberries are now not only poisonous but also slightly intoxicating
+- Mature peanuts, soybeans, flax and sunflowers now don't drop seed bags, instead their edible seeds can be converted into plantable seeds (the same will be true for other grains, but not in this module)
+- Similar to pumpkins, you now get pineapple seeds when cutting a pineapple fruit; pumpkins, melons and pineapples leave some seeds when rotting
+- Walnut fruits now leave nuts as they decay (forgot about them x2)
+- Sweetened water and lemonade are now cooking pot recipes
+- Improved the "variegated" pink tint used by kolomikta and white lilly pilly
+- Improved visuals for acorns, pineapple, pumpkin, olive, pickled and baked soybeans, carrots are slightly visially bigger too
+- Improved and/or nerfed shelf life stats for some fruits and nuts
+- Fixed false tomato juice being non-poisonous
+- Fixed poultices not applying mid-air
+- Fixed missing woodbine wine recipe
+- Removed melon seeds from cracked vessel loot, as requested by several arctic survivalists
+- Added compatibility with Zippy's crop tweaks: cutting pumpkins produces loose seeds that can be converted into edible ones
+- Updated spanish, french and polish translations (spanish and polish lang files actually WORK this time)
+
+ 1.4.3, the LECHO update
+
+- Restored mod's functionality on 1.21
+- New basegame version parity updates: fruit mash now can be put into small troughs, poultices now heal over time, chocolate and tofu recipes don't leave residue on cooking pots, updated nectarine model
+- Added four varieties of tomato, false tomato, two species of physalis, aubergine, terung asam, four varieties of chili pepper, four colour morphs of bell pepper and their associated products
+- Added chili pepper tincture and honey-pepper poultices
+- Added hackberry and blue quandong-based drinks, prepared the same way as with juniper and sumac
+- Removed balsamic vinegar - sorry for that, but it will make a comeback in the Sauces addon!
+- Renamed husk cherry into paper lantern plant to avoid confusion with other physalis species
+- Moved cucumbers and marita to the vegetable json file to fix missing in-meal shapes (remaps included)
+- Jams now accept one portion of nuts or seeds
+- Troughs won't accept poisonous mash anymore, to avoid possible confusion; certain mash that is poisonous to mammals can still be put into small troughs for chickens
+- Some smaller and drier fruits, like beautyberry and dogrose hips, now produce twice less juice when pressed
+- Thorny berry bushes now take twice as long to harvest
+- Breadfruit seeds and chestnuts now can be added to soups
+- Snowberries, pokeberries, raw rowan and juniper berries are now less toxic, belladonna, on the other hand, is more toxic
+- Strawberry and melon seeds sold by agriculture traders are now more affordable
+- Hard nuts can now be cracked with a wooden club
+- Extended the list of nuts that can be put into small troughs
+- Acorn bread is slightly nerfed
+- Nut sweets and chocolate are now considered topping in meals
+- Flax seeds are now slightly less useless, you can sprinkle them on your stews and even make flax seed bars
+- Fixed broken leaflets on cloudberry mush texture (again)
+- Fixed certain nuts/seeds being invisible in meals
+- Fixed texture fights on vegetable stew with nuts or capers
+- Fixed the inability to put midyim berry mash into troughs
+- Fixed missing basegame recipe for curdled milk using pickled olives
+- Fixed missing unripe black nightshade wine recipe
+
+ 1.4.2
+
+- Added belladonna, baneberry, bearberry and their associated products
+- Added bearberry tincture, bearberry and baneberry poultices
+- Fixed missing honeydew melon cider recipe
+- Fixed vinegar picking recipe handbook crash and ratios being terribly off
+- Raccoons now carry edible berries away in their mouths and leave poisonous ones on the ground
+- Cocoa butter now doesn't belong to any food category
+- Quandongs now also leave pits as they decay (totally forgot about them)
+- Added all the missing entries to polish lang file
+
+ 1.4.1
+
+- BASEGAME VINEGAR IS BACK because turns out disabling it caused lots of incompatibilities... It is rebranded as distilled "cleaning vinegar" and can be used to soak residue off pots
+- Yet another Expanded foods wine/vinegar compatibility fix - the game no longer crashes, but don't expect much from it...
+- Pickled cucumbers, capers and caperberries now can be stored in crocks (unfortunately they have no labels)
+- Fruits that can be pitted for edible seeds now leave said seeds behind when they rot away
+- Olives and pineapple got slight visual updates
+- Fixed one of the ivy-vinegar poultice recipes still using basegame vinegar
+- Fixed ales having fruit nutrition in stews instead of grain
+
+ 1.4.0, the VARIETY SHOW update
+
+- Added burgundy and wild apples, crabapple, sand pear, mazzard, sloe, damson and red plums, greengage, purple-leaf cherryplum, nectarine, jackfruit, cempedak, marang, rambutan, pulasan, smoothskin avocado, great and water jambu, bitter orange, grapefruit, lime, makrut, kasturi, wani, ber, bilberry, swamp huckleberry (which often gets confused with eurasian blueberry), walnut, bearnut, stone pine, yew, dewberry, loganberry, boysenberry, jostaberry, honeydew melon, sorb, chokeberry, kolomikta, granadilla, woodbine and beach rose, and their associated products; a lot of them count as variants of already existing fruits and don't have unique in-meal textures and juice types
+- Split wild strawberry into wild and green variants
+- Changed hazelnut into a branchy bush; old hazel trees became bearnuts (no remaps required!)
+- Renamed avocado into black avocado to accommodate the presence of smoothskin variant
+- Renamed cherryplum into yellow cherryplum to accommodate the presence of red cherryplums
+- Renamed pine nuts into stone pine nuts to accommodate the presence of other pine nut variants
+- Soybean expansion: models, textures and transforms updated, now soya can be fed to chickens, put into soup, eaten raw (but for only a fraction of its nutritional value) or cooked in a firepit; soak soybeans before eating or adding to meals to make them more filling, or press "milk" and prepare tofu out of them
+- Added 15 types of vinegar, only some of which are suitable for pickling, while most can be added to stews; poisonous wine now turns into equally poisonous vinegar
+- Some bigger fruits, like breadfruit and pomelo, now produce twice more juice when pressed
+- Added nocino, a fancy spirit made with walnuts
+- Added rosehip, chokeberry, passionflower, orange, citron, lime and grapefruit peel tinctures
+- Adjusted the amount of fruits necessary for tincture preparation
+- Added harvestable, edible and fermentable passionflowers
+- Flowers now stack up to 128 for more optimized flower wine production
+- Rewritten the entire cooking patch to make it more compact and efficient, there should be less meal-related weirdness now
+- Nuts are now visually represented in vegetable stews
+- Basegame peanuts and olives are now also visible in meals
+- Virgin grapes are now harmless in meals (as oxalates are mostly destroyed by cooking)
+- Passionfruits, passionflowers, makrut and cocoa now provide slight healing effect when in meals
+- Poisonous and healing wines now retain their properties when put into stews
+- Nuts now can't be mixed into mock "mixed meat" pie
+- Finally adressed the issue of the "mixed grain pie", now it has proper name and texture, sunflower seeds are now also pie-able
+- Macadamia and cashew nuts are now in grain food category, as they don't really contain much protein
+- Rebalanced cold-hardiness of many fruit trees
+- Adjusted grafted tree cutting survival chances to correspond basegame changes
+- Changed chinaberry into a warm-climate deciduous tree
+- Whole melons now can be put into foraging baskets
+- Cherries, huckleberries, lychees, cloudberries and a few other fruits got new models, mostly done to represent fruits' size more accurately
+- Fixed "silvery lines" visual errors on many fruit and nut items
+- Changed rowan tree foliage texture and quince flower texture
+- Adjusted a lot of flowering and ripe bush textures to avoid overly saturated colours and too big or too small flower/berry size
+- All fruits and nuts are now handbook-grouped so they don't clog the knife and hammer handbook pages with crafts
+- Flower wines are also handbook-grouped
+- Added missing orange lemonade recipe
+- Added missing alternative curdled milk recipe
+- Added missing aged ales
+- Added missing in-container textures for fruits, nuts and flowers
+- Fixed the inability to pick flowers off bottom parts of black elderberry bushes
+- Fixed wrong windows-style trellis recipe
+- Fixed the absence of chocolate milk in Wildcraft creative tab
+
+ 1.3.2
+
+- Expanded foods compatibility hotfix
+- Renamed certain barrel recipes to hopefully resolve related incompatibilities
+- Nerfed honeycomb to sweetened water ratio
+- Adjusted black nightshade texture to make ripe and unripe berries even more visually different
+
+ 1.3.1
+
+- Added appleberries and their associated products
+- Added cocoa butter, cocoa powder, four types of chocolate and chocolate milk, improved and expanded the process of chocolate-making
+- Added lemonade, a less expensive and less nutritious citrus juice alternative
+- Added ivy-vinegar, elderflower-pine resin, snowberry and bryony poultices
+- Added raspberry, cloudberry, elderberry, ivy, hawthorn and juniper tinctures
+- Raspberries and hawthorn now provide slight healing effect when in meals
+- Reduced and reworked vanilla berry spawns: currants now mostly grow in sparse forests, while cranberries and blueberries are both found in cool climate wetlands
+- Reduced overall berry bush spawns
+- Rebalanced some fruit nutrition stats, including vanilla cherries and lychees
+- Changed wine/cider recipe: now it requires putting part of the mash into barrels with juice to provide natural yeast
+- Changed mead recipe to be more realistic and less expensive: now you need to dilute your honey with water; also fixed the notorious inconsistency between honeycomb and liquid honey satiety
+- Changed ale recipe to be less expensive as well
+- Wines, ciders and ales now can be added to meat stews
+- Fixed flower petal wine recipes having comically small output
+- Fixed wrong spoilage timers for several fruits and liquids
+- Fixed black grapes being invisible in meals
+- Fixed rye alcohol textures being green because of modded gooseberry texture overwriting vanilla one
+- Fixed and improved many vanilla alcohol names
+- Removed half-bush blocks from world generation to fix weird stacking issues
+- Hawthorn trees are now less overwhelmingly abundant (hopefully)
+- Nerfed brandy nutrition to correspond basegame change
+- Adjusted dye recipes to correspond basegame change, added and removed a few recipes
+- Adjusted cashew nuts item shape
+- Resolved Expanded foods fine/aged wine compatibility issue
+- Cocoa mash is now inedible for animals (as cocoa is poisonous to most animals irl)
+- Cranberry and blueberry clippings now have correct tints
+- Added german translation (thanks to Jascha)
+- Updated french translation
+
+ 1.3.0, the VINES AND WINES update
+
+- Restored mod's functionality on 1.20
+- New basegame version parity updates: fruits, berries, vegetables, nuts and bread are now storable on the ground, wine/cider is less nutritious but lasts longer
+- Certain berry bushes now have longer or shorter empty, flowering and ripe phases, which are now adjustable per bush type
+- Clippings, growth and scions now have varying growth times and their cold-hardiness approximately matches mature bushes of their type
+- Small berry plant seedlings now can die if the weather is too cold
+- Added new tooltips for berry bushes to make managing them easier: they show when it's too cold or hot to fruit, when pruned branches will regrow, when new growth will appear (if the bush is capable of growing taller) and for how long the berries will stay on the bush
+- Added new tooltip to clippings and seedlings telling when it's too cold to grow
+- Added a new type of fruit plants, fruiting vines: they behave similarly to berry bushes, but need a vertical support block to grow and come in three size variants
+- Added five types of grapes, bryony, ivy, kiwi, passionfruit, cucumber, and their associated products
+- Added three new pumpkin-type crops that bear fruit: watermelon, musk melon and mirza melon, and their associated products
+- Added capers and their associated products
+- Added ground apricot pits as slightly inferiour alternative to almonds for making marzipan
+- Added flower harvesting for certain plants
+- Added flower petal, carrot, pumpkin, avocado and cucumber jams
+- Added root suckers for certain berry bushes like raspberries and blackberries to allow them to spread horizontally
+- Added wooden trellis for vines, in assorted styles
+- Added flower wine
+- Added avocado juice and alcohol
+- Added aging for wines and ciders; keeping them sealed in oak barrels for a long time will improve their quality and prevent spoilage altogether; this DOES NOT colflict with or overwrite Expanded foods' fine wines
+- Added fancy aged spirits: armagnac, cognac, calvados, cointreau, guignolet and amaretto, as well as pomace wine and grappa, alcohol made of winery waste
+- Wine and cider now spoil into vinegar, which can be used to pickle vegetables
+- Nerfed juniper: juicing removed in favour of "lemonade" recipe that requires more berries per litre
+- Similar changes made to sumac
+- Added melon and strawberry seeds to the seed cracked vessels' loot
+- Changed mingimingi to be mid-tall bush, "full-sized" variant is possible to grow via grafting
+- Updated fractureberry visuals and uses; berries now rust, thus they are no longer an everlasting food source
+- Updated fig tree foliage textures
+- Updated textures and models of guajava, grapes, mezereon, crow's eye, seaberry, bunchberry, gooseberry, spindle and dogrose hip items
+- Updated pokeberry pie/juice texture to better represent real life counterpart
+- Improved a few fruit item transforms, including vanilla ones
+- Improved selection box sizes for berry bushes
+- Improved clipping item models for more thin-branched bushes
+- Improved naming for certain jams, including pineapple jam
+- Removed softened marita flesh due to redundancy, as now you can juice marita pieces directly
+- Virgin grape is now slightly more dangerous
+- Renamed honeysuckle into blue honeysuckle and huckleberry into mountain huckleberry in anticipation of new variants
+- Fixed frozen clipping/growth/scions dying only when the world is reloaded
+- Fixed modded vegetable stews being liquid/having completely flat models
+- Fixed several types of brandy looking faint to the point of being invisible
+- Fixed half-bushes having bugged out wind swaying
+- Fixed cloudberry mush and quandong necklace texture bugs
+
+ 1.2.2
+
+- Previously established treelike bushes are now split into hedge-forming ones with partially foliated, fruiting bottom blocks and actually treelike ones with thicker, bare, non-fruiting trunks
+- Added marita and its associated products, hopefully all the indonesian and papuan VS players will appreciate, if there are any
+- Renamed pandan into hala to avoid confusion, since hala and marita can both be called "pandans"
+- Split elderberries into black and dwarf varieties; original plant renamed into dwarf elderberry
+- Changed pistachio and sea mango bushes to have bare trunks (warning: harvest them before activating remaps)
+- Changed desert hackberry into a tall bush and lilly pillies into hedge bushes (shouldn't cause any problems)
+- Fruiting bushes now have varying productivity/berry yield per bush, similar to fruit trees, though the difference is less drastic
+- Reworked kakaha plant model
+- Fixed large patches of mingimingi bushes not spawning and sending warnings to logs
+- Fixed saltbush porridge being invisible in pots/bowls
+- Fixed dead flax lily clippings being... pretty green for something withered
+- Fixed lack of dye recipe for the unripe black nightshade variant
+- Fixed incompatibility with any mods that add new chicken feed
+- Fixed wrong amount of dwarf pine cones dropped when a bush is broken
+
+ 1.2.1
+
+- Added pilo, mingimingi, kakaha, and their associated products
+- Hackberries are now fruit food category; added hackberry nutlets and hackberry nutlet bar
+- Hackberries, pistachio berries and blue quandongs now can be made into jams
+- Acorns and raw chestnuts now can be put in large troughs
+- Most nuts and seeds now can be put in small troughs
+- Bottom bush blocks are now handbook-grouped
+- Fixed short berry bush seeds and sprouts having wrong drops
+- Fixed crash related to liquids in creative menu
+- Fixed mistakes in topberrybush and bottomberrybush files which were resulting in harvested block weirdness
+- Fixed garden strawberry seedling being textureless
+- Fixed a typo in hazelnut branch lang entries
+
+ 1.2.0, the BUSH TUCKER update
+
+- Added illawarra plum, bunya pine, chinaberry, achacha, beach almond, red quandong, lemon aspen, sea mango, finger lime, three vaiants of lilly pilly, midyim berry, munthari, blue tongue, oldman saltbush, cheeseberry, ruby saltbush, creeping pine, pine heath, honey-pots, and their associated products
+- Added oldman saltbush, beach almond and bunya nut bars
+- Added unripe, poisonous variant of black nightshade that you will sometimes get when gathering these berries
+- Polished clipping mechanic: bushes now have working tooltip, clipping produces sound, uses tool durability and takes about a second of time to complete, similar to harvesting
+- Added two new size variants of berry bushes, medium-tall and treelike: the former will naturally grow to one and a half blocks tall, while the latter will grow to three full blocks in height and develop thick leafless branches at the bottom, which have collision and can be used to make passable but not climbable green hedges; the creation of two full blocks tall plants that are normally medium-tall, fully foliated bushes that are normally treelike and treelike bushes that are only two blocks tall is possible via grafting
+- Changed sumac, kumquat, blackberry (for the second time, yes, please don't kill us for that), dogrose, desert hackberry and gooseberry into medium-tall bushes
+- Changed juniper and pistachio into treelike bushes
+- Changed ugni myrtle into a short bush
+- Renamed rose apple into wax jambu to avoid confusion with related species and with pink apples
+- Renamed sallowthorn into seaberry to avoid confusion with... one plant we are going to add in the future X)
+- Updated naranjilla fruit model to better represent its size
+- Miscellaneous cloudberry tweaks
+- Citron now has a slightly less cold-hardy variant, lemon
+- Some fruit trees are now more cold-hardy, notably hazelnut, cocoa, pomelo and guajava
+- Pomelos ceased to shamelessly dominate the subtropical/tropical fruit tree spawns
+- Lemon/citron brandy is now called limoncello
+- Vanilla cranberry and blueberry bushes now use their respective climate tints; seaberry, feijoa and pistachio tints also were improved
+- Tall herbaceous berry plants and some grounded berry bushes now have fuller, bushier models
+- Blossom textures of some fruit trees are now more contrast, and certain trees with decorative flowers will now stay in blossom for longer
+- Figs and wax jambu fruits now appear smaller when on trees
+- New chestnut foliage texture
+- Improved visuals of clipping items, now they mostly match the foliage colour of the bushes they come from
+- Fixed fruit mash texture in troughs being not typed (this took way more effort than it was worth...)
+- Poisonous berry mash is now unsuitable fodder, juniper mash as well, because of excess amount of essential oils in it, just compost these
+- Reduced spawn rates of most berry bushes
+- Nut candy and nut bars now can be put on shelves and into display cases
+- Clippings in buckets are now handbook-grouped
+- Fixed a silly typo in the flax lily bush shape file
+- Added some missing lang file entries
+- Temporarily removed fruit tree cuttings from gardening traders' selling list to resolve handbook pages being clogged by repeating "Gardening trader" entry
+- Added polish translation (thanks to Veir)
+
+ 1.1.1
+
+- 1.19 consisitency: added rustling sound to berry bushes and fruit tree foliage, adjusted some in-hand transforms, updated models for clippings in buckets, acorn flour and berry seeds now have 3D models
+- Added rose apple and its associated products
+- Added pitting for breadfruits, apricots and cherries, their extracted pits can be eaten as nuts
+- Added edible pumpkin seeds you get after slicing a pumpkin, these can be eaten or converted into plantable seeds
+- Added apricot, cherry, pumpkin and sunflower seed bars
+- The nut nerf: lowered or removed in-meal nutrition boost for most nuts, balanced out nut bar and candy nutrition and recipes
+- Cashew nut extraction now doesn't waste cashew apples, the recipe gives off both nuts and apples instead
+- Strawberries are now split into wild strawberry that generates naturally and garden strawberry that can only be bought from traders
+- Changed transitional property of cloudberries from spoilage to curing to avoid rotten/moldy look when turning into mush
+- Juice and wine made from poisonous berries is now poisonous as well
+- Small herbaceous berry plants now yield less berries per bush on average
+- Renamed husk tomato into husk cherry to avoid confusion with south american species
+- Updated the buying list of gardening traders in preparation for their eventual proper implementation
+- Adjusted the random offset value of short berry bushes to correspond vanilla analogues
+- Adjusted the random offset value of clippings, seedlings and both types of herbaceous berry plants to be less chaotic as well
+- Fixed fruit mash being inedible for animals in troughs
+- Fixed herbaceous berry bush, clipping, seedling, growth and scion blocks transforms
+- Fixed handbook crash caused by an error in fermented cocoa beans recipe
+- Fixed a couple fruit tree-associated bugs
+- Improved french translation (thanks to Laerinok) and added spanish translation (thanks to XurxoMF)
+
+ 1.1.0, the PACIFIC ISLANDS update
+
+- Added engkala, coral bead plant, silver nettle, blue quandong, flax lily, kawakawa, bush lawyer, pandan, and their associated products
+- Added spindle red dye that can be used without mordant
+- Added grafting for berry bushes: now you can graft medium or tall bush clippings onto tall bush stock of the same or different species
+- Added compatibility with foraging basket from the Trees module: fruits, nuts, seeds and clippings can go into it
+- Added remaps for all berry bushes from the original Wildcraft
+- Added quandong stones, necklace and bracelet: several traders now buy quandong stones and jewelry made of them
+- Berry bushes now actually drop sticks when broken (or dry grass if the plant doesn't have any woody parts)
+- Dried clippings can now be converted into sticks or dry grass
+- Clippings in buckets are now storable on the ground
+- All bush types are now handbook-grouped for convenience
+- Lowered the amount of berry bushes generating per patch to deal with their excessive abundance
+- Rebalanced spawning conditions of certain tropical berry bushes so they should not generate in temperate areas now
+- Rebalanced fruit tree temperature preferences again: now none of them should have too narrow survival-vernalization range
+- Changed jujube, false orange and sugar hackberry to be decidous trees; sugar hackberry has a very high dormancy entering and vernalization temperatures that should allow it to bear fruit in places where no true winters occur
+- Changed blackberry, red and white currants from tall berry bushes to medium ones to better represent real life counterparts and to make room for other tall bush species (they still can naturally generate as two blocks tall and can be stacked in creative)
+- Fixed broken attributes for vanilla berry bushes, including them not being stackable, reinforceable, etc.
+- Fixed the issue of breaking one berry bush growth block causing all adjacent growth blocks to break as well
+
+ 1.0.1
+
+- Fixed inverted healing stats for reed and linen false orange poultices
+- Chestnuts are now in vegetable food category
+- Acorns are now in grain food category
+- Fig trees are now more cold-resistant
+- Renamed wolfberry into mezereon to avoid confusion among english speakers
+- Minor model and texture improvements for some fruits
+- Prickly heath and num-num clippings now have correct names and tints
+
+ 1.0.0
+
+- The grand split of Wildcraft into several modules has finally occured!
+- Added avocado, pokeweed, prickly heath, lingonberry, beautyberry, black and bitter nightshades, naranjilla, num-num, rowanberry, cherryplum, knyazberry, loquat, sallowthorn, jujube, false orange, desert hackberry, chestnut, white oak, spindle, ugni berry, feijoa, guajava, turk's cap, kumquat, sumac, pistachio, cashew, macadamia, crow's eye, juniper, dwarf pine, and their associated products
+- Added edible pine nuts you can get out of pine, dark pine, cedar pine (from the Trees module) and dwarf pine cones
+- Added acorn bread
+- Added nut bars as nutritious travel snacks
+- Added primitive chocolate paste, marzipan, halva and pacoca that can be used everywhere fruits can except jams
+- Added false orange poultices
+- Added dye recipes for some of new and old berries
+- Fixed the absence of cocoa juice and alcohol
+- Polished visuals for berry bushes and fruit trees, mostly texture replacements and fixes
+- Added unique tints for several plants
+- Fixed wind swaying for short herbaceous berry plants
+- Polished visuals for clipping items and young berry bushes
+- Polished visuals for fruits, berries and nuts in inventory, in players' hands and on the ground
+- Updated berry bush and fruit tree spawning conditions, so now they grow in their respective climates, as well as rebalanced their rarity
+- Updated and rebalanced berry bush and fruit tree temperature tolerance
+- Changed sugar hackberries into tropical plants, though they are still relatively cold-resistant
+- Updated and rebalanced fruiting and ripe phases length for most fruit trees and the amount of fruit harvested
+- Updated and rebalanced nutritional properties and shelf life span of most fruits and berries
+- Nuts are now separated from all other fruits into their own food type, and they rightfully belong to porridge, vegetable and meat stews
+- Cloudberries now disintegrate into less useful, but still edible mush instead of instantly rotting
+- Fixed most missing meal textures
+- Wine/cider now spoils, as it should
+- Fancier names for some alcohol types
+- Added gardening trader (currently creative only)
+- General updates and fixes of english, russian and french language files

@@ -1,0 +1,81 @@
+{
+	code: "slantedroofinghalfleft",
+	class: "BlockSlantedRoofingHalf",
+	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "east", drop: { type: "block", code: "wildcrafttree:slantedroofinghalfleft-{material}-east-free" }  }}],
+	variantgroups: [
+		{ code: "material", loadFromProperties: "wildcrafttree:block/wood" },
+		{ loadFromProperties: "game:abstract/horizontalorientation" },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		humanoidTraversalCost: 100,
+		mapColorCode: "settlement",
+	},
+	heldTpIdleAnimation: "holdbothhandslarge",
+	heldRightReadyAnimation: "heldblockready",
+	heldTpUseAnimation: "twohandplaceblock",
+	shapeByType: {
+		"*-north-*": { base: "game:block/roofing/main-half/left/wood-{cover}", rotateY: 90 },
+		"*-west-*": { base: "game:block/roofing/main-half/left/wood-{cover}", rotateY: 180 },
+		"*-south-*": { base: "game:block/roofing/main-half/left/wood-{cover}", rotateY: 270 },
+		"*-east-*": { base: "game:block/roofing/main-half/left/wood-{cover}", rotateY: 0 },
+	},
+	texturesByType: {
+		"*": {
+			"acacia1": { base: "wildcrafttree:block/wood/planks/{material}1" },
+			"acacia-top": { base: "wildcrafttree:block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "wildcrafttree:block/wood/shingles/{material}-side" },
+		},
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolidByType: {
+		"*-north-*": {"north": true, "south": false, "east": false, "west": false, "up": false, "down": true },
+		"*-south-*": {"north": false, "south": true, "east": false, "west": false, "up": false, "down": true },
+		"*-east-*": {"north": false, "south": false, "east": true, "west": false, "up": false, "down": true },
+		"*-west-*": {"north": false, "south": false, "east": false, "west": true, "up": false, "down": true }
+	},
+	sideopaque: { all: false },
+	blockmaterialByType: {
+		"*": "Wood",
+	},
+	creativeinventory: { "general": ["*-east-free"], "decorative": ["*-east-free"], "wildcrafttree": ["*-east-free"] },
+	replaceable: 300,
+	resistance: 2,
+	lightAbsorption: 99,
+	emitSideAo: {
+		all: true
+	},
+	collisionSelectionBoxesByType: {
+		"*-north-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 0.5, rotateY: 90 }, { x1: 0.625, y1: 0.5625, z1: 0, x2: 1, y2: 1, z2: 0.5, rotateY: 90 } ],
+		"*-west-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 0.5, rotateY: 180 }, { x1: 0.625, y1: 0.5625, z1: 0, x2: 1, y2: 1, z2: 0.5, rotateY: 180 } ],
+		"*-south-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 0.5, rotateY: 270 }, { x1: 0.625, y1: 0.5625, z1: 0, x2: 1, y2: 1, z2: 0.5, rotateY: 270 } ],
+		"*-east-*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 0.5 }, { x1: 0.625, y1: 0.5625, z1: 0, x2: 1, y2: 1, z2: 0.5 } ]
+	},
+	soundsByType: {
+		"*": {
+			place: "game:block/planks",
+			break: "game:block/planks",
+			hit: "game:block/planks",
+		},
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: -22.6, y: -69, z: 0 },
+			origin: { x: 0.5299, y: 0.45, z: 0.06 },
+			scale: 0.96
+		}
+	},
+	tpHandTransform: {
+		translation: { x: -1.6, y: -1.2, z: -0.5 },
+		rotation: { x: 106, y: 159, z: 103 },
+		scale: 0.43
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.2
+	}
+}

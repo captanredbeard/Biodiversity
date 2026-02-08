@@ -1,0 +1,63 @@
+{
+	treeWorldPropertyCode: "giantbanyan",
+        isTropical: true,
+	sizeMultiplier: 0.7,
+	yOffset: -2,
+	trunks: [{
+		widthloss: 0.047,
+		dx: 0.5,
+		dz: 0.5,
+		segment: 4,
+		dieAt: { avg: 0.05 },
+		branchStart: { dist: "gaussian", avg: 0.45, var: 0.2 },
+		branchSpacing: { avg: 0.1, var: 0.005 },
+		branchVerticalAngle:  { dist: "gaussian", avg: 1.2, var: 0.3 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.7, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 0.4 },
+		branchQuantity: { avg: 1, var: 0 },
+		branchQuantityEvolve: { transform: "quadratic", factor: 0.1 }
+	}, {
+		inherit: { from: 0, skip: ["dx", "dz", "dieAt", "segment"] },
+		dieAt: { avg: 0.1, var: 0.1 },
+		dx: 1.5,
+		dz: 0.5,
+		segment: 1
+	}, {
+		inherit: { from: 0, skip: ["dx", "dz", "dieAt", "segment"] },
+		dieAt: { avg: 0.1, var: 0.1 },
+		dx: 0.5,
+		dz: 1.5,
+		segment: 3,
+	}, {
+		inherit: { from: 0, skip: ["dx", "dz", "dieAt", "segment"] },
+		dieAt: { avg: 0.1, var: 0.1 },
+		dx: 1.5,
+		dz: 1.5,
+		segment: 2
+	}],
+	branches: [{
+		widthLoss: 0.02,
+		gravityDrag: 0.04,
+
+		branchStart:  { avg: 1, var: 0.1 },
+		branchSpacing: { avg: 0, var: 0 },
+		branchVerticalAngle: { avg: 1.57, var: 0.5 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 1, var: 0 },
+		angleVertEvolve: { transform: "linear", factor: -1 },
+		branchQuantity: { avg: 6, var: 2 },
+		branchQuantityEvolve: { transform: "quadratic", factor: 0.1 },
+		branchWidthMultiplier: { avg: 0.8, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:log-grown-banyan-ud",
+		leavesBlockCode: "wildcrafttree:leaves-placed-banyan",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-banyan",
+		vinesBlockCode: "game:wildvine-tropical-section-north",
+		vinesEndBlockCode: "game:wildvine-tropical-end-north",
+		mossDecorCode: "game:attachingplant-spottymoss",
+		trunkSegmentBase: "wildcrafttree:logsection-grown-banyan-",
+		trunkSegmentVariants: [ "ne", "se", "sw", "nw" ]
+	}
+}

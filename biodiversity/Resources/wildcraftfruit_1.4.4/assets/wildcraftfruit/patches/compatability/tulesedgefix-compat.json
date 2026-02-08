@@ -1,0 +1,23 @@
+[
+    {
+        "op": "add",
+        "path": "/9/enabled",
+        "value": false,
+        "dependsOn": [{ "modid": "tulesedgefix" }],
+        "file": "tulesedgefix:patches/better_transforms.json"
+    },
+    {
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false,
+        "dependsOn": [{ "modid": "tulesedgefix" }],
+        "file": "wildcraftfruit:patches/basegame-bell-pepper-removal.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups",
+        "value": [{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "cookedcattailroot", "pumpkin", "cassava", "olive" ] }],
+        "dependsOn": [{ "modid": "tulesedgefix" }],
+        "file": "game:itemtypes/food/vegetable.json"
+    },
+]

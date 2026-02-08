@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "NWN,WWW,NWN",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", quantity: 4  },
+		"N": { type: "item", code: "game:metalnailsandstrips-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:trapcrate-wood", quantity: 1 }
+}

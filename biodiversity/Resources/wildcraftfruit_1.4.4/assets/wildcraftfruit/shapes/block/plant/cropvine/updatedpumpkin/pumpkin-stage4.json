@@ -1,0 +1,82 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"0": "game:block/plant/pumpkin/fruit/stage4-side",
+		"1": "game:block/plant/pumpkin/fruit/stage4-top",
+		"2": "game:block/plant/pumpkin/fruit/stage4-bottom"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 2.0, 0.0, 2.0 ], 
+			"to": [ 14.0, 12.0, 14.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 2.0, 4.0, 14.0, 16.0 ] },
+				"east": { "texture": "#0", "uv": [ 2.0, 4.0, 14.0, 16.0 ], "rotation": 180 },
+				"south": { "texture": "#0", "uv": [ 2.0, 4.0, 14.0, 16.0 ] },
+				"west": { "texture": "#0", "uv": [ 2.0, 4.0, 14.0, 16.0 ], "rotation": 180 },
+				"up": { "texture": "#1", "uv": [ 2.0, 2.0, 14.0, 14.0 ] },
+				"down": { "texture": "#2", "uv": [ 2.0, 2.0, 14.0, 14.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 5.0, 12.0, 5.0 ], 
+					"to": [ 7.0, 13.0, 7.0 ], 
+					"rotationOrigin": [ 5.0, 12.0, 5.0 ],
+					"faces": {
+						"north": { "texture": "#1", "uv": [ 6.5, 7.5, 7.5, 9.5 ], "rotation": 90 },
+						"east": { "texture": "#1", "uv": [ 7.0, 8.0, 9.0, 9.0 ], "rotation": 180 },
+						"south": { "texture": "#1", "uv": [ 6.5, 7.0, 8.5, 8.0 ] },
+						"west": { "texture": "#1", "uv": [ 7.5, 7.0, 9.5, 8.0 ] },
+						"up": { "texture": "#1", "uv": [ 7.0, 7.0, 9.0, 9.0 ] },
+						"down": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube3",
+							"from": [ 0.25, 1.0, 0.25 ], 
+							"to": [ 1.75, 2.5, 1.75 ], 
+							"rotationOrigin": [ 0.25, 1.0, 0.25 ],
+							"rotationX": 11.0,
+							"rotationZ": -11.0,
+							"faces": {
+								"north": { "texture": "#1", "uv": [ 8.5, 7.5, 10.0, 9.0 ], "rotation": 180 },
+								"east": { "texture": "#1", "uv": [ 7.5, 8.0, 9.0, 9.5 ], "rotation": 180 },
+								"south": { "texture": "#1", "uv": [ 6.5, 8.0, 8.0, 9.5 ], "rotation": 90 },
+								"west": { "texture": "#1", "uv": [ 8.5, 7.5, 10.0, 9.0 ] },
+								"up": { "texture": "#1", "uv": [ 7.0, 8.0, 8.5, 9.5 ] },
+								"down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "Cube4",
+									"from": [ 0.25, 1.5, 0.25 ], 
+									"to": [ 1.25, 3.0, 1.25 ], 
+									"rotationOrigin": [ 0.25, 1.5, 0.25 ],
+									"rotationX": 9.0,
+									"rotationZ": -12.0,
+									"faces": {
+										"north": { "texture": "#1", "uv": [ 6.0, 6.5, 7.0, 8.0 ] },
+										"east": { "texture": "#1", "uv": [ 8.5, 6.5, 9.5, 8.0 ] },
+										"south": { "texture": "#1", "uv": [ 6.5, 7.0, 7.5, 8.5 ] },
+										"west": { "texture": "#1", "uv": [ 9.0, 7.5, 10.0, 9.0 ] },
+										"up": { "texture": "#1", "uv": [ 8.5, 8.0, 9.5, 9.0 ] },
+										"down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

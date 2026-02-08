@@ -1,0 +1,208 @@
+{
+	code: "debarkedlog",
+	class: "BlockLog",
+	behaviors:  [{name: "Pillar"}, { name: "WrenchOrientable", properties: { baseCode: "debarkedlog-{wood}"  } }],
+	variantgroups: [
+		{ code: "wood", loadFromProperties: "wildcrafttree:block/wood" },
+		{ code: "rotation", states: ["ud", "ns", "we"] },
+	],
+	creativeinventory: { "general": ["*-ud"], "flora": ["*-ud"], "construction": ["*-ud"], "wildcrafttree": ["*-ud"] },
+	shape: { base: "game:block/basic/cube" },
+	drawtype: "cube",
+	blockmaterial: "Wood",
+	requiredMiningTier: 1,
+	attributes: {
+		handbook: {
+			groupBy: ["debarkedlog-*"]
+		}
+	},
+	texturesByType: {
+		"*-ud": {
+			"all": { base: "game:block/wood/debarked/{wood}", rotation: 90 },
+			"up": { base: "wildcrafttree:block/wood/treetrunk/{wood}" },
+			"down": { base: "wildcrafttree:block/wood/treetrunk/{wood}" }
+		},
+		"*-ns": {
+			"all": { base: "game:block/wood/debarked/{wood}", rotation: 90 },
+			"east": { base: "game:block/wood/debarked/{wood}" },
+			"west": { base: "game:block/wood/debarked/{wood}" },
+			"north": { base: "wildcrafttree:block/wood/treetrunk/{wood}" },
+			"south": { base: "wildcrafttree:block/wood/treetrunk/{wood}" }
+		},
+		"*-we": {
+			"all": { base: "game:block/wood/debarked/{wood}" },
+			"west": { base: "wildcrafttree:block/wood/treetrunk/{wood}" },
+			"east": { base: "wildcrafttree:block/wood/treetrunk/{wood}" }
+		},
+	},
+	replaceable: 500,
+	resistance: 4.5,
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		byTool: {
+			"Axe": { hit: "game:block/chop", break: "game:block/planks" }
+		}
+	},
+	drops: [
+		{ type: "block", code: "wildcrafttree:debarkedlog-{wood}-ud", quantity: { avg: 1 }  }
+	],
+	combustiblePropsByType: {
+                "debarkedlog-petrified-*": null,
+		"debarkedlog-bearnut-*": {
+			burnTemperature: 800,
+			burnDuration: 78,
+		},
+		"debarkedlog-saxaul-*": {
+			burnTemperature: 800,
+			burnDuration: 98,
+		},
+		"debarkedlog-elm-*": {
+			burnTemperature: 800,
+			burnDuration: 98,
+		},
+		"debarkedlog-sapele-*": {
+			burnTemperature: 800,
+			burnDuration: 98,
+		},
+		"debarkedlog-tigerwood-*": {
+			burnTemperature: 800,
+			burnDuration: 98,
+		},
+		"debarkedlog-tamanu-*": {
+			burnTemperature: 800,
+			burnDuration: 98,
+		},
+		"debarkedlog-dalbergia-*": {
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"debarkedlog-umnini-*": {
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"debarkedlog-leadwood-*": {
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"debarkedlog-yew-*": {
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"debarkedlog-tuja-*": {
+			meltingPoint: 100,
+			meltingDuration: 80,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:debarkedlog-charred-ud" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"debarkedlog-redcedar-*": {
+			meltingPoint: 100,
+			meltingDuration: 80,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:debarkedlog-charred-ud" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"debarkedlog-kauri-*": {
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"debarkedlog-cedar-*": {
+			meltingPoint: 100,
+			meltingDuration: 80,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:debarkedlog-charred-ud" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 60,
+		},
+		"debarkedlog-willow-*": {
+			burnTemperature: 700,
+			burnDuration: 70,
+		},
+		"debarkedlog-mangrove-*": {
+			burnTemperature: 700,
+			burnDuration: 70,
+		},
+		"debarkedlog-spurgetree-*": {
+			burnTemperature: 700,
+			burnDuration: 66,
+		},
+		"debarkedlog-guajacum-*": {
+			burnTemperature: 800,
+			burnDuration: 79,
+		},
+		"debarkedlog-eucalyptus-*": {
+			burnTemperature: 800,
+			burnDuration: 68,
+		},
+		"debarkedlog-douglasfir-*": {
+			burnTemperature: 800,
+			burnDuration: 68,
+		},
+		"debarkedlog-fir-*": {
+			burnTemperature: 800,
+			burnDuration: 68,
+		},
+		"debarkedlog-beech-*": {
+			burnTemperature: 800,
+			burnDuration: 89,
+		},
+		"debarkedlog-ash-*": {
+			burnTemperature: 800,
+			burnDuration: 89,
+		},
+		"debarkedlog-catalpa-*": {
+			burnTemperature: 800,
+			burnDuration: 54,
+		},
+		"debarkedlog-sal-*": {
+			burnTemperature: 800,
+			burnDuration: 54,
+		},
+		"debarkedlog-banyan-*": {
+			burnTemperature: 800,
+			burnDuration: 58,
+		},
+		"debarkedlog-poplar-*": {
+			burnTemperature: 800,
+			burnDuration: 79,
+		},
+		"debarkedlog-empresstree-*": {
+			burnTemperature: 700,
+			burnDuration: 92,
+		},
+		"debarkedlog-honeylocust-*": {
+			burnTemperature: 700,
+			burnDuration: 92,
+		},
+		"debarkedlog-chlorociboria-*": {
+			burnTemperature: 700,
+			burnDuration: 40,
+		},
+		"*": {
+			burnTemperature: 800,
+			burnDuration: 72,
+		}
+	},
+	maxStackSize: 16,
+	materialDensity: 700,
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

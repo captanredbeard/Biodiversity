@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "W_W,NW_,W_W",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:metalnailsandstrips-*" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "wildcrafttree:scrollrack", attributes: { "type": "normal", material: "{wood}" }  }
+}

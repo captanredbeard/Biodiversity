@@ -1,0 +1,145 @@
+{
+	code: "boat",
+	class: "EntityBoat",
+	tags: ["inanimate", "vehicle"],
+	weight: 120,
+	variantgroups: [
+		{ code: "type", states: ["raft"] },
+		{ code: "material", loadFromProperties: "wildcrafttree:block/wood" }
+	],
+	skipVariants: [
+		"boat-raft-petrified"
+	],
+	attributes: {
+		deconstructible: true,
+		deconstructDropsByType: {
+			"boat-raft-*": [
+				{ type: "block", code: "wildcrafttree:log-placed-{material}-ud", quantity: 6 },
+				{ type: "item", code: "game:rope", quantity: 1 }
+			]
+		},
+		shouldSwivelFromMotion: false,
+		speedMultiplier: 1,
+		swimmingOffsetY: 0.45,
+		requiresPaddlingTool: true,
+		rightClickPickup: true,
+		mountAnimations: {
+			idle: "sitflooridle",
+			ready: "crudeOarReady",
+			forwards: "crudeOarForward",
+			backwards: "crudeOarBackward"
+		}
+	},
+	hitboxSize: { x: 2, y: 0.6, z: 2 },
+	behaviorConfigs: {
+		passivephysicsmultibox: {
+			collisionBoxes: [
+				{ x1: -0.75, y1: 0, z1: 0, x2: 0.75, y2: 0.6, z2: 1.5 },
+				{ x1: -0.75, y1: 0, z1: -1.5, x2: 0.75, y2: 0.6, z2: 0 }
+			],
+			groundDragFactor: 1,
+			airDragFallingFactor: 0.5,
+			gravityFactor: 1.0
+		},
+		creaturecarrier: {
+			// Note: The FrontSeat selection box originally had that Y-Rotation of 180 degrees - it offseted the player somehow weirdly. Was not able to figure out why. Setting mountRotation works better.
+			seats: [
+				{ apName: "BackSeatAP", controllable: true, mountOffset: { x:0.05, z:0.05 }, bodyYawLimit: null, eyeHeight: 1, reverse: true },
+				{ apName: "FrontSeatAP", controllable: true, mountRotation: { y: 180 }, mountOffset: { x:0.95, z:0.95 }, bodyYawLimit: null, eyeHeight: 1  }
+			]
+		},
+		rideableaccessories: {
+			dropContentsOnDeath: true,
+			// These need to be in the same order as the selectionBoxes array further down
+			wearableSlots: [
+				{
+					code: "Front Seat",
+					forCategoryCodes: ["basket"],
+					attachmentPointCode: "FrontSeatAP",
+					stepParentTo: {
+						"": { elementName: "FrontSeat" }
+					},
+					emptyInteractPassThrough: true
+				},
+				{
+					code: "Back Seat",
+					forCategoryCodes: ["basket"],
+					attachmentPointCode: "BackSeatAP",
+					stepParentTo: {
+						"": { elementName: "BackSeat" }
+					},
+					emptyInteractPassThrough: true
+				},
+				{
+					code: "Oar Storage",
+					forCategoryCodes: ["oar"],
+					attachmentPointCode: "OarAP",
+					stepParentTo: {
+						"": { elementName: "OarStorage" }
+					}
+				}
+			]
+		},
+		selectionboxes: {
+			// Modders, make sure the selectionBoxes are in the same order as the wearableSlots, or things can go haywire. Placed chest contents dont get synced properly for example, if wrongly ordered.
+			selectionBoxes: ["FrontSeatAP", "BackSeatAP", "OarAP"]
+		}
+	},
+	client: {
+		size: 1,
+		renderer: "Shape",
+		shapeByType: {
+			"*": { base: "game:entity/nonliving/boat/raft" }
+		},
+		animations: [
+			{
+				code: "turnLeft",
+				animation: "turnLeft",
+				animationSpeed: 1,
+				easeInSpeed: 2,
+				easeOutSpeed: 2
+			},
+			{
+				code: "turnRight",
+				animation: "turnRight",
+				animationSpeed: 1,
+				easeInSpeed: 2,
+				easeOutSpeed: 2
+			},
+			{
+				code: "weathervane",
+				animation: "weathervane",
+				animationSpeed: 0,
+				weight: 1,
+				blendMode: "AddAverage"
+			}
+		],
+		texturesByType: {
+			"*": {
+				"material": { base: "game:block/wood/debarked/{material}" },
+				"oak": { base: "game:block/wood/debarked/{material}" },
+				"oak1": { base: "wildcrafttree:block/wood/planks/{material}*" },
+				"birch1": { base: "wildcrafttree:block/wood/planks/{material}*" },
+				"plainoak": { base: "game:block/wood/debarked/{material}" }
+			}
+		},
+		behaviors: [
+			{ code: "repulseagents" },
+			{ code: "passivephysicsmultibox" },
+			{ code: "interpolateposition" },
+			{ code: "selectionboxes" },
+			{ code: "rideableaccessories" },
+			{ code: "creaturecarrier" }
+		]
+	},
+	server: {
+		behaviors: [
+			{ code: "repulseagents" },
+			{ code: "passivephysicsmultibox" },
+			{ code: "selectionboxes" },
+			{ code: "rideableaccessories" },
+			{ code: "creaturecarrier" },
+		]
+	},
+	sounds: { }
+}

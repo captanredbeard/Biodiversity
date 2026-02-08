@@ -1,0 +1,213 @@
+{
+	"code": "topberrybush",
+	"class": "HerbariumBerryBush",
+	"attributes": {
+		"stackable": true,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+                "handbook": {
+                   "groupBy": ["topberrybush-*"]
+                },
+		"stopBelowTemperatureByType":{
+			"*-huckleberry-*": -2,
+			"*-swamphuckle-*": 0,
+			"*-mingimingi-*": 12,
+			"*-sumac-*": 10,
+			"*-kumquat-*": 18,
+		},
+		"resetBelowTemperatureByType":{
+			"*-huckleberry-*": -4,
+			"*-swamphuckle-*": -2,
+			"*-mingimingi-*": 10,
+			"*-sumac-*": 8,
+			"*-kumquat-*": 16,
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-huckleberry-*": -6,
+			"*-swamphuckle-*": -4,
+			"*-mingimingi-*": 8,
+			"*-sumac-*": 6,
+			"*-kumquat-*": 14,
+		},
+		"stopAboveTemperatureByType":{
+			"*-huckleberry-*": 26,
+			"*-swamphuckle-*": 28,
+			"*-mingimingi-*": 38,
+			"*-sumac-*": 44,
+			"*-kumquat-*": 42,
+		},
+		"resetAboveTemperatureByType":{
+			"*-huckleberry-*": 28,
+			"*-swamphuckle-*": 30,
+			"*-mingimingi-*": 40,
+			"*-sumac-*": 48,
+			"*-kumquat-*": 46,
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-huckleberry-*": 32,
+			"*-swamphuckle-*": 32,
+			"*-mingimingi-*": 42,
+			"*-sumac-*": 50,
+			"*-kumquat-*": 48,
+		},
+		"pruneItemByType":{
+			"*": "wildcraftfruit:clipping-{type}-green"
+		},
+		"prunedMeshFaces": [ "branchesN", "branchesS", "Leaves", "Berries" ],
+		"fruitingFaces": [ "Berries" ],
+                "isBottomBlock": false,
+		"floweringDaysByType":{
+			"*-kumquat-*": { avg: 14.8, var: 0.8 },
+			"*-mingimingi-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"ripeningDaysByType":{
+			"*-kumquat-*": { avg: 14.8, var: 0.8 },
+			"*-mingimingi-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"sheddingDaysByType":{
+			"*-kumquat-*": { avg: 25.2, var: 3.2 },
+			"*": { avg: 35.2, var: 3.2 },
+		}
+	},
+	"entityclassByType": {
+		"*": "BEHerbariumBerryBush"
+	},
+	"behaviorsByType": {
+		"*-huckleberry-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-huckleberry", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:topberrybush-huckleberry-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-swamphuckle-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-swamphuckle", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:topberrybush-swamphuckle-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-mingimingi-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-mingimingi", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:topberrybush-mingimingi-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-kumquat-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-kumquat", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:topberrybush-kumquat-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-sumac-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:dryfruit-sumac", "quantity": { "avg": 2.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:topberrybush-sumac-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 2.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:topberrybush-{type}-empty",
+			"exchangeBlock": true
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["kumquat", "sumac", "huckleberry", "swamphuckle", "mingimingi"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraftfruit": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-mingimingi-empty": { "base": "wildcraftfruit:block/plant/berrybush/topmingimingibush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-mingimingi-flowering": { "base": "wildcraftfruit:block/plant/berrybush/topmingimingibush*" },
+		"*-mingimingi-ripe": { "base": "wildcraftfruit:block/plant/berrybush/topmingimingibush*" },
+
+		"*-swamphuckle-empty": { "base": "wildcraftfruit:block/plant/berrybush/topswamphucklebush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-swamphuckle-flowering": { "base": "wildcraftfruit:block/plant/berrybush/topswamphucklebush*" },
+		"*-swamphuckle-ripe": { "base": "wildcraftfruit:block/plant/berrybush/topswamphucklebush*" },
+
+		"*-empty": { "base": "wildcraftfruit:block/plant/berrybush/topberrybush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*": { "base": "wildcraftfruit:block/plant/berrybush/topberrybush*" }
+	},
+	"blockmaterial": "Plant",
+	"textures": {
+		"leavessmall": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}*" },
+		"leaveslarge": { "base": "wildcraftfruit:block/plant/berrybush/large/leaves/{type}large" }
+	},
+	"texturesByType": {
+		"*-flowering": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/flower/{type}large" }
+		},
+		"*-ripe": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*" },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/fruit/{type}large" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": { x1: 0, y1: 0, z1: 0,   x2: 1, y2: 0.65, z2: 1 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-huckleberry-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-huckleberry", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-swamphuckle-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-swamphuckle", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-mingimingi-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-mingimingi", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-kumquat-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-kumquat", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-sumac-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:dryfruit-sumac", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

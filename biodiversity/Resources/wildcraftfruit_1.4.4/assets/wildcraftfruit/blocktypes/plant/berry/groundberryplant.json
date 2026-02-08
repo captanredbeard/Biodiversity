@@ -1,0 +1,308 @@
+{
+	"code": "groundberryplant",
+	"class": "GroundBerryPlant",
+	"attributes": {
+		"stackable": false,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"overrideRandomDrawOffset": 5,
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+                "handbook": {
+                   "groupBy": ["groundberryplant-*"]
+                },
+		"stopBelowTemperatureByType":{
+			"*-cloudberry-*": -4,
+			"*-bunchberry-*": -6,
+			"*-crowberry-*": -6,
+			"*-strawberry-*": -2,
+			"*-greenstrawberry-*": 2,
+			"*-gardenstrawberry-*": 8,
+			"*-falsestrawberry-*": 8,
+			"*-crowseye-*": 0,
+			"*-lingonberry-*": -6,
+			"*-knyazberry-*": -4,
+			"*-coralbead-*": 16,
+			"*-honeypots-*": 8,
+			"*-creepingpine-*": 6,
+			"*-cheeseberry-*": 10,
+			"*-pineheath-*": 10,
+			"*-rubysaltbush-*": 6,
+			"*-kakaha-*": 6,
+		},
+		"resetBelowTemperatureByType":{
+			"*-cloudberry-*": -6,
+			"*-bunchberry-*": -8,
+			"*-crowberry-*": -8,
+			"*-strawberry-*": -4,
+			"*-greenstrawberry-*": 0,
+			"*-gardenstrawberry-*": 6,
+			"*-falsestrawberry-*": 4,
+			"*-crowseye-*": -2,
+			"*-lingonberry-*": -8,
+			"*-knyazberry-*": -6,
+			"*-coralbead-*": 14,
+			"*-honeypots-*": 4,
+			"*-creepingpine-*": 4,
+			"*-cheeseberry-*": 8,
+			"*-pineheath-*": 6,
+			"*-rubysaltbush-*": 4,
+			"*-kakaha-*": 2,
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-cloudberry-*": -8,
+			"*-bunchberry-*": -12,
+			"*-crowberry-*": -12,
+			"*-strawberry-*": -6,
+			"*-greenstrawberry-*": -4,
+			"*-gardenstrawberry-*": 4,
+			"*-falsestrawberry-*": 2,
+			"*-crowseye-*": -4,
+			"*-lingonberry-*": -12,
+			"*-knyazberry-*": -8,
+			"*-coralbead-*": 12,
+			"*-honeypots-*": 2,
+			"*-creepingpine-*": 2,
+			"*-cheeseberry-*": 6,
+			"*-pineheath-*": 4,
+			"*-rubysaltbush-*": 2,
+			"*-kakaha-*": 0,
+		},
+
+		"stopAboveTemperatureByType":{
+			"*-cloudberry-*": 20,
+			"*-bunchberry-*": 18,
+			"*-crowberry-*": 18,
+			"*-strawberry-*": 24,
+			"*-greenstrawberry-*": 30,
+			"*-gardenstrawberry-*": 30,
+			"*-falsestrawberry-*": 40,
+			"*-crowseye-*": 26,
+			"*-lingonberry-*": 18,
+			"*-knyazberry-*": 20,
+			"*-coralbead-*": 44,
+			"*-honeypots-*": 30,
+			"*-creepingpine-*": 28,
+			"*-cheeseberry-*": 44,
+			"*-pineheath-*": 40,
+			"*-rubysaltbush-*": 46,
+			"*-kakaha-*": 36,
+		},
+		"resetAboveTemperatureByType":{
+			"*-cloudberry-*": 24,
+			"*-bunchberry-*": 20,
+			"*-crowberry-*": 20,
+			"*-strawberry-*": 26,
+			"*-greenstrawberry-*": 32,
+			"*-gardenstrawberry-*": 34,
+			"*-falsestrawberry-*": 44,
+			"*-crowseye-*": 28,
+			"*-lingonberry-*": 20,
+			"*-knyazberry-*": 24,
+			"*-coralbead-*": 48,
+			"*-honeypots-*": 32,
+			"*-creepingpine-*": 32,
+			"*-cheeseberry-*": 46,
+			"*-pineheath-*": 44,
+			"*-rubysaltbush-*": 48,
+			"*-kakaha-*": 38,
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-cloudberry-*": 26,
+			"*-bunchberry-*": 22,
+			"*-crowberry-*": 22,
+			"*-strawberry-*": 28,
+			"*-greenstrawberry-*": 34,
+			"*-gardenstrawberry-*": 36,
+			"*-falsestrawberry-*": 46,
+			"*-crowseye-*": 30,
+			"*-lingonberry-*": 22,
+			"*-knyazberry-*": 26,
+			"*-coralbead-*": 50,
+			"*-honeypots-*": 34,
+			"*-creepingpine-*": 34,
+			"*-cheeseberry-*": 48,
+			"*-pineheath-*": 46,
+			"*-rubysaltbush-*": 50,
+			"*-kakaha-*": 40,
+		},
+		"floweringDaysByType":{
+			"*-creepingpine-*": { avg: 16.8, var: 0.8 },
+			"*-kakaha-*": { avg: 12.8, var: 0.8 },
+			"*-pineheath-*": { avg: 12.8, var: 0.8 },
+			"*-honeypots-*": { avg: 10.8, var: 0.8 },
+			"*-cheeseberry-*": { avg: 10.8, var: 0.8 },
+			"*-rubysaltbush-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"ripeningDaysByType":{
+			"*-creepingpine-*": { avg: 16.8, var: 0.8 },
+			"*-kakaha-*": { avg: 12.8, var: 0.8 },
+			"*-pineheath-*": { avg: 12.8, var: 0.8 },
+			"*-honeypots-*": { avg: 10.8, var: 0.8 },
+			"*-cheeseberry-*": { avg: 10.8, var: 0.8 },
+			"*-rubysaltbush-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"sheddingDaysByType":{
+			"*-crowseye-*": { avg: 25.2, var: 3.2 },
+			"*-kakaha-*": { avg: 25.2, var: 3.2 },
+			"*-coralbead-*": { avg: 25.2, var: 3.2 },
+			"*-bunchberry-*": { avg: 25.2, var: 3.2 },
+			"*-falsestrawberry-*": { avg: 25.2, var: 3.2 },
+			"*-strawberry-*": { avg: 15.2, var: 3.2 },
+			"*-greenstrawberry-*": { avg: 15.2, var: 3.2 },
+			"*-gardenstrawberry-*": { avg: 15.2, var: 3.2 },
+			"*-cloudberry-*": { avg: 15.2, var: 3.2 },
+			"*-knyazberry-*": { avg: 15.2, var: 3.2 },
+			"*": { avg: 35.2, var: 3.2 },
+		}
+	},
+	"entityclass": "BEGroundBerryPlant",
+	"behaviorsByType": {
+		"*-honeypots-flowering": [ {name: "Harvestable", properties: { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { type: "item", code: "wildcraftfruit:flower-honeypots", quantity: { avg: 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:groundberryplant-honeypots-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-lingonberry-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-lingonberry", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:groundberryplant-lingonberry-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-coralbead-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-coralbead", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:groundberryplant-coralbead-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-crowberry-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-crowberry", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:groundberryplant-crowberry-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-crowseye-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-crowseye", "quantity": { "avg": 1.8 }  },
+			"harvestedBlockCode": "wildcraftfruit:groundberryplant-crowseye-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-cloudberry-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-cloudberry", "quantity": { "avg": 2.8 }  },
+			"harvestedBlockCode": "wildcraftfruit:groundberryplant-cloudberry-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-knyazberry-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-knyazberry", "quantity": { "avg": 2.8 }  },
+			"harvestedBlockCode": "wildcraftfruit:groundberryplant-knyazberry-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:groundberryplant-{type}-empty",
+			"exchangeBlock": true
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["creepingpine", "crowseye", "kakaha", "strawberry", "greenstrawberry", "gardenstrawberry", "falsestrawberry", "cloudberry", "knyazberry", "rubysaltbush", "bunchberry", "cheeseberry", "pineheath", "honeypots", "crowberry", "lingonberry", "coralbead"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraftfruit": ["*"] },
+	"renderpass": "BlendNoCull",
+	"randomDrawOffset": true,
+	"randomizeRotations": true,
+	"shapeByType": {
+		"*": { "base": "wildcraftfruit:block/plant/berrybush/{state}/{type}bush_{state}*" }
+	},
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"selectionbox": {
+		"x1": 0.1,
+		"y1": 0,
+		"z1": 0.1,
+		"x2": 0.9,
+		"y2": 0.4,
+		"z2": 0.9
+	  },
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-honeypots-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-honeypots", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.2 }  }
+		],
+		"*-lingonberry-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-lingonberry", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.2 }  }
+		],
+		"*-crowberry-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-crowberry", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.2 }  }
+		],
+		"*-coralbead-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-coralbead", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.2 }  }
+		],
+		"*-crowseye-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-crowseye", "quantity": { "avg": 1.8 }  },
+			{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.2 }  }
+		],
+		"*-cloudberry-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-cloudberry", "quantity": { "avg": 2.8 }  },
+			{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.2 }  }
+		],
+		"*-knyazberry-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-knyazberry", "quantity": { "avg": 2.8 }  },
+			{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.2 }  }
+		],
+		"*-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.2 }  }
+		],
+		"*": [
+			{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.2 }  }
+		]
+	},
+	guiTransform: {
+		rotation: { x: -50, y: -45.3, z: 0 },
+		origin: { x: 0.5, y: 0.3, z: 0.55 },
+		scale: 1.41
+	},
+	tpHandTransform: {
+		translation: { x: -2, y: -1.4, z: -1.5 },
+		rotation: { x: 58, y: -31, z: -58 },
+		origin: { x: 0.4, y: 0.5, z: 0.5 },
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

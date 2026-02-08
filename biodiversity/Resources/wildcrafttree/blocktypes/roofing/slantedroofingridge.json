@@ -1,0 +1,55 @@
+{
+	code: "slantedroofingridge",
+	behaviors: [{name: "NWOrientable"}],	
+	variantgroups: [
+		{ code: "material", loadFromProperties: "wildcrafttree:block/wood" },
+		{ code:"orientation", states: ["ns", "we"] },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		humanoidTraversalCost: 100,
+		mapColorCode: "settlement",
+	},
+	shapeByType: { 
+		"*-ns-*": { base: "game:block/roofing/ridge/wood-{cover}", rotateY: 0 },
+		"*-we-*": { base: "game:block/roofing/ridge/wood-{cover}", rotateY: 90 }
+	},
+	texturesByType: {
+		"*": {
+			"acacia1": { base: "wildcrafttree:block/wood/planks/{material}1" },
+			"acacia-top": { base: "wildcrafttree:block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "wildcrafttree:block/wood/shingles/{material}-side" },
+		},
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolid: { all: false, down: true },
+	sideopaque: { all: false },
+	blockmaterialByType: {
+		"*": "Wood",
+	},
+	creativeinventory: { "general": ["*-ns-free"], "decorative": ["*-ns-free"], "wildcrafttree": ["*-ns-free"] },
+	replaceable: 300,
+	resistance: 2,
+	lightAbsorption: 99,
+	emitSideAo: {
+		all: true
+	},
+	collisionSelectionBoxes: [
+		{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.375, z2: 1, rotateYByType: { "*-we-*": 90 } },
+		{ x1: 0.25, y1: 0.375, z1: 0, x2: 0.75, y2: 0.5625, z2: 1, rotateYByType: { "*-we-*": 90 } },
+	],
+	soundsByType: {
+		"*": {
+			place: "game:block/planks",
+			break: "game:block/planks",
+			hit: "game:block/planks",
+		},
+	},
+	guiTransform: {
+		rotation: { x: -22.6, y: -50, z: 0 },
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 0.8
+	}
+}

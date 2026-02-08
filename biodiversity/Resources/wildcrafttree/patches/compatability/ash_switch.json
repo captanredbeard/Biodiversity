@@ -1,0 +1,18 @@
+[
+  {
+    "file": "wildcrafttree:patches/charred_wood.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "forestrytime" }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:patches/charred_wood.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "forestrytime" }],
+    "side": "server"
+  }
+]

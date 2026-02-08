@@ -1,0 +1,14 @@
+[
+
+	{
+		ingredientPattern: "K,L,L",
+		ingredients: {
+			"K": { type: "item", code: "game:saw-*", isTool: true },
+			"L": { type: "block", code: "wildcrafttree:log-placed-*-ud", allowedVariants: ["elm", "yew", "beech", "tuja", "kauri", "azobe", "leadwood"] }
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "game:bowstave-long-raw"  }
+	}
+
+]

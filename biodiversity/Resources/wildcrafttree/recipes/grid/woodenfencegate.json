@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "SPS	SPS",
+	ingredients: {
+		"P": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "wildcrafttree:woodenfencegate-{wood}-n-closed-left-free", quantity: 1  }
+}

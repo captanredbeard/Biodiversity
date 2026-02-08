@@ -1,0 +1,13 @@
+[
+  {
+    "enabled": false,
+    "ingredientPattern": "H",
+    "shapeless": true,
+    "ingredients": {
+      "H": { "type": "item", "code": "game:looseseeds-pumpkin" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed" }
+  },
+]

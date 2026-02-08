@@ -1,0 +1,259 @@
+{
+	"code": "fineciderportion",
+	"variantgroups": [
+		{ code: "fruit", states: ["blueberry", "cranberry", "redcurrant", "blackcurrant", "whitecurrant", "saguaro", "pineapple", "apple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "mead", "spelt", "rice", "rye", "amaranth", "cassava", "juniper", "maritabits", "avocado", "hackberry", "pumpkin", "cucumber", "bluequandong", "sumac", "carrot", "tomato", "tomatillo", "jalapeno", "orangebellpepper", "pomace"], "loadFromProperties": "wildcraftfruit:block/fruit" }
+	  ],
+	"skipVariants": ["*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-chinaberry", "*-beachalmondwhole", "*-lillypillywhite", "*-lillypillyblue", "*-lemon", "*-blacknightshadeunripe", "*-burgundyapple", "*-wildapple", "*-mazzard", "*-nectarine", "*-waterapple", "*-bitterorange", "*-bilberry", "*-swamphuckle", "*-beachrose", "*-yew", "*-damsonplum", "*-redplum", "*-redcherryplum", "*-pittedjackfruit", "*-pittedmazzard", "*-greatroseapple", "*-kasturi", "*-cempedak", "*-pittedcempedak", "*-makrut", "*-pulasan", "*-greenstrawberry", "*-boysenberry", "*-loganberry", "*-josta", "*-ber", "*-marang", "*-pittedmarang", "*-hairyeggplant", "*-juaacu", "*-newhusktomato", "*-wildtomato", "*-quincelet", "*-ginkgowhole"],
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true,
+			"groupBy": ["fineciderportion-*"]
+		},
+		"distillationPropsbytype": {
+			"*-blueberry": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-blueberry" },
+			"ratio": 0.1
+			},
+			"*-cranberry": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-cranberry" },
+			"ratio": 0.1
+			},
+			"*-redcurrant": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-redcurrant" },
+			"ratio": 0.1
+			},
+			"*-blackcurrant": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-blackcurrant" },
+			"ratio": 0.1
+			},
+			"*-whitecurrant": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-whitecurrant" },
+			"ratio": 0.1
+			},
+			"*-saguaro": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-saguaro" },
+			"ratio": 0.1
+			},
+			"*-pineapple": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-pineapple" },
+			"ratio": 0.1
+			},
+			"*-apple": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-apple" },
+			"ratio": 0.1
+			},
+			"*-cherry": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-cherry" },
+			"ratio": 0.1
+			},
+			"*-peach": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-peach" },
+			"ratio": 0.1
+			},
+			"*-pear": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-pear" },
+			"ratio": 0.1
+			},
+			"*-orange": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-orange" },
+			"ratio": 0.1
+			},
+			"*-mango": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-mango" },
+			"ratio": 0.1
+			},
+			"*-breadfruit": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-breadfruit" },
+			"ratio": 0.1
+			},
+			"*-lychee": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-lychee" },
+			"ratio": 0.1
+			},
+			"*-pomegranate": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-pomegranate" },
+			"ratio": 0.1
+			},
+			"*-mead": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-mead" },
+			"ratio": 0.05
+			},
+			"*-spelt": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-spelt" },
+			"ratio": 0.05
+			},
+			"*-rice": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-rice" },
+			"ratio": 0.05
+			},
+			"*-rye": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-rye" },
+			"ratio": 0.05
+			},
+			"*-amaranth": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-amaranth" },
+			"ratio": 0.05
+			},
+			"*-cassava": {
+			"distilledStack": { "type": "item", "code": "game:spiritportion-cassava" },
+			"ratio": 0.05
+			},
+			"*-juniper": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-juniper" },
+			"ratio": 0.05
+			},
+			"*-sumac": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-juniper" },
+			"ratio": 0.05
+			},
+			"*-pomace": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:finespiritportion-grappa" },
+			"ratio": 0.1
+			},		
+			"*": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-{fruit}" },
+			"ratio": 0.1
+			}
+		},
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texturebytype": {
+				"*-blueberry": { "base": "game:block/food/pie/fill-blueberry", "alpha": 160 },
+				"*-cranberry": { "base": "game:block/food/pie/fill-cranberry", "alpha": 160 },
+				"*-redcurrant": { "base": "game:block/food/pie/fill-redcurrant", "alpha": 160 },
+				"*-blackcurrant": { "base": "game:block/food/pie/fill-blackcurrant", "alpha": 160 },
+				"*-whitecurrant": { "base": "game:block/food/pie/fill-whitecurrant", "alpha": 160 },
+				"*-saguaro": { "base": "game:block/food/pie/fill-saguaro", "alpha": 160 },
+				"*-pineapple": { "base": "game:block/food/pie/fill-pineapple", "alpha": 160 },
+				"*-apple": { "base": "game:block/food/pie/fill-apple", "alpha": 160 },
+				"*-cherry": { "base": "game:block/food/pie/fill-cherry", "alpha": 160 },
+				"*-peach": { "base": "game:block/food/pie/fill-peach", "alpha": 160 },
+				"*-pear": { "base": "game:block/food/pie/fill-pear", "alpha": 160 },
+				"*-orange": { "base": "game:block/food/pie/fill-orange", "alpha": 160 },
+				"*-mango": { "base": "game:block/food/pie/fill-mango", "alpha": 160 },
+				"*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 160 },
+				"*-lychee": { "base": "game:block/food/pie/fill-lychee", "alpha": 160 },
+				"*-pomegranate": { "base": "game:block/food/pie/fill-pomegranate", "alpha": 160 },
+				"*-mead": { "base": "game:block/liquid/honey", "alpha": 160 },
+				"*-spelt": { base: "game:block/food/pie/fill-whitecurrant", alpha: 160 },
+				"*-rice": { base: "game:block/food/dairy/milk", alpha: 160 },
+				"*-rye": { base: "game:block/food/pie/fill-parsnip", alpha: 160 },
+				"*-amaranth": { base: "game:block/food/pie/fill-poultry", alpha: 160 },
+				"*-cassava": { base: "game:block/food/pie/fill-cassava", alpha: 160 },
+				"*-aronia": { "base": "wildcraftfruit:block/food/pie/fill-aronia", "alpha": 180 },
+				"*-blackgrape": { "base": "wildcraftfruit:block/food/pie/fill-blackgrape", "alpha": 180 },
+				"*-blackelder": { "base": "wildcraftfruit:block/food/pie/fill-blackelder", "alpha": 180 },
+				"*-elderberry": { "base": "wildcraftfruit:block/food/pie/fill-elderberry", "alpha": 180 },
+				"*-crowberry": { "base": "wildcraftfruit:block/food/pie/fill-crowberry", "alpha": 180 },
+				"*-purpleplum": { "base": "wildcraftfruit:block/food/pie/fill-purpleplum", "alpha": 180 },
+				"*-illawarra": { "base": "wildcraftfruit:block/food/pie/fill-illawarra", "alpha": 180 },
+				"*-blacknightshade": { "base": "wildcraftfruit:block/food/pie/fill-blacknightshade", "alpha": 180 },
+				"*-blacknightshadeunripe": { "base": "wildcraftfruit:block/food/pie/fill-blacknightshadeunripe", "alpha": 180 },
+				"*-huckleberry": { "base": "wildcraftfruit:block/food/pie/fill-huckleberry", "alpha": 180 },
+				"*-baneberry": { "base": "wildcraftfruit:block/food/pie/fill-baneberry", "alpha": 180 },
+				"*-belladonna": { "base": "wildcraftfruit:block/food/pie/fill-belladonna", "alpha": 180 },
+				"*-hackberry": { "base": "wildcraftfruit:block/food/pie/fill-hackberry", "alpha": 180 },
+				"*-pokeberry": { "base": "wildcraftfruit:block/food/pie/fill-pokeberry", "alpha": 170 },
+				"*-bluequandong": { "base": "wildcraftfruit:block/food/pie/fill-bluequandong", "alpha": 170 },
+				"*-pomace": { "base": "wildcraftfruit:block/food/pie/fill-pomace", "alpha": 180 },
+				"*": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha": 160 }
+			},
+			"allowSpill": true,
+			"whenSpilled": { 
+				"action": "DropContents",
+				"stack": { "type": "item", "code": "wildcraftfruit:fineciderportion-{fruit}"} 
+			},
+			"nutritionPropsPerLitreByType": {
+				"*-cloudberry": { satiety: 120, health: 2.5, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-husktomato": { satiety: 120, health: 2, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-juniper": { satiety: 120, health: 2, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-bearberry": { satiety: 120, health: 2, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-wolfberry": { satiety: 120, health: -14, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-belladonna": { satiety: 120, health: -16, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-bitternightshade": { satiety: 120, health: -8, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-spindle": { satiety: 120, health: -2, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-bryony": { satiety: 120, health: -2, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-baneberry": { satiety: 120, health: -2, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-crowseye": { satiety: 120, health: -26, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-seamango": { satiety: 120, health: -18, intoxication: 0.3, foodcategory: "Fruit" },
+				"*-cucumber": { satiety: 120, health: 0.5, intoxication: 0.25, foodcategory: "Vegetable" },
+				"*-maritabits": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Vegetable" },
+				"*-avocado": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Vegetable" },
+				"*-orangebellpepper": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Vegetable" },
+				"*-jalapeno": { satiety: 120, health: 2, intoxication: 0.3, foodcategory: "Vegetable" },
+				"*-tomato": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Vegetable" },
+				"*-tomatillo": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Vegetable" },
+				"*-pumpkin": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Vegetable" },
+				"*-carrot": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Vegetable" },
+				"*-spelt": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Grain" },
+				"*-rice": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Grain" },
+				"*-rye": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Grain" },
+				"*-amaranth": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Grain" },
+				"*-cassava": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Grain" },
+				"*-pomace": { satiety: 100, health: 0.25, intoxication: 0.3, foodcategory: "Fruit" },
+				"*": { satiety: 120, health: 0.5, intoxication: 0.3, foodcategory: "Fruit" }
+			}
+		},
+	},
+	"shape": { "base": "game:item/liquid" },
+	"texturebytype": {
+		"*-blueberry": { "base": "game:block/food/pie/fill-blueberry", "alpha": 160 },
+		"*-cranberry": { "base": "game:block/food/pie/fill-cranberry", "alpha": 160 },
+		"*-redcurrant": { "base": "game:block/food/pie/fill-redcurrant", "alpha": 160 },
+		"*-blackcurrant": { "base": "game:block/food/pie/fill-blackcurrant", "alpha": 160 },
+		"*-whitecurrant": { "base": "game:block/food/pie/fill-whitecurrant", "alpha": 160 },
+		"*-saguaro": { "base": "game:block/food/pie/fill-saguaro", "alpha": 160 },
+		"*-pineapple": { "base": "game:block/food/pie/fill-pineapple", "alpha": 160 },
+		"*-apple": { "base": "game:block/food/pie/fill-apple", "alpha": 160 },
+		"*-cherry": { "base": "game:block/food/pie/fill-cherry", "alpha": 160 },
+		"*-peach": { "base": "game:block/food/pie/fill-peach", "alpha": 160 },
+		"*-pear": { "base": "game:block/food/pie/fill-pear", "alpha": 160 },
+		"*-orange": { "base": "game:block/food/pie/fill-orange", "alpha": 160 },
+		"*-mango": { "base": "game:block/food/pie/fill-mango", "alpha": 160 },
+		"*-breadfruit": { "base": "game:block/food/pie/fill-breadfruit", "alpha": 160 },
+		"*-lychee": { "base": "game:block/food/pie/fill-lychee", "alpha": 160 },
+		"*-pomegranate": { "base": "game:block/food/pie/fill-pomegranate", "alpha": 160 },
+		"*-mead": { "base": "game:block/liquid/honey", "alpha": 160 },
+		"*-spelt": { base: "game:block/food/pie/fill-whitecurrant", alpha: 160 },
+		"*-rice": { base: "game:block/food/dairy/milk", alpha: 160 },
+		"*-rye": { base: "game:block/food/pie/fill-parsnip", alpha: 160 },
+		"*-amaranth": { base: "game:block/food/pie/fill-poultry", alpha: 160 },
+		"*-cassava": { base: "game:block/food/pie/fill-cassava", alpha: 160 },
+		"*-aronia": { "base": "wildcraftfruit:block/food/pie/fill-aronia", "alpha": 180 },
+		"*-blackgrape": { "base": "wildcraftfruit:block/food/pie/fill-blackgrape", "alpha": 180 },
+		"*-blackelder": { "base": "wildcraftfruit:block/food/pie/fill-blackelder", "alpha": 180 },
+		"*-elderberry": { "base": "wildcraftfruit:block/food/pie/fill-elderberry", "alpha": 180 },
+		"*-crowberry": { "base": "wildcraftfruit:block/food/pie/fill-crowberry", "alpha": 180 },
+		"*-purpleplum": { "base": "wildcraftfruit:block/food/pie/fill-purpleplum", "alpha": 180 },
+		"*-illawarra": { "base": "wildcraftfruit:block/food/pie/fill-illawarra", "alpha": 180 },
+		"*-blacknightshade": { "base": "wildcraftfruit:block/food/pie/fill-blacknightshade", "alpha": 180 },
+		"*-blacknightshadeunripe": { "base": "wildcraftfruit:block/food/pie/fill-blacknightshadeunripe", "alpha": 180 },
+		"*-huckleberry": { "base": "wildcraftfruit:block/food/pie/fill-huckleberry", "alpha": 180 },
+		"*-baneberry": { "base": "wildcraftfruit:block/food/pie/fill-baneberry", "alpha": 180 },
+		"*-belladonna": { "base": "wildcraftfruit:block/food/pie/fill-belladonna", "alpha": 180 },
+		"*-hackberry": { "base": "wildcraftfruit:block/food/pie/fill-hackberry", "alpha": 180 },
+		"*-pokeberry": { "base": "wildcraftfruit:block/food/pie/fill-pokeberry", "alpha": 170 },
+		"*-bluequandong": { "base": "wildcraftfruit:block/food/pie/fill-bluequandong", "alpha": 170 },
+		"*-pomace": { "base": "wildcraftfruit:block/food/pie/fill-pomace", "alpha": 180 },
+		"*": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha": 160 }
+	},
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "wildcraftfruit"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "wildcraftfruit:fineciderportion-{fruit}", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 200,
+	"guiTransform": {
+		"translation": { "x": 0, "y": 1, "z": 0 },
+		"rotation": { "x": 123, "y": -33, "z": -13 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 25, "y": 157, "z": -5 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	},
+}

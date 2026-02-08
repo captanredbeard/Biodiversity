@@ -1,0 +1,29 @@
+{
+	"code": "herbseed",
+	"class": "ItemHerbSeed",
+	"attributes": {
+		"handbook": {
+			"groupBy": ["herbseed-*", "waterherbseed-*", "seed"]
+		},
+		"waterPlantByType":{
+			"@.*-(arrowhead|softsedge|skunkcabbage|waterchestnut)": true,
+			"*": false
+		},
+		"isCropByType":{
+			"@.*-(lavender|rosemary|sage|sedge|thyme|mugwort|burdock|poisonoak|holly|inula|plantain|saltwort|waterchestnut|arrowhead|skunkcabbage)": false,
+			"*": true
+		} 
+	},
+	"storageFlags": 33,
+	"maxstacksize": 64,
+	"variantgroups": [
+        { "loadFromProperties": "wildcraftherb:block/herbseedlings" }
+    ],
+	"texture": { "base": "wildcraftherb:items/seeds/{herbseedlings}" },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraftherb": [ "*" ] },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 90, "z": 13 }
+	},
+	"materialDensity": 450
+}

@@ -1,0 +1,65 @@
+{
+	code: "milkchocolate",
+	isFood: true,
+	perishableProps: {
+		type: "None",
+		freshHours: { avg: 3360 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "wildcraftfruit:chocolate-nutchocolate", quantity: 2 }
+	},
+	shape: { base: "game:block/food/meal/liquid" },
+	ingredients: [
+		{
+			code: "cocoabutter", 
+			validStacks: [ 
+				{ type: "item", code: "wildcraftfruit:solidcocoabutter" },
+				{ type: "item", code: "wildcraftfruit:cocoabutter-solid" },
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 1,
+		},
+		{
+			code: "cocoapowder", 
+			validStacks: [ { type: "item", code: "wildcraftfruit:chocolate-cocoapowder" } ],
+			minQuantity: 1,
+			maxQuantity: 1
+		},
+		{
+			code: "nut", 
+			validStacks: [ 
+				{ type: "item", code: "wildcraftfruit:nut-almond" },
+				{ type: "item", code: "wildcraftfruit:nut-walnutshelled" },
+				{ type: "item", code: "wildcraftfruit:nut-hazelnut" },
+				{ type: "item", code: "wildcraftfruit:nut-bearnut" },
+				{ type: "item", code: "game:legume-peanut" },
+				{ type: "item", code: "wildcraftfruit:nut-pistachionut" },
+				{ type: "item", code: "wildcraftfruit:nut-cashewnut" },
+				{ type: "item", code: "wildcraftfruit:nut-apricotpit" },
+				{ type: "item", code: "wildcraftfruit:nut-pinenut" },
+				{ type: "item", code: "wildcraftfruit:nut-dwarfpinenut" },
+				{ type: "item", code: "wildcraftfruit:nut-bunya" },
+				{ type: "item", code: "wildcraftfruit:nut-macadamiashelled" },
+				{ type: "item", code: "wildcraftfruit:nut-beachalmond" },
+				{ type: "item", code: "wildcraftfruit:nut-hackberrypit" },
+			],
+			minQuantity: 1,
+			maxQuantity: 1
+		},
+		{ 
+			code: "honey", 
+			validStacks: [ 
+				{ 
+					type: "item", 
+					code: "game:honeyportion", 
+					shapeElement: "game:bowl/water"
+				}
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 0.4,
+		}
+	],
+	cooksInto: { type: "Item", code: "wildcraftfruit:chocolate-nutchocolate", quantity: 2 }
+ }

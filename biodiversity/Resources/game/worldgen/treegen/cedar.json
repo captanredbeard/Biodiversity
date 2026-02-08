@@ -1,0 +1,38 @@
+{
+	treeWorldPropertyCode: "cedar",
+	sizeMultiplier: 0.7,
+	trunks: [{
+		widthloss: 0.044,
+		dieAt: { avg: 0.05 },
+		branchStart: { dist: "gaussian", avg: 0.4, var: 0.2 },
+		branchSpacing: { avg: 0.15, var: 0.005 },
+		branchVerticalAngle:  { dist: "gaussian", avg: 1.57, var: 0.3 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.4, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 0.2 },
+		branchQuantity: { avg: 4, var: 0 },
+		branchQuantityEvolve: { transform: "quadratic", factor: 0.2 }
+	}],
+	branches: [{
+		widthLoss: 0.036,
+		gravityDrag: 0.08,
+
+		branchStart:  { avg: 1.25, var: 0.1 },
+		branchSpacing: { avg: 0, var: 0 },
+		branchVerticalAngle: { avg: 1.57, var: 0.5 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 1, var: 0 },
+		branchWidthMultiplier: { avg: 0.4, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:log-grown-cedar-ud",
+		otherLogBlockCode: "wildcrafttree:log-resin-cedar-ud",
+		otherLogChance: 0.01,
+		leavesBlockCode: "wildcrafttree:leaves-placed-cedar",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-cedar",
+		vinesBlockCode: "game:wildvine-section-north",
+		vinesEndBlockCode: "game:wildvine-end-north",
+		mossDecorCode: "game:attachingplant-spottymoss"
+	}
+}

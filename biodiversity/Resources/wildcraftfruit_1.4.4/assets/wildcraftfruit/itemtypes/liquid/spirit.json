@@ -1,0 +1,79 @@
+{
+	"code": "spiritportion",
+	"variantgroups": [
+		{ code: "fruit", states: ["juniper", "maritabits", "avocado", "hackberry", "pumpkin", "cucumber", "bluequandong", "sumac", "carrot", "tomato", "tomatillo", "jalapeno", "orangebellpepper"], "loadFromProperties": "wildcraftfruit:block/fruit" }
+	  ],
+	"skipVariants": ["*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-chinaberry", "*-beachalmondwhole", "*-lillypillywhite", "*-lillypillyblue", "*-lemon", "*-blacknightshadeunripe", "*-burgundyapple", "*-wildapple", "*-mazzard", "*-nectarine", "*-waterapple", "*-bitterorange", "*-bilberry", "*-swamphuckle", "*-beachrose", "*-yew", "*-damsonplum", "*-redplum", "*-redcherryplum", "*-pittedjackfruit", "*-pittedmazzard", "*-greatroseapple", "*-kasturi", "*-cempedak", "*-pittedcempedak", "*-makrut", "*-pulasan", "*-greenstrawberry", "*-loganberry", "*-boysenberry", "*-josta", "*-ber", "*-marang", "*-pittedmarang", "*-hairyeggplant", "*-juaacu", "*-newhusktomato", "*-wildtomato", "*-quincelet", "*-ginkgowhole"],
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true,
+			"groupBy": ["spiritportion-*"]
+		},
+		"distillationProps": {
+			"distilledStack": { "type": "item", "code": "game:alcoholportion" },
+			"ratio": 0.5
+		},
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texturebytype": {
+				"*-blacknightshade": { "base": "block/food/pie/fill-blacknightshade", "alpha": 140 },
+				"*-aronia": { "base": "block/food/pie/fill-aronia", "alpha": 150 },
+				"*-crowberry": { "base": "block/food/pie/fill-crowberry", "alpha": 150 },
+				"*-illawarra": { "base": "block/food/pie/fill-illawarra", "alpha": 140 },
+				"*-pokeberry": { "base": "block/food/pie/fill-pokeberry", "alpha": 120 },
+				"*-purpleplum": { "base": "block/food/pie/fill-purpleplum", "alpha": 140 },
+				"*-elderberry": { "base": "block/food/pie/fill-elderberry", "alpha": 120 },
+				"*-blackelder": { "base": "block/food/pie/fill-blackelder", "alpha": 120 },
+				"*-crowseye": { "base": "block/food/pie/fill-crowseye", "alpha": 120 },
+				"*-bluetongue": { "base": "block/food/pie/fill-bluetongue", "alpha": 120 },
+				"*-fractureberry": { "base": "block/food/pie/fill-fractureberry", "alpha": 110 },
+				"*-blackgrape": { "base": "block/food/pie/fill-blackgrape", "alpha": 110 },
+				"*-huckleberry": { "base": "block/food/pie/fill-huckleberry", "alpha": 110 },
+				"*-baneberry": { "base": "block/food/pie/fill-baneberry", "alpha": 150 },
+				"*-belladonna": { "base": "block/food/pie/fill-belladonna", "alpha": 150 },
+				"*-hackberry": { "base": "block/food/pie/fill-hackberry", "alpha": 140 },
+				"*-bluequandong": { "base": "block/food/pie/fill-bluequandong", "alpha": 110 },
+				"*": { "base": "block/food/pie/fill-{fruit}", "alpha": 100 }
+			},
+			"allowSpill": true,
+			"whenSpilled": { 
+				"action": "DropContents",
+				"stack": { "type": "item", "code": "wildcraftfruit:spiritportion-{fruit}"} 
+			},
+			"nutritionPropsPerLitreByType": {
+				"*-wolfberry": { satiety: 80, health: -10, intoxication: 1.5, foodcategory: "NoNutrition" },
+				"*-belladonna": { satiety: 80, health: -14, intoxication: 1.5, foodcategory: "NoNutrition" },
+				"*-crowseye": { satiety: 80, health: -20, intoxication: 1.5, foodcategory: "NoNutrition" },
+				"*-seamango": { satiety: 80, health: -16, intoxication: 1.5, foodcategory: "NoNutrition" },
+				"*-cucumber": { satiety: 80, health: 0, intoxication: 1.25, foodcategory: "NoNutrition" },
+				"*": { satiety: 80, health: 0, intoxication: 1.5, foodcategory: "NoNutrition" }
+			}
+		},
+		"handbook": {
+			"exclude": true
+		}
+	},
+	"shape": { "base": "game:item/liquid" },
+	"texturebytype": {
+		"*": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha": 100 }
+	},
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "wildcraftfruit"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "wildcraftfruit:spiritportion-{fruit}", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 200,
+	"guiTransform": {
+		"translation": { "x": 0, "y": 1, "z": 0 },
+		"rotation": { "x": 123, "y": -33, "z": -13 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 25, "y": 157, "z": -5 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	}
+}

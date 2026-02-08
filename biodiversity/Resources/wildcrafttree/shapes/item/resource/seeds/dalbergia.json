@@ -1,0 +1,77 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"dalbergia": "item/resource/seeds/dalbergia"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 4.0, 1.8, 5.0 ], 
+			"to": [ 9.0, 1.8, 8.0 ], 
+			"rotationOrigin": [ 4.0, 1.0, 5.0 ],
+			"rotationY": -18.0,
+			"rotationZ": -20.0,
+			"faces": {
+				"north": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 5.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 5.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 6.0, 10.0 ], "rotation": 270, "autoUv": false },
+				"down": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 5.0, 3.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 5.0, 0.0, 0.0 ], 
+					"to": [ 10.0, 0.0, 3.0 ], 
+					"rotationOrigin": [ 5.0, 0.0, 0.0 ],
+					"rotationZ": 27.0,
+					"faces": {
+						"north": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 5.0, 1.0 ], "enabled": false },
+						"east": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+						"south": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 5.0, 1.0 ], "enabled": false },
+						"west": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "enabled": false },
+						"up": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 6.0, 10.0 ], "rotation": 90, "autoUv": false },
+						"down": { "texture": "#dalbergia", "uv": [ 0.0, 0.0, 5.0, 3.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube4",
+							"from": [ 0.75, -0.25, 0.75 ], 
+							"to": [ 2.25, 0.25, 2.25 ], 
+							"rotationOrigin": [ 0.0, 0.0, 1.0 ],
+							"faces": {
+								"north": { "texture": "#dalbergia", "uv": [ 8.0, 3.0, 11.0, 4.0 ], "autoUv": false },
+								"east": { "texture": "#dalbergia", "uv": [ 9.0, 0.0, 12.0, 1.0 ], "autoUv": false },
+								"south": { "texture": "#dalbergia", "uv": [ 9.0, 0.0, 12.0, 1.0 ], "autoUv": false },
+								"west": { "texture": "#dalbergia", "uv": [ 9.0, 2.0, 12.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#dalbergia", "uv": [ 9.0, 1.0, 12.0, 4.0 ], "autoUv": false },
+								"down": { "texture": "#dalbergia", "uv": [ 9.0, 0.0, 12.0, 3.0 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Cube3",
+					"from": [ 3.0, -0.25, 0.75 ], 
+					"to": [ 4.5, 0.25, 2.25 ], 
+					"rotationOrigin": [ 3.0, 0.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#dalbergia", "uv": [ 9.0, 2.0, 12.0, 3.0 ], "autoUv": false },
+						"east": { "texture": "#dalbergia", "uv": [ 8.0, 3.0, 11.0, 4.0 ], "autoUv": false },
+						"south": { "texture": "#dalbergia", "uv": [ 9.0, 2.0, 12.0, 3.0 ], "autoUv": false },
+						"west": { "texture": "#dalbergia", "uv": [ 9.0, 0.0, 12.0, 1.0 ], "autoUv": false },
+						"up": { "texture": "#dalbergia", "uv": [ 8.0, 0.0, 11.0, 3.0 ], "autoUv": false },
+						"down": { "texture": "#dalbergia", "uv": [ 9.0, 1.0, 12.0, 4.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,37 @@
+{
+	treeWorldPropertyCode: "leadwood",
+	isTropical: true,
+	sizeMultiplier: 1.1,
+	trunks: [{
+		widthloss: 0.06,
+		dieAt: { avg: 0.1 },
+		branchStart: { dist: "gaussian", avg: 0.25 },
+		branchSpacing: { avg: 0, var: 0 },
+		branchVerticalAngle:  { avg: 0.8, var: 0.1 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.15, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 1.5 },
+		branchQuantity: { avg: 2, var: 1 },
+		branchWidthLossMul: 0.98,
+	}],
+	branches: [{
+		widthLoss: 0.04,
+		gravityDrag: 0.1,
+		dieAt: { avg: 0.01 },
+
+		branchStart:  { avg: 0.1 },
+		branchSpacing: { avg: 0.1, var: 0 },
+		branchVerticalAngle: { dist: "inversegaussian", avg: 0.6, var: 0.1 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 1, var: 1 },
+		branchWidthMultiplier: { avg: 0.6, var: 0.2 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:log-grown-leadwood-ud",
+		leavesBlockCode: "wildcrafttree:leaves-placed-leadwood",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-leadwood",
+		vinesBlockCode: "game:wildvine-section-north",
+		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"
+	}
+}

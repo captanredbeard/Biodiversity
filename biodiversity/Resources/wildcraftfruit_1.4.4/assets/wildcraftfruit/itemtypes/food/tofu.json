@@ -1,0 +1,109 @@
+{
+	code: "tofu",
+	maxstacksize: 32,
+	attributes: {
+		"nutritionPropsWhenInMealByType": {
+		  "*-raw": { 
+      		  "satiety": 260, 
+      		  "foodcategory": "Dairy" 
+      		},
+		  "*-cooked": { 
+      		  "satiety": 300, 
+      		  "foodcategory": "Dairy" 
+      		},
+		  "*": null
+    		},
+   		"inContainerTextureByType": {
+   		   "*-raw": { "base": "wildcraftfruit:block/food/pie/fill-tofu" },
+   		   "*-cooked": { "base": "wildcraftfruit:block/food/pie/fill-cookedtofu" }
+   		},
+		onDisplayTransform: {
+			rotation: { x: 0, y: 40, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.73
+		},
+		displaycaseable: true,
+		shelvable: true,
+		inPiePropertiesByType: {
+			"*-raw": { texture: "wildcraftfruit:block/food/pie/fill-tofu", partType: 'Filling' },
+			"*-cooked": { texture: "wildcraftfruit:block/food/pie/fill-cookedtofu", partType: 'Filling' },
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["raw", "cooked"] }
+	],
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	shape: { base: "wildcraftfruit:item/tofu/{type}" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcraftfruit": ["*"] },
+	materialDensity: 700,
+	nutritionPropsByType: {
+		"*-raw": { saturation: 200, foodcategory: "Dairy" },
+		"*-cooked": { saturation: 240, foodcategory: "Dairy" }
+	},
+	transitionableProps: [{
+		type: "Perish",
+		freshHoursByType: {
+			"tofu-raw": { avg: 192 },
+			"tofu-cooked": { avg: 360 },
+		},
+		transitionHours: { avg: 12 },
+		transitionedStack: { type: "item", code: "game:rot" },
+		transitionRatio: 1
+	}],
+	combustiblePropsByType: {
+		"tofu-raw": {
+			meltingPoint: 150,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "wildcraftfruit:tofu-cooked" },
+			requiresContainer: false
+		}
+	},
+	guiTransformByType: {
+		"*-raw": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -40, y: 21, z: 0 },
+			origin: { x: 0.5, y: 0.06, z: 0.48 },
+			scale: 2.45
+		},
+		"*-cooked": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -48, y: -152, z: -10 },
+			origin: { x: 0.55, y: 0.05, z: 0.47 },
+			scale: 2.78
+		}
+	},
+	tpHandTransformByType: {
+		"*-raw": {
+			translation: { x: -0.3, y: -0.29, z: 0 },
+			rotation: { x: 25, y: 20, z: 101 },
+			origin: { x: -0.06, y: -0.17, z: 0.16 },
+			scale: 0.49
+		},
+		"*-cooked": {
+			translation: { x: -0.3, y: -0.29, z: 0 },
+			rotation: { x: 25, y: 20, z: 101 },
+			origin: { x: -0.06, y: -0.17, z: 0.16 },
+			scale: 0.53
+		}
+	},
+	groundTransformByType: {
+		"*-raw": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.73
+		},
+		"*-cooked": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3
+		}
+	},
+	heldTpIdleAnimation: "holdbothhands",
+	heldRightReadyAnimation: "holdbothhands"
+}

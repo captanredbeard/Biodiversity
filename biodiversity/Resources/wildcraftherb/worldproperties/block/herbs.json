@@ -1,0 +1,158 @@
+{
+    "code": "herbs",
+    "variants": [
+      {
+        "code": "basil"
+      },
+      {
+        "code": "bearleek"
+      },
+      {
+        "code": "blackpepper"
+      },
+      {
+        "code": "celery"
+      },
+      {
+        "code": "chamomile"
+      },
+      {
+        "code": "cilantro"
+      },
+      {
+        "code": "dill"
+      },
+      {
+        "code": "dock"
+      },
+      {
+        "code": "lavender"
+      },
+      {
+        "code": "marjoram"
+      },
+      {
+        "code": "marshmallow"
+      },
+      {
+        "code": "mint"
+      },
+      {
+        "code": "mustard"
+      },
+      {
+        "code": "rosemary"
+      },
+      {
+        "code": "saffron"
+      },
+      {
+        "code": "sage"
+      },
+      {
+        "code": "stingingnettle"
+      },
+      {
+        "code": "stjohnswort"
+      },
+      {
+        "code": "thyme"
+      },
+      {
+        "code": "minerslettuce"
+      },
+      {
+        "code": "mugwort"
+      },
+      {
+        "code": "burdock"
+      },
+      {
+        "code": "poisonoak"
+      },
+      {
+        "code": "holly"
+      },
+      {
+        "code": "chicory"
+      },
+      {
+        "code": "marigold"
+      },
+      {
+        "code": "inula"
+      },
+      {
+        "code": "celandine"
+      },
+      {
+        "code": "leek"
+      },
+      {
+        "code": "plantain"
+      },
+      {
+        "code": "saltwort"
+      },
+      {
+        "code": "yarrow"
+      },
+      {
+        "code": "liquorice"
+      },
+      {
+        "code": "foxglove"
+      },
+      {
+        "code": "angelica"
+      },
+      {
+        "code": "arnica"
+      },
+      {
+        "code": "burnet"
+      },
+      {
+        "code": "ginger"
+      },
+      {
+        "code": "horehound"
+      },
+      {
+        "code": "rockrose"
+      },
+      {
+        "code": "cicuta"
+      },
+      {
+        "code": "tansy"
+      },
+      {
+        "code": "ginseng"
+      },
+      {
+        "code": "katuk"
+      },
+      {
+        "code": "softsedge"
+      },
+      {
+        "code": "jewelweed"
+      },
+      {
+        "code": "arrowhead"
+      },
+      {
+        "code": "rhubarb"
+      },
+      {
+        "code": "butterbur"
+      },
+      {
+        "code": "woodspurge"
+      },
+      {
+        "code": "waterchestnut"
+      }
+    ]
+  }

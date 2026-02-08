@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "_H_,BHB,BBB",
+	ingredients: {
+		"H": { type: "block", code: "game:hay-normal-ud" },
+		"B": { type: "item", code: "wildcrafttree:plank-*" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "game:armorstand", quantity: 1  }
+}

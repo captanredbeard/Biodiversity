@@ -1,0 +1,81 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"saguaro": [8,8],
+		"ripe": [16,16]
+	},
+	"textures": {
+		"saguaro": "game:item/food/fruit/saguaro",
+		"ripe": "wildcraftfruit:block/plant/fruittree/cempedak/ripe"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.25 ], 
+			"to": [ 8.0, 0.0, 8.25 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#saguaro", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#saguaro", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#saguaro", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#saguaro", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#saguaro", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#saguaro", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "body",
+					"from": [ 2.5, 3.75, -2.25 ], 
+					"to": [ 6.5, 9.25, 1.75 ], 
+					"rotationOrigin": [ 4.5, 2.0, 0.0 ],
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#ripe", "uv": [ 3.0, 1.5, 7.0, 7.0 ] },
+						"east": { "texture": "#ripe", "uv": [ 3.0, 3.5, 7.0, 9.0 ] },
+						"south": { "texture": "#ripe", "uv": [ 5.0, 5.5, 9.0, 11.0 ] },
+						"west": { "texture": "#ripe", "uv": [ 0.5, 1.0, 4.5, 6.5 ] },
+						"up": { "texture": "#ripe", "uv": [ 3.0, 2.0, 7.0, 6.0 ] },
+						"down": { "texture": "#ripe", "uv": [ 6.0, 1.5, 10.0, 5.5 ] }
+					},
+					"children": [
+						{
+							"name": "bottom",
+							"from": [ 0.5, -1.0, 0.5 ], 
+							"to": [ 3.5, 6.5, 3.5 ], 
+							"rotationOrigin": [ 2.0, 0.0, 2.0 ],
+							"faces": {
+								"north": { "texture": "#ripe", "uv": [ 1.5, 5.0, 4.5, 12.5 ] },
+								"east": { "texture": "#ripe", "uv": [ 8.0, 4.5, 11.0, 12.0 ] },
+								"south": { "texture": "#ripe", "uv": [ 3.5, 4.0, 6.5, 11.5 ] },
+								"west": { "texture": "#ripe", "uv": [ 7.0, 4.5, 10.0, 12.0 ] },
+								"up": { "texture": "#ripe", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#ripe", "uv": [ 2.5, 5.0, 5.5, 8.0 ] }
+							}
+						},
+						{
+							"name": "dongle",
+							"from": [ 1.9, 6.3, 1.8 ], 
+							"to": [ 2.4, 8.3, 2.3 ], 
+							"rotationOrigin": [ 2.25, 6.8, 2.0 ],
+							"rotationX": -22.5,
+							"rotationY": -45.0,
+							"rotationZ": -22.5,
+							"faces": {
+								"north": { "texture": "#saguaro", "uv": [ 7.0, 2.0, 7.5, 4.0 ] },
+								"east": { "texture": "#saguaro", "uv": [ 6.5, 1.5, 7.0, 3.5 ] },
+								"south": { "texture": "#saguaro", "uv": [ 7.0, 2.5, 7.5, 4.5 ] },
+								"west": { "texture": "#saguaro", "uv": [ 6.0, 1.5, 6.5, 3.5 ] },
+								"up": { "texture": "#saguaro", "uv": [ 7.0, 1.0, 7.5, 1.5 ] },
+								"down": { "texture": "#saguaro", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

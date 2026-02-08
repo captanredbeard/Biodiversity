@@ -1,0 +1,215 @@
+[
+    {
+        "op": "replace",
+        "path": "/variantgroups",
+        "value": [{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "cookedcattailroot", "pumpkin", "cassava", "cookedpapyrusroot", "olive" ] }],
+        "file": "game:itemtypes/food/vegetable.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups",
+        "value": [{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "olive" ] }],
+        "file": "game:itemtypes/food/pickledvegetable.json"
+    },
+    {
+        "op": "add",
+        "path": "/enabled",
+        "value": false,
+        "file": "game:blocktypes/plant/crop/bellpepper.json"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups",
+        "value": [{ code: "type", states: [ "carrot", "flax", "onion", "spelt", "turnip", "parsnip", "rice", "rye", "soybean", "cabbage", "pumpkin", "pineapple", "cassava", "amaranth", "peanut", "sunflower" ] }],
+        "file": "game:itemtypes/resource/seeds.json"
+    },
+    { "file": "game:recipes/cooking/meatystew", "op": "replace", "path": "/ingredients/5/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnutbaked",
+        "shapeElement": "bowl/vegetable 1/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/meatystew", "op": "replace", "path": "/ingredients/6/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnutbaked",
+        "shapeElement": "bowl/vegetable 2/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/porridge", "op": "replace", "path": "/ingredients/3/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnutbaked",
+        "shapeElement": "bowl/vegetable 1/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/porridge", "op": "replace", "path": "/ingredients/4/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnutbaked",
+        "shapeElement": "bowl/vegetable 2/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/scrambledeggs", "op": "replace", "path": "/ingredients/5/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnutbaked",
+        "shapeElement": "bowl/vegetable2/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/scrambledeggs", "op": "replace", "path": "/ingredients/6/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnutbaked",
+        "shapeElement": "bowl/vegetable3/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/soup", "op": "replace", "path": "/ingredients/1/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnut",
+        "shapeElement": "bowl/vegetable base 1/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/soup", "op": "replace", "path": "/ingredients/2/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnut",
+        "shapeElement": "bowl/vegetable base 2/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/soup", "op": "replace", "path": "/ingredients/3/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnut",
+        "shapeElement": "bowl/vegetable base 3/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/vegetablestew", "op": "replace", "path": "/ingredients/0/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnut",
+        "shapeElement": "bowl/vegetable 1/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/vegetablestew", "op": "replace", "path": "/ingredients/1/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnut",
+        "shapeElement": "bowl/vegetable 2/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/vegetablestew", "op": "replace", "path": "/ingredients/2/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnut",
+        "shapeElement": "bowl/vegetable 3/*"
+       },
+       "side": "server"
+    },
+    { "file": "game:recipes/cooking/vegetablestew", "op": "replace", "path": "/ingredients/3/validStacks/7", "value": {
+        "type": "item",
+        "code": "wildcraftfruit:nut-chestnut",
+        "shapeElement": "bowl/vegetable 4/*"
+       },
+       "side": "server"
+    },
+    {
+        "op": "replace",
+        "path": "/attributes/contentConfig/6/content",
+        "value": { type: "item", code: "wildcraftfruit:vegetable-orangebellpepper" },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "replace",
+        "path": "/attributes/contentConfig/6/content",
+        "value": { type: "item", code: "wildcraftfruit:vegetable-orangebellpepper" },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "redbellpepper",
+            "content": { "type": "item", "code": "wildcraftfruit:vegetable-redbellpepper" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/bellpepperfill1", "block/wood/trough/large/bellpepperfill1", "block/wood/trough/large/bellpepperfill2", "block/wood/trough/large/bellpepperfill2", "block/wood/trough/large/bellpepperfill3", "block/wood/trough/large/bellpepperfill3", "block/wood/trough/large/bellpepperfill4", "block/wood/trough/large/bellpepperfill4"],
+	    "textureCode": "bellpepper",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "yellowbellpepper",
+            "content": { "type": "item", "code": "wildcraftfruit:vegetable-yellowbellpepper" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/bellpepperfill1", "block/wood/trough/large/bellpepperfill1", "block/wood/trough/large/bellpepperfill2", "block/wood/trough/large/bellpepperfill2", "block/wood/trough/large/bellpepperfill3", "block/wood/trough/large/bellpepperfill3", "block/wood/trough/large/bellpepperfill4", "block/wood/trough/large/bellpepperfill4"],
+	    "textureCode": "bellpepper",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "greenbellpepper",
+            "content": { "type": "item", "code": "wildcraftfruit:vegetable-greenbellpepper" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/bellpepperfill1", "block/wood/trough/large/bellpepperfill1", "block/wood/trough/large/bellpepperfill2", "block/wood/trough/large/bellpepperfill2", "block/wood/trough/large/bellpepperfill3", "block/wood/trough/large/bellpepperfill3", "block/wood/trough/large/bellpepperfill4", "block/wood/trough/large/bellpepperfill4"],
+	    "textureCode": "bellpepper",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "redbellpepper",
+            "content": { "type": "item", "code": "wildcraftfruit:vegetable-redbellpepper" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/bellpepperfill1", "block/wood/trough/small/bellpepperfill1", "block/wood/trough/small/bellpepperfill2", "block/wood/trough/small/bellpepperfill2", "block/wood/trough/small/bellpepperfill3", "block/wood/trough/small/bellpepperfill3", "block/wood/trough/small/bellpepperfill4", "block/wood/trough/small/bellpepperfill4"],
+	    "textureCode": "bellpepper",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "yellowbellpepper",
+            "content": { "type": "item", "code": "wildcraftfruit:vegetable-yellowbellpepper" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/bellpepperfill1", "block/wood/trough/small/bellpepperfill1", "block/wood/trough/small/bellpepperfill2", "block/wood/trough/small/bellpepperfill2", "block/wood/trough/small/bellpepperfill3", "block/wood/trough/small/bellpepperfill3", "block/wood/trough/small/bellpepperfill4", "block/wood/trough/small/bellpepperfill4"],
+	    "textureCode": "bellpepper",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "greenbellpepper",
+            "content": { "type": "item", "code": "wildcraftfruit:vegetable-greenbellpepper" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/bellpepperfill1", "block/wood/trough/small/bellpepperfill1", "block/wood/trough/small/bellpepperfill2", "block/wood/trough/small/bellpepperfill2", "block/wood/trough/small/bellpepperfill3", "block/wood/trough/small/bellpepperfill3", "block/wood/trough/small/bellpepperfill4", "block/wood/trough/small/bellpepperfill4"],
+	    "textureCode": "bellpepper",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:fruit-cashewwhole", "quantity": 3, "returnedStack": { type: "item", code: "wildcraftfruit:fruit-cashewapple", "quantity": 3 } },
+    },
+    "name": "cashewnut",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-cashewnut" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:fruit-apricot", "quantity": 2, "returnedStack": { "type": "item", "code": "wildcraftfruit:nut-apricotpit" } },
+    },
+    "name": "cashewnut",
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "wildcraftfruit:fruit-pittedapricot", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "game:fruit-cherry", "quantity": 2, "returnedStack": { "type": "item", "code": "wildcraftfruit:nut-cherrypit" } },
+    },
+    "name": "cashewnut",
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "wildcraftfruit:fruit-pittedcherry" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:fruit-mazzard", "quantity": 2, "returnedStack": { "type": "item", "code": "wildcraftfruit:nut-cherrypit" } },
+    },
+    "name": "cashewnut",
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "wildcraftfruit:fruit-pittedmazzard" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "game:fruit-breadfruit", "returnedStack": { "type": "item", "code": "wildcraftfruit:nut-breadnut" } },
+    },
+    "name": "cashewnut",
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "wildcraftfruit:fruit-pittedbreadfruit", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:fruit-jackfruit", "returnedStack": { "type": "item", "code": "wildcraftfruit:nut-breadnut" } },
+    },
+    "name": "cashewnut",
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "wildcraftfruit:fruit-pittedjackfruit", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:fruit-cempedak", "returnedStack": { "type": "item", "code": "wildcraftfruit:nut-breadnut" } },
+    },
+    "name": "cashewnut",
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "wildcraftfruit:fruit-pittedcempedak", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:fruit-marang", "returnedStack": { "type": "item", "code": "wildcraftfruit:nut-breadnut" } },
+    },
+    "name": "cashewnut",
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "wildcraftfruit:fruit-pittedmarang", "quantity": 2 }
+  },
+  {
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"P": { type: "item", code: "wildcraftfruit:dryfruit-pandan" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "wildcraftfruit:fruit-pandanbits", quantity: 8 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:fruit-beachalmondwhole", "quantity": 2, "returnedStack": { "type": "item", "code": "wildcraftfruit:fruit-pittedbeachalmond" } },
+    },
+    "name": "beachalmond",
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "wildcraftfruit:nut-beachalmond" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:fruit-ginkgowhole", "quantity": 2, "returnedStack": { "type": "item", "code": "wildcraftfruit:fruit-ginkgopulp" } },
+    },
+    "name": "cashewnut",
+    "width": 1,
+    "height": 2,
+    "output": { type: "item", code: "wildcraftfruit:nut-ginkgoseed" }
+  },
+  {
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"P": { type: "item", code: "wildcraftfruit:fruit-chinaberry" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "wildcraftfruit:fruit-pittedchinaberry" }
+  },
+  {
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"P": { type: "item", code: "wildcraftfruit:fruit-yew" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "wildcraftfruit:fruit-pittedyew" }
+  },
+  {
+	ingredientPattern: "K,P",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"P": { type: "item", code: "wildcraftfruit:dryfruit-marita" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "wildcraftfruit:vegetable-maritabits", quantity: 4 }
+  }
+]

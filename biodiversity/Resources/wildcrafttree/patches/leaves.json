@@ -1,0 +1,189 @@
+[
+
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "climateBlueSpruceTint",
+            "texture": { "base": "environment/seasons/bluespruceclimatetint" },
+            "padding": 4,
+            "loadIntoBlockTextureAtlas": true
+        },
+        "file": "game:config/colormaps.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "tropicalDalbergia",
+            "texture": { "base": "environment/seasons/dalbergiatint" },
+            "loadIntoBlockTextureAtlas": true,
+	    "extraFlags": 1
+        },
+        "file": "game:config/colormaps.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "seasonalBlueSpruce",
+            "texture": { "base": "environment/seasons/bluesprucetint" },
+            "loadIntoBlockTextureAtlas": true
+        },
+        "file": "game:config/colormaps.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "seasonalWiliwili",
+            "texture": { "base": "environment/seasons/wiliwilitint" },
+            "loadIntoBlockTextureAtlas": true
+        },
+        "file": "game:config/colormaps.json"
+    },
+    { "op": "add", "path": "/classByType", "value": { "*-acacia": "BlockPricklyLeaves", "*": "BlockLeaves" }, "file": "game:blocktypes/plant/leaves/normal.json", "side": "server" },
+    { "op": "add", "path": "/classByType", "value": { "*-acacia": "BlockPricklyLeaves", "*": "BlockLeaves" }, "file": "game:blocktypes/plant/leaves/branchy.json", "side": "server" },
+
+    { "op": "remove", "path": "/drops", "file": "game:blocktypes/plant/leaves/branchy.json", "side": "server" },
+    { "op": "remove", "path": "/drops", "file": "game:blocktypes/plant/leaves/normal.json", "side": "server" },
+
+    { "op": "add", "path": "/dropsByType", "value": { 
+		"*-redwood": [
+			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "game:treeseed-redwood", quantity: { avg: 0.01, var: 0 }  },
+		],
+		"*-pine": [
+			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "game:treeseed-pine", quantity: { avg: 0.04, var: 0 }  },
+		],
+		"*-acacia": [
+			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "game:treeseed-acacia", quantity: { avg: 0.04, var: 0 }  },
+		],
+		"*-walnut": [
+			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:leaves-walnut", quantity: { avg: 0.6, var: 0 }  },
+			{ type: "item", code: "game:treeseed-walnut", quantity: { avg: 0.02, var: 0 }  },
+		],
+		"*-oak": [
+			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:leaves-oak", quantity: { avg: 0.6, var: 0 }  },
+			{ type: "item", code: "game:treeseed-oak", quantity: { avg: 0.02, var: 0 }  },
+		],
+		"*-kapok": [
+			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-kapok", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "game:treeseed-kapok", quantity: { avg: 0.02, var: 0 }  },
+		],
+		"*-birch": [
+			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-birch", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "game:treeseed-birch", quantity: { avg: 0.02, var: 0 }  },
+		],
+		"*-larch": [
+			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-larch", quantity: { avg: 0.1, var: 0 }  },
+			{ type: "item", code: "game:treeseed-larch", quantity: { avg: 0.02, var: 0 }  },
+		],
+		"*": [
+			{ type: "item", code: "game:stick", quantity: { avg: 0.02, var: 0 }  },
+			{ type: "item", code: "game:treeseed-{wood}", quantity: { avg: 0.02, var: 0 }  }
+		]
+          }, "file": "game:blocktypes/plant/leaves/normal.json", "side": "server" },
+
+    { "op": "add", "path": "/dropsByType", "value": { 
+		"*-redwood": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "game:treeseed-redwood", quantity: { avg: 0.03, var: 0 }  },
+		],
+		"*-pine": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "game:treeseed-pine", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-acacia": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "game:treeseed-acacia", quantity: { avg: 0.12, var: 0 }  },
+		],
+		"*-walnut": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:leaves-walnut", quantity: { avg: 0.3, var: 0 }  },
+			{ type: "item", code: "game:treeseed-walnut", quantity: { avg: 0.06, var: 0 }  },
+		],
+		"*-oak": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:leaves-oak", quantity: { avg: 0.3, var: 0 }  },
+			{ type: "item", code: "game:treeseed-oak", quantity: { avg: 0.06, var: 0 }  },
+		],
+		"*-kapok": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-kapok", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "game:treeseed-kapok", quantity: { avg: 0.06, var: 0 }  },
+		],
+		"*-birch": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-birch", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "game:treeseed-birch", quantity: { avg: 0.06, var: 0 }  },
+		],
+		"*-larch": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-larch", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "game:treeseed-larch", quantity: { avg: 0.06, var: 0 }  },
+		],
+		"*": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "game:treeseed-{wood}", quantity: { avg: 0.06, var: 0 }  }
+		]
+          }, "file": "game:blocktypes/plant/leaves/branchy.json", "side": "server" },
+
+    {
+          "op": "addmerge",
+          "path": "/attributes/treeFellingGroupCodeByType",
+          "value": { 
+            		"*-placed-birch": "3birch",
+            		"*-placed1-birch": "1birch",
+            		"*-placed2-birch": "2birch",
+            		"*-placed3-birch": "3birch",
+            		"*-placed4-birch": "4birch",
+            		"*-placed5-birch": "5birch",
+            		"*-placed6-birch": "6birch",
+            		"*-placed7-birch": "7birch",
+
+            		"*-placed-larch": "3larch",
+            		"*-placed1-larch": "1larch",
+            		"*-placed2-larch": "2larch",
+            		"*-placed3-larch": "3larch",
+            		"*-placed4-larch": "4larch",
+            		"*-placed5-larch": "5larch",
+            		"*-placed6-larch": "6larch",
+            		"*-placed7-larch": "7larch",
+           },
+          "file": "game:blocktypes/plant/leaves/normal.json",
+          "side": "server"
+    },
+    {
+          "op": "addmerge",
+          "path": "/attributes/treeFellingGroupCodeByType",
+          "value": { 
+            		"*-placed-birch": "3birch",
+            		"*-placed1-birch": "1birch",
+            		"*-placed2-birch": "2birch",
+            		"*-placed3-birch": "3birch",
+            		"*-placed4-birch": "4birch",
+            		"*-placed5-birch": "5birch",
+            		"*-placed6-birch": "6birch",
+            		"*-placed7-birch": "7birch",
+
+            		"*-placed-larch": "3larch",
+            		"*-placed1-larch": "1larch",
+            		"*-placed2-larch": "2larch",
+            		"*-placed3-larch": "3larch",
+            		"*-placed4-larch": "4larch",
+            		"*-placed5-larch": "5larch",
+            		"*-placed6-larch": "6larch",
+            		"*-placed7-larch": "7larch",
+           },
+          "file": "game:blocktypes/plant/leaves/branchy.json",
+          "side": "server"
+    },
+]

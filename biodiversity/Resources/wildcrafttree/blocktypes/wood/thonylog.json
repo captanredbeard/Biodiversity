@@ -1,0 +1,60 @@
+{
+	code: "log",
+	behaviorsByType: {
+		"*": [
+			{ name: "PushEventOnBlockBroken", properties: {eventName: "testForDecay"} }
+		],
+	},
+	attributes: {
+		treeFellingGroupCode: "{wood}",
+		preventsDecay: true
+	},
+	variantgroups: [
+		{ code: "type", states: ["thorny"] },
+		{ code: "wood", states: ["honeylocust"] },
+		{ code: "rotation", states: ["ud"] },
+	],
+	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcrafttree": ["*"] },
+	renderpass: "OpaqueNoCull",
+	blockmaterial: "Wood",
+	requiredMiningTier: 1,
+	shape: { base: "wildcrafttree:block/wood/thornylog",
+			alternates: [
+				{ base: "wildcrafttree:block/wood/thornylog", rotateY: 90 },
+				{ base: "wildcrafttree:block/wood/thornylog", rotateY: 180 },
+				{ base: "wildcrafttree:block/wood/thornylog", rotateY: 270 },
+			]
+	},
+	replaceable: 500,
+	resistance: 4.5,
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		byTool: {
+			"Axe": { hit: "game:block/chop", break: "game:block/planks" }
+		}
+	},
+	drops: [
+		{ type: "block", code: "wildcrafttree:log-placed-honeylocust-ud", quantity: { avg: 1 }  }
+	],
+	combustibleProps: {
+		burnTemperature: 700,
+		burnDuration: 92,
+	},
+	maxStackSize: 16,
+	materialDensity: 700,
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	guiTransform: {
+		rotation: { x: -22.6, y: 135, z: 0 }
+	},
+	fpHandTransform: {
+		rotation: { x: 0, y: -77, z: 0 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

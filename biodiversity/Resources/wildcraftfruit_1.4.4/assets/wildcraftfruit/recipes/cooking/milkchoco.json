@@ -1,0 +1,57 @@
+{
+	code: "milkchocolate",
+	isFood: true,
+	perishableProps: {
+		type: "None",
+		freshHours: { avg: 3360 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "wildcraftfruit:chocolate-milkchocolate", quantity: 2 }
+	},
+	shape: { base: "game:block/food/meal/liquid" },
+	ingredients: [
+		{
+			code: "cocoabutter", 
+			validStacks: [ 
+				{ type: "item", code: "wildcraftfruit:solidcocoabutter" },
+				{ type: "item", code: "wildcraftfruit:cocoabutter-solid" },
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 1,
+		},
+		{
+			code: "cocoapowder", 
+			validStacks: [ { type: "item", code: "wildcraftfruit:chocolate-cocoapowder" } ],
+			minQuantity: 1,
+			maxQuantity: 1
+		},
+		{ 
+			code: "milk", 
+			validStacks: [ 
+				{ 
+					type: "item", 
+					code: "game:milkportion", 
+					shapeElement: "game:bowl/water"
+				}
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 1,
+		},
+		{ 
+			code: "honey", 
+			validStacks: [ 
+				{ 
+					type: "item", 
+					code: "game:honeyportion", 
+					shapeElement: "game:bowl/water"
+				}
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 0.4,
+		}
+	],
+	cooksInto: { type: "Item", code: "wildcraftfruit:chocolate-milkchocolate", quantity: 2 }
+}

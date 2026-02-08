@@ -1,0 +1,221 @@
+{
+	"code": "perennialplant",
+	"classByType":{
+    "*": "HerbPlant"
+  },
+	"entityClassByType": {
+		"*-harvested": "Transient"
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["bearleek", "marjoram", "sage", "marshmallow", "mint", "saffron", "stjohnswort", "mugwort", "inula", "celandine", "leek", "plantain", "yarrow", "foxglove", "angelica", "rockrose", "horehound", "ginger", "burnet", "arnica", "cicuta", "tansy", "ginseng", "katuk"] },
+		{ "code": "state", "states": ["harvested", "normal"] }
+	],
+	"attributes": {
+    "WildcraftRhizomeProps": {
+        "DieWhenTempBelow": 0,
+        "DieWhenTempAbove": 50,
+        "comfortableTemperatureMin": 5,
+        "comfortableTemperatureMax": 35,
+        "dieAfterFruiting": true,
+        "growingDaysMin": 1,
+        "growingDaysMax": 2,
+        "fruitingDaysMin": 2,
+        "fruitingDaysMax": 4,
+        "growRange": 1,
+        "grownPlantNumberMin": 1,
+        "grownPlantNumberMax": 1
+    },
+    "butterflyFeedByType": {
+      "*-normal": true
+    },
+    "beeFeedByType": {
+      "*-normal": true
+    },
+    "transientPropsByType": {
+			"*-harvested": {
+				"convertFrom": "*-harvested", 
+				"convertTo": "*-normal", 
+				"inGameHours": "84",
+				"resetBelowTemperature": -4,
+				"stopBelowTemperature": 2
+			}
+		},
+    "resetBelowTemperature": -1,
+    "stopBelowTemperature": 4,
+    "revertBlockBelowTemperature": -4,
+
+    "resetAboveTemperature": 35,
+    "stopAboveTemperature": 30,
+    "revertBlockAboveTemperature": 38,
+    "forageStatAffected": true,
+    
+    "hasRootByType":{
+        "*-bearleek-*": "true",
+        "*-marshmallow-*": "true",
+        "*-burnet-*": "true",
+        "*-ginger-*": "true",
+        "*-ginseng-*": "true",
+        "*": "false"
+    },
+    "isPoisonousByType":{
+        "*":"false"
+    }
+  },
+  "randomDrawOffset": true,
+  "texturesByType": {
+    "*-inula-normal*":{
+      "inula_stem": {"base": "wildcraftherb:block/plant/leafygroundvegetable/inula_stem"},
+      "inula_leaf": {"base": "wildcraftherb:block/plant/leafygroundvegetable/inula_leaf"} 
+    },
+    "*-plantain-normal": {
+      "leaves": {"base": "wildcraftherb:block/plant/leafygroundvegetable/normal/plantain"},
+      "stems": {"base": "wildcraftherb:block/plant/leafygroundvegetable/normal/plantain_b"}
+    },
+    "*": {
+      "leaves": { "base": "wildcraftherb:block/plant/leafygroundvegetable/{state}/{type}*" }
+    }
+  },
+	"creativeinventory": {
+    "general": ["*-normal"],
+    "flora": ["*-normal"],
+    "wildcraftherb": [ "*-normal" ]
+  },
+  "shapeByType": {
+    "*-stingingnettle-*": { "base": "wildcraftherb:block/plant/stingingnettle/stingingnettle_normal*" },
+    "*-mugwort-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/sedge/sedge_untinted"},
+    "*-sedge-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/bushy_normal"},
+    "*-inula-normal*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/inula_normal*"},
+    "*-plantain-normal": {"base": "wildcraftherb:block/plant/leafygroundvegetable/plantain/plantain1"}, 
+    "*-katuk-*": { "base": "wildcraftherb:block/plant/leafygroundvegetable/katuk"},
+
+    "*-bearleek-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-marjoram-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-sage-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-marshmallow-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-mint-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-saffron-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-stjohnswort-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-celandine-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-leek-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-foxglove-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-yarrow-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-angelica-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-rockrose-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-horehound-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-ginger-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-arnica-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-burnet-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-ginseng-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-cicuta-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-tansy-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+
+
+
+    "@*-(bearleek|marjoram|sage|marshmallow|mint|saffron|stjohnswort|celandine|leek|foxglove)-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default_normal"}
+  },
+	"renderpass": "BlendNoCull",
+	"blockmaterial": "Plant",
+	"randomizeRotations": true,
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": null,
+	"selectionBox": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 },
+  "guiTransform": {
+    "rotation": { "x": -22, "y": 107, "z": 0 },
+    "origin": { "x": 0.3, "y": 0.5, "z": 0.4 },
+    "scale": 1.32
+  },
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.5
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.93, "y": -0.17, "z": -0.8 },
+		"rotation": { "x": 15, "y": -10, "z": -114 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.58
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"vertexFlags": {
+		"leavesWindWave": true
+	},
+	"materialDensity": 200,
+	"frostable": true,
+  "dropsByType": {
+    "*-bearleek-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:root-bearleek",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-marshmallow-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:root-marshmallow",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-burnet-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:root-burnet",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-ginger-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:root-ginger",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-ginseng-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:root-ginseng",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-stingingnettle-normal": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:herb-{type}",
+        "quantity": { "avg": 1.5 }
+      }
+    ],
+    "*-mugwort-normal": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:herb-{type}",
+        "quantity": { "avg": 2.5 }
+      }
+    ],
+    "*-sedge-normal": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:herb-{type}",
+        "quantity": { "avg": 2.5 }
+      }
+    ],
+    "*-normal": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:herb-{type}",
+        "quantity": { "avg": 1.5 }
+      }
+    ]
+  }
+}

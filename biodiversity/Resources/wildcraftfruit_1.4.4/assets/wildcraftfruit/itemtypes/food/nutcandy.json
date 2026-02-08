@@ -1,0 +1,154 @@
+{
+  "code": "nutcandy",
+  "maxstacksize": 64,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	variantgroups: [
+		{ code: "type", states: ["marzipan", "halva", "pacoca"] },
+	],
+  "materialDensityByType": {
+    "*": 600
+  },
+  "attributesByType": {
+		"*-marzipan": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-marzipan" },
+			nutritionPropsWhenInMeal: { satiety: 300, health: 2, foodcategory: "Fruit" },
+			inPieProperties: { texture: "block/food/pie/fill-marzipan", partType: 'Filling', allowMixing: false },
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": -0.02, "y": 0, "z": 0 },
+			  "rotation": { "x": 0, "y": 50, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.72
+	                },
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		}
+		},
+		"*-halva": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-halva" },
+			nutritionPropsWhenInMeal: { satiety: 300, health: 2, foodcategory: "Grain" },
+			inPieProperties: { texture: "block/food/pie/fill-halva", partType: 'Filling', allowMixing: false },
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		     	  "rotation": { "x": 0, "y": -69, "z": 0 },
+		          "origin": { "x": 0.52, "y": 0, "z": 0.52 },
+		          "scale": 0.72
+	                },
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		}
+		},
+		"*-pacoca": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-peanutground" },
+			nutritionPropsWhenInMeal: { satiety: 300, health: 2, foodcategory: "Protein" },
+			inPieProperties: { texture: "block/food/pie/fill-peanutground", partType: 'Filling', allowMixing: false },
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.06 },
+		          "rotation": { "x": 0, "y": 9, "z": 0 },
+		          "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		          "scale": 0.7
+	                },
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		}
+		},
+	},
+  "shapebytype": {
+    "*": { "base": "wildcraftfruit:item/fruit/{type}" }
+  },
+  "textureByType": {
+    "*": null
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "wildcraftfruit": [ "*" ]
+  },
+  "nutritionPropsByType": {
+   "*-pacoca": {
+      "satiety": 300,
+      "health": 1,
+      "foodcategory": "Protein"
+    },
+   "*-marzipan": {
+      "satiety": 300,
+      "health": 1,
+      "foodcategory": "Fruit"
+    },
+   "*-halva": {
+      "satiety": 300,
+      "health": 1,
+      "foodcategory": "Grain"
+    },
+  },
+  "transitionablePropsByType": {
+		"@*-(pacoca|marzipan|halva)": [{
+			type: "Perish",
+			freshHours: { avg: 2160 },
+			transitionHours: { avg: 144 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}]
+  },
+  "guiTransformByType": {
+	"*-pacoca": {
+       	 	translation: { x: 0, y: 0, z: 0 },
+       	 	rotation: { x: 152, y: 76, z: -8 },
+        	origin: { x: 0.6, y: 0.25, z: 0.5 },
+        	scale: 2.34
+	},
+	"*-marzipan": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -21, "y": -14, "z": 180 },
+		"origin": { "x": 0.59, "y": 0.03, "z": 0.4 },
+		"scale": 3.23
+	},
+	"*-halva": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -23, "y": -58, "z": 180 },
+		"origin": { "x": 0.62, "y": 0.09, "z": 0.45 },
+		"scale": 2.71
+	}
+  },
+	tpHandTransformByType: {
+	"@*-(marzipan|halva)": {
+		"translation": { "x": -0.36, "y": 0, "z": -0.6 },
+		"rotation": { "x": 44, "y": -164, "z": 72 },
+		"origin": { "x": 0, "y": -0, "z": 0.12 },
+		"scale": 0.56
+	},
+	"*-pacoca": {
+		origin: { x: 0.57, y: 0.75, z: 0.58 },
+		scale: 0.37
+	},
+	},
+	"groundTransformByType": {
+		"@*-(marzipan|halva)": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 3
+		},
+		"*-pacoca": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 2.68
+		}
+    },
+	heldTpIdleAnimationByType: {
+		"@*-(marzipan|halva)": "holdbothhands",
+	},
+	"heldRightReadyAnimationByType": {
+		"@*-(marzipan|halva)": "holdbothhands"
+	},
+}

@@ -1,0 +1,20 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/attributes/juiceablePropertiesByType",
+		"value": { 
+			"*-carrot": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-carrot", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-carrot", stacksize: 1 }
+			},
+			"*-pumpkin": {
+				litresPerItem: 0.625,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-pumpkin", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-pumpkin", stacksize: 1 }
+			},
+			"*": null,
+		},
+		"file": "game:itemtypes/food/vegetable.json"
+	},
+]

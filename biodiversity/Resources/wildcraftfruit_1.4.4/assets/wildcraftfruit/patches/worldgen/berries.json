@@ -1,0 +1,4097 @@
+[
+  {
+    "op": "replace",
+    "path": "/0",
+    "value": {
+      "comment": "Patches of black currant",
+      "blockCodes": [
+        "game:bigberrybush-blackcurrant-empty",
+        "game:bigberrybush-blackcurrant-flowering",
+        "game:bigberrybush-blackcurrant-ripe"
+      ],
+      "minTemp": -2,
+      "maxTemp": 18,
+      "minRain": 0.5,
+      "maxRain": 1,
+      "minForest": 0.3,
+      "maxY": 0.62,
+      "chance": 0.06,
+      "quantity": { dist: "invexp", avg: 2, var: 8 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "replace",
+    "path": "/1",
+    "value": {
+      "comment": "Patches of red currant",
+      "blockCodes": [
+        "game:bigberrybush-redcurrant-empty",
+        "game:bigberrybush-redcurrant-flowering",
+        "game:bigberrybush-redcurrant-ripe"
+      ],
+      "minTemp": -5,
+      "maxTemp": 16,
+      "minRain": 0.5,
+      "maxRain": 1,
+      "minForest": 0.4,
+      "maxY": 0.62,
+      "chance": 0.06,
+      "quantity": { dist: "invexp", avg: 2, var: 8 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "replace",
+    "path": "/2",
+    "value": {
+      "comment": "Patches of white currant",
+      "blockCodes": [
+        "game:bigberrybush-whitecurrant-empty",
+        "game:bigberrybush-whitecurrant-flowering",
+        "game:bigberrybush-redcurrant-ripe"
+      ],
+      "minTemp": 0,
+      "maxTemp": 20,
+      "minRain": 0.5,
+      "maxRain": 1,
+      "minForest": 0.5,
+      "maxY": 0.62,
+      "chance": 0.03,
+      "quantity": { dist: "invexp", avg: 2, var: 8 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "replace",
+    "path": "/3",
+    "value": {
+      "comment": "Patches of blueberries",
+      "blockCodes": [
+        "game:smallberrybush-blueberry-empty",
+        "game:smallberrybush-blueberry-flowering",
+        "game:smallberrybush-blueberry-ripe"
+      ],
+      "minTemp": -10,
+      "maxTemp": 12,
+      "minRain": 0.6,
+      "maxRain": 1,
+      "maxForest": 0.5,
+      "chance": 0.05,
+      "maxY": 0.16,
+      "offsetX": { dist: "gaussian", avg: 0, var: 15 },
+      "offsetZ": { dist: "gaussian", avg: 0, var: 15 },
+      "quantity": { avg: 5, var: 12 },
+      "placement": "OnSurface"
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "replace",
+    "path": "/4",
+    "value": {
+      "comment": "Patches of cranberries",
+      "blockCodes": [
+        "game:smallberrybush-cranberry-empty",
+        "game:smallberrybush-cranberry-flowering",
+        "game:smallberrybush-cranberry-ripe"
+      ],
+      "minTemp": -10,
+      "maxTemp": 12,
+      "minRain": 0.6,
+      "maxRain": 1,
+      "maxForest": 0.3,
+      "chance": 0.05,
+      "maxY": 0.16,
+      "offsetX": { dist: "gaussian", avg: 0, var: 15 },
+      "offsetZ": { dist: "gaussian", avg: 0, var: 15 },
+      "quantity": { avg: 5, var: 12 },
+      "placement": "OnSurface"
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Rare large patches of hybrid josta bushes",
+      "blockCodes": [
+        "game:bigberrybush-blackcurrant-empty",
+        "game:bigberrybush-blackcurrant-flowering",
+        "game:bigberrybush-blackcurrant-ripe",
+        "wildcraftfruit:berrybush-josta-empty",
+        "wildcraftfruit:berrybush-josta-flowering",
+        "wildcraftfruit:berrybush-josta-ripe"
+      ],
+      "minTemp": 4,
+      "maxTemp": 16,
+      "minRain": 0.5,
+      "maxRain": 1,
+      "minForest": 0.3,
+      "maxY": 0.62,
+      "chance": 0.01,
+      "quantity": { dist: "invexp", avg: 3, var: 8 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Rare large patches of snowberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:berrybush-snowberry-empty",
+        "wildcraftfruit:berrybush-snowberry-flowering",
+        "wildcraftfruit:berrybush-snowberry-ripe"
+      ],
+      "minTemp": 0,
+      "maxTemp": 16,
+      "minRain": 0.5,
+      "maxRain": 0.8,
+      "minForest": 0.4,
+      "maxY": 0.13,
+      "chance": 0.005,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 },
+      "offsetX": { "dist": "gaussian", "avg": 0, "var": 8 },
+      "offsetZ": { "dist": "gaussian", "avg": 0, "var": 8 }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Patches of snowberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:berrybush-snowberry-empty",
+        "wildcraftfruit:berrybush-snowberry-flowering",
+        "wildcraftfruit:berrybush-snowberry-ripe"
+      ],
+      "minTemp": 0,
+      "maxTemp": 16,
+      "minRain": 0.5,
+      "maxRain": 0.8,
+      "minForest": 0.4,
+      "maxY": 0.13,
+      "chance": 0.04,
+      "quantity": { "dist": "invexp", "avg": 3, "var": 10 },
+      "offsetX": { "dist": "gaussian", "avg": 0, "var": 8 },
+      "offsetZ": { "dist": "gaussian", "avg": 0, "var": 8 }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Patches of mountain huckleberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:berrybush-huckleberry-empty",
+        "wildcraftfruit:berrybush-huckleberry-flowering",
+        "wildcraftfruit:berrybush-huckleberry-ripe"
+      ],
+      "minTemp": -6,
+      "maxTemp": 16,
+      "minRain": 0.3,
+      "maxRain": 1,
+      "chance": 0.04,
+      "minY": 0.15,
+      "minFertility": 0.2,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 3,
+        "var": 10
+      }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Rare large patches of mountain huckleberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:berrybush-huckleberry-empty",
+        "wildcraftfruit:berrybush-huckleberry-flowering",
+        "wildcraftfruit:berrybush-huckleberry-ripe"
+      ],
+      "minTemp": -6,
+      "maxTemp": 16,
+      "minRain": 0.3,
+      "maxRain": 1,
+      "chance": 0.008,
+      "minY": 0.15,
+      "minFertility": 0.2,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 15,
+        "var": 15
+      }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Patches of raspberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:pricklyberrybush-raspberry-empty",
+        "wildcraftfruit:pricklyberrybush-raspberry-flowering",
+        "wildcraftfruit:pricklyberrybush-raspberry-ripe"
+      ],
+      "minTemp": -4,
+      "maxTemp": 18,
+      "maxRain": 0.8,
+      "maxFertility": 0.5,
+      "maxForest": 0.5,
+      "maxY": 0.16,
+      "chance": 0.02,
+      "placement": "OnSurface",
+      "quantity": { "dist": "invexp", "avg": 2, "var": 5 }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Patches of hybrid loganberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:pricklyberrybush-raspberry-empty",
+        "wildcraftfruit:pricklyberrybush-raspberry-flowering",
+        "wildcraftfruit:pricklyberrybush-raspberry-ripe",
+        "wildcraftfruit:pricklyberrybush-loganberry-empty",
+        "wildcraftfruit:pricklyberrybush-loganberry-flowering",
+        "wildcraftfruit:pricklyberrybush-loganberry-ripe"
+      ],
+      "minTemp": 8,
+      "maxTemp": 18,
+      "minRain": 0.5,
+      "maxForest": 0.5,
+      "maxY": 0.16,
+      "chance": 0.005,
+      "placement": "OnSurface",
+      "quantity": { "dist": "invexp", "avg": 2, "var": 5 }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Rare large patches of raspberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:pricklyberrybush-raspberry-empty",
+        "wildcraftfruit:pricklyberrybush-raspberry-flowering",
+        "wildcraftfruit:pricklyberrybush-raspberry-ripe"
+      ],
+      "minTemp": -4,
+      "maxTemp": 18,
+      "maxRain": 0.8,
+      "maxFertility": 0.5,
+      "maxForest": 0.5,
+      "maxY": 0.16,
+      "chance": 0.005,
+      "placement": "OnSurface",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of blue raspberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-blueraspberry-empty",
+          "wildcraftfruit:pricklyberrybush-blueraspberry-flowering",
+          "wildcraftfruit:pricklyberrybush-blueraspberry-ripe"
+        ],
+        "minTemp": -4,
+        "maxTemp": 24,
+        "minRain": 0.8,
+        "minForest": 0.5,
+        "chance": 0.001,
+        "quantity": { "dist": "invexp", "avg": 3, "var": 6 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of dwarf elderberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-elderberry-empty",
+          "wildcraftfruit:shrubberrybush-elderberry-flowering",
+          "wildcraftfruit:shrubberrybush-elderberry-ripe"
+        ],
+        "minTemp": 0,
+        "maxTemp": 18,
+        "minRain": 0.6,
+        "maxForest": 0.6,
+        "chance": 0.04,
+	"maxY": 0.1,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of paper lantern plants",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-husktomato-empty",
+          "wildcraftfruit:shrubberrybush-husktomato-flowering",
+          "wildcraftfruit:shrubberrybush-husktomato-ripe"
+        ],
+        "minTemp": 6,
+        "maxTemp": 14,
+        "minRain": 0.7,
+        "minForest": 0.6,
+        "chance": 0.025,
+	"maxY": 0.12,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of green strawberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-greenstrawberry-empty",
+          "wildcraftfruit:groundberryplant-greenstrawberry-flowering",
+          "wildcraftfruit:groundberryplant-greenstrawberry-ripe"
+        ],
+        "minTemp": 2,
+        "maxTemp": 20,
+        "minRain": 0.5,
+        "maxForest": 0.5,
+        "minFertility": 0.5,
+	"maxY": 0.12,
+        "chance": 0.03,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of bunchberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-bunchberry-empty",
+          "wildcraftfruit:groundberryplant-bunchberry-flowering",
+          "wildcraftfruit:groundberryplant-bunchberry-ripe"
+        ],
+        "minTemp": -20,
+        "maxTemp": 4,
+        "minRain": 0.4,
+        "minForest": 0.2,
+        "maxForest": 0.8,
+	"maxY": 0.3,
+        "chance": 0.04,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of crowberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-crowberry-empty",
+          "wildcraftfruit:groundberryplant-crowberry-flowering",
+          "wildcraftfruit:groundberryplant-crowberry-ripe"
+        ],
+        "minTemp": -20,
+        "maxTemp": 2,
+        "minRain": 0.2,
+        "maxForest": 0.5,
+	"maxY": 0.12,
+        "chance": 0.04,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Rare huge patches of crowberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-crowberry-empty",
+          "wildcraftfruit:groundberryplant-crowberry-flowering",
+          "wildcraftfruit:groundberryplant-crowberry-ripe"
+        ],
+        "minTemp": -20,
+        "maxTemp": 2,
+        "minRain": 0.2,
+        "maxForest": 0.5,
+	"maxY": 0.12,
+        "chance": 0.005,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 50,
+          "var": 25
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of cloudberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-cloudberry-empty",
+          "wildcraftfruit:groundberryplant-cloudberry-flowering",
+          "wildcraftfruit:groundberryplant-cloudberry-ripe"
+        ],
+        "minTemp": -14,
+        "maxTemp": 8,
+        "minRain": 0.5,
+        "maxForest": 0.6,
+        "minFertility": 0.6,
+        "chance": 0.02,
+	"maxY": 0.12,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of blue honeysuckle bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-honeysuckle-empty",
+          "wildcraftfruit:berrybush-honeysuckle-flowering",
+          "wildcraftfruit:berrybush-honeysuckle-ripe"
+        ],
+        "minTemp": -8,
+        "maxTemp": 10,
+        "minRain": 0.6,
+        "maxRain": 1,
+	"maxY": 0.12,
+        "maxForest": 0.75,
+        "maxFertility": 0.5,
+        "chance": 0.03,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Large patches of blue honeysuckle bushes in wetlands",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-honeysuckle-empty",
+          "wildcraftfruit:berrybush-honeysuckle-flowering",
+          "wildcraftfruit:berrybush-honeysuckle-ripe"
+        ],
+        "minTemp": -8,
+        "maxTemp": 10,
+        "minRain": 0.6,
+        "maxRain": 1,
+        "maxForest": 0.4,
+	"maxY": 0.12,
+        "maxFertility": 0.5,
+        "chance": 0.08,
+        "placement": "NearWater",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 10,
+          "var": 20
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of mezereon bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-wolfberry-empty",
+          "wildcraftfruit:berrybush-wolfberry-flowering",
+          "wildcraftfruit:berrybush-wolfberry-ripe"
+        ],
+        "minTemp": -16,
+        "maxTemp": 6,
+        "minRain": 0.5,
+        "minForest": 0.6,
+        "minFertility": 0.3,
+        "chance": 0.05,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of blackberry bushes in forest",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-brambleberry-empty",
+          "wildcraftfruit:pricklyberrybush-brambleberry-flowering",
+          "wildcraftfruit:pricklyberrybush-brambleberry-ripe"
+        ],
+        "minTemp": 10,
+        "maxTemp": 18,
+        "minRain": 0.5,
+        "minForest": 0.5,
+        "chance": 0.03,
+        "quantity": { "dist": "invexp", "avg": 3, "var": 10 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of hybrid loganberry bushes in forest",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-brambleberry-empty",
+          "wildcraftfruit:pricklyberrybush-brambleberry-flowering",
+          "wildcraftfruit:pricklyberrybush-brambleberry-ripe",
+          "wildcraftfruit:pricklyberrybush-loganberry-empty",
+          "wildcraftfruit:pricklyberrybush-loganberry-flowering",
+          "wildcraftfruit:pricklyberrybush-loganberry-ripe"
+        ],
+        "minTemp": 10,
+        "maxTemp": 16,
+        "minRain": 0.5,
+        "minForest": 0.5,
+        "chance": 0.01,
+        "quantity": { "dist": "invexp", "avg": 3, "var": 10 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Rare large patches of blackberry bushes in forest",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-brambleberry-empty",
+          "wildcraftfruit:pricklyberrybush-brambleberry-flowering",
+          "wildcraftfruit:pricklyberrybush-brambleberry-ripe"
+        ],
+        "minTemp": 10,
+        "maxTemp": 18,
+        "minRain": 0.5,
+        "minForest": 0.5,
+        "chance": 0.005,
+        quantity: { dist: "invexp", avg: 15, var: 15 },
+        offsetX: { dist: "gaussian", avg: 0, var: 12 },
+        offsetZ: { dist: "gaussian", avg: 0, var: 12 },
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Rare huge patches of blackberry bushes in forest",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-brambleberry-empty",
+          "wildcraftfruit:pricklyberrybush-brambleberry-flowering",
+          "wildcraftfruit:pricklyberrybush-brambleberry-ripe"
+        ],
+        "minTemp": 10,
+        "maxTemp": 18,
+        "minRain": 0.5,
+        "minForest": 0.5,
+        "chance": 0.001,
+        quantity: { dist: "invexp", avg: 100, var: 50 },
+        offsetX: { dist: "gaussian", avg: 0, var: 24 },
+        offsetZ: { dist: "gaussian", avg: 0, var: 24 },
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of beach rose bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-beachrose-empty",
+          "wildcraftfruit:pricklyberrybush-beachrose-flowering",
+          "wildcraftfruit:pricklyberrybush-beachrose-ripe"
+        ],
+        "minTemp": 12,
+        "maxTemp": 24,
+        "minRain": 0.4,
+        "maxRain": 0.8,
+        "chance": 0.05,
+        "maxForest": 0.4,
+	"maxY": 0.16,
+        "minFertility": 0.1,
+        "placement": "OnSurface",
+        "quantity": { "dist": "invexp", "avg": 2, "var": 4 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Rare large patches of beach rose bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-beachrose-empty",
+          "wildcraftfruit:pricklyberrybush-beachrose-flowering",
+          "wildcraftfruit:pricklyberrybush-beachrose-ripe"
+        ],
+        "minTemp": 12,
+        "maxTemp": 24,
+        "minRain": 0.4,
+        "maxRain": 0.8,
+        "chance": 0.005,
+        "maxForest": 0.4,
+	"maxY": 0.16,
+        "minFertility": 0.1,
+        "placement": "OnSurface",
+        "quantity": { "dist": "invexp", "avg": 10, "var": 15 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of dogrose bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-dogrose-empty",
+          "wildcraftfruit:pricklyberrybush-dogrose-flowering",
+          "wildcraftfruit:pricklyberrybush-dogrose-ripe"
+        ],
+        "minTemp": -10,
+        "maxTemp": 8,
+        "minRain": 0.3,
+        "maxRain": 0.8,
+        "chance": 0.05,
+	"maxY": 0.16,
+        "minFertility": 0.1,
+        "placement": "OnSurface",
+        "maxForest": 0.45,
+        "quantity": { "dist": "invexp", "avg": 2, "var": 4 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of gooseberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-gooseberry-empty",
+          "wildcraftfruit:pricklyberrybush-gooseberry-flowering",
+          "wildcraftfruit:pricklyberrybush-gooseberry-ripe"
+        ],
+        "minTemp": -2,
+        "maxTemp": 18,
+        "minRain": 0.3,
+        "maxRain": 0.8,
+	"minY": 0.12,
+        "chance": 0.12,
+        "quantity": {
+          "dist": "invexp",
+          "avg": 2,
+          "var": 4
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of hybrid jostaberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-gooseberry-empty",
+          "wildcraftfruit:pricklyberrybush-gooseberry-flowering",
+          "wildcraftfruit:pricklyberrybush-gooseberry-ripe",
+          "wildcraftfruit:berrybush-josta-empty",
+          "wildcraftfruit:berrybush-josta-flowering",
+          "wildcraftfruit:berrybush-josta-ripe"
+        ],
+        "minTemp": 4,
+        "maxTemp": 16,
+        "minRain": 0.3,
+        "maxRain": 0.8,
+	"minY": 0.12,
+        "chance": 0.04,
+        "quantity": {
+          "dist": "invexp",
+          "avg": 2,
+          "var": 4
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of seaberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-sallowthorn-empty",
+          "wildcraftfruit:pricklyberrybush-sallowthorn-flowering",
+          "wildcraftfruit:pricklyberrybush-sallowthorn-ripe"
+        ],
+        "minTemp": -14,
+        "maxTemp": 10,
+        "minRain": 0.3,
+        "chance": 0.03,
+	"maxY": 0.1,
+        "placement": "OnSurface",
+        "maxForest": 0.4,
+        "quantity": {
+          "dist": "invexp",
+          "avg": 2,
+          "var": 4
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Large patches of seaberry bushes on shores",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-sallowthorn-empty",
+          "wildcraftfruit:pricklyberrybush-sallowthorn-flowering",
+          "wildcraftfruit:pricklyberrybush-sallowthorn-ripe"
+        ],
+        "minTemp": -14,
+        "maxTemp": 10,
+        "minRain": 0.3,
+        "chance": 0.08,
+	"maxY": 0.1,
+        "placement": "NearWater",
+        "maxForest": 0.4,
+        "quantity": {
+          "dist": "invexp",
+          "avg": 8,
+          "var": 15
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of desert hackberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-deserthackberry-empty",
+          "wildcraftfruit:pricklyberrybush-deserthackberry-flowering",
+          "wildcraftfruit:pricklyberrybush-deserthackberry-ripe"
+        ],
+        "minTemp": 12,
+        "maxTemp": 40,
+        "minRain": 0,
+        "maxRain": 0.3,
+        "chance": 0.02,
+	"maxY": 0.14,
+        "maxForest": 0.2,
+        "quantity": { "dist": "invexp", "avg": 3, "var": 8 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of spindle bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-spindle-empty",
+          "wildcraftfruit:berrybush-spindle-flowering",
+          "wildcraftfruit:berrybush-spindle-ripe"
+        ],
+        "minTemp": -2,
+        "maxTemp": 14,
+        "minRain": 0.5,
+        "minForest": 0.7,
+        "chance": 0.03,
+	"maxY": 0.16,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 2,
+          "var": 4
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of feijoa bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-feijoa-empty",
+          "wildcraftfruit:berrybush-feijoa-flowering",
+          "wildcraftfruit:berrybush-feijoa-ripe"
+        ],
+        "minTemp": 26,
+        "maxTemp": 40,
+        "minRain": 0.7,
+        "minForest": 0.7,
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 2,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of kumquat bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-kumquat-empty",
+          "wildcraftfruit:berrybush-kumquat-flowering",
+          "wildcraftfruit:berrybush-kumquat-ripe"
+        ],
+        "minTemp": 22,
+        "maxTemp": 40,
+        "minRain": 0.5,
+        "minForest": 0.6,
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 2,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of beautyberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-beautyberry-empty",
+          "wildcraftfruit:berrybush-beautyberry-flowering",
+          "wildcraftfruit:berrybush-beautyberry-ripe"
+        ],
+        "minTemp": 12,
+        "maxTemp": 18,
+        "minRain": 0.6,
+        "minForest": 0.4,
+        "placement": "OnSurface",
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of knyazberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-knyazberry-empty",
+          "wildcraftfruit:groundberryplant-knyazberry-flowering",
+          "wildcraftfruit:groundberryplant-knyazberry-ripe"
+        ],
+        "minTemp": -14,
+        "maxTemp": 6,
+        "minRain": 0.5,
+        "maxForest": 0.6,
+        "minFertility": 0.3,
+        "chance": 0.02,
+	"maxY": 0.12,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of lingonberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-lingonberry-empty",
+          "wildcraftfruit:groundberryplant-lingonberry-flowering",
+          "wildcraftfruit:groundberryplant-lingonberry-ripe"
+        ],
+        "minTemp": -20,
+        "maxTemp": 6,
+        "minRain": 0.4,
+        "maxForest": 0.5,
+	"maxY": 0.12,
+        "chance": 0.04,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Rare huge patches of lingonberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-lingonberry-empty",
+          "wildcraftfruit:groundberryplant-lingonberry-flowering",
+          "wildcraftfruit:groundberryplant-lingonberry-ripe"
+        ],
+        "minTemp": -20,
+        "maxTemp": 2,
+        "minRain": 0.4,
+        "maxForest": 0.5,
+	"maxY": 0.12,
+        "chance": 0.005,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 50,
+          "var": 25
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of sumac bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-sumac-empty",
+          "wildcraftfruit:berrybush-sumac-flowering",
+          "wildcraftfruit:berrybush-sumac-ripe"
+        ],
+        "minTemp": 12,
+        "maxTemp": 40,
+        "minRain": 0.1,
+        "maxRain": 0.4,
+        "chance": 0.2,
+        "maxForest": 0.4,
+        "placement": "NearWater",
+        "quantity": { "dist": "invexp", "avg": 10, "var": 20 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of southern juniper bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-juniper-empty",
+          "wildcraftfruit:berrybush-juniper-flowering",
+          "wildcraftfruit:berrybush-juniper-ripe"
+        ],
+        "minTemp": 20,
+        "maxTemp": 40,
+        "minRain": 0,
+        "maxRain": 0.4,
+        "chance": 0.04,
+	"minY": 0.12,
+        "maxForest": 0.4,
+        "quantity": { "dist": "invexp", "avg": 2, "var": 4 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of northern juniper bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-juniper-empty",
+          "wildcraftfruit:berrybush-juniper-flowering",
+          "wildcraftfruit:berrybush-juniper-ripe"
+        ],
+        "minTemp": -15,
+        "maxTemp": 6,
+        "minRain": 0.4,
+        "maxRain": 0.9,
+        "chance": 0.04,
+	"minY": 0.12,
+        "maxForest": 0.4,
+        "quantity": { "dist": "invexp", "avg": 5, "var": 10 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of ugni bushes",
+        "blockCodes": [
+          "wildcraftfruit:shortberrybush-ugni-empty",
+          "wildcraftfruit:shortberrybush-ugni-flowering",
+          "wildcraftfruit:shortberrybush-ugni-ripe"
+        ],
+        "minTemp": 24,
+        "maxTemp": 40,
+        "minRain": 0.7,
+        "minForest": 0.7,
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of dwarf pine bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-dwarfpine-empty",
+          "wildcraftfruit:berrybush-dwarfpine-flowering",
+          "wildcraftfruit:berrybush-dwarfpine-ripe"
+        ],
+        "minTemp": -20,
+        "maxTemp": 2,
+        "minRain": 0.3,
+        "maxRain": 0.8,
+        "chance": 0.04,
+        "maxForest": 0.6,
+        "quantity": { "dist": "invexp", "avg": 3, "var": 8 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Rare large patches of dwarf pine bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-dwarfpine-empty",
+          "wildcraftfruit:berrybush-dwarfpine-flowering",
+          "wildcraftfruit:berrybush-dwarfpine-ripe"
+        ],
+        "minTemp": -20,
+        "maxTemp": 2,
+        "minRain": 0.3,
+        "maxRain": 0.8,
+        "chance": 0.001,
+        "maxForest": 0.6,
+        quantity: { dist: "invexp", avg: 50, var: 25 },
+        offsetX: { dist: "gaussian", avg: 0, var: 24 },
+        offsetZ: { dist: "gaussian", avg: 0, var: 24 },
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of pokeweeds",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-pokeberry-empty",
+          "wildcraftfruit:shrubberrybush-pokeberry-flowering",
+          "wildcraftfruit:shrubberrybush-pokeberry-ripe"
+        ],
+        "minTemp": 14,
+        "maxTemp": 22,
+        "minRain": 0.6,
+        "minForest": 0.3,
+        "chance": 0.04,
+        "placement": "OnSurface",
+	"maxY": 0.12,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of turk's cap plants",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-turkscap-empty",
+          "wildcraftfruit:shrubberrybush-turkscap-flowering",
+          "wildcraftfruit:shrubberrybush-turkscap-ripe"
+        ],
+        "minTemp": 20,
+        "maxTemp": 30,
+        "minRain": 0.5,
+        "maxRain": 0.8,
+        "minForest": 0.4,
+        "chance": 0.03,
+        "placement": "OnSurface",
+	"maxY": 0.12,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of fractureberries",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-fractureberry-empty",
+          "wildcraftfruit:shrubberrybush-fractureberry-flowering",
+          "wildcraftfruit:shrubberrybush-fractureberry-ripe"
+        ],
+        "minTemp": -20,
+        "maxTemp": 40,
+        "chance": 1,
+        "placement": "Underground",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 7,
+          "var": 5
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of crow's eye bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-crowseye-empty",
+          "wildcraftfruit:groundberryplant-crowseye-flowering",
+          "wildcraftfruit:groundberryplant-crowseye-ripe"
+        ],
+        "minTemp": -2,
+        "maxTemp": 14,
+        "minRain": 0.3,
+        "minFertility": 0.5,
+	"maxY": 0.12,
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 15
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of false strawberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-falsestrawberry-empty",
+          "wildcraftfruit:groundberryplant-falsestrawberry-flowering",
+          "wildcraftfruit:groundberryplant-falsestrawberry-ripe"
+        ],
+        "minTemp": 12,
+        "maxTemp": 22,
+        "minRain": 0.5,
+        "maxForest": 0.6,
+        "minFertility": 0.5,
+	"maxY": 0.12,
+        "chance": 0.03,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 15
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of pistachio bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-pistachio-empty",
+          "wildcraftfruit:berrybush-pistachio-flowering",
+          "wildcraftfruit:berrybush-pistachio-ripe"
+        ],
+        "minTemp": 24,
+        "maxTemp": 40,
+        "minRain": 0.25,
+        "maxRain": 0.5,
+        "chance": 0.01,
+        "maxFertility": 0.5,
+        "placement": "OnSurface",
+        "quantity": { "dist": "invexp", "avg": 2, "var": 4 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of black nightshade bushes",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-blacknightshade-empty",
+          "wildcraftfruit:shrubberrybush-blacknightshade-flowering",
+          "wildcraftfruit:shrubberrybush-blacknightshade-ripe"
+        ],
+        "minTemp": -8,
+        "maxTemp": 12,
+        "minRain": 0.5,
+        "chance": 0.03,
+	"maxY": 0.1,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of bitter nightshade bushes",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-bitternightshade-empty",
+          "wildcraftfruit:shrubberrybush-bitternightshade-flowering",
+          "wildcraftfruit:shrubberrybush-bitternightshade-ripe"
+        ],
+        "minTemp": 0,
+        "maxTemp": 22,
+        "minRain": 0.5,
+        "chance": 0.03,
+	"maxY": 0.1,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of naranjilla bushes",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-naranjilla-empty",
+          "wildcraftfruit:shrubberrybush-naranjilla-flowering",
+          "wildcraftfruit:shrubberrybush-naranjilla-ripe"
+        ],
+        "minTemp": 26,
+        "maxTemp": 40,
+        "minRain": 0.6,
+        "chance": 0.03,
+	"maxY": 0.12,
+        "minForest": 0.5,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of numnum bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyshortbush-numnum-empty",
+          "wildcraftfruit:pricklyshortbush-numnum-flowering",
+          "wildcraftfruit:pricklyshortbush-numnum-ripe"
+        ],
+        "minTemp": 26,
+        "maxTemp": 40,
+        "minRain": 0.5,
+        "chance": 0.03,
+	"maxY": 0.12,
+        "minForest": 0.5,
+      "quantity": { "dist": "invexp", "avg": 3, "var": 10 },
+      "offsetX": { "dist": "gaussian", "avg": 0, "var": 8 },
+      "offsetZ": { "dist": "gaussian", "avg": 0, "var": 8 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of prickly heath bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyshortbush-pricklyheath-empty",
+          "wildcraftfruit:pricklyshortbush-pricklyheath-flowering",
+          "wildcraftfruit:pricklyshortbush-pricklyheath-ripe"
+        ],
+        "minTemp": 14,
+        "maxTemp": 24,
+        "minRain": 0.6,
+        "chance": 0.02,
+	"minY": 0.14,
+      "quantity": { "dist": "invexp", "avg": 3, "var": 8 },
+      "offsetX": { "dist": "gaussian", "avg": 0, "var": 8 },
+      "offsetZ": { "dist": "gaussian", "avg": 0, "var": 8 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of coral bead bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-coralbead-empty",
+          "wildcraftfruit:groundberryplant-coralbead-flowering",
+          "wildcraftfruit:groundberryplant-coralbead-ripe"
+        ],
+        "minTemp": 24,
+        "maxTemp": 46,
+        "minRain": 0.5,
+        "maxForest": 0.7,
+	"maxY": 0.12,
+        "chance": 0.03,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of flax lily bushes",
+        "blockCodes": [
+          "wildcraftfruit:shortberrybush-flaxlily-empty",
+          "wildcraftfruit:shortberrybush-flaxlily-flowering",
+          "wildcraftfruit:shortberrybush-flaxlily-ripe"
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.6,
+        "maxRain": 0.9,
+        "minForest": 0.3,
+        "maxForest": 0.9,
+        "placement": "OnSurface",
+        "chance": 0.06,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of kawakawa bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-kawakawa-empty",
+          "wildcraftfruit:berrybush-kawakawa-flowering",
+          "wildcraftfruit:berrybush-kawakawa-ripe"
+        ],
+        "minTemp": 26,
+        "maxTemp": 40,
+        "minRain": 0.6,
+        "minForest": 0.7,
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 2,
+          "var": 6
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of bush lawyer bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyshortbush-bushlawyer-empty",
+          "wildcraftfruit:pricklyshortbush-bushlawyer-flowering",
+          "wildcraftfruit:pricklyshortbush-bushlawyer-ripe"
+        ],
+        "minTemp": 26,
+        "maxTemp": 40,
+        "minRain": 0.75,
+        "minForest": 0.6,
+        "chance": 0.04,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of pink lilly pilly bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-lillypillypink-empty",
+          "wildcraftfruit:berrybush-lillypillypink-flowering",
+          "wildcraftfruit:berrybush-lillypillypink-ripe"
+        ],
+        "minTemp": 27,
+        "maxTemp": 46,
+        "minRain": 0.6,
+        "maxRain": 0.9,
+        "minForest": 0.5,
+        "maxForest": 1,
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of blue lilly pilly bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-lillypillyblue-empty",
+          "wildcraftfruit:berrybush-lillypillyblue-flowering",
+          "wildcraftfruit:berrybush-lillypillyblue-ripe"
+        ],
+        "minTemp": 27,
+        "maxTemp": 48,
+        "minRain": 0.75,
+        "maxRain": 1,
+        "minForest": 0.65,
+        "maxForest": 1,
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of white lilly pilly bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-lillypillywhite-empty",
+          "wildcraftfruit:berrybush-lillypillywhite-flowering",
+          "wildcraftfruit:berrybush-lillypillywhite-ripe"
+        ],
+        "minTemp": 19,
+        "maxTemp": 25,
+        "minRain": 0.7,
+        "maxRain": 1,
+        "minForest": 0.65,
+        "maxForest": 1,
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of honey-pots bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-honeypots-empty",
+          "wildcraftfruit:groundberryplant-honeypots-flowering",
+          "wildcraftfruit:groundberryplant-honeypots-ripe"
+        ],
+        "minTemp": 16,
+        "maxTemp": 32,
+        "minRain": 0.5,
+        "minForest": 0.3,
+        "minY": 0.11,
+        "chance": 0.1,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 6
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 4
+        },
+        "quantity": {
+          "avg": 10,
+          "var": 15
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of creeping pine bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-creepingpine-empty",
+          "wildcraftfruit:groundberryplant-creepingpine-flowering",
+          "wildcraftfruit:groundberryplant-creepingpine-ripe"
+        ],
+        "minTemp": 16,
+        "maxTemp": 42,
+        "maxRain": 0.5,
+        "maxForest": 0.7,
+        "minY": 0.12,
+        "chance": 0.1,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 6
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 4
+        },
+        "quantity": {
+          "avg": 10,
+          "var": 15
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of sea mango bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-seamango-empty",
+          "wildcraftfruit:berrybush-seamango-flowering",
+          "wildcraftfruit:berrybush-seamango-ripe"
+        ],
+        "minTemp": 26,
+        "maxTemp": 40,
+        "minRain": 0.65,
+        "maxRain": 1,
+        "minForest": 0.6,
+        "maxForest": 1,
+        "placement": "NearWater",
+        "chance": 0.16,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 4,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of cheeseberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-cheeseberry-empty",
+          "wildcraftfruit:groundberryplant-cheeseberry-flowering",
+          "wildcraftfruit:groundberryplant-cheeseberry-ripe"
+        ],
+        "minTemp": 24,
+        "maxTemp": 46,
+        "minRain": 0.5,
+        "maxRain": 0.9,
+        "minForest": 0.4,
+        "maxForest": 0.9,
+        "minY": 0.11,
+        "chance": 0.08,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of pine heath bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-pineheath-empty",
+          "wildcraftfruit:groundberryplant-pineheath-flowering",
+          "wildcraftfruit:groundberryplant-pineheath-ripe"
+        ],
+        "minTemp": 18,
+        "maxTemp": 32,
+        "minRain": 0.5,
+        "minForest": 0.3,
+        "maxY": 0.14,
+        "chance": 0.02,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of finger lime bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-fingerlime-empty",
+          "wildcraftfruit:pricklyberrybush-fingerlime-flowering",
+          "wildcraftfruit:pricklyberrybush-fingerlime-ripe"
+        ],
+        "minTemp": 20,
+        "maxTemp": 30,
+        "minRain": 0.65,
+        "minForest": 0.5,
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 2,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of munthari bushes",
+        "blockCodes": [
+          "wildcraftfruit:shortberrybush-munthari-empty",
+          "wildcraftfruit:shortberrybush-munthari-flowering",
+          "wildcraftfruit:shortberrybush-munthari-ripe"
+        ],
+        "minTemp": 26,
+        "maxTemp": 44,
+        "minRain": 0.3,
+        "maxRain": 0.7,
+        "minForest": 0,
+        "maxForest": 0.5,
+        "maxFertility": 0.5,
+        "chance": 0.015,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 4,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of oldman saltbushes",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-oldmansaltbush-empty",
+          "wildcraftfruit:shrubberrybush-oldmansaltbush-flowering",
+          "wildcraftfruit:shrubberrybush-oldmansaltbush-ripe"
+        ],
+        "minTemp": 26,
+        "maxTemp": 44,
+        "minRain": 0.1,
+        "maxRain": 0.3,
+        "chance": 0.015,
+        "maxFertility": 0.5,
+        "placement": "OnSurface",
+        "quantity": { "dist": "invexp", "avg": 4, "var": 6 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of midyim berry bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-midyimberry-empty",
+          "wildcraftfruit:berrybush-midyimberry-flowering",
+          "wildcraftfruit:berrybush-midyimberry-ripe"
+        ],
+        "minTemp": 22,
+        "maxTemp": 44,
+        "minRain": 0.5,
+        "maxRain": 0.9,
+        "maxForest": 0.7,
+        "placement": "OnSurface",
+        "chance": 0.03,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 2,
+          "var": 6
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of blue tongue bushes",
+        "blockCodes": [
+          "wildcraftfruit:shortberrybush-bluetongue-empty",
+          "wildcraftfruit:shortberrybush-bluetongue-flowering",
+          "wildcraftfruit:shortberrybush-bluetongue-ripe"
+        ],
+        "minTemp": 24,
+        "maxTemp": 44,
+        "minRain": 0.6,
+        "maxRain": 1,
+        "chance": 0.03,
+        "minForest": 0.2,
+	"maxY": 0.15,
+        "placement": "OnSurface",
+        "quantity": { "dist": "invexp", "avg": 2, "var": 6 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of ruby saltbush bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-rubysaltbush-empty",
+          "wildcraftfruit:groundberryplant-rubysaltbush-flowering",
+          "wildcraftfruit:groundberryplant-rubysaltbush-ripe"
+        ],
+        "minTemp": 26,
+        "maxTemp": 44,
+        "maxRain": 0.3,
+        "maxForest": 0.4,
+	"maxY": 0.13,
+        "chance": 0.02,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Rare huge patches of ruby saltbush bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-rubysaltbush-empty",
+          "wildcraftfruit:groundberryplant-rubysaltbush-flowering",
+          "wildcraftfruit:groundberryplant-rubysaltbush-ripe"
+        ],
+        "minTemp": 26,
+        "maxTemp": 44,
+        "maxRain": 0.3,
+        "maxForest": 0.4,
+	"maxY": 0.13,
+        "chance": 0.005,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 40,
+          "var": 25
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of kakaha bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-kakaha-empty",
+          "wildcraftfruit:groundberryplant-kakaha-flowering",
+          "wildcraftfruit:groundberryplant-kakaha-ripe"
+        ],
+        "minTemp": 16,
+        "maxTemp": 26,
+        "minRain": 0.6,
+        "maxRain": 1,
+        "minForest": 0.3,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 6
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 4
+        },
+        "quantity": {
+          "avg": 6,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of pilo bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-pilo-empty",
+          "wildcraftfruit:berrybush-pilo-flowering",
+          "wildcraftfruit:berrybush-pilo-ripe"
+        ],
+        "minTemp": 16,
+        "maxTemp": 28,
+        "minRain": 0.3,
+        "maxRain": 0.8,
+        "chance": 0.04,
+	"minY": 0.12,
+        "maxForest": 0.3,
+        "quantity": { "dist": "invexp", "avg": 3, "var": 4 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of mingimingi bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-mingimingi-empty",
+          "wildcraftfruit:berrybush-mingimingi-flowering",
+          "wildcraftfruit:berrybush-mingimingi-ripe"
+        ],
+        "minTemp": 16,
+        "maxTemp": 28,
+        "minRain": 0.6,
+        "maxRain": 1,
+        "chance": 0.03,
+        "minForest": 0.4,
+        "quantity": { "dist": "invexp", "avg": 3, "var": 4 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Rare large patches of mingimingi bushes",
+      "blockCodes": [
+        "wildcraftfruit:berrybush-mingimingi-empty",
+        "wildcraftfruit:berrybush-mingimingi-flowering",
+        "wildcraftfruit:berrybush-mingimingi-ripe"
+      ],
+      "minTemp": 16,
+      "maxTemp": 28,
+      "minRain": 0.6,
+      "maxRain": 1,
+      "chance": 0.005,
+      "minForest": 0.4,
+      "quantity": { "dist": "invexp", "avg": 12, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Patches of marita bushes",
+      "blockCodes": [
+        "wildcraftfruit:berrybush-marita-empty",
+        "wildcraftfruit:berrybush-marita-flowering",
+        "wildcraftfruit:berrybush-marita-ripe"
+      ],
+      "minTemp": 18,
+      "maxTemp": 40,
+      "minRain": 0.6,
+      "maxRain": 1,
+      "chance": 0.1,
+      "minY": 0.14,
+      "minForest": 0.4,
+      "minFertility": 0.4,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 3,
+        "var": 10
+      }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of black elderberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-blackelder-empty",
+          "wildcraftfruit:berrybush-blackelder-flowering",
+          "wildcraftfruit:berrybush-blackelder-ripe"
+        ],
+        "minTemp": -8,
+        "maxTemp": 12,
+        "minRain": 0.4,
+        "minForest": 0.7,
+        "chance": 0.03,
+	"maxY": 0.16,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 6
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of caper bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyshortbush-caper-empty",
+          "wildcraftfruit:pricklyshortbush-caper-flowering",
+          "wildcraftfruit:pricklyshortbush-caper-ripe"
+        ],
+        "minTemp": 18,
+        "maxTemp": 28,
+        "minRain": 0.2,
+        "maxRain": 0.7,
+        "minForest": 0.2,
+        "maxForest": 0.5,
+        "maxFertility": 0.5,
+        "chance": 0.01,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 4,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Ivy vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-ivy-empty-north",
+        "wildcraftfruit:fruitvine-ivy-flowering-north",
+        "wildcraftfruit:fruitvine-ivy-ripe-north",
+      ],
+        "minTemp": -8,
+        "maxTemp": 24,
+        "minRain": 0.2,
+        "minForest": 0.2,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More ivy vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-ivy-empty-north",
+        "wildcraftfruit:fruitvine-ivy-flowering-north",
+        "wildcraftfruit:fruitvine-ivy-ripe-north",
+      ],
+        "minTemp": -8,
+        "maxTemp": 24,
+        "minRain": 0.2,
+        "minForest": 0.2,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded ivy vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-ivy-empty-north",
+        "wildcraftfruit:fruitvine-ivy-flowering-north",
+        "wildcraftfruit:fruitvine-ivy-ripe-north",
+        ],
+        "minTemp": -8,
+        "maxTemp": 24,
+        "minRain": 0.2,
+        "minForest": 0.5,
+        "chance": 0.2,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 4, "var": 6 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Virgin grape vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-virgingrape-empty-north",
+        "wildcraftfruit:fruitvine-virgingrape-flowering-north",
+        "wildcraftfruit:fruitvine-virgingrape-ripe-north",
+      ],
+        "minTemp": 6,
+        "maxTemp": 26,
+        "minRain": 0.3,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More virgin grape vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-virgingrape-empty-north",
+        "wildcraftfruit:fruitvine-virgingrape-flowering-north",
+        "wildcraftfruit:fruitvine-virgingrape-ripe-north",
+      ],
+        "minTemp": 6,
+        "maxTemp": 26,
+        "minRain": 0.3,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded virgin grape vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-virgingrape-empty-north",
+        "wildcraftfruit:fruitvine-virgingrape-flowering-north",
+        "wildcraftfruit:fruitvine-virgingrape-ripe-north",
+        ],
+        "minTemp": 6,
+        "maxTemp": 26,
+        "minRain": 0.3,
+        "minForest": 0.3,
+        "chance": 0.16,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 4, "var": 6 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Fox grape vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-foxgrape-empty-north",
+        "wildcraftfruit:fruitvine-foxgrape-flowering-north",
+        "wildcraftfruit:fruitvine-foxgrape-ripe-north",
+      ],
+        "minTemp": 10,
+        "maxTemp": 28,
+        "minRain": 0.4,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More fox grape vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-foxgrape-empty-north",
+        "wildcraftfruit:fruitvine-foxgrape-flowering-north",
+        "wildcraftfruit:fruitvine-foxgrape-ripe-north",
+      ],
+        "minTemp": 10,
+        "maxTemp": 28,
+        "minRain": 0.4,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded fox grape vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-foxgrape-empty-north",
+        "wildcraftfruit:fruitvine-foxgrape-flowering-north",
+        "wildcraftfruit:fruitvine-foxgrape-ripe-north",
+        ],
+        "minTemp": 10,
+        "maxTemp": 28,
+        "minRain": 0.4,
+        "minForest": 0.3,
+        "chance": 0.16,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 4, "var": 6 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Black grape vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-blackgrape-empty-north",
+        "wildcraftfruit:fruitvine-blackgrape-flowering-north",
+        "wildcraftfruit:fruitvine-blackgrape-ripe-north",
+      ],
+        "minTemp": 16,
+        "maxTemp": 30,
+        "minRain": 0.3,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More black grape vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-blackgrape-empty-north",
+        "wildcraftfruit:fruitvine-blackgrape-flowering-north",
+        "wildcraftfruit:fruitvine-blackgrape-ripe-north",
+      ],
+        "minTemp": 16,
+        "maxTemp": 30,
+        "minRain": 0.3,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded black grape vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-blackgrape-empty-north",
+        "wildcraftfruit:fruitvine-blackgrape-flowering-north",
+        "wildcraftfruit:fruitvine-blackgrape-ripe-north",
+        ],
+        "minTemp": 16,
+        "maxTemp": 30,
+        "minRain": 0.3,
+        "minForest": 0.3,
+        "chance": 0.12,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 4, "var": 6 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Cucumber vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-cucumber-empty-north",
+        "wildcraftfruit:fruitvine-cucumber-flowering-north",
+        "wildcraftfruit:fruitvine-cucumber-ripe-north",
+      ],
+        "minTemp": 8,
+        "maxTemp": 26,
+        "minRain": 0.4,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More cucumber vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-cucumber-empty-north",
+        "wildcraftfruit:fruitvine-cucumber-flowering-north",
+        "wildcraftfruit:fruitvine-cucumber-ripe-north",
+      ],
+        "minTemp": 8,
+        "maxTemp": 26,
+        "minRain": 0.4,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded cucumber vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-cucumber-empty-north",
+        "wildcraftfruit:fruitvine-cucumber-flowering-north",
+        "wildcraftfruit:fruitvine-cucumber-ripe-north",
+        ],
+        "minTemp": 8,
+        "maxTemp": 26,
+        "minRain": 0.4,
+        "minForest": 0.2,
+        "chance": 0.14,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 5, "var": 8 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Kiwi vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-kiwi-empty-north",
+        "wildcraftfruit:fruitvine-kiwi-flowering-north",
+        "wildcraftfruit:fruitvine-kiwi-ripe-north",
+      ],
+        "minTemp": 18,
+        "maxTemp": 30,
+        "minRain": 0.5,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More kiwi vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-kiwi-empty-north",
+        "wildcraftfruit:fruitvine-kiwi-flowering-north",
+        "wildcraftfruit:fruitvine-kiwi-ripe-north",
+      ],
+        "minTemp": 18,
+        "maxTemp": 30,
+        "minRain": 0.5,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded kiwi vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-kiwi-empty-north",
+        "wildcraftfruit:fruitvine-kiwi-flowering-north",
+        "wildcraftfruit:fruitvine-kiwi-ripe-north",
+        ],
+        "minTemp": 18,
+        "maxTemp": 30,
+        "minRain": 0.5,
+        "minForest": 0.3,
+        "chance": 0.16,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 4, "var": 6 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Passionfruit vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-passionfruit-empty-north",
+        "wildcraftfruit:fruitvine-passionfruit-flowering-north",
+        "wildcraftfruit:fruitvine-passionfruit-ripe-north",
+      ],
+        "minTemp": 21,
+        "maxTemp": 40,
+        "minRain": 0.65,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More passionfruit vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-passionfruit-empty-north",
+        "wildcraftfruit:fruitvine-passionfruit-flowering-north",
+        "wildcraftfruit:fruitvine-passionfruit-ripe-north",
+      ],
+        "minTemp": 21,
+        "maxTemp": 40,
+        "minRain": 0.65,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded passionfruit vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-passionfruit-empty-north",
+        "wildcraftfruit:fruitvine-passionfruit-flowering-north",
+        "wildcraftfruit:fruitvine-passionfruit-ripe-north",
+        ],
+        "minTemp": 21,
+        "maxTemp": 40,
+        "minRain": 0.65,
+        "minForest": 0.3,
+        "chance": 0.14,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 5, "var": 8 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Bryony vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-bryony-empty-north",
+        "wildcraftfruit:fruitvine-bryony-flowering-north",
+        "wildcraftfruit:fruitvine-bryony-ripe-north",
+      ],
+        "minTemp": 0,
+        "maxTemp": 14,
+        "minRain": 0.3,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More bryony vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-bryony-empty-north",
+        "wildcraftfruit:fruitvine-bryony-flowering-north",
+        "wildcraftfruit:fruitvine-bryony-ripe-north",
+      ],
+        "minTemp": 0,
+        "maxTemp": 14,
+        "minRain": 0.3,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded bryony vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-bryony-empty-north",
+        "wildcraftfruit:fruitvine-bryony-flowering-north",
+        "wildcraftfruit:fruitvine-bryony-ripe-north",
+        ],
+        "minTemp": 0,
+        "maxTemp": 14,
+        "minRain": 0.3,
+        "minForest": 0.3,
+        "chance": 0.14,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 5, "var": 8 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Hairy appleberry vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-hairyappleberry-empty-north",
+        "wildcraftfruit:fruitvine-hairyappleberry-flowering-north",
+        "wildcraftfruit:fruitvine-hairyappleberry-ripe-north",
+      ],
+        "minTemp": 22,
+        "maxTemp": 36,
+        "minRain": 0.65,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More hairy appleberry vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-hairyappleberry-empty-north",
+        "wildcraftfruit:fruitvine-hairyappleberry-flowering-north",
+        "wildcraftfruit:fruitvine-hairyappleberry-ripe-north",
+      ],
+        "minTemp": 22,
+        "maxTemp": 36,
+        "minRain": 0.65,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded hairy appleberry vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-hairyappleberry-empty-north",
+        "wildcraftfruit:fruitvine-hairyappleberry-flowering-north",
+        "wildcraftfruit:fruitvine-hairyappleberry-ripe-north",
+        ],
+        "minTemp": 22,
+        "maxTemp": 36,
+        "minRain": 0.65,
+        "minForest": 0.3,
+        "chance": 0.14,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 4, "var": 6 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Purple appleberry vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-purpleappleberry-empty-north",
+        "wildcraftfruit:fruitvine-purpleappleberry-flowering-north",
+        "wildcraftfruit:fruitvine-purpleappleberry-ripe-north",
+      ],
+        "minTemp": 20,
+        "maxTemp": 30,
+        "minRain": 0.5,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "minY": 0.12,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More purple appleberry vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-purpleappleberry-empty-north",
+        "wildcraftfruit:fruitvine-purpleappleberry-flowering-north",
+        "wildcraftfruit:fruitvine-purpleappleberry-ripe-north",
+      ],
+        "minTemp": 20,
+        "maxTemp": 30,
+        "minRain": 0.5,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "minY": 0.12,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded purple appleberry vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-purpleappleberry-empty-north",
+        "wildcraftfruit:fruitvine-purpleappleberry-flowering-north",
+        "wildcraftfruit:fruitvine-purpleappleberry-ripe-north",
+        ],
+        "minTemp": 20,
+        "maxTemp": 30,
+        "minRain": 0.5,
+        "minForest": 0.3,
+        "minY": 0.12,
+        "chance": 0.18,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 5, "var": 8 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Patches of hazel bushes",
+      "blockCodes": [
+        "wildcraftfruit:berrybush-hazel-empty",
+        "wildcraftfruit:berrybush-hazel-flowering",
+        "wildcraftfruit:berrybush-hazel-ripe"
+      ],
+      "minTemp": -6,
+      "maxTemp": 12,
+      "minRain": 0.4,
+      "maxRain": 0.8,
+      "minForest": 0.7,
+      "maxY": 0.15,
+      "chance": 0.03,
+      "quantity": { "dist": "invexp", "avg": 3, "var": 6 },
+      "offsetX": { "dist": "gaussian", "avg": 0, "var": 8 },
+      "offsetZ": { "dist": "gaussian", "avg": 0, "var": 8 }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of sloe bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-sloe-empty",
+          "wildcraftfruit:pricklyberrybush-sloe-flowering",
+          "wildcraftfruit:pricklyberrybush-sloe-ripe"
+        ],
+        "minTemp": 2,
+        "maxTemp": 16,
+        "minRain": 0.5,
+        "maxRain": 0.9,
+        "minForest": 0.3,
+        "maxForest": 0.8,
+        "chance": 0.03,
+	"maxY": 0.13,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Patches of bilberries",
+      "blockCodes": [
+        "wildcraftfruit:shortberrybush-bilberry-empty",
+        "wildcraftfruit:shortberrybush-bilberry-flowering",
+        "wildcraftfruit:shortberrybush-bilberry-ripe"
+      ],
+      "minTemp": 8,
+      "maxTemp": 18,
+      "minRain": 0.4,
+      "maxRain": 0.8,
+      "maxForest": 0.5,
+      "chance": 0.04,
+      "maxY": 0.16,
+      "offsetX": { dist: "gaussian", avg: 0, var: 15 },
+      "offsetZ": { dist: "gaussian", avg: 0, var: 15 },
+      "quantity": { avg: 5, var: 12 },
+      "placement": "OnSurface"
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Patches of swamp huckleberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:berrybush-swamphuckle-empty",
+        "wildcraftfruit:berrybush-swamphuckle-flowering",
+        "wildcraftfruit:berrybush-swamphuckle-ripe"
+      ],
+      "minTemp": 6,
+      "maxTemp": 18,
+      "minRain": 0.6,
+      "maxRain": 1,
+      "chance": 0.04,
+      "maxY": 0.13,
+      "maxForest": 0.6,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 4,
+        "var": 10
+      }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Patches of dewberries",
+      "blockCodes": [
+        "wildcraftfruit:pricklyshortbush-dewberry-empty",
+        "wildcraftfruit:pricklyshortbush-dewberry-flowering",
+        "wildcraftfruit:pricklyshortbush-dewberry-ripe"
+      ],
+      "minTemp": 4,
+      "maxTemp": 12,
+      "minRain": 0.5,
+      "maxRain": 1,
+      "minForest": 0.4,
+      "chance": 0.03,
+      "maxY": 0.14,
+      "offsetX": { dist: "gaussian", avg: 0, var: 15 },
+      "offsetZ": { dist: "gaussian", avg: 0, var: 15 },
+      "quantity": { avg: 5, var: 12 },
+      "placement": "OnSurface"
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Kolomikta vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-kolomikta-empty-north",
+        "wildcraftfruit:fruitvine-kolomikta-flowering-north",
+        "wildcraftfruit:fruitvine-kolomikta-ripe-north",
+      ],
+        "minTemp": 6,
+        "maxTemp": 18,
+        "minRain": 0.5,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More kolomikta vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-kolomikta-empty-north",
+        "wildcraftfruit:fruitvine-kolomikta-flowering-north",
+        "wildcraftfruit:fruitvine-kolomikta-ripe-north",
+      ],
+        "minTemp": 6,
+        "maxTemp": 18,
+        "minRain": 0.5,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded kolomikta vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-kolomikta-empty-north",
+        "wildcraftfruit:fruitvine-kolomikta-flowering-north",
+        "wildcraftfruit:fruitvine-kolomikta-ripe-north",
+        ],
+        "minTemp": 6,
+        "maxTemp": 18,
+        "minRain": 0.5,
+        "minForest": 0.3,
+        "chance": 0.12,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 4, "var": 6 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Granadilla vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-granadilla-empty-north",
+        "wildcraftfruit:fruitvine-granadilla-flowering-north",
+        "wildcraftfruit:fruitvine-granadilla-ripe-north",
+      ],
+        "minTemp": 23,
+        "maxTemp": 40,
+        "minRain": 0.65,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More granadilla vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-granadilla-empty-north",
+        "wildcraftfruit:fruitvine-granadilla-flowering-north",
+        "wildcraftfruit:fruitvine-granadilla-ripe-north",
+      ],
+        "minTemp": 23,
+        "maxTemp": 40,
+        "minRain": 0.65,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded granadilla vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-granadilla-empty-north",
+        "wildcraftfruit:fruitvine-granadilla-flowering-north",
+        "wildcraftfruit:fruitvine-granadilla-ripe-north",
+        ],
+        "minTemp": 23,
+        "maxTemp": 40,
+        "minRain": 0.65,
+        "minForest": 0.3,
+        "chance": 0.12,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 5, "var": 8 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of wild strawberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:groundberryplant-strawberry-empty",
+          "wildcraftfruit:groundberryplant-strawberry-flowering",
+          "wildcraftfruit:groundberryplant-strawberry-ripe"
+        ],
+        "minTemp": 6,
+        "maxTemp": 24,
+        "minRain": 0.5,
+        "minForest": 0.45,
+	"maxY": 0.13,
+        "chance": 0.08,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 7,
+          "var": 15
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Woodbine vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-woodbine-empty-north",
+        "wildcraftfruit:fruitvine-woodbine-flowering-north",
+        "wildcraftfruit:fruitvine-woodbine-ripe-north",
+      ],
+        "minTemp": 4,
+        "maxTemp": 18,
+        "minRain": 0.5,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "More woodbine vines",
+      "blockCodes": [
+        "wildcraftfruit:fruitvine-woodbine-empty-north",
+        "wildcraftfruit:fruitvine-woodbine-flowering-north",
+        "wildcraftfruit:fruitvine-woodbine-ripe-north",
+      ],
+        "minTemp": 4,
+        "maxTemp": 18,
+        "minRain": 0.5,
+        "minForest": 0.1,
+        "maxForest": 1,
+        "chance": 10,
+      "placement": "OnTrees",
+      "quantity": { "dist": "invexp", "avg": 5, "var": 10 },
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of grounded woodbine vines",
+        "blockCodes": [
+        "wildcraftfruit:fruitvine-woodbine-empty-north",
+        "wildcraftfruit:fruitvine-woodbine-flowering-north",
+        "wildcraftfruit:fruitvine-woodbine-ripe-north",
+        ],
+        "minTemp": 4,
+        "maxTemp": 18,
+        "minRain": 0.5,
+        "minForest": 0.3,
+        "chance": 0.16,
+        "placement": "UnderTrees",
+        "quantity": { "avg": 5, "var": 8 }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of baneberry bushes",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-baneberry-empty",
+          "wildcraftfruit:shrubberrybush-baneberry-flowering",
+          "wildcraftfruit:shrubberrybush-baneberry-ripe"
+        ],
+        "minTemp": 2,
+        "maxTemp": 20,
+        "minRain": 0.6,
+        "minForest": 0.65,
+        "chance": 0.03,
+	"maxY": 0.15,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of belladonna bushes",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-belladonna-empty",
+          "wildcraftfruit:shrubberrybush-belladonna-flowering",
+          "wildcraftfruit:shrubberrybush-belladonna-ripe"
+        ],
+        "minTemp": -2,
+        "maxTemp": 15,
+        "minRain": 0.5,
+        "minForest": 0.3,
+        "chance": 0.02,
+	"maxY": 0.18,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 4
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 4
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Patches of bearberry bushes",
+      "blockCodes": [
+        "wildcraftfruit:shortberrybush-bearberry-empty",
+        "wildcraftfruit:shortberrybush-bearberry-flowering",
+        "wildcraftfruit:shortberrybush-bearberry-ripe"
+      ],
+      "minTemp": -10,
+      "maxTemp": 10,
+      "minRain": 0.25,
+      "maxRain": 0.55,
+      "maxForest": 0.6,
+      "maxY": 0.16,
+      "chance": 0.02,
+      "placement": "OnSurface",
+      "quantity": { "dist": "invexp", "avg": 4, "var": 6 }
+    },
+    "file": "game:worldgen/blockpatches/berrybush.json",
+    "side": "server"
+  },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of terung asam bushes",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-hairyeggplant-empty",
+          "wildcraftfruit:shrubberrybush-hairyeggplant-flowering",
+          "wildcraftfruit:shrubberrybush-hairyeggplant-ripe"
+        ],
+        "minTemp": 23,
+        "maxTemp": 28,
+        "minRain": 0.65,
+        "chance": 0.02,
+	"maxY": 0.13,
+        "minForest": 0.6,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 4,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of bell pepper plants",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-redbellpepper-empty",
+          "wildcraftfruit:shrubberrybush-redbellpepper-flowering",
+          "wildcraftfruit:shrubberrybush-redbellpepper-ripe",
+          "wildcraftfruit:shrubberrybush-orangebellpepper-empty",
+          "wildcraftfruit:shrubberrybush-orangebellpepper-flowering",
+          "wildcraftfruit:shrubberrybush-orangebellpepper-ripe",
+          "wildcraftfruit:shrubberrybush-yellowbellpepper-empty",
+          "wildcraftfruit:shrubberrybush-yellowbellpepper-flowering",
+          "wildcraftfruit:shrubberrybush-yellowbellpepper-ripe",
+          "wildcraftfruit:shrubberrybush-greenbellpepper-empty",
+          "wildcraftfruit:shrubberrybush-greenbellpepper-flowering",
+          "wildcraftfruit:shrubberrybush-greenbellpepper-ripe"
+        ],
+        "minTemp": 18,
+        "maxTemp": 26,
+        "minRain": 0.4,
+        "maxRain": 0.8,
+        "maxForest": 0.5,
+        "chance": 0.025,
+	"maxY": 0.13,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 6,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of jalapeno pepper plants",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-jalapeno-empty",
+          "wildcraftfruit:shrubberrybush-jalapeno-flowering",
+          "wildcraftfruit:shrubberrybush-jalapeno-ripe"
+        ],
+        "minTemp": 20,
+        "maxTemp": 26,
+        "minRain": 0.6,
+        "maxRain": 0.9,
+        "maxForest": 0.5,
+        "chance": 0.02,
+	"maxY": 0.13,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 4,
+          "var": 6
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of habanero pepper plants",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-habanero-empty",
+          "wildcraftfruit:shrubberrybush-habanero-flowering",
+          "wildcraftfruit:shrubberrybush-habanero-ripe"
+        ],
+        "minTemp": 20,
+        "maxTemp": 28,
+        "minRain": 0.5,
+        "maxRain": 0.7,
+        "minForest": 0,
+        "maxForest": 0.3,
+        "chance": 0.018,
+	"maxY": 0.13,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 4,
+          "var": 6
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of tabasco pepper plants",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-tabasco-empty",
+          "wildcraftfruit:shrubberrybush-tabasco-flowering",
+          "wildcraftfruit:shrubberrybush-tabasco-ripe"
+        ],
+        "minTemp": 22,
+        "maxTemp": 28,
+        "minRain": 0.6,
+        "minForest": 0.5,
+        "chance": 0.02,
+	"maxY": 0.13,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 4,
+          "var": 6
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of husk cherry",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-newhusktomato-empty",
+          "wildcraftfruit:shrubberrybush-newhusktomato-flowering",
+          "wildcraftfruit:shrubberrybush-newhusktomato-ripe"
+        ],
+        "minTemp": 14,
+        "maxTemp": 22,
+        "minRain": 0.7,
+        "minForest": 0.6,
+        "chance": 0.025,
+	"maxY": 0.12,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 4,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of tomatillo",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-tomatillo-empty",
+          "wildcraftfruit:shrubberrybush-tomatillo-flowering",
+          "wildcraftfruit:shrubberrybush-tomatillo-ripe"
+        ],
+        "minTemp": 16,
+        "maxTemp": 28,
+        "minRain": 0.5,
+        "maxRain": 0.8,
+        "minForest": 0.2,
+        "maxForest": 0.8,
+        "chance": 0.02,
+	"maxY": 0.12,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of wild tomato plants",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-wildtomato-empty",
+          "wildcraftfruit:shrubberrybush-wildtomato-flowering",
+          "wildcraftfruit:shrubberrybush-wildtomato-ripe"
+        ],
+        "minTemp": 22,
+        "maxTemp": 34,
+        "minRain": 0.6,
+        "minForest": 0.5,
+        "chance": 0.025,
+	"maxY": 0.14,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 4,
+          "var": 6
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of false tomato plants",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-falsetomato-empty",
+          "wildcraftfruit:shrubberrybush-falsetomato-flowering",
+          "wildcraftfruit:shrubberrybush-falsetomato-ripe"
+        ],
+        "minTemp": 24,
+        "maxTemp": 38,
+        "minRain": 0.6,
+        "minForest": 0.5,
+        "chance": 0.025,
+	"maxY": 0.13,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 4,
+          "var": 6
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of tomato plants",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-tomato-empty",
+          "wildcraftfruit:shrubberrybush-tomato-flowering",
+          "wildcraftfruit:shrubberrybush-tomato-ripe"
+        ],
+        "minTemp": 18,
+        "maxTemp": 26,
+        "minRain": 0.5,
+        "minForest": 0.2,
+        "maxForest": 0.7,
+        "chance": 0.02,
+	"maxY": 0.13,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 2,
+          "var": 4
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of aubergine plants",
+        "blockCodes": [
+          "wildcraftfruit:shrubberrybush-eggplant-empty",
+          "wildcraftfruit:shrubberrybush-eggplant-flowering",
+          "wildcraftfruit:shrubberrybush-eggplant-ripe"
+        ],
+        "minTemp": 16,
+        "maxTemp": 20,
+        "minRain": 0.5,
+        "minForest": 0.6,
+        "chance": 0.02,
+	"maxY": 0.13,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 2,
+          "var": 4
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of blossom quince bushes",
+        "blockCodes": [
+          "wildcraftfruit:pricklyberrybush-blossomquince-empty",
+          "wildcraftfruit:pricklyberrybush-blossomquince-flowering",
+          "wildcraftfruit:pricklyberrybush-blossomquince-ripe"
+        ],
+        "minTemp": 4,
+        "maxTemp": 14,
+        "minRain": 0.4,
+        "maxRain": 0.8,
+        "minForest": 0.2,
+        "maxForest": 0.6,
+        "chance": 0.02,
+	"maxY": 0.14,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 8
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 10
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+    {
+      "op": "add",
+      "path": "/-",
+      "value": {
+        "comment": "Patches of bladdernut bushes",
+        "blockCodes": [
+          "wildcraftfruit:berrybush-bladdernut-empty",
+          "wildcraftfruit:berrybush-bladdernut-flowering",
+          "wildcraftfruit:berrybush-bladdernut-ripe"
+        ],
+        "minTemp": 12,
+        "maxTemp": 18,
+        "minRain": 0.5,
+        "maxRain": 0.8,
+        "minForest": 0.3,
+        "maxForest": 0.7,
+        "chance": 0.03,
+	"maxY": 0.16,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 3,
+          "var": 6
+        }
+      },
+      "file": "game:worldgen/blockpatches/berrybush.json",
+      "side": "server"
+    },
+]

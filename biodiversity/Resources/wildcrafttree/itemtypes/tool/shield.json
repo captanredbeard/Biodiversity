@@ -1,0 +1,134 @@
+{
+    "code": "shield",
+    "class": "ItemWildShield",
+    "storageFlags": 257,
+    "attributes": {
+		shield: {
+			blockSoundLight: "held/shieldblock-wood-light",
+			blockSoundHeavy: "held/shieldblock-wood-heavy",
+			protectionChance: {
+				"passive-projectile": 0.2,
+				"active-projectile": 1,
+				"passive": 0.2,
+				"active": 0.9
+			},
+			projectileDamageAbsorptionByType: {
+				"*-woodmetal": 6,
+			},
+			damageAbsorptionByType: {
+				"*-woodmetal": 4,
+			}
+		},
+		handbook: {
+			groupBy: ["shield-*"],
+			extraSections: [ { "title": "wildcrafttree:handbook-item-howtouse", "text": "wildcrafttree:handbook-item-shield" } ]
+		},
+        "rackable": true,
+        "toolrackTransform": {
+            "translation": { "x": 0.3, "y": -0.62, "z": -0.625 },
+            "rotation": { "x": 91, "y": -6, "z": -90 },
+            "scale": 1.5
+        },
+        "moldrackable": true,
+        "onmoldrackTransform": {
+            "translation": { "x": 0.74, "y": 0.5, "z": -0.4 },
+            "rotation": { "x": -90, "y": 82, "z": 90 },
+            "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+            "scale": 1.01
+        },
+        "groundStorageTransform": {
+            "translation": { "x": -0.42, "y": -0.45, "z": -0.045 },
+            "rotation": { "x": 21, "y": 179, "z": -90 },
+            "scale": 1
+        },
+        "__comment": "Note: variantgroups inside attributes. Used to generate all variants for the creative inventory dynamically, and for valid recipe checking",
+        "variantGroups": {
+	    "metal": ["tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel"],
+            "wood": ["cedar", "fir", "spruce", "douglasfir", "tuja", "redcedar", "yew", "kauri", "ginkgo", "sycamore", "honeylocust", "dalbergia", "umnini", "banyan", "elm", "beech", "bearnut", "willow", "poplar", "tamanu", "spurgetree", "azobe", "guajacum", "eucalyptus", "ghostgum", "ohia", "satinash", "leadwood", "bluemahoe", "linden", "sal", "horsechestnut", "tigerwood", "mahogany", "sapele", "saxaul", "ash", "catalpa", "jacaranda", "mangrove", "empresstree", "charred", "chlorociboria", "petrified"]
+        },
+        "durabilityGains": {
+            "wood": {
+                "petrified": 150,
+                "saxaul": 40,
+                "leadwood": 30,
+                "azobe": 25,
+                "elm": 20,
+                "dalbergia": 15,
+                "charred": 10,
+                "yew": -20,
+                "willow": -15,
+                "mangrove": -15,
+                "mahogany": -10,
+                "chlorociboria": -150
+            },
+            "metal": {
+                "bismuthbronze": 20,
+                "gold": -50,
+                "silver": -40,
+                "blackbronze": 30,
+                "iron": 60,
+                "meteoriciron": 90,
+                "steel": 120
+            }
+        },
+	attachableToEntity: {
+		categoryCode: "shield",
+		texturePrefixCode: "shield",
+		attachedShapeByType: {
+			"*": { base: "game:item/tool/shield/round" }
+		}
+	},
+        "allowedVariants": [
+            { "construction": "woodmetal", "wood": "*", "metal": "*", "color": "*", "deco": "none" },
+            { "construction": "woodmetal", "wood": "*", "metal": "*", "color": "*", "deco": "ornate" },
+        ]
+    },
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "WallHalves",
+                "wallOffY": 1,
+                "sprintKey": true,
+                "selectionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1 },
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0 }
+            }
+        }
+    ],
+    "variantgroups": [{ "code": "construction", "states": ["woodmetal"] }],
+    "creativeinventory": { "general": ["*-woodmetal-*"], "items": ["*-woodmetal-*"], "tools": ["*-woodmetal-*"], "wildcrafttree": ["*-woodmetal-*"] },
+    "shape": { "base": "game:item/tool/shield/round" },
+    "durabilityByType": {
+        "shield-woodmetal": 300,
+    },
+    "fpHandTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 10, "y": 149, "z": 90 },
+        "origin": { "x": 0, "y": -0.1, "z": 0.3 },
+        "scale": 5.38
+    },
+    "guiTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 34, "y": 32, "z": -163 },
+        "origin": { "x": 0.21, "y": -0.21, "z": 0.49 },
+        "scale": 1.8
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": 0.37, "z": 0 },
+        "rotation": { "x": -93, "y": 0, "z": 0 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.43 },
+        "scale": 5
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.98, "y": -0.1, "z": -0.85 },
+        "rotation": { "x": -4, "y": 4, "z": 0 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 1
+    },
+    "tpOffHandTransform": {
+        "translation": { "x": -0.1, "y": -0.04, "z": -0.07 },
+        "rotation": { "x": 1, "y": 173, "z": 8 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 1
+    }
+}

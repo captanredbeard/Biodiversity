@@ -1,0 +1,71 @@
+{
+	"code": "soakedsoybean",
+	"maxstacksize": 64,
+	"shape": { "base": "wildcraftfruit:item/fruit/soakedsoybean" },
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	"attributes": {
+		foodTags: ["{type}"],
+		"inContainerTexture": { base: "game:block/wood/barrel/raw-soybean" },
+		"crockable": true,
+		"inPieProperties": { "texture": "game:block/food/pie/fill-soybean", "partType": 'Filling', allowMixing: false },
+		"nutritionPropsWhenInMeal": { 
+			"satietyByType": {
+				"*": 240,
+			},
+			"foodcategory": "Protein" 
+		},
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		},
+		juiceablePropertiesByType: {
+			"*": {
+				litresPerItem: 0.625,
+				liquidStack: { type: "item", code: "wildcraftfruit:soymilkportion", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedsoybean", stacksize: 1 }
+			}
+		},
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraftfruit": ["*"] },
+	"transitionableProps": [{
+			"type": "Perish",
+			"freshHours": { "avg": 360 },
+			"transitionHours": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.33
+	}],
+	"materialDensity": 600,
+	"nutritionProps": { "saturation": 120, "foodcategory": "Protein" },
+	"guiTransformByType": {
+		"*": {
+			"translation": { x: 0, y: 0, z: 0 },
+			"rotation": { x: -59, y: 31, z: -172 },
+			"origin": { x: 0.11, y: -0.83, z: 0 },
+			"scale": 3.04
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { x: 0, y: 0.39, z: 0 },
+			"rotation": { x: 0, y: 0, z: 0 },
+			"origin": { x: 0.5, y: 0.52, z: 0.53 },
+			"scale": 3.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.06, "y": -0.66, "z": -0.39 },
+			"rotation": { "x": 116, "y": -7, "z": -70 },
+			"origin": { "x": -0.05, "y": 0.16, "z": 0.46 },
+			"scale": 0.45
+		}
+	},
+	"heldRightReadyAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+    }
+}

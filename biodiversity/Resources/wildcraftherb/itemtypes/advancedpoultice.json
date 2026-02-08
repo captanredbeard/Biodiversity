@@ -1,0 +1,71 @@
+{
+  "code": "advancedpoultice",
+  "class": "HerbariumPoultice",
+  "attributes": {
+    "materialHealthByType":{
+      "*-reed-*": 1,
+      "*-linen-*": 3
+    },
+    "primaryHealthByType":{
+      "*-honey-sulfur-*": 3,
+      "*-horsetail-*": 1,
+      "*-stjohnswort-*": 1,
+      "*-poisonoak-*": 1,
+      "*-inula-*": 2,
+      "*-celandine-*": 2,
+      "*-jewelweed-*": 2
+    },
+    "secondaryHealthByType": {
+      "*-lavender": 2,
+      "*-thyme": 1,
+      "*-marshmallow": 1,
+      "*-holly": 1,
+      "*-marigold": 2,
+      "*-yarrow": 2,
+      "*-sage": 1
+    },
+    "curesRashByType":{
+      "*-jewelweed-*": true,
+      "*-yarrow": true,
+      "*": false
+    }
+  },
+  "maxstacksize": 16,
+  "variantgroups": [
+    { "code": "material", "states": ["linen", "reed"] },
+    { "code": "primary", "states": ["honey-sulfur", "horsetail", "stjohnswort", "poisonoak", "inula", "celandine", "jewelweed"] },
+    { "code": "secondary", "states": ["lavender", "thyme", "marshmallow", "holly", "marigold", "yarrow", "sage"] }
+  ],
+  "shape": { "base": "wildcraftherb:item/medicine/{material}/{material}" },
+  "textures": {
+    "material": { "base": "wildcraftherb:items/medicine/{material}/{primary}" },
+    "primary": { "base": "wildcraftherb:items/medicine/{material}/{primary}" },
+    "secondary": { "base": "wildcraftherb:items/medicine/secondary/{secondary}" }
+  },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "wildcraftherb": [ "*" ] },
+  "materialDensity": 600,
+  "guiTransform": {
+    "translation": { "x": 3, "y": 0, "z": 0 },
+    "rotation": { "x": 120, "y": 41, "z": 7 },
+    "origin": { "x": 0.5, "y": 0.11, "z": 0.5 },
+    "scale": 2.15
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 40, "y": 91, "z": 15 },
+    "origin": { "x": 0.8, "y": 0.4, "z": 0 },
+    "scale": 1.47
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 180, "y": 33, "z": -180 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 2.5
+  },
+  "tpHandTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 5, "y": 41, "z": -31 },
+    "origin": { "x": 0.16, "y": 0.05, "z": 0.08 },
+    "scale": 0.44
+  }
+}

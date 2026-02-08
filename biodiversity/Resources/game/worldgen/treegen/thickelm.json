@@ -1,0 +1,61 @@
+{
+	treeWorldPropertyCode: "thickelm",
+	sizeMultiplier: 1.4,
+	yOffset: -2,
+	trunks: [{
+		widthloss: 0.06,
+		dx: 0.5,
+		dz: 0.5,
+		segment: 4,
+		dieAt: { avg: 0.002 },
+		branchStart: { dist: "gaussian", avg: 0.3, var: 0.2 },
+		branchSpacing: { dist: "gaussian", avg: 0.2, var: 0.1 },
+		branchVerticalAngle:  { avg: 0.8, var: 0.1 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.07, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 1 },
+		branchQuantity: { avg: 2, var: 0 },
+		branchWidthLossMul: 0.98,
+	}, {
+		inherit: { from: 0, skip: ["dx", "dz", "dieAt", "segment"] },
+		dieAt: { avg: 0.01, var: 0.1 },
+		dx: 1.5,
+		dz: 0.5,
+		segment: 1
+	}, {
+		inherit: { from: 0, skip: ["dx", "dz", "dieAt", "segment"] },
+		dieAt: { avg: 0.01, var: 0.1 },
+		dx: 0.5,
+		dz: 1.5,
+		segment: 3,
+	}, {
+		inherit: { from: 0, skip: ["dx", "dz", "dieAt", "segment"] },
+		dieAt: { avg: 0.01, var: 0.1 },
+		dx: 1.5,
+		dz: 1.5,
+		segment: 2
+	}],
+	branches: [{
+		widthLoss: 0.04,
+		gravityDrag: 0.1,
+		dieAt: { avg: 0.001 },
+
+		branchStart:  { avg: 0.1, var: 0.01 },
+		branchSpacing: { avg: 0.1, var: 0 },
+		branchVerticalAngle: { dist: "inversegaussian", avg: 0.5, var: 0.2 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 1, var: 0 },
+		branchWidthMultiplier: { avg: 1, var: 0.2 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:log-grown-elm-ud",
+		leavesBlockCode: "wildcrafttree:leaves-placed-elm",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-elm",
+		vinesBlockCode: "game:wildvine-section-north",
+		vinesEndBlockCode: "game:wildvine-end-north",
+		mossDecorCode: "game:attachingplant-spottymoss",
+		trunkSegmentBase: "wildcrafttree:logsection-grown-elm-",
+		trunkSegmentVariants: [ "ne", "se", "sw", "nw" ]
+	}
+}

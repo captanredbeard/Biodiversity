@@ -1,0 +1,643 @@
+{
+	code: "treeseed",
+	class: "ItemTreeSeed",
+	maxstacksize: 64,
+	attributes: {
+		displaycaseable: true,
+		shelvable: true,
+		handbook: {
+			groupBy: ["treeseed-*"],
+			extraSections: [ { "title": "wildcrafttree:handbook-item-notes", "text": "wildcrafttree:handbook-item-treeseed" } ]
+		}
+	},
+	attributesByType: {
+		"@treeseed-(dalbergia|elm|sal|azobe|linden|ash)-.*": {
+			rotateWhenFalling: true,
+			gravityFactor: 0.04,
+			airDragFactor: 45
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: [ "cedar", "fir", "spruce", "bluespruce", "douglasfir", "tuja", "redcedar", "yew", "kauri", "ginkgo", "sycamore", "honeylocust", "dalbergia", "wiliwili", "crownofthorns", "umnini", "banyan", "elm", "beech", "brideinwhite", "alder", "bearnut", "willow", "weepingwillow", "redwillow", "poplar", "pyramidalpoplar", "aspen", "tamanu", "spurgetree", "azobe", "guajacum", "eucalyptus", "ghostgum", "ohia", "satinash", "leadwood", "bluemahoe", "linden", "sal", "horsechestnut", "tigerwood", "mahogany", "sapele", "saxaul", "heather", "sourwood", "ash", "mousetrap", "catalpa", "jacaranda", "mangrove", "empresstree" ] },
+	],
+	shape: { base: "wildcrafttree:item/resource/seeds/{type}" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcrafttree": ["*"] },
+	storageFlags: 33,
+	materialDensityByType: {
+		"*-dalbergia": 20,
+		"*-elm": 20,
+		"*-sal": 20,
+		"*-azobe": 20,
+		"*-linden": 20,
+		"*-ash": 20,
+		"*": 200,
+	},
+	nutritionPropsByType: {
+		"*-bearnut": { satiety: 80, foodcategory: "Protein" },
+		"*-beech": { satiety: 60, foodcategory: "Protein" },
+		"*-sal": { satiety: 40, foodcategory: "Grain" },
+		"*-tamanu": { satiety: 60, foodcategory: "Grain" },
+		"*-umnini": { satiety: 80, foodcategory: "Fruit" },
+		"*-banyan": { satiety: 80, foodcategory: "Fruit" },
+		"*-satinash": { satiety: 60, foodcategory: "Fruit" },
+		"*-honeylocust": { satiety: 40, foodcategory: "Fruit" },
+		"*-yew": { satiety: 40, foodcategory: "Fruit" },
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 1,
+	},	
+	guiTransformByType: {
+		"*-brideinwhite": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 113, y: 158, z: -8 },
+			origin: { x: 0.55, y: 0.1, z: 0.5 },
+			scale: 3
+		},
+		"*-azobe": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -49, y: 6, z: -173 },
+			origin: { x: 0.47, y: 0.04, z: 0.51 },
+			scale: 3.83
+		},
+		"*-crownofthorns": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -57, y: 41, z: -155 },
+			origin: { x: 0.54, y: 0.07, z: 0.5 },
+			scale: 4.37
+		},
+		"*-ash": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -77, y: 42, z: 17 },
+			origin: { x: 0.47, y: -0.03, z: 0.55 },
+			scale: 2.85
+		},
+		"*-linden": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 24, y: 4, z: 144 },
+			origin: { x: 0.37, y: 0.28, z: 0.22 },
+			scale: 3.72
+		},
+		"*-spurgetree": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -36, y: 85, z: -169 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 3.19
+		},
+		"*-sapele": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -30, y: -37, z: -171 },
+			origin: { x: 0.58, y: 0.17, z: 0.52 },
+			scale: 3.82
+		},
+		"*-leadwood": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 37, y: 31, z: 161 },
+			origin: { x: 0.5, y: 0.2, z: 0.49 },
+			scale: 3.31
+		},
+		"*-tigerwood": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -5, y: -100, z: -135 },
+			origin: { x: 0.55, y: 0.04, z: 0.51 },
+			scale: 2.03
+		},
+		"*-horsechestnut": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -5, y: -121, z: 35 },
+			origin: { x: 0.54, y: 0.06, z: 0.53 },
+			scale: 3.09
+		},
+		"*-tamanu": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 27, y: -98, z: -145 },
+			origin: { x: 0.6, y: 0.19, z: 0.46 },
+			scale: 3.37
+		},
+		"*-tuja": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 1, y: -60, z: -150 },
+			origin: { x: 0.53, y: 0.07, z: 0.5 },
+			scale: 4.27
+		},
+		"*-redcedar": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 120, y: -42, z: -23 },
+			origin: { x: 0.5, y: 0.07, z: 0.52 },
+			scale: 4.27
+		},
+		"*-empresstree": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -17, y: -60, z: -170 },
+			origin: { x: 0.54, y: 0.13, z: 0.52 },
+			scale: 3.5
+		},
+		"*-ginkgo": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 75, y: 157, z: -172 },
+			origin: { x: 0.49, y: 0, z: 0.5 },
+			scale: 5.12
+		},
+		"*-sourwood": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -3, y: -22, z: -140 },
+			origin: { x: 0.5, y: 0.02, z: 0.47 },
+			scale: 3.6
+		},
+		"*-heather": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 65, y: -68, z: -60 },
+			origin: { x: 0.48, y: 0.02, z: 0.52 },
+			scale: 3.6
+		},
+		"*-wiliwili": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 8, z: 174 },
+			origin: { x: 0.49, y: 0.03, z: 0.51 },
+			scale: 3.96
+		},
+		"*-banyan": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -9, y: -20, z: 141 },
+			origin: { x: 0.51, y: 0.13, z: 0.47 },
+			scale: 4.71
+		},
+		"*-jacaranda": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -54, y: 58, z: -162 },
+			origin: { x: 0.52, y: 0.04, z: 0.49 },
+			scale: 4.57
+		},
+		"*-mangrove": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -55, y: -27, z: -164 },
+			origin: { x: 0.5, y: 0.05, z: 0.47 },
+			scale: 4.17
+		},
+		"*-ghostgum": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 27, y: -19, z: -146 },
+			origin: { x: 0.51, y: 0.17, z: 0.52 },
+			scale: 3.45
+		},
+		"*-ohia": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 13, y: 19, z: 171 },
+			origin: { x: 0.5, y: 0.2, z: 0.52 },
+			scale: 3.3
+		},
+		"*-bluemahoe": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -20, y: -52, z: -132 },
+			origin: { x: 0.61, y: 0, z: 0.4 },
+			scale: 3.49
+		},
+		"*-beech": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -5, y: -57, z: -137 },
+			origin: { x: 0.54, y: 0.12, z: 0.51 },
+			scale: 3.72
+		},
+		"*-umnini": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -34, y: 9, z: -163 },
+			origin: { x: 0.49, y: 0.05, z: 0.44 },
+			scale: 3.73
+		},
+		"*-guajacum": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -29, y: 27, z: 168 },
+			origin: { x: 0.51, y: 0.15, z: 0.55 },
+			scale: 3.19
+		},
+		"*-yew": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -54, y: 15, z: -166 },
+			origin: { x: 0.51, y: 0.12, z: 0.48 },
+			scale: 3.44
+		},
+		"*-dalbergia": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -22, y: -65, z: -146 },
+			origin: { x: 0.54, y: 0.05, z: 0.51 },
+			scale: 3.26
+		},
+		"*-catalpa": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 134, y: 35, z: -8 },
+			origin: { x: 0.55, y: -0.02, z: 0.52 },
+			scale: 3.56
+		},
+		"@*-(poplar|pyramidalpoplar)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -61, y: 36, z: -153 },
+			origin: { x: 0.53, y: 0.03, z: 0.52 },
+			scale: 3.77
+		},
+		"*-aspen": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -135, y: -5, z: 151 },
+			origin: { x: 0.53, y: 0.04, z: 0.51 },
+			scale: 3.77
+		},
+		"*-sal": {
+			translation: { x: 0, y: 0, z: 9 },
+			rotation: { x: -49, y: 20, z: -166 },
+			origin: { x: 0.49, y: 0.23, z: 0.5 },
+			scale: 3.18
+		},
+		"@*-(spruce|bluespruce|fir)": {
+			translation: { x: 0, y: 0, z: 9 },
+			rotation: { x: 17, y: -121, z: -115 },
+			origin: { x: 0.6, y: 0.05, z: 0.59 },
+			scale: 4.43
+		},
+		"*-kauri": {
+			translation: { x: 0, y: 0, z: 9 },
+			rotation: { x: 17, y: -121, z: -115 },
+			origin: { x: 0.6, y: 0.05, z: 0.59 },
+			scale: 4.43
+		},
+		"*-saxaul": {
+			translation: { x: 0, y: 0, z: 9 },
+			rotation: { x: 122, y: 180, z: -19 },
+			origin: { x: 0.52, y: 0, z: 0.5 },
+			scale: 3.57
+		},
+		"*-eucalyptus": {
+			translation: { x: 0, y: 0, z: 9 },
+			rotation: { x: 146, y: -33, z: 9 },
+			origin: { x: 0.45, y: 0.1, z: 0.52 },
+			scale: 3.47
+		},
+		"*-mahogany": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 22, y: -31, z: -134 },
+			origin: { x: 0.51, y: 0.1, z: 0.54 },
+			scale: 3.1
+		},
+		"*-honeylocust": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -1, y: 101, z: 156 },
+			origin: { x: 0.4, y: 0.04, z: 0.52 },
+			scale: 4
+		},
+		"*-elm": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -31, y: -2, z: 180 },
+			origin: { x: 0.52, y: 0.1, z: 0.48 },
+			scale: 4.1
+		},
+		"*-sycamore": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -48, y: -48, z: 180 },
+			origin: { x: 0.54, y: 0.08, z: 0.51 },
+			scale: 4.13
+		},
+		"*-alder": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -28, y: 158, z: 161 },
+			origin: { x: 0.43, y: 0.14, z: 0.51 },
+			scale: 3.5
+		},
+		"@*-(willow|weepingwillow)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 44, y: -164, z: 164 },
+			origin: { x: 0.52, y: 0.27, z: 0.45 },
+			scale: 3.21
+		},
+		"*-redwillow": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -34, y: 25, z: 142 },
+			origin: { x: 0.52, y: 0.24, z: 0.44 },
+			scale: 3.21
+		},
+		"*-mousetrap": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -87, y: -38, z: -57 },
+			origin: { x: 0.51, y: 0.04, z: 0.51 },
+			scale: 3.55
+		},
+	"*-cedar": {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 19, y: 133, z: 133 },
+		origin: { x: 0.45, y: 0.14, z: 0.52 },
+		scale: 3.73
+	},
+	"*-douglasfir": {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 20, y: -127, z: -135 },
+		origin: { x: 0.45, y: 0.22, z: 0.47 },
+		scale: 3.61
+	},
+	"*-bearnut": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 44, "y": 15, "z": 23 },
+		"origin": { "x": 0.46, "y": -0.2, "z": 0.3 },
+		"scale": 2.77
+	},
+	"*-satinash": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -25, "y": -8, "z": -163 },
+		"origin": { "x": 0.47, "y": 0, "z": 0.16 },
+		"scale": 3.79
+	},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -5, y: -57, z: -146 },
+			origin: { x: 0.53, y: 0.04, z: 0.51 },
+			scale: 5.15
+		}
+	},
+	groundTransformByType: {
+		"*-brideinwhite": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 23, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.6 },
+			scale: 2.75
+		},
+		"*-azobe": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.5
+		},
+		"*-crownofthorns": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.61
+		},
+		"*-ash": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.06
+		},
+		"*-leadwood": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 73, y: 0, z: -1 },
+			origin: { x: 0.5, y: -0.1, z: 0.5 },
+			scale: 2
+		},
+		"*-tigerwood": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -4, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.9
+		},
+		"*-linden": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -23, y: 4, z: 82 },
+			origin: { x: 0.5, y: -0.04, z: 0.5 },
+			scale: 2.6
+		},
+		"@*-(cedar|kauri)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 80, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.6 },
+			scale: 2.86
+		},
+		"*-banyan": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -88, y: 12, z: 15 },
+			origin: { x: 0.5, y: 0, z: 0.47 },
+			scale: 3.64
+		},
+		"*-tamanu": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 34, y: 0, z: -45 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2.48
+		},
+		"*-spurgetree": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 16 },
+			origin: { x: 0.5, y: 0.02, z: 0.5 },
+			scale: 1.88
+		},
+		"*-empresstree": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 109, y: -2, z: 24 },
+			origin: { x: 0.5, y: 0, z: 0.6 },
+			scale: 2.16
+		},
+		"*-horsechestnut": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.39
+		},
+		"*-douglasfir": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 76, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.55 },
+			scale: 3.23
+		},
+		"*-saxaul": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -10, y: 10, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.61
+		},
+		"*-dalbergia": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.5
+		},
+		"*-ghostgum": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -71, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.05
+		},
+		"*-ohia": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -71, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.85
+		},
+		"@*-(spruce|bluespruce|fir)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 81, y: 7, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.55 },
+			scale: 3.16
+		},
+		"*-elm": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -51, y: 15, z: -22 },
+			origin: { x: 0.5, y: 0.07, z: 0.5 },
+			scale: 2.9
+		},
+		"*-catalpa": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.37
+		},
+		"@*-(yew|tuja|redcedar)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.02
+		},
+		"@*-(guajacum|bluemahoe)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.13
+		},
+		"*-mahogany": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 21, y: 4, z: 180 },
+			origin: { x: 0.5, y: 0.35, z: 0.5 },
+			scale: 2.66
+		},
+		"*-sycamore": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -36, y: 11, z: -11 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.21
+		},
+		"@*-(willow|redwillow|weepingwillow)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 112, y: 0, z: -2 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2.18
+		},
+		"*-bearnut": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -58, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.01, "z": 0.5 },
+			"scale": 2.66
+		},
+		"*-beech": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 82 },
+			origin: { x: 0.45, y: 0, z: 0.5 },
+			scale: 2.27
+		},
+		"*-alder": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 81, y: 0, z: 24 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.16
+		},
+		"*-sal": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 31, y: 0, z: 15 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.91
+		},
+		"*-eucalyptus": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.14
+		},
+		"@*-(poplar|aspen|pyramidalpoplar)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.36
+		},
+		"*-umnini": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.4
+		},
+		"*-satinash": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.21
+		},
+		"*-mousetrap": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.4
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3
+		}
+	},
+	tpHandTransformByType: {
+		"*-bearnut": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -128, "y": 20, "z": -118 },
+			"origin": { "x": -0.1, "y": 0.13, "z": -0.27 },
+		},
+		"*-mousetrap": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			"rotation": { "x": -12, "y": 7, "z": -56 },
+			"origin": { "x": 0.5, "y": 0.02, "z": 0.5 },
+			scale: 0.42
+		},
+		"@*-(cedar|kauri)": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			rotation: { x: -12, y: 7, z: -56 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.44
+		},
+		"*-banyan": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			rotation: { x: -12, y: 7, z: -56 },
+			origin: { x: 0.55, y: 0, z: 0.53 },
+			scale: 0.49
+		},
+		"*-horsechestnut": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			rotation: { x: -43, y: 22, z: -41 },
+			origin: { x: 0.47, y: 0.05, z: 0.5 },
+			scale: 0.42
+		},
+		"*-douglasfir": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			rotation: { x: -1, y: 7, z: -82 },
+			origin: { x: 0.5, y: 0.06, z: 0.5 },
+			scale: 0.44
+		},
+		"*-sal": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			rotation: { x: -15, y: -34, z: -136 },
+			origin: { x: 0.5, y: 0.06, z: 0.5 },
+			scale: 0.42
+		},
+		"*-empresstree": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			rotation: { x: -40, y: -23, z: 27 },
+			origin: { x: 0.42, y: -0.05, z: 0.45 },
+			scale: 0.34
+		},
+		"*-honeylocust": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			rotation: { x: -46, y: -15, z: -1 },
+			origin: { x: 0.45, y: 0.05, z: 0.5 },
+			scale: 0.42
+		},
+		"*-mahogany": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			rotation: { x: -12, y: -15, z: 76 },
+			origin: { x: 0.4, y: -0.05, z: 0.45 },
+			scale: 0.42
+		},
+		"@*-(ghostgum|ohia)": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			rotation: { x: -180, y: -11, z: -56 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.42
+		},
+		"*": {
+			translation: { x: -1.24, y: -0.17, z: -1.1 },
+			rotation: { x: -12, y: 7, z: -56 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.42
+		}
+	}
+}

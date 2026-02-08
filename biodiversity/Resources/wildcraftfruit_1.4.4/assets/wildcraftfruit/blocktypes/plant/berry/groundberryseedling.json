@@ -1,0 +1,214 @@
+{
+    "code": "groundberryseedling",
+    "classByType": {
+      "*-planted": "BlockPlant",
+      "*": "BlockClipping",
+    },
+    "entityclassbytype": {
+      "*-planted": "Transient",
+      "*-sprouting": "BEClipping"
+    },
+    "attributes": {
+      "overrideRandomDrawOffset": 5,
+      "matureDaysByType": {
+	"*-lingonberry-*": { avg: 14, var: 2 },
+	"*-crowberry-*": { avg: 14, var: 2 },
+	"*-creepingpine-*": { avg: 14, var: 2 },
+	"*-rubysaltbush-*": { avg: 12, var: 2 },
+	"*-honeypots-*": { avg: 12, var: 2 },
+	"*-pineheath-*": { avg: 12, var: 2 },
+	"*-cheeseberry-*": { avg: 12, var: 2 },
+	"*-coralbead-*": { avg: 10, var: 1.4 },
+	"*-kakaha-*": { avg: 10, var: 1.4 },
+	"*-cloudberry-*": { avg: 8, var: 1 },
+	"*-knyazberry-*": { avg: 8, var: 1 },
+	"*": { avg: 6, var: 1 }
+      },
+      "stopBelowTempByType": {
+	"*-coralbead-*": 6,
+	"*-cheeseberry-*": 2,
+	"*-honeypots-*": 2,
+	"*-pineheath-*": 2,
+	"*-kakaha-*": 2,
+	"*-falsestrawberry-*": 2,
+	"*-crowseye-*": -6,
+	"*-knyazberry-*": -10,
+	"*-cloudberry-*": -10,
+	"*-bunchberry-*": -10,
+	"*-crowberry-*": -14,
+	"*-lingonberry-*": -14,
+	"*": 0,
+      },
+      "resetBelowTempByType": {
+	"*-coralbead-*": 5,
+	"*-cheeseberry-*": 1,
+	"*-honeypots-*": 1,
+	"*-pineheath-*": 1,
+	"*-kakaha-*": 1,
+	"*-falsestrawberry-*": 1,
+	"*-crowseye-*": -7,
+	"*-knyazberry-*": -11,
+	"*-cloudberry-*": -11,
+	"*-bunchberry-*": -11,
+	"*-crowberry-*": -15,
+	"*-lingonberry-*": -15,
+	"*": -1,
+      },
+      "dieBelowTempByType": {
+	"*-coralbead-*": 4,
+	"*-cheeseberry-*": 0,
+	"*-honeypots-*": 0,
+	"*-pineheath-*": 0,
+	"*-kakaha-*": 0,
+	"*-falsestrawberry-*": 0,
+	"*-crowseye-*": -8,
+	"*-knyazberry-*": -12,
+	"*-cloudberry-*": -12,
+	"*-bunchberry-*": -12,
+	"*-crowberry-*": -16,
+	"*-lingonberry-*": -16,
+	"*": -2,
+      },
+      "bushCodebyType": {
+        "*-strawberry-*": "wildcraftfruit:groundberryplant-strawberry-empty",
+        "*-greenstrawberry-*": "wildcraftfruit:groundberryplant-greenstrawberry-empty",
+        "*-gardenstrawberry-*": "wildcraftfruit:groundberryplant-gardenstrawberry-empty",
+        "*-falsestrawberry-*": "wildcraftfruit:groundberryplant-falsestrawberry-empty",
+        "*-cloudberry-*": "wildcraftfruit:groundberryplant-cloudberry-empty",
+        "*-bunchberry-*": "wildcraftfruit:groundberryplant-bunchberry-empty",
+        "*-crowberry-*": "wildcraftfruit:groundberryplant-crowberry-empty",
+        "*-lingonberry-*": "wildcraftfruit:groundberryplant-lingonberry-empty",
+        "*-knyazberry-*": "wildcraftfruit:groundberryplant-knyazberry-empty",
+        "*-crowseye-*": "wildcraftfruit:groundberryplant-crowseye-empty",
+        "*-coralbead-*": "wildcraftfruit:groundberryplant-coralbead-empty",
+        "*-creepingpine-*": "wildcraftfruit:groundberryplant-creepingpine-empty",
+        "*-rubysaltbush-*": "wildcraftfruit:groundberryplant-rubysaltbush-empty",
+        "*-cheeseberry-*": "wildcraftfruit:groundberryplant-cheeseberry-empty",
+        "*-pineheath-*": "wildcraftfruit:groundberryplant-pineheath-empty",
+        "*-honeypots-*": "wildcraftfruit:groundberryplant-honeypots-empty",
+        "*-kakaha-*": "wildcraftfruit:groundberryplant-kakaha-empty",
+      },
+      "transientPropsByType": {
+        "*-planted": {
+          "convertFrom": "*-planted", 
+          "convertTo": "*-sprouting", 
+          "inGameHours": "48",
+          "resetBelowTemperature": -2,
+          "stopBelowTemperature": 0
+        }
+      }
+    },
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": ["creepingpine", "crowseye", "kakaha", "gardenstrawberry", "greenstrawberry", "strawberry", "falsestrawberry", "cloudberry", "knyazberry", "rubysaltbush", "bunchberry", "cheeseberry", "pineheath", "honeypots", "crowberry", "lingonberry", "coralbead"]
+        },
+      {
+        "code": "state",
+        "states": [ "planted", "sprouting", "dead" ]
+      }
+    ],
+    "renderpass": "OpaqueNoCull",
+    "drawtype": "JSON",
+    "randomDrawOffset": true,
+    "shapeByType": {
+      "*-planted": { "base": "wildcraftfruit:block/plant/seedling/dirt" },
+      "*-sprouting": { "base": "wildcraftfruit:block/plant/seedling/seedling_{type}" },
+      "*-dead": { "base": "wildcraftfruit:block/plant/seedling/seedling_dead" }
+    },
+    "blockmaterial": "Plant",
+    "sideopaqueByType": {
+      "*": { "all": false }
+    },
+    "sidesolid": {
+      "all": false
+    },
+    "dropsByType": {
+      "*-planted": [
+        {
+          "type": "item",
+          "code": "wildcraftfruit:seeds-{type}",
+          "quantity": { "avg": 0.8 }
+        }
+      ],
+      "*-sprouting": [
+        {
+          "type": "item",
+          "code": "game:drygrass",
+          "quantity": { "avg": 0.8 }
+        }
+      ],
+      "*-dead": [
+        {
+          "type": "item",
+          "code": "game:drygrass",
+          "quantity": { "avg": 0.8 }
+        }
+      ]
+    },
+    "replaceable": 5200,
+    "lightAbsorption": 0,
+    "resistance": 1,
+    "collisionbox": null,
+	"selectionbox": {
+		"x1": 0.2,
+		"y1": 0,
+		"z1": 0.2,
+		"x2": 0.8,
+		"y2": 0.4,
+		"z2": 0.8
+	  },
+    "sounds": {
+      "place": "game:block/plant",
+      "break": "game:block/plant",
+      "hit": "game:block/plant"
+    },
+    "rainPermeable": true,
+    "materialDensity": 200,
+    "combustibleProps": {
+      "burnTemperature": 600,
+      "burnDuration": 10
+    },
+    "guiTransform": {
+          "rotation": { "x": -29, "y": -17, "z": 0 },
+          "origin": { "x": 0.59, "y": -0.03, "z": 0.7 },
+          "scale": 2.05
+    },
+    "fpHandTransform": {
+          "rotation": { "x": 55, "y": 54, "z": -58 },
+          "origin": { "x": 0.2, "y": 1, "z": 0 },
+          "scale": 1.54
+      },
+    "tpHandTransform": {
+        "translation": { "x": -2, "y": -1.7, "z": -1.6 },
+        "rotation": { "x": -48, "y": 8, "z": -25 },
+        "origin": { "x": 0.5, "y": 0.75, "z": 0.4 },
+        "scale": 0.34
+    },
+    "groundTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3
+    },
+    "frostable": true,
+    "__comment": "Wind wave looks not good on ground and horrible in planters and flower post",
+    "vertexFlags": {
+      "weakWave": true,
+      "grassWindWave": false,
+      "leavesWindWave": false
+    }
+  }
+  

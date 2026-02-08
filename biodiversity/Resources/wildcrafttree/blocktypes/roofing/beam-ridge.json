@@ -1,0 +1,53 @@
+{
+	code: "beam-ridge",
+	class: "BlockSupportBeam",
+	entityClass: "Generic",
+	entityBehaviors: [ { name: "SupportBeam" } ],
+	variantgroups: [
+		{ code: "material", loadFromProperties: "wildcrafttree:block/wood" },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		handbook: { exclude: true },
+		partialEnds: true
+	},
+	creativeinventory: { "general": ["*-free"], "construction": ["*-free"], "wildcrafttree": ["*-free"] },
+	shapeByType: { 
+		"*-free": { base: "game:block/roofing/beam/ridgeshingle-free/16" },
+		"*-snow": { base: "game:block/roofing/beam/ridgeshingle-snow/16" }
+	},
+	texturesByType: {
+		"*": {"material": { base: "wildcrafttree:block/wood/shingles/{material}-side" }
+		}
+	},
+	blockmaterialByType: {
+		"*": "Wood"
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	sideOpaque: { all: false },
+	emitSideAo: { all: false },
+	lightAbsorption: 0,
+	resistance: 3.5,
+	soundsByType: {
+		"*": {
+			place: "game:block/planks",
+			break: "game:block/planks",
+			hit: "game:block/planks",
+		}
+	},
+	maxStackSize: 32,
+	materialDensity: 1200,
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	guiTransform: {
+		rotation: { x: -22.6, y: -64, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 2.24
+	},
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	},
+	drops: []
+}

@@ -1,0 +1,68 @@
+[
+	{
+		ingredientPattern: "SLH,ALC",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1  },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "material", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "wildcrafttree:figurehead-bear", quantity: 1, attributes: { "material": "{material}" } }
+	},
+	{
+		ingredientPattern: "ALH,SLC",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1  },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "material", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "wildcrafttree:figurehead-gear", quantity: 1, attributes: { "material": "{material}" } }
+	},
+	{
+		ingredientPattern: "HLA,CLS",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1  },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "material", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "wildcrafttree:figurehead-siren", quantity: 1, attributes: { "material": "{material}" } }
+	},
+	{
+		ingredientPattern: "ALH,CLS",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1  },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "material", quantity: 3 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "wildcrafttree:figurehead-skull", quantity: 1, attributes: { "material": "{material}" } }
+	},
+	{
+		ingredientPattern: "HLS,CLA",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true, toolDurabilityCost: 1  },
+			"S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 1  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 1  },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "material", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "wildcrafttree:figurehead-wolf", quantity: 1, attributes: { "material": "{material}" } }
+	},
+
+]

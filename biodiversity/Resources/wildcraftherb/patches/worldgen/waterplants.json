@@ -1,0 +1,68 @@
+[
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of soft sedge in temperate areas near water",
+          "blockCodes": [
+            "wildcraftherb:sedge-softsedge-normal",
+            "wildcraftherb:sedge-softsedge-normal",
+            "wildcraftherb:sedge-softsedge-normal",
+            "wildcraftherb:sedge-softsedge-normal"
+          ],
+          "minTemp": -12,
+          "maxTemp": 22,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 1.0,
+          "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 50, "var": 25 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of arrowhead in warm areas near water",
+          "blockCodes": [
+            "wildcraftherb:arrowhead-arrowhead-normal"
+          ],
+          "minTemp": -12,
+          "maxTemp": 2,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 0.3,
+          "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 15, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of water chestnut in tropical areas near water",
+          "blockCodes": [
+            "wildcraftherb:sedge-waterchestnut-normal",
+            "wildcraftherb:sedge-waterchestnut-normal",
+            "wildcraftherb:sedge-waterchestnut-normal",
+            "wildcraftherb:sedge-waterchestnut-normal"
+          ],
+          "minTemp": 24,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 1.0,
+          "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 50, "var": 25 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      }
+]

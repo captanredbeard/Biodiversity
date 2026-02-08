@@ -1,0 +1,24 @@
+[
+	{
+		"op": "replace",
+		"path": "/attributesByType",
+		"value": { 
+			"*-sunflower": 	{ "nutritionPropsWhenInMeal": { satiety: 180, foodcategory: "Grain" }, "inPieProperties": { texture: "game:block/food/grain/sunflower", partType: 'Filling' } },
+			"*-flax": { "nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "Grain" }, "inPieProperties": { texture: "game:block/food/grain/flax", partType: 'Filling' } }, 
+			"*-rice": { "nutritionPropsWhenInMeal": { satiety: 280, foodcategory: "Grain" } }, 
+			"*": { "foodTags": ["{type}"], "nutritionPropsWhenInMeal": { satiety: 240, foodcategory: "Grain" }}
+		},
+		"file": "game:itemtypes/food/grain.json"
+	},
+	{
+		"op": "replace",
+		"path": "/nutritionPropsByType",
+		"value": {
+		"*-rice": { satiety: 80, foodcategory: "Grain" },
+		"*-sunflower": { satiety: 80, foodcategory: "Grain" },
+		"*-flax": { satiety: 40, foodcategory: "Grain" },
+		"*": { satiety: 60, foodcategory: "Grain" }
+		},
+		"file": "game:itemtypes/food/grain.json"
+	}
+]

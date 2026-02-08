@@ -1,0 +1,43 @@
+[
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "tropicalPink",
+            "texture": { "base": "environment/seasons/pinktint" },
+            "loadIntoBlockTextureAtlas": true,
+        },
+        "file": "game:config/colormaps.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "seasonalElder",
+            "texture": { "base": "environment/seasons/eldertint" },
+            "loadIntoBlockTextureAtlas": true,
+        },
+        "file": "game:config/colormaps.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "seasonalIvy",
+            "texture": { "base": "environment/seasons/ivytint" },
+            "loadIntoBlockTextureAtlas": true,
+        },
+        "file": "game:config/colormaps.json"
+    },
+    {
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "code": "tropicalArid",
+            "texture": { "base": "environment/seasons/aridtint" },
+            "loadIntoBlockTextureAtlas": true,
+	    "extraFlags": 1
+        },
+        "file": "game:config/colormaps.json"
+    },
+]

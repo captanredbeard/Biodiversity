@@ -1,0 +1,92 @@
+[
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcrafttree:treeseed-bearnut" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:clothes-neck-bearnut-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcrafttree:treeseed-wiliwili" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:clothes-neck-wiliwili-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcrafttree:treeseed-tuja" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:clothes-neck-tujaseed-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcrafttree:treeseed-redcedar" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:clothes-neck-tujaseed-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcrafttree:treeseed-cedar" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:clothes-neck-cedarcone-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcrafttree:treeseed-spruce" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:clothes-neck-sprucecone-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcrafttree:treeseed-douglasfir" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:clothes-neck-douglas-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcrafttree:treeseed-kauri" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:clothes-neck-kauricone-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcrafttree:treeseed-fir" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:clothes-neck-fircone-amulet"  }
+	},
+]

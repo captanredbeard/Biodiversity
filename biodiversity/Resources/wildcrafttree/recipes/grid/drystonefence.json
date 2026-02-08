@@ -1,0 +1,19 @@
+[
+	{
+		ingredientPattern: "ABC	DEF	GHI",
+		ingredients: {
+			"A": { type: "item", code: "game:stone-bauxite" },
+			"B": { type: "item", code: "game:stone-granite" },
+			"C": { type: "item", code: "game:stone-limestone" },
+			"D": { type: "item", code: "game:stone-conglomerate" },
+			"F": { type: "item", code: "game:stone-andesite" },
+			"G": { type: "item", code: "game:stone-claystone" },
+			"H": { type: "item", code: "game:stone-chalk" },
+			"I": { type: "item", code: "game:stone-phyllite" },
+			"E": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:drystonefence-mixed-ew-free", quantity: 1 }
+	}
+]

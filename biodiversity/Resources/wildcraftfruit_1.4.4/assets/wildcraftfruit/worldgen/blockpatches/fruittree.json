@@ -1,0 +1,13 @@
+[
+	{
+		comment: "Wildcraft fruit tree",
+		blockCodes: ["wildcraftfruit:fruittree-branch"],
+		minTemp: -20,
+		minForest: 0.2,
+		maxForest: 1,
+		minRain: 0,
+		maxRain: 1,
+		quantity: { avg: 1, var: 1 },
+		chance: 0.04,
+	}
+]

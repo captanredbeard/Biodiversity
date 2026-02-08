@@ -1,0 +1,29 @@
+[	
+	{
+		code: "dye-black",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcrafttree:leaves-walnut", quantity: 4 }
+		],
+		output: { type: "item", code: "wildcrafttree:dye-walnut", litres: 1 }
+	},
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "wildcrafttree:dye-walnut", litres: 2, consumelitres: 2 },
+			{ type: "item", code: "game:cloth-plain", quantity: 1 }
+		],
+		output: { type: "item", code: "game:cloth-black", stackSize: 1 }
+	},
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "wildcrafttree:dye-walnut", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "game:leather-normal-plain", quantity: 1 }
+		],
+		output: { type: "item", code: "game:leather-normal-black", stackSize: 1 }
+	},
+]

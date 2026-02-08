@@ -1,0 +1,14 @@
+{
+    "type": "content",
+    "modid": "wildcraftfruit",
+    "name": "Wildcraft: Fruits and Nuts",
+    "authors": [
+        "gabb (code)", 
+        "Ледяная Соня (textures, models)", 
+        "CATASTEROID (some assets)",
+        "L33tmaan (meal fixes)"
+    ],
+    "description": "Adds an assortment of fruits, berries and nuts",
+    "version": "1.4.4",
+    "dependencies": {"herbarium": "1.4.1-rc.1" }
+}

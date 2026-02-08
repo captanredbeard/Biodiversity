@@ -1,0 +1,133 @@
+{
+	code: "groundnut",
+	maxstacksize: 64,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	attributes: {
+		dissolveInWater: true,
+		inPiePropertiesByType: {
+		"*-peanut": { texture: "wildcraftfruit:block/food/pie/fill-peanutground", partType: 'Filling', allowMixing: false },
+		"*-walnut": { texture: "wildcraftfruit:block/food/pie/fill-walnutshelled", partType: 'Filling', allowMixing: false },
+		"*-hackberry": { texture: "wildcraftfruit:block/food/pie/fill-hackberrypit", partType: 'Filling', allowMixing: false },
+		"*-beachalmond": { texture: "wildcraftfruit:block/food/pie/fill-beachalmond", partType: 'Filling', allowMixing: false },
+		"*-pistachio": { texture: "wildcraftfruit:block/food/pie/fill-pistachioground", partType: 'Filling', allowMixing: false },
+		"@*-(almond|apricotpit)": { texture: "wildcraftfruit:block/food/pie/fill-marzipan", partType: 'Filling', allowMixing: false },
+		"@*-(hazelnut|bearnut)": { texture: "wildcraftfruit:block/food/pie/fill-hazelnutground", partType: 'Filling', allowMixing: false },
+		"*-macadamia": { texture: "wildcraftfruit:block/food/pie/fill-macadamiashelled", partType: 'Filling', allowMixing: false },
+		"*-cashew": { texture: "wildcraftfruit:block/food/pie/fill-cashewnut", partType: 'Filling', allowMixing: false },
+		"*-pinenut": { texture: "wildcraftfruit:block/food/pie/fill-pinenut", partType: 'Filling', allowMixing: false },
+		"*-dwarfpinenut": { texture: "wildcraftfruit:block/food/pie/fill-dwarfpinenut", partType: 'Filling', allowMixing: false },
+		"*-bunya": { texture: "wildcraftfruit:block/food/pie/fill-bunya", partType: 'Filling', allowMixing: false },
+		},
+		inContainerTextureByType: {
+		"*-peanut": { base: "wildcraftfruit:block/food/pie/fill-peanutground" },
+		"*-walnut": { base: "wildcraftfruit:block/food/pie/fill-walnutshelled" },
+		"*-hackberry": { base: "wildcraftfruit:block/food/pie/fill-hackberrypit" },
+		"*-beachalmond": { base: "wildcraftfruit:block/food/pie/fill-beachalmond" },
+		"*-pistachio": { base: "wildcraftfruit:block/food/pie/fill-pistachioground" },
+		"@*-(almond|apricotpit)": { base: "wildcraftfruit:block/food/pie/fill-marzipan" },
+		"@*-(hazelnut|bearnut)": { base: "wildcraftfruit:block/food/pie/fill-hazelnutground" },
+		"*-cashew": { base: "wildcraftfruit:block/food/pie/fill-cashewnut" },
+		"*-macadamia": { base: "wildcraftfruit:block/food/pie/fill-macadamiashelled" },
+		"*-pinenut": { base: "wildcraftfruit:block/food/pie/fill-pinenut" },
+		"*-dwarfpinenut": { base: "wildcraftfruit:block/food/pie/fill-dwarfpinenut" },
+		"*-bunya": { base: "wildcraftfruit:block/food/pie/fill-bunya" },
+		},
+		nutritionPropsWhenInMealByType: {
+		"@*-(almond|peanut|bunya)": { satiety: 160, foodcategory: "Protein" },
+		"@*-(pinenut|walnut)": { satiety: 140, foodcategory: "Protein" },
+		"@*-(cashew|macadamia)": { satiety: 160, foodcategory: "Grain" },
+		"@*-(pistachio|bearnut)": { satiety: 100, foodcategory: "Protein" },
+		"@*-(dwarfpinenut|hackberry)": { satiety: 90, foodcategory: "Protein" },
+		"@*-(hazelnut|apricotpit|beachalmond)": { satiety: 120, foodcategory: "Protein" },
+		},
+		groundStorageTransform: {
+			translation: { x: 0, y: -0.06, z: 0 },
+			scale: 0.89
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["pinenut", "dwarfpinenut", "bunya", "macadamia", "peanut", "almond", "apricotpit", "hackberry", "walnut", "hazelnut", "bearnut", "beachalmond", "cashew", "pistachio"] },
+	],
+	"nutritionPropsByType": {
+      	  "@*-(almond|peanut|bunya)": { 
+      	  "satiety": 160,
+      	  "foodcategory": "Protein" 
+	},
+      	  "@*-(cashew|macadamia)": { 
+      	  "satiety": 160,
+      	  "foodcategory": "Grain" 
+	},
+	  "@*-(pinenut|walnut)": { 
+	  "satiety": 140, 
+	  "foodcategory": "Protein" 
+	},
+      	  "@*-(pistachio|bearnut)": { 
+      	  "satiety": 100, 
+      	  "foodcategory": "Protein" 
+      	},
+      	  "@*-(hazelnut|apricotpit|beachalmond)": { 
+      	  "satiety": 120,
+      	  "foodcategory": "Protein" 
+	},
+	  "@*-(dwarfpinenut|hackberry)": { 
+	  "satiety": 80, 
+	  "foodcategory": "Protein" 
+	}
+	},
+	shape: { base: "wildcraftfruit:item/fruit/groundnut" },
+	textureByType: {
+		"*-peanut": { base: "wildcraftfruit:items/fruit/peanutground" },
+		"*-walnut": { base: "wildcraftfruit:items/fruit/walnutground" },
+		"*-hackberry": { base: "wildcraftfruit:items/fruit/hackberryground" },
+		"*-pistachio": { base: "wildcraftfruit:items/fruit/pistachioground" },
+		"*-beachalmond": { base: "wildcraftfruit:items/fruit/beachalmondground" },
+		"@*-(almond|apricotpit)": { base: "wildcraftfruit:items/fruit/almondground" },
+		"@*-(hazelnut|bearnut)": { base: "wildcraftfruit:items/fruit/hazelground" },
+		"@*-(cashew|macadamia)": { base: "wildcraftfruit:items/fruit/cashewground" },
+		"@*-(pinenut|dwarfpinenut|cedarnut|bunya)": { base: "wildcraftfruit:items/fruit/pinenutground" },
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcraftfruit": ["*"] },
+	materialDensity: 600,
+	"transitionablePropsByType": {
+		"@*-(almond|peanut|hazelnut|bearnut|bunya)": [{
+			type: "Perish",
+			freshHours: { avg: 2160 },
+			transitionHours: { avg: 144 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}],
+		"@*-(cashew|apricotpit|beachalmond|pistachio|pinenut|dwarfpinenut|cedarnut|macadamia|hackberry|walnut)": [{
+			type: "Perish",
+			freshHours: { avg: 600 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}],
+	},
+	guiTransform: {
+		translation: { x: 3, y: 1, z: -25 },
+		rotation: { x: 149, y: 15, z: 5 },
+		origin: { x: 0.36, y: -0.14, z: 0.8 },
+		scale: 2.64
+	},
+	tpHandTransform: {
+		translation: { x: -0.28, y: -0.8, z: -1.3 },
+		rotation: { x: 119, y: -7, z: -72 },
+		origin: { x: -0.02, y: 0.32, z: 0.81 },
+		scale: 0.38
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 3, y: 1, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.65
+	},
+	"heldRightReadyAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+        }
+}

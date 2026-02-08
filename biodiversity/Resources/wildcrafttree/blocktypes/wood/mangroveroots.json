@@ -1,0 +1,71 @@
+{
+	"code": "mangroveroots",
+	"class": "BlockReeds",
+	"attributes": {
+	   "maxWaterDepth": 1
+        },
+        "creativeinventory": { "general": ["*"], "flora": ["*"], "wildcrafttree": ["*"] },
+        "shapeByType": {
+		"mangroveroots": {
+			base: "wildcrafttree:block/wood/mangroveroots1",
+			alternates: [
+				{ base: "wildcrafttree:block/wood/mangroveroots1", rotateY: 90 },
+				{ base: "wildcrafttree:block/wood/mangroveroots1", rotateY: 180 },
+				{ base: "wildcrafttree:block/wood/mangroveroots1", rotateY: 270 },
+				{ base: "wildcrafttree:block/wood/mangroveroots2", rotateY: 00 },
+				{ base: "wildcrafttree:block/wood/mangroveroots2", rotateY: 90 },
+				{ base: "wildcrafttree:block/wood/mangroveroots2", rotateY: 180 },
+				{ base: "wildcrafttree:block/wood/mangroveroots2", rotateY: 270 }
+			]
+		},
+        },
+	"randomDrawOffset": true,
+	"renderpass": "OpaqueNoCull",
+	"blockmaterial": "Wood",
+        "combustiblePropsByType": {
+	"*": {
+	     "burnTemperature": 800,
+	     "burnDuration": 40
+	}
+        },
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+        "replaceable": 500,
+        "resistance": 1.5,
+	"lightAbsorption": 0,
+	"rainPermeable": true,
+        "maxStackSize": 32,
+	"materialDensity": 700,
+	"drops": [
+		{
+			type: "item",
+			code: "game:firewood",
+			quantity: { avg: 1, var: 0.5 },
+		},
+		{
+			type: "item",
+			code: "game:stick",
+			quantity: { avg: 2, var: 0.5 },
+		}
+	],
+	"collisionselectionBox": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.875, z2: 0.875 },
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldRightReadyAnimation": "heldblockready", "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+        "rotation": { "x": -2, "y": 25, "z": -78 },
+        "scale": 0.4
+    },
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": { "hit": "game:block/chop", "break": "game:block/planks" }
+		}
+	}
+}

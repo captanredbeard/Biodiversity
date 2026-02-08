@@ -1,0 +1,162 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"skunkcabbage_stem": "wildcraft:block/plant/leafygroundvegetable/normal/skunkcabbage_stem",
+		"skunkcabbage_leaf_small": "wildcraft:block/plant/leafygroundvegetable/normal/skunkcabbage_leaf_small",
+		"skunkcabbage_leaf_big": "wildcraft:block/plant/leafygroundvegetable/normal/skunkcabbage_leaf_big",
+		"skunkcabbage_spathe": "wildcraft:block/plant/leafygroundvegetable/normal/skunkcabbage_spathe"
+	},
+	"elements": [
+		{
+			"name": "Stem1",
+			"from": [ 8.0, 0.0, -4.0 ], 
+			"to": [ 8.0, 24.0, 20.0 ], 
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"east": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+				"south": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Stem2",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 24.0, 24.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"east": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"west": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"down": { "texture": "#skunkcabbage_stem", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Leaf1",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 24.0, 24.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
+					"rotationX": 27.0,
+					"rotationY": 90.0,
+					"rotationZ": 8.0,
+					"faces": {
+						"north": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"east": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+						"south": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"west": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"down": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Spathe",
+					"from": [ 0.0, 11.5, 0.0 ], 
+					"to": [ 0.0, 35.5, 24.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 11.0, 12.0 ],
+					"rotationY": -45.0,
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#skunkcabbage_spathe", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"east": { "texture": "#skunkcabbage_spathe", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+						"south": { "texture": "#skunkcabbage_spathe", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"west": { "texture": "#skunkcabbage_spathe", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#skunkcabbage_spathe", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"down": { "texture": "#skunkcabbage_spathe", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Leaf2",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 24.0, 24.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
+					"rotationY": 22.5,
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"east": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+						"south": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"west": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"down": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Leaf6",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 24.0, 24.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
+					"rotationX": -45.0,
+					"rotationY": -90.0,
+					"faces": {
+						"north": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"east": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+						"south": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"west": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"down": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Leaf7",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 24.0, 24.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
+					"rotationY": -22.5,
+					"rotationZ": -54.0,
+					"faces": {
+						"north": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"east": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+						"south": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"west": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"down": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Leaf8",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 24.0, 24.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
+					"rotationY": 22.5,
+					"rotationZ": 57.0,
+					"faces": {
+						"north": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"east": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+						"south": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"west": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false },
+						"down": { "texture": "#skunkcabbage_leaf_small", "uv": [ 0.0, 0.0, 0.3333, 24.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

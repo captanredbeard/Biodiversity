@@ -1,0 +1,196 @@
+[
+  {
+    "op": "addeach",
+    "path": "/selling/list/-",
+    "value": [
+    {
+	"code": "wildcraftfruit:clipping-boysenberry-green",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 8, "var": 2 },
+	    "price": { "avg": 3, "var": 0.75 }
+    },
+    {
+	"code": "wildcraftfruit:vineclipping-redgrape-green",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 8, "var": 2 },
+	    "price": { "avg": 3, "var": 0.75 }
+    },
+    {
+	"code": "wildcraftfruit:vineclipping-whitegrape-green",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 8, "var": 2 },
+	    "price": { "avg": 3, "var": 0.75 }
+    },
+    {
+	"code": "wildcraftfruit:clipping-orangebellpepper-green",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 8, "var": 2 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    {
+	"code": "wildcraftfruit:clipping-cayenne-green",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 8, "var": 2 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    {
+	"code": "wildcraftfruit:clipping-habanero-green",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 8, "var": 2 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    {
+	"code": "wildcraftfruit:clipping-romatomato-green",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 8, "var": 2 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    {
+	"code": "wildcraftfruit:clipping-oxheart-green",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 8, "var": 2 },
+	    "price": { "avg": 3, "var": 0.75 }
+    },
+    {
+	"code": "wildcraftfruit:fruit-redgrape",
+	"type": "item",
+	    "stacksize": 8,
+	    "stock": { "avg": 6, "var": 2 },
+	    "price": { "avg": 1, "var": 0.25 }
+    },
+    {
+	"code": "wildcraftfruit:fruit-whitegrape",
+	"type": "item",
+	    "stacksize": 8,
+	    "stock": { "avg": 6, "var": 2 },
+	    "price": { "avg": 1, "var": 0.25 }
+    },
+    {
+	"code": "wildcraftfruit:vegetable-cucumber",
+	"type": "item",
+	    "stacksize": 8,
+	    "stock": { "avg": 6, "var": 2 },
+	    "price": { "avg": 1, "var": 0.25 }
+    },
+    {
+	"code": "wildcraftfruit:seeds-gardenstrawberry",
+	"type": "item",
+	    "stacksize": 4,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 4, "var": 1 }
+    },
+    {
+	"code": "wildcraftfruit:melonseeds-watermelon",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    {
+	"code": "wildcraftfruit:melonseeds-muskmelon",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 3, "var": 0.75 }
+    },
+    {
+	"code": "wildcraftfruit:melonseeds-honeydewmelon",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 3, "var": 0.75 }
+    },
+    {
+	"code": "wildcraftfruit:melonseeds-mirzamelon",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 3, "var": 0.75 }
+    },
+    ],
+    "file": "game:config/tradelists/trader-agriculture.json"
+  },
+  {
+    "op": "add",
+    "path": "/buying/list/-",
+    "value": {
+	"code": "wildcraftfruit:quandongpits",
+	"type": "item",
+	    "stacksize": 6,
+	    "stock": { "avg": 3, "var": 0.75 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    "file": "game:config/tradelists/trader-artisan.json",
+  },
+  {
+    "op": "addeach",
+    "path": "/buying/list/-",
+    "value": [
+    {
+	"code": "wildcraftfruit:clothes-arm-quandongbracelet",
+	"type": "item",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 3, "var": 0.75 }
+    },
+    {
+	"code": "wildcraftfruit:clothes-neck-quandongnecklace",
+	"type": "item",
+	    "stacksize": 1,
+	    "stock": { "avg": 1, "var": 0.25 },
+	    "price": { "avg": 4, "var": 1 }
+    },
+    ],
+    "file": "game:config/tradelists/trader-clothing.json"
+  },
+  {
+    "op": "addeach",
+    "path": "/buying/list/-",
+    "value": [
+    {
+	"code": "wildcraftfruit:clothes-arm-quandongbracelet",
+	"type": "item",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 3, "var": 0.75 }
+    },
+    {
+	"code": "wildcraftfruit:clothes-neck-quandongnecklace",
+	"type": "item",
+	    "stacksize": 1,
+	    "stock": { "avg": 1, "var": 0.25 },
+	    "price": { "avg": 4, "var": 1 }
+    },
+    ],
+    "file": "game:config/tradelists/trader-luxuries.json",
+  },
+  {
+    "op": "addeach",
+    "path": "/selling/list/-",
+    "value": [
+    {
+	"code": "wildcraftfruit:chocolate-chocolate",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 3, "var": 0.75 }
+    },
+    {
+	"code": "wildcraftfruit:chocolate-milkchocolate",
+	"type": "item",
+	    "stacksize": 2,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 3, "var": 0.75 }
+    }
+    ],
+    "file": "game:config/tradelists/trader-luxuries.json"
+  },
+]

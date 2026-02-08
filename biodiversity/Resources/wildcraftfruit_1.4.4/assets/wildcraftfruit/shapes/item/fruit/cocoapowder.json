@@ -1,0 +1,114 @@
+{
+	"editor": {
+		"collapsedPaths": "Root",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"flour": "items/fruit/cocoapowder"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "base",
+					"from": [ -5.0, 0.1, -5.0 ],
+					"to": [ 5.0, 0.1, 5.0 ],
+					"rotationOrigin": [ 0.0, 0.1, 0.0 ],
+					"faces": {
+						"up": { "texture": "#flour", "uv": [ 3.0, 3.0, 13.0, 13.0 ] }
+					},
+					"children": [
+						{
+							"name": "level1",
+							"from": [ 2.0, 0.0, 2.0 ],
+							"to": [ 8.0, 0.5, 8.0 ],
+							"rotationOrigin": [ 5.0, 0.0, 5.0 ],
+							"faces": {
+								"north": { "texture": "#flour", "uv": [ 9.5, 4.5, 10.0, 10.5 ], "rotation": 90 },
+								"east": { "texture": "#flour", "uv": [ 4.5, 5.0, 5.0, 11.0 ], "rotation": 90 },
+								"south": { "texture": "#flour", "uv": [ 5.0, 5.0, 11.0, 5.5 ] },
+								"west": { "texture": "#flour", "uv": [ 5.0, 10.0, 11.0, 10.5 ] },
+								"up": { "texture": "#flour", "uv": [ 5.0, 4.5, 11.0, 10.5 ] }
+							}
+						},
+						{
+							"name": "level2",
+							"from": [ 2.5, 0.5, 2.5 ],
+							"to": [ 7.5, 1.0, 7.5 ],
+							"rotationOrigin": [ 5.0, 0.0, 5.0 ],
+							"faces": {
+								"north": { "texture": "#flour", "uv": [ 9.0, 5.5, 9.5, 10.5 ], "rotation": 90 },
+								"east": { "texture": "#flour", "uv": [ 5.0, 5.0, 5.5, 10.0 ], "rotation": 90 },
+								"south": { "texture": "#flour", "uv": [ 5.0, 5.0, 10.0, 5.5 ] },
+								"west": { "texture": "#flour", "uv": [ 5.0, 10.0, 10.0, 10.5 ] },
+								"up": { "texture": "#flour", "uv": [ 5.0, 5.0, 10.0, 10.0 ] }
+							}
+						},
+						{
+							"name": "level3",
+							"from": [ 3.0, 1.0, 3.0 ],
+							"to": [ 7.0, 1.5, 7.0 ],
+							"rotationOrigin": [ 5.0, 1.0, 5.0 ],
+							"faces": {
+								"north": { "texture": "#flour", "uv": [ 8.5, 5.5, 9.0, 9.5 ], "rotation": 90 },
+								"east": { "texture": "#flour", "uv": [ 6.0, 5.0, 6.5, 9.0 ], "rotation": 90 },
+								"south": { "texture": "#flour", "uv": [ 6.5, 6.0, 10.5, 6.5 ] },
+								"west": { "texture": "#flour", "uv": [ 5.5, 9.0, 9.5, 9.5 ] },
+								"up": { "texture": "#flour", "uv": [ 5.5, 6.0, 9.5, 10.0 ] }
+							}
+						},
+						{
+							"name": "level4",
+							"from": [ 3.5, 1.5, 3.5 ],
+							"to": [ 6.5, 2.0, 6.5 ],
+							"rotationOrigin": [ 5.0, 1.5, 5.0 ],
+							"faces": {
+								"north": { "texture": "#flour", "uv": [ 8.5, 5.5, 9.0, 8.5 ], "rotation": 90 },
+								"east": { "texture": "#flour", "uv": [ 6.0, 5.0, 6.5, 8.0 ], "rotation": 90 },
+								"south": { "texture": "#flour", "uv": [ 6.5, 6.0, 9.5, 6.5 ] },
+								"west": { "texture": "#flour", "uv": [ 5.5, 9.0, 8.5, 9.5 ] },
+								"up": { "texture": "#flour", "uv": [ 5.5, 6.0, 8.5, 9.0 ] }
+							}
+						},
+						{
+							"name": "level5",
+							"from": [ 4.0, 2.0, 4.0 ],
+							"to": [ 5.0, 2.5, 5.0 ],
+							"rotationOrigin": [ 5.0, 2.0, 5.0 ],
+							"faces": {
+								"north": { "texture": "#flour", "uv": [ 8.5, 5.5, 9.0, 6.5 ], "rotation": 90 },
+								"east": { "texture": "#flour", "uv": [ 6.0, 5.0, 6.5, 6.0 ], "rotation": 90 },
+								"south": { "texture": "#flour", "uv": [ 6.5, 6.0, 7.5, 6.5 ] },
+								"west": { "texture": "#flour", "uv": [ 5.5, 9.0, 6.5, 9.5 ] },
+								"up": { "texture": "#flour", "uv": [ 5.5, 6.0, 6.5, 7.0 ] }
+							}
+						},
+						{
+							"name": "level6",
+							"from": [ 5.5, 2.0, 5.5 ],
+							"to": [ 6.0, 2.5, 6.0 ],
+							"rotationOrigin": [ 5.0, 2.0, 5.0 ],
+							"faces": {
+								"north": { "texture": "#flour", "uv": [ 8.0, 8.0, 8.5, 8.5 ], "rotation": 90 },
+								"east": { "texture": "#flour", "uv": [ 7.5, 6.5, 8.0, 7.0 ], "rotation": 90 },
+								"south": { "texture": "#flour", "uv": [ 7.0, 6.5, 7.5, 7.0 ] },
+								"west": { "texture": "#flour", "uv": [ 6.5, 9.0, 7.0, 9.5 ] },
+								"up": { "texture": "#flour", "uv": [ 7.0, 6.5, 7.5, 7.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

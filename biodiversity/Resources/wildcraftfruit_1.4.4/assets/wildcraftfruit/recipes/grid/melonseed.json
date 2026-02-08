@@ -1,0 +1,50 @@
+[
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "block", "code": "wildcraftfruit:watermelon-fruit-4", "returnedStack": { type: "item", code: "wildcraftfruit:melonseeds-watermelon", "quantity": 1 } },
+    },
+    "name": "melon",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:fruit-watermelon", "quantity": 6 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "block", "code": "wildcraftfruit:muskmelon-fruit-4", "returnedStack": { type: "item", code: "wildcraftfruit:melonseeds-muskmelon", "quantity": 1 } },
+    },
+    "name": "melon",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:fruit-muskmelon", "quantity": 4 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "block", "code": "wildcraftfruit:mirzamelon-fruit-4", "returnedStack": { type: "item", code: "wildcraftfruit:melonseeds-mirzamelon", "quantity": 1 } },
+    },
+    "name": "melon",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:fruit-mirzamelon", "quantity": 4 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "block", "code": "wildcraftfruit:honeydewmelon-fruit-4", "returnedStack": { type: "item", code: "wildcraftfruit:melonseeds-honeydewmelon", "quantity": 1 } },
+    },
+    "name": "melon",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:fruit-honeydewmelon", "quantity": 4 }
+  },
+]

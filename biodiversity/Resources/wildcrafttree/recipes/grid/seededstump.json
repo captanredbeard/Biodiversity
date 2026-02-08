@@ -1,0 +1,15 @@
+[
+	{
+		ingredientPattern: "_F_,CTC,_S_",
+		ingredients: {
+			"F": { type: "item", code: "wildcrafttree:chlorociboriaspores", name: "wood" },
+			"C": { type: "item", code: "game:compost", quantity: 2 },
+			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 2 },
+			"S": { type: "block", code: "wildcrafttree:stump-*", name: "wood", allowedVariants: [ "willow", "birch", "acacia", "honeylocust", "poplar", "catalpa", "kapok", "linden", "sal", "sapele", "ash", "empresstree", "mangrove" ] }
+		},
+		name: "seededstump",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:seededstump-{wood}" }
+	}
+]

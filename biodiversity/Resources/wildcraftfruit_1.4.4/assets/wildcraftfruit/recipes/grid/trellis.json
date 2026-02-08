@@ -1,0 +1,758 @@
+[
+  {
+    "ingredientPattern": "SNS,STS,S_S",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:stick" },
+      "N": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "T": { "type": "item", "code": "game:flaxtwine" }
+    },
+    "name": "crudetrellis",
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-middle-north", "quantity": 4 }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-middle-north" }
+    },
+    "name": "crudetrellis",
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-bottom-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-bottom-north" }
+    },
+    "name": "crudetrellis",
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-top-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-top-north" }
+    },
+    "name": "crudetrellis",
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-corner-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-corner-north" }
+    },
+    "name": "crudetrellis",
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-horizontal-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-horizontal-north" }
+    },
+    "name": "crudetrellis",
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-stick-middle-north" }
+  },
+  {
+    "ingredientPattern": "SNS,S_S,S_S",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:bamboostakes" },
+      "N": { "type": "item", "code": "game:knife-*", "isTool": true }
+    },
+    "name": "bambootrellis",
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-middle-north", "quantity": 4 }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-middle-north" }
+    },
+    "name": "bambootrellis",
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-bottom-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-bottom-north" }
+    },
+    "name": "bambootrellis",
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-top-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-top-north" }
+    },
+    "name": "bambootrellis",
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-corner-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-corner-north" }
+    },
+    "name": "bambootrellis",
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-horizontal-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-horizontal-north" }
+    },
+    "name": "bambootrellis",
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:sticktrellis-bamboo-middle-north" }
+  },
+      {
+	ingredientPattern: "SNS,WSW,W_W",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcraftfruit:woodtrellis-{wood}-middle-basic-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "WNW,WSW,WSW",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcraftfruit:woodtrellis-{wood}-middle-ladder-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "WNW,WRW,WSW",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" },
+		"R": { type: "item", code: "game:rope", quantity: 4 }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcraftfruit:woodtrellis-{wood}-middle-netted-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "WSW,SNS,WSW",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcraftfruit:woodtrellis-{wood}-middle-grid-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "SWS,WNW,SWS",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcraftfruit:woodtrellis-{wood}-middle-diamond-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "SNW,_W_,W_S",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcraftfruit:woodtrellis-{wood}-middle-slanted-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "_SN,SWS,SWS",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcraftfruit:woodtrellis-{wood}-middle-frond-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "_WN,WSW,WSW",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcraftfruit:woodtrellis-{wood}-middle-pane-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "SWN,_WS,SW_",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcraftfruit:woodtrellis-{wood}-middle-chaotic-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "WNW,WSW,SWS",
+	ingredients: {
+		"W": { type: "item", code: "game:plank-*", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcraftfruit:woodtrellis-{wood}-middle-windows-north", "quantity": 8 }
+      },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-middle-basic-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-bottom-basic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-bottom-basic-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-top-basic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-top-basic-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-corner-basic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-corner-basic-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-horizontal-basic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-horizontal-basic-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-middle-basic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-middle-ladder-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-bottom-ladder-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-bottom-ladder-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-top-ladder-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-top-ladder-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-corner-ladder-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-corner-ladder-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-horizontal-ladder-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-horizontal-ladder-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-middle-ladder-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-middle-grid-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-bottom-grid-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-bottom-grid-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-top-grid-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-top-grid-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-corner-grid-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-corner-grid-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-horizontal-grid-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-horizontal-grid-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-middle-grid-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-middle-diamond-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-bottom-diamond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-bottom-diamond-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-top-diamond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-top-diamond-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-corner-diamond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-corner-diamond-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-horizontal-diamond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-horizontal-diamond-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-middle-diamond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-middle-windows-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-bottom-windows-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-bottom-windows-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-top-windows-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-top-windows-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-corner-windows-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-corner-windows-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-horizontal-windows-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-horizontal-windows-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-middle-windows-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-middle-pane-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-bottom-pane-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-bottom-pane-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-top-pane-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-top-pane-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-corner-pane-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-corner-pane-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-horizontal-pane-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-horizontal-pane-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-middle-pane-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-middle-frond-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-bottom-frond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-bottom-frond-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-top-frond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-top-frond-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-corner-frond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-corner-frond-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-horizontal-frond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-horizontal-frond-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-middle-frond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-middle-slanted-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-bottom-slanted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-bottom-slanted-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-top-slanted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-top-slanted-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-corner-slanted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-corner-slanted-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-horizontal-slanted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-horizontal-slanted-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-middle-slanted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-middle-netted-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-bottom-netted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-bottom-netted-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-top-netted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-top-netted-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-corner-netted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-corner-netted-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-horizontal-netted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-horizontal-netted-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-middle-netted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-middle-chaotic-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-bottom-chaotic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-bottom-chaotic-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-top-chaotic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-top-chaotic-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-corner-chaotic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-corner-chaotic-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-horizontal-chaotic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcraftfruit:woodtrellis-*-horizontal-chaotic-north", name: "wood", allowedVariants: ["aged", "birch", "oak", "maple", "pine", "acacia", "kapok", "redwood", "larch", "baldcypress", "ebony", "walnut", "purpleheart"] }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcraftfruit:woodtrellis-{wood}-middle-chaotic-north" }
+  }
+]

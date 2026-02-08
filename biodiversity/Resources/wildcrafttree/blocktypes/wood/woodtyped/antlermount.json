@@ -1,0 +1,74 @@
+{
+	code: "antlermount",
+	class: "BlockAntlerMount",
+	entityClass: "AntlerMount",
+	behaviors: [
+		{ name: "Lockable" }
+	],
+	entityBehaviors:[
+		{ name: "ShapeMaterialFromAttributes" }
+	],
+	attributes: {
+		handbook: {
+			groupBy: [ "antlermount" ]
+		},
+		types: ["square", "diamond", "shield"],
+		materials: { loadFromProperties: "wildcrafttree:block/wood" },
+		shape: { base: "game:block/wood/antlermount-{type}" },
+		textures: { 
+			"wood": { base: "game:block/wood/debarked/{material}", overlays: [] }
+		},
+		reinforcable: true
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventory: {},
+	shape: { base: "game:block/wood/antlermount-square" },	
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 1,
+	sidesolid: {
+		all: false
+	},	
+	sideopaque: {
+		all: false
+	},
+	emitSideAo: { all: false },
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 35,
+	},
+	materialDensity: 400,
+	collisionSelectionbox: {
+			x1: 0.15, y1: 0.15, z1: 0, 
+			x2: 0.85, y2: 0.85, z2: 0.0625
+	},
+	guiTransform: {
+		rotation: { x: -22.6, y: 134, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0 },
+		scale: 1.86
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0 },
+		scale: 2.5
+	},
+	tpHandTransform: {
+		translation: { x: -1, y: -0.29, z: 0.05 },
+		rotation: { x: 3, y: 12, z: -25 },
+		origin: { x: 0.5, y: 0.5, z: 0 },
+		scale: 0.6
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: -0.05, z: 1.1 },
+		rotation: { x: 0, y: -130, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0 }
+	}
+}

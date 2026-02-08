@@ -1,0 +1,784 @@
+{
+	code: "shrubberrybush",
+	classByType: {
+           "*-fractureberry-*": "StoneBerryPlant",
+           "*": "HerbariumBerryBush",
+        },
+	attributes: {
+		foodTags: ["sweetBerryBush"],
+		stackable: false,
+		forageStatAffected: true,
+		reinforcable: true,
+                overrideRandomDrawOffset: 5,
+		butterflyFeedByType: {
+			"*-flowering": true
+		},
+		beeFeedByType: {
+			"*-flowering": true
+		},
+                "handbook": {
+                   "groupBy": ["shrubberrybush-*"]
+                },
+		"stopBelowTemperatureByType":{
+			"*-elderberry-*": 0,
+			"*-baneberry-*": 0,
+			"*-belladonna-*": 4,
+			"*-husktomato-*": 4,
+			"*-redbellpepper-*": 2,
+			"*-greenbellpepper-*": 2,
+			"*-orangebellpepper-*": 6,
+			"*-yellowbellpepper-*": 6,
+			"*-jalapeno-*": 6,
+			"*-habanero-*": 6,
+			"*-cayenne-*": 8,
+			"*-tabasco-*": 8,
+			"*-pokeberry-*": 8,
+			"*-turkscap-*": 10,
+			"*-fractureberry-*": -20,
+			"*-naranjilla-*": 12,
+			"*-hairyeggplant-*": 8,
+			"*-blacknightshade-*": 0,
+			"*-bitternightshade-*": 6,
+			"*-oldmansaltbush-*": 14,
+			"*-eggplant-*": 4,
+			"*-tomato-*": 4,
+			"*-romatomato-*": 4,
+			"*-oxheart-*": 6,
+			"*-wildtomato-*": 8,
+			"*-newhusktomato-*": 6,
+			"*-tomatillo-*": 10,
+			"*-falsetomato-*": 10,
+		},
+		"resetBelowTemperatureByType":{
+			"*-elderberry-*": -2,
+			"*-baneberry-*": -2,
+			"*-belladonna-*": 0,
+			"*-husktomato-*": 2,
+			"*-redbellpepper-*": 0,
+			"*-greenbellpepper-*": 0,
+			"*-orangebellpepper-*": 2,
+			"*-yellowbellpepper-*": 2,
+			"*-jalapeno-*": 2,
+			"*-habanero-*": 2,
+			"*-cayenne-*": 4,
+			"*-tabasco-*": 4,
+			"*-pokeberry-*": 4,
+			"*-turkscap-*": 8,
+			"*-fractureberry-*": -24,
+			"*-naranjilla-*": 10,
+			"*-hairyeggplant-*": 6,
+			"*-blacknightshade-*": -2,
+			"*-bitternightshade-*": 2,
+			"*-oldmansaltbush-*": 12,
+			"*-eggplant-*": 2,
+			"*-tomato-*": 2,
+			"*-romatomato-*": 2,
+			"*-oxheart-*": 4,
+			"*-wildtomato-*": 6,
+			"*-newhusktomato-*": 4,
+			"*-tomatillo-*": 6,
+			"*-falsetomato-*": 8,
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-elderberry-*": -6,
+			"*-baneberry-*": -6,
+			"*-belladonna-*": -2,
+			"*-husktomato-*": -2,
+			"*-redbellpepper-*": -2,
+			"*-greenbellpepper-*": -2,
+			"*-orangebellpepper-*": 0,
+			"*-yellowbellpepper-*": 0,
+			"*-jalapeno-*": 0,
+			"*-habanero-*": 0,
+			"*-cayenne-*": 2,
+			"*-tabasco-*": 2,
+			"*-pokeberry-*": 2,
+			"*-turkscap-*": 6,
+			"*-fractureberry-*": -26,
+			"*-naranjilla-*": 6,
+			"*-hairyeggplant-*": 4,
+			"*-blacknightshade-*": -6,
+			"*-bitternightshade-*": 0,
+			"*-oldmansaltbush-*": 10,
+			"*-eggplant-*": 0,
+			"*-tomato-*": 0,
+			"*-romatomato-*": 0,
+			"*-oxheart-*": 2,
+			"*-wildtomato-*": 4,
+			"*-newhusktomato-*": 2,
+			"*-tomatillo-*": 4,
+			"*-falsetomato-*": 6,
+		},
+		"stopAboveTemperatureByType":{
+			"*-elderberry-*": 26,
+			"*-baneberry-*": 26,
+			"*-belladonna-*": 30,
+			"*-husktomato-*": 34,
+			"*-redbellpepper-*": 34,
+			"*-greenbellpepper-*": 34,
+			"*-orangebellpepper-*": 38,
+			"*-yellowbellpepper-*": 38,
+			"*-jalapeno-*": 36,
+			"*-habanero-*": 36,
+			"*-cayenne-*": 38,
+			"*-tabasco-*": 38,
+			"*-pokeberry-*": 40,
+			"*-turkscap-*": 44,
+			"*-fractureberry-*": 46,
+			"*-naranjilla-*": 44,
+			"*-hairyeggplant-*": 44,
+			"*-blacknightshade-*": 26,
+			"*-bitternightshade-*": 42,
+			"*-oldmansaltbush-*": 46,
+			"*-eggplant-*": 32,
+			"*-tomato-*": 36,
+			"*-romatomato-*": 28,
+			"*-oxheart-*": 32,
+			"*-wildtomato-*": 40,
+			"*-newhusktomato-*": 34,
+			"*-tomatillo-*": 38,
+			"*-falsetomato-*": 42,
+		},
+		"resetAboveTemperatureByType":{
+			"*-elderberry-*": 28,
+			"*-baneberry-*": 28,
+			"*-belladonna-*": 34,
+			"*-husktomato-*": 36,
+			"*-redbellpepper-*": 36,
+			"*-greenbellpepper-*": 36,
+			"*-orangebellpepper-*": 42,
+			"*-yellowbellpepper-*": 42,
+			"*-jalapeno-*": 40,
+			"*-habanero-*": 40,
+			"*-cayenne-*": 42,
+			"*-tabasco-*": 42,
+			"*-pokeberry-*": 44,
+			"*-turkscap-*": 48,
+			"*-fractureberry-*": 48,
+			"*-naranjilla-*": 48,
+			"*-hairyeggplant-*": 46,
+			"*-blacknightshade-*": 28,
+			"*-bitternightshade-*": 44,
+			"*-oldmansaltbush-*": 48,
+			"*-eggplant-*": 34,
+			"*-tomato-*": 38,
+			"*-romatomato-*": 32,
+			"*-oxheart-*": 34,
+			"*-wildtomato-*": 44,
+			"*-newhusktomato-*": 36,
+			"*-tomatillo-*": 40,
+			"*-falsetomato-*": 46,
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-elderberry-*": 32,
+			"*-baneberry-*": 30,
+			"*-belladonna-*": 36,
+			"*-husktomato-*": 40,
+			"*-redbellpepper-*": 40,
+			"*-greenbellpepper-*": 40,
+			"*-orangebellpepper-*": 44,
+			"*-yellowbellpepper-*": 44,
+			"*-jalapeno-*": 42,
+			"*-habanero-*": 42,
+			"*-cayenne-*": 46,
+			"*-tabasco-*": 46,
+			"*-pokeberry-*": 46,
+			"*-turkscap-*": 50,
+			"*-fractureberry-*": 50,
+			"*-naranjilla-*": 50,
+			"*-hairyeggplant-*": 48,
+			"*-blacknightshade-*": 32,
+			"*-bitternightshade-*": 46,
+			"*-oldmansaltbush-*": 50,
+			"*-eggplant-*": 38,
+			"*-tomato-*": 40,
+			"*-romatomato-*": 34,
+			"*-oxheart-*": 36,
+			"*-wildtomato-*": 46,
+			"*-newhusktomato-*": 38,
+			"*-tomatillo-*": 42,
+			"*-falsetomato-*": 48,
+		},
+		"pruneItemByType":{
+			"*": "wildcraftfruit:clipping-{type}-green"
+		},
+		"floweringDaysByType":{
+			"*-fractureberry-*": { avg: 14.8, var: 0.8 },
+			"*-oldmansaltbush-*": { avg: 12.8, var: 0.8 },
+			"*-naranjilla-*": { avg: 12.8, var: 0.8 },
+			"*-hairyeggplant-*": { avg: 10.8, var: 0.8 },
+			"*-turkscap-*": { avg: 10.8, var: 0.8 },
+			"*-habanero-*": { avg: 10.8, var: 0.8 },
+			"*-cayenne-*": { avg: 10.8, var: 0.8 },
+			"*-jalapeno-*": { avg: 10.8, var: 0.8 },
+			"*-tomatillo-*": { avg: 10.8, var: 0.8 },
+			"*-eggplant-*": { avg: 10.8, var: 0.8 },
+			"*-oxheart-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"ripeningDaysByType":{
+			"*-fractureberry-*": { avg: 14.8, var: 0.8 },
+			"*-oldmansaltbush-*": { avg: 12.8, var: 0.8 },
+			"*-naranjilla-*": { avg: 12.8, var: 0.8 },
+			"*-hairyeggplant-*": { avg: 10.8, var: 0.8 },
+			"*-turkscap-*": { avg: 10.8, var: 0.8 },
+			"*-habanero-*": { avg: 10.8, var: 0.8 },
+			"*-cayenne-*": { avg: 10.8, var: 0.8 },
+			"*-jalapeno-*": { avg: 10.8, var: 0.8 },
+			"*-tomatillo-*": { avg: 10.8, var: 0.8 },
+			"*-eggplant-*": { avg: 10.8, var: 0.8 },
+			"*-oxheart-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"sheddingDaysByType":{
+			"*-fractureberry-*": { avg: 45.2, var: 3.2 },
+			"*-pokeberry-*": { avg: 25.2, var: 3.2 },
+			"*-bitternightshade-*": { avg: 25.2, var: 3.2 },
+			"*-blacknightshade-*": { avg: 25.2, var: 3.2 },
+			"*-belladonna-*": { avg: 25.2, var: 3.2 },
+			"*-naranjilla-*": { avg: 15.2, var: 3.2 },
+			"*-hairyeggplant-*": { avg: 15.2, var: 3.2 },
+			"*-orangebellpepper-*": { avg: 25.2, var: 3.2 },
+			"*-redbellpepper-*": { avg: 25.2, var: 3.2 },
+			"*-yellowbellpepper-*": { avg: 25.2, var: 3.2 },
+			"*-greenbellpepper-*": { avg: 25.2, var: 3.2 },
+			"*-jalapeno-*": { avg: 25.2, var: 3.2 },
+			"*-cayenne-*": { avg: 25.2, var: 3.2 },
+			"*-habanero-*": { avg: 25.2, var: 3.2 },
+			"*-tabasco-*": { avg: 25.2, var: 3.2 },
+			"*-tomato-*": { avg: 15.2, var: 3.2 },
+			"*-romatomato-*": { avg: 25.2, var: 3.2 },
+			"*-wildtomato-*": { avg: 25.2, var: 3.2 },
+			"*-oxheart-*": { avg: 15.2, var: 3.2 },
+			"*-tomatillo-*": { avg: 25.2, var: 3.2 },
+			"*-eggplant-*": { avg: 25.2, var: 3.2 },
+			"*": { avg: 35.2, var: 3.2 },
+		},
+		"prunedMeshFaces": ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem1/Berries", "Stem1/Berries2", "Stem2/Berries3", "Stem2/Berries4"],
+		"fruitingFaces": ["Stem1/Berries", "Stem1/Berries2", "Stem2/Berries3", "Stem2/Berries4"],
+	},
+	entityclass: "BEShrubBerryBush",
+	behaviorsByType: {
+		"*-turkscap-flowering": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:flower-hibiscus", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-turkscap-empty",
+			exchangeBlock: true
+		}} ],
+		"*-elderberry-flowering": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:flower-elder", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-elderberry-empty",
+			exchangeBlock: true
+		}} ],
+		"*-blacknightshade-ripe": [ {name: "BlockBehaviorHarvestMultiple", properties: { 
+			harvestTime: 0.6, 
+			harvestedStacks: [ { type: "item", code: "wildcraftfruit:fruit-blacknightshade", quantity: { avg: 3.4 }  },
+					{ type: "item", code: "wildcraftfruit:fruit-blacknightshadeunripe", quantity: { avg: 0.6 }  },
+			],
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-blacknightshade-empty",
+			exchangeBlock: true
+		}} ],
+		"*-oldmansaltbush-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:nut-oldmansaltbush", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-{type}-empty",
+			exchangeBlock: true
+		}} ],
+		"*-bitternightshade-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:fruit-bitternightshade", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-bitternightshade-empty",
+			exchangeBlock: true
+		}} ],
+		"*-husktomato-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:fruit-husktomato", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-husktomato-empty",
+			exchangeBlock: true
+		}} ],
+		"*-newhusktomato-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:fruit-newhusktomato", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-newhusktomato-empty",
+			exchangeBlock: true
+		}} ],
+		"*-falsetomato-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:fruit-falsetomato", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-falsetomato-empty",
+			exchangeBlock: true
+		}} ],
+		"*-orangebellpepper-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-orangebellpepper", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-orangebellpepper-empty",
+			exchangeBlock: true
+		}} ],
+		"*-redbellpepper-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-redbellpepper", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-redbellpepper-empty",
+			exchangeBlock: true
+		}} ],
+		"*-yellowbellpepper-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-yellowbellpepper", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-yellowbellpepper-empty",
+			exchangeBlock: true
+		}} ],
+		"*-greenbellpepper-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-greenbellpepper", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-greenbellpepper-empty",
+			exchangeBlock: true
+		}} ],
+		"*-jalapeno-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-jalapeno", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-jalapeno-empty",
+			exchangeBlock: true
+		}} ],
+		"*-habanero-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-habanero", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-habanero-empty",
+			exchangeBlock: true
+		}} ],
+		"*-cayenne-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-cayenne", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-cayenne-empty",
+			exchangeBlock: true
+		}} ],
+		"*-tabasco-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-tabasco", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-tabasco-empty",
+			exchangeBlock: true
+		}} ],
+		"*-tomato-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-tomato", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-tomato-empty",
+			exchangeBlock: true
+		}} ],
+		"*-romatomato-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-romatomato", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-romatomato-empty",
+			exchangeBlock: true
+		}} ],
+		"*-oxheart-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-oxheart", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-oxheart-empty",
+			exchangeBlock: true
+		}} ],
+		"*-wildtomato-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:fruit-wildtomato", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-wildtomato-empty",
+			exchangeBlock: true
+		}} ],
+		"*-tomatillo-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:vegetable-tomatillo", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-tomatillo-empty",
+			exchangeBlock: true
+		}} ],
+		"*-eggplant-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:dryvegetable-eggplant", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-eggplant-empty",
+			exchangeBlock: true
+		}} ],
+		"*-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:fruit-{type}", quantity: { avg: 3.4 }  },
+			harvestedBlockCode: "wildcraftfruit:shrubberrybush-{type}-empty",
+			exchangeBlock: true
+		}} ]
+	},
+	variantgroups: [
+		{ code: "type", states: ["baneberry", "fractureberry", "turkscap", "oldmansaltbush", "pokeberry", "elderberry", "blacknightshade", "bitternightshade", "tomato", "oxheart", "romatomato", "wildtomato", "falsetomato", "naranjilla", "hairyeggplant", "eggplant", "belladonna", "husktomato", "newhusktomato", "tomatillo", "jalapeno", "cayenne", "habanero", "tabasco", "redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper"] },
+		{ code: "state", states: ["empty", "flowering", "ripe"] }
+	],
+	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraftfruit": ["*"] },
+	drawtypeByType: {
+		"*": "JSON"
+	},
+	renderpass: "OpaqueNoCull",
+	faceCullMode: "NeverCull",
+	matterstate: "solid",
+	randomDrawOffset: true,
+	randomizeRotations: true,
+	shapeByType: {
+		"*-elderberry-empty": { "base": "wildcraftfruit:block/plant/berrybush/elderberrybush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-elderberry-flowering": { "base": "wildcraftfruit:block/plant/berrybush/elderberrybush*" },
+		"*-elderberry-ripe": { "base": "wildcraftfruit:block/plant/berrybush/elderberrybush*" },
+		"*-turkscap-empty": { "base": "wildcraftfruit:block/plant/berrybush/turkscapbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-turkscap-flowering": { "base": "wildcraftfruit:block/plant/berrybush/turkscapbush*" },
+		"*-turkscap-ripe": { "base": "wildcraftfruit:block/plant/berrybush/turkscapbush*" },
+		"*-fractureberry-empty": { "base": "wildcraftfruit:block/plant/berrybush/fractureberrybush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-fractureberry-flowering": { "base": "wildcraftfruit:block/plant/berrybush/fractureberrybush*" },
+		"*-fractureberry-ripe": { "base": "wildcraftfruit:block/plant/berrybush/fractureberrybush*" },
+		"*-naranjilla-empty": { "base": "wildcraftfruit:block/plant/berrybush/naranjillabush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-naranjilla-flowering": { "base": "wildcraftfruit:block/plant/berrybush/naranjillabush*" },
+		"*-naranjilla-ripe": { "base": "wildcraftfruit:block/plant/berrybush/naranjillabush*" },
+		"*-pokeberry-empty": { "base": "wildcraftfruit:block/plant/berrybush/pokeberrybush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-pokeberry-flowering": { "base": "wildcraftfruit:block/plant/berrybush/pokeberrybush*" },
+		"*-pokeberry-ripe": { "base": "wildcraftfruit:block/plant/berrybush/pokeberrybush*" },
+		"*-oldmansaltbush-empty": { "base": "wildcraftfruit:block/plant/berrybush/oldmansaltbushbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-oldmansaltbush-flowering": { "base": "wildcraftfruit:block/plant/berrybush/oldmansaltbushbush*" },
+		"*-oldmansaltbush-ripe": { "base": "wildcraftfruit:block/plant/berrybush/oldmansaltbushbush*" },
+		"*-baneberry-empty": { "base": "wildcraftfruit:block/plant/berrybush/baneberrybush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-baneberry-flowering": { "base": "wildcraftfruit:block/plant/berrybush/baneberrybush*" },
+		"*-baneberry-ripe": { "base": "wildcraftfruit:block/plant/berrybush/baneberrybush*" },
+		"*-hairyeggplant-empty": { "base": "wildcraftfruit:block/plant/berrybush/hairyeggplantbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-hairyeggplant-flowering": { "base": "wildcraftfruit:block/plant/berrybush/hairyeggplantbush*" },
+		"*-hairyeggplant-ripe": { "base": "wildcraftfruit:block/plant/berrybush/hairyeggplantbush*" },
+
+		"*-orangebellpepper-empty": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-orangebellpepper-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*" },
+		"*-orangebellpepper-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*" },
+		"*-redbellpepper-empty": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-redbellpepper-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*" },
+		"*-redbellpepper-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*" },
+		"*-yellowbellpepper-empty": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-yellowbellpepper-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*" },
+		"*-yellowbellpepper-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*" },
+		"*-greenbellpepper-empty": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-greenbellpepper-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*" },
+		"*-greenbellpepper-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bellpepperbush*" },
+
+		"*-jalapeno-empty": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-jalapeno-flowering": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*" },
+		"*-jalapeno-ripe": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*" },
+		"*-habanero-empty": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-habanero-flowering": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*" },
+		"*-habanero-ripe": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*" },
+		"*-cayenne-empty": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-cayenne-flowering": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*" },
+		"*-cayenne-ripe": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*" },
+		"*-tabasco-empty": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-tabasco-flowering": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*" },
+		"*-tabasco-ripe": { "base": "wildcraftfruit:block/plant/berrybush/chilipepperbush*" },
+
+		"*-wildtomato-empty": { "base": "wildcraftfruit:block/plant/berrybush/wildtomatobush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-wildtomato-flowering": { "base": "wildcraftfruit:block/plant/berrybush/wildtomatobush*" },
+		"*-wildtomato-ripe": { "base": "wildcraftfruit:block/plant/berrybush/wildtomatobush*" },
+		"*-falsetomato-empty": { "base": "wildcraftfruit:block/plant/berrybush/falsetomatobush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-falsetomato-flowering": { "base": "wildcraftfruit:block/plant/berrybush/falsetomatobush*" },
+		"*-falsetomato-ripe": { "base": "wildcraftfruit:block/plant/berrybush/falsetomatobush*" },
+
+		"*-empty": { base: "wildcraftfruit:block/plant/berrybush/shrubberrybush*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem1/Leaf", "Stem1/Leaf2", "Stem1/Leaf3", "Stem2/Leaves3", "Stem2/Leaves4", "Stem2/Leaf4", "Stem2/Leaf5", "Stem2/Leaf6", "Stem3/Leaves5", "Stem3/Leaves6", "Stem3/Leaf7", "Stem3/Leaf8", "Stem3/Leaf9"] },
+		"*-flowering": { base: "wildcraftfruit:block/plant/berrybush/shrubberrybush*" },
+		"*-ripe": { base: "wildcraftfruit:block/plant/berrybush/shrubberrybush*" }
+	},
+	blockmaterialByType: {
+           "*-fractureberry-*": "Metal",
+           "*": "Plant"
+        },
+	texturesByType: {
+		"*-orangebellpepper-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" }
+		},
+		"*-orangebellpepper-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/bellpepper1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" }
+		},
+		"*-orangebellpepper-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/orangebellpepper1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" }
+		},
+		"*-redbellpepper-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" }
+		},
+		"*-redbellpepper-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/bellpepper1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" }
+		},
+		"*-redbellpepper-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/redbellpepper1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" }
+		},
+		"*-yellowbellpepper-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" }
+		},
+		"*-yellowbellpepper-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/bellpepper1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" }
+		},
+		"*-yellowbellpepper-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/yellowbellpepper1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" }
+		},
+		"*-greenbellpepper-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" }
+		},
+		"*-greenbellpepper-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/bellpepper1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" }
+		},
+		"*-greenbellpepper-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/greenbellpepper1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/bellpepper2" }
+		},
+
+		"*-jalapeno-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" }
+		},
+		"*-jalapeno-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/jalapeno1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" }
+		},
+		"*-jalapeno-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/jalapeno1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" }
+		},
+		"*-habanero-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" }
+		},
+		"*-habanero-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/habanero1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" }
+		},
+		"*-habanero-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/habanero1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" }
+		},
+		"*-cayenne-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" }
+		},
+		"*-cayenne-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/cayenne1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" }
+		},
+		"*-cayenne-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/cayenne1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" }
+		},
+		"*-tabasco-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" }
+		},
+		"*-tabasco-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/tabasco1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" }
+		},
+		"*-tabasco-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/tabasco1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/chilipepper2" }
+		},
+		"*-oxheart-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato1" }
+		},
+		"*-oxheart-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/tomato1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato2" }
+		},
+		"*-oxheart-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/oxheart1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato2" }
+		},
+		"*-romatomato-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato1" }
+		},
+		"*-romatomato-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/tomato1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato2" }
+		},
+		"*-romatomato-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/romatomato1" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/tomato2" }
+		},
+		"*-empty": {
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/{type}2" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/{type}1" }
+		},
+		"*-flowering": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/flower/{type}*" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/{type}1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/{type}2" }
+		},
+		"*-ripe": {
+			"berries": { base: "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*" },
+			"stems": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/{type}1" },
+			"leaves": { base: "wildcraftfruit:block/plant/berrybush/small/leaves/{type}2" }
+		}
+	},
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	replaceable: 3000,
+	lightAbsorption: 0,
+	resistance: 0.5,
+	collisionbox: null,
+	selectionbox: { x1: 0.1, y1: 0, z1: 0.1, x2: 0.9, y2: 0.9, z2: 0.9 },
+	sounds: {
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant",
+	},
+	rainPermeable: false,
+	dropsByType: {
+		"*-turkscap-flowering": [
+			{ type: "item", code: "wildcraftfruit:flower-hibiscus", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-elderberry-flowering": [
+			{ type: "item", code: "wildcraftfruit:flower-elder", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-fractureberry-ripe": [
+			{ type: "item", code: "wildcraftfruit:fruit-fractureberry", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:stick", quantity: { avg: 1.2 }  }
+		],
+		"*-fractureberry-flowering": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1.2 }  }
+		],
+		"*-fractureberry-empty": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1.2 }  }
+		],
+		"*-blacknightshade-ripe": [
+			{ type: "item", code: "wildcraftfruit:fruit-blacknightshade", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "wildcraftfruit:fruit-blacknightshadeunripe", quantity: { avg: 0.6 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-oldmansaltbush-ripe": [
+			{ type: "item", code: "wildcraftfruit:nut-oldmansaltbush", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-bitternightshade-ripe": [
+			{ type: "item", code: "wildcraftfruit:fruit-bitternightshade", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-husktomato-ripe": [
+			{ type: "item", code: "wildcraftfruit:fruit-husktomato", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-newhusktomato-ripe": [
+			{ type: "item", code: "wildcraftfruit:fruit-newhusktomato", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-falsetomato-ripe": [
+			{ type: "item", code: "wildcraftfruit:fruit-falsetomato", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-orangebellpepper-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-orangebellpepper", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-redbellpepper-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-redbellpepper", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-yellowbellpepper-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-yellowbellpepper", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-greenbellpepper-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-greenbellpepper", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-jalapeno-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-jalapeno", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-habanero-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-habanero", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-cayenne-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-cayenne", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-tabasco-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-tabasco", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-tomato-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-tomato", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-oxheart-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-oxheart", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-romatomato-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-romatomato", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-wildtomato-ripe": [
+			{ type: "item", code: "wildcraftfruit:fruit-wildtomato", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-tomatillo-ripe": [
+			{ type: "item", code: "wildcraftfruit:vegetable-tomatillo", quantity: { avg: 4.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-eggplant-ripe": [
+			{ type: "item", code: "wildcraftfruit:dryvegetable-eggplant", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-ripe": [
+			{ type: "item", code: "wildcraftfruit:fruit-{type}", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*": [
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		]
+	},
+	materialDensity: 400,
+	vertexFlags: {
+		zOffset: 2
+	},
+	combustiblePropsByType: {
+           "*-fractureberry-*": null,
+           "*": {
+		burnTemperature: 600,
+		burnDuration: 10,
+                }
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.6, z: 0.5 },
+	},
+	tpHandTransform: {
+		rotation: { x: 36, y: -6, z: -128 },
+		origin: { x: 0.5, y: 0.5, z: 0.4 },
+	},
+	frostable: true,
+}

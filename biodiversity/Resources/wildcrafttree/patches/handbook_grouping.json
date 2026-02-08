@@ -1,0 +1,18 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/handbook",
+        "value": {
+			groupBy: ["antlermount"]
+        },
+        "file": "game:blocktypes/wood/woodtyped/antlermount.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/handbook",
+        "value": {
+			groupBy: ["figurehead-*"]
+        },
+        "file": "game:blocktypes/wood/woodtyped/figurehead.json"
+    },
+]

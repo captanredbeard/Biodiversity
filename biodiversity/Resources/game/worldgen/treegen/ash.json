@@ -1,0 +1,37 @@
+{
+	treeWorldPropertyCode: "ash",
+	sizeMultiplier: 1,
+	trunks: [{
+		widthloss: 0.08,
+		branchStart: { avg: 0.3, var: 0.05 },
+		branchSpacing: { avg: 0, var: 0 },
+		branchVerticalAngle:  { avg: 1.32, var: 0 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.1, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 1.4 },
+		branchQuantity: { avg: 5, var: 2 },
+		branchQuantityEvolve: { transform: "linear", factor: 3 }
+	}],
+	branches: [{
+		widthLoss: 0.08,
+		gravityDrag: 0,
+
+		branchStart:  { avg: 0, var: 0 },
+		branchSpacing: { avg: 0.01, var: 0 },
+		branchVerticalAngle: { avg: 1.1, var: 0.2 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 1, var: 0 },
+		branchWidthMultiplier: { avg: 0.5, var: 0 }
+	}, {
+		branchStart: { avg: 2 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:log-grown-ash-ud",
+		leavesBlockCode: "wildcrafttree:leaves-placed-ash",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-ash",
+		vinesBlockCode: "game:wildvine-section-north",
+		vinesEndBlockCode: "game:wildvine-end-north",
+		mossDecorCode: "game:attachingplant-spottymoss"
+	}
+}

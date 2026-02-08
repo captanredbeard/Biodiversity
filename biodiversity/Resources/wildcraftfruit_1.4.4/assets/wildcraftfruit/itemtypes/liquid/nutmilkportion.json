@@ -1,0 +1,79 @@
+{
+	code: "nutmilkportion",
+	"variantgroups": [
+		{ code: "nut", states: ["pinenut", "macadamia", "peanut", "almond", "hackberry", "walnut", "hazelnut", "beachalmond", "cashew", "pistachio"] }
+	  ],
+	class: "ItemLiquidPortion",
+	matterState: "liquid",
+	attributes: {
+		handbook: {
+			ignoreCreativeInvStacks: true,
+			groupBy: ["nutmilkportion-*"],
+		},
+		inBowlShape: { base: "game:block/food/meal/liquid" },
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 100,
+			isopaque: true,
+			"texturebytype": {
+				"*-pinenut": { "base": "game:block/food/pie/fill-potato" },
+				"@*-(macadamia|cashew)": { "base": "wildcraftfruit:block/food/pie/fill-wani" },
+				"*-peanut": { "base": "game:block/food/pie/fill-fish" },
+				"*-almond": { "base": "wildcraftfruit:block/food/pie/fill-marzipan" },
+				"*-hackberry": { "base": "wildcraftfruit:block/food/pie/fill-lime" },
+				"*-walnut": { "base": "game:block/food/pie/fill-poultry" },
+				"*-hazelnut": { "base": "wildcraftfruit:block/food/pie/fill-hazelnutground" },
+				"*-beachalmond": { "base": "wildcraftfruit:block/food/pie/fill-chestnut" },
+				"*-pistachio": { "base": "wildcraftfruit:block/food/pie/fill-pistachioground" }
+			},
+			allowSpill: true,
+			whenSpilled: { 
+				action: "DropContents",
+				stack: { type: "item", code: "wildcraftfruit:nutmilkportion-{nut}" } 
+			},
+			"nutritionPropsPerLitreByType": {
+				"@*-(almond|peanut)": { satiety: 160, foodcategory: "Protein" },
+				"@*-(pinenut|walnut)": { satiety: 140, foodcategory: "Protein" },
+				"@*-(cashew|macadamia)": { satiety: 160, foodcategory: "Grain" },
+				"*-pistachio": { satiety: 100, foodcategory: "Protein" },
+				"*-hackberry": { satiety: 90, foodcategory: "Protein" },
+				"@*-(hazelnut|beachalmond)": { satiety: 120, foodcategory: "Protein" },
+			}
+		}
+	},
+	shape: { base: "game:item/liquid" },
+	textureByType: {
+		"*-pinenut": { "base": "game:block/food/pie/fill-potato" },
+		"@*-(macadamia|cashew)": { "base": "wildcraftfruit:block/food/pie/fill-wani" },
+		"*-peanut": { "base": "game:block/food/pie/fill-fish" },
+		"*-almond": { "base": "wildcraftfruit:block/food/pie/fill-marzipan" },
+		"*-hackberry": { "base": "wildcraftfruit:block/food/pie/fill-lime" },
+		"*-walnut": { "base": "game:block/food/pie/fill-poultry" },
+		"*-hazelnut": { "base": "wildcraftfruit:block/food/pie/fill-hazelnutground" },
+		"*-beachalmond": { "base": "wildcraftfruit:block/food/pie/fill-chestnut" },
+		"*-pistachio": { "base": "wildcraftfruit:block/food/pie/fill-pistachioground" }
+			},
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "wildcraftfruit"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type: "item", code: "wildcraftfruit:nutmilkportion-{nut}", makefull: true } ] } } ] } ],
+	maxstacksize: 5000,
+	materialDensity: 200,
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 360 },
+		transitionHours: { avg: 48 },
+		transitionedStack: { type: "item", code: "game:rot" },
+		transitionRatio: 0.002
+	}],
+	guiTransform: {
+		translation: { x: 0, y: 1, z: 0 },
+		rotation: { x: 123, y: -33, z: -13 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 25, y: 157, z: -5 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 }
+	}
+}

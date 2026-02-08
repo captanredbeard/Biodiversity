@@ -1,0 +1,128 @@
+[
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", allowedVariants: ["hawthorn", "cloudberry", "aronia", "bearberry" ], quantity: 8 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-{fruit}", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:dryfruit-juniper", quantity: 10 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-juniper", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", allowedVariants: ["elderberry", "blackelder" ], quantity: 10 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-elderberry", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", allowedVariants: ["raspberry", "blueraspberry", "loganberry" ], quantity: 8 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-raspberry", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", allowedVariants: ["dogrose", "beachrose" ], quantity: 10 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-rosehip", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", allowedVariants: ["citron", "lemon" ], quantity: 6 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-citron", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", allowedVariants: ["lime", "makrut" ], quantity: 6 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-lime", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "game:fruit-orange", quantity: 6 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-orange", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-bitterorange", quantity: 6 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-orange", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-grapefruit", quantity: 6 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-grapefruit", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:flower-passionflower", quantity: 10 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-passionflower", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-ivy", quantity: 10 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-ivy", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", allowedVariants: ["jalapeno", "tabasco", "cayenne" ], quantity: 8 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-chili", litres: 1 }
+  },
+  {
+	code: "tincture",
+	sealHours: 384,
+	ingredients: [
+		{ type: "item", code: "game:alcoholportion", litres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-habanero", quantity: 6 }
+	],
+	output: { type: "item", code: "wildcraftfruit:tinctureportion-chili", litres: 1 }
+  },
+]

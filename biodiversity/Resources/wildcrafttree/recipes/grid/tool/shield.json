@@ -1,0 +1,262 @@
+[
+	{
+		ingredientPattern: "_H_,BPB,_B_",
+		ingredients: {
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wildcrafttree:shield-woodmetal", quantity: 1, attributes: { "metal": "{metal}", "wood": "{wood}", "deco": "none" }  }
+	},
+	{
+		ingredientPattern: "LHL,BPB,LBL",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"L": { type: "item", code: "game:leather-normal-*", name: "color", allowedVariants: ["orange", "black", "red", "blue", "purple", "white", "yellow", "gray", "green"], quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "{color}", "deco": "none" }  }
+	},
+	{
+		ingredientPattern: "LHL,BPB,LBL",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "brown", "deco": "none" }  }
+	},
+	{
+		ingredientPattern: "LHL,BPB,LBL",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"L": { type: "item", code: "game:leather-normal-pink", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "pink", "deco": "none" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-white", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-yellow", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-orange", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "white", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-black", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-yellow", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-red", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "black", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-blue", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-yellow", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-green", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "blue", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-plain", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-green", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "brown", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-gray", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-purple", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "gray", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-green", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-yellow", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "green", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-orange", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-blue", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-green", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "orange", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-pink", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-green", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "pink", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-purple", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-pink", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "purple", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-red", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "red", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "SHW,BPB,OBG",
+		requiresTrait: "clothier",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-yellow", quantity: 2 },
+			"G": { type: "item", code: "game:leather-normal-black", quantity: 1 },
+			"O": { type: "item", code: "game:leather-normal-white", quantity: 1 },
+			"S": { type: "item", code: "game:sewingkit", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "yellow", "deco": "ornate" }  }
+	},
+	{
+		ingredientPattern: "GHW,BPB,WBG",
+		ingredients: {
+			"P": { type: "item", code: "game:boss-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"H": { type: "item", code: "game:hoop-*", name: "metal", allowedVariants: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"], quantity: 1 },
+			"B": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"W": { type: "item", code: "game:leather-normal-black", quantity: 1 },
+			"G": { type: "item", code: "game:leather-normal-orange", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-woodmetalleather", quantity: 1, attributes: { "metal": "{metal}", "color": "redblack", "deco": "none" }  }
+	},
+	{
+		ingredientPattern: "CPC,VBV,LVL",
+		requiresTrait: "merciless",
+		ingredients: {
+			"B": { type: "item", code: "game:boss-iron", quantity: 1 },
+			"P": { type: "item", code: "game:metalplate-iron", quantity: 1 },
+			"V": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+			"C": { type: "item", code: "game:charcoal" },
+			"L": { type: "item", code: "game:leather-normal-gray", quantity: 1 },
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-blackguard", quantity: 1  }
+	},
+	{
+		ingredientPattern: "SSS,BBB,SSS",
+		ingredients: {
+			"S": { type: "item", code: "game:stick" },
+			"B": { type: "item", code: "wildcrafttree:willowcane-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:shield-crude", quantity: 1  }
+	},
+]

@@ -1,0 +1,174 @@
+{
+	"code": "evergreenplant",
+	"class":"HerbPlant",
+	"entityClassByType": {
+		"*-harvested": "Transient"
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["lavender","rosemary", "thyme", "holly", "poisonoak"]},
+		{ "code": "state", "states": ["harvested", "normal"] }
+	],
+	"attributes": {
+    "butterflyFeedByType": {
+      "*-normal": true
+    },
+    "beeFeedByType": {
+      "*-normal": true
+    },
+    "transientPropsByType": {
+			"*-harvested": {
+				"convertFrom": "*-harvested", 
+				"convertTo": "*-normal", 
+				"inGameHours": "84",
+				"resetBelowTemperature": -4,
+				"stopBelowTemperature": 2
+			}
+		},
+    "resetBelowTemperature": -1,
+    "stopBelowTemperature": 4,
+    "revertBlockBelowTemperature": -4,
+
+    "resetAboveTemperature": 35,
+    "stopAboveTemperature": 30,
+    "revertBlockAboveTemperature": 38,
+    "forageStatAffected": true,
+    
+    "hasRootByType":{
+        "*-burdock-*": "true",
+        "*-chicory-*": "true",
+        "*-liquorice-*": "true",
+        "*-celery-*": "true",
+        "*": "false"
+    },
+    "isPoisonousByType":{
+        "*-poisonoak-normal": "true",
+        "*":"false"
+    }
+  },
+  "randomDrawOffset": true,
+  "randomizeRotations": true,
+  "texturesByType": {
+    "*-burdock-normal*":{
+      "burdock_stem": {"base": "wildcraftherb:block/plant/leafygroundvegetable/burdock_stem"},
+      "burdock_flowers": {"base": "wildcraftherb:block/plant/leafygroundvegetable/burdock_flowers"},
+      "burdock_leaf_small": {"base": "wildcraftherb:block/plant/leafygroundvegetable/burdock_leaf_small"},
+      "burdock_leaf_big": {"base": "wildcraftherb:block/plant/leafygroundvegetable/burdock_leaf_big"} 
+    },
+    "*-lavender-*": {
+			"north": { "base": "wildcraftherb:block/plant/leafygroundvegetable/{state}/lavender" },
+			"south": { "base": "wildcraftherb:block/plant/leafygroundvegetable/{state}/lavender*" },
+			"flower2": { "base": "wildcraftherb:block/plant/leafygroundvegetable/{state}/lavender" },
+			"northTinted": { "base": "wildcraftherb:block/plant/leafygroundvegetable/{state}/lavender" },
+			"southTinted": { "base": "wildcraftherb:block/plant/leafygroundvegetable/{state}/lavender" },
+			"flower2Tinted": { "base": "wildcraftherb:block/plant/leafygroundvegetable/{state}/lavender" }
+    },
+
+    "*-burdock-harvested*":{
+      "leaves": { "base": "wildcraftherb:block/plant/leafygroundvegetable/burdock_harvested*"}
+    },
+    "*": {
+      "leaves": { "base": "wildcraftherb:block/plant/leafygroundvegetable/{state}/{type}*" }
+    }
+  },
+	"creativeinventory": {
+    "general": ["*-normal"],
+    "flora": ["*-normal"],
+    "wildcraftherb": [ "*-normal" ]
+  },
+  "shapeByType": {
+    "*-sedge-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/bushy_normal"},
+    "*-burdock-normal*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/burdock_normal*"},
+    "*-thistle-normal*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/burdock_normal*"},
+
+    "*-lavender-*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/shrub"},
+
+    "*-rosemary-*":{"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-thyme-*":{"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+
+    "@.*-(rosemary|thyme)": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/default_normal"}
+  },
+	renderpass: "BlendNoCull",
+	"blockmaterial": "Plant",
+	"randomizeRotations": true,
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": null,
+	"selectionBox": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 },
+	"guiTransform": {
+    "rotation": { "x": -22, "y": 107, "z": 0 },
+    "origin": { "x": 0.3, "y": 0.5, "z": 0.4 },
+    "scale": 1.32
+  },
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.5
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.93, "y": -0.17, "z": -0.8 },
+		"rotation": { "x": 15, "y": -10, "z": -114 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.58
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"vertexFlags": {
+		"leavesWindWave": true
+	},
+	"materialDensity": 200,
+	"frostable": true,
+  "dropsByType": {
+    "*-budrock-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:root-budrock",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-chicory-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:root-chicory",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-liquorice-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:root-liquorice",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-celery-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:root-celery",
+        "quantity": { "avg": 1.8 }
+      }
+    ],
+    "*-stingingnettle-normal": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:herb-{type}",
+        "quantity": { "avg": 1.5 }
+      }
+    ],
+    "*-normal": [
+      {
+        "type": "item",
+        "code": "wildcraftherb:herb-{type}",
+        "quantity": { "avg": 1.5 }
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+	code: "sweetwater",
+	isFood: true,
+	perishableProps: {
+		type: "None",
+		freshHours: { avg: 3360 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "wildcraftfruit:sweetwaterportion", quantity: 300 }
+	},
+	shape: { base: "game:block/food/meal/liquid" },
+	ingredients: [
+		{ 
+			code: "water", 
+			validStacks: [ 
+				{ 
+					type: "item", 
+					code: "game:waterportion", 
+					shapeElement: "game:bowl/water"
+				}
+			],
+			minQuantity: 3,
+			maxQuantity: 3,
+			portionSizeLitres: 1,
+		},
+		{
+			code: "honey", 
+			validStacks: [
+				{ type: "item", code: "game:honeycomb" },
+				{ type: "item", code: "game:honeyportion", shapeElement: "game:bowl/water" }
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 0.2,
+		},
+	],
+	cooksInto: { type: "Item", code: "wildcraftfruit:sweetwaterportion", quantity: 300 }
+  },
+  {
+	code: "sweetwater",
+	isFood: true,
+	recipeGroup: 1,
+	perishableProps: {
+		type: "None",
+		freshHours: { avg: 3360 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "wildcraftfruit:sweetwaterportion", quantity: 100 }
+	},
+	shape: { base: "game:block/food/meal/liquid" },
+	ingredients: [
+		{ 
+			code: "water", 
+			validStacks: [ 
+				{ 
+					type: "item", 
+					code: "game:waterportion", 
+					shapeElement: "game:bowl/water"
+				}
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 1,
+		},
+		{
+			code: "flower", 
+			validStacks: [
+				{ type: "item", code: "wildcraftfruit:flower-honeypots", quantity: 1 },
+				{ type: "item", code: "wildcraftfruit:flower-honeysuckle", quantity: 2 },
+				{ type: "item", code: "wildcraftfruit:flower-currant", quantity: 3 }
+			],
+			minQuantity: 2,
+			maxQuantity: 2
+		},
+	],
+	cooksInto: { type: "Item", code: "wildcraftfruit:sweetwaterportion", quantity: 100 }
+  }
+]

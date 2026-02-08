@@ -1,0 +1,52 @@
+{
+	code: "slantedroofingtip",
+	variantgroups: [
+		{ code: "material", loadFromProperties: "wildcrafttree:block/wood" },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		mapColorCode: "settlement",
+	},
+	shapeByType: { 
+		"*": { base: "game:block/roofing/tip/wood-{cover}" }
+	},
+	texturesByType: {
+		"*": {
+			"acacia1": { base: "wildcrafttree:block/wood/planks/{material}1" },
+			"acacia-top": { base: "wildcrafttree:block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "wildcrafttree:block/wood/shingles/{material}-side" },
+		},
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolid: { all: false, down: true },
+	sideopaque: { all: false },
+	blockmaterialByType: {
+		"*": "Wood",
+	},
+	creativeinventory: { "general": ["*-free"], "decorative": ["*-free"], "wildcrafttree": ["*-free"] },
+	replaceable: 300,
+	resistance: 2,
+	lightAbsorption: 99,
+	emitSideAo: {
+		all: true
+	},
+	collisionSelectionBoxesByType: {
+		"*": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 1 } ]
+	},
+	soundsByType: {
+		"*": {
+			place: "game:block/planks",
+			break: "game:block/planks",
+			hit: "game:block/planks",
+		},
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: -22.6, y: -40, z: 0 },
+			origin: { x: 0.53, y: 0.4, z: 0.46 },
+			scale: 0.85
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	ingredientPattern: "HIF,CPR,PPP",
+	ingredients: {
+		"R": { type: "item", code: "game:resin", quantity: 2 },
+		"F": { type: "item", code: "game:fat" },
+		"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
+		"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 40 },
+		"P": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 3 },
+		"I": { type: "item", code: "game:rod-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:fruitpress-ns", quantity: 1  }
+}

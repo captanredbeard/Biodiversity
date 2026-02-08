@@ -1,0 +1,89 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/nutritionPropsByType/*-soybean",
+		"value": { "saturation": 60, "foodcategory": "Protein" },
+		"file": "game:itemtypes/food/legume.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributes/nutritionPropsWhenInMeal",
+		"value": { 
+			"satietyByType": {
+				"*-soybean": 160,
+				"*-peanut": 160
+			},
+			"foodcategory": "Protein"  
+		},
+		"file": "game:itemtypes/food/legume.json"
+	},
+  {
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-soybean": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": { "type": "item", "code": "wildcraftfruit:nut-cookedsoya" },
+        "requiresContainer": false
+      }
+    },
+    "side": "server",
+    "file": "game:itemtypes/food/legume.json"
+  },
+	{
+		"op": "replace",
+		"path": "/transitionableProps",
+		"value": [{}],
+		"file": "game:itemtypes/food/legume.json",
+	},
+	{
+		"op": "addmerge",
+		"path": "/transitionablePropsByType",
+		"value": {
+		   "*-peanut": [{
+		"type": "Perish",
+		"freshHours": { avg: 3840 },
+		"transitionHours": { avg: 144 },
+		"transitionedStack": { type: "item", code: "game:rot" },
+		"transitionRatio": 0.5
+		   }],
+		   "*-soybean": [{
+		"type": "Perish",
+		"freshHours": { avg: 8760 },
+		"transitionHours": { avg: 876 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 0.33
+		   }],
+		},
+		"file": "game:itemtypes/food/legume.json"
+	},
+	{
+		"op": "replace",
+		"path": "/nutritionPropsByType",
+		"value": {
+			"*": { saturation: 160, foodcategory: "Protein" },
+                },
+		"file": "game:itemtypes/food/pickledlegume.json",
+	},
+	{
+		"op": "replace",
+		"path": "/transitionableProps",
+		"value": [{
+			type: "Perish",
+			freshHours: { avg: 3840 },
+			transitionHours: { avg: 432 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.5
+                }],
+		"file": "game:itemtypes/food/pickledlegume.json",
+	},
+	{
+		"op": "replace",
+		"path": "/attributes/inPieProperties",
+		"value": { texture: "game:block/food/pie/fill-{type}", partType: 'Filling', allowMixing: false },
+		"file": "game:itemtypes/food/pickledlegume.json",
+	},
+]

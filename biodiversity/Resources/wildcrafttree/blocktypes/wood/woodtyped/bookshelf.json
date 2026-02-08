@@ -1,0 +1,72 @@
+{
+	code: "bookshelf",
+	class: "BlockBookshelf",
+	entityClass: "Bookshelf",
+	behaviors: [
+		{ name: "Lockable" }
+	],
+	entityBehaviors:[
+		{ name: "ShapeMaterialFromAttributes" }
+	],
+	attributes: {
+		reinforcable: true,
+		types: ["1row1col", "1row2col", "2row1col", "2row2col" ],
+		materials: { loadFromProperties: "wildcrafttree:block/wood" },
+		shape: { base: "game:block/wood/bookshelf/{type}" },
+		textures: { 
+			"material": { base: "block/wood/debarked/{material}", overlays: [] },
+			"material-rim1": { base: "block/wood/debarked/{material}", overlays: [ "block/wood/bookshelves/rim1" ] },
+			"material-rim2": { base: "block/wood/debarked/{material}", overlays: [ "block/wood/bookshelves/rim2" ] }
+		},
+		usableSlots: {
+			"1row1col": [0,1,2,3,4,5,6],
+			"1row2col": [0,1,2,4,5,6],
+			"2row1col": [0,1,2,3,4,5,6,7,8,9,10,11,12,13],
+			"2row2col": [0,1,2,4,5,6,7,8,9,11,12,13]
+		},
+		handbook: {
+			groupBy: ["bookshelf*"]
+		}
+	},
+	shape: { base: "game:block/wood/bookshelf/2row2col", rotateY: 0 },
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventory: { },
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 1,
+	sidesolid: {
+		all: false
+	},	
+	sideopaque: {
+		all: false
+	},
+	emitSideAo: { all: false },
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	combustiblePropsByType: {
+                "*-petrified-*": null,
+		"*": {
+			burnTemperature: 600,
+			burnDuration: 35,
+		}
+	},
+	materialDensity: 400,
+	guiTransform: {
+		rotation: { x: -22.6, y: 135, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.25 }
+	},	
+	tpHandTransform: {
+		translation: { x: -0.8, y: -0.68, z: -0.41 },
+		rotation: { x: 99, y: -10, z: -6 },
+		scale: 0.5
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: -0.2, z: 0.6 },
+		rotation: { x: 33, y: 134, z: -102 }
+	}
+}

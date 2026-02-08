@@ -1,0 +1,163 @@
+[
+  {
+    "file": "wildcrafttree:blocktypes/wood/trellis0.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:blocktypes/wood/trellis1.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:blocktypes/wood/trellis2.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:blocktypes/wood/trellis3.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:blocktypes/wood/trellis4.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:blocktypes/wood/trellis5.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:blocktypes/wood/trellis6.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:blocktypes/wood/trellis7.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:blocktypes/wood/trellis8.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:blocktypes/wood/trellis9.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+
+  {
+    "file": "wildcrafttree:recipes/grid/trellis.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:recipes/grid/trellis.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:recipes/grid/trellis.json",
+    "op": "add",
+    "path": "/2/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:recipes/grid/trellis.json",
+    "op": "add",
+    "path": "/3/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:recipes/grid/trellis.json",
+    "op": "add",
+    "path": "/4/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:recipes/grid/trellis.json",
+    "op": "add",
+    "path": "/5/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:recipes/grid/trellis.json",
+    "op": "add",
+    "path": "/6/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:recipes/grid/trellis.json",
+    "op": "add",
+    "path": "/7/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:recipes/grid/trellis.json",
+    "op": "add",
+    "path": "/8/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcrafttree:recipes/grid/trellis.json",
+    "op": "add",
+    "path": "/9/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcraftfruit", "invert": true }],
+    "side": "server"
+  }
+]

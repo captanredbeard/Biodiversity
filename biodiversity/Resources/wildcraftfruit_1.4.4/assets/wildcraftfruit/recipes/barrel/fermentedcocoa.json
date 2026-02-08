@@ -1,0 +1,19 @@
+[
+ {
+	code: "fermentedcocoa",
+	sealHours: 192,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:fruit-cocoa", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:fermentedcocoa", stackSize: 1 }
+ },
+ {
+	code: "soakedsoybeans",
+	sealHours: 12,
+	ingredients: [
+		{ type: "item", code: "game:waterportion", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:legume-soybean", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:soakedsoybean", stackSize: 1 }
+ }
+]

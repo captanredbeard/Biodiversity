@@ -1,0 +1,3 @@
+[
+    { "file": "game:itemtypes/poultice", "op": "replace", "path": "/class", "value": "HerbariumPoultice", "side": "server" }
+]

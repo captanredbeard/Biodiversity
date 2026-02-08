@@ -1,0 +1,28 @@
+[
+	{
+	ingredientPattern: "SKS,PSP",
+		enabled: true,
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"S": { type: "item", code: "wildcrafttree:willowcane-*", name: "wood", allowedVariants: ["honeylocust", "bearnut", "alder", "birch", "brideinwhite", "poplar", "willow", "redwillow", "eucalyptus", "kapok", "tuja", "larch", "aspen", "sapele"], quantity: 2 },
+			"P": { type: "item", code: "game:stick" }
+		},
+		name: "wattle",
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "wildcrafttree:wattle-{wood}-ew-free", quantity: 5  }
+	},
+	{
+	ingredientPattern: "KS,SP",
+		enabled: true,
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"S": { type: "item", code: "wildcrafttree:willowcane-*", name: "wood", allowedVariants: ["honeylocust", "bearnut", "alder", "birch", "brideinwhite", "poplar", "willow", "redwillow", "eucalyptus", "kapok", "tuja", "larch", "aspen", "sapele"], quantity: 2 },
+			"P": { type: "item", code: "game:stick" }
+		},
+		name: "wattle",
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "wildcrafttree:wattlefencegate-{wood}-n-closed-free", quantity: 1  }
+	}
+]

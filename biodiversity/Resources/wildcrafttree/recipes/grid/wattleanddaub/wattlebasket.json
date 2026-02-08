@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "WWW,W_W,WWW",
+		ingredients: {
+			"W": { type: "item", code: "wildcrafttree:willowcane-*", name: "wood", allowedVariants: ["honeylocust", "bearnut", "alder", "birch", "brideinwhite", "poplar", "willow", "redwillow", "eucalyptus", "kapok", "tuja", "larch", "aspen", "sapele"], quantity: 2 }
+		},
+		name: "wattlebasket",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "{wood}" }  }
+	}
+]

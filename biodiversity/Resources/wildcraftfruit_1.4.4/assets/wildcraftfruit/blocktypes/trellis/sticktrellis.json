@@ -1,0 +1,132 @@
+{
+	code: "sticktrellis",
+	attributes: {
+		handbook: {
+			groupBy: ["sticktrellis-*"]
+		}
+	},
+	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "north" }}],
+	variantgroups: [
+		{ code: "wood", states: ["stick", "bamboo"] },
+		{ code: "type", states: ["bottom", "middle", "top", "corner", "horizontal"] },
+		{ code: "side", states: ["north", "south", "east", "west"] },
+	],
+	creativeinventory: { "general": ["*-north"], "decorative": ["*-north"] },	
+	shapebytype: {
+		"*-horizontal-north": { base: "wildcraftfruit:block/trellis/{wood}/horizontal", rotateY: 0 },
+		"*-horizontal-south": { base: "wildcraftfruit:block/trellis/{wood}/horizontal", rotateY: 0 },
+		"*-horizontal-east": { base: "wildcraftfruit:block/trellis/{wood}/horizontal", rotateY: 90 },
+		"*-horizontal-west": { base: "wildcraftfruit:block/trellis/{wood}/horizontal", rotateY: 90 },
+
+		"*-top-north": { base: "wildcraftfruit:block/trellis/{wood}/top", rotateY: 0 },
+		"*-top-south": { base: "wildcraftfruit:block/trellis/{wood}/top", rotateY: 180 },
+		"*-top-east": { base: "wildcraftfruit:block/trellis/{wood}/top", rotateY: 270 },
+		"*-top-west": { base: "wildcraftfruit:block/trellis/{wood}/top", rotateY: 90 },
+
+		"*-middle-north": { base: "wildcraftfruit:block/trellis/{wood}/middle", rotateY: 0 },
+		"*-middle-south": { base: "wildcraftfruit:block/trellis/{wood}/middle", rotateY: 180 },
+		"*-middle-east": { base: "wildcraftfruit:block/trellis/{wood}/middle", rotateY: 270 },
+		"*-middle-west": { base: "wildcraftfruit:block/trellis/{wood}/middle", rotateY: 90 },
+
+		"*-corner-north": { base: "wildcraftfruit:block/trellis/{wood}/corner", rotateY: 0 },
+		"*-corner-south": { base: "wildcraftfruit:block/trellis/{wood}/corner", rotateY: 180 },
+		"*-corner-east": { base: "wildcraftfruit:block/trellis/{wood}/corner", rotateY: 270 },
+		"*-corner-west": { base: "wildcraftfruit:block/trellis/{wood}/corner", rotateY: 90 },
+
+		"*-bottom-north": { base: "wildcraftfruit:block/trellis/{wood}/bottom", rotateY: 0 },
+		"*-bottom-south": { base: "wildcraftfruit:block/trellis/{wood}/bottom", rotateY: 180 },
+		"*-bottom-east": { base: "wildcraftfruit:block/trellis/{wood}/bottom", rotateY: 270 },
+		"*-bottom-west": { base: "wildcraftfruit:block/trellis/{wood}/bottom", rotateY: 90 },
+	},
+	drawtypeByType: {
+		"*": "JSON",
+	},
+	blockmaterial: "Wood",
+	sideSolidByType: {
+		"*-horizontal-*": { all: false, up: true },
+		"*-corner-north": { all: false, south: true, up: true },
+		"*-corner-east": { all: false, west: true, up: true },
+		"*-corner-south": { all: false, north: true, up: true },
+		"*-corner-west": { all: false, east: true, up: true },
+		"*-north": { all: false, south: true },
+		"*-east": { all: false, west: true },
+		"*-south": { all: false, north: true },
+		"*-west": { all: false, east: true },
+	},
+	sideopaqueByType: {
+		"*": { all: false }
+	},
+	resistance: 3,
+	renderpass: "OpaqueNoCull",
+	fertilityByType: {
+		"*-corner-*": 5,
+		"*-horizontal-*": 5,
+	},
+	lightAbsorption: 0,
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood",
+	},
+	selectionboxbytype: {
+		"*-bottom-north": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 180 },
+		"*-bottom-south": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 0 },
+		"*-bottom-east": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 90 },
+		"*-bottom-west": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 270 },
+
+		"*-middle-north": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 180 },
+		"*-middle-south": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 0 },
+		"*-middle-east": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 90 },
+		"*-middle-west": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 270 },
+
+		"*-top-north": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1.6, z2: 0.15, rotateY: 180 },
+		"*-top-south": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1.6, z2: 0.15, rotateY: 0 },
+		"*-top-east": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1.6, z2: 0.15, rotateY: 90 },
+		"*-top-west": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1.6, z2: 0.15, rotateY: 270 },
+
+		"*-horizontal-*": { x1: 0, y1: 0.825, z1: 0, x2: 1, y2: 1, z2: 1 },
+	},
+	selectionboxesbytype: {
+		"*-corner-north": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 180 }, { x1: 0, y1: 0.825, z1: 0, x2: 1, y2: 1, z2: 1 } ],
+		"*-corner-south": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 0 }, { x1: 0, y1: 0.825, z1: 0, x2: 1, y2: 1, z2: 1 } ],
+		"*-corner-east": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 90 }, { x1: 0, y1: 0.825, z1: 0, x2: 1, y2: 1, z2: 1 } ],
+		"*-corner-west": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 270 }, { x1: 0, y1: 0.825, z1: 0, x2: 1, y2: 1, z2: 1 } ],
+	},
+	collisionboxbytype: {
+		"*-bottom-north": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 180 },
+		"*-bottom-south": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 0 },
+		"*-bottom-east": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 90 },
+		"*-bottom-west": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 270 },
+
+		"*-middle-north": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 180 },
+		"*-middle-south": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 0 },
+		"*-middle-east": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 90 },
+		"*-middle-west": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 270 },
+
+		"*-top-north": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1.4, z2: 0.15, rotateY: 180 },
+		"*-top-south": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1.4, z2: 0.15, rotateY: 0 },
+		"*-top-east": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1.4, z2: 0.15, rotateY: 90 },
+		"*-top-west": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1.4, z2: 0.15, rotateY: 270 },
+
+		"*-horizontal-*": { x1: 0, y1: 0.825, z1: 0, x2: 1, y2: 1, z2: 1 },
+	},
+	collisionboxesbytype: {
+		"*-corner-north": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 180 }, { x1: 0, y1: 0.825, z1: 0, x2: 1, y2: 1, z2: 1 } ],
+		"*-corner-south": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 0 }, { x1: 0, y1: 0.825, z1: 0, x2: 1, y2: 1, z2: 1 } ],
+		"*-corner-east": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 90 }, { x1: 0, y1: 0.825, z1: 0, x2: 1, y2: 1, z2: 1 } ],
+		"*-corner-west": [ { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.15, rotateY: 270 }, { x1: 0, y1: 0.825, z1: 0, x2: 1, y2: 1, z2: 1 } ],
+	},
+	materialDensity: 600,
+	combustiblePropsByType: {
+		"*": {
+			burnTemperature: 600,
+			burnDuration: 10,
+		}
+	},
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

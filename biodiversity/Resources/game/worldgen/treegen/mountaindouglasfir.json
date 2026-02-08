@@ -1,0 +1,38 @@
+{
+	"treeWorldPropertyCode": "mountaindouglasfir",
+	"sizeMultiplier": 0.8,
+	"trunks": [{
+		"widthloss": 0.047,
+		"dieAt": { "avg": 0.05 },
+		"branchStart": { "dist": "gaussian", "avg": 0.45, "var": 0.2 },
+		"branchSpacing": { "avg": 0.15, "var": 0.005 },
+		"branchVerticalAngle":  { "dist": "gaussian", "avg": 1.57, "var": 0.3 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.3, "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 0.4 },
+		"branchQuantity": { "avg": 3, "var": 0 },
+		"branchQuantityEvolve": { "transform": "quadratic", "factor": 0.3 }
+	}],
+	"branches": [{
+		"widthLoss": 0.04,
+		"gravityDrag": 0.04,
+
+		"branchStart":  { "avg": 1.25, "var": 0.1 },
+		"branchSpacing": { "avg": 0, "var": 0 },
+		"branchVerticalAngle": { "avg": 1.57, "var": 0.5 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+
+		"branchQuantity": { "avg": 1, "var": 0 },
+		"branchWidthMultiplier": { "avg": 0.4, "var": 0 }
+	}], 
+	"treeBlocks": {
+		"logBlockCode": "wildcrafttree:log-grown-douglasfir-ud",
+		"otherLogBlockCode": "wildcrafttree:log-resin-douglasfir-ud",
+		"otherLogChance": 0.02,
+		"leavesBlockCode": "wildcrafttree:leaves-placed-douglasfir",
+		"leavesBranchyBlockCode": "wildcrafttree:leavesbranchy-placed-douglasfir",
+		"vinesBlockCode": "game:wildvine-section-north",
+		"vinesEndBlockCode": "game:wildvine-end-north",
+		"mossDecorCode": "game:attachingplant-spottymoss"
+	}
+}

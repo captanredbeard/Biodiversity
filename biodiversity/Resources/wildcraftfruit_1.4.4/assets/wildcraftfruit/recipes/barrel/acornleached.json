@@ -1,0 +1,20 @@
+[
+ {
+	code: "acornleached",
+	sealHours: 72,
+	ingredients: [
+		{ type: "item", code: "game:waterportion", "litres": 2 },
+		{ type: "item", code: "wildcraftfruit:nut-acornshelled", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:nut-acornleached", stackSize: 1 }
+ },
+ {
+	code: "acornleached",
+	sealHours: 168,
+	ingredients: [
+		{ type: "item", code: "game:waterportion", "litres": 2 },
+		{ type: "item", code: "wildcraftfruit:nut-bitteracornshelled", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:nut-acornleached", stackSize: 1 }
+ },
+]

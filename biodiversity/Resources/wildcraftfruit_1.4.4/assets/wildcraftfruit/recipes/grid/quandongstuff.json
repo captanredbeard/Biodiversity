@@ -1,0 +1,44 @@
+[
+  {
+    ingredientPattern: "K,H",
+    shapeless: true,
+    ingredients: {
+      "K": { type: "item", code: "game:knife-*", isTool: true },
+      "H": { type: "item", code: "wildcraftfruit:dryfruit-bluequandong" }
+    },
+    width: 1,
+    height: 2,
+    output: { type: "item", code: "wildcraftfruit:quandongpits" }
+  },
+  {
+    ingredientPattern: "K,H",
+    shapeless: true,
+    ingredients: {
+      "K": { type: "item", code: "game:knife-*", isTool: true },
+      "H": { type: "item", code: "wildcraftfruit:fruit-redquandong" }
+    },
+    width: 1,
+    height: 2,
+    output: { type: "item", code: "wildcraftfruit:quandongpits" }
+  },
+  {
+    ingredientPattern: "HKH",
+    ingredients: {
+      "K": { type: "item", code: "game:flaxtwine" },
+      "H": { type: "item", code: "wildcraftfruit:quandongpits" }
+    },
+    width: 3,
+    height: 1,
+    output: { type: "item", code: "wildcraftfruit:clothes-arm-quandongbracelet" }
+  },
+  {
+    ingredientPattern: "K_K,H_H,_H_",
+    ingredients: {
+      "K": { type: "item", code: "game:flaxtwine" },
+      "H": { type: "item", code: "wildcraftfruit:quandongpits" }
+    },
+    width: 3,
+    height: 3,
+    output: { type: "item", code: "wildcraftfruit:clothes-neck-quandongnecklace" }
+  }
+]

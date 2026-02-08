@@ -1,0 +1,18 @@
+[
+  {
+    "file": "wildcraftfruit:recipes/grid/cedarnut.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcrafttree", "invert": true }],
+    "side": "server"
+  },
+  {
+    "file": "wildcraftfruit:recipes/barrel/walnut_dye.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "wildcrafttree", "invert": true }],
+    "side": "server"
+  }
+]

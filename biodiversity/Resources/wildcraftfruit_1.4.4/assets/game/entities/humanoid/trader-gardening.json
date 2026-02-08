@@ -1,0 +1,2188 @@
+{
+	code: "humanoid-trader-gardening",
+	class: "EntityTrader",
+	canClimb: true,
+       "deadHitboxSize": { "x": 0.75, "y": 0.5 },
+       "hitboxSize": { "x": 0.6, "y": 1.75 },
+   "client": {
+      "renderer": "Shape",
+      "shape": { "base": "game:entity/humanoid/trader" },
+      "texture": {
+	 "base": "game:entity/humanoid/trader",
+	 "alternates": [
+	    { "base": "game:entity/humanoid/traderclothes/set1" },
+	    { "base": "game:entity/humanoid/traderclothes/set2" },
+	    { "base": "game:entity/humanoid/traderclothes/set3" },
+	    { "base": "game:entity/humanoid/traderclothes/set4" },
+	    { "base": "game:entity/humanoid/traderclothes/set5" }
+	 ]
+      },
+      "behaviors": [
+	 { "code": "nametag", "showtagonlywhentargeted": true },
+	 { "code": "repulseagents" },
+	 { "code": "controlledphysics", "stepHeight": 1.01 },
+	 { "code": "interpolateposition" },
+         { code: "conversable", dialogue: "config/dialogue/trader" }
+      ],
+      "animations": [
+	 { "code": "die", "animation": "die", "animationSpeed": 1.75, "blendMode": "AddAverage", "weight": 10 },
+	 { "code": "hurt", "animation": "hurt", "animationSpeed": 2, "blendMode": "AddAverage" },
+	 { "code": "rowdywelcome", "animation": "rowdywelcome", "blendMode": "AddAverage" },
+	 { "code": "lazywelcome" , "animation": "lazywelcome", "blendMode": "AddAverage" },
+	 { "code": "lazynod", "animation": "lazynod", "blendMode": "AddAverage" }
+      ]
+   },
+   "attributes": {
+      "tradeProps": {
+	 "money": { "avg": 45, "var": 10 },
+      "selling": {
+        "maxItems": 14,
+        "list": [
+            {
+                "code": "game:fruittree-cutting",
+                "type": "block",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                },
+                "attributes": {
+                    "type": "*"
+                }
+            },
+            {
+                "code": "wildcraftfruit:fruittree-cutting",
+                "type": "block",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                },
+                "attributes": {
+                    "type": "*"
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-pokeberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-baneberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-cranberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-blueberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-bilberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-bearberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-huckleberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-swamphuckle-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-belladonna-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-snowberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-honeysuckle-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-elderberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-husktomato-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-newhusktomato-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-tomato-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-wildtomato-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-falsetomato-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-gooseberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-redcurrant-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-blackcurrant-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-whitecurrant-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-fractureberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-blossomquince-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-blueraspberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-dogrose-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-blackelder-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-sloe-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-hazel-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-brambleberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-josta-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-loganberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-dewberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-raspberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-spindle-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-wolfberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-sallowthorn-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-deserthackberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-ugni-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-caper-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-beautyberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-beachrose-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-feijoa-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-turkscap-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-kumquat-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-sumac-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-dwarfpine-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-juniper-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-bitternightshade-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-blacknightshade-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-orangebellpepper-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-redbellpepper-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-yellowbellpepper-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-greenbellpepper-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-jalapeno-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-habanero-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-cayenne-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-tabasco-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-bladdernut-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-pistachio-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-marita-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-naranjilla-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-hairyeggplant-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-eggplant-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-romatomato-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-oxheart-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-tomatillo-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-pricklyheath-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-numnum-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-flaxlily-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-oldmansaltbush-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-bluetongue-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-munthari-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-midyimberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-mingimingi-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-seamango-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-fingerlime-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-lillypillyblue-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-lillypillypink-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-lillypillywhite-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-kawakawa-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-pilo-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-boysenberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:clipping-bushlawyer-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-greenstrawberry",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-strawberry",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-bunchberry",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-crowberry",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-lingonberry",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-knyazberry",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-crowseye",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-falsestrawberry",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-coralbead",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-gardenstrawberry",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-cloudberry",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-creepingpine",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-kakaha",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-honeypots",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-cheeseberry",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-pineheath",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:seeds-rubysaltbush",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-ivy-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-virgingrape-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-woodbine-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-bryony-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-cucumber-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-blackgrape-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-foxgrape-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-redgrape-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-whitegrape-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-kolomikta-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-kiwi-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-passionfruit-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-granadilla-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-hairyappleberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:vineclipping-purpleappleberry-green",
+                "type": "item",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 8,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+        ]
+    },
+    "buying": {
+        "maxItems": 14,
+        "list": [
+            {
+                "code": "game:flaxtwine",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 2,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "game:bowl-blue-fired",
+                "type": "block",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 3,
+                    "var": 0.75
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                },
+                "attributes": {
+                    "ucontents": [
+                        {
+                            "type": "item",
+                            "code": "game:honeyportion",
+                            "makefull": true
+                        }
+                    ]
+                }
+            },
+            {
+                "code": "game:shears-blackbronze",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1,
+                    "var": 0.25
+                },
+                "price": {
+                    "avg": 7,
+                    "var": 1.75
+                }
+            },
+            {
+                "code": "game:shears-tinbronze",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1,
+                    "var": 0.25
+                },
+                "price": {
+                    "avg": 5,
+                    "var": 1.25
+                }
+            },
+            {
+                "code": "game:shears-bismuthbronze",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1,
+                    "var": 0.25
+                },
+                "price": {
+                    "avg": 6,
+                    "var": 1.5
+                }
+            },
+            {
+                "code": "game:knife-generic-tinbronze",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1,
+                    "var": 0.25
+                },
+                "price": {
+                    "avg": 5,
+                    "var": 1.25
+                }
+            },
+            {
+                "code": "game:knife-generic-bismuthbronze",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1,
+                    "var": 0.25
+                },
+                "price": {
+                    "avg": 6,
+                    "var": 1.5
+                }
+            },
+            {
+                "code": "game:knife-generic-blackbronze",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1,
+                    "var": 0.25
+                },
+                "price": {
+                    "avg": 7,
+                    "var": 1.75
+                }
+            },
+            {
+                "code": "game:linensack",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 2,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "game:woodbucket",
+                "type": "block",
+                "stacksize": 2,
+                "stock": {
+                    "avg": 2,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 3,
+                    "var": 0.75
+                }
+            },
+            {
+                "code": "game:storagevessel-blue-fired",
+                "type": "block",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1,
+                    "var": 0.25
+                },
+                "price": {
+                    "avg": 5,
+                    "var": 1.25
+                },
+                "attributes": {
+                    "type": "normal"
+                }
+            },
+            {
+                "code": "game:wateringcan-blue-fired",
+                "type": "block",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1,
+                    "var": 0.5
+                },
+                "price": {
+                    "avg": 4,
+                    "var": 1
+                }
+            },
+            {
+                "code": "game:clothes-head-straw-hat",
+                "type": "item",
+                "stacksize": 1,
+                "stock": {
+                    "avg": 1,
+                    "var": 0
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:nutbar-almondbar",
+                "type": "item",
+                "stacksize": 4,
+                "stock": {
+                    "avg": 4,
+                    "var": 1
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:nutbar-acornbar",
+                "type": "item",
+                "stacksize": 4,
+                "stock": {
+                    "avg": 4,
+                    "var": 1
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:nutbar-hazelbar",
+                "type": "item",
+                "stacksize": 4,
+                "stock": {
+                    "avg": 4,
+                    "var": 1
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:nutbar-cashewbar",
+                "type": "item",
+                "stacksize": 4,
+                "stock": {
+                    "avg": 4,
+                    "var": 1
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:nutbar-sunflowerbar",
+                "type": "item",
+                "stacksize": 4,
+                "stock": {
+                    "avg": 4,
+                    "var": 1
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:nutbar-pistachiobar",
+                "type": "item",
+                "stacksize": 4,
+                "stock": {
+                    "avg": 4,
+                    "var": 1
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "game:fruit-pinkapple",
+                "type": "item",
+                "stacksize": 6,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "game:fruit-pear",
+                "type": "item",
+                "stacksize": 6,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "game:fruit-orange",
+                "type": "item",
+                "stacksize": 6,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "game:fruit-cranberry",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:fruit-hawthorn",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:fruit-quince",
+                "type": "item",
+                "stacksize": 6,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:nut-almond",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:nut-hazelnut",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:fruit-guajava",
+                "type": "item",
+                "stacksize": 6,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:fruit-citron",
+                "type": "item",
+                "stacksize": 6,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:fruit-dogrose",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:nut-acorn",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:nut-juniper",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:nut-pinenut",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:nut-pistachionut",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            },
+            {
+                "code": "wildcraftfruit:fruit-lingonberry",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 1,
+                    "var": 0.25
+                }
+            },
+            {
+                "code": "wildcraftfruit:fruit-crowseye",
+                "type": "item",
+                "stacksize": 8,
+                "stock": {
+                    "avg": 6,
+                    "var": 2
+                },
+                "price": {
+                    "avg": 2,
+                    "var": 0.5
+                }
+            }
+        ]
+    }
+        }
+    },
+  "server": {
+    "attributes": {
+      "pathfinder": {
+        "minTurnAnglePerSec": 720,
+        "maxTurnAnglePerSec": 1440
+      }
+    },
+    "behaviors": [
+      {
+        "code": "nametag",
+        "showtagonlywhentargeted": true,
+        "selectFromRandomName": [ "Zoffy", "William", "Calhoun", "Nicolo", "Jared", "Casper", "Valdemar", "Bajen" ]
+      },
+      { "code": "repulseagents" },
+      {
+        "code": "controlledphysics",
+        "stepHeight": 1.01
+      },
+      {
+        "code": "reviveondeath",
+        "minHours": 24,
+        "maxHours": 72
+      },
+      {
+        "code": "health",
+        "currenthealth": 25,
+        "maxhealth": 25
+      },
+      {
+        "code": "emotionstates",
+        "states": [
+          {
+            "code": "aggressiveondamage",
+            "duration": 6,
+            "chance": 0.6,
+            "slot": 0,
+            "priority": 2,
+            "accumType": "noaccum"
+          },
+          {
+            "code": "fleeondamage",
+            "duration": 10,
+            "chance": 0.4,
+            "slot": 0,
+            "priority": 1,
+            "accumType": "max"
+          }
+        ]
+      },
+      {
+        "code": "taskai",
+        "aitasks": [
+          {
+            "code": "meleeattack",
+            "entityCodes": [ "player" ],
+            "priority": 2,
+            "damage": 5,
+            "mincooldown": 2500,
+            "maxcooldown": 3500,
+            "attackDurationMs": 900,
+            "damagePlayerAtMs": 300,
+            "animation": "Attack",
+            "animationSpeed": 2,
+            "whenInEmotionState": "aggressiveondamage"
+          },
+          {
+            "code": "seekentity",
+            "entityCodes": [ "player" ],
+            "priority": 1.5,
+            "mincooldown": 1000,
+            "maxcooldown": 1500,
+            "seekingRange": 20,
+            "movespeed": 0.035,
+            "animation": "Run",
+            "animationSpeed": 1.75,
+            "whenInEmotionState": "aggressiveondamage"
+          },
+          {
+            "code": "fleeentity",
+            "entityCodes": [ "player" ],
+            "priority": 1.5,
+            "movespeed": 0.035,
+            "seekingRange": 12,
+            "animation": "Run",
+            "animationSpeed": 1.75,
+            "whenInEmotionState": "fleeondamage"
+          },
+          {
+            "code": "idle",
+            "priority": 1.2,
+            "minduration": 2500,
+            "maxduration": 2500,
+            "mincooldown": 2000,
+            "maxcooldown": 10000,
+            "animation": "laugh"
+          },
+          {
+            "code": "idle",
+            "priority": 1.2,
+            "minduration": 2500,
+            "maxduration": 2500,
+            "mincooldown": 5000,
+            "maxcooldown": 30000,
+            "animation": "idle2"
+          },
+          {
+            "code": "wander",
+            "priority": 1.0,
+            "movespeed": 0.01,
+            "animation": "Walk",
+            "wanderChance": 0.005,
+            "maxDistanceToSpawn": 4,
+            "wanderRangeMin": 1,
+            "wanderRangeMax": 3,
+            "teleportWhenOutOfRange": true,
+            "teleportInGameHours": 1
+          },
+          {
+            "code": "lookaround",
+            "priority": 0.5
+          }
+        ]
+      },
+      {
+        "code": "conversable",
+        "dialogue": "config/dialogue/trader"
+      }
+    ]
+  },
+  "sounds": {
+  }
+}

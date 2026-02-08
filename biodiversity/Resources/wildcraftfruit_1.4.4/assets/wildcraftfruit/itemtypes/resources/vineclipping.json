@@ -1,0 +1,111 @@
+{
+  "code": "vineclipping",
+  "class": "ItemClipping",
+  "attributes": {
+           "isVine": true
+  },
+  "maxstacksize": 16,
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "wildcraftfruit": [ "*" ]
+  },
+  "storageFlags": 33,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "blackgrape", "redgrape", "whitegrape", "foxgrape", "virgingrape", "cucumber", "bryony", "passionfruit", "granadilla", "kiwi", "kolomikta", "woodbine", "ivy", "hairyappleberry", "purpleappleberry" ]
+    },
+    {
+      "code": "state",
+      "states": [ "green", "dry" ]
+    }
+  ],
+  "transitionablePropsByType": {
+    "*-green": [
+      {
+        "type": "Dry",
+        "freshHours": { "avg": 0 },
+        "transitionHours": { "avg": 36 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "wildcraftfruit:vineclipping-{type}-dry"
+        },
+        "transitionRatio": 1
+      }
+    ]
+  },
+  "shapeByType": {
+    "*-purpleappleberry-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-purpleappleberry-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+
+    "*-hairyappleberry-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-hairyappleberry-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+
+    "*-cucumber-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-cucumber-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+
+    "*-passionfruit-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-passionfruit-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+
+    "*-granadilla-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-granadilla-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+
+    "*-bryony-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-bryony-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+
+    "*-kolomikta-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-kolomikta-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+
+    "*-woodbine-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-woodbine-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+
+    "*-green": { "base": "wildcraftfruit:item/clipping/clipping" },
+    "*-dry": { "base": "wildcraftfruit:item/clipping/clipping_dry" }
+  },
+  "texturesByType": {
+    "*-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/{type}_dry*" }
+    },
+    "*-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/{type}_green*" }
+    }
+  },
+  "materialDensity": 600,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  },
+  "guiTransformByType": {
+  "*": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: -167, y: -144, z: 33 },
+        origin: { x: 0.6, y: 0.4, z: 0.34 },
+        scale: 2.47
+  }
+  },
+  "fpHandTransformByType": {
+  "*": {
+      translation: { x: 0, y: 0, z: 0 },
+      rotation: { x: -33, y: -13, z: -25 },
+      origin: { x: 0.4, y: 0.3, z: 0.8 },
+      scale: 1.31
+  }
+  },
+  "tpHandTransformByType": {
+  "*": {
+      translation: { x: 0, y: 0, z: 0 },
+      rotation: { x: -14, y: -10, z: -56 },
+      origin: { x: 0, y: 0.16, z: 0.12 },
+      scale: 0.34
+  }
+  },
+  "groundTransformByType": {
+  "*": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 82, "y": 2, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.56 },
+		"scale": 3.51
+        },
+	}
+}

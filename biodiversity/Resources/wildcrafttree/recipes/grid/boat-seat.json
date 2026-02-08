@@ -1,0 +1,11 @@
+[
+	{
+		ingredientPattern: "WWW	W_W",
+		ingredients: {
+			"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood", skipVariants: ["petrified"] }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:boatseat-{wood}" }
+	}
+]

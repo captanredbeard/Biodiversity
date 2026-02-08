@@ -1,0 +1,24 @@
+[
+ {
+	ingredientPattern: "AS_	PSP",
+	ingredients: {
+		"A": { type: "item", code: "game:axe-*", isTool: true  },
+		"P": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "wood", allowedVariants: ["cedar", "fir", "spruce", "douglasfir", "tuja", "redcedar", "yew", "kauri", "ginkgo", "sycamore", "honeylocust", "dalbergia", "umnini", "banyan", "elm", "beech", "bearnut", "willow", "poplar", "spurgetree", "eucalyptus", "ghostgum", "ohia", "satinash", "bluemahoe", "linden", "sal", "horsechestnut", "tigerwood", "mahogany", "sapele", "ash", "catalpa", "jacaranda", "mangrove", "empresstree"] },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "wildcrafttree:roughhewnfence-{wood}-ew-free", quantity: 8  }
+ },
+ {
+	ingredientPattern: "AS_	PSP",
+	ingredients: {
+		"A": { type: "item", code: "game:axe-*", isTool: true  },
+		"P": { type: "block", code: "wildcrafttree:logsection-placed-*-ne-ud", name: "wood", allowedVariants: ["redcedar", "douglasfir", "kauri", "sycamore", "banyan", "elm"] },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "block", code: "wildcrafttree:roughhewnfence-{wood}-ew-free", quantity: 8  }
+ }
+]

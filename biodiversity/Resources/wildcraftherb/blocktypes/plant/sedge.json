@@ -1,0 +1,128 @@
+{
+	"code": "sedge",
+	"classByType":{
+    "*": "WaterHerb"
+  },
+	"entityClassByType": {
+		"*-harvested": "Transient"
+	},
+	"variantgroups": [
+		{ "code": "type", "states": [ "softsedge", "waterchestnut"] },
+		{ "code": "state", "states": ["normal", "harvested"] }
+	],
+	"attributes": {
+    "minDepthByType":{
+      "*": 0
+    },
+    "maxDepthByType": {
+      "*-softsedge-*": 1,
+      "*-waterchestnut-*": 1,
+      "*-arrowhead-*": 1
+    },
+    "butterflyFeedByType": {
+    "*-normal": true
+    },
+    "beeFeedByType": {
+    "*-normal": true
+    },
+    "transientPropsByType": {
+      "*-normal": {
+        "convertFrom": "*-normal", 
+        "convertTo": "*-harvested", 
+        "inGameHours": "84",
+        "whenAboveTemperature": 12
+      },
+      "*-harvested": {
+        "convertFrom": "*-harvested", 
+        "convertTo": "*-normal", 
+        "inGameHours": "84",
+        "whenBelowTemperature": 8
+      }
+    },
+    "forageStatAffected": true,
+    "hasRootByType":{
+      "*-waterchestnut-*": "true",
+      "*-arrowhead-*": "true",
+      "*": "false"
+    },
+    "isPoisonousByType":{
+        "*":"false"
+    },
+    "waterCodeByType":{
+      "*": "water"
+    }
+  },
+  "walkspeedmultiplierByType":{
+    "*": 1
+  },
+  "randomDrawOffset": true,
+  "texturesByType": {
+    "*-arrowhead-*": {
+      "leaves": { "base": "wildcraftherb:block/plant/leafygroundvegetable/{state}/{type}" }
+    },
+    "*-normal": {
+      "leaves": { "base": "wildcraftherb:block/plant/sedge/{type}" }
+    },
+    "*-harvested": {
+      "leaves": { "base": "wildcraftherb:block/plant/sedge/{type}_harvested*" }
+    }
+  },
+	"creativeinventory": {
+    "general": ["*-normal"],
+    "flora": ["*-normal"],
+    "wildcraftherb": [ "*-normal" ]
+  },
+  "shapeByType": {
+    "*": {"base": "wildcraftherb:block/plant/leafygroundvegetable/sedge/sedge_untinted"}
+  },
+  "dropsByType": {
+    "*-waterchestnut-harvested": [ { "type": "item", "code": "wildcraftherb:root-waterchestnut" } ],
+    "*-arrowhead-harvested": [ { "type": "item", "code": "wildcraftherb:root-arrowhead" } ],
+    "*-normal": [{"type": "item","code": "wildcraftherb:herb-{type}","quantity": { "avg": 2.5 }}]
+	},
+	"renderpass": "OpaqueNoCull",
+  "faceCullMode": "NeverCull",
+	"blockmaterial": "Plant",
+	"randomizeRotations": true,
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": null,
+	"selectionBoxByType": {
+    "*-harvested":{ "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 },
+    "*": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 1.5, "z2": 1 }
+  },
+  "guiTransformByType": {
+    "*":{
+      "rotation": { "x": -22, "y": 107, "z": 0 },
+      "origin": { "x": 0.3, "y": 0.5, "z": 0.4 },
+      "scale": 1.32
+    }
+  },
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.5
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.93, "y": -0.17, "z": -0.8 },
+		"rotation": { "x": 15, "y": -10, "z": -114 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.58
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"vertexFlags": {
+		"leavesWindWave": true
+	},
+	"materialDensity": 200,
+	"frostable": true
+}

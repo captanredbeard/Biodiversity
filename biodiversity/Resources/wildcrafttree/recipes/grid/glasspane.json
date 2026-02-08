@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "WLW	_G_	W_W",
+	ingredients: {
+		"G": { type: "block", code: "game:glass-plain" },
+		"L": { type: "item", code: "game:ingot-lead" },
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "wildcrafttree:glasspane-leaded-{wood}-ew", quantity: 4  }
+}

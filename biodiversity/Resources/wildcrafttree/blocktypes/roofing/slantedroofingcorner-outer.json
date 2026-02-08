@@ -1,0 +1,62 @@
+{
+	code: "slantedroofingcornerouter",
+	class: "BlockSlantedRoofingHalf",
+	behaviors: [{name: "HorizontalOrientable", properties: {  dropBlockFace: "east" }}],
+	variantgroups: [
+		{ code: "material", loadFromProperties: "wildcrafttree:block/wood" },
+		{ loadFromProperties: "game:abstract/horizontalorientation" },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		humanoidTraversalCost: 100,
+		mapColorCode: "settlement",
+	},
+	shapeByType: {
+		"*-north-*": { base: "game:block/roofing/cornerouter/wood-{cover}", rotateY: 90 },
+		"*-west-*": { base: "game:block/roofing/cornerouter/wood-{cover}", rotateY: 180 },
+		"*-south-*": { base: "game:block/roofing/cornerouter/wood-{cover}", rotateY: 270 },
+		"*-east-*": { base: "game:block/roofing/cornerouter/wood-{cover}", rotateY: 0 },
+	},
+	texturesByType: {
+		"*": {
+			"acacia1": { base: "wildcrafttree:block/wood/planks/{material}1" },
+			"acacia-top": { base: "wildcrafttree:block/wood/shingles/{material}-top" },
+			"acacia-side": { base: "wildcrafttree:block/wood/shingles/{material}-side" },
+		},
+	},
+	drawtype: "json",
+	faceCullMode: "NeverCull",
+	renderpass: "OpaqueNoCull",
+	sidesolid: { all: false, down: true },
+	sideopaque: { all: false },
+	blockmaterialByType: {
+		"*": "Wood",
+	},
+	creativeinventory: { "general": ["*-east-free"], "decorative": ["*-east-free"], "wildcrafttree": ["*-east-free"] },
+	replaceable: 300,
+	resistance: 2,
+	lightAbsorption: 99,
+	emitSideAo: {
+		all: true
+	},
+	collisionSelectionBoxesByType: {
+		"*-north-*": [ { x1: 0.1875, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 1, rotateY: 90 }, { x1: 0.625, y1: 0.5625, z1: 0.625, x2: 1, y2: 1, z2: 1, rotateY: 90 } ],
+		"*-west-*": [ { x1: 0.1875, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 1, rotateY: 180 }, { x1: 0.625, y1: 0.5625, z1: 0.625, x2: 1, y2: 1, z2: 1, rotateY: 180 } ],
+		"*-south-*": [ { x1: 0.1875, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 1, rotateY: 270 }, { x1: 0.625, y1: 0.5625, z1: 0.625, x2: 1, y2: 1, z2: 1, rotateY: 270 } ],
+		"*-east-*": [ { x1: 0.1875, y1: 0, z1: 0, x2: 1, y2: 0.5625, z2: 1 }, { x1: 0.625, y1: 0.5625, z1: 0.625, x2: 1, y2: 1, z2: 1 } ]
+	},
+	soundsByType: {
+		"*": {
+			place: "game:block/planks",
+			break: "game:block/planks",
+			hit: "game:block/planks",
+		},
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: -22.6, y: -40, z: 0 },
+			origin: { x: 0.53, y: 0.4, z: 0.46 },
+			scale: 0.85
+		}
+	}
+}

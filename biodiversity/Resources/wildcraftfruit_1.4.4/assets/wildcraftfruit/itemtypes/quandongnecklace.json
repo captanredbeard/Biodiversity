@@ -1,0 +1,60 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["neck"] },
+		{ code: "neck", combine: "SelectiveMultiply", onVariant: "category", states: [ "quandongnecklace" ] },
+	],
+	shapeByType: {
+		"*": {
+			base: "wildcraftfruit:item/quandongstuff/{neck}" 
+		}
+	},
+	storageFlags: 128,
+	attributes: {
+		clothescategory: "neck",
+		wearableAttachment: true,
+		warmth: 0
+	},
+	attributesByType: {
+		"*":{ displaycaseable: true, onDisplayTransform: {
+ 			translation: { x: -0.6, y: -1.2, z: 0 },
+			rotation: { x: 0, y: 0, z: -41 } }
+		}
+	},
+	texturesByType: {
+		"*": {
+			"seraph": { base: "game:block/transparent" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "wildcraftfruit": ["*"] },
+	renderAlphaTest: 0.25,
+	fpHandTransform: {
+		translation: { x: 0.2, y: -2.5, z: -0.9 },
+		rotation: { x: -2, y: 31, z: -46 },
+		scale: 4.09
+	},
+	tpHandTransform: {
+		translation: { x: -0.6, y: -2.1, z: -0.7 },
+		rotation: { x: -21, y: -180, z: 25 },
+		origin: { x: 0.5, y: 1.4, z: 0.5 },
+		scale: 0.71
+	},
+	guiTransformByType: {
+		"*": {
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 163, y: -113, z: 6 },
+			origin: { x: 0.45, y: 1.44, z: 0.53 },
+			scale: 3.93
+		}
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0, y: -0.05, z: 0 },
+			rotation: { x: 0, y: 0, z: -90 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 3.06
+		}
+	}
+}

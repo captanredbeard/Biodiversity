@@ -1,0 +1,84 @@
+{
+	code: "honeydewmelon",
+	class: "Block",
+	entityClass: "MelonVine",
+	variantgroups: [
+		{ code: "variant", states: ["vine"] },
+		{ code: "stage", states: ["1-normal", "2-normal", "3-normal", "3-blooming", "4-withered"] },
+	],
+	creativeinventory: { "general": [""], "flora": [""], "wildcraftfruit": [""] },
+	renderpass: "OpaqueNoCull",
+	shape: { base: "wildcraftfruit:block/plant/cropvine/vine" },
+	randomizeRotations: true,
+	blockmaterial: "Plant",
+	attributes: {
+		butterflyFeedByType: {
+			"*-1": false,
+			"*-4": false,
+			"*": true
+		},
+		beeFeedByType: {
+			"*-1": false,
+			"*-4": false,
+			"*": true
+		},
+		melonHoursToGrow: 14,
+		vineHoursToGrowFirstStage: 14,
+		vineHoursToGrowSecondStage: 6,
+		bloomProbability: 0.5,
+		debloomProbability: 0.5,
+		vineSpawnProbability: 0.5,
+		preferredGrowthDirProbability: 0.75,
+		maxAllowedMelonGrowthTries: 3,
+		melonBlockCode: "honeydewmelon",
+		domainCode: "wildcraftfruit"
+	},
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	sideao: { all: false },
+	texturesByType: {
+		"honeydewmelon-vine-3-blooming": {
+			"north": { base: "wildcraftfruit:block/plant/cropvine/vinestage3-blooming-north" },
+			"south": { base: "wildcraftfruit:block/plant/cropvine/vinestage3-blooming-south" }
+		},
+		"honeydewmelon-vine-1-normal": {
+			"north": { base: "wildcraftfruit:block/plant/cropvine/vinestage1-north" },
+			"south": { base: "wildcraftfruit:block/plant/cropvine/vinestage1-south" }
+		},
+		"honeydewmelon-vine-2-normal": {
+			"north": { base: "wildcraftfruit:block/plant/cropvine/vinestage2-north" },
+			"south": { base: "wildcraftfruit:block/plant/cropvine/vinestage2-south" }
+		},
+		"honeydewmelon-vine-3-normal": {
+			"north": { base: "wildcraftfruit:block/plant/cropvine/vinestage3-north" },
+			"south": { base: "wildcraftfruit:block/plant/cropvine/vinestage3-south" }
+		},
+		"honeydewmelon-vine-4-withered": {
+			"north": { base: "wildcraftfruit:block/plant/cropvine/vinestage4-north" },
+			"south": { base: "wildcraftfruit:block/plant/cropvine/vinestage4-south" }
+		}
+	},
+	replaceable: 5800,
+	lightAbsorption: 0,
+	resistance: 0.5,
+	collisionbox: null,
+	selectionbox: { x1: 0.125, y1: 0, z1: 0.125,   x2: 0.875, y2: 0.25, z2: 0.875 },
+	guitransform: {
+		rotation: { x: 0, y: 0, z: 0 }
+	},
+	sounds: {
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant"
+	},
+	materialDensity: 200,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	drops: []
+}

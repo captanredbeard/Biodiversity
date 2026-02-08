@@ -1,0 +1,142 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"cookedtofu": "wildcraftfruit:items/cookedtofu"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 5.0, 0.0, 10.0 ], 
+			"to": [ 8.0, 3.0, 11.0 ], 
+			"rotationOrigin": [ 6.5, 0.0, 10.0 ],
+			"rotationX": -20.0,
+			"rotationY": 15.0,
+			"faces": {
+				"north": { "texture": "#cookedtofu", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#cookedtofu", "uv": [ 6.0, 0.0, 8.0, 6.0 ], "autoUv": false },
+				"south": { "texture": "#cookedtofu", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#cookedtofu", "uv": [ 4.0, 2.0, 6.0, 8.0 ], "autoUv": false },
+				"up": { "texture": "#cookedtofu", "uv": [ 6.0, 0.0, 12.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#cookedtofu", "uv": [ 0.0, 5.0, 6.0, 7.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube2",
+			"from": [ 8.25, 0.0, 10.0 ], 
+			"to": [ 11.25, 3.0, 11.0 ], 
+			"rotationOrigin": [ 9.5, 0.0, 10.0 ],
+			"rotationX": -20.0,
+			"rotationY": 15.0,
+			"faces": {
+				"north": { "texture": "#cookedtofu", "uv": [ 6.0, 0.0, 12.0, 6.0 ], "autoUv": false },
+				"east": { "texture": "#cookedtofu", "uv": [ 4.0, 5.0, 6.0, 11.0 ], "autoUv": false },
+				"south": { "texture": "#cookedtofu", "uv": [ 6.0, 0.0, 12.0, 6.0 ], "rotation": 90, "autoUv": false },
+				"west": { "texture": "#cookedtofu", "uv": [ 0.0, 5.0, 2.0, 11.0 ], "autoUv": false },
+				"up": { "texture": "#cookedtofu", "uv": [ 0.0, 0.0, 6.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#cookedtofu", "uv": [ 0.0, 7.0, 6.0, 9.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube3",
+			"from": [ 5.0, 0.0, 8.5 ], 
+			"to": [ 8.0, 3.0, 9.5 ], 
+			"rotationOrigin": [ 6.5, 0.0, 8.5 ],
+			"rotationX": -20.0,
+			"rotationY": 15.0,
+			"faces": {
+				"north": { "texture": "#cookedtofu", "uv": [ 0.0, 6.0, 6.0, 12.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#cookedtofu", "uv": [ 4.0, 4.0, 6.0, 10.0 ], "autoUv": false },
+				"south": { "texture": "#cookedtofu", "uv": [ 0.0, 6.0, 6.0, 12.0 ], "autoUv": false },
+				"west": { "texture": "#cookedtofu", "uv": [ 0.0, 4.0, 2.0, 10.0 ], "autoUv": false },
+				"up": { "texture": "#cookedtofu", "uv": [ 5.0, 4.0, 11.0, 6.0 ], "autoUv": false },
+				"down": { "texture": "#cookedtofu", "uv": [ 2.0, 0.0, 8.0, 2.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube4",
+			"from": [ 8.25, 0.0, 8.5 ], 
+			"to": [ 11.25, 3.0, 9.5 ], 
+			"rotationOrigin": [ 9.5, 0.0, 8.5 ],
+			"rotationX": -20.0,
+			"rotationY": 15.0,
+			"faces": {
+				"north": { "texture": "#cookedtofu", "uv": [ 6.0, 0.0, 12.0, 6.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#cookedtofu", "uv": [ 0.0, 2.0, 2.0, 8.0 ], "autoUv": false },
+				"south": { "texture": "#cookedtofu", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#cookedtofu", "uv": [ 0.0, 1.0, 2.0, 7.0 ], "autoUv": false },
+				"up": { "texture": "#cookedtofu", "uv": [ 0.0, 4.0, 6.0, 6.0 ], "autoUv": false },
+				"down": { "texture": "#cookedtofu", "uv": [ 6.0, 0.0, 12.0, 2.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube5",
+			"from": [ 5.0, 0.0, 7.0 ], 
+			"to": [ 8.0, 3.0, 8.0 ], 
+			"rotationOrigin": [ 6.5, 0.0, 7.0 ],
+			"rotationX": -20.0,
+			"rotationY": 15.0,
+			"faces": {
+				"north": { "texture": "#cookedtofu", "uv": [ 6.0, 0.0, 12.0, 6.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#cookedtofu", "uv": [ 4.0, 1.0, 6.0, 7.0 ], "autoUv": false },
+				"south": { "texture": "#cookedtofu", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#cookedtofu", "uv": [ 4.0, 4.0, 6.0, 10.0 ], "autoUv": false },
+				"up": { "texture": "#cookedtofu", "uv": [ 0.0, 4.0, 6.0, 6.0 ], "autoUv": false },
+				"down": { "texture": "#cookedtofu", "uv": [ 0.0, 5.0, 6.0, 7.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube6",
+			"from": [ 8.25, 0.0, 7.0 ], 
+			"to": [ 11.25, 3.0, 8.0 ], 
+			"rotationOrigin": [ 9.5, 0.0, 7.0 ],
+			"rotationX": -20.0,
+			"rotationY": 15.0,
+			"faces": {
+				"north": { "texture": "#cookedtofu", "uv": [ 0.0, 6.0, 6.0, 12.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#cookedtofu", "uv": [ 0.0, 1.0, 2.0, 7.0 ], "autoUv": false },
+				"south": { "texture": "#cookedtofu", "uv": [ 6.0, 0.0, 12.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#cookedtofu", "uv": [ 4.0, 1.0, 6.0, 7.0 ], "autoUv": false },
+				"up": { "texture": "#cookedtofu", "uv": [ 3.0, 0.0, 9.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#cookedtofu", "uv": [ 0.0, 10.0, 6.0, 12.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube7",
+			"from": [ 5.0, 0.0, 5.5 ], 
+			"to": [ 8.0, 3.0, 6.5 ], 
+			"rotationOrigin": [ 6.5, 0.0, 5.5 ],
+			"rotationX": -20.0,
+			"rotationY": 15.0,
+			"faces": {
+				"north": { "texture": "#cookedtofu", "uv": [ 0.0, 6.0, 6.0, 12.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#cookedtofu", "uv": [ 4.0, 2.0, 6.0, 8.0 ], "autoUv": false },
+				"south": { "texture": "#cookedtofu", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#cookedtofu", "uv": [ 0.0, 2.0, 2.0, 8.0 ], "autoUv": false },
+				"up": { "texture": "#cookedtofu", "uv": [ 1.0, 0.0, 7.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#cookedtofu", "uv": [ 2.0, 0.0, 8.0, 2.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube8",
+			"from": [ 8.25, 0.0, 5.5 ], 
+			"to": [ 11.25, 3.0, 6.5 ], 
+			"rotationOrigin": [ 9.5, 0.0, 5.5 ],
+			"rotationX": -20.0,
+			"rotationY": 15.0,
+			"faces": {
+				"north": { "texture": "#cookedtofu", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#cookedtofu", "uv": [ 4.0, 6.0, 6.0, 12.0 ], "autoUv": false },
+				"south": { "texture": "#cookedtofu", "uv": [ 6.0, 0.0, 12.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#cookedtofu", "uv": [ 0.0, 5.0, 2.0, 11.0 ], "autoUv": false },
+				"up": { "texture": "#cookedtofu", "uv": [ 1.0, 4.0, 7.0, 6.0 ], "autoUv": false },
+				"down": { "texture": "#cookedtofu", "uv": [ 5.0, 0.0, 11.0, 2.0 ], "autoUv": false }
+			}
+		}
+	]}

@@ -1,0 +1,62 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraftherb:herb-*",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "game:recipes/cooking/meatystew.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraftherb:herb-*",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "game:recipes/cooking/meatystew.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraftherb:root-*",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "game:recipes/cooking/meatystew.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraftherb:root-*",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "game:recipes/cooking/meatystew.json",
+    "side": "server"
+  }
+]

@@ -1,0 +1,105 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"leadwood": "item/resource/seeds/leadwood"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 5.25, 0.0, 8.0 ], 
+			"to": [ 10.75, 5.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -36.5,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 5.5, 5.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 5.0 ], "enabled": false },
+				"south": { "texture": "#leadwood", "uv": [ 0.0, 1.0, 11.0, 11.0 ], "autoUv": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 5.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#leadwood", "uv": [ 0.0, 0.0, 5.0, 1.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube2",
+			"from": [ 5.25, 0.0, 8.0 ], 
+			"to": [ 10.75, 5.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 36.5,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 5.5, 5.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 5.0 ], "enabled": false },
+				"south": { "texture": "#leadwood", "uv": [ 0.0, 1.0, 11.0, 11.0 ], "autoUv": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 5.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 5.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#leadwood", "uv": [ 0.0, 0.0, 5.0, 1.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube3",
+			"from": [ 7.0, 2.0, 7.25 ], 
+			"to": [ 9.0, 4.0, 8.75 ], 
+			"rotationOrigin": [ 7.0, 2.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#leadwood", "uv": [ 11.0, 9.0, 15.0, 13.0 ], "autoUv": false },
+				"east": { "texture": "#leadwood", "uv": [ 12.0, 10.0, 15.0, 14.0 ], "autoUv": false },
+				"south": { "texture": "#leadwood", "uv": [ 12.0, 11.0, 16.0, 15.0 ], "autoUv": false },
+				"west": { "texture": "#leadwood", "uv": [ 11.0, 10.0, 14.0, 14.0 ], "autoUv": false },
+				"up": { "texture": "#leadwood", "uv": [ 11.0, 10.0, 15.0, 13.0 ], "autoUv": false },
+				"down": { "texture": "#leadwood", "uv": [ 12.0, 12.0, 16.0, 15.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Cube4",
+					"from": [ 0.25, 2.0, 0.25 ], 
+					"to": [ 1.75, 2.5, 1.25 ], 
+					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#leadwood", "uv": [ 12.0, 11.0, 15.0, 12.0 ], "autoUv": false },
+						"east": { "texture": "#leadwood", "uv": [ 12.0, 10.0, 14.0, 11.0 ], "autoUv": false },
+						"south": { "texture": "#leadwood", "uv": [ 11.0, 12.0, 14.0, 13.0 ], "autoUv": false },
+						"west": { "texture": "#leadwood", "uv": [ 12.0, 12.0, 14.0, 13.0 ], "autoUv": false },
+						"up": { "texture": "#leadwood", "uv": [ 12.0, 11.0, 15.0, 13.0 ], "autoUv": false },
+						"down": { "texture": "#leadwood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube5",
+					"from": [ 0.25, -1.0, 0.25 ], 
+					"to": [ 1.75, 0.0, 1.25 ], 
+					"rotationOrigin": [ 0.0, -1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#leadwood", "uv": [ 12.0, 9.0, 15.0, 11.0 ], "autoUv": false },
+						"east": { "texture": "#leadwood", "uv": [ 13.0, 10.0, 15.0, 12.0 ], "autoUv": false },
+						"south": { "texture": "#leadwood", "uv": [ 13.0, 12.0, 16.0, 14.0 ], "autoUv": false },
+						"west": { "texture": "#leadwood", "uv": [ 12.0, 12.0, 14.0, 14.0 ], "autoUv": false },
+						"up": { "texture": "#leadwood", "uv": [ 12.0, 11.0, 15.0, 13.0 ], "autoUv": false },
+						"down": { "texture": "#leadwood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "Cube6",
+			"from": [ 7.8, 4.5, 7.8 ], 
+			"to": [ 8.2, 6.5, 8.2 ], 
+			"rotationOrigin": [ 7.8, 4.5, 7.8 ],
+			"rotationX": 9.0,
+			"rotationY": 2.0,
+			"rotationZ": -12.0,
+			"faces": {
+				"north": { "texture": "#leadwood", "uv": [ 0.0, 4.0, 1.0, 8.0 ], "autoUv": false },
+				"east": { "texture": "#leadwood", "uv": [ 0.0, 4.0, 1.0, 8.0 ], "autoUv": false },
+				"south": { "texture": "#leadwood", "uv": [ 10.0, 4.0, 11.0, 8.0 ], "autoUv": false },
+				"west": { "texture": "#leadwood", "uv": [ 10.0, 4.0, 11.0, 8.0 ], "autoUv": false },
+				"up": { "texture": "#leadwood", "uv": [ 5.0, 1.0, 6.0, 2.0 ] },
+				"down": { "texture": "#leadwood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+			}
+		}
+	]}

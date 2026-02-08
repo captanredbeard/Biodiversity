@@ -1,0 +1,615 @@
+{
+  "code": "nutbar",
+  "maxstacksize": 32,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	variantgroups: [
+		{ code: "type", states: ["sunflowerbar", "peanutbar", "soyabar", "pumpkinbar", "hazelbar", "bearnutbar", "walnutbar", "almondbar", "apricotbar", "cherrybar", "chestnutbar", "acornbar", "pistachiobar", "cashewbar", "pinenutbar", "dwarfpinebar", "beachalmondbar", "macadamiabar", "flaxbar", "hackberrybar", "ginkgobar", "bladdernutbar", "saltbushbar", "bunyabar"] },
+	],
+  "materialDensityByType": {
+    "*": 600
+  },
+  "attributesByType": {
+		"*-chestnutbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-chestnut" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-ginkgobar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-ginkgoseed" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-soyabar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "game:block/food/pie/fill-soybean" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-peanutbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "game:block/food/pie/fill-peanut" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-almondbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-almond" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-apricotbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-apricotpit" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-hackberrybar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-hackberrypit" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-pinenutbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-pinenut" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-dwarfpinebar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-dwarfpinenut" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-cherrybar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-cherrypit" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-cedarbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-cedarnut" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-sunflowerbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "game:block/food/grain/sunflower" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-flaxbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "game:block/food/grain/flax" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-hazelbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-hazelnut" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-bearnutbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-bearnut" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-acornbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-acornleached" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-pistachiobar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-pistachionut" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-pumpkinbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-pumpkinseed" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-cashewbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-cashewnut" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-bunyabar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-bunya" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-beachalmondbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-beachalmond" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-saltbushbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-oldmansaltbush" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-macadamiabar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-macadamiashelled" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-bladdernutbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-bladdernut" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		},
+		"*-walnutbar": {
+                	handbook: {
+                   	"groupBy": ["nutbar-*"]
+                	},
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-walnutshelled" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 0.84
+	                },
+		groundStorageTransform: {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.76
+		}
+		}
+	},
+	"shape": { base: "wildcraftfruit:item/fruit/nutbar" },
+	"textureByType": {
+		"*": { base: "wildcraftfruit:items/fruit/{type}" },
+	},
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "wildcraftfruit": [ "*" ]
+  },
+  "nutritionPropsByType": {
+      "@*-(almondbar|peanutbar|bunyabar|soyabar)": { 
+      "satiety": 440,
+      "foodcategory": "Protein" 
+    },
+      "@*-(cashewbar|macadamiabar)": { 
+      "satiety": 440,
+      "foodcategory": "Grain" 
+    },
+      "@*-(pinenutbar|walnutbar)": { 
+      "satiety": 420,
+      "foodcategory": "Protein" 
+    },
+      "*-acornbar": { 
+      "satiety": 400,
+      "foodcategory": "Grain" 
+    },
+      "@*-(hazelbar|apricotbar|beachalmondbar|cedarbar)": { 
+      "satiety": 400,
+      "foodcategory": "Protein" 
+    },
+      "*-chestnutbar": { 
+      "satiety": 400,
+      "foodcategory": "Vegetable" 
+    },
+      "*-ginkgobar": { 
+      "satiety": 420,
+      "foodcategory": "Vegetable" 
+    },
+      "@*-(pistachiobar|bearnutbar|bladdernutbar)": { 
+      "satiety": 380,
+      "foodcategory": "Protein" 
+    },
+      "@*-(pumpkinbar|sunflowerbar)": { 
+      "satiety": 360,
+      "foodcategory": "Grain" 
+    },
+      "@*-(saltbushbar|flaxbar)": { 
+      "satiety": 340,
+      "foodcategory": "Grain" 
+    },
+      "@*-(dwarfpinebar|hackberrybar)": { 
+      "satiety": 360,
+      "foodcategory": "Protein" 
+    },
+      "*-cherrybar": { 
+      "satiety": 340,
+      "health": 2,
+      "foodcategory": "Fruit" 
+    }
+  },
+  "transitionablePropsByType": {
+		"@*-(chestnutbar|ginkgobar|bladdernutbar)": [{
+			type: "Perish",
+			freshHours: { avg: 2160 },
+			transitionHours: { avg: 144 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}],
+		"@*-(almondbar|peanutbar|pinenutbar|hazelbar|macadamiabar|pistachiobar|cashewbar|acornbar|sunflowerbar|pumpkinbar|apricotbar|cherrybar|bunyabar|saltbushbar|beachalmondbar|hackberrybar|dwarfpinebar|cedarbar|walnutbar|bearnutbar|flaxbar)": [{
+			type: "Perish",
+			freshHours: { avg: 3840 },
+			transitionHours: { avg: 144 },
+			transitionedStack: { "type": "item", "code": "game:rot" },
+			transitionRatio: 0.5
+		}],
+		"*-soyabar": [{
+			type: "Perish",
+			freshHours: { avg: 960 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { "type": "item", "code": "game:rot" },
+			transitionRatio: 1
+		}]
+  },
+  "guiTransform": {
+		"rotation": { "x": -31, "y": -38, "z": 180 },
+		"origin": { "x": 0.8, "y": -0.24, "z": 0.11 },
+		"scale": 3.68
+	},
+	tpHandTransform: {
+		"translation": { "x": 0.3, "y": 0.3, "z": -0.85 },
+		"rotation": { "x": -78, "y": -112, "z": -38 },
+		"origin": { "x": -0.7, "y": 0.25, "z": 0.1 },
+		"scale": 0.62
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 3.21
+	}
+}

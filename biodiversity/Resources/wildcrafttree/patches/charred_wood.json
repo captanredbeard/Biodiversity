@@ -1,0 +1,190 @@
+[
+    {
+        "op": "replace",
+        "path": "/combustiblePropsByType",
+        "value": {
+		"log-*-birch-*": {
+			burnTemperature: 800,
+			burnDuration: 78,
+		},
+		"log-*-oak-*": {
+			burnTemperature: 800,
+			burnDuration: 98,
+		},
+		"log-*-ebony-*": {
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"log-*-pine-*": {
+			meltingPoint: 100,
+			meltingDuration: 80,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:log-placed-charred-ud" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 60,
+		},
+		"log-*-acacia-*": {
+			burnTemperature: 800,
+			burnDuration: 89,
+		},
+		"log-*-kapok-*": {
+			burnTemperature: 800,
+			burnDuration: 47,
+		},
+		"log-*-maple-*": {
+			burnTemperature: 800,
+			burnDuration: 79,
+		},
+		"log-*-redwood-*": {
+			burnTemperature: 800,
+			burnDuration: 72,
+		},
+		"log-*-aged-*": {
+			burnTemperature: 700,
+			burnDuration: 40,
+		},
+		"log-*-baldcypress-*": {
+			meltingPoint: 100,
+			meltingDuration: 80,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:log-placed-charred-ud" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 72,
+		},
+		"*": {
+			burnTemperature: 800,
+			burnDuration: 72,
+		}
+        },
+        "file": "game:blocktypes/wood/woodtyped/log"
+    },
+    {
+        "op": "replace",
+        "path": "/combustiblePropsByType",
+        "value": {
+		"debarkedlog-birch-*": {
+			burnTemperature: 800,
+			burnDuration: 78,
+		},
+		"debarkedlog-oak-*": {
+			burnTemperature: 800,
+			burnDuration: 98,
+		},
+		"debarkedlog-ebony-*": {
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"debarkedlog-pine-*": {
+			meltingPoint: 100,
+			meltingDuration: 80,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:debarkedlog-charred-ud" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 60,
+		},
+		"debarkedlog-acacia-*": {
+			burnTemperature: 800,
+			burnDuration: 89,
+		},
+		"debarkedlog-kapok-*": {
+			burnTemperature: 800,
+			burnDuration: 47,
+		},
+		"debarkedlog-maple-*": {
+			burnTemperature: 800,
+			burnDuration: 79,
+		},
+		"debarkedlog-redwood-*": {
+			burnTemperature: 800,
+			burnDuration: 72,
+		},
+		"debarkedlog-aged-*": {
+			burnTemperature: 700,
+			burnDuration: 40,
+		},
+		"debarkedlog-baldcypress-*": {
+			meltingPoint: 100,
+			meltingDuration: 80,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:debarkedlog-charred-ud" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 72,
+		},
+		"*": {
+			burnTemperature: 800,
+			burnDuration: 72,
+		},
+        },
+        "file": "game:blocktypes/wood/woodtyped/log-debarked"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType",
+        "value": {
+		"plank-pine": {
+			meltingPoint: 100,
+			meltingDuration: 40,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "item", code: "wildcrafttree:plank-charred" },
+			requiresContainer: false,
+
+			burnTemperature: 700,
+			burnDuration: 6,
+		},
+		"plank-baldcypress": {
+			meltingPoint: 100,
+			meltingDuration: 40,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "item", code: "wildcrafttree:plank-charred" },
+			requiresContainer: false,
+
+			burnTemperature: 700,
+			burnDuration: 6,
+		},
+        },
+        "file": "game:itemtypes/resource/plank"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType",
+        "value": {
+		"*-pine": {
+			meltingPoint: 100,
+			meltingDuration: 50,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:supportbeam-charred" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 20,
+		},
+		"*-baldcypress": {
+			meltingPoint: 100,
+			meltingDuration: 50,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:supportbeam-charred" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 20,
+		},
+        },
+        "file": "game:blocktypes/wood/woodtyped/suppportbeam"
+    }
+]

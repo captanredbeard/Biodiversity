@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "W__	_P_	__W",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*" },
+		"P": { type: "block", code: "game:plaster-plain" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:plaster-diagonal-ud"  }
+}

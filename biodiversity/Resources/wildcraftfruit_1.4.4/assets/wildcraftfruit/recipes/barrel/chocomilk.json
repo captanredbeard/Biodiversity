@@ -1,0 +1,46 @@
+[
+    {
+	code: "chocomilk",
+	ingredients: [
+           { "type": "item", "code": "wildcraftfruit:chocolate-cocoapowder", "quantity": 1 },
+           { "type": "item", "code": "game:milkportion",  "litres": 2.5 }
+	],
+	output: { type: "item", code: "wildcraftfruit:chocomilkportion", litres: 2.5 }
+    },
+    {
+	code: "nutmilk",
+	"sealHours": 2,
+	ingredients: [
+           { "type": "item", "code": "wildcraftfruit:groundnut-*", name: "nut", quantity: 1, allowedVariants: [ "macadamia", "peanut", "hackberry", "walnut", "beachalmond", "cashew", "pistachio" ] },
+           { "type": "item", "code": "game:waterportion",  "litres": 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:nutmilkportion-{nut}", litres: 1.2 }
+    },
+    {
+	code: "nutmilk",
+	"sealHours": 2,
+	ingredients: [
+           { "type": "item", "code": "wildcraftfruit:groundnut-*", name: "nut", quantity: 1, allowedVariants: [ "pinenut", "dwarfpinenut", "bunya" ] },
+           { "type": "item", "code": "game:waterportion",  "litres": 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:nutmilkportion-pinenut", litres: 1.2 }
+    },
+    {
+	code: "nutmilk",
+	"sealHours": 2,
+	ingredients: [
+           { "type": "item", "code": "wildcraftfruit:groundnut-*", name: "nut", quantity: 1, allowedVariants: [ "almond", "apricotpit" ] },
+           { "type": "item", "code": "game:waterportion",  "litres": 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:nutmilkportion-almond", litres: 1.2 }
+    },
+    {
+	code: "nutmilk",
+	"sealHours": 2,
+	ingredients: [
+           { "type": "item", "code": "wildcraftfruit:groundnut-*", name: "nut", quantity: 1, allowedVariants: [ "hazelnut", "bearnut" ] },
+           { "type": "item", "code": "game:waterportion",  "litres": 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:nutmilkportion-hazelnut", litres: 1.2 }
+    }
+]

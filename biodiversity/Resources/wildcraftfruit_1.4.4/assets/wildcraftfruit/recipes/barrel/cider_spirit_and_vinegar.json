@@ -1,0 +1,294 @@
+[
+	{
+		code: "mashcider",
+		sealHours: 168,
+		ingredients: [
+			{ type: "item", code: "game:juiceportion-*", name: "fruit", litres: 5 },
+			{ type: "item", code: "game:pressedmash-*", name: "fruit", "quantity": 1 }
+		],
+		output: { type: "item", code: "game:ciderportion-{fruit}", litres: 5 }
+	},
+	{
+		code: "newmead",
+		sealHours: 168,
+		ingredients: [
+			{ "type": "item", "code": "game:honeycomb", "quantity": 1 },
+			{ type: "item", code: "wildcraftfruit:sweetwaterportion", litres: 1 }
+		],
+		output: { type: "item", code: "game:ciderportion-mead", litres: 1 }
+	},
+	{
+		code: "newale",
+		sealHours: 336,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "game:flour-spelt", quantity: 1 }
+		],
+		output: { type: "item", code: "game:ciderportion-spelt", litres: 0.8 }
+	},
+	{
+		code: "newale",
+		sealHours: 336,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "game:flour-rice", quantity: 1 }
+		],
+		output: { type: "item", code: "game:ciderportion-rice", litres: 0.8 }
+	},
+	{
+		code: "newale",
+		sealHours: 336,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "game:flour-rye", quantity: 1 }
+		],
+		output: { type: "item", code: "game:ciderportion-rye", litres: 0.8 }
+	},
+	{
+		code: "newale",
+		sealHours: 336,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "game:flour-amaranth", quantity: 1 }
+		],
+		output: { type: "item", code: "game:ciderportion-amaranth", litres: 0.8 }
+	},
+	{
+		code: "newale",
+		sealHours: 336,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "game:flour-cassava", quantity: 1 }
+		],
+		output: { type: "item", code: "game:ciderportion-cassava", litres: 0.8 }
+	},
+    {
+        "code": "mashcider",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:juiceportion-*", "name": "fruit", allowedVariants: ["juniper", "illawarra", "creepingpine", "pandanbits", "maritabits", "crowseye", "kakaha", "flaxlily", "avocado", "engkala", "kawakawa", "gooseberry", "blackgrape", "redgrape", "whitegrape", "foxgrape", "virgingrape", "gardenstrawberry", "strawberry", "falsestrawberry", "raspberry", "blueraspberry", "brambleberry", "cloudberry", "knyazberry", "bushlawyer", "dogrose", "hawthorn", "rowanberry", "quince", "loquat", "apricot", "purpleplum", "cherryplum", "sallowthorn", "jujube", "fig", "falseorange", "silvernettle", "cucumber", "muskmelon", "mirzamelon", "kolkhoznitsa", "watermelon", "bryony", "passionfruit", "achacha", "spindle", "ugni", "midyimberry", "munthari", "guajava", "feijoa", "roseapple", "lillypillypink", "pittedbeachalmond", "bluetongue", "turkscap", "cocoa", "wolfberry", "caperberry", "citron", "pomelo", "fingerlime", "kumquat", "lemonaspen", "cashewapple", "redquandong", "rubysaltbush", "pokeberry", "bunchberry", "cheeseberry", "pineheath", "pricklyheath", "honeypots", "crowberry", "lingonberry", "huckleberry", "kiwi", "honeysuckle", "snowberry", "blackelder", "elderberry", "ivy", "blacknightshade", "blacknightshadeunripe", "bitternightshade", "naranjilla", "husktomato", "beautyberry", "numnum", "seamango", "coralbead", "pilo", "mingimingi", "fractureberry", "hairyappleberry", "purpleappleberry", "crabapple", "sandpear", "sloe", "greengage", "jackfruit", "rambutan", "grapefruit", "lime", "wani", "dewberry", "aronia", "kolomikta", "granadilla", "climbinghoneysuckle", "honeydewmelon", "baneberry", "belladonna", "bearberry", "orangebellpepper", "jalapeno", "tomato", "tomatillo", "falsetomato", "woodbine", "pumpkin", "carrot"], "litres": 5 },
+            { "type": "item", "code": "wildcraftfruit:pressedmash-*", "name": "fruit", allowedVariants: ["juniper", "illawarra", "creepingpine", "pandanbits", "maritabits", "crowseye", "kakaha", "flaxlily", "avocado", "engkala", "kawakawa", "gooseberry", "blackgrape", "redgrape", "whitegrape", "foxgrape", "virgingrape", "gardenstrawberry", "strawberry", "falsestrawberry", "raspberry", "blueraspberry", "brambleberry", "cloudberry", "knyazberry", "bushlawyer", "dogrose", "hawthorn", "rowanberry", "quince", "loquat", "apricot", "purpleplum", "cherryplum", "sallowthorn", "jujube", "fig", "falseorange", "silvernettle", "cucumber", "muskmelon", "mirzamelon", "kolkhoznitsa", "watermelon", "bryony", "passionfruit", "achacha", "spindle", "ugni", "midyimberry", "munthari", "guajava", "feijoa", "roseapple", "lillypillypink", "pittedbeachalmond", "bluetongue", "turkscap", "cocoa", "wolfberry", "caperberry", "citron", "pomelo", "fingerlime", "kumquat", "lemonaspen", "cashewapple", "redquandong", "rubysaltbush", "pokeberry", "bunchberry", "cheeseberry", "pineheath", "pricklyheath", "honeypots", "crowberry", "lingonberry", "huckleberry", "kiwi", "honeysuckle", "snowberry", "blackelder", "elderberry", "ivy", "blacknightshade", "blacknightshadeunripe", "bitternightshade", "naranjilla", "husktomato", "beautyberry", "numnum", "seamango", "coralbead", "pilo", "mingimingi", "fractureberry", "hairyappleberry", "purpleappleberry", "crabapple", "sandpear", "sloe", "greengage", "jackfruit", "rambutan", "grapefruit", "lime", "wani", "dewberry", "aronia", "kolomikta", "granadilla", "climbinghoneysuckle", "honeydewmelon", "baneberry", "belladonna", "bearberry", "orangebellpepper", "jalapeno", "tomato", "tomatillo", "falsetomato", "woodbine", "pumpkin", "carrot"], "quantity": 1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:ciderportion-{fruit}", "litres": 5 }
+    },
+    {
+        "code": "mashcider",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:juiceportion-*", "name": "fruit", allowedVariants: ["rawginkgo", "ginkgopulp" ], "litres": 5 },
+            { "type": "item", "code": "wildcraftfruit:pressedmash-rawginkgo", "quantity": 1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:ciderportion-ginkgopulp", "litres": 5 }
+    },
+    {
+        "code": "mashcider",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:juiceportion-pittedchinaberry", "name": "fruit", "litres": 5 },
+            { "type": "item", "code": "wildcraftfruit:pressedmash-*", "name": "fruit", allowedVariants: ["chinaberry", "pittedchinaberry" ], "quantity": 1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:ciderportion-pittedchinaberry", "litres": 5 }
+    },
+    {
+        "code": "mashcider",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:juiceportion-pittedyew", "name": "fruit", "litres": 5 },
+            { "type": "item", "code": "wildcraftfruit:pressedmash-*", "name": "fruit", allowedVariants: ["yew", "pittedyew" ], "quantity": 1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:ciderportion-pittedyew", "litres": 5 }
+    },
+    {
+        "code": "junipercider",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:juiceportion-juniper", "name": "fruit", "litres": 0.1 },
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:ciderportion-juniper", "litres": 0.1 }
+    },
+    {
+        "code": "hackberrycider",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:juiceportion-hackberry", "name": "fruit", "litres": 0.1 },
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:ciderportion-hackberry", "litres": 0.1 }
+    },
+    {
+        "code": "bluequandongcider",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:juiceportion-bluequandong", "name": "fruit", "litres": 0.1 },
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:ciderportion-bluequandong", "litres": 0.1 }
+    },
+    {
+        "code": "sumaccider",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:juiceportion-sumac", "name": "fruit", "litres": 0.1 },
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:ciderportion-sumac", "litres": 0.1 }
+    },
+    {
+	code: "juniperwater",
+        sealHours: 6,
+	ingredients: [
+           { "type": "item", "code": "wildcraftfruit:dryfruit-juniper", "quantity": 5 },
+           { "type": "item", "code": "wildcraftfruit:sweetwaterportion",  "litres": 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:juiceportion-juniper", litres: 1 }
+    },
+    {
+	code: "bluequandongwater",
+        sealHours: 6,
+	ingredients: [
+           { "type": "item", "code": "wildcraftfruit:dryfruit-bluequandong", "quantity": 5 },
+           { "type": "item", "code": "wildcraftfruit:sweetwaterportion",  "litres": 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:juiceportion-bluequandong", litres: 1 }
+    },
+    {
+	code: "sumacwater",
+        sealHours: 6,
+	ingredients: [
+           { "type": "item", "code": "wildcraftfruit:dryfruit-sumac", "quantity": 5 },
+           { "type": "item", "code": "wildcraftfruit:sweetwaterportion",  "litres": 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:juiceportion-sumac", litres: 1 }
+    },
+    {
+	code: "hackberrywater",
+        sealHours: 6,
+	ingredients: [
+           { "type": "item", "code": "wildcraftfruit:dryfruit-*", name: "berry", allowedVariants: ["commonhackberry", "sugarhackberry", "deserthackberry"], "quantity": 5 },
+           { "type": "item", "code": "game:waterportion",  "litres": 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:juiceportion-hackberry", litres: 1 }
+    },
+    {
+        "code": "pomacewine",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:pressedmash-*", name: "mash", allowedVariants: ["whitegrape", "redgrape", "blackgrape", "foxgrape"], "quantity": 1 },
+            { "type": "item", "code": "game:waterportion",  "litres": 0.5 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:ciderportion-pomace", "litres": 0.5 }
+    },
+    {
+        "code": "finespirit",
+        "sealHours": 2880,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:spiritportion-whitegrape", "litres": 0.1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:finespiritportion-armagnac", "litres": 0.09 }
+    },
+    {
+        "code": "finespirit",
+        "sealHours": 2880,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:spiritportion-redgrape", "litres": 0.1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:finespiritportion-cognac", "litres": 0.09 }
+    },
+    {
+        "code": "finespirit",
+        "sealHours": 2880,
+        "ingredients": [
+            { "type": "item", "code": "game:spiritportion-cherry", "litres": 0.1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:finespiritportion-guignolet", "litres": 0.09 }
+    },
+    {
+        "code": "finespirit",
+        "sealHours": 2880,
+        "ingredients": [
+            { "type": "item", "code": "game:spiritportion-orange", "litres": 0.1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:finespiritportion-cointreau", "litres": 0.09 }
+    },
+    {
+        "code": "finespirit",
+        "sealHours": 2880,
+        "ingredients": [
+            { "type": "item", "code": "game:spiritportion-apple", "litres": 0.1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:finespiritportion-calvados", "litres": 0.09 }
+    },
+    {
+        "code": "finespirit",
+        "sealHours": 2880,
+        "ingredients": [
+            { "type": "item", "code": "game:spiritportion-pear", "litres": 0.1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:finespiritportion-calvados", "litres": 0.09 }
+    },
+    {
+        "code": "finespirit",
+        "sealHours": 2880,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:spiritportion-*", name: "spirit", allowedVariants: ["whitegrape", "redgrape", "blackgrape", "foxgrape"], "litres": 0.2 },
+            { "type": "item", "code": "wildcraftfruit:groundnut-*", name: "nut", allowedVariants: ["almond", "apricotpit"], "quantity": 1 },
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:finespiritportion-amaretto", "litres": 0.18 }
+    },
+    {
+        "code": "finespirit",
+        "sealHours": 2880,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:spiritportion-*", name: "spirit", allowedVariants: ["whitegrape", "redgrape", "blackgrape", "foxgrape"], "litres": 0.2 },
+            { "type": "item", "code": "wildcraftfruit:dryfruit-walnut", "quantity": 1 },
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:finespiritportion-nocino", "litres": 0.18 }
+    },
+    {
+        "code": "flowerwine",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:flower-*",  "name": "flower", "allowedVariants": ["rose", "hibiscus", "elder", "currant", "honeysuckle"], "quantity": 5 },
+            { "type": "item", "code": "wildcraftfruit:sweetwaterportion",  "litres": 1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:flowerwine-{flower}", "litres": 0.8 }
+    },
+    {
+        "code": "flowerwine",
+        "sealHours": 168,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:flower-passionflower", "quantity": 4 },
+            { "type": "item", "code": "wildcraftfruit:sweetwaterportion",  "litres": 1 }
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:flowerwine-passionflower", "litres": 0.8 }
+    },
+    {
+        "code": "finewine",
+        "sealHours": 2160,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:ciderportion-*", name: "fruit", allowedVariants: ["juniper", "illawarra", "creepingpine", "pandanbits", "maritabits", "crowseye", "kakaha", "flaxlily", "avocado", "engkala", "kawakawa", "gooseberry", "blackgrape", "redgrape", "whitegrape", "foxgrape", "virgingrape", "gardenstrawberry", "strawberry", "falsestrawberry", "raspberry", "blueraspberry", "brambleberry", "cloudberry", "knyazberry", "bushlawyer", "dogrose", "hawthorn", "rowanberry", "quince", "loquat", "apricot", "purpleplum", "cherryplum", "sallowthorn", "jujube", "fig", "falseorange", "silvernettle", "cucumber", "muskmelon", "mirzamelon", "kolkhoznitsa", "watermelon", "bryony", "passionfruit", "achacha", "spindle", "ugni", "midyimberry", "munthari", "guajava", "feijoa", "roseapple", "lillypillypink", "pittedbeachalmond", "bluetongue", "turkscap", "cocoa", "wolfberry", "caperberry", "citron", "pomelo", "fingerlime", "kumquat", "lemonaspen", "sumac", "cashewapple", "redquandong", "rubysaltbush", "pokeberry", "bunchberry", "cheeseberry", "pineheath", "pricklyheath", "honeypots", "crowberry", "lingonberry", "huckleberry", "kiwi", "honeysuckle", "snowberry", "blackelder", "elderberry", "ivy", "blacknightshade", "bitternightshade", "naranjilla", "husktomato", "beautyberry", "numnum", "seamango", "coralbead", "pilo", "mingimingi", "fractureberry", "hairyappleberry", "purpleappleberry", "crabapple", "sandpear", "sloe", "greengage", "jackfruit", "rambutan", "grapefruit", "lime", "wani", "dewberry", "aronia", "kolomikta", "granadilla", "climbinghoneysuckle", "pittedyew", "pittedchinaberry", "pomace", "honeydewmelon", "baneberry", "belladonna", "bearberry", "hackberry", "bluequandong", "orangebellpepper", "jalapeno", "tomato", "tomatillo", "falsetomato", "woodbine", "pumpkin", "carrot", "ginkgopulp"], "litres": 0.1 },
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:fineciderportion-{fruit}", "litres": 0.09 }
+    },
+    {
+        "code": "finewine",
+        "sealHours": 2160,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:ciderportion-blacknightshadeunripe", "litres": 0.1 },
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:fineciderportion-blacknightshade", "litres": 0.09 }
+    },
+    {
+        "code": "finewine",
+        "sealHours": 2160,
+        "ingredients": [
+            { "type": "item", "code": "game:ciderportion-*", name: "fruit", allowedVariants: ["blueberry", "cranberry", "redcurrant", "blackcurrant", "whitecurrant", "saguaro", "pineapple", "apple", "cherry", "peach", "pear", "orange", "mango", "breadfruit", "lychee", "pomegranate", "mead", "spelt", "rice", "rye", "amaranth", "cassava" ], "litres": 0.1 },
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:fineciderportion-{fruit}", "litres": 0.09 }
+    },
+    {
+        "code": "finewine",
+        "sealHours": 2160,
+        "ingredients": [
+            { "type": "item", "code": "wildcraftfruit:flowerwine-*", name: "flower", allowedVariants: ["rose", "hibiscus", "elder", "honeysuckle", "currant", "passionflower"], "litres": 0.1 },
+        ],
+        "output": { "type": "item", "code": "wildcraftfruit:fineflowerwine-{flower}", "litres": 0.09 }
+    }
+]

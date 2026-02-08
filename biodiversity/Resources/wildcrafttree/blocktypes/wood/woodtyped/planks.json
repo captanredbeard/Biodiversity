@@ -1,0 +1,50 @@
+{
+	code: "planks",
+	behaviors: [
+		{name: "Pillar"}, 
+		{ name: "WrenchOrientable", properties: { baseCode: "wildcrafttree:planks-{wood}"  } }
+	],
+	variantgroups: [
+		{ code: "wood", loadFromProperties: "wildcrafttree:block/wood" },
+		{ code: "orientation", states: ["ns", "we", "ud"] }
+	],
+	creativeinventory: { "general": ["*-ud"], "construction": ["*-ud"], "wildcrafttree": ["*-ud"] },
+	shape: { base: "game:block/basic/cube" },
+	blockmaterial: "Wood",
+	drawtype: "cube",
+	texturesByType: {
+		"*-ud": {
+			all: { base: "wildcrafttree:block/wood/planks/{wood}*", rotation: 90  }
+		},
+		"*-we": {
+			all: { base: "wildcrafttree:block/wood/planks/{wood}*", rotation: 0  }
+		},
+		"*-ns": {
+			all: { base: "wildcrafttree:block/wood/planks/{wood}*" },
+			verticals: { base: "wildcrafttree:block/wood/planks/{wood}*", rotation: 90 }
+		},
+	},
+	resistance: 3.5,
+	sounds: {
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	combustiblePropsByType: {
+                "*-petrified-*": null,
+		"*": {
+			burnTemperature: 600,
+			burnDuration: 20,
+		}
+	},
+	maxStackSize: 32,
+	materialDensity: 600,
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	},
+	drops: [{ type: "block", code: "wildcrafttree:planks-{wood}-ud"}]
+}

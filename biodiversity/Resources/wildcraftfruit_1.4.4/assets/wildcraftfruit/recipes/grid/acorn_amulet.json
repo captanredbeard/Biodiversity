@@ -1,0 +1,42 @@
+[
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcraftfruit:nut-acorn" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:clothes-neck-acorn-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcraftfruit:nut-bitteracorn" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:clothes-neck-acorn-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcraftfruit:nut-burracorn" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:clothes-neck-acorn-amulet"  }
+	},
+	{
+		ingredientPattern: "R,S",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "wildcraftfruit:dryfruit-walnut" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:clothes-neck-walnut-amulet"  }
+	}
+]

@@ -1,0 +1,110 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"tule2": "wildcraft:block/plant/leafygroundvegetable/stem/tule2",
+		"tule_tufts": "wildcraft:block/plant/leafygroundvegetable/stem/tule_tufts"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ -4.0, 0.0, 8.0 ], 
+			"to": [ 20.0, 56.0, 8.0 ], 
+			"seasonColorMap": "seasonalGrass",
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#tule2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0], "windData": [0,3,3,0] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 56.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#tule2", "uv": [ 0.0, 0.0, 24.0, 0.1667 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 24.0, 56.0, 0.0 ], 
+					"seasonColorMap": "seasonalGrass",
+					"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+					"rotationY": 67.5,
+					"faces": {
+						"north": { "texture": "#tule2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0], "windData": [0,3,3,0] },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 56.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#tule2", "uv": [ 0.0, 0.0, 24.0, 0.1667 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube3",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 24.0, 56.0, 0.0 ], 
+					"seasonColorMap": "seasonalGrass",
+					"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#tule2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0], "windData": [0,3,3,0] },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 56.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#tule2", "uv": [ 0.0, 0.0, 24.0, 0.1667 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "Stem",
+			"from": [ -4.0, 0.0, 8.0 ], 
+			"to": [ 20.0, 56.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#tule_tufts", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0], "windData": [0,3,3,0] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 56.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 0.5 ], "enabled": false },
+				"down": { "texture": "#tule2", "uv": [ 0.0, 0.0, 24.0, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Stem2",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 24.0, 56.0, 0.0 ], 
+					"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+					"rotationY": 67.5,
+					"faces": {
+						"north": { "texture": "#tule2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0], "windData": [0,3,3,0] },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 56.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#tule2", "uv": [ 0.0, 0.0, 24.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Stem3",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 24.0, 56.0, 0.0 ], 
+					"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#tule2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0], "windData": [0,3,3,0] },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 56.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 56.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 24.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#tule2", "uv": [ 0.0, 0.0, 24.0, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

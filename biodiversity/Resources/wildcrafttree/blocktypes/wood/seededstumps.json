@@ -1,0 +1,131 @@
+{
+	"code": "seededstump",
+	"class": "BlockPlant",
+	"entityClass": "Transient",
+	"attributes": {
+		"transientProps": {
+				convertFrom: "wildcrafttree:seededstump-{wood}", 
+				convertTo: "wildcrafttree:stump-chlorociboria", 
+				inGameHours: "600"
+		},
+        	"handbook": {
+            	    "groupBy": ["seededstump-*"]
+        	},
+	},
+        "creativeinventory": { "general": ["*"], "flora": ["*"], "wildcrafttree": ["*"] },
+        "variantgroups": [{ "code": "wood", "states": [ "willow", "birch", "acacia", "honeylocust", "poplar", "catalpa", "kapok", "linden", "sal", "sapele", "ash", "empresstree", "mangrove" ] }],
+	"renderpass": "OpaqueNoCull",
+        "shapeByType": {
+            "*": { "base": "wildcrafttree:block/wood/stump",
+                    "alternates": [
+                               { base: "wildcrafttree:block/wood/stump", "rotateY": 90 },
+			       { base: "wildcrafttree:block/wood/stump", "rotateY": 180 },
+			       { base: "wildcrafttree:block/wood/stump", "rotateY": 270 }
+		]
+            }
+            },
+        "texturesByType": {
+        "*-acacia": {
+        "banyan_bark": { "base": "game:block/wood/bark/acacia", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/acacia" } },
+        "*-birch": {
+        "banyan_bark": { "base": "game:block/wood/bark/birch", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/birch" } },
+        "*-kapok": {
+        "banyan_bark": { "base": "game:block/wood/bark/kapok", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/kapok" } },
+
+        "*-catalpa": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/catalpa", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/catalpa" } },
+        "*-empresstree": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/empresstree", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/empresstree" } },
+        "*-honeylocust": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/honeylocust", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/honeylocust" } },
+        "*-poplar": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/poplar", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/poplar" } },
+        "*-willow": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/willow", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/willow" } },
+        "*-sal": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/sal", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/sal" } },
+        "*-linden": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/linden", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/linden" } },
+        "*-sapele": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/sapele", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/sapele" } },
+        "*-ash": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/ash", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/ash" } },
+        "*-mangrove": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/mangrove", overlays: ["game:block/wood/bark/holes1"] },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/mangrove" } }
+        },
+	"blockmaterial": "Wood",
+	"requiredMiningTier": 1,
+        "combustiblePropsByType": {
+	"*-birch": {
+	     "burnTemperature": 800,
+	     "burnDuration": 78
+	},
+	"@*-(catalpa|sal)": {
+	     "burnTemperature": 800,
+	     "burnDuration": 54
+	},
+	"*-acacia": {
+	     "burnTemperature": 800,
+	     "burnDuration": 89
+	},
+	"*-kapok": {
+	     "burnTemperature": 800,
+	     "burnDuration": 47
+	},
+	"*-poplar": {
+	     "burnTemperature": 800,
+	     "burnDuration": 79
+	},
+	"*-willow": {
+	     "burnTemperature": 800,
+	     "burnDuration": 70
+	},
+	"@*-(empresstree|honeylocust)": {
+	     "burnTemperature": 700,
+	     "burnDuration": 92
+	},
+	"*": {
+	     "burnTemperature": 800,
+	     "burnDuration": 72
+	}
+        },
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+        "replaceable": 500,
+        "resistance": 4.5,
+        "maxStackSize": 16,
+	"materialDensity": 700,
+        "drops": [{ "type": "block", "code": "wildcrafttree:seededstump-{wood}", "quantity": { "avg": 1 } }],
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldRightReadyAnimation": "heldblockready", "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+        "rotation": { "x": -2, "y": 25, "z": -78 },
+        "scale": 0.4
+    },
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": { "hit": "game:block/chop", "break": "game:block/planks" }
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+	code: "dryvegetable",
+	maxstacksize: 64,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+  "attributes": {
+    "inContainerTextureByType": {
+	   "*-eggplant": { "base": "wildcraftfruit:block/food/pie/fill-eggplant" },
+    },
+			groundStorageTransform: {
+				translation: { x: -0.3, y: -0.45, z: 0.2 },
+				rotation: { x: 0, y: 33, z: 90 },
+				scale: 0.6
+			},
+    "nutritionPropsWhenInMealByType": {
+    "*-eggplant": { 
+      "satiety": 140, 
+      "foodcategory": "Vegetable" 
+    }
+    },
+    "inPiePropertiesByType": {
+      "*-eggplant": { texture: "wildcraftfruit:block/food/pie/fill-eggplant", partType: "Filling" },
+    },
+  },
+	variantgroups: [
+		{ code: "type", states: ["eggplant"] },
+	],
+	shapebytype: {
+		"*-eggplant": { base: "wildcraftfruit:item/fruit/eggplant" }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcraftfruit": ["*"] },
+	storageFlags: 33,
+	nutritionPropsByType: {
+		"*-eggplant": { satiety: 100, foodcategory: "Vegetable" },
+	},
+	transitionablePropsByType: {
+		"*-eggplant": [{
+			type: "Perish",
+			freshHours: { "avg": 360 },
+			transitionHours: { "avg": 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.25
+		}]
+	},
+	materialDensity: 600,
+	guiTransformByType: {
+		"*-eggplant": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -46, y: -173, z: 149 },
+			origin: { x: 0.52, y: 0.18, z: 0.54 },
+			scale: 3.12
+		}
+	},
+	tpHandTransformByType: {
+		"*-eggplant": {
+			translation: { x: -0.8, y: -0.18, z: -0.7 },
+			rotation: { x: 0, y: 0, z: -76 },
+			origin: { x: 0.43, y: 0.13, z: 0.48 },
+			scale: 0.62
+		}
+        },
+	groundTransformByType: {
+		"*-eggplant": {
+			translation: { x: 0, y: 0.045, z: 0 },
+			rotation: { x: 27, y: -17, z: -81 },
+			origin: { x: 0.53, y: 0, z: 0.5 },
+			scale: 3.82
+		}
+	}
+}

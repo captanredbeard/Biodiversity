@@ -1,0 +1,9 @@
+{
+	"code": "cleanpot",
+	"sealHours": 12,
+	"ingredients": [
+		{ "type": "item", "code": "game:vinegarportion", "name": "vinegar", "litres": 6, "consumeLitres": 2 },
+		{ "type": "block", "code": "game:dirtyclaypot-*-empty", "name": "color", allowedVariants: ["blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan"], "quantity": 1 }
+	],
+	"output": { "type": "block", "code": "game:claypot-{color}-fired", "quantity": 1 }
+}

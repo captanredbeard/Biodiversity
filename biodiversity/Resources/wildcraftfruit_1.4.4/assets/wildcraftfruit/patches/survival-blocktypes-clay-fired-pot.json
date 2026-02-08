@@ -1,0 +1,3992 @@
+[
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-bunchberry",
+    "value": [
+      "fruit",
+      "fruit-bunchberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-bunchberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bunchberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-crowberry",
+    "value": [
+      "fruit",
+      "fruit-crowberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-crowberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-crowberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-huckleberry",
+    "value": [
+      "fruit",
+      "group24"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group24",
+    "value": {
+      "base": "wildcraftfruit:block/food/meal/group24-huckleberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-snowberry",
+    "value": [
+      "fruit",
+      "group17"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group17",
+    "value": {
+      "base": "wildcraftfruit:block/food/meal/group17-snowberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-honeysuckle",
+    "value": [
+      "fruit",
+      "group22"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group22",
+    "value": {
+      "base": "wildcraftfruit:block/food/meal/group22-honeysuckle"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-elderberry",
+    "value": [
+      "fruit",
+      "group16"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group16",
+    "value": {
+      "base": "wildcraftfruit:block/food/meal/group16-elderberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-husktomato",
+    "value": [
+      "fruit",
+      "fruit-husktomato"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-husktomato",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-husktomato"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-gooseberry",
+    "value": [
+      "fruit",
+      "group23"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group23",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-gooseberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-hawthorn",
+    "value": [
+      "fruit",
+      "fruit-hawthorn"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-hawthorn",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-hawthorn"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-dogrose",
+    "value": [
+      "fruit",
+      "group20"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group20",
+    "value": {
+      "base": "wildcraftfruit:block/food/meal/group20-dogrose"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-quince",
+    "value": [
+      "fruit",
+      "fruit-quince"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-quince",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-quince"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-apricot",
+    "value": [
+      "fruit",
+      "fruit-apricot"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-apricot",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-apricot"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-purpleplum",
+    "value": [
+      "fruit",
+      "fruit-purpleplum"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-purpleplum",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-purpleplum"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-cherryplum",
+    "value": [
+      "fruit",
+      "fruit-cherryplum"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-cherryplum",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cherryplum"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-almond",
+    "value": [
+      "fruit",
+      "nut-almond"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nut-almond",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-almond"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-strawberry",
+    "value": [
+      "fruit",
+      "fruit-strawberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-strawberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-strawberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-blueraspberry",
+    "value": [
+      "fruit",
+      "group26"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group26",
+    "value": {
+      "base": "wildcraftfruit:block/food/meal/group26-blueraspberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-brambleberry",
+    "value": [
+      "fruit",
+      "group21"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group21",
+    "value": {
+      "base": "wildcraftfruit:block/food/meal/group21-brambleberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-raspberry",
+    "value": [
+      "fruit",
+      "group19"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group19",
+    "value": {
+      "base": "wildcraftfruit:block/food/meal/group19-raspberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-cloudberry",
+    "value": [
+      "fruit",
+      "group18"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group18",
+    "value": {
+      "base": "wildcraftfruit:block/food/meal/group18-cloudberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-sallowthorn",
+    "value": [
+      "fruit",
+      "fruit-sallowthorn"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-sallowthorn",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-sallowthorn"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-jujube",
+    "value": [
+      "fruit",
+      "fruit-jujube"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-jujube",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-jujube"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-fig",
+    "value": [
+      "fruit",
+      "fruit-fig"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-fig",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-fig"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-falseorange",
+    "value": [
+      "fruit",
+      "fruit-falseorange"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-falseorange",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-falseorange"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/dryfruit-commonhackberry",
+    "value": [
+      "fruit",
+      "dryfruit-commonhackberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/dryfruit-commonhackberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-commonhackberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/dryfruit-sugarhackberry",
+    "value": [
+      "fruit",
+      "dryfruit-sugarhackberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/dryfruit-sugarhackberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-sugarhackberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/dryfruit-deserthackberry",
+    "value": [
+      "fruit",
+      "dryfruit-deserthackberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/dryfruit-deserthackberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-deserthackberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-hackberrypit",
+    "value": [
+      "fruit",
+      "nut-hackberrypit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-hackberrypit",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-hackberrypit"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-hazelnut",
+    "value": [
+      "fruit",
+      "nut-hazelnut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-hazelnut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-hazelnut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-chestnut",
+    "value": [
+      "vegetable",
+      "nut-chestnut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nut-chestnut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-chestnut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-chestnutbaked",
+    "value": [
+      "vegetable",
+      "nut-chestnutbaked"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nut-chestnutbaked",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-chestnut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-spindle",
+    "value": [
+      "fruit",
+      "fruit-spindle"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-spindle",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-spindle"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-feijoa",
+    "value": [
+      "fruit",
+      "fruit-feijoa"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-feijoa",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-feijoa"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-cocoa",
+    "value": [
+      "fruit",
+      "fruit-cocoa"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-cocoa",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cocoa"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-wolfberry",
+    "value": [
+      "fruit",
+      "fruit-wolfberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-wolfberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-wolfberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-citron",
+    "value": [
+      "fruit",
+      "fruit-citron"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-citron",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-citron"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pomelo",
+    "value": [
+      "fruit",
+      "fruit-pomelo"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-pomelo",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pomelo"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-cashewapple",
+    "value": [
+      "fruit",
+      "fruit-cashewapple"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-cashewapple",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cashewapple"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-cashewnut",
+    "value": [
+      "fruit",
+      "nut-cashewnut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-cashewnut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cashewnut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-beautyberry",
+    "value": [
+      "fruit",
+      "fruit-beautyberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-beautyberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-beautyberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-kumquat",
+    "value": [
+      "fruit",
+      "fruit-kumquat"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-kumquat",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kumquat"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-lingonberry",
+    "value": [
+      "fruit",
+      "fruit-lingonberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-lingonberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-lingonberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-knyazberry",
+    "value": [
+      "fruit",
+      "fruit-knyazberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-knyazberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-knyazberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-fractureberry",
+    "value": [
+      "fruit",
+      "fruit-fractureberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-fractureberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-fractureberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pokeberry",
+    "value": [
+      "fruit",
+      "fruit-pokeberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-pokeberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pokeberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-loquat",
+    "value": [
+      "fruit",
+      "fruit-loquat"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-loquat",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-loquat"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-guajava",
+    "value": [
+      "fruit",
+      "fruit-guajava"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-guajava",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-guajava"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-turkscap",
+    "value": [
+      "fruit",
+      "fruit-turkscap"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-turkscap",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-turkscap"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/dryfruit-sumac",
+    "value": [
+      "fruit",
+      "dryfruit-sumac"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/dryfruit-sumac",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-sumac"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-ugni",
+    "value": [
+      "fruit",
+      "fruit-ugni"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-ugni",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-ugni"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/dryfruit-juniper",
+    "value": [
+      "fruit",
+      "dryfruit-juniper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/dryfruit-juniper",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-juniper"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-macadamiashelled",
+    "value": [
+      "fruit",
+      "nut-macadamiashelled"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-macadamiashelled",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-macadamiashelled"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-pinenut",
+    "value": [
+      "fruit",
+      "nut-pinenut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-pinenut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pinenut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-foxgrape",
+    "value": [
+      "fruit",
+      "fruit-foxgrape"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-foxgrape",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-foxgrape"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-redgrape",
+    "value": [
+      "fruit",
+      "fruit-redgrape"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-redgrape",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-redgrape"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-whitegrape",
+    "value": [
+      "fruit",
+      "fruit-whitegrape"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-whitegrape",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-whitegrape"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-virgingrape",
+    "value": [
+      "fruit",
+      "fruit-virgingrape"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-virgingrape",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-virgingrape"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/chocolate-chocolate",
+    "value": [
+      "topping",
+      "chocolate-chocolate"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/chocolate-chocolate",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-chocolate"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/chocolate-milkchocolate",
+    "value": [
+      "topping",
+      "chocolate-milkchocolate"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/chocolate-milkchocolate",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-milkchocolate"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/chocolate-nutchocolate",
+    "value": [
+      "topping",
+      "chocolate-nutchocolate"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/chocolate-nutchocolate",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-nutchocolate"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/chocolate-whitechocolate",
+    "value": [
+      "topping",
+      "chocolate-whitechocolate"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/chocolate-whitechocolate",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-whitechocolate"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/solidcocoabutter",
+    "value": [
+      "topping",
+      "chocolate-whitechocolate"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-crowseye",
+    "value": [
+      "fruit",
+      "fruit-crowseye"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-crowseye",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-crowseye"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-falsestrawberry",
+    "value": [
+      "fruit",
+      "fruit-falsestrawberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-falsestrawberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-falsestrawberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-rowanberry",
+    "value": [
+      "fruit",
+      "fruit-rowanberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-rowanberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-rowanberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-bitternightshade",
+    "value": [
+      "fruit",
+      "fruit-bitternightshade"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-bitternightshade",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bitternightshade"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-blacknightshade",
+    "value": [
+      "fruit",
+      "fruit-blacknightshade"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-blacknightshade",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-blacknightshade"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-naranjilla",
+    "value": [
+      "fruit",
+      "fruit-naranjilla"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-naranjilla",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-naranjilla"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-numnum",
+    "value": [
+      "fruit",
+      "fruit-numnum"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-numnum",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-numnum"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pricklyheath",
+    "value": [
+      "fruit",
+      "fruit-pricklyheath"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-pricklyheath",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pricklyheath"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-pistachionut",
+    "value": [
+      "fruit",
+      "nut-pistachionut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-pistachionut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pistachionut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/dryfruit-pistachioberry",
+    "value": [
+      "fruit",
+      "fruit-turkscap"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-acornshelled",
+    "value": [
+      "fruit",
+      "nut-acornshelled"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-bitteracornshelled",
+    "value": [
+      "fruit",
+      "nut-acornshelled"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-acornshelled",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-acornleached"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-acornleached",
+    "value": [
+      "grain",
+      "nut-acornleached"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-burracornshelled",
+    "value": [
+      "grain",
+      "nut-acornleached"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-acornleached",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-acornleached"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-almond",
+    "value": [
+      "fruit",
+      "groundnut-almond"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/groundnut-almond",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-marzipan"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-apricotpit",
+    "value": [
+      "fruit",
+      "groundnut-almond"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nutcandy-marzipan",
+    "value": [
+      "topping",
+      "nutcandy-marzipan"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nutcandy-marzipan",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-marzipan"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-avocado",
+    "value": [
+      "vegetable",
+      "vegetable-avocado"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/vegetable-avocado",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-avocado"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nutcandy-halva",
+    "value": [
+      "topping",
+      "nutcandy-halva"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nutcandy-halva",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-halva"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nutcandy-pacoca",
+    "value": [
+      "topping",
+      "nutcandy-pacoca"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nutcandy-pacoca",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-peanutground"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-peanut",
+    "value": [
+      "fruit",
+      "groundnut-peanut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/groundnut-peanut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-peanutground"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/dryfruit-bluequandong",
+    "value": [
+      "fruit",
+      "dryfruit-bluequandong"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/dryfruit-bluequandong",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bluequandong"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-silvernettle",
+    "value": [
+      "fruit",
+      "fruit-silvernettle"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-silvernettle",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-silvernettle"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-coralbead",
+    "value": [
+      "fruit",
+      "fruit-coralbead"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-coralbead",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-coralbead"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-kawakawa",
+    "value": [
+      "fruit",
+      "fruit-kawakawa"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-kawakawa",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kawakawa"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-flaxlily",
+    "value": [
+      "fruit",
+      "fruit-flaxlily"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-flaxlily",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-flaxlily"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-bushlawyer",
+    "value": [
+      "fruit",
+      "fruit-bushlawyer"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-bushlawyer",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bushlawyer"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-engkala",
+    "value": [
+      "fruit",
+      "fruit-engkala"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-engkala",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-engkala"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pandanbits",
+    "value": [
+      "fruit",
+      "fruit-pandanbits"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-pandanbits",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pandanbits"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-pumpkinseed",
+    "value": [
+      "fruit",
+      "nut-pumpkinseed"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nut-pumpkinseed",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pumpkinseed"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-cherrypit",
+    "value": [
+      "fruit",
+      "nut-cherrypit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nut-cherrypit",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cherrypit"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-apricotpit",
+    "value": [
+      "fruit",
+      "nut-apricotpit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nut-apricotpit",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-apricotpit"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-breadnut",
+    "value": [
+      "vegetable",
+      "nut-breadnut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nut-breadnut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-breadnut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-breadnutbaked",
+    "value": [
+      "vegetable",
+      "nut-breadnutbaked"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/nut-breadnutbaked",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-breadnut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pittedcherry",
+    "value": [
+      "fruit",
+      "fruit-cherry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pittedbreadfruit",
+    "value": [
+      "fruit",
+      "fruit-breadfruit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pittedapricot",
+    "value": [
+      "fruit",
+      "fruit-apricot"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-cashewwhole",
+    "value": [
+      "fruit",
+      "fruit-cashewapple"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-gardenstrawberry",
+    "value": [
+      "fruit",
+      "fruit-gardenstrawberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-gardenstrawberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-gardenstrawberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-roseapple",
+    "value": [
+      "fruit",
+      "fruit-roseapple"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-roseapple",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-roseapple"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-lemonaspen",
+    "value": [
+      "fruit",
+      "fruit-lemonaspen"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-lemonaspen",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-lemonaspen"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-redquandong",
+    "value": [
+      "fruit",
+      "fruit-redquandong"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-redquandong",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-redquandong"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-fingerlime",
+    "value": [
+      "fruit",
+      "fruit-fingerlime"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-fingerlime",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-fingerlime"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-illawarra",
+    "value": [
+      "fruit",
+      "fruit-illawarra"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-illawarra",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-illawarra"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-munthari",
+    "value": [
+      "fruit",
+      "fruit-munthari"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-munthari",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-munthari"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-midyimberry",
+    "value": [
+      "fruit",
+      "fruit-midyimberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-midyimberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-midyimberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-bluetongue",
+    "value": [
+      "fruit",
+      "fruit-bluetongue"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-bluetongue",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bluetongue"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-rubysaltbush",
+    "value": [
+      "fruit",
+      "fruit-rubysaltbush"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-rubysaltbush",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-rubysaltbush"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pineheath",
+    "value": [
+      "fruit",
+      "fruit-pineheath"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-pineheath",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pineheath"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-oldmansaltbush",
+    "value": [
+      "grain",
+      "nut-oldmansaltbush"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-oldmansaltbush",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-oldmansaltbush"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-bunya",
+    "value": [
+      "fruit",
+      "nut-bunya"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-bunya",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bunya"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-beachalmond",
+    "value": [
+      "fruit",
+      "nut-beachalmond"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-beachalmond",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-beachalmond"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-beachalmondwhole",
+    "value": [
+      "fruit",
+      "fruit-pittedbeachalmond"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pittedbeachalmond",
+    "value": [
+      "fruit",
+      "fruit-pittedbeachalmond"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-pittedbeachalmond",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pittedbeachalmond"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pittedchinaberry",
+    "value": [
+      "fruit",
+      "fruit-pittedchinaberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-pittedchinaberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pittedchinaberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-chinaberry",
+    "value": [
+      "fruit",
+      "fruit-chinaberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-chinaberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-chinaberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-seamango",
+    "value": [
+      "fruit",
+      "fruit-seamango"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-seamango",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-seamango"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-lillypillypink",
+    "value": [
+      "fruit",
+      "fruit-lillypillypink"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-lillypillypink",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-lillypillypink"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-lillypillywhite",
+    "value": [
+      "fruit",
+      "fruit-lillypillypink"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-lillypillyblue",
+    "value": [
+      "fruit",
+      "fruit-lillypillypink"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-honeypots",
+    "value": [
+      "fruit",
+      "fruit-honeypots"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-honeypots",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-honeypots"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-cheeseberry",
+    "value": [
+      "fruit",
+      "fruit-cheeseberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-cheeseberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cheeseberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-creepingpine",
+    "value": [
+      "fruit",
+      "fruit-creepingpine"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-creepingpine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-creepingpine"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-achacha",
+    "value": [
+      "fruit",
+      "fruit-achacha"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-achacha",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-achacha"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-lemon",
+    "value": [
+      "fruit",
+      "fruit-citron"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-blacknightshadeunripe",
+    "value": [
+      "fruit",
+      "fruit-blacknightshadeunripe"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-blacknightshadeunripe",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-blacknightshadeunripe"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pilo",
+    "value": [
+      "fruit",
+      "fruit-pilo"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-pilo",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pilo"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-mingimingi",
+    "value": [
+      "fruit",
+      "fruit-mingimingi"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-mingimingi",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-mingimingi"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-kakaha",
+    "value": [
+      "fruit",
+      "fruit-kakaha"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-kakaha",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kakaha"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-maritabits",
+    "value": [
+      "vegetable",
+      "vegetable-maritabits"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/vegetable-maritabits",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-maritabits"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-blackelder",
+    "value": [
+      "fruit",
+      "fruit-blackelder"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-blackelder",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-blackelder"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-cucumber",
+    "value": [
+      "vegetable",
+      "vegetable-cucumber"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/vegetable-cucumber",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cucumber"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-passionfruit",
+    "value": [
+      "fruit",
+      "fruit-passionfruit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-passionfruit",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-passionfruit"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-kiwi",
+    "value": [
+      "fruit",
+      "fruit-kiwi"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-kiwi",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kiwi"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-bryony",
+    "value": [
+      "fruit",
+      "fruit-bryony"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-bryony",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bryony"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-ivy",
+    "value": [
+      "fruit",
+      "fruit-ivy"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-ivy",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-ivy"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-watermelon",
+    "value": [
+      "fruit",
+      "fruit-watermelon"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-watermelon",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-watermelon"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-muskmelon",
+    "value": [
+      "fruit",
+      "fruit-muskmelon"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-muskmelon",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-muskmelon"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-mirzamelon",
+    "value": [
+      "fruit",
+      "fruit-mirzamelon"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-mirzamelon",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-mirzamelon"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-kolkhoznitsa",
+    "value": [
+      "fruit",
+      "fruit-kolkhoznitsa"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-kolkhoznitsa",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kolkhoznitsa"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-cucumber",
+    "value": [
+      "vegetable",
+      "pickledvegetable-cucumber"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/pickledvegetable-cucumber",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pickledcucumber"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/flower-elder",
+    "value": [
+      "fruit",
+      "flower-elder"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/flower-elder",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-elderflower"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/flower-hibiscus",
+    "value": [
+      "fruit",
+      "flower-hibiscus"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/flower-hibiscus",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-hibiscuspetal"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/flower-rose",
+    "value": [
+      "fruit",
+      "flower-rose"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/flower-rose",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-rosepetal"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/flower-honeypots",
+    "value": [
+      "fruit",
+      "flower-honeypots"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/flower-honeypots",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-honeypotsflower"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/flower-caper",
+    "value": [
+      "fruit",
+      "flower-caper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/flower-caper",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-caper"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-caperberry",
+    "value": [
+      "fruit",
+      "fruit-caperberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-caperberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-caperberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-caper",
+    "value": [
+      "fruit",
+      "pickledvegetable-caper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/pickledvegetable-caper",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pickledcaper"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-caperberry",
+    "value": [
+      "fruit",
+      "pickledvegetable-caperberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/pickledvegetable-caperberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pickledcaperberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/flower-currant",
+    "value": [
+      "fruit",
+      "flower-currant"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/flower-currant",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-currantflower"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/flower-feijoa",
+    "value": [
+      "fruit",
+      "flower-feijoa"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/flower-feijoa",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-feijoapetal"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/flower-honeysuckle",
+    "value": [
+      "fruit",
+      "flower-honeysuckle"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/flower-honeysuckle",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-honeysuckleflower"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/berrymush-cloudberrymush",
+    "value": [
+      "fruit",
+      "group18"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/textures/group18",
+    "value": {
+      "base": "wildcraftfruit:block/food/meal/group18-cloudberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-blackgrape",
+    "value": [
+      "fruit",
+      "fruit-blackgrape"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-blackgrape",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-blackgrape"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-hairyappleberry",
+    "value": [
+      "fruit",
+      "fruit-hairyappleberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-hairyappleberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-hairyappleberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-purpleappleberry",
+    "value": [
+      "fruit",
+      "fruit-purpleappleberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-purpleappleberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-purpleappleberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pittedmazzard",
+    "value": [
+      "fruit",
+      "fruit-cherry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-mazzard",
+    "value": [
+      "fruit",
+      "fruit-cherry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-nectarine",
+    "value": [
+      "fruit",
+      "fruit-peach"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-burgundyapple",
+    "value": [
+      "fruit",
+      "fruit-redapple"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-wildapple",
+    "value": [
+      "fruit",
+      "fruit-redapple"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-bitterorange",
+    "value": [
+      "fruit",
+      "fruit-orange"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-bilberry",
+    "value": [
+      "fruit",
+      "group1"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-redplum",
+    "value": [
+      "fruit",
+      "fruit-purpleplum"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-damsonplum",
+    "value": [
+      "fruit",
+      "fruit-purpleplum"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-redcherryplum",
+    "value": [
+      "fruit",
+      "fruit-cherryplum"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-waterapple",
+    "value": [
+      "fruit",
+      "fruit-roseapple"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-swamphuckle",
+    "value": [
+      "fruit",
+      "group24"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-beachrose",
+    "value": [
+      "fruit",
+      "group20"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-crabapple",
+    "value": [
+      "fruit",
+      "fruit-crabapple"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-crabapple",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-crabapple"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-sandpear",
+    "value": [
+      "fruit",
+      "fruit-sandpear"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-sandpear",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-sandpear"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-sloe",
+    "value": [
+      "fruit",
+      "fruit-sloe"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-sloe",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-sloe"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-greengage",
+    "value": [
+      "fruit",
+      "fruit-greengage"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-greengage",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-greengage"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-jackfruit",
+    "value": [
+      "fruit",
+      "fruit-jackfruit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-jackfruit",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-jackfruit"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pittedjackfruit",
+    "value": [
+      "fruit",
+      "fruit-jackfruit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-rambutan",
+    "value": [
+      "fruit",
+      "fruit-rambutan"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-rambutan",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-rambutan"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pulasan",
+    "value": [
+      "fruit",
+      "fruit-rambutan"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-grapefruit",
+    "value": [
+      "fruit",
+      "fruit-grapefruit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-grapefruit",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-grapefruit"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-lime",
+    "value": [
+      "fruit",
+      "fruit-lime"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-lime",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-lime"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-makrut",
+    "value": [
+      "fruit",
+      "fruit-lime"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-wani",
+    "value": [
+      "fruit",
+      "fruit-wani"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-wani",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-wani"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/dryfruit-walnut",
+    "value": [
+      "fruit",
+      "dryfruit-walnut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/dryfruit-walnut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-walnut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-walnutshelled",
+    "value": [
+      "fruit",
+      "nut-walnutshelled"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-walnutshelled",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-walnutshelled"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-bearnut",
+    "value": [
+      "fruit",
+      "nut-bearnut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-bearnut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bearnut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-yew",
+    "value": [
+      "fruit",
+      "fruit-yew"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-yew",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-yew"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pittedyew",
+    "value": [
+      "fruit",
+      "fruit-pittedyew"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-pittedyew",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pittedyew"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-dewberry",
+    "value": [
+      "fruit",
+      "fruit-dewberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-dewberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-dewberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-sorb",
+    "value": [
+      "fruit",
+      "fruit-sorb"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-sorb",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-sorb"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-aronia",
+    "value": [
+      "fruit",
+      "fruit-aronia"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-aronia",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-aronia"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-kolomikta",
+    "value": [
+      "fruit",
+      "fruit-kolomikta"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-kolomikta",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-kolomikta"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-granadilla",
+    "value": [
+      "fruit",
+      "fruit-granadilla"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-granadilla",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-granadilla"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-woodbine",
+    "value": [
+      "fruit",
+      "fruit-woodbine"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-woodbine",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-woodbine"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-dwarfpinenut",
+    "value": [
+      "fruit",
+      "nut-dwarfpinenut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-dwarfpinenut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-dwarfpinenut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-honeydewmelon",
+    "value": [
+      "fruit",
+      "fruit-honeydewmelon"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-honeydewmelon",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-honeydewmelon"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-cedarnut",
+    "value": [
+      "fruit",
+      "nut-cedarnut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-cedarnut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cedarnut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/flower-passionflower",
+    "value": [
+      "fruit",
+      "flower-passionflower"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/flower-passionflower",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-passionflower"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-cempedak",
+    "value": [
+      "fruit",
+      "fruit-jackfruit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pittedcempedak",
+    "value": [
+      "fruit",
+      "fruit-jackfruit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-kasturi",
+    "value": [
+      "fruit",
+      "fruit-mango"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-greatroseapple",
+    "value": [
+      "fruit",
+      "fruit-roseapple"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-greenstrawberry",
+    "value": [
+      "fruit",
+      "fruit-strawberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-boysenberry",
+    "value": [
+      "fruit",
+      "group21"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-loganberry",
+    "value": [
+      "fruit",
+      "group19"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-josta",
+    "value": [
+      "fruit",
+      "group5"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-cookedsoya",
+    "value": [
+      "vegetable",
+      "group9"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/soakedsoybean",
+    "value": [
+      "vegetable",
+      "group9"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "side": "server"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-ber",
+    "value": [
+      "fruit",
+      "fruit-jujube"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-smoothavocado",
+    "value": [
+      "vegetable",
+      "vegetable-avocado"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-marang",
+    "value": [
+      "fruit",
+      "fruit-breadfruit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-pittedmarang",
+    "value": [
+      "fruit",
+      "fruit-breadfruit"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/tofu-raw",
+    "value": [
+      "vegetable",
+      "tofu"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/tofu",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-tofu"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/tofu-cooked",
+    "value": [
+      "vegetable",
+      "cookedtofu"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/cookedtofu",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-cookedtofu"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/legume-peanut",
+    "value": [
+      "fruit",
+      "legume-peanut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/legume-peanut",
+    "value": {
+      "base": "game:block/food/pie/fill-peanut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/group17",
+    "value": {
+      "base": "game:block/food/pie/fill-olive"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-belladonna",
+    "value": [
+      "fruit",
+      "fruit-belladonna"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-belladonna",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-belladonna"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-baneberry",
+    "value": [
+      "fruit",
+      "fruit-baneberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-baneberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-baneberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-bearberry",
+    "value": [
+      "fruit",
+      "fruit-bearberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-bearberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bearberry"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-hairyeggplant",
+    "value": [
+      "fruit",
+      "fruit-naranjilla"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-orangebellpepper",
+    "value": [
+      "vegetable",
+      "vegetable-orangebellpepper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/vegetable-orangebellpepper",
+    "value": {
+      "base": "game:block/food/pie/fill-bellpepper"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-redbellpepper",
+    "value": [
+      "vegetable",
+      "vegetable-orangebellpepper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-yellowbellpepper",
+    "value": [
+      "vegetable",
+      "vegetable-orangebellpepper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-greenbellpepper",
+    "value": [
+      "vegetable",
+      "vegetable-orangebellpepper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-bellpepper",
+    "value": [
+      "vegetable",
+      "vegetable-orangebellpepper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-jalapeno",
+    "value": [
+      "vegetable",
+      "vegetable-orangebellpepper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-cayenne",
+    "value": [
+      "vegetable",
+      "vegetable-orangebellpepper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-habanero",
+    "value": [
+      "vegetable",
+      "vegetable-orangebellpepper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-tabasco",
+    "value": [
+      "vegetable",
+      "vegetable-orangebellpepper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-chilipepper",
+    "value": [
+      "vegetable",
+      "vegetable-orangebellpepper"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-tomato",
+    "value": [
+      "vegetable",
+      "vegetable-tomato"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/vegetable-tomato",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-tomato"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-oxheart",
+    "value": [
+      "vegetable",
+      "vegetable-tomato"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-romatomato",
+    "value": [
+      "vegetable",
+      "vegetable-tomato"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-tomato",
+    "value": [
+      "vegetable",
+      "vegetable-tomato"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/vegetable-tomatillo",
+    "value": [
+      "vegetable",
+      "vegetable-tomatillo"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/vegetable-tomatillo",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-tomatillo"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/dryvegetable-eggplant",
+    "value": [
+      "vegetable",
+      "vegetable-eggplant"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/vegetable-eggplant",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-eggplant"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-newhusktomato",
+    "value": [
+      "fruit",
+      "fruit-husktomato"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-falsetomato",
+    "value": [
+      "fruit",
+      "fruit-falsetomato"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-falsetomato",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-falsetomato"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-wildtomato",
+    "value": [
+      "fruit",
+      "fruit-wildtomato"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-wildtomato",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-tomato"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-quincelet",
+    "value": [
+      "fruit",
+      "fruit-quince"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-ginkgopulp",
+    "value": [
+      "fruit",
+      "fruit-ginkgopulp"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-ginkgowhole",
+    "value": [
+      "fruit",
+      "fruit-ginkgopulp"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/fruit-ginkgopulp",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-ginkgopulp"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-ginkgoseed",
+    "value": [
+      "fruit",
+      "nut-ginkgoseed"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-cookedginkgoseed",
+    "value": [
+      "fruit",
+      "nut-ginkgoseed"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-ginkgoseed",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-ginkgoseed"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/nut-bladdernut",
+    "value": [
+      "fruit",
+      "nut-bladdernut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/nut-bladdernut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-bladdernut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/flower-jonjoli",
+    "value": [
+      "fruit",
+      "flower-jonjoli"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/pickledvegetable-jonjoli",
+    "value": [
+      "fruit",
+      "flower-jonjoli"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/flower-jonjoli",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-jonjoli"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-walnut",
+    "value": [
+      "fruit",
+      "groundnut-walnut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/groundnut-walnut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-walnutshelled"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-hackberry",
+    "value": [
+      "fruit",
+      "groundnut-hackberry"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/groundnut-hackberry",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-hackberrypit"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-beachalmond",
+    "value": [
+      "fruit",
+      "groundnut-beachalmond"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/groundnut-beachalmond",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-beachalmond"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-pistachio",
+    "value": [
+      "fruit",
+      "groundnut-pistachio"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/groundnut-pistachio",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pistachioground"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-hazelnut",
+    "value": [
+      "fruit",
+      "groundnut-hazelnut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-bearnut",
+    "value": [
+      "fruit",
+      "groundnut-hazelnut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/groundnut-hazelnut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-hazelnutground"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-macadamia",
+    "value": [
+      "fruit",
+      "groundnut-macadamia"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-cashew",
+    "value": [
+      "fruit",
+      "groundnut-macadamia"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/groundnut-macadamia",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-macadamiashelled"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-pinenut",
+    "value": [
+      "fruit",
+      "groundnut-pinenut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-dwarfpinenut",
+    "value": [
+      "fruit",
+      "groundnut-pinenut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/groundnut-bunya",
+    "value": [
+      "fruit",
+      "groundnut-pinenut"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json",
+},
+{
+    "op": "add",
+    "path": "/textures/groundnut-pinenut",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pinenut"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/snackacorn",
+    "value": [
+      "fruit",
+      "snackacorn"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/snackacorn",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-acornleached"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/snacksaltbush",
+    "value": [
+      "fruit",
+      "snacksaltbush"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/snacksaltbush",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-oldmansaltbush"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/snacksunflower",
+    "value": [
+      "fruit",
+      "snacksunflower"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/snacksunflower",
+    "value": {
+      "base": "game:block/food/grain/sunflower"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/snackflax",
+    "value": [
+      "fruit",
+      "snackflax"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/snackflax",
+    "value": {
+      "base": "game:block/food/grain/flax"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/souppumpkinseed",
+    "value": [
+      "vegetable",
+      "souppumpkinseed"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/souppumpkinseed",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-pumpkinseed"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/soupginkgo",
+    "value": [
+      "vegetable",
+      "soupginkgo"
+    ],
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+{
+    "op": "add",
+    "path": "/textures/soupginkgo",
+    "value": {
+      "base": "wildcraftfruit:block/food/pie/fill-ginkgoseed"
+    },
+    "file": "game:blocktypes/clay/fired/pot.json"
+},
+]

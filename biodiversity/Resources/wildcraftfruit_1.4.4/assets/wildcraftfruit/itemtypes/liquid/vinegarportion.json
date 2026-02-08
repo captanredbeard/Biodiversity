@@ -1,0 +1,94 @@
+{
+	code: "vinegarportion",
+	variantgroups: [
+		{ code: "fruit", states: ["apple", "wine", "pomegranate", "plum", "currant", "heath", "citrus", "jujube", "kiwi", "fruit", "honey", "poison", "rice", "white"] }
+	  ],
+	class: "ItemLiquidPortion",
+	matterState: "liquid",
+	attributes: {
+		handbook: {
+                   	"groupBy": ["vinegarportion-*"],
+			ignoreCreativeInvStacks: true
+		},
+		"distillationPropsByType": {
+			"*": { "distilledStack": { "type": "item", "code": "game:vinegarportion" }, "ratio": 0.5 }
+		},
+		"nutritionPropsWhenInMealByType": { 
+				"*-pomegranate": { satiety: 60, health: 0.5, foodcategory: "Fruit" },
+				"*-apple": { satiety: 60, foodcategory: "Fruit" },
+				"*-wine": { satiety: 60, foodcategory: "Fruit" },
+				"*-rice": { satiety: 60, foodcategory: "Grain" },
+				"*-white": { satiety: 40, foodcategory: "Grain" },
+				"*-poison": { satiety: 40, health: -4, foodcategory: "Fruit" },
+				"*": { satiety: 40, foodcategory: "Fruit" }
+		},
+		waterTightContainerProps: {
+			"nutritionPropsPerLitreByType": {
+				"*-poison": { satiety: 60, health: -10, foodcategory: "Fruit" },
+				"*-apple": { satiety: 80, foodcategory: "Fruit" },
+				"*-wine": { satiety: 80, foodcategory: "Fruit" },
+				"*-balsamic": { satiety: 120, health: 1, foodcategory: "Fruit" },
+				"*-pomegranate": { satiety: 80, health: 0.5, foodcategory: "Fruit" },
+				"*-rice": { satiety: 80, foodcategory: "Grain" },
+				"*-white": { satiety: 60, foodcategory: "Grain" },
+				"*": { satiety: 60, foodcategory: "Fruit" }
+			},
+			containable: true,
+			itemsPerLitre: 100,
+			"texturebytype": {
+				"*-wine": { "base": "wildcraftfruit:block/vinegar/winevinegar", "alpha": 180 },
+				"*-pomegranate": { "base": "wildcraftfruit:block/vinegar/pomegranatevinegar", "alpha": 150 },
+				"*-plum": { "base": "wildcraftfruit:block/vinegar/plumvinegar", "alpha": 180 },
+				"*-currant": { "base": "wildcraftfruit:block/vinegar/currantvinegar", "alpha": 160 },
+				"*-heath": { "base": "wildcraftfruit:block/vinegar/heathvinegar", "alpha": 180 },
+				"*-citrus": { "base": "wildcraftfruit:block/vinegar/citrusvinegar", "alpha": 150 },
+				"*-jujube": { "base": "wildcraftfruit:block/vinegar/jujubevinegar", "alpha": 160 },
+				"*-kiwi": { "base": "wildcraftfruit:block/vinegar/kiwivinegar", "alpha": 160 },
+				"*-honey": { "base": "wildcraftfruit:block/vinegar/honeyvinegar", "alpha": 160 },
+				"*-poison": { "base": "wildcraftfruit:block/vinegar/poisonvinegar", "alpha": 190 },
+				"*-rice": { "base": "wildcraftfruit:block/vinegar/ricevinegar", "alpha": 150 },
+				"*-white": { "base": "wildcraftfruit:block/vinegar/whitevinegar", "alpha": 150 },
+				"*-apple": { "base": "game:block/liquid/vinegar", "alpha": 160 },
+				"*-fruit": { "base": "game:block/liquid/beer", "alpha": 170 }
+			},
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: { type: "item", code: "wildcraftfruit:vinegarportion-{fruit}" }
+			},
+		},
+	},
+	shape: { base: "game:item/liquid" },
+	"texturebytype": {
+		"*-wine": { "base": "wildcraftfruit:block/vinegar/winevinegar", "alpha": 180 },
+		"*-pomegranate": { "base": "wildcraftfruit:block/vinegar/pomegranatevinegar", "alpha": 150 },
+		"*-plum": { "base": "wildcraftfruit:block/vinegar/plumvinegar", "alpha": 180 },
+		"*-currant": { "base": "wildcraftfruit:block/vinegar/currantvinegar", "alpha": 160 },
+		"*-heath": { "base": "wildcraftfruit:block/vinegar/heathvinegar", "alpha": 180 },
+		"*-citrus": { "base": "wildcraftfruit:block/vinegar/citrusvinegar", "alpha": 150 },
+		"*-jujube": { "base": "wildcraftfruit:block/vinegar/jujubevinegar", "alpha": 160 },
+		"*-kiwi": { "base": "wildcraftfruit:block/vinegar/kiwivinegar", "alpha": 160 },
+		"*-honey": { "base": "wildcraftfruit:block/vinegar/honeyvinegar", "alpha": 160 },
+		"*-poison": { "base": "wildcraftfruit:block/vinegar/poisonvinegar", "alpha": 190 },
+		"*-rice": { "base": "wildcraftfruit:block/vinegar/ricevinegar", "alpha": 150 },
+		"*-white": { "base": "wildcraftfruit:block/vinegar/whitevinegar", "alpha": 150 },
+		"*-apple": { "base": "game:block/liquid/vinegar", "alpha": 160 },
+		"*-fruit": { "base": "game:block/liquid/beer", "alpha": 170 }
+	},
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "wildcraftfruit"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "wildcraftfruit:vinegarportion-{fruit}", makefull: true } ] } } ] } ],
+	maxstacksize: 5000,
+	materialDensity: 200,
+	guiTransform: {
+		translation: { x: 0, y: 1, z: 0 },
+		rotation: { x: 123, y: -33, z: -13 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 25, y: 157, z: -5 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 }
+	}
+}

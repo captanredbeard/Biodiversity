@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"bark": "wildcrafttree:block/wood/bark/mangrove",
+		"trunk": "wildcrafttree:block/wood/treetrunk/mangrove"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 16.0, 16.0 ], 
+			"faces": {
+				"north": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#trunk", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#trunk", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}

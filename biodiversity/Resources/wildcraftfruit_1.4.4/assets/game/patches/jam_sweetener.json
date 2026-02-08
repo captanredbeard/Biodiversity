@@ -1,0 +1,16 @@
+[
+    { "file": "recipes/cooking/jam.json", "op": "replace", "path": "/ingredients/0/minQuantity", "value": 1 ,
+        "side": "server"
+    },
+    { "file": "recipes/cooking/jam.json", "op": "replace", "path": "/ingredients/0/maxQuantity", "value": 1 ,
+        "side": "server"
+    },
+    { "file": "recipes/cooking/jam.json", "op": "replace", "path": "/ingredients/0/portionSizeLitres", "value": 0.4 ,
+        "side": "server"
+    },
+	{
+		"op": "remove",
+		"path": "/attributes/nutritionPropsWhenInMeal",
+		"file": "game:itemtypes/food/fruit.json"
+	},
+]

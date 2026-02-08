@@ -1,0 +1,26 @@
+[
+	{
+		"op": "replace",
+		"path": "/attributes/labelNames/13",
+		"value": "egg-chicken",
+		"file": "game:blocktypes/clay/fired/crock.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributes/labelNames/5",
+		"value": "vegetable-pumpkin",
+		"file": "game:blocktypes/clay/fired/crock.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/textures",
+		"value": { label2: { base: "block/clay/crock/label2" } },
+		"file": "game:blocktypes/clay/fired/crock.json"
+	},
+	{
+		"op": "addeach",
+		"path": "/attributes/labelNames/-",
+		"value": [ "tomato", "oxheart", "chilipepper", "eggplant", "avocado", "cucumber", "tomatillo", "olive", "caper", "chestnut", "breadnut", "jonjoli" ],
+		"file": "game:blocktypes/clay/fired/crock.json"
+	}
+]

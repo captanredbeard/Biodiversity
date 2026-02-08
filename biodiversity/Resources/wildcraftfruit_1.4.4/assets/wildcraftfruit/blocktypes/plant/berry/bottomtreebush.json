@@ -1,0 +1,78 @@
+{
+	"code": "bottomtreebush",
+	"class": "BlockPlant",
+	"attributes": {
+		"stackable": true,
+		"reinforcable": true,
+                "handbook": {
+                   "groupBy": ["bottomtreebush-*"]
+                },
+		"growthBlockByType":{
+			"*-seamango-*": "wildcraftfruit:growth-seamango-alive",
+			"*-pistachio-*": "wildcraftfruit:growth-pistachio-alive",
+			"*-marita-*": "wildcraftfruit:growth-marita-alive",
+			"*-sloe-*": "wildcraftfruit:growth-sloe-alive",
+			"*-bladdernut-*": "wildcraftfruit:growth-bladdernut-alive",
+                },
+                "isBottomBlock": true,
+		"isLarge": true,
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["marita", "sloe", "bladdernut", "pistachio", "seamango"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraftfruit": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomizeAxes": "xz",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-seamango": { "base": "wildcraftfruit:block/plant/berrybush/bottomseamangobush*" },
+
+		"*-pistachio": { "base": "wildcraftfruit:block/plant/berrybush/bottompistachiobush*" },
+
+		"*-sloe": { "base": "wildcraftfruit:block/plant/berrybush/bottomsloebush*" },
+
+		"*-bladdernut": { "base": "wildcraftfruit:block/plant/berrybush/bottombladdernutbush*" },
+
+		"*-marita": { "base": "wildcraftfruit:block/plant/berrybush/bottommaritabush*" },
+	},
+	"blockmaterial": "Wood",
+	"texturesByType": {
+	     "*-marita": {
+		"trunk": { "base": "wildcraftfruit:block/plant/berrybush/large/branches/{type}trunk" }},
+	     "*": {
+		"trunk": { "base": "wildcraftfruit:block/plant/berrybush/large/branches/{type}trunk" },
+		"branch": { "base": "wildcraftfruit:block/plant/berrybush/large/branches/{type}branch" }}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": { "x1": 0.375, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.5, "z2": 0.625 },
+	"selectionbox": { x1: 0.3, y1: 0, z1: 0.3, x2: 0.7, y2: 1, z2: 0.7 },
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks"
+	},
+	"rainPermeable": true,
+	"dropsByType": {
+		"*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 2.2 } }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 20
+	},
+	"frostable": true
+}

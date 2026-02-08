@@ -1,0 +1,278 @@
+[
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-dwarfpinecone" }
+    },
+    "name": "pinenut",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-dwarfpinenut", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-pinecone" }
+    },
+    "name": "pinenut",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-pinenut", "quantity": 3 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { type: "item", code: "game:treeseed-pine" }
+    },
+    "name": "pinenut",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-pinenut", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { type: "item", code: "game:treeseed-darkpine" }
+    },
+    "name": "pinenut",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-pinenut", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-bunyacone" }
+    },
+    "name": "bunyanut",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-bunya", "quantity": 3 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:dryfruit-deserthackberry", "quantity": 2 }
+    },
+    "name": "bunyanut",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-hackberrypit", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:dryfruit-commonhackberry", "quantity": 2 }
+    },
+    "name": "bunyanut",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-hackberrypit", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:dryfruit-sugarhackberry", "quantity": 2 }
+    },
+    "name": "bunyanut",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-hackberrypit", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:hammer-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-macadamia" }
+    },
+    "name": "macadamiashelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-macadamiashelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:club-generic-wood", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-macadamia" }
+    },
+    "name": "macadamiashelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-macadamiashelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:stone-*" },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-macadamia" }
+    },
+    "name": "macadamiashelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-macadamiashelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:hammer-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-acorn" }
+    },
+    "name": "acornshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-acornshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:hammer-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-bitteracorn" }
+    },
+    "name": "acornshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-bitteracornshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:hammer-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-burracorn" }
+    },
+    "name": "acornshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-burracornshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:club-generic-wood", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-acorn" }
+    },
+    "name": "acornshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-acornshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:club-generic-wood", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-bitteracorn" }
+    },
+    "name": "acornshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-bitteracornshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:club-generic-wood", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-burracorn" }
+    },
+    "name": "acornshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-burracornshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:stone-*" },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-acorn" }
+    },
+    "name": "acornshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-acornshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:stone-*" },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-bitteracorn" }
+    },
+    "name": "acornshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-bitteracornshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:stone-*" },
+      "H": { "type": "item", "code": "wildcraftfruit:nut-burracorn" }
+    },
+    "name": "acornshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-burracornshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:hammer-*", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:dryfruit-walnut" }
+    },
+    "name": "walnutshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-walnutshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:club-generic-wood", "isTool": true },
+      "H": { "type": "item", "code": "wildcraftfruit:dryfruit-walnut" }
+    },
+    "name": "walnutshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-walnutshelled" }
+  },
+  {
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:stone-*" },
+      "H": { "type": "item", "code": "wildcraftfruit:dryfruit-walnut" }
+    },
+    "name": "walnutshelled",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "wildcraftfruit:nut-walnutshelled" }
+  }
+]

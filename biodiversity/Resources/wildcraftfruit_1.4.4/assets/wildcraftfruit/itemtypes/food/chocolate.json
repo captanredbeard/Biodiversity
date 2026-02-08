@@ -1,0 +1,187 @@
+{
+  "code": "chocolate",
+  "maxstacksize": 32,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	variantgroups: [
+		{ code: "type", states: ["cocoapowder", "chocolate", "milkchocolate", "whitechocolate", "nutchocolate"] },
+	],
+  "materialDensityByType": {
+    "*": 600
+  },
+  "attributesByType": {
+		"*-cocoapowder": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-cocoapowder" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		}
+		},
+		"*-chocolate": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-chocolate" },
+			nutritionPropsWhenInMeal: { satiety: 180, health: 3, foodcategory: "Fruit" },
+			inPieProperties: { texture: "block/food/pie/fill-chocolate", partType: 'Filling', allowMixing: false },
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 1
+	                },
+	                onDisplayTransform: {
+			  "rotation": { "x": 0, "y": -55, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 1.31
+	                }
+		},
+		"*-whitechocolate": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-whitechocolate" },
+			nutritionPropsWhenInMeal: { satiety: 260, health: 1, foodcategory: "Dairy" },
+			inPieProperties: { texture: "block/food/pie/fill-whitechocolate", partType: 'Filling', allowMixing: false },
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 1
+	                },
+	                onDisplayTransform: {
+			  "rotation": { "x": 0, "y": -55, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 1.31
+	                }
+		},
+		"*-milkchocolate": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-milkchocolate" },
+			nutritionPropsWhenInMeal: { satiety: 280, health: 1, foodcategory: "Dairy" },
+			inPieProperties: { texture: "block/food/pie/fill-milkchocolate", partType: 'Filling', allowMixing: false },
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 1
+	                },
+	                onDisplayTransform: {
+			  "rotation": { "x": 0, "y": -55, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 1.31
+	                }
+		},
+		"*-nutchocolate": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-nutchocolate" },
+			nutritionPropsWhenInMeal: { satiety: 280, health: 1, foodcategory: "Fruit" },
+			inPieProperties: { texture: "block/food/pie/fill-nutchocolate", partType: 'Filling', allowMixing: false },
+			displaycaseable: true,
+			shelvable: true,
+	                onshelfTransform: {
+		          "translation": { "x": 0, "y": 0, "z": -0.02 },
+			  "rotation": { "x": 0, "y": 58, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 1
+	                },
+	                onDisplayTransform: {
+			  "rotation": { "x": 0, "y": -55, "z": 0 },
+			  "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			  "scale": 1.31
+	                }
+		}
+	},
+  "shapebytype": {
+    "*": { "base": "wildcraftfruit:item/fruit/{type}" }
+  },
+  "textureByType": {
+    "*": null
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "wildcraftfruit": [ "*" ]
+  },
+  "storageFlags": 33,
+  "nutritionPropsByType": {
+   "*-chocolate": {
+      "satiety": 160,
+      "health": 1.5,
+      "foodcategory": "Fruit"
+    },
+   "*-milkchocolate": {
+      "satiety": 260,
+      "health": 0.5,
+      "foodcategory": "Dairy"
+    },
+   "*-whitechocolate": {
+      "satiety": 240,
+      "health": 0.5,
+      "foodcategory": "Dairy"
+    },
+   "*-nutchocolate": {
+      "satiety": 260,
+      "health": 0.5,
+      "foodcategory": "Fruit"
+    },
+  },
+  "transitionablePropsByType": {
+		"@*-(chocolate|milkchocolate|nutchocolate|whitechocolate)": [{
+			type: "Perish",
+			freshHours: { avg: 3840 },
+			transitionHours: { avg: 144 },
+			transitionedStack: { "type": "item", "code": "game:rot" },
+			transitionRatio: 0.5
+		}],
+  },
+  "guiTransformByType": {
+    "*-cocoapowder": {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 165, y: 51, z: -20 },
+		origin: { x: 0.5, y: 0.08, z: 0.44 },
+		scale: 2.64
+    },
+	"@*-(chocolate|milkchocolate|whitechocolate|nutchocolate)": {
+		"translation": { x: 0, y: 0, z: 0 },
+		"rotation": { "x": -33, "y": 29, "z": 180 },
+		"origin": { "x": 0.3, "y": -0.24, "z": 0.11 },
+		"scale": 3.74
+	}
+  },
+	tpHandTransformByType: {
+		"*-cocoapowder": {
+			translation: { x: -0.28, y: -0.8, z: -1.3 },
+			rotation: { x: 119, y: -7, z: -72 },
+			origin: { x: -0.02, y: 0.32, z: 0.81 },
+			scale: 0.38
+		},
+	"@*-(chocolate|milkchocolate|whitechocolate|nutchocolate)": {
+			"translation": { "x": 0.2, "y": 0.5, "z": -0.85 },
+			"rotation": { "x": -78, "y": -112, "z": -38 },
+			"origin": { "x": -0.8, "y": 0.23, "z": 0.1 },
+			"scale": 0.81
+		}
+		},
+	"groundTransformByType": {
+		"*-cocoapowder": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3
+		},
+	"@*-(chocolate|milkchocolate|whitechocolate|nutchocolate)": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 3.72
+		}
+    },
+	heldTpIdleAnimationByType: {
+		"*-cocoapowder": "holdbothhands",
+	},
+	"heldRightReadyAnimationByType": {
+		"*-cocoapowder": "holdbothhands"
+	},
+}

@@ -1,0 +1,58 @@
+{
+	code: "tofu",
+	isFood: true,
+	perishableProps: {
+		type: "None",
+		freshHours: { avg: 3360 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "wildcraftfruit:tofu-raw", quantity: 1 }
+	},
+	shape: { base: "game:block/food/meal/liquid" },
+	ingredients: [
+		{
+			code: "soymilk", 
+			validStacks: [ 
+				{ type: "item", code: "wildcraftfruit:soymilkportion" },
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 3,
+		},
+		{
+			code: "souringagent", 
+			validStacks: [ 
+				{ type: "item", code: "game:juiceportion-cherry" },
+				{ type: "item", code: "game:juiceportion-blueberry" },
+				{ type: "item", code: "game:juiceportion-cranberry" },
+				{ type: "item", code: "game:juiceportion-pomegranate" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-citron" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-lime" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-fingerlime" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-grapefruit" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-gooseberry" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-crabapple" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-sloe" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-passionfruit" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-lemonaspen" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-numnum" },
+				{ type: "item", code: "wildcraftfruit:juiceportion-lingonberry" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-apple" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-rice" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-kiwi" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-pomegranate" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-currant" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-jujube" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-plum" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-fruit" },
+				{ type: "item", code: "wildcraftfruit:vinegarportion-white" } ],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 0.4,
+		}
+	],
+	cooksInto: { type: "Item", code: "wildcraftfruit:tofu-raw", quantity: 1 }
+}

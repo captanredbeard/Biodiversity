@@ -1,0 +1,29 @@
+[
+	{
+		code: "chlorociborialog",
+		sealHours: 168,
+		ingredients: [
+			{ type: "block", code: "wildcrafttree:cleanedstump-chlorociboria-ud",  quantity: 1 },
+			{ type: "item", code: "game:brineportion",  litres: 5 },
+		],
+		output: { type: "block", code: "wildcrafttree:log-placed-chlorociboria-ud", quantity: 1 }
+	},
+	{
+		code: "chlorociborialog",
+		sealHours: 168,
+		ingredients: [
+			{ type: "block", code: "wildcrafttree:cleanedstump-chlorociboria-ud",  quantity: 1 },
+			{ type: "item", code: "game:dilutedalumportion",  litres: 5 },
+		],
+		output: { type: "block", code: "wildcrafttree:log-placed-chlorociboria-ud", quantity: 1 }
+	},
+	{
+		code: "chlorociborialog",
+		sealHours: 168,
+		ingredients: [
+			{ type: "block", code: "wildcrafttree:cleanedstump-chlorociboria-ud",  quantity: 1 },
+			{ type: "item", code: "game:dilutedboraxportion",  litres: 5 },
+		],
+		output: { type: "block", code: "wildcrafttree:log-placed-chlorociboria-ud", quantity: 1 }
+	}
+]

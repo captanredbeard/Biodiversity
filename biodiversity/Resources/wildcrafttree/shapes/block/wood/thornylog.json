@@ -1,0 +1,204 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"honeylocust_bark": "block/wood/bark/honeylocust",
+		"honeylocust_trunk": "block/wood/treetrunk/honeylocust",
+		"thorns1": "block/wood/thorns1",
+		"thorns2": "block/wood/thorns2",
+		"thorns3": "block/wood/thorns3",
+		"thorns4": "block/wood/thorns4"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 16.0, 16.0, 16.0 ], 
+			"faces": {
+				"north": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"east": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"south": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"up": { "texture": "#honeylocust_trunk", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#honeylocust_trunk", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 5.0, -3.0, 16.0 ], 
+					"to": [ 21.0, 13.0, 16.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 13.0, 13.0, 16.0 ],
+					"rotationX": -15.0,
+					"faces": {
+						"north": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"east": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"south": { "texture": "#thorns2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "windMode": [5,5,0,0], "windData": [0,0,0,0] },
+						"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"up": { "texture": "#thorns1", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "rotation": 180, "enabled": false },
+						"down": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube3",
+					"from": [ 5.0, 13.0, 16.0 ], 
+					"to": [ 21.0, 29.0, 16.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 13.0, 13.0, 16.0 ],
+					"rotationX": 15.0,
+					"faces": {
+						"north": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"east": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"south": { "texture": "#thorns3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,5,5], "windData": [0,0,1,1] },
+						"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"up": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube4",
+					"from": [ -3.0, -11.0, 16.0 ], 
+					"to": [ 13.0, 5.0, 16.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 5.0, 5.0, 16.0 ],
+					"rotationX": -15.0,
+					"faces": {
+						"north": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"east": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"south": { "texture": "#thorns3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "windMode": [5,5,0,0] },
+						"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"up": { "texture": "#thorns1", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "rotation": 180, "enabled": false },
+						"down": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube5",
+					"from": [ -3.0, 5.0, 16.0 ], 
+					"to": [ 13.0, 21.0, 16.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 5.0, 5.0, 16.0 ],
+					"rotationX": 15.0,
+					"faces": {
+						"north": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"east": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"south": { "texture": "#thorns4", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,5,5], "windData": [0,0,1,1] },
+						"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"up": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube6",
+					"from": [ 0.0, -14.0, -7.0 ], 
+					"to": [ 0.0, 10.0, 17.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 10.0, -7.0 ],
+					"rotationZ": -15.0,
+					"faces": {
+						"north": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"east": { "texture": "#thorns1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false, "windMode": [5,0,0,5] },
+						"south": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"down": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube7",
+					"from": [ 0.0, 10.0, -3.0 ], 
+					"to": [ 0.0, 26.0, 13.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 10.0, -3.0 ],
+					"rotationZ": 15.0,
+					"faces": {
+						"north": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"east": { "texture": "#thorns2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"up": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube8",
+					"from": [ -1.0, -4.0, 0.0 ], 
+					"to": [ 15.0, 12.0, 0.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ -1.0, 12.0, 0.0 ],
+					"rotationX": 15.0,
+					"faces": {
+						"north": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"east": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"south": { "texture": "#thorns3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "windMode": [5,5,0,0] },
+						"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"up": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#thorns3", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube9",
+					"from": [ -1.0, 12.0, 0.0 ], 
+					"to": [ 15.0, 28.0, 0.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ -1.0, 12.0, 0.0 ],
+					"rotationX": -15.0,
+					"faces": {
+						"north": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"east": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"south": { "texture": "#thorns4", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,5,5], "windData": [0,0,1,1] },
+						"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"up": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#thorns3", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube10",
+					"from": [ 16.0, -9.0, 3.0 ], 
+					"to": [ 16.0, 7.0, 19.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 16.0, 7.0, 3.0 ],
+					"rotationZ": 15.0,
+					"faces": {
+						"north": { "texture": "#thorns2", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"east": { "texture": "#thorns2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "windMode": [5,0,0,5] },
+						"south": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"up": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Cube11",
+					"from": [ 16.0, 7.0, 3.0 ], 
+					"to": [ 16.0, 23.0, 19.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 16.0, 7.0, 3.0 ],
+					"rotationZ": -15.0,
+					"faces": {
+						"north": { "texture": "#thorns2", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"east": { "texture": "#thorns3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"west": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"up": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#honeylocust_bark", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

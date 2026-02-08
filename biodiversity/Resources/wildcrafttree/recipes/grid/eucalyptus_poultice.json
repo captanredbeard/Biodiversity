@@ -1,0 +1,98 @@
+[
+	{
+		ingredientPattern: "H	L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcrafttree:leaves-eucalyptus", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:poultice-linen-eucalyptus", quantity: 4  }
+	},
+	
+	{
+		ingredientPattern: "H	C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcrafttree:leaves-eucalyptus", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:poultice-reed-eucalyptus", quantity: 4  }
+	},
+	
+	{
+		ingredientPattern: "H	P",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"H": { type: "item", code: "wildcrafttree:leaves-eucalyptus", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:poultice-reed-eucalyptus", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcrafttree:eucalyptussap", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:poultice-linen-eucalyptussap", quantity: 4  }
+	},
+	
+	{
+		ingredientPattern: "H	C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcrafttree:eucalyptussap", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:poultice-reed-eucalyptussap", quantity: 4  }
+	},
+	
+	{
+		ingredientPattern: "H	P",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"H": { type: "item", code: "wildcrafttree:eucalyptussap", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:poultice-reed-eucalyptussap", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcrafttree:latex", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:poultice-linen-latex", quantity: 4  }
+	},
+	
+	{
+		ingredientPattern: "H	C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcrafttree:latex", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:poultice-reed-latex", quantity: 4  }
+	},
+	
+	{
+		ingredientPattern: "H	P",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"H": { type: "item", code: "wildcrafttree:latex", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:poultice-reed-latex", quantity: 4  }
+	},
+]

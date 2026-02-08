@@ -1,0 +1,33 @@
+{
+	"code": "quandongpits",
+	"attributes": {},
+	"maxstacksize": 64,
+	"shape": { base: "wildcraftfruit:item/quandongstuff/quandongpits" },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraftfruit": [ "*" ] },
+	"storageFlags": 33,
+	"guiTransform": {
+              "translation": { x: 0, y: 0, z: 0 },
+              "rotation": { x: 142, y: -138, z: 2 },
+              "origin": { x: 0.94, y: -0.43, z: 0 },
+              "scale": 3.49
+        },
+	"fpHandTransform": {
+		"rotation": { x: 20, y: 103, z: -6 },
+		"origin": { x: 0.5, y: 0.4, z: 0.55 },
+  		"scale": 1.66
+	},
+	"tpHandTransform": {
+		"translation": { x: -0.1, y: 0.2, z: -0.8 },
+		"rotation": { x: 138, y: -19, z: -66 },
+		"origin": { x: 0.12, y: -0.25, z: 0.37 },
+		"scale": 0.42
+	},
+	"groundTransform": {
+		"translation": { x: 0, y: 0, z: 0 },
+		"rotation": { x: 7, y: 28, z: -7 },
+		"origin": { x: 0.5, y: 0, z: 0.53 },
+		"scale": 2.46
+	},
+	"materialDensity": 300,
+	"heldTpIdleAnimation": "holdbothhands",
+}

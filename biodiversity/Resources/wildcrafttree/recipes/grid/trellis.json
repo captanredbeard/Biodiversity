@@ -1,0 +1,623 @@
+[
+      {
+	ingredientPattern: "SNS,WSW,W_W",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcrafttree:woodtrellis-{wood}-middle-basic-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "WNW,WSW,WSW",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcrafttree:woodtrellis-{wood}-middle-ladder-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "WNW,WRW,WSW",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" },
+		"R": { type: "item", code: "game:rope", quantity: 4 }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcrafttree:woodtrellis-{wood}-middle-netted-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "WSW,SNS,WSW",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcrafttree:woodtrellis-{wood}-middle-grid-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "SWS,WNW,SWS",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcrafttree:woodtrellis-{wood}-middle-diamond-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "SNW,_W_,W_S",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcrafttree:woodtrellis-{wood}-middle-slanted-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "_SN,SWS,SWS",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcrafttree:woodtrellis-{wood}-middle-frond-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "_WN,WSW,WSW",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcrafttree:woodtrellis-{wood}-middle-pane-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "SWN,_WS,SW_",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcrafttree:woodtrellis-{wood}-middle-chaotic-north", "quantity": 8 }
+      },
+      {
+	ingredientPattern: "WNW,WSW,SWS",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood" },
+		"N": { type: "item", code: "game:saw-*", isTool: true },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 3,
+	recipeGroup: 1,
+	output: { type: "block", code: "wildcrafttree:woodtrellis-{wood}-middle-windows-north", "quantity": 8 }
+      },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-middle-basic-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-bottom-basic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-bottom-basic-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-top-basic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-top-basic-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-corner-basic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-corner-basic-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-horizontal-basic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-horizontal-basic-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-middle-basic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-middle-ladder-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-bottom-ladder-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-bottom-ladder-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-top-ladder-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-top-ladder-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-corner-ladder-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-corner-ladder-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-horizontal-ladder-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-horizontal-ladder-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-middle-ladder-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-middle-grid-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-bottom-grid-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-bottom-grid-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-top-grid-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-top-grid-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-corner-grid-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-corner-grid-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-horizontal-grid-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-horizontal-grid-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-middle-grid-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-middle-diamond-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-bottom-diamond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-bottom-diamond-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-top-diamond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-top-diamond-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-corner-diamond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-corner-diamond-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-horizontal-diamond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-horizontal-diamond-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-middle-diamond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-middle-windows-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-bottom-windows-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-bottom-windows-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-top-windows-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-top-windows-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-corner-windows-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-corner-windows-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-horizontal-windows-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-horizontal-windows-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-middle-windows-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-middle-pane-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-bottom-pane-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-bottom-pane-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-top-pane-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-top-pane-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-corner-pane-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-corner-pane-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-horizontal-pane-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-horizontal-pane-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-middle-pane-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-middle-frond-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-bottom-frond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-bottom-frond-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-top-frond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-top-frond-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-corner-frond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-corner-frond-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-horizontal-frond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-horizontal-frond-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-middle-frond-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-middle-slanted-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-bottom-slanted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-bottom-slanted-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-top-slanted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-top-slanted-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-corner-slanted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-corner-slanted-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-horizontal-slanted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-horizontal-slanted-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-middle-slanted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-middle-netted-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-bottom-netted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-bottom-netted-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-top-netted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-top-netted-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-corner-netted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-corner-netted-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-horizontal-netted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-horizontal-netted-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-middle-netted-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-middle-chaotic-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-bottom-chaotic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-bottom-chaotic-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-top-chaotic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-top-chaotic-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-corner-chaotic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-corner-chaotic-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-horizontal-chaotic-north" }
+  },
+  {
+    "ingredientPattern": "S",
+    "shapeless": true,
+    "ingredients": {
+      "S": { type: "block", code: "wildcrafttree:woodtrellis-*-horizontal-chaotic-north", name: "wood" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "block", "code": "wildcrafttree:woodtrellis-{wood}-middle-chaotic-north" }
+  }
+]

@@ -1,0 +1,52 @@
+{
+	code: "solidcocoabutter",
+	maxstacksize: 32,
+	shape: { base: "wildcraftfruit:item/solidcocoabutter" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcraftfruit": ["*"] },
+	attributes: {
+		displaycaseable: true,
+		shelvable: true,
+		"nutritionPropsWhenInMeal": { saturation: 200, foodcategory: "NoNutrition" },
+	onshelfTransform: {
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.77
+	},
+	onDisplayTransform: {
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.85
+	},
+	},
+	nutritionProps: { saturation: 200, foodcategory: "NoNutrition" },
+	materialDensity: 200,
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -28, y: 38, z: 180 },
+		origin: { x: 0.51, y: 0.1, z: 0.5 },
+		scale: 3.47
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 1 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.07
+	},
+	tpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 25, y: 106, z: 54 },
+		origin: { x: 0.32, y: -0.25, z: -0.06 },
+		scale: 0.7
+	},
+	"heldRightReadyAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+        },
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 3360 },
+		transitionHours: { avg: 48 },
+		transitionedStack: { type: "item", code: "game:rot" },
+		transitionRatio: 1
+	}],
+}

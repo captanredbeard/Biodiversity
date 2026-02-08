@@ -1,0 +1,96 @@
+{
+	"code": "cleanedstump",
+	"class": "BlockLog",
+	"behaviorsByType": {
+		"*": [{name: "Pillar"}]
+	},
+	attributes: {
+		handbook: {
+			groupBy: ["cleanedstump-chlorociboria-*"]
+		}
+        },
+        "creativeinventory": { "general": ["*-ud"], "flora": ["*-ud"], "wildcrafttree": ["*-ud"] },
+        "variantgroups": [
+                { "code": "wood", "states": [ "chlorociboria" ] },
+		{ code: "rotation", states: ["ud", "ns", "we"] },
+        ],
+	"renderpass": "OpaqueNoCull",
+	"shape": { base: "game:block/basic/cube" },
+	"drawtype": "cube",
+	"blockmaterial": "Wood",
+	"requiredMiningTier": 1,
+	"texturesByType": {
+		"*-ud": {
+			"all": { base: "wildcrafttree:block/wood/bark/chlorociboria" },
+			"inside-north": { base: "game:block/wood/debarked/chlorociboria", rotation: 90 },
+			"inside-east": { base: "game:block/wood/debarked/chlorociboria", rotation: 90 },
+			"inside-south": { base: "game:block/wood/debarked/chlorociboria", rotation: 90 },
+			"inside-west": { base: "game:block/wood/debarked/chlorociboria", rotation: 90 },
+
+			"up": { base: "wildcrafttree:block/wood/treetrunk/chlorociboria" },
+			"down": { base: "wildcrafttree:block/wood/treetrunk/chlorociboria" }
+		},
+		"*-ns": {
+			"all": { base: "wildcrafttree:block/wood/bark/chlorociboria-h" },
+			"up": { base: "wildcrafttree:block/wood/bark/chlorociboria" },
+			"down": { base: "wildcrafttree:block/wood/bark/chlorociboria" },
+
+
+			"inside-up": { base: "game:block/wood/debarked/chlorociboria", rotation: 90 },
+			"inside-down": { base: "game:block/wood/debarked/chlorociboria", rotation: 90 },
+			"inside-west": { base: "game:block/wood/debarked/chlorociboria" },
+			"inside-east": { base: "game:block/wood/debarked/chlorociboria" },
+
+
+			"north": { base: "wildcrafttree:block/wood/treetrunk/chlorociboria" },
+			"south": { base: "wildcrafttree:block/wood/treetrunk/chlorociboria" }
+		},
+		"*-we": {
+			"all": { base: "wildcrafttree:block/wood/bark/chlorociboria-h" },
+			"up": { base: "wildcrafttree:block/wood/bark/chlorociboria-h" },
+
+			"inside-up": { base: "game:block/wood/debarked/chlorociboria" },
+			"inside-down": { base: "game:block/wood/debarked/chlorociboria" },
+			"inside-north": { base: "game:block/wood/debarked/chlorociboria" },
+			"inside-south": { base: "game:block/wood/debarked/chlorociboria" },
+
+
+			"west": { base: "wildcrafttree:block/wood/treetrunk/chlorociboria" },
+			"east": { base: "wildcrafttree:block/wood/treetrunk/chlorociboria" }
+		},
+	},
+	"blockmaterial": "Wood",
+	"requiredMiningTier": 1,
+        "combustiblePropsByType": {
+        "*-chlorociboria-*": {
+            "burnTemperature": 700,
+            "burnDuration": 40
+        }
+        },
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+        "replaceable": 500,
+        "resistance": 4.5,
+        "maxStackSize": 16,
+	"materialDensity": 700,
+        "drops": [{ "type": "block", "code": "wildcrafttree:cleanedstump-chlorociboria-ud", "quantity": { "avg": 1 } }],
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldRightReadyAnimation": "heldblockready", "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+        "rotation": { "x": -2, "y": 25, "z": -78 },
+        "scale": 0.4
+    },
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": { "hit": "game:block/chop", "break": "game:block/planks" }
+		}
+	}
+}

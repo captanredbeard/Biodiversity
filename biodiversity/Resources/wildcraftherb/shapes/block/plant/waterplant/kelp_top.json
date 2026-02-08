@@ -1,0 +1,104 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"giantkelp_top": "block/plant/kelp/giantkelp_top",
+		"giantkelp_base": "block/plant/kelp/giantkelp_base",
+		"giantkelp_thallus_long": "block/plant/kelp/giantkelp_thallus_long",
+		"giantkelp_thallus_short": "block/plant/kelp/giantkelp_thallus_short",
+		"giantkelp_thallus_medium": "block/plant/kelp/giantkelp_thallus_medium"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Leaves",
+					"from": [ -8.0, 0.0, 0.0 ], 
+					"to": [ 8.0, 16.0, 0.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"faces": {
+						"north": { "texture": "#giantkelp_top", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+						"east": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"south": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"west": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"up": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Leaves2",
+							"from": [ 9.0, 13.5, -8.0 ], 
+							"to": [ 9.0, 29.5, 8.0 ], 
+							"shade": false,
+							"renderPass": 2,
+							"rotationOrigin": [ 9.0, 13.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#giantkelp_thallus_short", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+								"east": { "texture": "#giantkelp_thallus_short", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+								"south": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+								"west": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+								"up": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+								"down": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Leaves4",
+					"from": [ -8.0, 0.0, 0.0 ], 
+					"to": [ 8.0, 16.0, 0.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -135.0,
+					"faces": {
+						"north": { "texture": "#giantkelp_top", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+						"east": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"south": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"west": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"up": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Leaves5",
+							"from": [ 9.0, 13.5, -8.0 ], 
+							"to": [ 9.0, 29.5, 8.0 ], 
+							"shade": false,
+							"renderPass": 2,
+							"rotationOrigin": [ 9.0, 13.5, 0.0 ],
+							"faces": {
+								"north": { "texture": "#giantkelp_thallus_short", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+								"east": { "texture": "#giantkelp_thallus_short", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+								"south": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+								"west": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+								"up": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+								"down": { "texture": "#giantkelp_base", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,1169 @@
+[  
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of minerslettuce",
+      "blockCodes": [
+        "wildcraftherb:smallannualplant-minerslettuce-normal"
+      ],
+      "minTemp": 4,
+      "maxTemp": 22,
+      "minRain": 0.55,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.1,
+      "minForest": 0.55,
+      "maxForest": 1,
+      "maxY": 1.22,
+      "quantity": { "dist": "stronginvexp", "avg": 120, "var": 50 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of woodspurge",
+      "blockCodes": [
+        "wildcraftherb:smallannualplant-woodspurge-normal"
+      ],
+      "minTemp": -5,
+      "maxTemp": 12,
+      "minRain": 0.1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.5,
+      "minForest": 0.5,
+      "maxY": 1.82,
+      "quantity": { "dist": "stronginvexp", "avg": 120, "var": 50 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of stinging nettle",
+      "blockCodes": [
+        "wildcraftherb:annualplant-stingingnettle-normal"
+      ],
+      "minTemp": 0,
+      "maxTemp": 20,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.05,
+      "minForest": 0.65,
+      "maxForest": 1,
+      "maxY": 0.62,
+      "quantity": { "dist": "stronginvexp", "avg": 3, "var": 10 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of butterbur",
+      "blockCodes": [
+        "wildcraftherb:leafyperennialplant-butterbur-normal"
+      ],
+      "minTemp": 0,
+      "maxTemp": 20,
+      "minRain": 0.6,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.1,
+      "minForest": 0.5,
+      "maxForest": 1,
+      "quantity": { "dist": "stronginvexp", "avg": 20, "var": 5 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of rhubarb",
+      "blockCodes": [
+        "wildcraftherb:leafyperennialplant-rhubarb-normal"
+      ],
+      "minTemp": 0,
+      "maxTemp": 20,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.2,
+      "maxForest": 0.3,
+      "maxY": 0.62,
+      "quantity": { "dist": "stronginvexp", "avg": 8, "var": 5 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of jewelweed",
+      "blockCodes": [
+        "wildcraftherb:annualplant-jewelweed-normal"
+      ],
+      "minTemp": 0,
+      "maxTemp": 20,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.1,
+      "minForest": 0.65,
+      "maxForest": 1,
+      "maxY": 0.62,
+      "placement":"NearWater",
+      "quantity": { "dist": "stronginvexp", "avg": 3, "var": 10 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of basil in warm wet areas (tropical)",
+      "blockCodes": [
+        "wildcraftherb:annualplant-basil-normal"
+      ],
+      "minTemp": 22,
+      "maxTemp": 42,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.03,
+      "minForest": 0.5,
+      "maxForest": 1,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of katuk in warm wet areas (tropical)",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-katuk-normal"
+      ],
+      "minTemp": 22,
+      "maxTemp": 42,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.1,
+      "minForest": 0.6,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 12,
+        "var": 24
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of black pepper in warm wet areas (tropical)",
+      "blockCodes": [
+        "wildcraftherb:annualplant-blackpepper-normal"
+      ],
+      "minTemp": 22,
+      "maxTemp": 42,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.03,
+      "minForest": 0.5,
+      "maxForest": 1,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of bearleek in temperate wooded/wet areas ",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-bearleek-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.45,
+      "maxFertility": 1.0,
+      "chance": 0.03,
+      "minForest": 0.45,
+      "maxForest": 1,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of chamomile in temperate dry fields",
+      "blockCodes": [
+        "wildcraftherb:annualplant-chamomile-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.0,
+      "maxRain": 0.35,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.03,
+      "minForest": 0.0,
+      "maxForest": 0.35,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of marshmallow in temperate areas near water",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-marshmallow-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.35,
+      "maxRain": 1.0,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.03,
+      "minForest": 0.0,
+      "maxForest": 0.75,
+      "maxY": 0.62,
+      "placement": "NearWater",
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Large patches of skunk cabbage in temerpate rainy areas near water and in some forest (hopefully wetlands and swamps)",
+      "blockCodes": [
+        "wildcraftherb:amphibiousplant-skunkcabbage-small-free",
+        "wildcraftherb:amphibiousplant-skunkcabbage-medium-free",
+        "wildcraftherb:amphibiousplant-skunkcabbage-large-free"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minForest": 0.8,
+      "minRain": 0.6,
+      "chance": 0.2,
+      "placement": "NearWater",
+      "quantity": { "avg": 25, "var": 5 },
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of burdock in temperate areas near water",
+      "blockCodes": [
+        "wildcraftherb:annualplant-burdock-normal"
+      ],
+      "minTemp": -2,
+      "maxTemp": 22,
+      "minRain": 0.35,
+      "maxRain": 1.0,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.03,
+      "minForest": 0.0,
+      "maxForest": 1.0,
+      "maxY": 0.62,
+      "placement": "NearWater",
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of cilantro in temperate areas",
+      "blockCodes": [
+        "wildcraftherb:annualplant-cilantro-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.35,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.03,
+      "minForest": 0.15,
+      "maxForest": 1.0,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of stjohnswort in temperate clear areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-stjohnswort-normal"
+      ],
+      "minTemp": 4,
+      "maxTemp": 32,
+      "minRain": 0.35,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "chance": 0.04,
+      "minForest": 0.05,
+      "maxForest": 0.55,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of holly in subtropical forests",
+      "blockCodes": [
+        "wildcraftherb:evergreenplant-holly-normal"
+      ],
+      "minTemp": 12,
+      "maxTemp": 36,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "chance": 0.04,
+      "minForest": 0.65,
+      "maxY": 0.72,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of chicory in temperate areas",
+      "blockCodes": [
+        "wildcraftherb:annualplant-chicory-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.03,
+      "maxForest": 0.65,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of marigold in subtropical areas",
+      "blockCodes": [
+        "wildcraftherb:annualplant-marigold-normal"
+      ],
+      "minTemp": 22,
+      "maxTemp": 38,
+      "minRain": 0.15,
+      "maxRain": 0.75,
+      "minFertility": 0.25,
+      "chance": 0.04,
+      "maxForest": 0.65,
+      "maxY": 0.72,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of inula in temperate areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-inula-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.65,
+      "minFertility": 0.25,
+      "chance": 0.03,
+      "maxForest": 0.65,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of celandine in temperate areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-celandine-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.75,
+      "minFertility": 0.25,
+      "chance": 0.03,
+      "maxForest": 0.65,
+      "maxY": 0.62,
+      "placement": "NearWater",
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of leek in temperate areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-leek-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.75,
+      "minFertility": 0.25,
+      "chance": 0.01,
+      "minForest": 0.65,
+      "maxY": 0.62,
+      "placement": "OnSurfacePlusUnderTrees",
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of plantain in areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-plantain-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 38,
+
+      "minRain": 0.25,
+      "minFertility": 0.25,
+      "chance": 0.01,
+      "minForest": 0.25,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of saltwort in warm areas",
+      "blockCodes": [
+        "wildcraftherb:annualplant-saltwort-normal"
+      ],
+      "minTemp": 28,
+      "maxRain": 0.75,
+      "maxFertility": 0.35,
+      "chance": 0.03,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of yarrow in  areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-yarrow-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 38,
+      "maxRain": 0.45,
+      "maxFertility": 0.4,
+      "maxForest": 0.55,
+      "chance": 0.04,
+      "maxY": 0.72,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of liquorice in  areas",
+      "blockCodes": [
+        "wildcraftherb:annualplant-liquorice-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 28,
+      "minRain": 0.25,
+      "maxRain": 0.85,
+      "minFertility": 0.25,
+      "maxForest": 0.55,
+      "chance": 0.03,
+      "maxY": 0.72,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of thyme in temperate clear areas",
+      "blockCodes": [
+        "wildcraftherb:evergreenplant-thyme-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 28,
+      "minRain": 0.25,
+      "maxRain": 1.0,
+      "minFertility": 0.15,
+      "maxFertility": 0.55,
+      "chance": 0.03,
+      "minForest": 0.05,
+      "maxForest": 0.45,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of mugwort in temperate clear and forestsed areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-mugwort-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 28,
+      "minRain": 0.35,
+      "maxRain": 1.0,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.01,
+      "minForest": 0.05,
+      "maxForest": 0.75,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of mint in temperate areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-mint-normal"
+      ],
+      "minTemp": 0,
+      "maxTemp": 24,
+      "minRain": 0.35,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.03,
+      "minForest": 0.15,
+      "maxForest": 1.0,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of lavender in temperate areas",
+      "blockCodes": [
+        "wildcraftherb:evergreenplant-lavender-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 28,
+      "maxRain": 0.5,
+      "minFertility":0.25,
+      "chance": 0.003,
+      "maxForest": 0.35,
+      "maxY": 0.72,
+      quantity: { dist: "invexp", avg: 25, var: 15 },
+      offsetX: { dist: "gaussian", avg: 0, var: 12 },
+      offsetZ: { dist: "gaussian", avg: 0, var: 12 },
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of mustard in temperate areas",
+      "blockCodes": [
+        "wildcraftherb:annualplant-mustard-normal"
+      ],
+      "minTemp": 0,
+      "maxTemp": 22,
+      "minRain": 0.35,
+      "maxRain": 1.0,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.02,
+      "minForest": 0.25,
+      "maxForest": 1.0,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of celery",
+      "blockCodes": [
+        "wildcraftherb:annualplant-celery-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.55,
+      "maxFertility": 1.0,
+      "chance": 0.01,
+      "minForest": 0.0,
+      "maxForest": 0.5,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of saffron",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-saffron-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.45,
+      "maxRain": 0.9,
+      "minFertility": 0.55,
+      "maxFertility": 1.0,
+      "chance": 0.02,
+      "minForest": 0.0,
+      "maxForest": 0.55,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of sage",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-sage-normal"
+      ],
+      "minTemp": 4,
+      "maxTemp": 28,
+      "minRain": 0.15,
+      "maxRain": 0.75,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.04,
+      "minForest": 0.0,
+      "maxForest": 0.35,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of dill",
+      "blockCodes": [
+        "wildcraftherb:annualplant-dill-normal"
+      ],
+      "minTemp": 6,
+      "maxTemp": 28,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.55,
+      "maxFertility": 1.0,
+      "chance": 0.02,
+      "minForest": 0.0,
+      "maxForest": 0.5,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of rosemary",
+      "blockCodes": [
+        "wildcraftherb:evergreenplant-rosemary-normal"
+      ],
+      "minTemp": 6,
+      "maxTemp": 28,
+      "minRain": 0.15,
+      "maxRain": 0.85,
+      "minFertility": 0.15,
+      "maxFertility": 0.85,
+      "chance": 0.03,
+      "minForest": 0.0,
+      "maxForest": 0.5,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of marjoram",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-marjoram-normal"
+      ],
+      "minTemp": 15,
+      "maxTemp": 32,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.45,
+      "maxFertility": 1.0,
+      "chance": 0.03,
+      "minForest": 0.0,
+      "maxForest": 0.35,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of dock",
+      "blockCodes": [
+        "wildcraftherb:annualplant-dock-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 32,
+      "minRain": 0.15,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.02,
+      "minForest": 0.0,
+      "maxForest": 0.35,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of poison oak in temperate forests",
+      "blockCodes": [
+        "wildcraftherb:evergreenplant-poisonoak-normal"
+      ],
+      "minTemp": -4,
+      "maxTemp": 22,
+      "minRain": 0.45,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.05,
+      "minForest": 0.45,
+      "maxY": 0.62,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "rare large Patches of poison oak in temperate forests",
+      "blockCodes": [
+        "wildcraftherb:evergreenplant-poisonoak-normal"
+      ],
+      "minTemp": -4,
+      "maxTemp": 22,
+      "minRain": 0.45,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.001,
+      "minForest": 0.45,
+      "maxY": 0.62,
+      quantity: { dist: "invexp", avg: 250, var: 150 },
+      offsetX: { dist: "gaussian", avg: 0, var: 24 },
+      offsetZ: { dist: "gaussian", avg: 0, var: 24 },
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of foxglove in temperate forests",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-foxglove-normal"
+      ],
+      "minTemp": -4,
+      "maxTemp": 22,
+      "minRain": 0.45,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.014,
+      "minForest": 0.3,
+      "maxForest": 0.9,
+      "maxY": 0.62,
+      quantity: { dist: "invexp", avg: 5, var: 3 },
+      offsetX: { dist: "gaussian", avg: 0, var: 6 },
+      offsetZ: { dist: "gaussian", avg: 0, var: 6 },
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of arnica in temperate/cold forests",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-arnica-normal"
+      ],
+      "minTemp": -10,
+      "maxTemp": 16,
+      "minRain": 0.45,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.06,
+      "minForest": 0.45,
+      "minY": 0.32,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of burnet in temperate/cold forests",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-burnet-normal"
+      ],
+      "minTemp": 0,
+      "maxTemp": 18,
+      "minRain": 0.35,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.06,
+      "maxForest": 0.45,
+      "maxY": 0.62,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of ginger in areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-ginger-normal"
+      ],
+      "minTemp": 28,
+      "minRain": 0.5,
+      "minFertility": 0.25,
+      "chance": 0.09,
+      "minForest": 0.5,
+      "maxY": 0.62,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of horehound in areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-horehound-normal"
+      ],
+      "minTemp": 32,
+      "minRain": 0.5,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.04,
+      "maxForest": 0.3,
+      "maxY": 0.62,
+      "quantity": { "dist": "invexp", "avg": 4, "var": 5 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of rockrose in areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-rockrose-normal"
+      ],
+      "minTemp": 28,
+      "minRain": 0.45,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.06,
+      "maxForest": 0.45,
+      "maxY": 0.62,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of cicuta in areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-cicuta-normal"
+      ],
+      "minTemp": -12,
+      "maxTemp": 2,
+      "minRain": 0.45,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.06,
+      "minForest": 0.65,
+      "maxY": 0.62,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of ginseng in areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-ginseng-normal"
+      ],
+      "minTemp": -12,
+      "maxTemp": 2,
+      "minRain": 0.45,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.06,
+      "minForest": 0.65,
+      "maxY": 0.62,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of tansy in areas",
+      "blockCodes": [
+        "wildcraftherb:perennialplant-tansy-normal"
+      ],
+      "minTemp": 8,
+      "maxTemp": 20,
+      "minRain": 0.5,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.06,
+      "minForest": 0.65,
+      "maxY": 0.62,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
+  }
+]

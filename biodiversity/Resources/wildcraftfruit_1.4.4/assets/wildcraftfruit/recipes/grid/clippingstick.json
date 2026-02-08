@@ -1,0 +1,46 @@
+[
+	{
+		ingredientPattern: "F",
+                shapeless: true,
+		ingredients: {
+			"F": { type: "item", code: "wildcraftfruit:clipping-*-dry", name: "type", allowedVariants: [ "pricklyheath", "cranberry", "blueberry", "huckleberry", "snowberry", "honeysuckle", "beautyberry", "numnum", "gooseberry", "redcurrant", "blackcurrant", "whitecurrant", "dogrose", "blueraspberry", "brambleberry", "raspberry", "bushlawyer", "sallowthorn", "deserthackberry", "spindle", "ugni", "feijoa", "wolfberry", "kumquat", "sumac", "pistachio", "kawakawa", "dwarfpine", "juniper", "lillypillypink", "lillypillywhite", "lillypillyblue", "fingerlime", "seamango", "munthari", "midyimberry", "bluetongue", "pilo", "mingimingi", "marita", "blackelder", "caper", "hazel", "sloe", "bilberry", "beachrose", "swamphuckle", "dewberry", "boysenberry", "loganberry", "josta", "bearberry", "blossomquince", "bladdernut" ] }
+		},
+		width: 1,
+		height: 1,
+		name: "stick",
+		output: { type: "item", code: "game:stick"  }
+	},
+	{
+		ingredientPattern: "F",
+                shapeless: true,
+		ingredients: {
+			"F": { type: "item", code: "wildcraftfruit:vineclipping-*-dry", name: "type", allowedVariants: [ "blackgrape", "redgrape", "whitegrape", "foxgrape", "virgingrape", "ivy", "kiwi", "hairyappleberry", "purpleappleberry", "kolomikta", "woodbine" ] }
+		},
+		width: 1,
+		height: 1,
+		name: "stick",
+		output: { type: "item", code: "game:stick"  }
+	},
+	{
+		ingredientPattern: "F",
+                shapeless: true,
+		ingredients: {
+			"F": { type: "item", code: "wildcraftfruit:clipping-*-dry", name: "type", allowedVariants: [ "pokeberry", "elderberry", "blacknightshade", "bitternightshade", "husktomato", "naranjilla", "turkscap", "flaxlily", "oldmansaltbush", "baneberry", "belladonna", "hairyeggplant", "redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper", "jalapeno", "cayenne", "habanero", "tabasco", "eggplant", "newhusktomato", "tomatillo", "tomato", "romatomato", "oxheart", "wildtomato", "falsetomato" ] }
+		},
+		width: 1,
+		height: 1,
+		name: "stick",
+		output: { type: "item", code: "game:drygrass"  }
+	},
+	{
+		ingredientPattern: "F",
+                shapeless: true,
+		ingredients: {
+			"F": { type: "item", code: "wildcraftfruit:vineclipping-*-dry", name: "type", allowedVariants: [ "cucumber", "bryony", "passionfruit", "granadilla" ] }
+		},
+		width: 1,
+		height: 1,
+		name: "stick",
+		output: { type: "item", code: "game:drygrass"  }
+	}
+]

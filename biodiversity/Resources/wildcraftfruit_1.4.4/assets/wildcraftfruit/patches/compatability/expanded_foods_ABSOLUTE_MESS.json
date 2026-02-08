@@ -1,0 +1,745 @@
+[
+  {
+    "file": "wildcraftfruit:patches/better_sunflower.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/pickledegg.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-*", allowedVariants: ["fruit", "white", "apple", "wine", "citrus", "plum", "currant", "kiwi"], litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "egg-chicken-boiled", quantity: 1, }
+    ],
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/vinegarpickledvegetable.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/vinegarpickledvegetable.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/fastvinegar.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/wildcraftfruit/fastvinegar.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/fruitvinegar.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/wildcraftfruit/fruitvinegar.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:patches/vinegarportion.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:patches/vinegarportion.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:patches/vinegarportion.json",
+    "op": "add",
+    "path": "/2/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:patches/vinegarportion.json",
+    "op": "add",
+    "path": "/3/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:patches/compatibility/wildcraftfruit/cider.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:patches/compatibility/wildcraftfruit/cider.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:patches/compatibility/wildcraftfruit/cider.json",
+    "op": "add",
+    "path": "/2/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "op": "replace",
+    "path": "/transitionableProps",
+    "value": [{
+		type: "Perish",
+		freshHours: { avg: 3360 },
+		transitionHours: { avg: 48 },
+		transitionedStackByType: {
+			"*-crabapple": { type: "item", code: "wildcraftfruit:vinegarportion-apple" },
+			"*-redgrape": { type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+			"*-whitegrape": { type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+			"*-blackgrape": { type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+			"*-foxgrape": { type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+			"*-pomace": { type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+			"*-gooseberry": { type: "item", code: "wildcraftfruit:vinegarportion-currant" },
+			"*-lingonberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-huckleberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-crowberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-cheeseberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-pineheath": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-pricklyheath": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-honeypots": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-citron": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-pomelo": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-lime": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-fingerlime": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-grapefruit": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-kumquat": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-purpleplum": { type: "item", code: "wildcraftfruit:vinegarportion-plum" },
+			"*-sloe": { type: "item", code: "wildcraftfruit:vinegarportion-plum" },
+			"*-greengage": { type: "item", code: "wildcraftfruit:vinegarportion-plum" },
+			"*-cherryplum": { type: "item", code: "wildcraftfruit:vinegarportion-plum" },
+			"*-kolomikta": { type: "item", code: "wildcraftfruit:vinegarportion-kiwi" },
+			"*-kiwi": { type: "item", code: "wildcraftfruit:vinegarportion-kiwi" },
+			"*-jujube": { type: "item", code: "wildcraftfruit:vinegarportion-jujube" },
+			"*-crowseye": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*-wolfberry": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*-bitternightshade": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*-spindle": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*-bryony": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*-seamango": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*": { type: "item", code: "wildcraftfruit:vinegarportion-fruit" }
+		},
+		transitionRatio: 1 },
+      {
+        "type": "Cure",
+        "freshHours": { "avg": 3360 },
+        "transitionHours": { "avg": 1008 },
+        "transitionedStack": { "type": "item", "code": "expandedfoods:wildstrongwineportion-{fruit}" },
+        "transitionRatio": 1
+      }],
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server",
+    "file": "wildcraftfruit:itemtypes/liquid/cider.json"
+  },
+  {
+    "file": "expandedfoods:patches/compatibility/wildcraftfruit/rawjuice.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:patches/rawjuice.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "wildcraftfruit:patches/wine_into_vinegar.json",
+    "op": "add",
+    "path": "/4/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "op": "replace",
+    "path": "/transitionableProps",
+    "value": [{
+		type: "Perish",
+		freshHours: { avg: 3360 },
+		transitionHours: { avg: 48 },
+		transitionedStackByType: {
+			"*-rice": { type: "item", code: "wildcraftfruit:vinegarportion-rice" },
+			"*-rye": { type: "item", code: "wildcraftfruit:vinegarportion-white" },
+			"*-spelt": { type: "item", code: "wildcraftfruit:vinegarportion-white" },
+			"*-amaranth": { type: "item", code: "wildcraftfruit:vinegarportion-white" },
+			"*-cassava": { type: "item", code: "wildcraftfruit:vinegarportion-white" },
+			"*-apple": { type: "item", code: "wildcraftfruit:vinegarportion-apple" },
+			"*-pomegranate": { type: "item", code: "wildcraftfruit:vinegarportion-pomegranate" },
+			"*-redcurrant": { type: "item", code: "wildcraftfruit:vinegarportion-currant" },
+			"*-blackcurrant": { type: "item", code: "wildcraftfruit:vinegarportion-currant" },
+			"*-whitecurrant": { type: "item", code: "wildcraftfruit:vinegarportion-currant" },
+			"*-cranberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-blueberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-orange": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-mead": { type: "item", code: "wildcraftfruit:vinegarportion-honey" },
+			"*": { type: "item", code: "wildcraftfruit:vinegarportion-fruit" }
+		},
+		transitionRatio: 1 },
+      {
+        "type": "Cure",
+        "freshHours": { "avg": 3360 },
+        "transitionHours": { "avg": 1008 },
+        "transitionedStack": { "type": "item", "code": "expandedfoods:strongwineportion-{fruit}" },
+        "transitionRatio": 1
+      }],
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server",
+    "file": "game:itemtypes/liquid/cider.json"
+  },
+  {
+    "file": "wildcraftfruit:patches/wine_into_vinegar.json",
+    "op": "add",
+    "path": "/4/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:patches/cider.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:patches/cider.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/2/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/3/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/4/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/5/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/6/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/7/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/8/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/9/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/10/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/11/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/12/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/13/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/14/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/15/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/16/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/17/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/18/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/19/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/20/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/21/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/22/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/23/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/24/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/25/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/26/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/27/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/28/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/29/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/30/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/31/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/32/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/33/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/34/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/35/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/36/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/37/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/38/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/39/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/40/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/41/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/42/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/43/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/44/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/45/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/46/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/winevinegar.json",
+    "op": "add",
+    "path": "/47/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/wildcraftfruit/winevinegar.json",
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/wildcraftfruit/winevinegar.json",
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/barrel/wildcraftfruit/winevinegar.json",
+    "op": "add",
+    "path": "/2/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:recipes/kneading/cottagecheese.json",
+    "op": "replace",
+    "path": "/0",
+    "value": { ingredients: [
+		{inputs: [{ type: "item", code: "wildcraftfruit:vinegarportion-*", allowedVariants: ["fruit", "white", "apple", "wine", "citrus", "plum", "currant", "kiwi"], quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:pasteurizedmilkportion", quantity: 10 }]},
+	],
+	output: { type: "item", code: "game:cottagecheeseportion", stackSize: 20}
+	},
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "op": "replace",
+    "path": "/0",
+    "value": { ingredients: [
+		{inputs: [{ type: "item", code: "wildcraftfruit:vinegarportion-*", allowedVariants: ["fruit", "white", "apple", "wine", "citrus", "plum", "currant", "kiwi"],  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "aculinaryartillery:eggwhiteportion",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }]},
+	],
+	output: { type: "item", code: "expandedfoods:dressing-salad", stackSize: 30}
+	},
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "op": "replace",
+    "path": "/1",
+    "value": { ingredients: [
+		{inputs: [{ type: "item", code: "wildcraftfruit:vinegarportion-*", allowedVariants: ["fruit", "white", "apple", "wine", "citrus", "plum", "currant", "kiwi"],  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "aculinaryartillery:eggwhiteportion",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }]},
+	],
+	output: { type: "item", code: "expandedfoods:dressing-salad", stackSize: 40}
+	},
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "op": "replace",
+    "path": "/2",
+    "value": { ingredients: [
+		{inputs: [{ type: "item", code: "wildcraftfruit:vinegarportion-*", allowedVariants: ["fruit", "white", "apple", "wine", "citrus", "plum", "currant", "kiwi"],  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "aculinaryartillery:eggwhiteportion",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+	],
+	output: { type: "item", code: "expandedfoods:dressing-salad", stackSize: 30}
+	},
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+  {
+    "file": "expandedfoods:recipes/kneading/dressing.json",
+    "op": "replace",
+    "path": "/3",
+    "value": { ingredients: [
+		{inputs: [{ type: "item", code: "wildcraftfruit:vinegarportion-*", allowedVariants: ["fruit", "white", "apple", "wine", "citrus", "plum", "currant", "kiwi"],  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "aculinaryartillery:eggwhiteportion",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+	],
+	output: { type: "item", code: "expandedfoods:dressing-salad", stackSize: 40}
+	},
+    "dependsOn": [{ "modid": "expandedfoods" }],
+    "side": "server"
+  },
+]

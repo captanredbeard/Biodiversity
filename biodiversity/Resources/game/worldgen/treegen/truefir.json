@@ -1,0 +1,36 @@
+{
+	treeWorldPropertyCode: "truefir",
+	sizeMultiplier: 0.8,
+	trunks: [{
+		widthloss: 0.044,
+		dieAt: { avg: 0.05 },
+		branchStart: { dist: "gaussian", avg: 0.2, var: 0.1 },
+		branchSpacing: { dist: "gaussian", avg: 0.2, var: 0.1 },
+		branchVerticalAngle:  { avg: 0.8, var: 0.3 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.4, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 1.5 },
+		branchQuantity: { avg: 2, var: 6 },
+	}],
+	branches: [{
+		widthLoss: 0.08,
+		gravityDrag: 0.1,
+		dieAt: { avg: 0.015 },
+
+		branchStart:  { avg: 0, var: 0.04 },
+		branchSpacing: { avg: 0.15, var: 0 },
+		branchVerticalAngle: { dist: "inversegaussian", avg: 0.5, var: 0.2 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 2, var: 0 },
+		branchWidthMultiplier: { avg: 0.4, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:log-grown-fir-ud",
+		otherLogBlockCode: "wildcrafttree:log-resin-fir-ud",
+		otherLogChance: 0.01,
+		leavesBlockCode: "wildcrafttree:leaves-placed-fir",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-fir",
+		mossDecorCode: "game:attachingplant-spottymoss"
+	}
+}

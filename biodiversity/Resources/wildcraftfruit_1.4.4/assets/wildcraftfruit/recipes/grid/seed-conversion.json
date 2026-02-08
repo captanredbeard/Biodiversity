@@ -1,0 +1,52 @@
+[
+  {
+    "ingredientPattern": "H",
+    "shapeless": true,
+    "ingredients": {
+      "H": { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "game:seeds-pumpkin" }
+  },
+  {
+    "ingredientPattern": "H",
+    "shapeless": true,
+    "ingredients": {
+      "H": { "type": "item", "code": "game:legume-peanut" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "game:seeds-peanut" }
+  },
+  {
+    "ingredientPattern": "H",
+    "shapeless": true,
+    "ingredients": {
+      "H": { "type": "item", "code": "game:legume-soybean" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "game:seeds-soybean" }
+  },
+  {
+    "ingredientPattern": "H",
+    "shapeless": true,
+    "ingredients": {
+      "H": { "type": "item", "code": "game:grain-sunflower" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "game:seeds-sunflower" }
+  },
+  {
+    "ingredientPattern": "H",
+    "shapeless": true,
+    "ingredients": {
+      "H": { "type": "item", "code": "game:grain-flax" }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "game:seeds-flax" }
+  }
+]

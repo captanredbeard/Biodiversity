@@ -1,0 +1,45 @@
+{
+	code: "table",
+	behaviors: [{name: "UnstableFalling"} ],
+	variantgroups: [
+		{ code:"type", states: ["petrified"] },
+	],
+	attributes: {
+		"pieFormingSurface": true
+	},
+	shape: { base: "wildcrafttree:block/wood/table" },
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventory: { "general": ["*"], "decorative": ["*"], "wildcrafttree": ["*"] },
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 1,
+	sidesolid: {
+		up: true,
+		all: false
+	},	
+	sideopaque: {
+		up: true,
+		all: false
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 35,
+	},
+	materialDensity: 400,
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.9 },
+		rotation: { x: 80, y: 0, z: 0 },
+		scale: 0.56
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: -0.2, z: 0.6 },
+		rotation: { x: 33, y: 134, z: -102 }
+	}
+}

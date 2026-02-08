@@ -1,0 +1,2595 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "achachamash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-achacha" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-achacha",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-achacha",
+        "value": {
+			base: "block/food/pie/fill-achacha",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "apricotmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-apricot" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-apricot",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-apricot",
+        "value": {
+			base: "block/food/pie/fill-apricot",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "beachalmondmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-pittedbeachalmond" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-pittedbeachalmond",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-pittedbeachalmond",
+        "value": {
+			base: "block/food/pie/fill-pittedbeachalmond",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "beautyberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-beautyberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-beautyberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-beautyberry",
+        "value": {
+			base: "block/food/pie/fill-beautyberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "blacknightshademash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-blacknightshade" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-blacknightshade",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-blacknightshade",
+        "value": {
+			base: "block/food/pie/fill-blacknightshade",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "blueraspberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-blueraspberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-blueraspberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-blueraspberry",
+        "value": {
+			base: "block/food/pie/fill-blueraspberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "bluetonguemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-bluetongue" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-bluetongue",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-bluetongue",
+        "value": {
+			base: "block/food/pie/fill-bluetongue",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "brambleberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-brambleberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-brambleberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-brambleberry",
+        "value": {
+			base: "block/food/pie/fill-brambleberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "bunchberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-bunchberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-bunchberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-bunchberry",
+        "value": {
+			base: "block/food/pie/fill-bunchberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "bushlawyermash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-bushlawyer" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-bushlawyer",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-bushlawyer",
+        "value": {
+			base: "block/food/pie/fill-bushlawyer",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "cashewapplemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-cashewapple" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-cashewapple",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-cashewapple",
+        "value": {
+			base: "block/food/pie/fill-cashewapple",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "cheeseberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-cheeseberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-cheeseberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-cheeseberry",
+        "value": {
+			base: "block/food/pie/fill-cheeseberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "cherryplummash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-cherryplum" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-cherryplum",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-cherryplum",
+        "value": {
+			base: "block/food/pie/fill-cherryplum",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "citronmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-citron" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-citron",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-citron",
+        "value": {
+			base: "block/food/pie/fill-citron",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "cloudberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-cloudberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-cloudberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-cloudberry",
+        "value": {
+			base: "block/food/pie/fill-cloudberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "creepingpinemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-creepingpine" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-creepingpine",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-creepingpine",
+        "value": {
+			base: "block/food/pie/fill-creepingpine",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "crowberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-crowberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-crowberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-crowberry",
+        "value": {
+			base: "block/food/pie/fill-crowberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "dogrosemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-dogrose" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-dogrose",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-dogrose",
+        "value": {
+			base: "block/food/pie/fill-dogrose",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "elderberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-elderberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-elderberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-elderberry",
+        "value": {
+			base: "block/food/pie/fill-elderberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "engkalamash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-engkala" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-engkala",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-engkala",
+        "value": {
+			base: "block/food/pie/fill-engkala",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "falseorangemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-falseorange" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-falseorange",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-falseorange",
+        "value": {
+			base: "block/food/pie/fill-falseorange",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "falsestrawberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-falsestrawberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-falsestrawberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-falsestrawberry",
+        "value": {
+			base: "block/food/pie/fill-falsestrawberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "feijoamash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-feijoa" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-feijoa",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-feijoa",
+        "value": {
+			base: "block/food/pie/fill-feijoa",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "figmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-fig" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-fig",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-fig",
+        "value": {
+			base: "block/food/pie/fill-fig",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "fingerlimemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-fingerlime" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-fingerlime",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-fingerlime",
+        "value": {
+			base: "block/food/pie/fill-fingerlime",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "flaxlilymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-flaxlily" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-flaxlily",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-flaxlily",
+        "value": {
+			base: "block/food/pie/fill-flaxlily",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "foxgrapemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-foxgrape" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-foxgrape",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-foxgrape",
+        "value": {
+			base: "block/food/pie/fill-foxgrape",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "fractureberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-fractureberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-fractureberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-fractureberry",
+        "value": {
+			base: "block/food/pie/fill-fractureberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "gardenstrawberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-gardenstrawberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-gardenstrawberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-gardenstrawberry",
+        "value": {
+			base: "block/food/pie/fill-gardenstrawberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "gooseberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-gooseberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-gooseberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-gooseberry",
+        "value": {
+			base: "block/food/pie/fill-gooseberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "guajavamash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-guajava" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-guajava",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-guajava",
+        "value": {
+			base: "block/food/pie/fill-guajava",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "hawthornmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-hawthorn" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-hawthorn",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-hawthorn",
+        "value": {
+			base: "block/food/pie/fill-hawthorn",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "honeypotsmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-honeypots" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-honeypots",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-honeypots",
+        "value": {
+			base: "block/food/pie/fill-honeypots",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "honeysucklemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-honeysuckle" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-honeysuckle",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-honeysuckle",
+        "value": {
+			base: "block/food/pie/fill-honeysuckle",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "huckleberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-huckleberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-huckleberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-huckleberry",
+        "value": {
+			base: "block/food/pie/fill-huckleberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "husktomatomash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-husktomato" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-husktomato",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-husktomato",
+        "value": {
+			base: "block/food/pie/fill-husktomato",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "illawarramash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-illawarra" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-illawarra",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-illawarra",
+        "value": {
+			base: "block/food/pie/fill-illawarra",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "jujubemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-jujube" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-jujube",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-jujube",
+        "value": {
+			base: "block/food/pie/fill-jujube",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "kakahamash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-kakaha" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-kakaha",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-kakaha",
+        "value": {
+			base: "block/food/pie/fill-kakaha",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "kawakawamash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-kawakawa" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-kawakawa",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-kawakawa",
+        "value": {
+			base: "block/food/pie/fill-kawakawa",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "knyazberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-knyazberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-knyazberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-knyazberry",
+        "value": {
+			base: "block/food/pie/fill-knyazberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "kumquatmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-kumquat" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-kumquat",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-kumquat",
+        "value": {
+			base: "block/food/pie/fill-kumquat",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "lemonaspenmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-lemonaspen" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-lemonaspen",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-lemonaspen",
+        "value": {
+			base: "block/food/pie/fill-lemonaspen",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "lillypillymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-lillypillypink" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-lillypillypink",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-lillypillypink",
+        "value": {
+			base: "block/food/pie/fill-lillypillypink",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "lingonberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-lingonberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-lingonberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-lingonberry",
+        "value": {
+			base: "block/food/pie/fill-lingonberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "loquatmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-loquat" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-loquat",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-loquat",
+        "value": {
+			base: "block/food/pie/fill-loquat",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "midyimberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-midyimberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-midyimberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-midyimberry",
+        "value": {
+			base: "block/food/pie/fill-midyimberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "mingimingimash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-mingimingi" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-mingimingi",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-mingimingi",
+        "value": {
+			base: "block/food/pie/fill-mingimingi",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "muntharimash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-munthari" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-munthari",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-munthari",
+        "value": {
+			base: "block/food/pie/fill-munthari",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "naranjillamash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-naranjilla" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-naranjilla",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-naranjilla",
+        "value": {
+			base: "block/food/pie/fill-naranjilla",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "numnummash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-numnum" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-numnum",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-numnum",
+        "value": {
+			base: "block/food/pie/fill-numnum",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pandanbitsmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-pandanbits" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-pandanbits",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-pandanbits",
+        "value": {
+			base: "block/food/pie/fill-pandanbits",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pineheathmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-pineheath" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-pineheath",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-pineheath",
+        "value": {
+			base: "block/food/pie/fill-pineheath",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pilomash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-pilo" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-pilo",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-pilo",
+        "value": {
+			base: "block/food/pie/fill-pilo",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pittedchinaberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-pittedchinaberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-pittedchinaberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-pittedchinaberry",
+        "value": {
+			base: "block/food/pie/fill-pittedchinaberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pomelomash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-pomelo" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-pomelo",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-pomelo",
+        "value": {
+			base: "block/food/pie/fill-pomelo",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pricklyheathmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-pricklyheath" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-pricklyheath",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-pricklyheath",
+        "value": {
+			base: "block/food/pie/fill-pricklyheath",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "purpleplummash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-purpleplum" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-purpleplum",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-purpleplum",
+        "value": {
+			base: "block/food/pie/fill-purpleplum",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "quincemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-quince" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-quince",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-quince",
+        "value": {
+			base: "block/food/pie/fill-quince",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "raspberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-raspberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-raspberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-raspberry",
+        "value": {
+			base: "block/food/pie/fill-raspberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "redgrapemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-redgrape" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-redgrape",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-redgrape",
+        "value": {
+			base: "block/food/pie/fill-redgrape",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "redquandongmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-redquandong" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-redquandong",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-redquandong",
+        "value": {
+			base: "block/food/pie/fill-redquandong",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "roseapplemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-roseapple" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-roseapple",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-roseapple",
+        "value": {
+			base: "block/food/pie/fill-roseapple",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "rowanberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-rowanberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-rowanberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-rowanberry",
+        "value": {
+			base: "block/food/pie/fill-rowanberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "rubysaltbushmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-rubysaltbush" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-rubysaltbush",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-rubysaltbush",
+        "value": {
+			base: "block/food/pie/fill-rubysaltbush",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "sallowthornmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-sallowthorn" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-sallowthorn",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-sallowthorn",
+        "value": {
+			base: "block/food/pie/fill-sallowthorn",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "silvernettlemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-silvernettle" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-silvernettle",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-silvernettle",
+        "value": {
+			base: "block/food/pie/fill-silvernettle",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "strawberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-strawberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-strawberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-strawberry",
+        "value": {
+			base: "block/food/pie/fill-strawberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "turkscapmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-turkscap" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-turkscap",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-turkscap",
+        "value": {
+			base: "block/food/pie/fill-turkscap",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "ugnimash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-ugni" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-ugni",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-ugni",
+        "value": {
+			base: "block/food/pie/fill-ugni",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "whitegrapemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-whitegrape" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-whitegrape",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-whitegrape",
+        "value": {
+			base: "block/food/pie/fill-whitegrape",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "maritabitsmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-maritabits" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-maritabits",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-maritabits",
+        "value": {
+			base: "block/food/pie/fill-maritabits",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "blackeldermash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-blackelder" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-blackelder",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-blackelder",
+        "value": {
+			base: "block/food/pie/fill-blackelder",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "watermelonmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-watermelon" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-watermelon",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-watermelon",
+        "value": {
+			base: "block/food/pie/fill-watermelon",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "mirzamelonmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-mirzamelon" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-mirzamelon",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-mirzamelon",
+        "value": {
+			base: "block/food/pie/fill-mirzamelon",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "muskmelonmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-muskmelon" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-muskmelon",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-muskmelon",
+        "value": {
+			base: "block/food/pie/fill-muskmelon",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "ivymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-ivy" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-ivy",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-ivy",
+        "value": {
+			base: "block/food/pie/fill-ivy",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "kiwimash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-kiwi" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-kiwi",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-kiwi",
+        "value": {
+			base: "block/food/pie/fill-kiwi",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "cucumbermash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-cucumber" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-cucumber",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-cucumber",
+        "value": {
+			base: "block/food/pie/fill-cucumber",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "passionfruitmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-passionfruit" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-passionfruit",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-passionfruit",
+        "value": {
+			base: "block/food/pie/fill-passionfruit",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "avocadomash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-avocado" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-avocado",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-avocado",
+        "value": {
+			base: "block/food/pie/fill-avocado",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "blackgrapemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-blackgrape" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-blackgrape",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-blackgrape",
+        "value": {
+			base: "block/food/pie/fill-blackgrape",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "caperberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-caperberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-caperberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-caperberry",
+        "value": {
+			base: "block/food/pie/fill-caperberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "hairyappleberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-hairyappleberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-hairyappleberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-hairyappleberry",
+        "value": {
+			base: "block/food/pie/fill-hairyappleberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "purpleappleberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-purpleappleberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-purpleappleberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-purpleappleberry",
+        "value": {
+			base: "block/food/pie/fill-purpleappleberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "crabapplemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-crabapple" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-crabapple",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-crabapple",
+        "value": {
+			base: "block/food/pie/fill-crabapple",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "sandpearmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-sandpear" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-sandpear",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-sandpear",
+        "value": {
+			base: "block/food/pie/fill-sandpear",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "sloemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-sloe" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-sloe",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-sloe",
+        "value": {
+			base: "block/food/pie/fill-sloe",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "greengagemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-greengage" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-greengage",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-greengage",
+        "value": {
+			base: "block/food/pie/fill-greengage",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "jackfruitmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-jackfruit" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-jackfruit",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-jackfruit",
+        "value": {
+			base: "block/food/pie/fill-jackfruit",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "rambutanmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-rambutan" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-rambutan",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-rambutan",
+        "value": {
+			base: "block/food/pie/fill-rambutan",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "grapefruitmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-grapefruit" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-grapefruit",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-grapefruit",
+        "value": {
+			base: "block/food/pie/fill-grapefruit",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "limemash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-lime" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-lime",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-lime",
+        "value": {
+			base: "block/food/pie/fill-lime",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "wanimash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-wani" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-wani",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-wani",
+        "value": {
+			base: "block/food/pie/fill-wani",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pittedyewmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-pittedyew" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-pittedyew",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-pittedyew",
+        "value": {
+			base: "block/food/pie/fill-pittedyew",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "dewberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-dewberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-dewberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-dewberry",
+        "value": {
+			base: "block/food/pie/fill-dewberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "sorbmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-sorb" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-sorb",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-sorb",
+        "value": {
+			base: "block/food/pie/fill-sorb",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "aroniamash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-aronia" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-aronia",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-aronia",
+        "value": {
+			base: "block/food/pie/fill-aronia",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "kolomiktamash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-kolomikta" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-kolomikta",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-kolomikta",
+        "value": {
+			base: "block/food/pie/fill-kolomikta",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "granadillamash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-granadilla" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-granadilla",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-granadilla",
+        "value": {
+			base: "block/food/pie/fill-granadilla",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "honeydewmelonmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-honeydewmelon" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-honeydewmelon",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-honeydewmelon",
+        "value": {
+			base: "block/food/pie/fill-honeydewmelon",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "soybeanmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedsoybean" }, 
+            "quantityPerFillLevel": 2,
+	    "foodFor": ["pig-*"],
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-soybean",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-soybean",
+        "value": {
+			base: "block/food/pie/fill-soybean",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "bearberrymash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-bearberry" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-bearberry",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-bearberry",
+        "value": {
+			base: "block/food/pie/fill-bearberry",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "tomatomash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-tomato" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-tomato",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-tomato",
+        "value": {
+			base: "block/food/pie/fill-truetomato",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "bellpeppermash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-orangebellpepper" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-orangebellpepper",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-orangebellpepper",
+        "value": {
+			base: "block/food/pie/fill-orangebellpepper",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "tomatillomash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-tomatillo" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-tomatillo",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-tomatillo",
+        "value": {
+			base: "block/food/pie/fill-tomatillo",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pumpkinmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-pumpkin" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-pumpkin",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-pumpkin",
+        "value": {
+			base: "block/food/pie/fill-pumpkin",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "carrotmash",
+            "content": { "type": "item", "code": "wildcraftfruit:pressedmash-carrot" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-pressedmash-carrot",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pressedmash-carrot",
+        "value": {
+			base: "block/food/pie/fill-juicycarrot",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+]

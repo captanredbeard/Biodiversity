@@ -1,0 +1,22 @@
+[
+   {
+	ingredientPattern: "A	L",
+	ingredients: {
+		"A": { type: "item", code: "game:knife-*", isTool: true  },
+		"L": { type: "block", code: "wildcrafttree:log-placed-*", allowedVariants: [ "saxaul-ud", "catalpa-ud", "jacaranda-ud", "empresstree-ud", "honeylocust-ud", "dalbergia-ud", "elm-ud", "guajacum-ud", "umnini-ud", "banyan-ud", "beech-ud", "bearnut-ud", "poplar-ud", "willow-ud", "eucalyptus-ud", "ghostgum-ud", "ohia-ud", "bluemahoe-ud", "sal-ud", "mahogany-ud", "sycamore-ud", "ginkgo-ud", "douglasfir-ud", "cedar-ud", "spruce-ud", "yew-ud", "tuja-ud", "redcedar-ud", "kauri-ud", "satinash-ud", "fir-ud", "tamanu-ud", "spurgetree-ud", "azobe-ud", "leadwood-ud", "linden-ud", "horsechestnut-ud", "tigerwood-ud", "sapele-ud", "ash-ud", "mangrove-ud"] }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:club-generic-wood", quantity: 1  }
+   },
+   {
+	ingredientPattern: "A	L",
+	ingredients: {
+		"A": { type: "item", code: "game:knife-*", isTool: true  },
+		"L": { type: "block", code: "wildcrafttree:logsection-placed-*", allowedVariants: [ "douglasfir-ne-ud", "redcedar-ne-ud", "kauri-ne-ud", "sycamore-ne-ud", "banyan-ne-ud", "elm-ne-ud", "tamanu-ne-ud"] }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "game:club-generic-wood", quantity: 1  }
+   }
+]

@@ -1,0 +1,181 @@
+{
+	Code: "wood",
+	"variants":[
+		{
+			Code: "cedar",
+			treeType: "Conifer"
+		},
+		{
+			Code: "fir",
+			treeType: "Conifer"
+		},
+		{
+			Code: "spruce",
+			treeType: "Conifer"
+		},
+		{
+			Code: "douglasfir",
+			treeType: "Conifer"
+		},
+		{
+			Code: "tuja",
+			treeType: "Conifer"
+		},
+		{
+			Code: "redcedar",
+			treeType: "Conifer"
+		},
+		{
+			Code: "yew",
+			treeType: "Conifer"
+		},
+		{
+			Code: "kauri",
+			treeType: "Tropical"
+		},
+		{
+			Code: "ginkgo",
+			treeType: "Conifer"
+		},
+		{
+			Code: "sycamore",
+			treeType: "Decidious"
+		},
+		{
+			Code: "honeylocust",
+			treeType: "Decidious"
+		},
+		{
+			Code: "dalbergia",
+			treeType: "Acacia"
+		},
+		{
+			Code: "umnini",
+			treeType: "Tropical"
+		},
+		{
+			Code: "banyan",
+			treeType: "Tropical"
+		},
+		{
+			Code: "elm",
+			treeType: "Decidious"
+		},
+		{
+			Code: "beech",
+			treeType: "Decidious"
+		},
+		{
+			Code: "bearnut",
+			treeType: "Decidious"
+		},
+		{
+			Code: "willow",
+			treeType: "Decidious"
+		},
+		{
+			Code: "poplar",
+			treeType: "Decidious"
+		},
+		{
+			Code: "tamanu",
+			treeType: "Tropical"
+		},
+		{
+			Code: "spurgetree",
+			treeType: "Acacia"
+		},
+		{
+			Code: "azobe",
+			treeType: "Tropical"
+		},
+		{
+			Code: "guajacum",
+			treeType: "Tropical"
+		},
+		{
+			Code: "eucalyptus",
+			treeType: "Tropical"
+		},
+		{
+			Code: "ghostgum",
+			treeType: "Tropical"
+		},
+		{
+			Code: "ohia",
+			treeType: "Tropical"
+		},
+		{
+			Code: "satinash",
+			treeType: "Tropical"
+		},
+		{
+			Code: "leadwood",
+			treeType: "Tropical"
+		},
+		{
+			Code: "bluemahoe",
+			treeType: "Tropical"
+		},
+		{
+			Code: "linden",
+			treeType: "Decidious"
+		},
+		{
+			Code: "sal",
+			treeType: "Tropical"
+		},
+		{
+			Code: "horsechestnut",
+			treeType: "Decidious"
+		},
+		{
+			Code: "tigerwood",
+			treeType: "Tropical"
+		},
+		{
+			Code: "mahogany",
+			treeType: "Tropical"
+		},
+		{
+			Code: "sapele",
+			treeType: "Tropical"
+		},
+		{
+			Code: "saxaul",
+			treeType: "Acacia"
+		},
+		{
+			Code: "ash",
+			treeType: "Decidious"
+		},
+		{
+			Code: "catalpa",
+			treeType: "Tropical"
+		},
+		{
+			Code: "jacaranda",
+			treeType: "Tropical"
+		},
+		{
+			Code: "mangrove",
+			treeType: "Tropical"
+		},
+		{
+			Code: "empresstree",
+			treeType: "Decidious"
+		},
+		{
+			Code: "charred",
+			treeType: "Conifer"
+		},
+		{
+			Code: "chlorociboria",
+			treeType: "Decidious"
+		},
+		{
+			Code: "petrified",
+			treeType: "Decidious"
+		}
+	]
+}

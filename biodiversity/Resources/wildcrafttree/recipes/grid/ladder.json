@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "P_P	PSP	P_P",
+		ingredients: {
+			"P": { type: "item", code: "wildcrafttree:plank-*" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:ladder-wood-north", quantity: 3  }
+	}
+]

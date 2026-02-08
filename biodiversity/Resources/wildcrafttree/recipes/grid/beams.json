@@ -1,0 +1,475 @@
+[
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-petrified-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-petrified", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-chlorociboria-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-chlorociboria", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-mangrove-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-mangrove", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-ash-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-ash", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-sapele-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-sapele", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-tigerwood-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-tigerwood", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-horsechestnut-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-horsechestnut", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-linden-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-linden", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-leadwood-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-leadwood", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-azobe-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-azobe", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-spurgetree-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-spurgetree", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-tamanu-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-tamanu", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-fir-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-fir", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-satinash-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-satinash", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-kauri-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-kauri", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-redcedar-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-redcedar", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-tuja-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-tuja", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-yew-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-yew", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-spruce-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-spruce", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-cedar-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-cedar", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-douglasfir-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-douglasfir", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-ginkgo-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-ginkgo", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-sycamore-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-sycamore", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-mahogany-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-mahogany", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-sal-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-sal", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-bluemahoe-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-bluemahoe", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-ohia-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-ohia", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-ghostgum-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-ghostgum", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-eucalyptus-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-eucalyptus", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-willow-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-willow", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-poplar-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-poplar", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-bearnut-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-bearnut", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-beech-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-beech", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-banyan-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-banyan", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-umnini-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-umnini", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-guajacum-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-guajacum", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-elm-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-elm", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-dalbergia-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-dalbergia", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-honeylocust-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-honeylocust", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-empresstree-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-empresstree", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-jacaranda-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-jacaranda", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-catalpa-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-catalpa", quantity: 3  }
+	},
+	{
+		ingredientPattern: "HL",
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:debarkedlog-saxaul-ud" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "wildcrafttree:supportbeam-saxaul", quantity: 3  }
+	}
+]

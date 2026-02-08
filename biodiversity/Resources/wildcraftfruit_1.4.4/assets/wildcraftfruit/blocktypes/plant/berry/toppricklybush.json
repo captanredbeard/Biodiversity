@@ -1,0 +1,224 @@
+{
+	"code": "toppricklybush",
+	"class": "PricklyBerryBush",
+	"attributes": {
+		"stackable": true,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+                "handbook": {
+                   "groupBy": ["toppricklybush-*"],
+       "extraSectionsByType": {
+          "*-loganberry-*": [ { "title": "wildcraftfruit:handbook-item-wheretofind", "text": "wildcraftfruit:handbook-item-loganberry" } ],
+          "*": []
+                },
+                },
+		"stopBelowTemperatureByType":{
+			"*-raspberry-*": -2,
+			"*-blueraspberry-*": -2,
+			"*-loganberry-*": 0,
+			"*-brambleberry-*": 6,
+			"*-gooseberry-*": 0,
+			"*-dogrose-*": 2,
+			"*-beachrose-*": 6,
+		},
+		"resetBelowTemperatureByType":{
+			"*-raspberry-*": -4,
+			"*-blueraspberry-*": -4,
+			"*-loganberry-*": -4,
+			"*-brambleberry-*": 2,
+			"*-gooseberry-*": -2,
+			"*-dogrose-*": 0,
+			"*-beachrose-*": 4,
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-raspberry-*": -8,
+			"*-blueraspberry-*": -8,
+			"*-brambleberry-*": 0,
+			"*-loganberry-*": -6,
+			"*-gooseberry-*": -6,
+			"*-dogrose-*": -4,
+			"*-beachrose-*": 0,
+		},
+		"stopAboveTemperatureByType":{
+			"*-raspberry-*": 28,
+			"*-blueraspberry-*": 28,
+			"*-loganberry-*": 30,
+			"*-brambleberry-*": 32,
+			"*-gooseberry-*": 30,
+			"*-dogrose-*": 28,
+			"*-beachrose-*": 40,
+		},
+		"resetAboveTemperatureByType":{
+			"*-raspberry-*": 30,
+			"*-blueraspberry-*": 30,
+			"*-loganberry-*": 32,
+			"*-brambleberry-*": 36,
+			"*-gooseberry-*": 32,
+			"*-dogrose-*": 30,
+			"*-beachrose-*": 42,
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-raspberry-*": 34,
+			"*-blueraspberry-*": 34,
+			"*-loganberry-*": 36,
+			"*-brambleberry-*": 38,
+			"*-gooseberry-*": 36,
+			"*-dogrose-*": 34,
+			"*-beachrose-*": 46,
+		},
+		"pruneItemByType":{
+			"*": "wildcraftfruit:clipping-{type}-green"
+		},
+		"prunedMeshFaces": [ "branchesN", "branchesS", "Leaves", "Berries" ],
+		"fruitingFaces": [ "Berries" ],
+                "isBottomBlock": false,
+		"floweringDaysByType":{
+			"*-blueraspberry-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"ripeningDaysByType":{
+			"*-blueraspberry-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"sheddingDaysByType":{
+			"*-gooseberry-*": { avg: 25.2, var: 3.2 },
+			"*-brambleberry-*": { avg: 15.2, var: 3.2 },
+			"*-raspberry-*": { avg: 15.2, var: 3.2 },
+			"*-blueraspberry-*": { avg: 15.2, var: 3.2 },
+			"*-loganberry-*": { avg: 15.2, var: 3.2 },
+			"*": { avg: 35.2, var: 3.2 },
+		}
+	},
+	"walkspeedmultiplier": 0.55,
+	"entityclassByType": {
+		"*": "BEHerbariumBerryBush"
+	},
+	"behaviorsByType": {
+		"*-gooseberry-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-currant", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:toppricklybush-gooseberry-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-dogrose-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-rose", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:toppricklybush-dogrose-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-beachrose-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-rose", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:toppricklybush-beachrose-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-dogrose-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-dogrose", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:toppricklybush-dogrose-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-beachrose-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-beachrose", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:toppricklybush-beachrose-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 2.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:toppricklybush-{type}-empty",
+			"exchangeBlock": true
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["gooseberry", "raspberry", "loganberry", "blueraspberry", "brambleberry", "dogrose", "beachrose"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraftfruit": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-empty": { "base": "wildcraftfruit:block/plant/berrybush/topberrybush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*": { "base": "wildcraftfruit:block/plant/berrybush/topberrybush*" }
+	},
+	"blockmaterial": "Plant",
+	"textures": {
+		"leavessmall": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}*" },
+		"leaveslarge": { "base": "wildcraftfruit:block/plant/berrybush/large/leaves/{type}large" }
+	},
+	"texturesByType": {
+		"*-flowering": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/flower/{type}large" }
+		},
+		"*-ripe": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*" },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/fruit/{type}large" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": { x1: 0, y1: 0, z1: 0,   x2: 1, y2: 0.65, z2: 1 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-gooseberry-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-currant", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-dogrose-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-rose", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-dogrose-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-dogrose", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-beachrose-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-rose", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-beachrose-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-beachrose", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

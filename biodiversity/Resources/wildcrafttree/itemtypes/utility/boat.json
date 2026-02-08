@@ -1,0 +1,70 @@
+{
+	code: "boat",
+	class: "ItemBoat",
+	variantgroups: [
+		{ code: "type", states: ["raft", "sailed"] },
+		{ code: "material", loadFromProperties: "wildcrafttree:block/wood" }
+	],
+	skipVariants: [
+		"boat-raft-petrified",
+		"boat-sailed-petrified"
+	],
+	shapeByType: {
+			"boat-raft-*": { base: "game:entity/nonliving/boat/raft" },
+			"boat-sailed-*": { base: "game:entity/nonliving/boat/sailed", ignoreElements: ["hideWater"] }
+		},
+	texturesByType: {
+		"*": {
+			"material": { base: "game:block/wood/debarked/{material}" },
+			"oak": { base: "game:block/wood/debarked/{material}" },
+			"oak1": { base: "wildcrafttree:block/wood/planks/{material}*" },
+			"birch1": { base: "wildcrafttree:block/wood/planks/{material}*" },
+			"plainoak": { base: "game:block/wood/debarked/{material}" }
+
+		}
+	},
+    attributes: {
+        handbook: {
+            groupBy: ["boat-{type}-*"]
+        }
+    },
+	heldTpIdleAnimation: "holdunderarm",
+	maxstacksize: 1,
+	materialDensity: 1,
+	liquidSelectable: 1,
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "wildcrafttree": ["*"] },
+	guiTransform: {
+		translation: { x: 4.0, y: 7.0, z: 0.0 },
+		rotation: { x: -32.0, y: -35.0, z: -180.0 },
+		origin: { x: 0.5, y: 0.0, z: 0.5 },
+		scale: 0.6
+	},
+	groundTransformByType: {
+		"boat-sailed-*": {
+			translation: { x: 0.0, y: 0.0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0, y: 0, z: 0 },
+			scale: 1
+		},
+		"boat-raft-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.5
+		}
+	},
+	tpHandTransformByType: {
+		"boat-sailed-*": {
+			translation: { x: -0.7799, y: 0.48, z: -0.85 },
+			rotation: { x: -8, y: 143, z: 2 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.25
+		},
+		"boat-raft-*": {
+			translation: { x: -0.73, y: 0.54, z: -0.5 },
+			rotation: { x: -85, y: -34, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.53
+		}
+	}
+}

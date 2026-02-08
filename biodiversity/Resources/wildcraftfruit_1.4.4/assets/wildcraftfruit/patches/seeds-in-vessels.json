@@ -1,0 +1,9 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/lootListByType/*-seed/-",
+    "value": { type: "item", chance: 0.3, minQuantity: 5, maxQuantity: 7, codes: ["wildcraftfruit:seeds-gardenstrawberry", "wildcraftfruit:melonseeds-watermelon" ] },
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+]

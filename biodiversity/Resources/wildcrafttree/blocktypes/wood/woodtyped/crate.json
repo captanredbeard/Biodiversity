@@ -1,0 +1,304 @@
+{
+	code: "crate",
+	class: "BlockCrate",
+	entityclass: "Crate",
+	attributes: {
+		humanoidTraversalCost: 2,
+		reinforcable: true,
+		partialAttachable: true,
+		inventoryClassName: "crate",
+		defaultType: "wood-willow",
+		handbook: {
+			groupBy: [ "crate" ],
+			extraSections: [{ "title": "", "text": "wildcrafttree:handbook-item-crate" }]
+		},
+		labels: {
+			"paper-empty": {
+				editableShape: { base: "game:block/wood/crate/label-paper-item" },
+				texture: "label-empty",
+				shape: { base: "game:block/wood/crate/label-paper" },
+			},
+			"wood": {
+				texture: "game:woodlabel-empty",
+				editable: true,
+				shape: { base: "game:block/wood/crate/label-wood" }
+			}
+		},
+		types: ["wood-cedar", "wood-fir", "wood-spruce", "wood-douglasfir", "wood-tuja", "wood-redcedar", "wood-yew", "wood-kauri", "wood-ginkgo", "wood-sycamore", "wood-honeylocust", "wood-dalbergia", "wood-umnini", "wood-banyan", "wood-elm", "wood-beech", "wood-bearnut", "wood-willow", "wood-poplar", "wood-tamanu", "wood-spurgetree", "wood-azobe", "wood-guajacum", "wood-eucalyptus", "wood-ghostgum", "wood-ohia", "wood-satinash", "wood-leadwood", "wood-bluemahoe", "wood-linden", "wood-sal", "wood-horsechestnut", "wood-tigerwood", "wood-mahogany", "wood-sapele", "wood-saxaul", "wood-ash", "wood-catalpa", "wood-jacaranda", "wood-mangrove", "wood-empresstree", "wood-charred", "wood-chlorociboria" ],
+		properties: {
+			"wood-bluemahoe": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"wood-guajacum": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"wood-umnini": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"wood-jacaranda": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"wood-saxaul": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"wood-chlorociboria": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"wood-dalbergia": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"wood-mahogany": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"wood-tigerwood": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"wood-charred": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"wood-sapele": {
+				quantitySlots: 25,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			},
+			"*": {
+				quantitySlots: 20,
+				rotatatableInterval: "22.5deg",
+				storageType: 189,
+				retrieveOnly: false,
+				shape: { base: "game:block/wood/crate/normal-closed", rotateY: 180 }
+			}
+		}
+	},
+	behaviors: [{name: "Lockable" }, {name: "Container"}, {name: "BoatableCrate" }],
+	creativeinventory: { },
+	creativeinventoryStacks: [
+	{
+		tabs: [ "general", "decorative", "wildcrafttree" ],
+		stacks: [
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-cedar" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-fir" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-spruce" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-douglasfir" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-tuja" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-redcedar" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-yew" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-kauri" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-ginkgo" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-sycamore" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-honeylocust" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-dalbergia" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-umnini" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-banyan" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-elm" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-beech" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-bearnut" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-willow" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-poplar" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-tamanu" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-spurgetree" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-azobe" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-guajacum" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-eucalyptus" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-ghostgum" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-ohia" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-satinash" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-leadwood" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-bluemahoe" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-linden" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-sal" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-horsechestnut" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-tigerwood" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-mahogany" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-sapele" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-saxaul" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-ash" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-catalpa" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-jacaranda" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-mangrove" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-empresstree" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-charred" } },
+			{ type: "block", code: "crate", attributes: { lidState: "closed", type: "wood-chlorociboria" } }
+		]
+	}],
+	heldTpIdleAnimation: "holdunderarm",
+	shapeInventory: { base: "game:block/wood/crate/normal-closed", rotateY: 0 },
+	shapeByType: { base: "game:block/wood/crate/normal-closed", rotateY: 0 },
+	textures: {
+		"label-empty": { base: "game:block/wood/crate/label-empty" },
+		"woodlabel-empty": { base: "game:block/wood/trunk/accessories" },
+		"frame-generic": { base: "game:block/wood/crate/frame-generic" },
+		
+		"wood-bearnut-sides": { base: "wildcrafttree:block/wood/crate/bearnut-sides" },
+		"wood-bearnut-inside": { base: "wildcrafttree:block/wood/crate/bearnut-inside" },
+		"wood-beech-sides": { base: "wildcrafttree:block/wood/crate/beech-sides" },
+		"wood-beech-inside": { base: "wildcrafttree:block/wood/crate/beech-inside" },
+		"wood-bluemahoe-sides": { base: "wildcrafttree:block/wood/crate/bluemahoe-sides" },
+		"wood-bluemahoe-inside": { base: "wildcrafttree:block/wood/crate/bluemahoe-inside" },
+		"wood-catalpa-sides": { base: "wildcrafttree:block/wood/crate/catalpa-sides" },
+		"wood-catalpa-inside": { base: "wildcrafttree:block/wood/crate/catalpa-inside" },
+		"wood-cedar-sides": { base: "wildcrafttree:block/wood/crate/cedar-sides" },
+		"wood-cedar-inside": { base: "wildcrafttree:block/wood/crate/cedar-inside" },
+		"wood-dalbergia-sides": { base: "wildcrafttree:block/wood/crate/dalbergia-sides" },
+		"wood-dalbergia-inside": { base: "wildcrafttree:block/wood/crate/dalbergia-inside" },
+		"wood-douglasfir-sides": { base: "wildcrafttree:block/wood/crate/douglasfir-sides" },
+		"wood-douglasfir-inside": { base: "wildcrafttree:block/wood/crate/douglasfir-inside" },
+		"wood-elm-sides": { base: "wildcrafttree:block/wood/crate/elm-sides" },
+		"wood-elm-inside": { base: "wildcrafttree:block/wood/crate/elm-inside" },
+		"wood-eucalyptus-sides": { base: "wildcrafttree:block/wood/crate/eucalyptus-sides" },
+		"wood-eucalyptus-inside": { base: "wildcrafttree:block/wood/crate/eucalyptus-inside" },
+		"wood-honeylocust-sides": { base: "wildcrafttree:block/wood/crate/honeylocust-sides" },
+		"wood-honeylocust-inside": { base: "wildcrafttree:block/wood/crate/honeylocust-inside" },
+		"wood-mahogany-sides": { base: "wildcrafttree:block/wood/crate/mahogany-sides" },
+		"wood-mahogany-inside": { base: "wildcrafttree:block/wood/crate/mahogany-inside" },
+		"wood-yew-sides": { base: "wildcrafttree:block/wood/crate/yew-sides" },
+		"wood-yew-inside": { base: "wildcrafttree:block/wood/crate/yew-inside" },
+		"wood-poplar-sides": { base: "wildcrafttree:block/wood/crate/poplar-sides" },
+		"wood-poplar-inside": { base: "wildcrafttree:block/wood/crate/poplar-inside" },
+		"wood-sal-sides": { base: "wildcrafttree:block/wood/crate/sal-sides" },
+		"wood-sal-inside": { base: "wildcrafttree:block/wood/crate/sal-inside" },
+		"wood-saxaul-sides": { base: "wildcrafttree:block/wood/crate/saxaul-sides" },
+		"wood-saxaul-inside": { base: "wildcrafttree:block/wood/crate/saxaul-inside" },
+		"wood-spruce-sides": { base: "wildcrafttree:block/wood/crate/spruce-sides" },
+		"wood-spruce-inside": { base: "wildcrafttree:block/wood/crate/spruce-inside" },
+		"wood-sycamore-sides": { base: "wildcrafttree:block/wood/crate/sycamore-sides" },
+		"wood-sycamore-inside": { base: "wildcrafttree:block/wood/crate/sycamore-inside" },
+		"wood-willow-sides": { base: "wildcrafttree:block/wood/crate/willow-sides" },
+		"wood-willow-inside": { base: "wildcrafttree:block/wood/crate/willow-inside" },
+		"wood-chlorociboria-sides": { base: "wildcrafttree:block/wood/crate/chlorociboria-sides" },
+		"wood-chlorociboria-inside": { base: "wildcrafttree:block/wood/crate/chlorociboria-inside" },
+		"wood-guajacum-sides": { base: "wildcrafttree:block/wood/crate/guajacum-sides" },
+		"wood-guajacum-inside": { base: "wildcrafttree:block/wood/crate/guajacum-inside" },
+		"wood-umnini-sides": { base: "wildcrafttree:block/wood/crate/umnini-sides" },
+		"wood-umnini-inside": { base: "wildcrafttree:block/wood/crate/umnini-inside" },
+		"wood-empresstree-sides": { base: "wildcrafttree:block/wood/crate/empresstree-sides" },
+		"wood-empresstree-inside": { base: "wildcrafttree:block/wood/crate/empresstree-inside" },
+		"wood-banyan-sides": { base: "wildcrafttree:block/wood/crate/banyan-sides" },
+		"wood-banyan-inside": { base: "wildcrafttree:block/wood/crate/banyan-inside" },
+		"wood-tuja-sides": { base: "wildcrafttree:block/wood/crate/tuja-sides" },
+		"wood-tuja-inside": { base: "wildcrafttree:block/wood/crate/tuja-inside" },
+		"wood-redcedar-sides": { base: "wildcrafttree:block/wood/crate/redcedar-sides" },
+		"wood-redcedar-inside": { base: "wildcrafttree:block/wood/crate/redcedar-inside" },
+		"wood-kauri-sides": { base: "wildcrafttree:block/wood/crate/kauri-sides" },
+		"wood-kauri-inside": { base: "wildcrafttree:block/wood/crate/kauri-inside" },
+		"wood-ginkgo-sides": { base: "wildcrafttree:block/wood/crate/ginkgo-sides" },
+		"wood-ginkgo-inside": { base: "wildcrafttree:block/wood/crate/ginkgo-inside" },
+		"wood-jacaranda-sides": { base: "wildcrafttree:block/wood/crate/jacaranda-sides" },
+		"wood-jacaranda-inside": { base: "wildcrafttree:block/wood/crate/jacaranda-inside" },
+		"wood-ghostgum-sides": { base: "wildcrafttree:block/wood/crate/ghostgum-sides" },
+		"wood-ghostgum-inside": { base: "wildcrafttree:block/wood/crate/ghostgum-inside" },
+		"wood-ohia-sides": { base: "wildcrafttree:block/wood/crate/ohia-sides" },
+		"wood-ohia-inside": { base: "wildcrafttree:block/wood/crate/ohia-inside" },
+		"wood-satinash-sides": { base: "wildcrafttree:block/wood/crate/satinash-sides" },
+		"wood-satinash-inside": { base: "wildcrafttree:block/wood/crate/satinash-inside" },
+		"wood-ash-sides": { base: "wildcrafttree:block/wood/crate/ash-sides" },
+		"wood-ash-inside": { base: "wildcrafttree:block/wood/crate/ash-inside" },
+		"wood-mangrove-sides": { base: "wildcrafttree:block/wood/crate/mangrove-sides" },
+		"wood-mangrove-inside": { base: "wildcrafttree:block/wood/crate/mangrove-inside" },
+		"wood-sapele-sides": { base: "wildcrafttree:block/wood/crate/sapele-sides" },
+		"wood-sapele-inside": { base: "wildcrafttree:block/wood/crate/sapele-inside" },
+		"wood-tigerwood-sides": { base: "wildcrafttree:block/wood/crate/tigerwood-sides" },
+		"wood-tigerwood-inside": { base: "wildcrafttree:block/wood/crate/tigerwood-inside" },
+		"wood-leadwood-sides": { base: "wildcrafttree:block/wood/crate/leadwood-sides" },
+		"wood-leadwood-inside": { base: "wildcrafttree:block/wood/crate/leadwood-inside" },
+		"wood-linden-sides": { base: "wildcrafttree:block/wood/crate/linden-sides" },
+		"wood-linden-inside": { base: "wildcrafttree:block/wood/crate/linden-inside" },
+		"wood-horsechestnut-sides": { base: "wildcrafttree:block/wood/crate/horsechestnut-sides" },
+		"wood-horsechestnut-inside": { base: "wildcrafttree:block/wood/crate/horsechestnut-inside" },
+		"wood-azobe-sides": { base: "wildcrafttree:block/wood/crate/azobe-sides" },
+		"wood-azobe-inside": { base: "wildcrafttree:block/wood/crate/azobe-inside" },
+		"wood-spurgetree-sides": { base: "wildcrafttree:block/wood/crate/spurgetree-sides" },
+		"wood-spurgetree-inside": { base: "wildcrafttree:block/wood/crate/spurgetree-inside" },
+		"wood-fir-sides": { base: "wildcrafttree:block/wood/crate/fir-sides" },
+		"wood-fir-inside": { base: "wildcrafttree:block/wood/crate/fir-inside" },
+		"wood-tamanu-sides": { base: "wildcrafttree:block/wood/crate/tamanu-sides" },
+		"wood-tamanu-inside": { base: "wildcrafttree:block/wood/crate/tamanu-inside" },
+		"wood-charred-sides": { base: "wildcrafttree:block/wood/crate/charred-sides" },
+		"wood-charred-inside": { base: "wildcrafttree:block/wood/crate/charred-inside" },
+	},
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 3,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	combustiblePropsByType: {
+		"*": {
+			burnTemperature: 600,
+			burnDuration: 35,
+		}
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -1.3, y: -0.5, z: -0.7 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.44
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.5, z: 0.5 },
+		scale: 1.16
+	},
+	collisionBoxes: [
+		{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625 },
+		{ x1: 0, y1: 0, z1: 0.9375, x2: 1, y2: 1, z2: 1 },
+		{ x1: 0, y1: 0, z1: 0.0625, x2: 0.0625, y2: 1, z2: 0.9375 },
+		{ x1: 0.9375, y1: 0, z1: 0.0625, x2: 1, y2: 1, z2: 0.9375 },
+	],
+	selectionBoxes: [
+		{ x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.95 },
+		{ x1: 0.25, y1: 0.3125, z1: 0.95, x2: 0.75, y2: 0.8125, z2: 1 },
+	]
+}

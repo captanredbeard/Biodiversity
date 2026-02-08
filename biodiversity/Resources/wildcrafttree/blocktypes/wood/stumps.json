@@ -1,0 +1,281 @@
+{
+	"code": "stump",
+	"class": "BlockPlant",
+	"attributes": {
+        	"handbook": {
+            	    "groupBy": ["stump-*"],
+	    	    "extraSections": [ { "title": "wildcrafttree:handbook-item-notes", "text": "wildcrafttree:handbook-item-stump" } ]
+        	},
+	},
+        "creativeinventory": { "general": ["*"], "flora": ["*"], "wildcrafttree": ["*"] },
+        "variantgroups": [{ "code": "wood", "states": [ "pine", "cedar", "fir", "spruce", "douglasfir", "larch", "baldcypress", "tuja", "redcedar", "redwood", "yew", "kauri", "ginkgo", "sycamore", "honeylocust", "acacia", "dalbergia", "purpleheart", "umnini", "banyan", "elm", "oak", "beech", "walnut", "birch", "bearnut", "willow", "poplar", "tamanu", "spurgetree", "azobe", "guajacum", "eucalyptus", "ghostgum", "ohia", "satinash", "leadwood", "kapok", "bluemahoe", "linden", "sal", "horsechestnut", "maple", "tigerwood", "mahogany", "sapele", "saxaul", "ebony", "ash", "catalpa", "jacaranda", "mangrove", "empresstree", "chlorociboria" ] }],
+	"renderpass": "OpaqueNoCull",
+        "shapeByType": {
+            "*-chlorociboria": { "base": "wildcrafttree:block/wood/chlorociboriastump",
+                    "alternates": [
+                               { base: "wildcrafttree:block/wood/chlorociboriastump", "rotateY": 90 },
+			       { base: "wildcrafttree:block/wood/chlorociboriastump", "rotateY": 180 },
+			       { base: "wildcrafttree:block/wood/chlorociboriastump", "rotateY": 270 }
+		]
+            },
+            "*": { "base": "wildcrafttree:block/wood/stump",
+                    "alternates": [
+                               { base: "wildcrafttree:block/wood/stump", "rotateY": 90 },
+			       { base: "wildcrafttree:block/wood/stump", "rotateY": 180 },
+			       { base: "wildcrafttree:block/wood/stump", "rotateY": 270 }
+		]
+            }
+            },
+        "texturesByType": {
+        "*-ebony": {
+        "banyan_bark": { "base": "game:block/wood/bark/ebony" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/ebony" } },
+        "*-acacia": {
+        "banyan_bark": { "base": "game:block/wood/bark/acacia" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/acacia" } },
+        "*-purpleheart": {
+        "banyan_bark": { "base": "game:block/wood/bark/purpleheart" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/purpleheart" } },
+        "*-oak": {
+        "banyan_bark": { "base": "game:block/wood/bark/oak" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/oak" } },
+        "*-walnut": {
+        "banyan_bark": { "base": "game:block/wood/bark/walnut" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/walnut" } },
+        "*-birch": {
+        "banyan_bark": { "base": "game:block/wood/bark/birch" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/birch" } },
+        "*-kapok": {
+        "banyan_bark": { "base": "game:block/wood/bark/kapok" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/kapok" } },
+        "*-maple": {
+        "banyan_bark": { "base": "game:block/wood/bark/maple" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/maple" } },
+        "*-pine": {
+        "banyan_bark": { "base": "game:block/wood/bark/pine" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/pine" } },
+        "*-larch": {
+        "banyan_bark": { "base": "game:block/wood/bark/larch" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/larch" } },
+        "*-baldcypress": {
+        "banyan_bark": { "base": "game:block/wood/bark/baldcypress" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/baldcypress" } },
+        "*-redwood": {
+        "banyan_bark": { "base": "game:block/wood/bark/redwood" },
+        "banyan_trunk": { "base": "game:block/wood/treetrunk/redwood" } },
+
+        "*-saxaul": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/saxaul" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/saxaul" } },
+        "*-catalpa": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/catalpa" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/catalpa" } },
+        "*-jacaranda": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/jacaranda" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/jacaranda" } },
+        "*-empresstree": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/empresstree" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/empresstree" } },
+        "*-honeylocust": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/honeylocust" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/honeylocust" } },
+        "*-dalbergia": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/dalbergia" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/dalbergia" } },
+        "*-elm": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/elm" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/elm" } },
+        "*-guajacum": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/guajacum" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/guajacum" } },
+        "*-umnini": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/umnini" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/umnini" } },
+        "*-banyan": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/banyan" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/banyan" } },
+        "*-beech": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/beech" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/beech" } },
+        "*-bearnut": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/bearnut" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/bearnut" } },
+        "*-poplar": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/poplar" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/poplar" } },
+        "*-willow": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/willow" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/willow" } },
+        "*-eucalyptus": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/eucalyptus" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/eucalyptus" } },
+        "*-ghostgum": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/ghostgum" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/ghostgum" } },
+        "*-ohia": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/ohia" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/ohia" } },
+        "*-bluemahoe": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/bluemahoe" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/bluemahoe" } },
+        "*-sal": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/sal" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/sal" } },
+        "*-mahogany": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/mahogany" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/mahogany" } },
+        "*-sycamore": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/sycamore" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/sycamore" } },
+        "*-ginkgo": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/ginkgo" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/ginkgo" } },
+        "*-douglasfir": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/douglasfir" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/douglasfir" } },
+        "*-cedar": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/cedar" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/cedar" } },
+        "*-spruce": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/spruce" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/spruce" } },
+        "*-yew": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/yew" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/yew" } },
+        "*-tuja": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/tuja" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/tuja" } },
+        "*-redcedar": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/redcedar" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/redcedar" } },
+        "*-kauri": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/kauri" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/kauri" } },
+        "*-satinash": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/satinash" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/satinash" } },
+        "*-fir": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/fir" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/fir" } },
+        "*-tamanu": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/tamanu" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/tamanu" } },
+        "*-spurgetree": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/spurgetree" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/spurgetree" } },
+        "*-azobe": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/azobe" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/azobe" } },
+        "*-leadwood": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/leadwood" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/leadwood" } },
+        "*-linden": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/linden" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/linden" } },
+        "*-horsechestnut": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/horsechestnut" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/horsechestnut" } },
+        "*-tigerwood": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/tigerwood" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/tigerwood" } },
+        "*-sapele": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/sapele" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/sapele" } },
+        "*-ash": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/ash" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/ash" } },
+        "*-mangrove": {
+        "banyan_bark": { "base": "wildcrafttree:block/wood/bark/mangrove" },
+        "banyan_trunk": { "base": "wildcrafttree:block/wood/treetrunk/mangrove" } }
+        },
+	"blockmaterial": "Wood",
+	"requiredMiningTier": 1,
+        "combustiblePropsByType": {
+        "*-chlorociboria": {
+            "burnTemperature": 700,
+            "burnDuration": 40
+        },
+	"@*-(birch|bearnut)": {
+	     "burnTemperature": 800,
+	     "burnDuration": 78
+	},
+	"@*-(oak|saxaul|elm)": {
+	     "burnTemperature": 800,
+	     "burnDuration": 98
+	},
+	"@*-(ebony|dalbergia|umnini|yew|tuja|kauri|redcedar)": {
+	     "burnTemperature": 800,
+	     "burnDuration": 110
+	},
+	"@*-(pine|cedar)": {
+	     "burnTemperature": 800,
+	     "burnDuration": 60
+	},
+	"@*-(eucalyptus|douglasfir)": {
+	     "burnTemperature": 800,
+	     "burnDuration": 68
+	},
+	"@*-(catalpa|sal|satinash)": {
+	     "burnTemperature": 800,
+	     "burnDuration": 54
+	},
+	"*-acacia": {
+	     "burnTemperature": 800,
+	     "burnDuration": 89
+	},
+	"*-kapok": {
+	     "burnTemperature": 800,
+	     "burnDuration": 47
+	},
+	"@*-(maple|guajacum|poplar)": {
+	     "burnTemperature": 800,
+	     "burnDuration": 79
+	},
+	"*-willow": {
+	     "burnTemperature": 800,
+	     "burnDuration": 70
+	},
+	"*-beech": {
+	     "burnTemperature": 800,
+	     "burnDuration": 89
+	},
+	"*-banyan": {
+	     "burnTemperature": 800,
+	     "burnDuration": 58
+	},
+	"@*-(empresstree|honeylocust)": {
+	     "burnTemperature": 700,
+	     "burnDuration": 92
+	},
+	"*": {
+	     "burnTemperature": 800,
+	     "burnDuration": 72
+	}
+        },
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+        "replaceable": 500,
+        "resistance": 4.5,
+        "maxStackSize": 16,
+	"materialDensity": 700,
+        "drops": [{ "type": "block", "code": "wildcrafttree:stump-{wood}", "quantity": { "avg": 1 } }],
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldRightReadyAnimation": "heldblockready", "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+        "rotation": { "x": -2, "y": 25, "z": -78 },
+        "scale": 0.4
+    },
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": { "hit": "game:block/chop", "break": "game:block/planks" }
+		}
+	}
+}

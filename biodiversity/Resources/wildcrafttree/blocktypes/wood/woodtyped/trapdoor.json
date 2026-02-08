@@ -1,0 +1,80 @@
+{
+	code: "trapdoor",
+	class: "BlockGeneric",
+	entityClass: "Generic",
+	"__comment": "Lockable behavior first so that it prevents subsequent Door behavior if it is locked",
+	behaviors: [ 
+		{ name: "Lockable" },
+		{ name: "TrapDoor" }, 
+		{ name: "BlockEntityInteract" }
+	],
+	entityBehaviors: [{ name: "TrapDoor" }],
+	variantgroups: [
+		{ code: "style", states: ["solid", "window"] },
+		{ code: "material", loadFromProperties: "wildcrafttree:block/wood" },
+		{ code: "age", states: ["1"] },
+	],
+	allowedVariants: [
+		"*-1",
+	],
+	attributes: {
+		reinforcable: true,
+		handbook: {
+			groupBy: ["trapdoor-{style}-*"]
+		},
+		airtightByType: {
+			"trapdoor-solid-*-1": true,
+			"*": false
+		},
+		width: 1,
+		length: 1,
+		height: 0,
+		openSound: "game:sounds/block/door",
+		closeSound: "game:sounds/block/door",
+		easingSpeed: 10
+	},
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "decorative": ["*"], "wildcrafttree": ["*"] },
+	},
+	shape: { base: "game:block/wood/trapdoor/{style}{age}" },
+	texturesByType: {
+		"*": {
+			"material": { 
+				base: "game:block/wood/debarked/{material}",
+				blendedOverlays: [{ base: "game:block/wood/trapdoor/overlay", blendMode: "Overlay" }] 
+			}
+		},
+	},
+	"__comment": "Needs to be no cull pass because for double doors we flip x coords, but indices don't change so i believe that inverts the winding order, making the graphics card believe the face is facing the other direction",
+	renderPass: "OpaqueNoCull",
+	faceCullMode: "NeverCull",
+	blockmaterial: "Wood",
+	sideAo: { all: false },
+	heldTpIdleAnimation: "holdunderarm",
+	replaceable: 500,
+	resistance: 3.5,
+	lightAbsorption: 0,
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	selectionbox: { 
+		x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1875, z2: 1
+	},
+	collisionbox: { 
+		x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.1875, z2: 1
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 25,
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	materialDensity: 600
+}

@@ -1,0 +1,119 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"skunkcabbage_leafs": "items/skunkcabbage_leafs",
+		"skunkcabbage_leaf_big": "block/plant/leafygroundvegetable/skunkcabbage_leaf_big"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 5.0, 0.0, 5.0 ], 
+			"to": [ 11.0, 0.0, 11.0 ], 
+			"renderInEditor": false,
+			"rotationOrigin": [ 5.0, 0.0, 11.0 ],
+			"faces": {
+				"north": { "texture": "#skunkcabbage_leaf_big", "uv": [ 3.5, 0.5, 16.0, 14.5 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#skunkcabbage_leaf_big", "uv": [ 3.0, 0.0, 15.5, 6.5 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#skunkcabbage_leaf_big", "uv": [ 11.6667, 3.6667, 17.6667, 4.0 ], "enabled": false },
+				"west": { "texture": "#skunkcabbage_leaf_big", "uv": [ 2.6667, 3.6667, 8.6667, 4.0 ], "enabled": false },
+				"up": { "texture": "#skunkcabbage_leaf_big", "uv": [ 5.6667, 5.1667, 10.1667, 9.1667 ], "autoUv": false },
+				"down": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube2",
+			"from": [ 5.0, 0.0, 1.0 ], 
+			"to": [ 11.0, 0.01, 15.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#skunkcabbage_leafs", "uv": [ 3.5, 0.5, 16.0, 14.5 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#skunkcabbage_leafs", "uv": [ 3.0, 0.0, 15.5, 6.5 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#skunkcabbage_leafs", "uv": [ 11.5, 3.5, 17.5, 4.0 ], "enabled": false },
+				"west": { "texture": "#skunkcabbage_leafs", "uv": [ 2.5, 3.5, 16.5, 4.0 ], "enabled": false },
+				"up": { "texture": "#skunkcabbage_leaf_big", "uv": [ 5.0, 0.5, 10.8333, 15.8333 ], "autoUv": false },
+				"down": { "texture": "#skunkcabbage_leafs", "uv": [ 0.0, 0.0, 6.0, 14.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube3",
+			"from": [ 5.0, 0.0, -1.0 ], 
+			"to": [ 11.0, 0.0, 5.0 ], 
+			"renderInEditor": false,
+			"rotationOrigin": [ 5.0, 0.0, 5.0 ],
+			"faces": {
+				"north": { "texture": "#skunkcabbage_leafs", "uv": [ 3.5, 0.5, 16.0, 14.5 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#skunkcabbage_leafs", "uv": [ 3.0, 0.0, 15.5, 6.5 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#skunkcabbage_leafs", "uv": [ 11.5, 3.5, 17.5, 4.0 ], "enabled": false },
+				"west": { "texture": "#skunkcabbage_leafs", "uv": [ 2.5, 3.5, 8.5, 4.0 ], "enabled": false },
+				"up": { "texture": "#skunkcabbage_leaf_big", "uv": [ 6.0, 0.5, 9.8333, 4.1667 ], "autoUv": false },
+				"down": { "texture": "#skunkcabbage_leaf_big", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube4",
+			"from": [ 11.0, 0.0, 5.0 ], 
+			"to": [ 17.0, 0.0, 11.0 ], 
+			"renderInEditor": false,
+			"rotationOrigin": [ 11.0, 0.0, 11.0 ],
+			"faces": {
+				"north": { "texture": "#skunkcabbage_leafs", "uv": [ 3.5, 0.5, 16.0, 14.5 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#skunkcabbage_leafs", "uv": [ 3.0, 0.0, 15.5, 6.5 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#skunkcabbage_leafs", "uv": [ 11.5, 3.5, 17.5, 4.0 ], "enabled": false },
+				"west": { "texture": "#skunkcabbage_leafs", "uv": [ 2.5, 3.5, 8.5, 4.0 ], "enabled": false },
+				"up": { "texture": "#skunkcabbage_leaf_big", "uv": [ 6.0, 10.1667, 10.1667, 16.1667 ], "rotation": 270, "autoUv": false },
+				"down": { "texture": "#skunkcabbage_leafs", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube5",
+			"from": [ -1.0, 0.0, 5.0 ], 
+			"to": [ 5.0, 0.0, 11.0 ], 
+			"renderInEditor": false,
+			"rotationOrigin": [ -1.0, 0.0, 11.0 ],
+			"faces": {
+				"north": { "texture": "#skunkcabbage_leafs", "uv": [ 3.5, 0.5, 16.0, 14.5 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#skunkcabbage_leafs", "uv": [ 3.0, 0.0, 15.5, 6.5 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#skunkcabbage_leafs", "uv": [ 11.5, 3.5, 17.5, 4.0 ], "enabled": false },
+				"west": { "texture": "#skunkcabbage_leafs", "uv": [ 2.5, 3.5, 8.5, 4.0 ], "enabled": false },
+				"up": { "texture": "#skunkcabbage_leaf_big", "uv": [ 5.3333, 0.5, 10.1667, 7.1667 ], "rotation": 270, "autoUv": false },
+				"down": { "texture": "#skunkcabbage_leafs", "uv": [ 0.0, 0.0, 6.0, 6.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube6",
+			"from": [ 5.0, 0.0, 1.0 ], 
+			"to": [ 11.0, 0.0, 15.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 67.5,
+			"faces": {
+				"north": { "texture": "#skunkcabbage_leafs", "uv": [ 3.5, 0.5, 16.0, 14.5 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#skunkcabbage_leafs", "uv": [ 3.0, 0.0, 15.5, 6.5 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#skunkcabbage_leafs", "uv": [ 11.5, 3.5, 17.5, 4.0 ], "enabled": false },
+				"west": { "texture": "#skunkcabbage_leafs", "uv": [ 2.5, 3.5, 16.5, 4.0 ], "enabled": false },
+				"up": { "texture": "#skunkcabbage_leaf_big", "uv": [ 5.0, 0.5, 10.8333, 15.8333 ], "autoUv": false },
+				"down": { "texture": "#skunkcabbage_leafs", "uv": [ 0.0, 0.0, 6.0, 14.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Cube7",
+			"from": [ 5.0, 0.0, 1.0 ], 
+			"to": [ 11.0, 0.02, 15.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 135.0,
+			"faces": {
+				"north": { "texture": "#skunkcabbage_leafs", "uv": [ 3.5, 0.5, 16.0, 14.5 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#skunkcabbage_leafs", "uv": [ 3.0, 0.0, 15.5, 6.5 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#skunkcabbage_leafs", "uv": [ 11.5, 3.5, 17.5, 4.0 ], "enabled": false },
+				"west": { "texture": "#skunkcabbage_leafs", "uv": [ 2.5, 3.5, 16.5, 4.0 ], "enabled": false },
+				"up": { "texture": "#skunkcabbage_leaf_big", "uv": [ 5.0, 0.5, 10.8333, 15.8333 ], "autoUv": false },
+				"down": { "texture": "#skunkcabbage_leafs", "uv": [ 0.0, 0.0, 6.0, 14.0 ], "enabled": false }
+			}
+		}
+	]}

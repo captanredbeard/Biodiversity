@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Poultice reed horsetail herb",
+    "ingredientPattern": "H,C,T",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:*", "quantity": 2, "allowedVariants": ["papyrustops", "cattailtops"] },
+      "H": { "type": "block", "code": "game:flower-horsetail-free", "quantity": 4 },
+      "T": {
+        "type": "item",
+        "code": "wildcraftherb:herb-*",
+        "quantity": 2,
+        "name": "herb",
+        "allowedVariants": ["thyme", "lavender", "marshmallow", "holly", "marigold", "yarrow", "sage"]
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "wildcraftherb:advancedpoultice-reed-horsetail-{herb}", "quantity": 4 }
+  }
+]

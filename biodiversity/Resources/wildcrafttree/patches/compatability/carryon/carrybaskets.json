@@ -1,0 +1,15 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "file": "blocktypes/wattle/stationarybasket",
+    "value": {
+      "name": "CarryableInteract"
+    },
+    "condition": {
+      "when": "carryon:InteractStorageEnabled",
+      "isValue": "true"
+    },
+    "dependsOn": [ { "modid": "carryon" } ]
+  }
+]

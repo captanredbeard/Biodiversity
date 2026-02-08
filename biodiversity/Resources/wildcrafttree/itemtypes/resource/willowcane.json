@@ -1,0 +1,117 @@
+{
+	code: "willowcane",
+	shape: { base: "wildcrafttree:item/resource/willowcane" },
+	variantgroups: [
+		{ code: "type", states: ["larch", "tuja", "honeylocust", "birch", "brideinwhite", "alder", "bearnut", "willow", "redwillow", "poplar", "aspen", "eucalyptus", "kapok", "sapele"] },
+	],
+	attributes: {
+		placeSound: "game:sounds/block/loosestick",
+        	handbook: {
+			groupBy: ["willowcane-*"],
+	    	    "extraSections": [ { "title": "wildcrafttree:handbook-item-about", "text": "wildcrafttree:handbook-item-canes" } ]
+        	}
+	},
+    "texturesByType": {
+        "*-willow": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/thinwillow",
+        }
+        },
+        "*-redwillow": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/redwillow",
+        }
+        },
+        "*-alder": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/alder",
+        }
+        },
+        "*-bearnut": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/thinbearnut",
+        }
+        },
+        "*-birch": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/thinbirch",
+        }
+        },
+        "*-honeylocust": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/honeylocust",
+        }
+        },
+        "*-larch": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/thinlarch",
+        }
+        },
+        "*-kapok": {
+        "alder": {
+            "base": "game:block/wood/bark/kapok",
+        }
+        },
+        "*-tuja": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/tuja",
+        }
+        },
+        "*-poplar": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/poplar",
+        }
+        },
+        "*-eucalyptus": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/eucalyptus",
+        }
+        },
+        "*-brideinwhite": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/brideinwhite",
+        }
+        },
+        "*-aspen": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/aspen",
+        }
+        },
+        "*-sapele": {
+        "alder": {
+            "base": "wildcrafttree:block/wood/bark/sapele",
+        }
+        },
+    },
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcrafttree": ["*"] },
+	storageFlags: 33,
+	maxstacksize: 64,
+	materialDensity: 100,
+	attackRange: 2.5,
+	combustibleProps: {
+		burnTemperature: 700,
+		burnDuration: 8,
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 115, y: 61, z: 11 },
+		origin: { x: 0.3, y: 0.07, z: 0.43 },
+		scale: 1.82
+	},
+	fpHandTransform: {
+		translation: { x: 0.25, y: -0.4, z: 0 },
+		rotation: { x: -3, y: 65, z: 88 },
+		scale: 1.7
+	},
+	tpHandTransform: {
+		translation: { x: -0.78, y: -1.12, z: -0.68 },
+		rotation: { x: 180, y: 3, z: -4 },
+		scale: 0.75
+	},
+	groundTransform: {
+		translation: { x: 0, y: -0.23, z: 0 },
+		rotation: { x: -180, y: 2, z: 8 },
+		origin: { x: 0.5, y: 0.5, z: 0.53 },
+		scale: 3.42
+	}
+}

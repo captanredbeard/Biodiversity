@@ -1,0 +1,34 @@
+[
+	{
+		ingredientPattern: "AP",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"P": { type: "block", code: "wildcrafttree:stump-*", name: "wood", allowedVariants: [ "birch", "oak", "maple", "pine", "acacia", "redwood", "larch", "baldcypress", "walnut", "purpleheart", "ebony", "kapok" ] }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:log-placed-{wood}-ud" }
+	},
+
+	{
+		ingredientPattern: "AP",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"P": { type: "block", code: "wildcrafttree:stump-*", name: "wood", allowedVariants: [ "saxaul", "catalpa", "jacaranda", "empresstree", "honeylocust", "dalbergia", "elm", "guajacum", "umnini", "banyan", "beech", "bearnut", "poplar", "willow", "eucalyptus", "ghostgum", "ohia", "bluemahoe", "sal", "mahogany", "sycamore", "ginkgo", "douglasfir", "cedar", "spruce", "yew", "tuja", "redcedar", "kauri", "satinash", "fir", "tamanu", "spurgetree", "azobe", "leadwood", "linden", "horsechestnut", "tigerwood", "sapele", "ash", "mangrove" ] }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "wildcrafttree:log-placed-{wood}-ud" }
+	},
+
+	{
+		ingredientPattern: "AP",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"P": { type: "block", code: "wildcrafttree:stump-chlorociboria", "returnedStack": { "type": "item", "code": "wildcrafttree:chlorociboria" } }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "wildcrafttree:cleanedstump-chlorociboria-ud" }
+	}
+]

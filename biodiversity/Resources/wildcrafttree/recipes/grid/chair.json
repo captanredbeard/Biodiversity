@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "WLW	W_W",
+		ingredients: {
+			"W": { type: "item", code: "wildcrafttree:plank-*", "name": "wood" },
+			"L": { type: "item", code: "game:cloth-*", quantity: 1, name: "color", allowedVariants: ["plain", "blue", "brown", "gray", "black", "green", "orange", "pink", "purple", "red", "white", "yellow"], }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:chair-{color}"}
+	}
+]

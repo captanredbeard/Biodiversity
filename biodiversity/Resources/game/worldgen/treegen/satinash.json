@@ -1,0 +1,38 @@
+{
+	treeWorldPropertyCode: "satinash",
+    isTropical: true,
+	sizeMultiplier: 0.6,
+	trunks: [{
+		widthloss: 0.06,
+		dieAt: { avg: 0.1 },
+		branchStart: { dist: "gaussian", avg: 0.2, var: 0.2 },
+		branchSpacing: { avg: 0.1, var: 0.005 },
+		branchVerticalAngle:  { dist: "gaussian", avg: 1.2, var: 0.3 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.7, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 0.4 },
+		branchQuantity: { avg: 3, var: 0 },
+		branchQuantityEvolve: { transform: "quadratic", factor: 0.1 }
+	}],
+	branches: [{
+		widthLoss: 0.04,
+		gravityDrag: 0.02,
+		branchStart:  { avg: 1, var: 0.1 },
+		branchSpacing: { avg: 0, var: 0 },
+		branchVerticalAngle: { avg: 1.57, var: 0.5 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 1, var: 0 },
+		angleVertEvolve: { transform: "linear", factor: -1 },
+		branchQuantity: { avg: 3, var: 2 },
+		branchQuantityEvolve: { transform: "quadratic", factor: 0.1 },
+		branchWidthMultiplier: { avg: 0.6, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:log-grown-satinash-ud",
+		leavesBlockCode: "wildcrafttree:leaves-placed-satinash",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-satinash",
+		vinesBlockCode: "game:wildvine-tropical-section-north",
+		vinesEndBlockCode: "game:wildvine-tropical-end-north",
+		mossDecorCode: "game:attachingplant-spottymoss"
+	}
+}

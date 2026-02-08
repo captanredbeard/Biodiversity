@@ -1,0 +1,73 @@
+{
+	code: "lognarrow",
+	behaviorsByType: {
+		"*-grown-*": [{name: "PushEventOnBlockBroken",	properties: {eventName: "testForDecay"}}, { name: "RopeTieable" }],
+		"*": [{name: "Pillar"}, { name: "RopeTieable" }]
+	},
+	attributes: {
+		preventsDecay: true,
+		treeFellingGroupCodeByType: {
+			"*-grown-*": "{wood}"
+		},
+		treeFellingGroupSpreadIndex: 3
+	},
+	variantgroups: [
+		{ code: "type", states: ["grown", "placed"] },
+		{ code: "wood", states: ["larch", "wiliwili", "crownofthorns", "birch", "brideinwhite", "alder", "bearnut", "willow", "redwillow", "aspen", "leadwood", "bluemahoe", "heather", "sourwood", "mousetrap"] },
+		{ code: "rotation", states: ["ud", "ns", "we"] },
+	],
+	creativeinventory: { "general": ["lognarrow-placed-*-ud"], "flora": ["lognarrow-placed-*-ud"], "wildcrafttree": ["lognarrow-placed-*-ud"] },
+	shape: { base: "wildcrafttree:block/wood/thintrunk" },
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	blockmaterial: "Wood",
+	requiredMiningTier: 1,
+        "texturesByType": {
+        "*-larch-*": {
+        "alder": { "base": "wildcrafttree:block/wood/bark/thinlarch" } },
+        "*-birch-*": {
+        "alder": { "base": "wildcrafttree:block/wood/bark/thinbirch" } },
+        "*-bearnut-*": {
+        "alder": { "base": "wildcrafttree:block/wood/bark/thinbearnut" } },
+        "*-willow-*": {
+        "alder": { "base": "wildcrafttree:block/wood/bark/thinwillow" } },
+        "*-leadwood-*": {
+        "alder": { "base": "wildcrafttree:block/wood/bark/thinleadwood" } },
+        "*-bluemahoe-*": {
+        "alder": { "base": "wildcrafttree:block/wood/bark/thinmahoe" } },
+        "*": {
+        "alder": { "base": "wildcrafttree:block/wood/bark/{wood}" } },
+	},
+	replaceable: 500,
+	resistance: 4,
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		byTool: {
+			"Axe": { hit: "game:block/chop", break: "game:block/planks" }
+		}
+	},
+	drops: [
+		{ type: "block", code: "wildcrafttree:lognarrow-placed-{wood}-ud", quantity: { avg: 1 } }
+	],
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 48,
+	},
+	collisionbox: { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 1, z2: 0.75 },
+	selectionbox: { x1: 0.21, y1: 0, z1: 0.21, x2: 0.79, y2: 1, z2: 0.79 },
+	maxStackSize: 16,
+	materialDensity: 700,
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

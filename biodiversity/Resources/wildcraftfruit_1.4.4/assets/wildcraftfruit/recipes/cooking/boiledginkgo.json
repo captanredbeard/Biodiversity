@@ -1,0 +1,30 @@
+[
+  {
+	code: "boiledginkgo",
+	isFood: true,
+	perishableProps: {
+		type: "None",
+		freshHours: { avg: 168 },
+		transitionHours: { avg: 48 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "wildcraftfruit:juiceportion-ginkgopulp", quantity: 100 }
+	},
+	shape: { base: "game:block/food/meal/liquid" },
+	ingredients: [
+		{ 
+			code: "rawjuice", 
+			validStacks: [ 
+				{ 
+					type: "item", 
+					code: "wildcraftfruit:juiceportion-rawginkgo", 
+					shapeElement: "game:bowl/water"
+				}
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+			portionSizeLitres: 1,
+		}
+	],
+	cooksInto: { type: "Item", code: "wildcraftfruit:juiceportion-ginkgopulp", quantity: 100 }
+  },
+]

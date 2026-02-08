@@ -1,0 +1,38 @@
+{
+	treeWorldPropertyCode: "mousetrap",
+        isTropical: true,
+	sizeMultiplier: 0.9,
+	trunks: [{
+		widthloss: 0.15,
+		dieAt: { avg: 0.001 },
+		branchStart: { dist: "gaussian", avg: 0.55, var: 0.1 },
+		branchSpacing: { avg: 0.2, var: 0.1 },
+		branchVerticalAngle:  { avg: 0.5, var: 0.1 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.1, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 1 },
+		branchQuantity: { avg: 5, var: 0 },
+		branchWidthLossMul: 0.98,
+		angleVert: { avg: 0, var: 0 }
+	}],
+	branches: [{
+		widthLoss: 0.05,
+		gravityDrag: 0.2,
+		dieAt: { avg: 0.1 },
+
+		branchStart:  { avg: 0, var: 0.01 },
+		branchSpacing: { avg: 0.1, var: 0 },
+		branchVerticalAngle: { avg: 1.1, var: 0.2 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 1, var: 0 },
+		branchWidthMultiplier: { avg: 0.3, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:lognarrow-grown-mousetrap-ud",
+		leavesBlockCode: "wildcrafttree:leaves-placed-mousetrap",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-mousetrap",
+		vinesBlockCode: "game:wildvine-tropical-section-north",
+		vinesEndBlockCode: "game:wildvine-tropical-end-north",
+	}
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Poultice reed herb_main herb_second",
+    "ingredientPattern": "H,C,T",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:*", "quantity": 2, "allowedVariants": ["papyrustops", "cattailtops"] },
+      "H": {
+        "type": "item",
+        "code": "wildcraftherb:herb-*",
+        "quantity": 4,
+        "name": "herb_main",
+        "allowedVariants": ["inula", "stjohnswort", "celandine", "poisonoak", "jewelweed"]
+      },
+      "T": {
+        "type": "item",
+        "code": "wildcraftherb:herb-*",
+        "quantity": 2,
+        "name": "herb_second",
+        "allowedVariants": ["thyme", "lavender", "marshmallow", "holly", "marigold", "yarrow", "sage"]
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "wildcraftherb:advancedpoultice-reed-{herb_main}-{herb_second}", "quantity": 4 }
+  }
+]

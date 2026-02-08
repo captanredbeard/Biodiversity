@@ -1,0 +1,42 @@
+[
+	{
+		ingredientPattern: "A	L",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-*", allowedVariants: ["placed-bearnut-ud", "placed-beech-ud", "placed-poplar-ud", "placed-cedar-ud", "placed-douglasfir-ud", "placed-elm-ud", "placed-eucalyptus-ud", "placed-honeylocust-ud", "placed-saxaul-ud", "placed-ohia-ud", "placed-spruce-ud", "placed-sycamore-ud", "placed-ginkgo-ud", "placed-kauri-ud", "placed-tuja-ud", "placed-redcedar-ud", "placed-dalbergia-ud", "placed-ghostgum-ud", "placed-mahogany-ud", "placed-yew-ud", "placed-fir-ud", "placed-tamanu-ud", "placed-azobe-ud", "placed-leadwood-ud", "placed-linden-ud", "placed-horsechestnut-ud", "placed-tigerwood-ud", "placed-sapele-ud", "placed-ash-ud"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:firewood", quantity: 4  }
+	},
+	{
+		ingredientPattern: "A	L",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-*", allowedVariants: ["placed-catalpa-ud", "placed-jacaranda-ud", "placed-banyan-ud", "placed-empresstree-ud", "placed-guajacum-ud", "placed-umnini-ud", "placed-willow-ud", "placed-bluemahoe-ud", "placed-sal-ud", "placed-satinash-ud", "placed-spurgetree-ud", "placed-mangrove-ud"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:firewood", quantity: 3  }
+	},
+	{
+		ingredientPattern: "A	L",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:logsection-placed-*" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:firewood", quantity: 4  }
+	},
+	{
+		ingredientPattern: "A	L",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:lognarrow-*", allowedVariants: ["placed-sourwood-ud", "placed-bearnut-ud", "placed-larch-ud", "placed-birch-ud", "placed-willow-ud", "placed-redwillow-ud", "placed-alder-ud", "placed-brideinwhite-ud", "placed-bluemahoe-ud", "placed-wiliwili-ud", "placed-leadwood-ud", "placed-mousetrap-ud", "placed-crownofthorns-ud", "placed-aspen-ud", "placed-heather-ud" ] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:firewood", quantity: 2  }
+	}
+]

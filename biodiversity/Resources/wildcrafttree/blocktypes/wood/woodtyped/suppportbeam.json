@@ -1,0 +1,89 @@
+{
+	code: "supportbeam",
+	class: "BlockSupportBeam",
+	entityClass: "Generic",
+	attributes: {
+		unstableRockStabilization: 3,
+		partialEnds: true,
+        handbook: {
+            groupBy: ["supportbeam-*"]
+        }
+	},
+	entityBehaviors: [ { name: "SupportBeam" } ],
+	variantgroups: [
+		{ code: "wood", loadFromProperties: "wildcrafttree:block/wood" },
+	],
+	creativeinventory: { "general": ["*"], "construction": ["*"], "wildcrafttree": ["*"] },
+	shape: { base: "game:block/wood/supportbeam/16" },
+	blockmaterial: "Wood",
+	drawtype: "json",
+	textures: {
+		wood: { base: "game:block/wood/debarked/{wood}"  }
+	},
+	faceCullMode: "NeverCull",
+	sideOpaque: { all: false },
+	emitSideAo: { all: false },
+	sideSolid: { all: false },
+	lightAbsorption: 0,
+	rainPermeable: true,
+	resistance: 3.5,
+	sounds: {
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	combustiblePropsByType: {
+                "*-petrified": null,
+		"*-cedar": {
+			meltingPoint: 100,
+			meltingDuration: 50,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:supportbeam-charred" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 20,
+		},
+		"*-redcedar": {
+			meltingPoint: 100,
+			meltingDuration: 50,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:supportbeam-charred" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 20,
+		},
+		"*-tuja": {
+			meltingPoint: 100,
+			meltingDuration: 50,
+			smeltedRatio: 1,
+			smeltingType: "convert",
+			smeltedStack: { type: "block", code: "wildcrafttree:supportbeam-charred" },
+			requiresContainer: false,
+
+			burnTemperature: 800,
+			burnDuration: 20,
+		},
+		"*": {
+			burnTemperature: 800,
+			burnDuration: 20,
+		}
+	},
+	maxStackSize: 32,
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -1.13, y: -0.81, z: -1.2 },
+		rotation: { x: -95, y: 29, z: 3 },
+		scale: 0.55
+	},
+	guiTransform: {
+		rotation: { x: -22.6, y: -64, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 2.24
+	},
+	drops: []
+}

@@ -1,0 +1,32 @@
+{
+	inheritFrom: "wildcrafttree:blocktypes/wood/woodtyped/roughhewnfence-free",
+	code: "roughhewnfence",
+	variantgroups: [
+		{ code: "wood", loadFromProperties: "wildcrafttree:block/wood" },
+		{ code: "type", states: ["empty", "n", "e", "s", "w", "ne", "ns", "nw", "es", "ew", "sw", "nes", "new", "nsw", "esw", "nesw"] },
+		{ code: "cover", states: ["snow"] }
+	],
+	creativeinventory: { },	
+	shapebytype: {
+		"*-empty-snow": { base: "block/wood/fence/roughfence/snow-empty" },
+		"*-n-snow": { base: "block/wood/fence/roughfence/snow-w1", rotateY: 270, alternates: [ { base: "block/wood/fence/roughfence/snow-w2", rotateY: 270 }, { base: "block/wood/fence/roughfence/snow-w3", rotateY: 270 } ] },
+		"*-e-snow": { base: "block/wood/fence/roughfence/snow-w1", rotateY: 180, alternates: [ { base: "block/wood/fence/roughfence/snow-w2", rotateY: 180 }, { base: "block/wood/fence/roughfence/snow-w3", rotateY: 180 } ] },
+		"*-s-snow": { base: "block/wood/fence/roughfence/snow-w1", rotateY: 90, alternates: [ { base: "block/wood/fence/roughfence/snow-w2", rotateY: 90 }, { base: "block/wood/fence/roughfence/snow-w3", rotateY: 90 } ] },
+		"*-w-snow": { base: "block/wood/fence/roughfence/snow-w1", rotateY: 0, alternates: [ { base: "block/wood/fence/roughfence/snow-w2", rotateY: 0 }, { base: "block/wood/fence/roughfence/snow-w3", rotateY: 0 } ] },
+
+		"*-ns-snow": { base: "block/wood/fence/roughfence/snow-ew1", rotateY: 90, alternates: [ { base: "block/wood/fence/roughfence/snow-ew2", rotateY: 90 }, { base: "block/wood/fence/roughfence/snow-ew3", rotateY: 90 } ] },
+		"*-ew-snow": { base: "block/wood/fence/roughfence/snow-ew1", rotateY: 0, alternates: [ { base: "block/wood/fence/roughfence/snow-ew2", rotateY: 0 }, { base: "block/wood/fence/roughfence/snow-ew3", rotateY: 0 } ] },
+		
+		"*-ne-snow": { base: "block/wood/fence/roughfence/snow-sw1", rotateY: 180, alternates: [ { base: "block/wood/fence/roughfence/snow-sw2", rotateY: 180 }, { base: "block/wood/fence/roughfence/snow-sw3", rotateY: 180 } ] },
+		"*-nw-snow": { base: "block/wood/fence/roughfence/snow-sw1", rotateY: 270, alternates: [ { base: "block/wood/fence/roughfence/snow-sw2", rotateY: 270 }, { base: "block/wood/fence/roughfence/snow-sw3", rotateY: 270 } ] },
+		"*-es-snow": { base: "block/wood/fence/roughfence/snow-sw1", rotateY: 90, alternates: [ { base: "block/wood/fence/roughfence/snow-sw2", rotateY: 90 }, { base: "block/wood/fence/roughfence/snow-sw3", rotateY: 90 } ] },
+		"*-sw-snow": { base: "block/wood/fence/roughfence/snow-sw1", rotateY: 0, alternates: [ { base: "block/wood/fence/roughfence/snow-sw2", rotateY: 0 }, { base: "block/wood/fence/roughfence/snow-sw3", rotateY: 0 } ] },
+		
+		"*-nes-snow": { base: "block/wood/fence/roughfence/snow-nsw1", rotateY: 180, alternates: [ { base: "block/wood/fence/roughfence/snow-nsw2", rotateY: 180 }, { base: "block/wood/fence/roughfence/snow-nsw3", rotateY: 180 } ] },
+		"*-new-snow": { base: "block/wood/fence/roughfence/snow-nsw1", rotateY: 270, alternates: [ { base: "block/wood/fence/roughfence/snow-nsw2", rotateY: 270 }, { base: "block/wood/fence/roughfence/snow-nsw3", rotateY: 270 } ] },
+		"*-nsw-snow": { base: "block/wood/fence/roughfence/snow-nsw1", rotateY: 0, alternates: [ { base: "block/wood/fence/roughfence/snow-nsw2", rotateY: 0 }, { base: "block/wood/fence/roughfence/snow-nsw3", rotateY: 0 } ] },
+		"*-esw-snow": { base: "block/wood/fence/roughfence/snow-nsw1", rotateY: 90, alternates: [ { base: "block/wood/fence/roughfence/snow-nsw2", rotateY: 90 }, { base: "block/wood/fence/roughfence/snow-nsw3", rotateY: 90 } ] },
+		
+		"*-nesw-snow": { base: "block/wood/fence/roughfence/snow-nesw1", rotateY: 0, alternates: [ { base: "block/wood/fence/roughfence/snow-nesw2", rotateY: 0 }, { base: "block/wood/fence/roughfence/snow-nesw3", rotateY: 0 } ] }
+	},
+}

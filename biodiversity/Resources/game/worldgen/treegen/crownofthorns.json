@@ -1,0 +1,38 @@
+{
+	treeWorldPropertyCode: "crownofthorns",
+	isTropical: true,
+	sizeMultiplier: 0.7,
+	trunks: [{
+		widthloss: 0.14,
+		dieAt: { avg: 0.001 },
+		branchStart: { dist: "gaussian", avg: 0.3, var: 0.1 },
+		branchSpacing: { avg: 0.2, var: 0.1 },
+		branchVerticalAngle:  { avg: 1, var: 0.1 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.1, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 1 },
+		branchQuantity: { avg: 5, var: 0 },
+		branchWidthLossMul: 0.98,
+		angleVert: { avg: 0, var: 0 }
+	}],
+	branches: [{
+		widthLoss: 0.08,
+		gravityDrag: 0.1,
+		dieAt: { avg: 0.24 },
+
+		branchStart:  { avg: 0.1, var: 0.01 },
+		branchSpacing: { avg: 0.1, var: 0 },
+		branchVerticalAngle: { avg: 1.1, var: 0.2 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 3, var: 1 },
+		branchWidthMultiplier: { avg: 0.38, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:lognarrow-grown-crownofthorns-ud",
+		leavesBlockCode: "wildcrafttree:leaves-placed-crownofthorns",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-crownofthorns",
+		vinesBlockCode: "game:wildvine-section-north",
+		vinesEndBlockCode: "game:wildvine-end-north"
+	}
+}

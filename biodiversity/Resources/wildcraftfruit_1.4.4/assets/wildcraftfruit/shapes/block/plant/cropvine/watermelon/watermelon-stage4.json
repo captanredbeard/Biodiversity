@@ -1,0 +1,48 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"0": "wildcraftfruit:block/plant/cropvine/watermelon/fruitstage4-side",
+		"1": "wildcraftfruit:block/plant/cropvine/watermelon/fruitstage4-top",
+		"2": "wildcraftfruit:block/plant/cropvine/watermelon/fruitstage1-3"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 3.0, 0.0, 3.0 ], 
+			"to": [ 13.0, 10.0, 13.0 ], 
+			"rotationOrigin": [ 9.0, 0.0, 9.0 ],
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 3.0, 3.0, 13.0, 13.0 ] },
+				"east": { "texture": "#0", "uv": [ 3.0, 3.0, 13.0, 13.0 ], "rotation": 180 },
+				"south": { "texture": "#0", "uv": [ 3.0, 3.0, 13.0, 13.0 ] },
+				"west": { "texture": "#0", "uv": [ 3.0, 3.0, 13.0, 13.0 ], "rotation": 180 },
+				"up": { "texture": "#1", "uv": [ 3.0, 3.0, 13.0, 13.0 ] },
+				"down": { "texture": "#1", "uv": [ 3.0, 3.0, 13.0, 13.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 4.5, 10.0, 4.5 ], 
+					"to": [ 5.5, 11.5, 5.5 ], 
+					"rotationOrigin": [ 4.5, 10.0, 4.5 ],
+					"rotationX": 8.0,
+					"rotationZ": -7.0,
+					"faces": {
+						"north": { "texture": "#2", "uv": [ 15.0, 0.0, 16.0, 1.5 ] },
+						"east": { "texture": "#2", "uv": [ 15.0, 7.5, 16.0, 9.0 ] },
+						"south": { "texture": "#2", "uv": [ 8.0, 7.0, 9.0, 8.5 ] },
+						"west": { "texture": "#2", "uv": [ 8.0, 0.0, 9.0, 1.5 ] },
+						"up": { "texture": "#2", "uv": [ 11.5, 3.5, 12.5, 4.5 ] },
+						"down": { "texture": "#2", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

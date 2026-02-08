@@ -1,0 +1,37 @@
+{
+	treeWorldPropertyCode: "treeheather",
+	isTropical: true,
+	sizeMultiplier: 0.3,
+	trunks: [{
+		widthloss: 0.06,
+		dieAt: { avg: 0.006 },
+		branchStart: { dist: "gaussian", avg: 0.3, var: 0.2 },
+		branchSpacing: { dist: "gaussian", avg: 0.2, var: 0.1 },
+		branchVerticalAngle:  { avg: 0.8, var: 0.1 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.07, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 1.5 },
+		branchQuantity: { avg: 3, var: 1 },
+		branchWidthLossMul: 0.98,
+	}],
+	branches: [{
+		widthLoss: 0.06,
+		gravityDrag: 0.1,
+		dieAt: { avg: 0.001 },
+
+		branchStart:  { avg: 0.1, var: 0.01 },
+		branchSpacing: { avg: 0.1, var: 0 },
+		branchVerticalAngle: { dist: "inversegaussian", avg: 0.5, var: 0.2 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 2, var: 1 },
+		branchWidthMultiplier: { avg: 0.6, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:lognarrow-grown-heather-ud",
+		leavesBlockCode: "wildcrafttree:leaves-placed-heather",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-heather",
+		vinesBlockCode: "game:wildvine-section-north",
+		vinesEndBlockCode: "game:wildvine-end-north"
+	}
+}

@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "WWW	W_W	W_W",
+		ingredients: {
+			"W": { type: "item", code: "wildcrafttree:plank-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:table-normal" }
+	},
+	{
+		ingredientPattern: "M	S	T",
+		ingredients: {
+			"T": { type: "block", code: "game:table-normal", quantity: 2 },
+			"M": { type: "block", code: "wildcrafttree:debarkedlog-petrified-ud" },
+			"S": { type: "item", code: "game:saw-*", isTool: true, allowedVariants: ["iron", "meteoriciron", "steel"]}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:table-petrified", quantity: 2 }
+	}
+]

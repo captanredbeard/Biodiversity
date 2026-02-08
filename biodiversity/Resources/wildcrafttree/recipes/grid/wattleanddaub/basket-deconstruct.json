@@ -1,0 +1,167 @@
+[
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "item", code: "wildcrafttree:basket" }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-willow", quantity: 5 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "honeylocust" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-honeylocust", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "bearnut" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-bearnut", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "alder" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-alder", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "birch" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-birch", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "brideinwhite" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-brideinwhite", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "poplar" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-poplar", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "willow" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-willow", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "redwillow" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-redwillow", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "eucalyptus" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-eucalyptus", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "kapok" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-kapok", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "tuja" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-tuja", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "larch" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-larch", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "aspen" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-aspen", quantity: 8 }
+     },
+     {
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "block", code: "wildcrafttree:wattlebasket-east", attributes: { type: "sapele" } }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "wildcrafttree:willowcane-sapele", quantity: 8 }
+     }
+]

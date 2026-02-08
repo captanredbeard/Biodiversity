@@ -1,0 +1,333 @@
+{
+    "code": "scion",
+    "class": "BlockClipping",
+    "entityclassbytype": {
+      "*-alive": "BEClipping"
+    },
+    "attributes": {
+    "overrideRandomDrawOffset": 14,
+    "matureDaysByType": {
+	"*-dwarfpine-*": { avg: 14, var: 2 },
+	"*-juniper-*": { avg: 14, var: 2 },
+	"*-pistachio-*": { avg: 14, var: 2 },
+	"*-kumquat-*": { avg: 12, var: 2 },
+	"*-fingerlime-*": { avg: 12, var: 2 },
+	"*-feijoa-*": { avg: 12, var: 2 },
+	"*-huckleberry-*": { avg: 12, var: 2 },
+	"*-midyimberry-*": { avg: 12, var: 2 },
+	"*-hazel-*": { avg: 12, var: 2 },
+	"*-seamango-*": { avg: 12, var: 2 },
+	"*-marita-*": { avg: 12, var: 2 },
+	"*-swamphuckle-*": { avg: 12, var: 2 },
+	"*-sumac-*": { avg: 10, var: 1.4 },
+	"*-sloe-*": { avg: 10, var: 1.4 },
+	"*-lillypillypink-*": { avg: 10, var: 1.4 },
+	"*-lillypillyblue-*": { avg: 10, var: 1.4 },
+	"*-lillypillywhite-*": { avg: 10, var: 1.4 },
+	"*-kawakawa-*": { avg: 10, var: 1.4 },
+	"*-mingimingi-*": { avg: 10, var: 1.4 },
+	"*-beautyberry-*": { avg: 10, var: 1.4 },
+	"*-blossomquince-*": { avg: 10, var: 1.4 },
+	"*-bladdernut-*": { avg: 10, var: 1.4 },
+	"*": { avg: 8, var: 1 }
+    },
+    "stopBelowTempByType": {
+	"*-kumquat-*": 10,
+	"*-fingerlime-*": 10,
+	"*-kawakawa-*": 10,
+	"*-seamango-*": 10,
+	"*-lillypillyblue-*": 10,
+	"*-feijoa-*": 6,
+	"*-mingimingi-*": 6,
+	"*-midyimberry-*": 6,
+	"*-pilo-*": 6,
+	"*-marita-*": 6,
+	"*-lillypillypink-*": 6,
+	"*-beautyberry-*": 2,
+	"*-sumac-*": 2,
+	"*-whitecurrant-*": 2,
+	"*-pistachio-*": 2,
+	"*-beachrose-*": 2,
+	"*-swamphuckle-*": 2,
+	"*-blossomqunce-*": 2,
+	"*-huckleberry-*": -6,
+	"*-hazel-*": -6,
+	"*-snowberry-*": -6,
+	"*-raspberry-*": -6,
+	"*-dogrose-*": -6,
+	"*-wolfberry-*": -10,
+	"*-honeysuckle-*": -10,
+	"*-sallowthorn-*": -10,
+	"*-juniper-*": -14,
+	"*-dwarfpine-*": -14,
+	"*": 0,
+    },
+    "resetBelowTempByType": {
+	"*-kumquat-*": 9,
+	"*-fingerlime-*": 9,
+	"*-kawakawa-*": 9,
+	"*-seamango-*": 9,
+	"*-lillypillyblue-*": 9,
+	"*-feijoa-*": 5,
+	"*-mingimingi-*": 5,
+	"*-midyimberry-*": 5,
+	"*-pilo-*": 5,
+	"*-marita-*": 5,
+	"*-lillypillypink-*": 5,
+	"*-beautyberry-*": 1,
+	"*-sumac-*": 1,
+	"*-whitecurrant-*": 1,
+	"*-pistachio-*": 1,
+	"*-beachrose-*": 1,
+	"*-swamphuckle-*": 1,
+	"*-blossomqunce-*": 1,
+	"*-huckleberry-*": -7,
+	"*-hazel-*": -7,
+	"*-snowberry-*": -7,
+	"*-raspberry-*": -7,
+	"*-dogrose-*": -7,
+	"*-wolfberry-*": -11,
+	"*-honeysuckle-*": -11,
+	"*-sallowthorn-*": -11,
+	"*-juniper-*": -15,
+	"*-dwarfpine-*": -15,
+	"*": -1,
+    },
+    "dieBelowTempByType": {
+	"*-kumquat-*": 8,
+	"*-fingerlime-*": 8,
+	"*-kawakawa-*": 8,
+	"*-seamango-*": 8,
+	"*-lillypillyblue-*": 8,
+	"*-feijoa-*": 4,
+	"*-mingimingi-*": 4,
+	"*-midyimberry-*": 4,
+	"*-pilo-*": 4,
+	"*-marita-*": 4,
+	"*-lillypillypink-*": 4,
+	"*-beautyberry-*": 0,
+	"*-sumac-*": 0,
+	"*-whitecurrant-*": 0,
+	"*-pistachio-*": 0,
+	"*-beachrose-*": 0,
+	"*-swamphuckle-*": 0,
+	"*-blossomqunce-*": 0,
+	"*-huckleberry-*": -8,
+	"*-hazel-*": -8,
+	"*-snowberry-*": -8,
+	"*-raspberry-*": -8,
+	"*-dogrose-*": -8,
+	"*-wolfberry-*": -12,
+	"*-honeysuckle-*": -12,
+	"*-sallowthorn-*": -12,
+	"*-juniper-*": -16,
+	"*-dwarfpine-*": -16,
+	"*": -2,
+    },
+      "bushCodebyType": {
+        "*-blackcurrant-*": "game:bigberrybush-blackcurrant-empty",
+        "*-redcurrant-*": "game:bigberrybush-redcurrant-empty",
+        "*-whitecurrant-*": "game:bigberrybush-whitecurrant-empty",
+  
+        "*-spindle-*": "wildcraftfruit:berrybush-spindle-empty",
+        "*-feijoa-*": "wildcraftfruit:berrybush-feijoa-empty",
+        "*-kumquat-*": "wildcraftfruit:berrybush-kumquat-empty",
+        "*-dwarfpine-*": "wildcraftfruit:berrybush-dwarfpine-empty",
+        "*-juniper-*": "wildcraftfruit:berrybush-juniper-empty",
+        "*-pistachio-*": "wildcraftfruit:berrybush-pistachio-empty",
+        "*-huckleberry-*": "wildcraftfruit:berrybush-huckleberry-empty",
+        "*-wolfberry-*": "wildcraftfruit:berrybush-wolfberry-empty",
+        "*-snowberry-*": "wildcraftfruit:berrybush-snowberry-empty",
+        "*-honeysuckle-*": "wildcraftfruit:berrybush-honeysuckle-empty",
+        "*-beautyberry-*": "wildcraftfruit:berrybush-beautyberry-empty",
+        "*-sumac-*": "wildcraftfruit:berrybush-sumac-empty",
+        "*-kawakawa-*": "wildcraftfruit:berrybush-kawakawa-empty",
+        "*-seamango-*": "wildcraftfruit:berrybush-seamango-empty",
+        "*-lillypillypink-*": "wildcraftfruit:berrybush-lillypillypink-empty",
+        "*-lillypillyblue-*": "wildcraftfruit:berrybush-lillypillyblue-empty",
+        "*-lillypillywhite-*": "wildcraftfruit:berrybush-lillypillywhite-empty",
+        "*-midyimberry-*": "wildcraftfruit:berrybush-midyimberry-empty",
+        "*-pilo-*": "wildcraftfruit:berrybush-pilo-empty",
+        "*-mingimingi-*": "wildcraftfruit:berrybush-mingimingi-empty",
+        "*-marita-*": "wildcraftfruit:berrybush-marita-empty",
+        "*-blackelder-*": "wildcraftfruit:berrybush-blackelder-empty",
+        "*-hazel-*": "wildcraftfruit:berrybush-hazel-empty",
+        "*-swamphuckle-*": "wildcraftfruit:berrybush-swamphuckle-empty",
+        "*-josta-*": "wildcraftfruit:berrybush-josta-empty",
+        "*-bladdernut-*": "wildcraftfruit:berrybush-bladdernut-empty",
+  
+        "*-deserthackberry-*": "wildcraftfruit:pricklyberrybush-deserthackberry-empty",
+        "*-dogrose-*": "wildcraftfruit:pricklyberrybush-dogrose-empty",
+        "*-beachrose-*": "wildcraftfruit:pricklyberrybush-beachrose-empty",
+        "*-gooseberry-*": "wildcraftfruit:pricklyberrybush-gooseberry-empty",
+        "*-sallowthorn-*": "wildcraftfruit:pricklyberrybush-sallowthorn-empty",
+        "*-brambleberry-*": "wildcraftfruit:pricklyberrybush-brambleberry-empty",
+        "*-raspberry-*": "wildcraftfruit:pricklyberrybush-raspberry-empty",
+        "*-blueraspberry-*": "wildcraftfruit:pricklyberrybush-blueraspberry-empty",
+        "*-fingerlime-*": "wildcraftfruit:pricklyberrybush-fingerlime-empty",
+        "*-sloe-*": "wildcraftfruit:pricklyberrybush-sloe-empty",
+        "*-boysenberry-*": "wildcraftfruit:pricklyberrybush-boysenberry-empty",
+        "*-loganberry-*": "wildcraftfruit:pricklyberrybush-loganberry-empty",
+        "*-blossomquince-*": "wildcraftfruit:pricklyberrybush-blossomquince-empty",
+      },
+      "isGrowth": false
+    },
+    "variantgroups": [
+      {
+        "code": "type",
+        "states": [ "redcurrant", "whitecurrant", "blackcurrant", "gooseberry", "dogrose", "beachrose", "sallowthorn", "deserthackberry", "brambleberry", "loganberry", "boysenberry", "raspberry", "blueraspberry", "spindle", "feijoa", "kumquat", "pistachio", "dwarfpine", "juniper", "huckleberry", "wolfberry", "snowberry", "honeysuckle", "beautyberry", "sumac", "kawakawa", "seamango", "fingerlime", "lillypillypink", "lillypillyblue", "lillypillywhite", "midyimberry", "mingimingi", "pilo", "marita", "blackelder", "hazel", "sloe", "swamphuckle", "josta", "blossomquince", "bladdernut" ]
+      },
+      {
+        "code": "state",
+        "states": [ "alive", "dead" ]
+      }
+    ],
+    "renderpass": "OpaqueNoCull",
+    "drawtype": "JSON",
+    "randomDrawOffset": true,
+    "shapeByType": {
+      "*-blossomquince-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_quince" },
+      "*-swamphuckle-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_swamphuckle" },
+      "*-sloe-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_sloe" },
+      "*-pilo-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_pilo" },
+      "*-mingimingi-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_mingimingi" },
+      "*-feijoa-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_feijoa" },
+      "*-kawakawa-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_kawakawa" },
+      "*-snowberry-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_snowberry" },
+      "*-dwarfpine-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_dwarfpine" },
+      "*-juniper-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_juniper" },
+      "*-pistachio-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_pistachio" },
+      "*-sallowthorn-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_sallowthorn" },
+      "*-seamango-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_seamango" },
+      "*-fingerlime-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_fingerlime" },
+      "*-lillypillypink-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_lillypillypink" },
+      "*-lillypillyblue-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_lillypillyblue" },
+      "*-lillypillywhite-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_lillypillywhite" },
+      "*-marita-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_marita" },
+      "*-marita-dead": { "base": "wildcraftfruit:block/plant/clipping/growth_marita_dead" },
+      "*-blackelder-alive": { "base": "wildcraftfruit:block/plant/clipping/growth_blackelder" },
+      "*-dead": { "base": "wildcraftfruit:block/plant/clipping/growth_dead" },
+      "*-alive": { "base": "wildcraftfruit:block/plant/clipping/growth" }
+    },
+    "blockmaterial": "Plant",
+    "sideopaqueByType": {
+      "*": { "all": false }
+    },
+    "sidesolid": {
+      "all": false
+    },
+    "texturesByType": {
+      "*-blackcurrant-*": {
+        "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+      },
+      "*-redcurrant-*": {
+        "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+      },
+      "*-whitecurrant-*": {
+        "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
+      },
+    "*-marita-alive": {
+      "leaves": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/marita1" }
+    },
+    "*-marita-dead": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/marita_dry" }
+    },
+      "*": {
+        "leaves": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}*" }
+      }
+    },
+    "dropsByType": {
+      "*-marita-dead": [
+        {
+          "type": "item",
+          "code": "game:drygrass",
+          "quantity": { "avg": 1.0 }
+        }
+      ],
+      "*-marita-alive": [
+        {
+          "type": "item",
+          "code": "game:drygrass",
+          "quantity": { "avg": 1.0 }
+        }
+      ],
+      "*-dead": [
+        {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": { "avg": 1.0 }
+        }
+      ],
+      "*-alive": [
+        {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": { "avg": 1.0 }
+        }
+      ]
+    },
+    "replaceable": 5200,
+    "lightAbsorption": 0,
+    "resistance": 1,
+    "collisionbox": null,
+    "selectionbox": {
+      "x1": 0.25,
+      "y1": 0,
+      "z1": 0.25,
+      "x2": 0.75,
+      "y2": 0.5,
+      "z2": 0.75
+    },
+    "sounds": {
+      "place": "game:block/plant",
+      "break": "game:block/plant",
+      "hit": "game:block/plant"
+    },
+    "rainPermeable": true,
+    "materialDensity": 200,
+    "combustibleProps": {
+      "burnTemperature": 600,
+      "burnDuration": 10
+    },
+    "guiTransform": {
+          "rotation": { "x": -28, "y": 28, "z": 0 },
+          "origin": { "x": 0.6, "y": 0.37, "z": 0.36 },
+          "scale": 1.56
+    },
+    "fpHandTransform": {
+          "rotation": { "x": 46, "y": 57, "z": -33 },
+          "origin": { "x": 0.4, "y": 0.5, "z": 0.3 }
+      },
+    "tpHandTransform": {
+        "rotation": { "x": -58, "y": -2, "z": -41 },
+        "origin": { "x": 0.53, "y": 0.68, "z": 0.4 },
+        "scale": 0.34
+    },
+    "groundTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3
+    },
+    "frostable": true,
+    "__comment": "Wind wave looks not good on ground and horrible in planters and flower post",
+    "vertexFlags": {
+      "zOffset": 2,
+      "weakWave": true,
+      "grassWindWave": false,
+      "leavesWindWave": false
+    }
+  }
+  

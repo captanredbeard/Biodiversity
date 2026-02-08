@@ -1,0 +1,45 @@
+{
+	code: "chlorociboria",
+	maxstacksize: 64,
+	shape: { base: "wildcrafttree:item/chlorociboria" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcrafttree": ["*"] },
+	combustibleProps: {
+		burnTemperature: 700,
+		burnDuration: 4
+	},
+	transitionablePropsByType: {
+ 		"*": [{
+			type: "Perish",
+			freshHours: { avg: 432 },
+			transitionHours: { avg: 72 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}]
+	},
+	materialDensity: 700,
+	storageFlags: 33,
+	guiTransform: {
+		translation: { x: 1, y: 0, z: 0 },
+		rotation: { x: -38, y: 1, z: 180 },
+		origin: { x: 0.52, y: 0.07, z: 0.5 },
+		scale: 3.6
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 4, y: 15, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1.97
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.45
+	},
+	tpHandTransform: {
+		translation: { x: -0.73, y: -0.1, z: -0.67 },
+		rotation: { x: -31, y: -63, z: -42 },
+		origin: { x: 0.5, y: 0.12, z: 0.5 },
+		scale: 0.75
+	}
+}

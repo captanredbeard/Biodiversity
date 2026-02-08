@@ -1,0 +1,205 @@
+{
+	code: "log",
+	"__comment": "BlockLog contains only contains code for OnPickBlock",
+	entityClassByType: {
+		"log-resinharvested-*": "Transient"
+	},
+	behaviorsByType: {
+		"log-resin-eucalyptus-ud": [
+			{ name: "PushEventOnBlockBroken", properties: {eventName: "testForDecay"} },
+			{ name: "Harvestable", properties: {
+				harvestTime: 1, 
+				harvestedStack: { type: "item", code: "wildcrafttree:eucalyptussap", quantity: { avg: 1 }  },
+				harvestedBlockCode: "wildcrafttree:log-resinharvested-eucalyptus-ud"
+			} }
+		],
+		"log-resin-ghostgum-ud": [
+			{ name: "PushEventOnBlockBroken", properties: {eventName: "testForDecay"} },
+			{ name: "Harvestable", properties: {
+				harvestTime: 1, 
+				harvestedStack: { type: "item", code: "wildcrafttree:eucalyptussap", quantity: { avg: 1 }  },
+				harvestedBlockCode: "wildcrafttree:log-resinharvested-ghostgum-ud"
+			} }
+		],
+		"log-resin-spurgetree-ud": [
+			{ name: "PushEventOnBlockBroken", properties: {eventName: "testForDecay"} },
+			{ name: "Harvestable", properties: {
+				harvestTime: 1, 
+				harvestedStack: { type: "item", code: "wildcrafttree:latex", quantity: { avg: 1 }  },
+				harvestedBlockCode: "wildcrafttree:log-resinharvested-spurgetree-ud"
+			} }
+		],
+		"log-resin-mangrove-ud": [
+			{ name: "PushEventOnBlockBroken", properties: {eventName: "testForDecay"} },
+			{ name: "Harvestable", properties: {
+				harvestTime: 1, 
+				harvestedStack: { type: "item", code: "game:salt", quantity: { avg: 1 }  },
+				harvestedBlockCode: "wildcrafttree:log-resinharvested-mangrove-ud"
+			} }
+		],
+		"log-resinharvested-*": [ { name: "PushEventOnBlockBroken", properties: {eventName: "testForDecay"} } ],
+		"*": [
+			{ name: "PushEventOnBlockBroken", properties: {eventName: "testForDecay"} },
+			{ name: "Harvestable", properties: {
+				harvestTime: 1, 
+				harvestedStack: { type: "item", code: "game:resin", quantity: { avg: 1 }  },
+				harvestedBlockCode: "wildcrafttree:log-resinharvested-{wood}-ud"
+			} }
+		],
+	},
+	attributesByType: {
+		"log-resinharvested-*": {
+			transientProps: {
+				convertFrom: "wildcrafttree:log-resinharvested-{wood}-ud", 
+				convertTo: "wildcrafttree:log-resin-{wood}-ud", 
+				inGameHours: "168",
+			},
+			preventsDecay: true,
+			treeFellingGroupCode: "{wood}",
+			treeFellingGroupSpreadIndex: 3
+		},
+		"*": {
+			preventsDecay: true,
+			forageStatAffected: true,
+			treeFellingGroupCode: "{wood}",
+			treeFellingGroupSpreadIndex: 3,
+			handbook: {
+				extraSections: [ { "title": "wildcrafttree:handbook-item-notes2", "text": "wildcrafttree:handbook-item-resinouslog" } ]
+			}
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["resin", "resinharvested"] },
+		{ code: "wood", states: ["spruce", "cedar", "fir", "douglasfir", "tuja", "dalbergia", "tamanu", "eucalyptus", "ghostgum", "spurgetree", "mangrove"] },
+		{ code: "rotation", states: ["ud"] },
+	],
+	creativeinventory: { "general": ["*"], "flora": ["*"], "construction": ["*"], "wildcrafttree": ["*"] },
+	drawtype: "json",
+	blockmaterial: "Wood",
+	requiredMiningTier: 1,
+	shapeByType: { 
+		"log-resin-mangrove-ud": {
+			base: "wildcrafttree:block/wood/saltymangrove",
+			alternates: [
+				{ base: "wildcrafttree:block/wood/saltymangrove", rotateY: 90 },
+				{ base: "wildcrafttree:block/wood/saltymangrove", rotateY: 180 },
+				{ base: "wildcrafttree:block/wood/saltymangrove", rotateY: 270 }
+			]
+		},
+		"log-resinharvested-mangrove-ud": {
+			base: "wildcrafttree:block/wood/baremangrove",
+		},
+		"log-resinharvested-*": {
+			base: "game:block/wood/log/noresin1",
+			alternates: [
+				{ base: "game:block/wood/log/noresin1", rotateY: 90 },
+				{ base: "game:block/wood/log/noresin1", rotateY: 180 },
+				{ base: "game:block/wood/log/noresin1", rotateY: 270 },
+				{ base: "game:block/wood/log/noresin2", rotateY: 00 },
+				{ base: "game:block/wood/log/noresin2", rotateY: 90 },
+				{ base: "game:block/wood/log/noresin2", rotateY: 180 },
+				{ base: "game:block/wood/log/noresin2", rotateY: 270 }
+			]
+		},
+		"*": {
+			base: "game:block/wood/log/withresin1",
+			alternates: [
+				{ base: "game:block/wood/log/withresin1", rotateY: 90 },
+				{ base: "game:block/wood/log/withresin1", rotateY: 180 },
+				{ base: "game:block/wood/log/withresin1", rotateY: 270 },
+				{ base: "game:block/wood/log/withresin2", rotateY: 00 },
+				{ base: "game:block/wood/log/withresin2", rotateY: 90 },
+				{ base: "game:block/wood/log/withresin2", rotateY: 180 },
+				{ base: "game:block/wood/log/withresin2", rotateY: 270 }
+			]
+		},
+	},
+	texturesByType: {
+	     "log-resin-mangrove-ud": {
+		"resin": { base: "game:block/liquid/dilutedborax" },
+		"bark": { base: "wildcrafttree:block/wood/bark/mangrove" },
+		"trunk": { base: "wildcrafttree:block/wood/treetrunk/mangrove" }
+	     },
+	     "log-resinharvested-mangrove-ud": {
+		"bark": { base: "wildcrafttree:block/wood/bark/mangrove" },
+		"trunk": { base: "wildcrafttree:block/wood/treetrunk/mangrove" }
+	     },
+	     "log-resin-spurgetree-ud": {
+		"resin": { base: "wildcrafttree:block/liquid/latex" },
+		"bark": { base: "wildcrafttree:block/wood/bark/spurgetree" },
+		"trunk": { base: "wildcrafttree:block/wood/treetrunk/spurgetree" },
+		"resinbark1": { base: "wildcrafttree:block/wood/bark/spurgetree", overlays: ["game:block/wood/bark/latex1"] },
+		"resinbark2": { base: "wildcrafttree:block/wood/bark/spurgetree", overlays: ["game:block/wood/bark/latex2"] }
+	     },
+	     "log-resinharvested-spurgetree-ud": {
+		"bark": { base: "wildcrafttree:block/wood/bark/spurgetree" },
+		"trunk": { base: "wildcrafttree:block/wood/treetrunk/spurgetree" },
+		"resinbark1": { base: "wildcrafttree:block/wood/bark/spurgetree", overlays: ["game:block/wood/bark/latex1"] },
+		"resinbark2": { base: "wildcrafttree:block/wood/bark/spurgetree", overlays: ["game:block/wood/bark/latex2"] }
+	     },
+	     "log-resin-eucalyptus-ud": {
+		"resin": { base: "wildcrafttree:block/redsap" },
+		"bark": { base: "wildcrafttree:block/wood/bark/eucalyptus" },
+		"trunk": { base: "wildcrafttree:block/wood/treetrunk/eucalyptus" },
+		"resinbark1": { base: "wildcrafttree:block/wood/bark/eucalyptus", overlays: ["game:block/wood/bark/sap1"] },
+		"resinbark2": { base: "wildcrafttree:block/wood/bark/eucalyptus", overlays: ["game:block/wood/bark/sap2"] }
+	     },
+	     "log-resinharvested-eucalyptus-ud": {
+		"bark": { base: "wildcrafttree:block/wood/bark/eucalyptus" },
+		"trunk": { base: "wildcrafttree:block/wood/treetrunk/eucalyptus" },
+		"resinbark1": { base: "wildcrafttree:block/wood/bark/eucalyptus", overlays: ["game:block/wood/bark/sap1"] },
+		"resinbark2": { base: "wildcrafttree:block/wood/bark/eucalyptus", overlays: ["game:block/wood/bark/sap2"] }
+	     },
+	     "log-resin-ghostgum-ud": {
+		"resin": { base: "wildcrafttree:block/redsap" },
+		"bark": { base: "wildcrafttree:block/wood/bark/ghostgum" },
+		"trunk": { base: "wildcrafttree:block/wood/treetrunk/ghostgum" },
+		"resinbark1": { base: "wildcrafttree:block/wood/bark/ghostgum", overlays: ["game:block/wood/bark/sap1"] },
+		"resinbark2": { base: "wildcrafttree:block/wood/bark/ghostgum", overlays: ["game:block/wood/bark/sap2"] }
+	     },
+	     "log-resinharvested-ghostgum-ud": {
+		"bark": { base: "wildcrafttree:block/wood/bark/ghostgum" },
+		"trunk": { base: "wildcrafttree:block/wood/treetrunk/ghostgum" },
+		"resinbark1": { base: "wildcrafttree:block/wood/bark/ghostgum", overlays: ["game:block/wood/bark/sap1"] },
+		"resinbark2": { base: "wildcrafttree:block/wood/bark/ghostgum", overlays: ["game:block/wood/bark/sap2"] }
+	     },
+	     "*": {
+		"bark": { base: "wildcrafttree:block/wood/bark/{wood}" },
+		"trunk": { base: "wildcrafttree:block/wood/treetrunk/{wood}" },
+		"resinbark1": { base: "wildcrafttree:block/wood/bark/{wood}", overlays: ["game:block/wood/bark/resin1"] },
+		"resinbark2": { base: "wildcrafttree:block/wood/bark/{wood}", overlays: ["game:block/wood/bark/resin2"] }
+             }
+	},
+	replaceable: 500,
+	resistance: 4.5,
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		byTool: {
+			"Axe": { hit: "game:block/chop", break: "game:block/planks" }
+		}
+	},
+	drops: [
+		{ type: "block", code: "wildcrafttree:log-placed-{wood}-ud", quantity: { avg: 1 }  }
+	],
+	combustibleProps: {
+		burnTemperature: 800,
+		burnDuration: 60,
+	},
+	maxStackSize: 16,
+	materialDensity: 700,
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	guiTransform: {
+		rotation: { x: -22.6, y: 135, z: 0 }
+	},
+	fpHandTransform: {
+		rotation: { x: 0, y: -77, z: 0 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

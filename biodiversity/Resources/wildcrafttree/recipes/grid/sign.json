@@ -1,0 +1,12 @@
+[
+ {
+	ingredientPattern: "P	S",
+	ingredients: {
+		"P": { type: "item", code: "wildcrafttree:plank-*", quantity: 2 },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "block", code: "game:sign-ground-north"  }
+ }
+]

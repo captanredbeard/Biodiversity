@@ -1,0 +1,64 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"2": "wildcraftfruit:block/plant/cropvine/honeydewmelon/fruitstage1-3"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 4.25, 0.0, 4.25 ], 
+			"to": [ 11.75, 7.5, 11.75 ], 
+			"rotationOrigin": [ 10.0, 0.0, 10.0 ],
+			"faces": {
+				"north": { "texture": "#2", "uv": [ 8.0, 8.5, 15.5, 16.0 ] },
+				"east": { "texture": "#2", "uv": [ 8.0, 8.5, 15.5, 16.0 ], "rotation": 180 },
+				"south": { "texture": "#2", "uv": [ 8.0, 8.5, 15.5, 16.0 ] },
+				"west": { "texture": "#2", "uv": [ 8.0, 8.5, 15.5, 16.0 ], "rotation": 180 },
+				"up": { "texture": "#2", "uv": [ 8.0, 0.5, 15.5, 8.0 ] },
+				"down": { "texture": "#2", "uv": [ 8.0, 0.5, 15.5, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 3.25, 7.5, 3.25 ], 
+					"to": [ 4.25, 9.0, 4.25 ], 
+					"rotationOrigin": [ 4.25, 7.5, 3.25 ],
+					"rotationX": 7.0,
+					"rotationY": 2.0,
+					"rotationZ": 10.0,
+					"faces": {
+						"north": { "texture": "#2", "uv": [ 5.5, 2.0, 6.5, 3.5 ] },
+						"east": { "texture": "#2", "uv": [ 0.0, 1.0, 1.0, 2.5 ] },
+						"south": { "texture": "#2", "uv": [ 5.0, 2.0, 6.0, 3.5 ] },
+						"west": { "texture": "#2", "uv": [ 5.0, 1.5, 6.0, 3.0 ] },
+						"up": { "texture": "#2", "uv": [ 4.0, 1.0, 5.0, 2.0 ] },
+						"down": { "texture": "#2", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube3",
+							"from": [ 1.0, 0.8, 0.15 ], 
+							"to": [ 2.0, 1.5, 0.85 ], 
+							"rotationOrigin": [ 1.0, 0.8, 0.15 ],
+							"rotationZ": 12.0,
+							"faces": {
+								"north": { "texture": "#2", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "autoUv": false },
+								"east": { "texture": "#2", "uv": [ 0.0, 1.0, 1.0, 2.0 ], "autoUv": false },
+								"south": { "texture": "#2", "uv": [ 4.0, 1.0, 5.0, 2.0 ], "autoUv": false },
+								"west": { "texture": "#2", "uv": [ 2.0, 2.5, 3.0, 3.5 ], "enabled": false, "autoUv": false },
+								"up": { "texture": "#2", "uv": [ 0.5, 2.5, 1.5, 3.5 ], "autoUv": false },
+								"down": { "texture": "#2", "uv": [ 4.5, 3.0, 5.5, 4.0 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

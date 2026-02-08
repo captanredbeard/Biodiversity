@@ -1,0 +1,204 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/handbook",
+    "value": { ignoreCreativeInvStacks: true },
+    "side": "server",
+    "file": "game:itemtypes/liquid/vinegarportion.json"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre",
+    "side": "server",
+    "file": "game:itemtypes/liquid/vinegarportion.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/waterTightContainerProps/texture",
+    "value": { base: "block/food/dairy/milk", alpha: 90 },
+    "side": "server",
+    "file": "game:itemtypes/liquid/vinegarportion.json"
+  },
+  {
+    "op": "replace",
+    "path": "/texture",
+    "value": { base: "block/food/dairy/milk", alpha: 90 },
+    "side": "server",
+    "file": "game:itemtypes/liquid/vinegarportion.json"
+  },
+	{
+		"op": "replace",
+		"path": "/transitionableProps",
+		"value": [{ 
+		type: "Perish",
+		freshHours: { avg: 3360 },
+		transitionHours: { avg: 48 },
+		transitionedStackByType: {
+			"*-rice": { type: "item", code: "wildcraftfruit:vinegarportion-rice" },
+			"*-rye": { type: "item", code: "wildcraftfruit:vinegarportion-white" },
+			"*-spelt": { type: "item", code: "wildcraftfruit:vinegarportion-white" },
+			"*-amaranth": { type: "item", code: "wildcraftfruit:vinegarportion-white" },
+			"*-cassava": { type: "item", code: "wildcraftfruit:vinegarportion-white" },
+			"*-apple": { type: "item", code: "wildcraftfruit:vinegarportion-apple" },
+			"*-pomegranate": { type: "item", code: "wildcraftfruit:vinegarportion-pomegranate" },
+			"*-redcurrant": { type: "item", code: "wildcraftfruit:vinegarportion-currant" },
+			"*-blackcurrant": { type: "item", code: "wildcraftfruit:vinegarportion-currant" },
+			"*-whitecurrant": { type: "item", code: "wildcraftfruit:vinegarportion-currant" },
+			"*-cranberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-blueberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-orange": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-mead": { type: "item", code: "wildcraftfruit:vinegarportion-honey" },
+			"*": { type: "item", code: "wildcraftfruit:vinegarportion-fruit" }
+		},
+		transitionRatio: 1
+	 }],
+		"file": "game:itemtypes/liquid/cider.json"
+	},
+	{
+		"op": "add",
+		"path": "/0/enabled",
+		"value": false,
+		"file": "game:recipes/barrel/cider.json"
+	},
+	{
+		"op": "add",
+		"path": "/1/enabled",
+		"value": false,
+		"file": "game:recipes/barrel/cider.json"
+	},
+	{
+		"op": "add",
+		"path": "/2/enabled",
+		"value": false,
+		"file": "game:recipes/barrel/cider.json"
+	},
+	{
+		"op": "add",
+		"path": "/3/enabled",
+		"value": false,
+		"file": "game:recipes/barrel/cider.json"
+	},
+	{
+		"op": "add",
+		"path": "/4/enabled",
+		"value": false,
+		"file": "game:recipes/barrel/cider.json"
+	},
+	{
+		"op": "add",
+		"path": "/5/enabled",
+		"value": false,
+		"file": "game:recipes/barrel/cider.json"
+	},
+	{
+		"op": "add",
+		"path": "/6/enabled",
+		"value": false,
+		"file": "game:recipes/barrel/cider.json"
+	},
+	{
+		"op": "add",
+		"path": "/attributes/nutritionPropsWhenInMealByType",
+		"value": {
+				"*-rye": { satiety: 40, foodcategory: "Grain" },
+				"*-rice": { satiety: 40, foodcategory: "Grain" },
+				"*-spelt": { satiety: 40, foodcategory: "Grain" },
+				"*-cassava": { satiety: 40, foodcategory: "Grain" },
+				"*-amaranth": { satiety: 40, foodcategory: "Grain" },
+				"*": { satiety: 40, foodcategory: "Fruit" }
+		},
+		"file": "game:itemtypes/liquid/cider.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributes/nutritionPropsWhenInMeal",
+		"value": { satiety: 160, foodcategory: "Fruit" },
+		"file": "game:itemtypes/liquid/honeyportion.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre",
+		"value": { satiety: 600, foodcategory: "Fruit" },
+		"file": "game:itemtypes/liquid/honeyportion.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributes/nutritionPropsWhenInMeal",
+		"value": { satiety: 160, foodcategory: "Fruit" },
+		"file": "game:itemtypes/liquid/jamhoneyportion.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributes/waterTightContainerProps/nutritionPropsPerLitre",
+		"value": { satiety: 600, foodcategory: "Fruit" },
+		"file": "game:itemtypes/liquid/jamhoneyportion.json"
+	},
+	{
+		"op": "replace",
+		"path": "/nutritionProps",
+		"value": { satiety: 140, foodcategory: "Fruit" },
+		"file": "game:itemtypes/resource/honeycomb.json"
+	},
+	{
+		"op": "replace",
+		"path": "/maxstacksize",
+		"value": 32,
+		"file": "game:itemtypes/resource/honeycomb.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributes/waterTightContainerProps/texturebytype",
+		"value": {
+				"*-mead": { base: "block/liquid/honey", alpha: 180 },
+				"*-spelt": { base: "block/food/pie/fill-whitecurrant", alpha: 180 },
+				"*-rice": { base: "block/food/dairy/milk", alpha: 180 },
+				"*-rye": { base: "block/food/pie/fill-parsnip", alpha: 180 },
+				"*-amaranth": { base: "block/food/pie/fill-poultry", alpha: 180 },
+				"*-cassava": { base: "block/food/pie/fill-cassava", alpha: 180 },
+				"*": { base: "block/food/pie/fill-{fruit}", alpha: 180 }
+			},
+		"file": "game:itemtypes/liquid/cider.json"
+	},
+	{
+		"op": "replace",
+		"path": "/texturebytype",
+		"value": {
+				"*-mead": { base: "block/liquid/honey", alpha: 180 },
+				"*-spelt": { base: "block/food/pie/fill-whitecurrant", alpha: 180 },
+				"*-rice": { base: "block/food/dairy/milk", alpha: 180 },
+				"*-rye": { base: "block/food/pie/fill-parsnip", alpha: 180 },
+				"*-amaranth": { base: "block/food/pie/fill-poultry", alpha: 180 },
+				"*-cassava": { base: "block/food/pie/fill-cassava", alpha: 180 },
+				"*": { base: "block/food/pie/fill-{fruit}", alpha: 180 }
+			},
+		"file": "game:itemtypes/liquid/cider.json"
+	},
+	{
+		"op": "replace",
+		"path": "/attributes/waterTightContainerProps/texturebytype",
+		"value": {
+				"*-mead": { base: "block/liquid/honey", alpha: 100 },
+				"*-spelt": { base: "block/food/pie/fill-whitecurrant", alpha: 100 },
+				"*-rice": { base: "block/food/dairy/milk", alpha: 100 },
+				"*-rye": { base: "block/food/pie/fill-parsnip", alpha: 100 },
+				"*-amaranth": { base: "block/food/pie/fill-poultry", alpha: 100 },
+				"*-cassava": { base: "block/food/pie/fill-cassava", alpha: 100 },
+				"*": { base: "block/food/pie/fill-{fruit}", alpha: 100 }
+			},
+		"file": "game:itemtypes/liquid/spirit.json"
+	},
+	{
+		"op": "replace",
+		"path": "/texturebytype",
+		"value": {
+				"*-mead": { base: "block/liquid/honey", alpha: 100 },
+				"*-spelt": { base: "block/food/pie/fill-whitecurrant", alpha: 100 },
+				"*-rice": { base: "block/food/dairy/milk", alpha: 100 },
+				"*-rye": { base: "block/food/pie/fill-parsnip", alpha: 100 },
+				"*-amaranth": { base: "block/food/pie/fill-poultry", alpha: 100 },
+				"*-cassava": { base: "block/food/pie/fill-cassava", alpha: 100 },
+				"*": { base: "block/food/pie/fill-{fruit}", alpha: 100 }
+			},
+		"file": "game:itemtypes/liquid/spirit.json"
+	},
+]

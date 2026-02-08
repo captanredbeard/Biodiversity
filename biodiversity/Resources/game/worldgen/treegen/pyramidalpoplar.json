@@ -1,0 +1,37 @@
+{
+	treeWorldPropertyCode: "pyramidalpoplar",
+	sizeMultiplier: 1.5,
+	trunks: [{
+		widthloss: 0.04,
+		dieAt: { avg: 0.05 },
+		branchStart: { avg: 0.06, var: 0.04 },
+		branchSpacing: { avg: 0.05, var: 0.04 },
+		branchVerticalAngle:  { avg: 0.6, var: 0.1 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.4, var: 0 },
+		branchQuantity: { avg: 8, var: 2 },
+		branchQuantityEvolve: { transform: "quadratic", factor: 0.2 },
+		branchWidthLossMul: 0.98,
+	}],
+	branches: [{
+		widthLoss: 0.08,
+		gravityDrag: 0.1,
+		dieAt: { avg: 0.01 },
+
+		branchStart:  { avg: 0.00, var: 0.01 },
+		branchSpacing: { avg: 1.5, var: 0 },
+		branchVerticalAngle: { avg: 0.5, var: 0.2 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 3, var: 2 },
+		branchWidthMultiplier: { avg: 0.6, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:log-grown-poplar-ud",
+		leavesBlockCode: "wildcrafttree:leaves-placed-pyramidalpoplar",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-pyramidalpoplar",
+		vinesBlockCode: "game:wildvine-section-north",
+		vinesEndBlockCode: "game:wildvine-end-north",
+		mossDecorCode: "game:attachingplant-spottymoss"
+	}
+}

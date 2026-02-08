@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Center",
+			"from": [ 7.2, 0.0, 7.2 ], 
+			"to": [ 8.8, 16.0, 8.8 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#trunk", "uv": [ 11.5, 0.0, 13.0, 16.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"east": { "texture": "#trunk", "uv": [ 12.5, 0.0, 14.0, 16.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"south": { "texture": "#trunk", "uv": [ 14.0, 0.0, 15.5, 16.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#trunk", "uv": [ 12.5, 0.0, 14.0, 16.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#trunk", "uv": [ 2.0, 2.0, 3.5, 3.5 ] },
+				"down": { "texture": "#trunk", "uv": [ 4.0, 5.5, 5.5, 7.0 ] }
+			}
+		}
+	]}

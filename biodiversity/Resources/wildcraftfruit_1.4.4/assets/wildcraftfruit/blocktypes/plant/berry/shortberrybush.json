@@ -1,0 +1,245 @@
+{
+	"code": "shortberrybush",
+	"class": "HerbariumBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"stackable": false,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"overrideRandomDrawOffset": 14,
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+                "handbook": {
+                   "groupBy": ["shortberrybush-*"]
+                },
+		"stopBelowTemperatureByType":{
+			"*-bearberry-*": -4,
+			"*-bilberry-*": -2,
+			"*-flaxlily-*": 14,
+			"*-ugni-*": 12,
+			"*-munthari-*": 12,
+			"*-bluetongue-*": 14,
+		},
+		"resetBelowTemperatureByType":{
+			"*-bearberry-*": -6,
+			"*-bilberry-*": -4,
+			"*-flaxlily-*": 12,
+			"*-ugni-*": 10,
+			"*-munthari-*": 8,
+			"*-bluetongue-*": 10,
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-bearberry-*": -8,
+			"*-bilberry-*": -6,
+			"*-flaxlily-*": 10,
+			"*-ugni-*": 8,
+			"*-munthari-*": 6,
+			"*-bluetongue-*": 8,
+		},
+		"stopAboveTemperatureByType":{
+			"*-bearberry-*": 22,
+			"*-bilberry-*": 24,
+			"*-flaxlily-*": 42,
+			"*-ugni-*": 36,
+			"*-munthari-*": 38,
+			"*-bluetongue-*": 40,
+		},
+		"resetAboveTemperatureByType":{
+			"*-bearberry-*": 26,
+			"*-bilberry-*": 26,
+			"*-flaxlily-*": 46,
+			"*-ugni-*": 38,
+			"*-munthari-*": 40,
+			"*-bluetongue-*": 42,
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-bearberry-*": 28,
+			"*-bilberry-*": 30,
+			"*-flaxlily-*": 48,
+			"*-ugni-*": 40,
+			"*-munthari-*": 42,
+			"*-bluetongue-*": 44,
+		},
+		"pruneItemByType":{
+			"*": "wildcraftfruit:clipping-{type}-green"
+		},
+		"prunedMeshFaces": [ "branchesN", "branchesS", "Leaves", "Berries" ],
+		"fruitingFaces": [ "Berries" ],
+                "isBottomBlock": false,
+		"floweringDaysByType":{
+			"*-flaxlily-*": { avg: 12.8, var: 0.8 },
+			"*-ugni-*": { avg: 12.8, var: 0.8 },
+			"*-munthari-*": { avg: 12.8, var: 0.8 },
+			"*-bluetongue-*": { avg: 12.8, var: 0.8 },
+			"*-bearberry-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"ripeningDaysByType":{
+			"*-flaxlily-*": { avg: 12.8, var: 0.8 },
+			"*-ugni-*": { avg: 12.8, var: 0.8 },
+			"*-munthari-*": { avg: 12.8, var: 0.8 },
+			"*-bluetongue-*": { avg: 12.8, var: 0.8 },
+			"*-bearberry-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"sheddingDaysByType":{
+			"*-bluetongue-*": { avg: 25.2, var: 3.2 },
+			"*": { avg: 35.2, var: 3.2 },
+		}
+	},
+	"entityclassByType": {
+		"*": "BEHerbariumBerryBush"
+	},
+	"behaviorsByType": {
+		"*-bilberry-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-bilberry", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:shortberrybush-bilberry-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-ugni-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-ugni", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:shortberrybush-ugni-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-munthari-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-munthari", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:shortberrybush-munthari-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:shortberrybush-{type}-empty",
+			"exchangeBlock": true
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["flaxlily", "ugni", "munthari", "bluetongue", "bearberry", "bilberry"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraftfruit": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-flaxlily-empty": { "base": "wildcraftfruit:block/plant/berrybush/flaxlilybush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-flaxlily-flowering": { "base": "wildcraftfruit:block/plant/berrybush/flaxlilybush*" },
+		"*-flaxlily-ripe": { "base": "wildcraftfruit:block/plant/berrybush/flaxlilybush*" },
+		"*-ugni-empty": { "base": "wildcraftfruit:block/plant/berrybush/ugnibush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-ugni-flowering": { "base": "wildcraftfruit:block/plant/berrybush/ugnibush*" },
+		"*-ugni-ripe": { "base": "wildcraftfruit:block/plant/berrybush/ugnibush*" },
+		"*-munthari-empty": { "base": "wildcraftfruit:block/plant/berrybush/muntharibush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-munthari-flowering": { "base": "wildcraftfruit:block/plant/berrybush/muntharibush*" },
+		"*-munthari-ripe": { "base": "wildcraftfruit:block/plant/berrybush/muntharibush*" },
+		"*-bluetongue-empty": { "base": "wildcraftfruit:block/plant/berrybush/bluetonguebush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-bluetongue-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bluetonguebush*" },
+		"*-bluetongue-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bluetonguebush*" },
+		"*-bilberry-empty": { "base": "wildcraftfruit:block/plant/berrybush/bilberrybush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-bilberry-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bilberrybush*" },
+		"*-bilberry-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bilberrybush*" },
+		"*-bearberry-empty": { "base": "wildcraftfruit:block/plant/berrybush/bearberrybush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-bearberry-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bearberrybush*" },
+		"*-bearberry-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bearberrybush*" },
+		"*-empty": { "base": "wildcraftfruit:block/plant/berrybush/shortbush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*": { "base": "wildcraftfruit:block/plant/berrybush/shortbush*" }
+	},
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-flaxlily-*": {
+		"leavessmall": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}1" },
+		"leavessmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}top" },
+		"leaveslarge": { "base": "wildcraftfruit:block/plant/berrybush/large/leaves/{type}large" }
+                },
+		"*": {
+		"leavessmall": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}*" },
+		"leaveslarge": { "base": "wildcraftfruit:block/plant/berrybush/large/leaves/{type}large" }
+                },
+	},
+	"texturesByType": {
+		"*-flaxlily-flowering": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}top" },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}1" },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/flower/{type}large" }
+		},
+		"*-flaxlily-ripe": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}top" },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}1" },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/fruit/{type}large" }
+		},
+		"*-flowering": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/flower/{type}large" }
+		},
+		"*-ripe": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*" },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/fruit/{type}large" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": { x1: 0.1, y1: 0, z1: 0.1, x2: 0.9, y2: 0.775, z2: 0.9 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-flaxlily-ripe": [
+			{ type: "item", code: "wildcraftfruit:fruit-flaxlily", quantity: { avg: 3.4 }  },
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-flaxlily-flowering": [
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-flaxlily-empty": [
+			{ type: "item", code: "game:drygrass", quantity: { avg: 1.2 }  }
+		],
+		"*-munthari-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-munthari", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.2 } }
+		],
+		"*-bilberry-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-bilberry", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.2 } }
+		],
+		"*-ugni-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-ugni", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.2 } }
+		],
+		"*-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.2 } }
+		],
+		"*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.2 } }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

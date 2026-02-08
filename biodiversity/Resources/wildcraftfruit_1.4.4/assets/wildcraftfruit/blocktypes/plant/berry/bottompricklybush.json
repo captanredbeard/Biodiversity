@@ -1,0 +1,148 @@
+{
+	"code": "bottompricklybush",
+	"class": "PricklyBerryBush",
+	"attributes": {
+		"stackable": true,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+                "handbook": {
+                   "groupBy": ["bottompricklybush-*"]
+                },
+		"stopBelowTemperatureByType":{
+			"*-blossomquince-*": 0,
+		},
+		"resetBelowTemperatureByType":{
+			"*-blossomquince-*": -2
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-blossomquince-*": -4
+		},
+		"stopAboveTemperatureByType":{
+			"*-blossomquince-*": 24
+		},
+		"resetAboveTemperatureByType":{
+			"*-blossomquince-*": 28
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-blossomquince-*": 30
+		},
+		"growthBlockByType":{
+			"*-blossomquince-*": "wildcraftfruit:growth-blossomquince-alive"
+                },
+		"pruneItemByType":{
+			"*": "wildcraftfruit:clipping-{type}-green"
+		},
+		"prunedMeshFaces": [ "trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Berries" ],
+		"fruitingFaces": [ "Berries" ],
+                "isBottomBlock": true,
+		"floweringDaysByType":{
+			"*-blossomquince-*": { avg: 12.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"ripeningDaysByType":{
+			"*-blossomquince-*": { avg: 12.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"sheddingDaysByType":{
+			"*": { avg: 35.2, var: 3.2 },
+		}
+	},
+	"walkspeedmultiplier": 0.55,
+	"entityclassByType": {
+		"*": "BETallBerryBush"
+	},
+	"behaviorsByType": {
+		"*-blossomquince-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-quincelet", "quantity": { "avg": 2.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottompricklybush-blossomquince-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 2.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottompricklybush-{type}-empty",
+			"exchangeBlock": true
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["blossomquince"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraftfruit": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomizeAxes": "xz",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-blossomquince-empty": { "base": "wildcraftfruit:block/plant/berrybush/bottomquincebush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-blossomquince-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bottomquincebush*" },
+		"*-blossomquince-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bottomquincebush*" }
+	},
+	"blockmaterial": "Plant",
+	"textures": {
+		"leavessmall": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}*" },
+		"leaveslarge": { "base": "wildcraftfruit:block/plant/berrybush/large/leaves/{type}large" },
+		"trunk": { "base": "wildcraftfruit:block/plant/berrybush/large/branches/{type}trunk" },
+		"branch": { "base": "wildcraftfruit:block/plant/berrybush/large/branches/{type}branch" },
+	},
+	"texturesByType": {
+		"*-flowering": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/flower/{type}large" }
+		},
+		"*-ripe": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*" },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/fruit/{type}large" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": { "x1": 0.375, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.5, "z2": 0.625 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-blossomquince-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-quincelet", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		],
+		"*-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		],
+		"*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

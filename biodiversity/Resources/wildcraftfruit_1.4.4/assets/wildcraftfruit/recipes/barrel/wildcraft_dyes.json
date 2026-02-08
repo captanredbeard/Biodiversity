@@ -1,0 +1,218 @@
+[	
+	{
+		code: "dye-gray",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-fractureberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-gray", litres: 1 }
+	},
+	{
+		code: "dye-black",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-baneberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-black", litres: 1 }
+	},
+	{
+		code: "dye-black",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-elderberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-black", litres: 1 }
+	},
+	{
+		code: "dye-black",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-blackelder", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-black", litres: 1 }
+	},
+	{
+		code: "dye-blue",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-blueraspberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-blue", litres: 1 }
+	},
+	{
+		code: "dye-blue",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-flaxlily", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-blue", litres: 1 }
+	},
+	{
+		code: "dye-blue",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-bluetongue", quantity: 2 }
+		],
+		output: { type: "item", code: "game:dye-blue", litres: 1 }
+	},
+	{
+		code: "dye-purple",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-honeysuckle", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-purple", litres: 1 }
+	},
+	{
+		code: "dye-purple",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-huckleberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-purple", litres: 1 }
+	},
+	{
+		code: "dye-purple",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-pokeberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-purple", litres: 1 }
+	},
+	{
+		code: "dye-purple",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-illawarra", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-purple", litres: 1 }
+	},
+	{
+		code: "dye-pink",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-raspberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-pink", litres: 1 }
+	},
+	{
+		code: "dye-pink",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-beautyberry", quantity: 2 }
+		],
+		output: { type: "item", code: "game:dye-pink", litres: 1 }
+	},
+	{
+		code: "dye-red",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-spindle", quantity: 2 }
+		],
+		output: { type: "item", code: "wildcraftfruit:dye-spindle", litres: 1 }
+	},
+	{
+		code: "dye-red",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-lingonberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-red", litres: 1 }
+	},
+	{
+		code: "dye-red",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 2 },
+			{ type: "item", code: "wildcraftfruit:fruit-cheeseberry", quantity: 3 }
+		],
+		output: { type: "item", code: "game:dye-red", litres: 2 }
+	},
+	{
+		code: "dye-orange",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 2 },
+			{ type: "item", code: "wildcraftfruit:fruit-hawthorn", quantity: 3 }
+		],
+		output: { type: "item", code: "game:dye-orange", litres: 2 }
+	},
+	{
+		code: "dye-orange",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 2 },
+			{ type: "item", code: "wildcraftfruit:fruit-husktomato", quantity: 3 }
+		],
+		output: { type: "item", code: "game:dye-orange", litres: 2 }
+	},
+	{
+		code: "dye-orange",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion", litres: 1 },
+			{ type: "item", code: "wildcraftfruit:dryfruit-sumac", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-orange", litres: 1 }
+	},
+	{
+		code: "dye-yellow",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-falseorange", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-yellow", litres: 1 }
+	},
+	{
+		code: "dye-yellow",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 2 },
+			{ type: "item", code: "wildcraftfruit:fruit-sallowthorn", quantity: 3 }
+		],
+		output: { type: "item", code: "game:dye-yellow", litres: 2 }
+	},
+	{
+		code: "dye-green",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "wildcraftfruit:fruit-gooseberry", quantity: 1 }
+		],
+		output: { type: "item", code: "game:dye-green", litres: 1 }
+	},
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "wildcraftfruit:dye-spindle", litres: 2, consumelitres: 2 },
+			{ type: "item", code: "game:cloth-plain", quantity: 1 }
+		],
+		output: { type: "item", code: "game:cloth-red", stackSize: 1 }
+	},
+	{
+		code: "dyedcloth",
+		sealHours: 8,
+		ingredients: [
+			{ type: "item", code: "wildcraftfruit:dye-spindle", litres: 5, consumelitres: 5 },
+			{ type: "item", code: "game:leather-normal-plain", quantity: 1 }
+		],
+		output: { type: "item", code: "game:leather-normal-red", stackSize: 1 }
+	},
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "op": "replace",
+        "path": "/transitionablePropsByType",
+        "value": {
+		"*-cranberry": [{
+			type: "Perish",
+			freshHours: { avg: 96 },
+			transitionHours: { avg: 12 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.25
+		}],
+		"@*-(orange|mango|lychee|pomegranate)": [{
+			type: "Perish",
+			freshHours: { avg: 360 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.25
+		}],
+		"@*-(pinkapple|redapple|yellowapple|pear)": [{
+			type: "Perish",
+			freshHours: { avg: 960 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.25
+		}],
+		"*-breadfruit": [{
+			type: "Perish",
+			freshHours: { avg: 960 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "wildcraftfruit:nut-breadnut" },
+			transitionRatio: 1
+		}],
+		"*-cherry": [{
+			type: "Perish",
+			freshHours: { avg: 48 },
+			transitionHours: { avg: 12 },
+			transitionedStack: { type: "item", code: "wildcraftfruit:nut-cherrypit" },
+			transitionRatio: 0.5
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 48 },
+			transitionHours: { avg: 12 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.25
+		}]
+        },
+        "file": "game:itemtypes/food/fruit.json"
+    },
+]

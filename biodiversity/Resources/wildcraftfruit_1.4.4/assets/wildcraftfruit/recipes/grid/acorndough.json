@@ -1,0 +1,30 @@
+{
+	ingredientPattern: "WAF",
+	ingredients: {
+		"W": { 
+			type: "block", 
+			code: "game:woodbucket"
+		},
+		"A": { 
+			type: "item", 
+			code: "wildcraftfruit:flour-acorn"
+		},
+		"F": { 
+			type: "item", 
+			code: "game:flour-*", 
+			allowedVariants: ["rice", "rye", "spelt", "amaranth"],
+			name: "type"
+		}
+	},
+	width: 3,
+	height: 1,
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "game:waterportion" },
+			requiresQuantity: 2
+		}
+	},
+	name: "dough-acorn",
+	shapeless: true,
+	output: { type: "item", code: "wildcraftfruit:dough-acorn", quantity: 2  }
+}

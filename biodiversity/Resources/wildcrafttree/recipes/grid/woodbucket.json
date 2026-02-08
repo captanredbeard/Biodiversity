@@ -1,0 +1,22 @@
+[
+ {
+	ingredientPattern: " F 	W_W	WWW",
+	ingredients: {
+		"F": { type: "item", code: "game:flaxtwine" },
+		"W": { type: "item", code: "wildcrafttree:plank-*" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:woodbucket"  }
+ },
+ {
+	ingredientPattern: " F 	W_W	WWW",
+	ingredients: {
+		"F": { type: "item", code: "game:rope" },
+		"W": { type: "item", code: "wildcrafttree:plank-*" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "game:woodbucket"  }
+ }
+]

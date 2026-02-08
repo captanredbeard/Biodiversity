@@ -1,0 +1,79 @@
+{
+	code: "scrollrack",
+	class: "BlockScrollRack",
+	entityClass: "ScrollRack",
+	behaviors: [
+		{ name: "Lockable" }
+	],
+	entityBehaviors:[
+		{ name: "ShapeMaterialFromAttributes" }
+	],
+	attributes: {
+		types: ["normal"],
+		materials: { loadFromProperties: "wildcrafttree:block/wood" },
+		shape: { base: "game:block/clutter/bookshelves/scrollrack-empty1" },
+		textures: { 
+			"charred": { base: "game:block/wood/debarked/{material}", overlays: [] },
+			"material-rim1": { base: "game:block/wood/debarked/{material}", overlays: [ "game:block/wood/bookshelves/rim1" ] },
+			"material-rim2": { base: "game:block/wood/debarked/{material}", overlays: [ "game:block/wood/bookshelves/rim2" ] }
+		},
+		slotsHitBoxes: [
+			{ x1: 0.125, y1: -0.125, z1: 0, x2: 0.375, y2: 0.125, z2: 1 },
+			{ x1: 0.625, y1: -0.125, z1: 0, x2: 0.875, y2: 0.125, z2: 1 },
+			{ x1: -0.125, y1: 0.125, z1: 0, x2: 0.125, y2: 0.375, z2: 1 },
+			{ x1: 0.375, y1: 0.125, z1: 0, x2: 0.625, y2: 0.375, z2: 1 },
+			{ x1: 0.875, y1: 0.125, z1: 0, x2: 1.125, y2: 0.375, z2: 1 },
+			{ x1: 0.125, y1: 0.375, z1: 0, x2: 0.375, y2: 0.625, z2: 1 },
+			{ x1: 0.625, y1: 0.375, z1: 0, x2: 0.875, y2: 0.625, z2: 1 },
+			{ x1: -0.125, y1: 0.625, z1: 0, x2: 0.125, y2: 0.875, z2: 1 },
+			{ x1: 0.375, y1: 0.625, z1: 0, x2: 0.625, y2: 0.875, z2: 1 },
+			{ x1: 0.875, y1: 0.625, z1: 0, x2: 1.125, y2: 0.875, z2: 1 },
+			{ x1: 0.125, y1: 0.875, z1: 0, x2: 0.375, y2: 1.125, z2: 1 },
+			{ x1: 0.625, y1: 0.875, z1: 0, x2: 0.875, y2: 1.125, z2: 1 }
+		],
+		slotSide: ["bot", "bot", "left", "mid", "right", "mid", "mid", "left", "mid", "right", "top", "top"],
+		oppositeSlotIndex: [10, 11, 4, -1, 2, -1, -1, 9, -1, 7, 0, 1],
+		reinforcable: true,
+		handbook: {
+			groupBy: ["scrollrack*"]
+		}
+	},
+	shape: { base: "game:block/clutter/bookshelves/scrollrack-empty1", rotateY: 0 },
+	heldTpIdleAnimation: "holdunderarm",
+	creativeinventory: { },
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 1.5,
+	lightAbsorption: 1,
+	sidesolid: {
+		all: false
+	},	
+	sideopaque: {
+		all: false
+	},
+	emitSideAo: { all: false },
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 35,
+	},
+	materialDensity: 400,
+	guiTransform: {
+		rotation: { x: -22.6, y: 135, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.25 }
+	},	
+	tpHandTransform: {
+		translation: { x: -0.8, y: -0.68, z: -0.41 },
+		rotation: { x: 99, y: -10, z: -6 },
+		scale: 0.5
+	},
+	fpHandTransform: {
+		translation: { x: 0.08, y: -0.2, z: 0.6 },
+		rotation: { x: 33, y: 134, z: -102 }
+	}
+}

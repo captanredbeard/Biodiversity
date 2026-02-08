@@ -1,0 +1,92 @@
+{
+	code: "logsection",
+	"__comment": "BlockLogSection contains placement orientation code",
+	class: "BlockLogSection",
+	behaviorsByType: {
+		"*-grown-*": [{name: "PushEventOnBlockBroken",	properties: {eventName: "testForDecay"}}]
+	},
+	attributes: {
+		handbook: {
+			groupBy: ["logsection-*-{wood}-*"]
+		},
+		canChisel: false,
+		preventsDecay: true,
+		treeFellingGroupCodeByType: {
+			"*-grown-*": "{wood}"
+		},
+		treeFellingGroupSpreadIndex: 4
+	},
+	variantgroups: [
+		{ code: "type", states: ["grown", "placed"] },
+		{ code: "wood", states: ["douglasfir", "redcedar", "kauri", "sycamore", "banyan", "elm", "tamanu"] },
+		{ code: "segment", states: ["ne", "se", "sw", "nw"] },
+		{ code: "rotation", states: ["ud", "ns", "we"] },
+	],
+	creativeinventory: { "general": ["logsection-placed-*-ne-ud"], "flora": ["logsection-placed-*-ne-ud"], "construction": ["logsection-placed-*-ne-ud"], "wildcrafttree": ["logsection-placed-*-ne-ud"] },
+	shapeByType: {
+		"*-ud": { base: "game:block/wood/log/section-{segment}" },
+		"*-ns": { base: "game:block/wood/log/section-{segment}", rotateX:90 },
+		"*-we": { base: "game:block/wood/log/section-{segment}", rotateX:90, rotateZ:270 }
+	},
+	blockmaterial: "Wood",
+	requiredMiningTier: 1,
+	textures: {
+		"bark": { base: "wildcrafttree:block/wood/bark/{wood}-2x2" },
+		"wood": { base: "wildcrafttree:block/wood/treetrunk/{wood}-2x2" },
+		"inside": { base: "game:block/wood/debarked/{wood}-2x2" },
+
+		"north": { base: "wildcrafttree:block/wood/treetrunk/{wood}" },
+		"up": { base: "wildcrafttree:block/wood/treetrunk/{wood}" },
+		"down": { base: "wildcrafttree:block/wood/bark/{wood}" },
+		"east": { base: "wildcrafttree:block/wood/bark/{wood}" },
+		"south": { base: "wildcrafttree:block/wood/bark/{wood}" },
+		"west": { base: "wildcrafttree:block/wood/bark/{wood}" },
+
+		
+		"inside-north": { base: "game:block/wood/debarked/{wood}" },
+		"inside-east": { base: "game:block/wood/debarked/{wood}" },
+		"inside-south": { base: "game:block/wood/debarked/{wood}" },
+		"inside-west": { base: "game:block/wood/debarked/{wood}" },
+
+	},
+	replaceable: 500,
+	resistance: 4.5,
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		byTool: {
+			"Axe": { hit: "game:block/chop", break: "game:block/planks" }
+		}
+	},
+	drops: [
+		{ type: "block", code: "wildcrafttree:logsection-placed-{wood}-ne-ud", quantity: { avg: 1 }  }
+	],
+	combustiblePropsByType: {
+		"*-banyan-*": {
+			burnTemperature: 800,
+			burnDuration: 58,
+		},
+		"*-douglasfir-*": {
+			burnTemperature: 800,
+			burnDuration: 68,
+		},
+		"*-redcedar-*": {
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+		"*-kauri-*": {
+			burnTemperature: 800,
+			burnDuration: 110,
+		},
+	},
+	maxStackSize: 16,
+	materialDensity: 700,
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

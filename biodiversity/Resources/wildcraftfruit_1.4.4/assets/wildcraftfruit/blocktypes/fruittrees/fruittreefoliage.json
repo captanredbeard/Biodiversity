@@ -1,0 +1,367 @@
+{
+	code: "fruittree",
+	class: "BlockDynamicTreeFoliage",
+	entityClass: "DynamicTreeFoliage",
+	attributes: {
+		handbook: {
+			groupBy: ["wildcraftfruit:fruittree-leaves-*"]
+		},
+		foliageBlock: "wildcraftfruit:fruittree-foliage",
+		branchBlock: "wildcraftfruit:fruittree-branch",
+		treeFellingGroupCode: "fruittree",
+		foliageProperties: {
+			"base": {
+				"textures": {
+					"smallleaves-flowering": { base: "leaves" },
+					"smallleaves-fruiting": { base: "leaves" },
+					"smallleaves-ripe": { base: "leaves" },
+					"smallleaves-plain": { base: "leaves" },
+					
+					"largeleaves-flowering": { base: "largeleaves" },
+					"largeleaves-fruiting": { base: "largeleaves" },
+					"largeleaves-ripe": { base: "largeleaves" },
+					"largeleaves-plain": { base: "largeleaves" },
+					
+					"fruit-fruiting": { base: "fruiting" },
+					"fruit-ripe": { base: "ripe" },
+					
+					"blossom": { base: "blossom" },
+					"largeblossom": { base: "largeblossom" },
+					
+					"bark": { base: "bark" },
+					"treetrunk": { base: "treetrunk" }
+				},
+				"leafParticlesTexture": { base: "leaves" },
+				"blossomParticlesTexture": { base: "blossom" },
+			},
+			"jackfruit": {
+				texturesBasePath: "wildcraftfruit:block/plant/fruittree/jackfruit/",
+				seasonColorMap: "tropicalKapok"
+			},
+			"cempedak": {
+				texturesBasePath: "wildcraftfruit:block/plant/fruittree/cempedak/",
+				seasonColorMap: "tropicalKapok"
+			},
+			"rambutan": {
+				texturesBasePath: "wildcraftfruit:block/plant/fruittree/rambutan/",
+			},
+			"pulasan": {
+				texturesBasePath: "wildcraftfruit:block/plant/fruittree/pulasan/",
+				seasonColorMap: "tropicalKapok"
+			},
+			"marang": {
+				texturesBasePath: "wildcraftfruit:block/plant/fruittree/marang/",
+				seasonColorMap: "tropicalKapok"
+			},
+			"almond": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/almond/"
+			},
+			"apricot": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/apricot/"
+			},
+			"burgundyapple": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/burgundyapple/"
+			},
+			"wildapple": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/wildapple/"
+			},
+			"nectarine": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/nectarine/"
+			},
+			"mazzard": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/mazzard/"
+			},
+			"sandpear": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/sandpear/"
+			},
+			"citron": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/citron/",
+				"climateColorMap": "climateDarkerPlantTint"
+			},
+			"lemon": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/lemon/",
+				"climateColorMap": "climateDarkerPlantTint"
+			},
+			"lime": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/lime/",
+				"climateColorMap": "climateDarkerPlantTint"
+			},
+			"makrut": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/makrut/",
+				"climateColorMap": "climateDarkerPlantTint"
+			},
+			"bitterorange": {
+				texturesBasePath: "wildcraftfruit:block/plant/fruittree/bitterorange/",
+				climateColorMap: "climateDarkerPlantTint",
+			},
+			"lemonaspen": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/lemonaspen/",
+				"climateColorMap": "climateDarkerPlantTint"
+			},
+			"roseapple": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/roseapple/",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"greatroseapple": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/greatroseapple/",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"waterapple": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/waterapple/",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"achacha": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/achacha/",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"wani": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/wani/",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"kasturi": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/kasturi/",
+			},
+			"chinaberry": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/chinaberry/",
+				"seasonColorMap": "seasonalBirch"
+			},
+			"ginkgo": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/ginkgo/",
+				"seasonColorMap": "seasonalBirch"
+			},
+			"avocado": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/avocado/",
+				"climateColorMap": "climateDarkerPlantTint",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"smoothavocado": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/smoothavocado/",
+				"climateColorMap": "climateDarkerPlantTint",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"engkala": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/engkala/",
+				"climateColorMap": "climateDarkerPlantTint",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"cocoa": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/cocoa/",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"beachalmond": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/beachalmond/",
+				"climateColorMap": "climateDarkerPlantTint",
+				"seasonColorMap": "seasonalBlueberry"
+			},
+			"illawarra": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/illawarra/",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"crabapple": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/crabapple/",
+				"seasonColorMap": "seasonalCranberry"
+			},
+			"walnut": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/walnut/",
+				"seasonColorMap": "seasonalWalnut"
+			},
+			"bunya": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/bunya/",
+				"seasonColorMap": "seasonalNeedles"
+			},
+			"stonepine": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/stonepine/",
+				"seasonColorMap": "seasonalNeedles"
+			},
+			"yew": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/yew/",
+				"seasonColorMap": "seasonalNeedles"
+			},
+			"fig": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/fig/"
+			},
+			"hawthorn": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/hawthorn/"
+			},
+			"redcherryplum": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/redcherryplum/",
+				"climateColorMap": "climateCrimsonKingTint",
+				"seasonColorMap": "seasonalCrimsonKingMaple"
+			},
+			"cherryplum": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/cherryplum/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalOak"
+			},
+			"greengage": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/greengage/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalOak"
+			},
+			"purpleplum": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/purpleplum/"
+			},
+			"redplum": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/redplum/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalOak"
+			},
+			"damsonplum": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/damsonplum/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalWalnut"
+			},
+			"falseorange": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/falseorange/",
+				"climateColorMap": "climateDarkerPlantTint",
+				"seasonColorMap": "seasonalBirch"
+			},
+			"bluequandong": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/bluequandong/",
+				"climateColorMap": "climateDarkerPlantTint",
+				"seasonColorMap": "seasonalMaple"
+			},
+			"redquandong": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/redquandong/",
+				"climateColorMap": "climateLighterPlantTint",
+				"seasonColorMap": "tropicalArid"
+			},
+			"chestnut": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/chestnut/"
+			},
+			"quince": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/quince/"
+			},
+			"loquat": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/loquat/"
+			},
+			"cashew": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/cashew/",
+				"climateColorMap": "climateDarkerPlantTint",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"commonhackberry": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/commonhackberry/"
+			},
+			"sugarhackberry": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/sugarhackberry/"
+			},
+			"guajava": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/guajava/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalOlive"
+			},
+			"silvernettle": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/silvernettle/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"pandan": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/pandan/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalNeedles"
+			},
+			"rowan": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/rowan/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalBlueberry"
+			},
+			"sorb": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/sorb/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalBlueberry"
+			},
+			"aronia": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/aronia/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalMaple"
+			},
+			"whiteoak": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/whiteoak/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalOak"
+			},
+			"summeroak": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/summeroak/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalOak"
+			},
+			"burroak": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/whiteoak/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "seasonalMaple"
+			},
+			"pomelo": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/pomelo/",
+				"climateColorMap": "climateDarkerPlantTint"
+			},
+			"grapefruit": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/grapefruit/",
+				"climateColorMap": "climateDarkerPlantTint"
+			},
+			"jujube": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/jujube/",
+				"climateColorMap": "climateDarkerPlantTint"
+			},
+			"ber": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/ber/",
+				"climateColorMap": "climateDarkerPlantTint"
+			},
+			"macadamia": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/macadamia/",
+				"climateColorMap": "climatePlantTint",
+				"seasonColorMap": "tropicalKapok"
+			},
+			"hazelnut": {
+				"texturesBasePath": "wildcraftfruit:block/plant/fruittree/hazelnut/"
+			}
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["foliage"] },
+	],
+	creativeinventory: { "general": [""], "flora": [""], "wildcraftfruit": [""] },
+	shape: { 
+		base: "game:block/plant/fruittree/leaves-ver",
+	},
+	textures: {
+		"deadtree": { base: "game:block/wood/bark/aged" }
+	},
+	renderpass: "OpaqueNoCull",
+	faceCullMode: "Callback",
+	blockmaterial: "Leaves",
+	vertexFlags: {
+		zOffset: 4
+	},
+	sideopaque: {
+		all: false
+	},
+	sidesolid: {
+		all: false
+	},
+	sideao: {
+		all: true
+	},
+	emitSideAo: {
+		all: false
+	},
+	snowCoverage: true,
+	replaceable: 4000,
+	lightAbsorption: 1,
+	resistance: 0.5,
+	collisionbox: null,
+	drops: [],
+	sounds: {
+		break: "game:block/plant",
+		place: "game:block/plant",
+		hit: "game:block/plant",
+		walk: "game:walk/grass",
+		inside: "game:walk/inside/leafy/bushrustle*"
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	materialDensity: 300,
+	frostable: true
+}

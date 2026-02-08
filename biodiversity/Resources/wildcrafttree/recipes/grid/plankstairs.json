@@ -1,0 +1,9 @@
+{
+	ingredientPattern: "P_,PP",
+	ingredients: {
+		"P": { type: "item", code: "wildcrafttree:plank-*", name: "wood" }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "wildcrafttree:plankstairs-{wood}-up-north-free", quantity: 1  }
+}

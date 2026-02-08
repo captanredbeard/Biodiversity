@@ -1,0 +1,412 @@
+{
+	code: "leavesbranchy",
+	"__comment": "BlockLeaves contains some code for map color tinting, stuff for wind affectedness and random testForDecay server block ticks",
+	"classByType": {
+    	  "*-honeylocust": "BlockPricklyLeaves",
+    	  "*-crownofthorns": "BlockPricklyLeaves",
+	  "*": "BlockLeaves"
+	},
+	behaviorsByType: {
+		"*-grown*-*": [{name: "PushEventOnBlockBroken",	properties: {eventName: "testForDecay"}}, { name: "RainDrip" }],
+		"*": [{ name: "RainDrip" }]
+	},
+	attributes: {
+		fenceConnect: { north: false, east: false, west: false, south: false },
+		asphyxiating: false,
+		handbook: {
+			groupBy: ["leavesbranchy-*"],
+			extraSections: [ { "title": "wildcrafttree:handbook-item-notes", "text": "wildcrafttree:handbook-item-leavesbranchy" } ]
+		},
+		treeFellingGroupCodeByType: {
+            		"*-placed-willow": "3willow",
+            		"*-placed1-willow": "1willow",
+            		"*-placed2-willow": "2willow",
+            		"*-placed3-willow": "3willow",
+            		"*-placed4-willow": "4willow",
+            		"*-placed5-willow": "5willow",
+            		"*-placed6-willow": "6willow",
+            		"*-placed7-willow": "7willow",
+
+            		"*-placed-bearnut": "3bearnut",
+            		"*-placed1-bearnut": "1bearnut",
+            		"*-placed2-bearnut": "2bearnut",
+            		"*-placed3-bearnut": "3bearnut",
+            		"*-placed4-bearnut": "4bearnut",
+            		"*-placed5-bearnut": "5bearnut",
+            		"*-placed6-bearnut": "6bearnut",
+            		"*-placed7-bearnut": "7bearnut",
+
+            		"*-placed-leadwood": "3leadwood",
+            		"*-placed1-leadwood": "1leadwood",
+            		"*-placed2-leadwood": "2leadwood",
+            		"*-placed3-leadwood": "3leadwood",
+            		"*-placed4-leadwood": "4leadwood",
+            		"*-placed5-leadwood": "5leadwood",
+            		"*-placed6-leadwood": "6leadwood",
+            		"*-placed7-leadwood": "7leadwood",
+
+            		"*-placed-bluemahoe": "3bluemahoe",
+            		"*-placed1-bluemahoe": "1bluemahoe",
+            		"*-placed2-bluemahoe": "2bluemahoe",
+            		"*-placed3-bluemahoe": "3bluemahoe",
+            		"*-placed4-bluemahoe": "4bluemahoe",
+            		"*-placed5-bluemahoe": "5bluemahoe",
+            		"*-placed6-bluemahoe": "6bluemahoe",
+            		"*-placed7-bluemahoe": "7bluemahoe",
+
+			"*-placed-pyramidalpoplar": "3poplar",
+			"*-placed1-pyramidalpoplar": "1poplar",
+			"*-placed2-pyramidalpoplar": "2poplar",
+			"*-placed3-pyramidalpoplar": "3poplar",
+			"*-placed4-pyramidalpoplar": "4poplar",
+			"*-placed5-pyramidalpoplar": "5poplar",
+			"*-placed6-pyramidalpoplar": "6poplar",
+			"*-placed7-pyramidalpoplar": "7poplar",
+
+            		"*-placed-weepingwillow": "3willow",
+            		"*-placed1-weepingwillow": "1willow",
+            		"*-placed2-weepingwillow": "2willow",
+            		"*-placed3-weepingwillow": "3willow",
+            		"*-placed4-weepingwillow": "4willow",
+            		"*-placed5-weepingwillow": "5willow",
+            		"*-placed6-weepingwillow": "6willow",
+            		"*-placed7-weepingwillow": "7willow",
+
+            		"*-placed-bluespruce": "3spruce",
+            		"*-placed1-bluespruce": "1spruce",
+            		"*-placed2-bluespruce": "2spruce",
+            		"*-placed3-bluespruce": "3spruce",
+            		"*-placed4-bluespruce": "4spruce",
+            		"*-placed5-bluespruce": "5spruce",
+            		"*-placed6-bluespruce": "6spruce",
+            		"*-placed7-bluespruce": "7spruce",
+
+			"*-placed-*": "3{wood}",
+			"*-placed1-*": "1{wood}",
+			"*-placed2-*": "2{wood}",
+			"*-placed3-*": "3{wood}",
+			"*-placed4-*": "4{wood}",
+			"*-placed5-*": "5{wood}",
+			"*-placed6-*": "6{wood}",
+			"*-placed7-*": "7{wood}",
+
+			"*-grown-*": "3{wood}",
+		},
+		treeFellingGroupSpreadIndex: 1,
+		canDecayByType: {
+			"*-grown*-*": true
+		},
+		liquidBarrierOnSides: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+	},
+	variantgroups: [
+		{ code: "type", states: ["grown", "placed", "placed1", "placed2", "placed3", "placed4", "placed5", "placed6", "placed7"] },
+		{ code: "wood", states: ["bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap"], loadFromProperties: "wildcrafttree:block/wood" }
+	],
+	skipVariants: [ "*-chlorociboria", "*-petrified", "*-charred" ],
+	creativeinventory: { "general": ["leavesbranchy-placed-*"], "flora": ["leavesbranchy-placed-*"], "wildcrafttree": ["leavesbranchy-placed-*"] },
+	
+	shape: {
+		baseByType: {
+			"*-cedar": "game:block/plant/leaves/branchy-pine",
+			"*-spruce": "game:block/plant/leaves/branchy-pine",
+			"*-yew": "game:block/plant/leaves/branchy-pine",
+			"*-tuja": "game:block/plant/leaves/branchy-pine",
+			"*-redcedar": "game:block/plant/leaves/branchy-pine",
+			"*-saxaul": "game:block/plant/leaves/branchy-pine",
+			"*-kauri": "game:block/plant/leaves/branchy-pine",
+			"*-douglasfir": "game:block/plant/leaves/branchy-redwood",
+			"*-fir": "game:block/plant/leaves/branchy-redwood",
+			"*-brideinwhite": "game:block/plant/leaves/branchy-birch",
+			"*-willow": "game:block/plant/leaves/branchy-birch",
+			"*-weepingwillow": "game:block/plant/leaves/branchy-birch",
+			"*-linden": "game:block/plant/leaves/branchy-birch",
+			"*-ash": "game:block/plant/leaves/branchy-larch",
+			"*-ginkgo": "game:block/plant/leaves/branchy-birch",
+			"*-redwillow": "game:block/plant/leaves/branchy-maple",
+			"*-beech": "game:block/plant/leaves/branchy-oak",
+			"*-sycamore": "game:block/plant/leaves/branchy-oak",
+			"*-bluespruce": "wildcrafttree:block/plant/leaves/branchy-bluespruce",
+			"*-wiliwili": "wildcrafttree:block/plant/leaves/branchy-wiliwili",
+			"*-jacaranda": "game:block/plant/leaves/branchy-redwood",
+			"*-banyan": "game:block/plant/leaves/branchy-kapok",
+			"*-dalbergia": "wildcrafttree:block/plant/leaves/branchy-dalbergia",
+			"*-sourwood": "wildcrafttree:block/plant/leaves/branchy-sourwood",
+			"*-aspen": "wildcrafttree:block/plant/leaves/branchy-aspen",
+			"*-eucalyptus": "game:block/plant/leaves/branchy-kapok",
+			"*-ghostgum": "game:block/plant/leaves/branchy",
+			"*-sal": "game:block/plant/leaves/branchy-kapok",
+			"*-azobe": "game:block/plant/leaves/branchy-kapok",
+			"*-bluemahoe": "game:block/plant/leaves/branchy-kapok",
+			"*-mahogany": "game:block/plant/leaves/branchy-kapok",
+			"*-umnini": "game:block/plant/leaves/branchy-kapok",
+			"*-guajacum": "game:block/plant/leaves/branchy-kapok",
+			"*-catalpa": "game:block/plant/leaves/branchy-kapok",
+			"*-satinash": "game:block/plant/leaves/branchy-kapok",
+			"*-mousetrap": "game:block/plant/leaves/branchy-kapok",
+			"*-tamanu": "game:block/plant/leaves/branchy-kapok",
+			"*-spurgetree": "game:block/plant/leaves/branchy-kapok",
+			"*-heather": "game:block/plant/leaves/branchy-pine",
+			"*": "game:block/plant/leaves/branchy"
+		},
+		rotateY: 10,
+		alternates: [
+			{ rotateY: 61 },
+			{ rotateY: 113 },
+			{ rotateY: 164 },
+			{ rotateY: 216 },
+			{ rotateY: 267 },
+			{ rotateY: 319 }
+		]
+	},
+	lod0Shape: {
+		baseByType: {
+			"*-cedar": "game:block/plant/leaves/branchy-pine-lod0",
+			"*-spruce": "game:block/plant/leaves/branchy-pine-lod0",
+			"*-yew": "game:block/plant/leaves/branchy-pine-lod0",
+			"*-tuja": "game:block/plant/leaves/branchy-pine-lod0",
+			"*-redcedar": "game:block/plant/leaves/branchy-pine-lod0",
+			"*-kauri": "game:block/plant/leaves/branchy-pine-lod0",
+			"*-saxaul": "game:block/plant/leaves/branchy-pine-lod0",
+			"*-heahter": "game:block/plant/leaves/branchy-pine-lod0",
+			"*-douglasfir": "game:block/plant/leaves/branchy-redwood-lod0",
+			"*-fir": "game:block/plant/leaves/branchy-redwood-lod0",
+			"*-brideinwhite": "game:block/plant/leaves/branchy-birch-lod0",
+			"*-willow": "game:block/plant/leaves/branchy-birch-lod0",
+			"*-weepingwillow": "game:block/plant/leaves/branchy-birch-lod0",
+			"*-ginkgo": "game:block/plant/leaves/branchy-birch-lod0",
+			"*-linden": "game:block/plant/leaves/branchy-birch-lod0",
+			"*-ash": "game:block/plant/leaves/branchy-larch-lod0",
+			"*-redwillow": "game:block/plant/leaves/branchy-maple-lod0",
+			"*-beech": "game:block/plant/leaves/branchy-oak-lod0",
+			"*-sycamore": "game:block/plant/leaves/branchy-oak-lod0",
+			"*-bluespruce": "wildcrafttree:block/plant/leaves/branchy-bluespruce-lod0",
+			"*-jacaranda": "game:block/plant/leaves/branchy-redwood-lod0",
+			"*-banyan": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-wiliwili": "wildcrafttree:block/plant/leaves/branchy-wiliwili-lod0",
+			"*-dalbergia": "wildcrafttree:block/plant/leaves/branchy-dalbergia-lod0",
+			"*-sourwood": "wildcrafttree:block/plant/leaves/branchy-sourwood-lod0",
+			"*-aspen": "wildcrafttree:block/plant/leaves/branchy-aspen-lod0",
+			"*-eucalyptus": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-ghostgum": "game:block/plant/leaves/branchy-lod0",
+			"*-sal": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-umnini": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-azobe": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-guajacum": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-bluemahoe": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-catalpa": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-satinash": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-mahogany": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-mousetrap": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-tamanu": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-spurgetree": "game:block/plant/leaves/branchy-kapok-lod0",
+			"*-heather": "game:block/plant/leaves/branchy-pine-lod0",
+			"*": "game:block/plant/leaves/branchy-lod0"
+		},
+		rotateY: 10,
+		alternates: [
+			{ rotateY: 61 },
+			{ rotateY: 113 },
+			{ rotateY: 164 },
+			{ rotateY: 216 },
+			{ rotateY: 267 },
+			{ rotateY: 319 }
+		]
+	},
+	shapeInventory: {
+		baseByType: {
+			"*-douglasfir": "game:block/plant/leaves/branchy-redwood-lod0",
+			"*-fir": "game:block/plant/leaves/branchy-redwood-lod0",
+			"*-bluespruce": "wildcrafttree:block/plant/leaves/branchy-bluespruce-lod0",
+			"*-dalbergia": "wildcrafttree:block/plant/leaves/branchy-dalbergia-lod0",
+			"*-jacaranda": "game:block/plant/leaves/branchy-redwood-lod0",
+			"*-wiliwili": "wildcrafttree:block/plant/leaves/branchy-wiliwili-lod0",
+			"*": "game:block/plant/leaves/branchy-lod0"
+		}
+	},
+	renderpass: "OpaqueNoCull",
+	faceCullMode: "CollapseMaterial",
+	blockmaterial: "Leaves",
+	vertexFlags: {
+		zOffset: 4,
+		windMode: "Leaves"
+	},
+	textures: {
+		largeleavesByType: {
+			"*": { base: "wildcrafttree:block/plant/leaves/large/{wood}*" },
+		},
+		smallleavesByType: {
+			"*": { base: "wildcrafttree:block/plant/leaves/small/{wood}*" },
+		},
+		branch: { base: "game:block/plant/leaves/large/branch" }
+	},
+	sideopaque: {
+		all: false
+	},
+	sideao: {
+		all: true
+	},
+	emitSideAo: {
+		all: false
+	},
+	replaceable: 3000,
+	lightAbsorption: 1,
+	resistance: 0.9,
+	snowCoverage: true,
+	dropsByType: {
+		"*-douglasfir": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-douglasfir", quantity: { avg: 0.03, var: 0 }  },
+		],
+		"*-redcedar": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-redcedar", quantity: { avg: 0.03, var: 0 }  },
+		],
+		"*-banyan": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-banyan", quantity: { avg: 0.03, var: 0 }  },
+		],
+		"*-alder": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-alder", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-alder", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-wiliwili": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-wiliwili", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-heather": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-heather", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-crownofthorns": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-crownofthorns", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-brideinwhite": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:leaves-brideinwhite", quantity: { avg: 0.3, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-brideinwhite", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-brideinwhite", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-aspen": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-aspen", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-aspen", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-redwillow": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:leaves-willow", quantity: { avg: 0.3, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-redwillow", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-redwillow", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-sourwood": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:leaves-sourwood", quantity: { avg: 0.3, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-sourwood", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-fir": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-fir", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-bearnut": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-bearnut", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-bearnut", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-beech": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-beech", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-saxaul": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-saxaul", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-yew": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-yew", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-honeylocust": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-honeylocust", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-honeylocust", quantity: { avg: 0.1, var: 0 }  },
+		],
+		"*-azobe": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-azobe", quantity: { avg: 0.12, var: 0 }  },
+		],
+		"*-cedar": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-cedar", quantity: { avg: 0.12, var: 0 }  },
+		],
+		"*-mousetrap": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-mousetrap", quantity: { avg: 0.12, var: 0 }  },
+		],
+		"*-sapele": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-sapele", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-sapele", quantity: { avg: 0.12, var: 0 }  },
+		],
+		"*-kauri": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-kauri", quantity: { avg: 0.12, var: 0 }  },
+		],
+		"*-sal": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-sal", quantity: { avg: 0.12, var: 0 }  },
+		],
+		"*-tuja": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-tuja", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-tuja", quantity: { avg: 0.06, var: 0 }  },
+		],
+		"*-willow": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:leaves-willow", quantity: { avg: 0.3, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-willow", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-willow", quantity: { avg: 0.06, var: 0 }  },
+		],
+		"*-poplar": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-poplar", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-poplar", quantity: { avg: 0.06, var: 0 }  },
+		],
+		"*-pyramidalpoplar": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-poplar", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-pyramidalpoplar", quantity: { avg: 0.06, var: 0 }  },
+		],
+		"*-eucalyptus": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:leaves-eucalyptus", quantity: { avg: 0.3, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:willowcane-eucalyptus", quantity: { avg: 0.8, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-eucalyptus", quantity: { avg: 0.06, var: 0 }  },
+		],
+		"*": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1, var: 0 }  },
+			{ type: "item", code: "wildcrafttree:treeseed-{wood}", quantity: { avg: 0.06, var: 0 }  }
+		]
+	},
+	sounds: {
+		break: "game:block/plant",
+		place: "game:block/plant",
+		hit: "game:block/plant",
+		walk: "game:walk/grass",
+		inside: "game:walk/inside/leafy/bushrustle*"
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	materialDensity: 400,
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	},
+	guiTransform: {
+		scale: 0.8
+	},
+	frostable: true,
+}

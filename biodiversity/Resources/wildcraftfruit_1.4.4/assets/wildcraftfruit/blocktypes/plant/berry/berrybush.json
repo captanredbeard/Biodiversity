@@ -1,0 +1,674 @@
+{
+	"code": "berrybush",
+	"class": "HerbariumBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"stackable": true,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+                "handbook": {
+                   "groupBy": ["berrybush-*"],
+       "extraSectionsByType": {
+          "*-josta-*": [ { "title": "wildcraftfruit:handbook-item-wheretofind", "text": "wildcraftfruit:handbook-item-josta" } ],
+          "*": []
+                },
+                },
+		"stopBelowTemperatureByType":{
+			"*-huckleberry-*": -2,
+			"*-hazel-*": -2,
+			"*-wolfberry-*": -6,
+			"*-snowberry-*": -4,
+			"*-honeysuckle-*": 2,
+			"*-spindle-*": 0,
+			"*-blackelder-*": 0,
+			"*-swamphuckle-*": 0,
+			"*-feijoa-*": 16,
+			"*-beautyberry-*": 8,
+			"*-kumquat-*": 18,
+			"*-sumac-*": 10,
+			"*-dwarfpine-*": -14,
+			"*-juniper-*": -8,
+			"*-pistachio-*": 0,
+			"*-kawakawa-*": 12,
+			"*-lillypillywhite-*": 6,
+			"*-lillypillypink-*": 10,
+			"*-lillypillyblue-*": 14,
+			"*-midyimberry-*": 14,
+			"*-seamango-*": 18,
+			"*-mingimingi-*": 12,
+			"*-pilo-*": 14,
+			"*-marita-*": 10,
+			"*-josta-*": 2,
+			"*-bladdernut-*": 4,
+		},
+		"resetBelowTemperatureByType":{
+			"*-huckleberry-*": -4,
+			"*-hazel-*": -4,
+			"*-wolfberry-*": -8,
+			"*-snowberry-*": -6,
+			"*-honeysuckle-*": 0,
+			"*-spindle-*": -2,
+			"*-blackelder-*": -2,
+			"*-swamphuckle-*": -2,
+			"*-feijoa-*": 12,
+			"*-beautyberry-*": 6,
+			"*-kumquat-*": 16,
+			"*-sumac-*": 8,
+			"*-dwarfpine-*": -20,
+			"*-juniper-*": -12,
+			"*-pistachio-*": -4,
+			"*-kawakawa-*": 10,
+			"*-lillypillywhite-*": 4,
+			"*-lillypillypink-*": 8,
+			"*-lillypillyblue-*": 12,
+			"*-midyimberry-*": 12,
+			"*-seamango-*": 16,
+			"*-mingimingi-*": 10,
+			"*-pilo-*": 12,
+			"*-marita-*": 8,
+			"*-josta-*": 0,
+			"*-bladdernut-*": 0,
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-huckleberry-*": -6,
+			"*-hazel-*": -6,
+			"*-wolfberry-*": -10,
+			"*-snowberry-*": -10,
+			"*-honeysuckle-*": -4,
+			"*-spindle-*": -4,
+			"*-blackelder-*": -4,
+			"*-swamphuckle-*": -4,
+			"*-feijoa-*": 10,
+			"*-beautyberry-*": 4,
+			"*-kumquat-*": 14,
+			"*-sumac-*": 6,
+			"*-dwarfpine-*": -22,
+			"*-juniper-*": -14,
+			"*-pistachio-*": -6,
+			"*-kawakawa-*": 8,
+			"*-lillypillywhite-*": 2,
+			"*-lillypillypink-*": 6,
+			"*-lillypillyblue-*": 10,
+			"*-midyimberry-*": 10,
+			"*-seamango-*": 14,
+			"*-mingimingi-*": 8,
+			"*-pilo-*": 10,
+			"*-marita-*": 6,
+			"*-josta-*": -2,
+			"*-bladdernut-*": -2,
+		},
+		"stopAboveTemperatureByType":{
+			"*-huckleberry-*": 26,
+			"*-hazel-*": 26,
+			"*-wolfberry-*": 20,
+			"*-snowberry-*": 30,
+			"*-honeysuckle-*": 30,
+			"*-spindle-*": 26,
+			"*-blackelder-*": 24,
+			"*-swamphuckle-*": 28,
+			"*-feijoa-*": 42,
+			"*-beautyberry-*": 38,
+			"*-kumquat-*": 42,
+			"*-sumac-*": 44,
+			"*-dwarfpine-*": 18,
+			"*-juniper-*": 40,
+			"*-pistachio-*": 40,
+			"*-kawakawa-*": 36,
+			"*-lillypillywhite-*": 28,
+			"*-lillypillypink-*": 30,
+			"*-lillypillyblue-*": 34,
+			"*-midyimberry-*": 36,
+			"*-seamango-*": 42,
+			"*-mingimingi-*": 38,
+			"*-pilo-*": 36,
+			"*-marita-*": 28,
+			"*-josta-*": 26,
+			"*-bladdernut-*": 32,
+		},
+		"resetAboveTemperatureByType":{
+			"*-huckleberry-*": 28,
+			"*-hazel-*": 28,
+			"*-wolfberry-*": 22,
+			"*-snowberry-*": 32,
+			"*-honeysuckle-*": 32,
+			"*-spindle-*": 28,
+			"*-blackelder-*": 28,
+			"*-swamphuckle-*": 30,
+			"*-feijoa-*": 46,
+			"*-beautyberry-*": 42,
+			"*-kumquat-*": 46,
+			"*-sumac-*": 48,
+			"*-dwarfpine-*": 22,
+			"*-juniper-*": 44,
+			"*-pistachio-*": 44,
+			"*-kawakawa-*": 38,
+			"*-lillypillywhite-*": 30,
+			"*-lillypillypink-*": 32,
+			"*-lillypillyblue-*": 36,
+			"*-midyimberry-*": 38,
+			"*-seamango-*": 46,
+			"*-mingimingi-*": 40,
+			"*-pilo-*": 38,
+			"*-marita-*": 30,
+			"*-josta-*": 30,
+			"*-bladdernut-*": 36,
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-huckleberry-*": 32,
+			"*-hazel-*": 32,
+			"*-wolfberry-*": 26,
+			"*-snowberry-*": 36,
+			"*-honeysuckle-*": 36,
+			"*-spindle-*": 32,
+			"*-blackelder-*": 30,
+			"*-swamphuckle-*": 32,
+			"*-feijoa-*": 48,
+			"*-beautyberry-*": 44,
+			"*-kumquat-*": 48,
+			"*-sumac-*": 50,
+			"*-dwarfpine-*": 24,
+			"*-juniper-*": 46,
+			"*-pistachio-*": 46,
+			"*-kawakawa-*": 40,
+			"*-lillypillywhite-*": 32,
+			"*-lillypillypink-*": 34,
+			"*-lillypillyblue-*": 38,
+			"*-midyimberry-*": 40,
+			"*-seamango-*": 48,
+			"*-mingimingi-*": 42,
+			"*-pilo-*": 40,
+			"*-marita-*": 32,
+			"*-josta-*": 32,
+			"*-bladdernut-*": 38,
+		},
+		"growthBlockByType":{
+			"*-josta-*": "wildcraftfruit:growth-josta-alive",
+			"*-spindle-*": "wildcraftfruit:growth-spindle-alive",
+			"*-feijoa-*": "wildcraftfruit:growth-feijoa-alive",
+			"*-kumquat-*": "wildcraftfruit:growth-kumquat-alive",
+			"*-dwarfpine-*": "wildcraftfruit:growth-dwarfpine-alive",
+			"*-juniper-*": "wildcraftfruit:growth-juniper-alive",
+			"*-sumac-*": "wildcraftfruit:growth-sumac-alive",
+			"*-pistachio-*": "wildcraftfruit:growth-pistachio-alive",
+			"*-seamango-*": "wildcraftfruit:growth-seamango-alive",
+			"*-lillypillypink-*": "wildcraftfruit:growth-lillypillypink-alive",
+			"*-lillypillywhite-*": "wildcraftfruit:growth-lillypillywhite-alive",
+			"*-lillypillyblue-*": "wildcraftfruit:growth-lillypillyblue-alive",
+			"*-pilo-*": "wildcraftfruit:growth-pilo-alive",
+			"*-mingimingi-*": "wildcraftfruit:growth-mingimingi-alive",
+			"*-blackelder-*": "wildcraftfruit:growth-blackelder-alive",
+			"*-marita-*": "wildcraftfruit:growth-marita-alive",
+			"*-swamphuckle-*": "wildcraftfruit:growth-swamphuckle-alive",
+			"*-hazel-*": "wildcraftfruit:growth-hazel-alive",
+			"*-bladdernut-*": "wildcraftfruit:growth-bladdernut-alive",
+		},
+                "bottomBlockByType":{
+			"*-juniper-*": "wildcraftfruit:bottomberrybush-juniper-empty",
+			"*-hazel-*": "wildcraftfruit:bottomberrybush-hazel-empty",
+			"*-pilo-*": "wildcraftfruit:bottomberrybush-pilo-empty",
+			"*-lillypillypink-*": "wildcraftfruit:bottomberrybush-lillypillypink-empty",
+			"*-lillypillyblue-*": "wildcraftfruit:bottomberrybush-lillypillyblue-empty",
+			"*-lillypillywhite-*": "wildcraftfruit:bottomberrybush-lillypillywhite-empty",
+			"*-blackelder-*": "wildcraftfruit:bottomberrybush-blackelder-empty",
+			"*-pistachio-*": "wildcraftfruit:bottomtreebush-pistachio",
+			"*-seamango-*": "wildcraftfruit:bottomtreebush-seamango",
+			"*-marita-*": "wildcraftfruit:bottomtreebush-marita",
+			"*-bladdernut-*": "wildcraftfruit:bottomtreebush-bladdernut",
+                },
+		"pruneItemByType":{
+			"*": "wildcraftfruit:clipping-{type}-green"
+		},
+		"isLargeByType":{
+			"*-juniper-*": true,
+			"*-hazel-*": true,
+			"*-pistachio-*": true,
+			"*-seamango-*": true,
+			"*-pilo-*": true,
+			"*-lillypillypink-*": true,
+			"*-lillypillyblue-*": true,
+			"*-lillypillywhite-*": true,
+			"*-marita-*": true,
+			"*-blackelder-*": true,
+			"*-bladdernut-*": true,
+			"*": false
+		},
+		"floweringDaysByType":{
+			"*-juniper-*": { avg: 16.8, var: 0.8 },
+			"*-dwarfpine-*": { avg: 16.8, var: 0.8 },
+			"*-pistachio-*": { avg: 14.8, var: 0.8 },
+			"*-kumquat-*": { avg: 14.8, var: 0.8 },
+			"*-lillypillypink-*": { avg: 12.8, var: 0.8 },
+			"*-lillypillyblue-*": { avg: 12.8, var: 0.8 },
+			"*-lillypillywhite-*": { avg: 12.8, var: 0.8 },
+			"*-feijoa-*": { avg: 12.8, var: 0.8 },
+			"*-hazel-*": { avg: 12.8, var: 0.8 },
+			"*-kawakawa-*": { avg: 12.8, var: 0.8 },
+			"*-seamango-*": { avg: 12.8, var: 0.8 },
+			"*-marita-*": { avg: 10.8, var: 0.8 },
+			"*-midyimberry-*": { avg: 10.8, var: 0.8 },
+			"*-pilo-*": { avg: 10.8, var: 0.8 },
+			"*-mingimingi-*": { avg: 10.8, var: 0.8 },
+			"*-bladdernut-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"ripeningDaysByType":{
+			"*-juniper-*": { avg: 16.8, var: 0.8 },
+			"*-dwarfpine-*": { avg: 16.8, var: 0.8 },
+			"*-pistachio-*": { avg: 14.8, var: 0.8 },
+			"*-kumquat-*": { avg: 14.8, var: 0.8 },
+			"*-lillypillypink-*": { avg: 12.8, var: 0.8 },
+			"*-lillypillyblue-*": { avg: 12.8, var: 0.8 },
+			"*-lillypillywhite-*": { avg: 12.8, var: 0.8 },
+			"*-feijoa-*": { avg: 12.8, var: 0.8 },
+			"*-hazel-*": { avg: 12.8, var: 0.8 },
+			"*-kawakawa-*": { avg: 12.8, var: 0.8 },
+			"*-seamango-*": { avg: 12.8, var: 0.8 },
+			"*-marita-*": { avg: 10.8, var: 0.8 },
+			"*-midyimberry-*": { avg: 10.8, var: 0.8 },
+			"*-pilo-*": { avg: 10.8, var: 0.8 },
+			"*-mingimingi-*": { avg: 10.8, var: 0.8 },
+			"*-bladdernut-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"sheddingDaysByType":{
+			"*-dwarfpine-*": { avg: 45.2, var: 3.2 },
+			"*-hazel-*": { avg: 45.2, var: 3.2 },
+			"*-juniper-*": { avg: 45.2, var: 3.2 },
+			"*-pistachio-*": { avg: 25.2, var: 3.2 },
+			"*-kumquat-*": { avg: 25.2, var: 3.2 },
+			"*-feijoa-*": { avg: 25.2, var: 3.2 },
+			"*-honeysuckle-*": { avg: 25.2, var: 3.2 },
+			"*-beautyberry-*": { avg: 25.2, var: 3.2 },
+			"*-wolfberry-*": { avg: 25.2, var: 3.2 },
+			"*-lillypillypink-*": { avg: 25.2, var: 3.2 },
+			"*-lillypillyblue-*": { avg: 25.2, var: 3.2 },
+			"*-lillypillywhite-*": { avg: 25.2, var: 3.2 },
+			"*-kawakawa-*": { avg: 15.2, var: 3.2 },
+			"*-josta-*": { avg: 25.2, var: 3.2 },
+			"*": { avg: 35.2, var: 3.2 },
+		},
+		"prunedMeshFacesByType": {
+			"*-marita-*": [ "branchesN", "branchesS", "Stem1", "Flower1", "Berry1", "Stem2", "Flower2", "Berry2" ],
+			"*": [ "branchesN", "branchesS", "Leaves", "Berries" ],
+                },
+		"fruitingFacesByType": { 
+			"*-marita-*": [ "Stem1", "Flower1", "Berry1", "Stem2", "Flower2", "Berry2" ],
+			"*": [ "Berries" ],
+                },
+                "isBottomBlock": false
+	},
+	"entityclassByType": {
+		"*-josta-*": "BETallBerryBush",
+		"*-spindle-*": "BETallBerryBush",
+		"*-feijoa-*": "BETallBerryBush",
+		"*-kumquat-*": "BETallBerryBush",
+		"*-dwarfpine-*": "BETallBerryBush",
+		"*-sumac-*": "BETallBerryBush",
+		"*-lillypillypink-*": "BETallBerryBush",
+		"*-lillypillywhite-*": "BETallBerryBush",
+		"*-lillypillyblue-*": "BETallBerryBush",
+		"*-blackelder-*": "BETallBerryBush",
+		"*-juniper-*": "BETallBerryBush",
+		"*-pistachio-*": "BETallBerryBush",
+		"*-seamango-*": "BETallBerryBush",
+		"*-pilo-*": "BETallBerryBush",
+		"*-marita-*": "BETallBerryBush",
+		"*-mingimingi-*": "BETallBerryBush",
+		"*-hazel-*": "BETallBerryBush",
+		"*-swamphuckle-*": "BETallBerryBush",
+		"*-bladdernut-*": "BETallBerryBush",
+		"*": "BEHerbariumBerryBush"
+	},
+	"entityBehaviorsbyType":{
+		"*-huckleberry-*": [ { name: "RootSuckers", properties: { suckerBlock: "wildcraftfruit:rootsucker-huckleberry-alive" } } ],
+		"*-swamphuckle-*": [ { name: "RootSuckers", properties: { suckerBlock: "wildcraftfruit:rootsucker-swamphuckle-alive" } } ],
+		"*-mingimingi-*": [ { name: "RootSuckers", properties: { suckerBlock: "wildcraftfruit:rootsucker-mingimingi-alive" } } ]
+	},
+	"behaviorsByType": {
+		"*-josta-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-currant", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-josta-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-bladdernut-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-jonjoli", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-bladdernut-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-feijoa-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-feijoa", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-feijoa-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-honeysuckle-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-honeysuckle", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-honeysuckle-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-blackelder-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-elder", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-blackelder-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-dwarfpine-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:nut-dwarfpinecone", "quantity": { "avg": 2.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-dwarfpine-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-hazel-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:nut-hazelnut", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-hazel-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-bladdernut-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:nut-bladdernut", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-bladdernut-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-sumac-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:dryfruit-sumac", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-sumac-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-pistachio-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:dryfruit-pistachioberry", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-pistachio-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-marita-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:dryfruit-marita", "quantity": { "avg": 2.3 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-marita-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-huckleberry-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-huckleberry", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-huckleberry-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-swamphuckle-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-swamphuckle", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-swamphuckle-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-spindle-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-spindle", "quantity": { "avg": 8.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-spindle-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-pilo-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-pilo", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-pilo-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-mingimingi-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-mingimingi", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-mingimingi-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-juniper-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:dryfruit-juniper", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-juniper-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-beautyberry-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-beautyberry", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-beautyberry-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-kumquat-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-kumquat", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-kumquat-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-blackelder-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-blackelder", "quantity": { "avg": 6.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-blackelder-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:berrybush-{type}-empty",
+			"exchangeBlock": true
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["dwarfpine", "juniper", "marita", "kawakawa", "josta", "hazel", "spindle", "midyimberry", "feijoa", "lillypillypink", "lillypillyblue", "lillypillywhite", "bladdernut", "wolfberry", "kumquat", "sumac", "pistachio", "huckleberry", "swamphuckle", "honeysuckle", "snowberry", "blackelder", "beautyberry", "seamango", "pilo", "mingimingi"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraftfruit": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-feijoa-empty": { "base": "wildcraftfruit:block/plant/berrybush/feijoabush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-feijoa-flowering": { "base": "wildcraftfruit:block/plant/berrybush/feijoabush*" },
+		"*-feijoa-ripe": { "base": "wildcraftfruit:block/plant/berrybush/feijoabush*" },
+
+		"*-pistachio-empty": { "base": "wildcraftfruit:block/plant/berrybush/pistachiobush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-pistachio-flowering": { "base": "wildcraftfruit:block/plant/berrybush/pistachiobush*" },
+		"*-pistachio-ripe": { "base": "wildcraftfruit:block/plant/berrybush/pistachiobush*" },
+
+		"*-snowberry-empty": { "base": "wildcraftfruit:block/plant/berrybush/snowberrybush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-snowberry-flowering": { "base": "wildcraftfruit:block/plant/berrybush/snowberrybush*" },
+		"*-snowberry-ripe": { "base": "wildcraftfruit:block/plant/berrybush/snowberrybush*" },
+
+		"*-kawakawa-empty": { "base": "wildcraftfruit:block/plant/berrybush/kawakawabush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-kawakawa-flowering": { "base": "wildcraftfruit:block/plant/berrybush/kawakawabush*" },
+		"*-kawakawa-ripe": { "base": "wildcraftfruit:block/plant/berrybush/kawakawabush*" },
+
+		"*-seamango-empty": { "base": "wildcraftfruit:block/plant/berrybush/seamangobush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-seamango-flowering": { "base": "wildcraftfruit:block/plant/berrybush/seamangobush*" },
+		"*-seamango-ripe": { "base": "wildcraftfruit:block/plant/berrybush/seamangobush*" },
+
+		"*-dwarfpine-empty": { "base": "wildcraftfruit:block/plant/berrybush/dwarfpinebush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-dwarfpine-flowering": { "base": "wildcraftfruit:block/plant/berrybush/dwarfpinebush*" },
+		"*-dwarfpine-ripe": { "base": "wildcraftfruit:block/plant/berrybush/dwarfpinebush*" },
+
+		"*-juniper-empty": { "base": "wildcraftfruit:block/plant/berrybush/juniperbush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-juniper-flowering": { "base": "wildcraftfruit:block/plant/berrybush/juniperbush*" },
+		"*-juniper-ripe": { "base": "wildcraftfruit:block/plant/berrybush/juniperbush*" },
+
+		"*-lillypillyblue-empty": { "base": "wildcraftfruit:block/plant/berrybush/lillypillyblue*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-lillypillyblue-flowering": { "base": "wildcraftfruit:block/plant/berrybush/lillypillybluebush*" },
+		"*-lillypillyblue-ripe": { "base": "wildcraftfruit:block/plant/berrybush/lillypillybluebush*" },
+
+		"*-lillypillywhite-empty": { "base": "wildcraftfruit:block/plant/berrybush/lillypillywhitebush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-lillypillywhite-flowering": { "base": "wildcraftfruit:block/plant/berrybush/lillypillywhitebush*" },
+		"*-lillypillywhite-ripe": { "base": "wildcraftfruit:block/plant/berrybush/lillypillywhitebush*" },
+
+		"*-lillypillypink-empty": { "base": "wildcraftfruit:block/plant/berrybush/lillypillypinkbush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-lillypillypink-flowering": { "base": "wildcraftfruit:block/plant/berrybush/lillypillypinkbush*" },
+		"*-lillypillypink-ripe": { "base": "wildcraftfruit:block/plant/berrybush/lillypillypinkbush*" },
+
+		"*-pilo-empty": { "base": "wildcraftfruit:block/plant/berrybush/pilobush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-pilo-flowering": { "base": "wildcraftfruit:block/plant/berrybush/pilobush*" },
+		"*-pilo-ripe": { "base": "wildcraftfruit:block/plant/berrybush/pilobush*" },
+
+		"*-mingimingi-empty": { "base": "wildcraftfruit:block/plant/berrybush/mingimingibush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-mingimingi-flowering": { "base": "wildcraftfruit:block/plant/berrybush/mingimingibush*" },
+		"*-mingimingi-ripe": { "base": "wildcraftfruit:block/plant/berrybush/mingimingibush*" },
+
+		"*-blackelder-empty": { "base": "wildcraftfruit:block/plant/berrybush/blackelderbush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-blackelder-flowering": { "base": "wildcraftfruit:block/plant/berrybush/blackelderbush*" },
+		"*-blackelder-ripe": { "base": "wildcraftfruit:block/plant/berrybush/blackelderbush*" },
+
+		"*-swamphuckle-empty": { "base": "wildcraftfruit:block/plant/berrybush/swamphucklebush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-swamphuckle-flowering": { "base": "wildcraftfruit:block/plant/berrybush/swamphucklebush*" },
+		"*-swamphuckle-ripe": { "base": "wildcraftfruit:block/plant/berrybush/swamphucklebush*" },
+
+		"*-bladdernut-empty": { "base": "wildcraftfruit:block/plant/berrybush/bladdernutbush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-bladdernut-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bladdernutbush*" },
+		"*-bladdernut-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bladdernutbush*" },
+
+		"*-marita-empty": { "base": "wildcraftfruit:block/plant/berrybush/maritabush*", "selectiveElements": ["branchesN", "branchesS", "Largeleaves/*"] },
+		"*-marita-flowering": { "base": "wildcraftfruit:block/plant/berrybush/maritabush*", "selectiveElements": ["branchesN", "branchesS", "Largeleaves/*", "Stem1", "Stem2", "Flower1", "Flower2"] },
+		"*-marita-ripe": { "base": "wildcraftfruit:block/plant/berrybush/maritabush*", "selectiveElements": ["branchesN", "branchesS", "Largeleaves/*", "Stem1", "Stem2", "Berry1", "Berry2"] },
+
+		"*-empty": { "base": "game:block/plant/berrybush/large*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*": { "base": "game:block/plant/berrybush/large*" }
+	},
+	"blockmaterial": "Plant",
+	"textures": {
+		"leavessmall": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}*" },
+		"leaveslarge": { "base": "wildcraftfruit:block/plant/berrybush/large/leaves/{type}large" }
+	},
+	"texturesByType": {
+		"*-marita-flowering": {
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*" }
+		},
+		"*-marita-ripe": {
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*" }
+		},
+		"*-flowering": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/flower/{type}large" }
+		},
+		"*-ripe": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*" },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/fruit/{type}large" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-josta-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-currant", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-bladdernut-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-jonjoli", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-feijoa-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-feijoa", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-honeysuckle-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-honeysuckle", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-blackelder-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-elder", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-dwarfpine-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:nut-dwarfpinecone", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-marita-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:dryfruit-marita", "quantity": { "avg": 2.3 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-hazel-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:nut-hazelnut", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-bladdernut-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:nut-bladdernut", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-pistachio-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:dryfruit-pistachioberry", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-juniper-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:dryfruit-juniper", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-sumac-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:dryfruit-sumac", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-huckleberry-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-huckleberry", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-swamphuckle-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-swamphuckle", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-pilo-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-pilo", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-mingimingi-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-mingimingi", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-beautyberry-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-beautyberry", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-kumquat-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-kumquat", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-blackelder-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-blackelder", "quantity": { "avg": 6.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-spindle-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-spindle", "quantity": { "avg": 8.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

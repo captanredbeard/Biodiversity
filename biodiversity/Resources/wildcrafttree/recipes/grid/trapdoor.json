@@ -1,0 +1,21 @@
+[
+{
+	ingredientPattern: "WWW	SSS	WWW",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 },
+		"S": { type: "item", code: "game:stick" },
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "wildcrafttree:trapdoor-window-{wood}-1", quantity: 2  }
+},
+{
+	ingredientPattern: "WWW	WWW	WWW",
+	ingredients: {
+		"W": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 1 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "wildcrafttree:trapdoor-solid-{wood}-1", quantity: 2  }
+}
+]

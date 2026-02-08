@@ -1,0 +1,68 @@
+{
+	code: "fermentedcocoa",
+	maxstacksize: 64,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+  "attributes": {
+    "juiceablePropertiesByType": {
+      "*": {
+				  "litresPerItem": 0.3125,
+				  "liquidStack": { "type": "item", "code": "wildcraftfruit:cocoabutter-liquid", "stacksize": 1 },
+				  "pressedStack": { "type": "item", "code": "wildcraftfruit:pressedcocoa-cocoapowder", "stacksize": 1 }
+      },
+    },
+    "inContainerTexture": {
+      "base": "wildcraftfruit:block/food/pie/fill-almond"
+    },
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		},
+  },
+	shapebytype: {
+		"*": { base: "wildcraftfruit:item/fruit/fermentedcocoa" }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcraftfruit": ["*"] },
+	storageFlags: 33,
+	transitionablePropsByType: {
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 360 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}]
+	},
+	materialDensity: 600,
+	guiTransformByType: {
+		"*": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 138, "y": 160, "z": -4 },
+		"origin": { "x": 0.466, "y": 0.04, "z": 0.47 },
+		"scale": 3.56
+		}
+	},
+	tpHandTransformByType: {
+		"*": {
+			"translation": { "x": -0.03, "y": 0, "z": -0.33 },
+			"rotation": { "x": 117, "y": 0, "z": -68 },
+			"origin": { "x": 0.07, "y": -0.13, "z": 0.37 },
+			"scale": 0.51
+		},
+        },
+	groundTransformByType: {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3.66
+		}
+	},
+	heldTpIdleAnimationByType: {
+		"@*-(fermentedcocoa)": "holdbothhands",
+	},
+	"heldRightReadyAnimationByType": {
+		"@*-(fermentedcocoa)": "holdbothhands"
+	}
+}

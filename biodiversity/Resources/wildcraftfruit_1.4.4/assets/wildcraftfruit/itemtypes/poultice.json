@@ -1,0 +1,211 @@
+{
+	code: "poultice",
+	behaviors: [
+		{
+			name: "HealingItem",
+			propertiesByType: {
+				"*-reed-snowberry": {
+					health: 2,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-linen-snowberry": {
+					health: 4,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-reed-baneberry": {
+					health: 2,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-linen-baneberry": {
+					health: 4,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+
+				"*-reed-resin-elder": {
+					health: 2.5,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-linen-resin-elder": {
+					health: 5,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-reed-bryony": {
+					health: 2.5,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-linen-bryony": {
+					health: 5,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+
+				"*-reed-bearberry": {
+					health: 3,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-linen-bearberry": {
+					health: 6,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-reed-falseorange": {
+					health: 3,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-linen-falseorange": {
+					health: 6,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-reed-ivy-vinegar": {
+					health: 3,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-linen-ivy-vinegar": {
+					health: 6,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+
+				"*-reed-honey-pepper": {
+					health: 3.5,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-linen-honey-pepper": {
+					health: 6.5,
+					applicationtimesec: 3,
+					maxapplicationtimesec: 10,
+					effectdurationsec: 10,
+					ticks: 10,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				}
+			}
+		}
+	],
+	attributesByType: {
+		"*": { handbook: { extraSections: [ { "title": "wildcraftfruit:handbook-item-about", "text": "wildcraftfruit:handbook-item-poultice" } ] } },
+	},
+	maxstacksize: 16,
+	variantgroups: [
+		{ code: "material", states: ["linen", "reed"] },
+		{ code: "agent", states: ["baneberry", "snowberry", "ivy-vinegar", "resin-elder", "bryony", "bearberry", "falseorange", "honey-pepper"] },
+	],
+	shape: { base: "wildcraftfruit:item/medicine/poultice-{material}" },
+	textures: {
+		"agent": { base: "wildcraftfruit:items/medicine/{material}/{agent}" },
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcraftfruit": [ "*" ] },
+	materialDensity: 600,
+	guiTransform: {
+		translation: { x: 3, y: 0, z: 0 },
+		rotation: { x: 120, y: 41, z: 7 },
+		origin: { x: 0.5, y: 0.11, z: 0.5 },
+		scale: 2.15
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 40, y: 91, z: 15 },
+		origin: { x: 0.8, y: 0.4, z: 0 },
+		scale: 1.47
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 180, y: 33, z: -180 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.5
+	},
+	tpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 5, y: 41, z: -31 },
+		origin: { x: 0.16, y: 0.05, z: 0.08 },
+		scale: 0.44
+	}
+}

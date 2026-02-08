@@ -1,0 +1,133 @@
+[
+	{
+		"op": "replace",
+		"path": "/transitionableProps",
+		"value": [{
+		type: "Perish",
+		freshHours: { avg: 360 },
+		transitionHours: { avg: 48 },
+		transitionedStack: { type: "item", code: "game:seeds-pineapple" },
+		transitionRatio: 1 }],
+		"file": "game:blocktypes/food/pineapple.json"
+	},
+	{
+		"op": "replace",
+		"path": "/transitionableProps",
+		"value": [{
+		type: "Perish",
+		freshHours: { avg: 600 },
+		transitionHours: { avg: 96 },
+		transitionedStack: { type: "item", code: "wildcraftfruit:nut-pumpkinseed" },
+		transitionRatio: 1 }],
+		"file": "game:blocktypes/plant/pumpkin/fruit.json"
+	},
+	{
+		"op": "replace",
+		"path": "/transitionablePropsByType",
+		"value": {
+		"*-pumpkin": [{
+			type: "Perish",
+			freshHours: { avg: 192 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.55
+		}],
+		"*-onion": [{
+			type: "Perish",
+			freshHours: { avg: 960 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.5
+		}],
+		"*-cookedcattailroot": [{
+			type: "Perish",
+			freshHours: { avg: 48 },
+			transitionHours: { avg: 12 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.5
+		}],
+		"*-olive": [{
+			type: "Perish",
+			freshHours: { avg: 600 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}],
+		"*-cassava": [
+		{
+			type: "Perish",
+			freshHours: { avg: 360 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 1
+		},
+		{
+			type: "Dry",
+			freshHours: { avg: 12 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "rawcassava-dried" },
+			transitionRatio: 1
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 600 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.5
+		}]
+		},
+		"file": "game:itemtypes/food/vegetable.json"
+	},
+	{
+		"op": "replace",
+		"path": "/transitionablePropsByType",
+		"value": {
+		"*-cranberry": [{
+			type: "Perish",
+			freshHours: { avg: 96 },
+			transitionHours: { avg: 12 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.25
+		}],
+		"@*-(orange|pear|yellowapple)": [{
+			type: "Perish",
+			freshHours: { avg: 600 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}],
+		"@*-(mango|lychee)": [{
+			type: "Perish",
+			freshHours: { avg: 360 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.25
+		}],
+		"@*-(pinkapple|redapple|pomegranate|breadfruit)": [{
+			type: "Perish",
+			freshHours: { avg: 960 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.25
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 48 },
+			transitionHours: { avg: 12 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.25
+		}]
+		},
+		"file": "game:itemtypes/food/fruit.json"
+	},
+	{
+		"op": "replace",
+		"path": "/nutritionPropsByType",
+		"value": {
+		"*-cabbage": { saturation: 260, foodcategory: "Vegetable" },
+		"*-pumpkin": { saturation: 120, foodcategory: "Vegetable" },
+		"*": { saturation: 80, foodcategory: "Vegetable" },
+		},
+		"file": "game:itemtypes/food/pickledvegetable.json"
+	},
+]

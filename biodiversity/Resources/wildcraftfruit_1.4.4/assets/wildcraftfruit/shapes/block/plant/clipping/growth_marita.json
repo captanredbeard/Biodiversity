@@ -1,0 +1,66 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"leaves": "wildcraftfruit:block/plant/berrybush/small/leaves/marita1"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 9.0 ], 
+			"to": [ 8.0, 0.0, 9.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 9.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 11.0, 4.0, 11.5, 4.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 13.5, 1.5, 14.0, 2.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 8.5, 11.5, 9.0, 12.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 7.5, 6.5, 8.0, 7.0 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 14.0, 3.5, 14.5, 4.0 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 4.5, 8.5, 5.0, 9.0 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Leaves20",
+					"from": [ -7.0, 0.1, -1.0 ], 
+					"to": [ 7.0, 12.6, -1.0 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalNeedles",
+					"rotationOrigin": [ 0.0, 1.0, -1.0 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 14.0 ], "autoUv": false, "windMode": [1,1,1,1] },
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 12.5 ], "enabled": false },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 14.0, 12.5 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 12.5 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false, "windMode": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "Leaves4",
+					"from": [ -7.0, 0.1, -1.0 ], 
+					"to": [ 7.0, 12.6, -1.0 ], 
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalNeedles",
+					"rotationOrigin": [ 0.0, 1.0, -1.0 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 14.0 ], "autoUv": false, "windMode": [1,1,1,1] },
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 12.5 ], "enabled": false },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 14.0, 12.5 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 12.5 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,603 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet",
+    "value": {
+		foodCategories: ["Grain", "Protein"],
+		weightedFoodTags: [
+			{ weight: 0.9, code: "fruitmash" },
+			{ weight: 1, code: "grain" }
+		],
+    },
+    "file": "game:entities/animal/bird/chicken-adult.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet",
+    "value": {
+		foodCategories: ["Grain", "Protein"],
+		weightedFoodTags: [
+			{ weight: 0.9, code: "fruitmash" },
+			{ weight: 1, code: "grain" }
+		],
+    },
+    "file": "game:entities/animal/bird/chicken-baby.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet",
+    "value": {
+			foodCategories: ["Grain", "Fruit", "Vegetable", "Protein"],
+			weightedFoodTags: [
+				{ weight: 0.7, code: "grain" }, 
+				{ weight: 0.9, code: "fruitmash" },
+				{ weight: 0.9, code: "fruit" },
+				{ weight: 0.9, code: "acorn" },
+				{ weight: 1, code: "tastyvegetable" },
+				{ weight: 1, code: "nibbleCrop" },
+				{ weight: 0.2, code: "cassava" }
+			],
+			skipFoodTags: ["rice", "parsnip"]
+    },
+    "file": "game:entities/animal/mammal/hooved/pig-adult.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet",
+    "value": {
+			foodCategories: ["Grain", "Fruit", "Vegetable", "Protein"],
+			weightedFoodTags: [
+				{ weight: 0.7, code: "grain" }, 
+				{ weight: 0.9, code: "fruitmash" },
+				{ weight: 0.9, code: "fruit" },
+				{ weight: 0.9, code: "acorn" },
+				{ weight: 1, code: "tastyvegetable" },
+				{ weight: 1, code: "nibbleCrop" },
+				{ weight: 0.2, code: "cassava" }
+			],
+			skipFoodTags: ["rice", "parsnip"]
+    },
+    "file": "game:entities/animal/mammal/hooved/pig-baby.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet",
+    "value": {
+			foodCategories: ["Vegetable", "Grain"],
+			weightedFoodTags: [
+				{ weight: 0.1, code: "grass" },
+				{ weight: 0.5, code: "nibbleCrop" },
+				{ weight: 0.7, code: "grain" },
+				{ weight: 0.5, code: "acorn" },
+				{ weight: 0.9, code: "fruitmash" },
+				{ weight: 1, code: "tastyvegetable" },
+				{ weight: 0.2, code: "peanut" }
+			],
+			skipFoodTags: ["rice", "parsnip"]
+    },
+    "file": "game:entities/animal/mammal/hooved/deer-adult.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/creatureDiet",
+    "value": {
+			foodCategories: ["Vegetable", "Grain"],
+			weightedFoodTags: [
+				{ weight: 0.1, code: "grass" },
+				{ weight: 0.5, code: "nibbleCrop" },
+				{ weight: 0.7, code: "grain" },
+				{ weight: 0.5, code: "acorn" },
+				{ weight: 0.9, code: "fruitmash" },
+				{ weight: 1, code: "tastyvegetable" },
+				{ weight: 0.2, code: "peanut" }
+			],
+			skipFoodTags: ["rice", "parsnip"]
+    },
+    "file": "game:entities/animal/mammal/hooved/deer-baby.json",
+    "side": "Server"
+  },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "acorn",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-acorn" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-acorn",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "bitteracorn",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-bitteracorn" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-acorn",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "burracorn",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-burracorn" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-acorn",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-acorn",
+        "value": {
+			base: "block/food/pie/fill-rawacorn",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "chestnut",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-chestnut" }, 
+            "quantityPerFillLevel": 2,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+	    "textureCode": "contents-chestnut",
+        },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-chestnut",
+        "value": {
+			base: "block/food/pie/fill-chestnutwhole",
+			overlays: ["block/wood/trough/large/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-large.json",
+        "side": "server"
+    },
+
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "hackberrypit",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-hackberrypit" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+	    "textureCode": "contents-hackberrypit",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-hackberrypit",
+        "value": {
+			base: "block/food/pie/fill-hackberrypit",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "oldmansaltbush",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-oldmansaltbush" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+	    "textureCode": "contents-oldmansaltbush",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-oldmansaltbush",
+        "value": {
+			base: "block/food/pie/fill-oldmansaltbush",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pinenut",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-pinenut" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+	    "textureCode": "contents-pinenut",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pinenut",
+        "value": {
+			base: "block/food/pie/fill-pinenut",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "acornleached",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-acornleached" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill4", "block/wood/trough/small/legumefill4"],
+	    "textureCode": "contents-acornleached",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "burracornshelled",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-burracornshelled" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill4", "block/wood/trough/small/legumefill4"],
+	    "textureCode": "contents-acornleached",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-acornleached",
+        "value": {
+			base: "block/food/pie/fill-acornleached",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "almond",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-almond" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill4", "block/wood/trough/small/legumefill4"],
+	    "textureCode": "contents-almond",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-almond",
+        "value": {
+			base: "block/food/pie/fill-almond",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "hazelnut",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-hazelnut" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+	    "textureCode": "contents-hazelnut",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-hazelnut",
+        "value": {
+			base: "block/food/pie/fill-hazelnut",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pumpkinseed",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-pumpkinseed" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+	    "textureCode": "contents-pumpkinseed",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pumpkinseed",
+        "value": {
+			base: "block/food/pie/fill-pumpkinseed",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "beachalmond",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-beachalmond" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill4", "block/wood/trough/small/legumefill4"],
+	    "textureCode": "contents-beachalmond",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-beachalmond",
+        "value": {
+			base: "block/food/pie/fill-beachalmond",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "pistachionut",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-pistachionut" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+	    "textureCode": "contents-pistachionut",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-pistachionut",
+        "value": {
+			base: "block/food/pie/fill-pistachionut",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "dwarfpinenut",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-dwarfpinenut" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+	    "textureCode": "contents-dwarfpinenut",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-dwarfpinenut",
+        "value": {
+			base: "block/food/pie/fill-dwarfpinenut",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "bunya",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-bunya" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill4", "block/wood/trough/small/legumefill4"],
+	    "textureCode": "contents-bunya",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-bunya",
+        "value": {
+			base: "block/food/pie/fill-bunya",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "bearnut",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-bearnut" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+	    "textureCode": "contents-bearnut",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-bearnut",
+        "value": {
+			base: "block/food/pie/fill-bearnut",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "walnutshelled",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-walnutshelled" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill4", "block/wood/trough/small/legumefill4"],
+	    "textureCode": "contents-walnutshelled",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-walnutshelled",
+        "value": {
+			base: "block/food/pie/fill-walnutshelled",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "macadamiashelled",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-macadamiashelled" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+	    "textureCode": "contents-macadamiashelled",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-macadamiashelled",
+        "value": {
+			base: "block/food/pie/fill-macadamiashelled",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "apricotpit",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-apricotpit" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill4", "block/wood/trough/small/legumefill4"],
+	    "textureCode": "contents-apricotpit",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-apricotpit",
+        "value": {
+			base: "block/food/pie/fill-apricotpit",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "cashewnut",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-cashewnut" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill1", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill2", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill3", "block/wood/trough/small/legumefill4", "block/wood/trough/small/legumefill4"],
+	    "textureCode": "contents-cashewnut",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-cashewnut",
+        "value": {
+			base: "block/food/pie/fill-cashewnut",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "bladdernut",
+            "content": { "type": "item", "code": "wildcraftfruit:nut-bladdernut" }, 
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+	    "textureCode": "contents-bladdernut",
+        },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/contents-bladdernut",
+        "value": {
+			base: "block/food/pie/fill-bladdernut",
+			overlays: ["block/wood/trough/small/shadow"]
+                 },
+        "file": "game:blocktypes/wood/trough-small.json",
+        "side": "server"
+    },
+]

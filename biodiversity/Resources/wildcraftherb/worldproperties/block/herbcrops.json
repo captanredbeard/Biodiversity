@@ -1,0 +1,119 @@
+{
+    "code": "herbcrops",
+    "variants": [
+      {
+        "code": "basil"
+      },
+      {
+        "code": "bearleek"
+      },
+      {
+        "code": "blackpepper"
+      },
+      {
+        "code": "celery"
+      },
+      {
+        "code": "chamomile"
+      },
+      {
+        "code": "cilantro"
+      },
+      {
+        "code": "dill"
+      },
+      {
+        "code": "dock"
+      },
+      {
+        "code": "marjoram"
+      },
+      {
+        "code": "marshmallow"
+      },
+      {
+        "code": "mint"
+      },
+      {
+        "code": "mustard"
+      },
+      {
+        "code": "saffron"
+      },
+      {
+        "code": "stingingnettle"
+      },
+      {
+        "code": "stjohnswort"
+      },
+      {
+        "code": "minerslettuce"
+      },
+      {
+        "code": "chicory"
+      },
+      {
+        "code": "marigold"
+      },
+      {
+        "code": "celandine"
+      },
+      {
+        "code": "leek"
+      },
+      {
+        "code": "yarrow"
+      },
+      {
+        "code": "liquorice"
+      },
+      {
+        "code": "foxglove"
+      },
+      {
+        "code": "angelica"
+      },
+      {
+        "code": "arnica"
+      },
+      {
+        "code": "burnet"
+      },
+      {
+        "code": "ginger"
+      },
+      {
+        "code": "horehound"
+      },
+      {
+        "code": "rockrose"
+      },
+      {
+        "code": "cicuta"
+      },
+      {
+        "code": "tansy"
+      },
+      {
+        "code": "ginseng"
+      },
+      {
+        "code": "katuk"
+      },
+      {
+        "code": "softsedge"
+      },
+      {
+        "code": "jewelweed"
+      },
+      {
+        "code": "rhubarb"
+      },
+      {
+        "code": "butterbur"
+      },
+      {
+        "code": "woodspurge"
+      }
+    ]
+  }

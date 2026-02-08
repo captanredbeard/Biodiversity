@@ -1,0 +1,110 @@
+{
+  "code": "nut",
+  "variants": [
+    {
+      code: "pinecone"
+    },
+    {
+      code: "pinenut"
+    },
+    {
+      code: "dwarfpinecone"
+    },
+    {
+      code: "dwarfpinenut"
+    },
+    {
+      code: "bunyacone"
+    },
+    {
+      code: "bunya"
+    },
+    {
+      code: "ginkgoseed"
+    },
+    {
+      code: "cookedginkgoseed"
+    },
+    {
+      code: "macadamia"
+    },
+    {
+      code: "macadamiashelled"
+    },
+    {
+      code: "cookedsoya"
+    },
+    {
+      code: "cherrypit"
+    },
+    {
+      code: "almond"
+    },
+    {
+      code: "apricotpit"
+    },
+    {
+      code: "breadnut"
+    },
+    {
+      code: "breadnutbaked"
+    },
+    {
+      code: "hackberrypit"
+    },
+    {
+      code: "bitteracorn"
+    },
+    {
+      code: "bitteracornshelled"
+    },
+    {
+      code: "acorn"
+    },
+    {
+      code: "acornshelled"
+    },
+    {
+      code: "burracorn"
+    },
+    {
+      code: "burracornshelled"
+    },
+    {
+      code: "acornleached"
+    },
+    {
+      code: "chestnut"
+    },
+    {
+      code: "chestnutbaked"
+    },
+    {
+      code: "walnutshelled"
+    },
+    {
+      code: "hazelnut"
+    },
+    {
+      code: "bearnut"
+    },
+    {
+      code: "pumpkinseed"
+    },
+    {
+      code: "beachalmond"
+    },
+    {
+      code: "bladdernut"
+    },
+    {
+      code: "cashewnut"
+    },
+    {
+      code: "pistachionut"
+    },
+    {
+      code: "oldmansaltbush"
+    }
+  ]
+}

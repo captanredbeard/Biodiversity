@@ -1,0 +1,273 @@
+{
+	"code": "bottomberrybush",
+	"class": "ShrubBerryBush",
+	"attributes": {
+		"stackable": true,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+                "handbook": {
+                   "groupBy": ["bottomberrybush-*"]
+                },
+		"stopBelowTemperatureByType":{
+			"*-juniper-*": -8,
+			"*-hazel-*": -2,
+			"*-pilo-*": 14,
+			"*-blackelder-*": 0,
+			"*-lillypillywhite-*": 6,
+			"*-lillypillypink-*": 10,
+			"*-lillypillyblue-*": 14,
+		},
+		"resetBelowTemperatureByType":{
+			"*-juniper-*": -12,
+			"*-hazel-*": -4,
+			"*-pilo-*": 12,
+			"*-blackelder-*": -2,
+			"*-lillypillywhite-*": 4,
+			"*-lillypillypink-*": 8,
+			"*-lillypillyblue-*": 12,
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-juniper-*": -14,
+			"*-hazel-*": -6,
+			"*-pilo-*": 10,
+			"*-blackelder-*": -4,
+			"*-lillypillywhite-*": 2,
+			"*-lillypillypink-*": 6,
+			"*-lillypillyblue-*": 10,
+		},
+		"stopAboveTemperatureByType":{
+			"*-juniper-*": 40,
+			"*-hazel-*": 26,
+			"*-pilo-*": 36,
+			"*-blackelder-*": 24,
+			"*-lillypillywhite-*": 28,
+			"*-lillypillypink-*": 30,
+			"*-lillypillyblue-*": 34,
+		},
+		"resetAboveTemperatureByType":{
+			"*-juniper-*": 44,
+			"*-hazel-*": 28,
+			"*-pilo-*": 38,
+			"*-blackelder-*": 28,
+			"*-lillypillywhite-*": 30,
+			"*-lillypillypink-*": 32,
+			"*-lillypillyblue-*": 36,
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-juniper-*": 46,
+			"*-hazel-*": 32,
+			"*-pilo-*": 40,
+			"*-blackelder-*": 30,
+			"*-lillypillywhite-*": 32,
+			"*-lillypillypink-*": 34,
+			"*-lillypillyblue-*": 38,
+		},
+		"growthBlockByType":{
+			"*-juniper-*": "wildcraftfruit:growth-juniper-alive",
+			"*-pilo-*": "wildcraftfruit:growth-pilo-alive",
+			"*-blackelder-*": "wildcraftfruit:growth-blackelder-alive",
+			"*-lillypillypink-*": "wildcraftfruit:growth-lillypillypink-alive",
+			"*-lillypillywhite-*": "wildcraftfruit:growth-lillypillywhite-alive",
+			"*-lillypillyblue-*": "wildcraftfruit:growth-lillypillyblue-alive",
+			"*-hazel-*": "wildcraftfruit:growth-hazel-alive",
+                },
+		"pruneItemByType":{
+			"*": "wildcraftfruit:clipping-{type}-green"
+		},
+		"prunedMeshFaces": [ "trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Berries" ],
+		"fruitingFaces": [ "Berries" ],
+                "isBottomBlock": true,
+		"floweringDaysByType":{
+			"*-juniper-*": { avg: 16.8, var: 0.8 },
+			"*-lillypillypink-*": { avg: 12.8, var: 0.8 },
+			"*-lillypillyblue-*": { avg: 12.8, var: 0.8 },
+			"*-lillypillywhite-*": { avg: 12.8, var: 0.8 },
+			"*-pilo-*": { avg: 10.8, var: 0.8 },
+			"*-hazel-*": { avg: 12.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"ripeningDaysByType":{
+			"*-juniper-*": { avg: 16.8, var: 0.8 },
+			"*-lillypillypink-*": { avg: 12.8, var: 0.8 },
+			"*-lillypillyblue-*": { avg: 12.8, var: 0.8 },
+			"*-lillypillywhite-*": { avg: 12.8, var: 0.8 },
+			"*-pilo-*": { avg: 10.8, var: 0.8 },
+			"*-hazel-*": { avg: 12.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"sheddingDaysByType":{
+			"*-juniper-*": { avg: 45.2, var: 3.2 },
+			"*-hazel-*": { avg: 45.2, var: 3.2 },
+			"*-lillypillypink-*": { avg: 25.2, var: 3.2 },
+			"*-lillypillyblue-*": { avg: 25.2, var: 3.2 },
+			"*-lillypillywhite-*": { avg: 25.2, var: 3.2 },
+			"*": { avg: 35.2, var: 3.2 },
+		}
+	},
+	"walkspeedmultiplier": 0.55,
+	"entityclassByType": {
+		"*": "BETallBerryBush"
+	},
+	"behaviorsByType": {
+		"*-blackelder-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-elder", "quantity": { avg: 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottomberrybush-blackelder-empty",
+			"exchangeBlock": true
+		}} ],
+ 		"*-pilo-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-pilo", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottomberrybush-pilo-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-juniper-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:dryfruit-juniper", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottomberrybush-juniper-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-hazel-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:nut-hazelnut", "quantity": { "avg": 2.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottomberrybush-hazel-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-blackelder-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-blackelder", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottomberrybush-blackelder-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 2.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottomberrybush-{type}-empty",
+			"exchangeBlock": true
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["juniper", "hazel", "lillypillypink", "lillypillyblue", "lillypillywhite", "blackelder", "pilo"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraftfruit": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomizeAxes": "xz",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-juniper-empty": { "base": "wildcraftfruit:block/plant/berrybush/bottomjuniperbush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-juniper-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bottomjuniperbush*" },
+		"*-juniper-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bottomjuniperbush*" },
+
+		"*-pilo-empty": { "base": "wildcraftfruit:block/plant/berrybush/bottompilobush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-pilo-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bottompilobush*" },
+		"*-pilo-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bottompilobush*" },
+
+		"*-blackelder-empty": { "base": "wildcraftfruit:block/plant/berrybush/bottomblackelderbush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-blackelder-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bottomblackelderbush*" },
+		"*-blackelder-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bottomblackelderbush*" },
+
+		"*-lillypillypink-empty": { "base": "wildcraftfruit:block/plant/berrybush/bottomlillypinkbush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-lillypillypink-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bottomlillypinkbush*" },
+		"*-lillypillypink-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bottomlillypinkbush*" },
+
+		"*-lillypillywhite-empty": { "base": "wildcraftfruit:block/plant/berrybush/bottomlillywhitebush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-lillypillywhite-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bottomlillywhitebush*" },
+		"*-lillypillywhite-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bottomlillywhitebush*" },
+
+		"*-lillypillyblue-empty": { "base": "wildcraftfruit:block/plant/berrybush/bottomlillybluebush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-lillypillyblue-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bottomlillybluebush*" },
+		"*-lillypillyblue-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bottomlillybluebush*" },
+
+		"*-hazel-empty": { "base": "wildcraftfruit:block/plant/berrybush/bottomhazelbush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-hazel-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bottomhazelbush*" },
+		"*-hazel-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bottomhazelbush*" },
+	},
+	"blockmaterial": "Plant",
+	"textures": {
+		"leavessmall": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}*" },
+		"leaveslarge": { "base": "wildcraftfruit:block/plant/berrybush/large/leaves/{type}large" },
+		"trunk": { "base": "wildcraftfruit:block/plant/berrybush/large/branches/{type}trunk" },
+		"branch": { "base": "wildcraftfruit:block/plant/berrybush/large/branches/{type}branch" },
+	},
+	"texturesByType": {
+		"*-flowering": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/flower/{type}large" }
+		},
+		"*-ripe": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*" },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/fruit/{type}large" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": { "x1": 0.375, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.5, "z2": 0.625 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-blackelder-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-elder", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		],
+		"*-juniper-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:dryfruit-juniper", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		],
+		"*-hazel-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:nut-hazelnut", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		],
+		"*-pilo-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-pilo", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		],
+		"*-blackelder-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-blackelder", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		],
+		"*-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		],
+		"*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

@@ -1,0 +1,375 @@
+[
+	{
+		ingredientPattern: "H	L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcraftfruit:fruit-falseorange", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-linen-falseorange", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:fruit-falseorange", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-falseorange", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	P",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:fruit-falseorange", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-falseorange", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "H	L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcraftfruit:fruit-snowberry", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-linen-snowberry", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:fruit-snowberry", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-snowberry", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	P",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:fruit-snowberry", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-snowberry", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "SBS	_L_",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"S": { type: "item", code: "wildcraftfruit:fruit-ivy", quantity: 2 },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "wildcraftfruit:vinegarportion-*", allowedVariants: ["white", "rice", "apple", "pomegranate", "currant", "heath", "jujube", "wine", "kiwi", "citrus", "plum", "fruit"] },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-linen-ivy-vinegar", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SBS	_L_",
+		ingredients: {
+			"L": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"S": { type: "item", code: "wildcraftfruit:fruit-ivy", quantity: 2 },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "wildcraftfruit:vinegarportion-*", allowedVariants: ["white", "rice", "apple", "pomegranate", "currant", "heath", "jujube", "wine", "kiwi", "citrus", "plum", "fruit"] },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-ivy-vinegar", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SBS	_L_",
+		ingredients: {
+			"L": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"S": { type: "item", code: "wildcraftfruit:fruit-ivy", quantity: 2 },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "wildcraftfruit:vinegarportion-*", allowedVariants: ["white", "rice", "apple", "pomegranate", "currant", "heath", "jujube", "wine", "kiwi", "citrus", "plum", "fruit"] },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-ivy-vinegar", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "SBS	_L_",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"S": { type: "item", code: "wildcraftfruit:flower-elder", quantity: 3 },
+			"B": { type: "item", code: "game:resin" }
+		},		
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-linen-resin-elder", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SBS	_L_",
+		ingredients: {
+			"L": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"S": { type: "item", code: "wildcraftfruit:flower-elder", quantity: 3 },
+			"B": { type: "item", code: "game:resin" }
+		},		
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-resin-elder", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SBS	_L_",
+		ingredients: {
+			"L": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"S": { type: "item", code: "wildcraftfruit:flower-elder", quantity: 3 },
+			"B": { type: "item", code: "game:resin" }
+		},		
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-resin-elder", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "H	L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcraftfruit:fruit-bryony", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-linen-bryony", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:fruit-bryony", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-bryony", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	P",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:fruit-bryony", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-bryony", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "H	L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcraftfruit:fruit-baneberry", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-linen-baneberry", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:fruit-baneberry", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-baneberry", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	P",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:fruit-baneberry", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-baneberry", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "H	L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcraftfruit:fruit-bearberry", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-linen-bearberry", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:fruit-bearberry", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-bearberry", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	P",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:fruit-bearberry", quantity: 4 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-bearberry", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "H	L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcraftfruit:clipping-bearberry-green", quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-linen-bearberry", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:clipping-bearberry-green", quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-bearberry", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H	P",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"H": { type: "item", code: "wildcraftfruit:clipping-bearberry-green", quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-bearberry", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S,B,L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"S": { type: "item", code: "wildcraftfruit:vegetable-*", name: "pepper", quantity: 2, allowedVariants: ["jalapeno", "cayenne", "tabasco" ] },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraftfruit:poultice-linen-honey-pepper", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S,B,C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"S": { type: "item", code: "wildcraftfruit:vegetable-*", name: "pepper", quantity: 2, allowedVariants: ["jalapeno", "cayenne", "tabasco" ] },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-honey-pepper", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S,B,C",
+		ingredients: {
+			"C": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"S": { type: "item", code: "wildcraftfruit:vegetable-*", name: "pepper", quantity: 2, allowedVariants: ["jalapeno", "cayenne", "tabasco" ] },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-honey-pepper", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S,B,L",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"S": { type: "item", code: "wildcraftfruit:vegetable-habanero", quantity: 1 },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraftfruit:poultice-linen-honey-pepper", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S,B,C",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"S": { type: "item", code: "wildcraftfruit:vegetable-habanero", quantity: 1 },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-honey-pepper", quantity: 4  }
+	},
+	{
+		ingredientPattern: "S,B,C",
+		ingredients: {
+			"C": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"S": { type: "item", code: "wildcraftfruit:vegetable-habanero", quantity: 1 },
+			"B": { type: "block", code: "game:bowl-*-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraftfruit:poultice-reed-honey-pepper", quantity: 4  }
+	},
+]

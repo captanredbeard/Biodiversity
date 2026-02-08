@@ -1,0 +1,120 @@
+[
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "replace", "path": "/class", "value": "HerbariumBerryBush", "side": "server" },
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "add", "path": "/entityclassByType", "value": 
+       {
+		"*-blackcurrant-*": "BETallBerryBush",
+		"*": "BEHerbariumBerryBush"
+       },
+    "side": "server"
+    },
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "add", "path": "/attributes/growthBlockByType", "value": { "*-blackcurrant-*": "wildcraftfruit:growth-blackcurrant-alive" }, "side": "server" },
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "add", "path": "/attributes/pruneItemByType", "value": { "*": "wildcraftfruit:clipping-{type}-green" }, "side": "server" },
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "add", "path": "/attributes/sheddingDaysByType", "value": { "*": { avg: 25.2, var: 3.2 } }, "side": "server" },
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "add", "path": "/attributes/handbook", "value": { "groupBy": ["bigberrybush-*"] }, "side": "server" },
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "add", "path": "/attributes/prunedMeshFaces", "value": [ "branchesN", "branchesS", "Leaves", "Berries" ], "side": "server" },
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "add", "path": "/attributes/fruitingFaces", "value": [ "Berries" ], "side": "server" },
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "add", "path": "/attributes/isBottomBlock", "value": "false", "side": "server" },
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "replace", "path": "/behaviorsByType", "value": 
+	{
+		"*-flowering": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "wildcraftfruit:flower-currant", quantity: { avg: 6.4 }  },
+			harvestedBlockCode: "game:bigberrybush-{type}-empty",
+			exchangeBlock: true
+		}} ],
+		"*-ripe": [ {name: "Harvestable", properties: { 
+			harvestTime: 0.6, 
+			harvestedStack: { type: "item", code: "game:fruit-{type}", quantity: { avg: 4.4 }  },
+			harvestedBlockCode: "game:bigberrybush-{type}-empty",
+			exchangeBlock: true
+		}} ],
+	},
+    "side": "server"
+    },
+    { "file": "game:blocktypes/plant/bigberrybush", "op": "replace", "path": "/dropsByType", "value":
+             {
+		"*-flowering": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1.4 }  },
+			{ type: "item", code: "wildcraftfruit:flower-currant", quantity: { avg: 6.4 }  },
+		],
+		"*-ripe": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1.4 }  },
+			{ type: "item", code: "game:fruit-{type}", quantity: { avg: 4.4 }  },
+		],
+		"*": [
+			{ type: "item", code: "game:stick", quantity: { avg: 1.4 }  }
+		]
+             },
+    "side": "server"
+    },
+    { "file": "game:blocktypes/plant/smallberrybush", "op": "replace", "path": "/class", "value": "HerbariumBerryBush", "side": "server" },
+    { "file": "game:blocktypes/plant/smallberrybush", "op": "replace", "path": "/entityclass", "value": "BEHerbariumBerryBush", "side": "server" },
+    { "file": "game:blocktypes/plant/smallberrybush", "op": "add", "path": "/attributes/pruneItemByType", "value": { "*": "wildcraftfruit:clipping-{type}-green" }, "side": "server" },
+    { "file": "game:blocktypes/plant/smallberrybush", "op": "add", "path": "/attributes/handbook", "value": { "groupBy": ["smallberrybush-*"] }, "side": "server" },
+    { "file": "game:blocktypes/plant/smallberrybush", "op": "add", "path": "/attributes/prunedMeshFaces", "value": [ "branchesN", "branchesS", "Leaves", "Berries" ], "side": "server" },
+    { "file": "game:blocktypes/plant/smallberrybush", "op": "add", "path": "/attributes/fruitingFaces", "value": [ "Berries" ], "side": "server" },
+    { "file": "game:blocktypes/plant/smallberrybush", "op": "add", "path": "/attributes/isBottomBlock", "value": "false", "side": "server" },
+    { "file": "game:blocktypes/plant/smallberrybush", "op": "add", "path": "/selectionbox", "value": { x1: 0.1, y1: 0, z1: 0.1, x2: 0.9, y2: 0.775, z2: 0.9 }, "side": "server" },
+    { "file": "game:blocktypes/plant/smallberrybush", "op": "replace", "path": "/dropsByType", "value":
+             {
+		"*-ripe": [
+			{ type: "item", code: "stick", quantity: { avg: 1.2 }  },
+			{ type: "item", code: "fruit-{type}", quantity: { avg: 4.4 }  },
+		],
+		"*": [
+			{ type: "item", code: "stick", quantity: { avg: 1.2 }  }
+		]
+             },
+    "side": "server"
+    },
+    { "file": "game:blocktypes/plant/smallberrybush", "op": "replace", "path": "/shapeByType", "value":
+             {
+		"*-cranberry-empty": { "base": "wildcraftfruit:block/plant/berrybush/cranberrybush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-cranberry-flowering": { "base": "wildcraftfruit:block/plant/berrybush/cranberrybush*" },
+		"*-cranberry-ripe": { "base": "wildcraftfruit:block/plant/berrybush/cranberrybush*" },
+		"*-blueberry-empty": { "base": "wildcraftfruit:block/plant/berrybush/blueberrybush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-blueberry-flowering": { "base": "wildcraftfruit:block/plant/berrybush/blueberrybush*" },
+		"*-blueberry-ripe": { "base": "wildcraftfruit:block/plant/berrybush/blueberrybush*" },
+             },
+    "side": "server"
+    },
+	{
+		"op": "add",
+		"path": "/attributes/nutritionPropsWhenInMealByType",
+		"value": {
+			"*-saguaro": { satiety: 90, health: 1, foodcategory: "Fruit" },
+			"*-cranberry": { satiety: 90, foodcategory: "Fruit" },
+			"*-cherry": { satiety: 90, foodcategory: "Fruit" },
+			"*-lychee": { satiety: 90, foodcategory: "Fruit" },
+			"*-breadfruit": { satiety: 240, foodcategory: "Fruit" },
+			"*": { satiety: 120, foodcategory: "Fruit" }
+		},
+		"file": "game:itemtypes/food/fruit.json"
+	},
+	{
+		"op": "replace",
+		"path": "/nutritionPropsByType/*-cherry",
+		"value": { satiety: 60, foodcategory: "Fruit" },
+		"file": "game:itemtypes/food/fruit.json"
+	},
+	{
+		"op": "replace",
+		"path": "/nutritionPropsByType/*-lychee",
+		"value": { satiety: 60, foodcategory: "Fruit" },
+		"file": "game:itemtypes/food/fruit.json"
+	},
+    { "file": "game:blocktypes/plant/saguarocactus", "op": "replace", "path": "/behaviorsByType", "value": {
+		"*-topripe": [
+			{ 
+				name: "Harvestable",
+				properties: {
+					harvestTime: 0.6, 
+					harvestedStack: { type: "item", code: "fruit-saguaro", quantity: { avg: 3.4 } },
+					harvestedBlockCode: "saguarocactus-topempty"
+				}
+			}
+		]
+	},
+    "side": "server"
+    },
+]

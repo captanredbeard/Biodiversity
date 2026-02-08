@@ -1,0 +1,287 @@
+{
+	"code": "bottomfruitvine",
+	"class": "BlockFruitingVines",
+	"attributes": {
+		"stackable": true,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+                "handbook": {
+                   "groupBy": ["bottomfruitvine-*"]
+                },
+		"stopBelowTemperatureByType":{
+			"*-kolomikta-*": 0,
+			"*-granadilla-*": 12,
+			"*-passionfruit-*": 8,
+			"*-virgingrape-*": -4,
+			"*-kiwi-*": 8,
+		},
+		"resetBelowTemperatureByType":{
+			"*-kolomikta-*": -4,
+			"*-granadilla-*": 8,
+			"*-passionfruit-*": 6,
+			"*-virgingrape-*": -6,
+			"*-kiwi-*": 6,
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-kolomikta-*": -6,
+			"*-granadilla-*": 6,
+			"*-passionfruit-*": 4,
+			"*-virgingrape-*": -8,
+			"*-kiwi-*": 4,
+		},
+		"stopAboveTemperatureByType":{
+			"*-kolomikta-*": 28,
+			"*-granadilla-*": 42,
+			"*-passionfruit-*": 38,
+			"*-virgingrape-*": 30,
+			"*-kiwi-*": 30,
+		},
+		"resetAboveTemperatureByType":{
+			"*-kolomikta-*": 30,
+			"*-granadilla-*": 46,
+			"*-passionfruit-*": 40,
+			"*-virgingrape-*": 34,
+			"*-kiwi-*": 34,
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-kolomikta-*": 32,
+			"*-granadilla-*": 48,
+			"*-passionfruit-*": 42,
+			"*-virgingrape-*": 36,
+			"*-kiwi-*": 36,
+		},
+		"growthBlockByType":{
+			"*-virgingrape-*-north": "wildcraftfruit:vinegrowth-virgingrape-alive-north",
+			"*-virgingrape-*-south": "wildcraftfruit:vinegrowth-virgingrape-alive-south",
+			"*-virgingrape-*-east": "wildcraftfruit:vinegrowth-virgingrape-alive-east",
+			"*-virgingrape-*-west": "wildcraftfruit:vinegrowth-virgingrape-alive-west",
+
+			"*-kiwi-*-north": "wildcraftfruit:vinegrowth-kiwi-alive-north",
+			"*-kiwi-*-south": "wildcraftfruit:vinegrowth-kiwi-alive-south",
+			"*-kiwi-*-east": "wildcraftfruit:vinegrowth-kiwi-alive-east",
+			"*-kiwi-*-west": "wildcraftfruit:vinegrowth-kiwi-alive-west",
+
+			"*-kolomikta-*-north": "wildcraftfruit:vinegrowth-kolomikta-alive-north",
+			"*-kolomikta-*-south": "wildcraftfruit:vinegrowth-kolomikta-alive-south",
+			"*-kolomikta-*-east": "wildcraftfruit:vinegrowth-kolomikta-alive-east",
+			"*-kolomikta-*-west": "wildcraftfruit:vinegrowth-kolomikta-alive-west",
+
+			"*-passionfruit-*-north": "wildcraftfruit:vinegrowth-passionfruit-alive-north",
+			"*-passionfruit-*-south": "wildcraftfruit:vinegrowth-passionfruit-alive-south",
+			"*-passionfruit-*-east": "wildcraftfruit:vinegrowth-passionfruit-alive-east",
+			"*-passionfruit-*-west": "wildcraftfruit:vinegrowth-passionfruit-alive-west",
+
+			"*-granadilla-*-north": "wildcraftfruit:vinegrowth-granadilla-alive-north",
+			"*-granadilla-*-south": "wildcraftfruit:vinegrowth-granadilla-alive-south",
+			"*-granadilla-*-east": "wildcraftfruit:vinegrowth-granadilla-alive-east",
+			"*-granadilla-*-west": "wildcraftfruit:vinegrowth-granadilla-alive-west"
+                },
+		"floweringDaysByType":{
+			"*-passionfruit-*": { avg: 12.8, var: 0.8 },
+			"*-granadilla-*": { avg: 12.8, var: 0.8 },
+			"*-kiwi-*": { avg: 12.8, var: 0.8 },
+			"*-kolomikta-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"ripeningDaysByType":{
+			"*-passionfruit-*": { avg: 12.8, var: 0.8 },
+			"*-granadilla-*": { avg: 12.8, var: 0.8 },
+			"*-kiwi-*": { avg: 12.8, var: 0.8 },
+			"*-kolomikta-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"sheddingDaysByType":{
+			"*-passionfruit-*": { avg: 25.2, var: 3.2 },
+			"*-granadilla-*": { avg: 25.2, var: 3.2 },
+			"*-kiwi-*": { avg: 25.2, var: 3.2 },
+			"*-kolomikta-*": { avg: 25.2, var: 3.2 },
+			"*": { avg: 35.2, var: 3.2 },
+		},
+		"pruneItemByType":{
+			"*": "wildcraftfruit:vineclipping-{type}-green"
+		},
+		"prunedMeshFaces": [ "trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Berries" ],
+		"fruitingFaces": [ "Berries" ],
+                "isBottomBlock": true
+	},
+	"walkspeedmultiplier": 0.55,
+	"entityclassByType": {
+		"*": "BETallBerryBush"
+	},
+	"behaviorsByType": {
+		"*-passionfruit-flowering-*": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-passionflower", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottomfruitvine-passionfruit-empty-{side}",
+			"exchangeBlock": true
+		}} ],
+		"*-granadilla-flowering-*": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-passionflower", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottomfruitvine-granadilla-empty-{side}",
+			"exchangeBlock": true
+		}} ],
+		"*-ripe-*": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 2.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:bottomfruitvine-{type}-empty-{side}",
+			"exchangeBlock": true
+		}} ],
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["virgingrape", "passionfruit", "granadilla", "kiwi", "kolomikta"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] },
+		{ "code": "side", "loadFromProperties": "game:abstract/horizontalorientation" }
+	],
+	"creativeinventory": { "general": ["*-north"], "flora": ["*-north"], "wildcraftfruit": ["*-north"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-virgingrape-empty-north": { base: "wildcraftfruit:block/plant/berrybush/bottomvirgingrapebush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 0 },
+		"*-virgingrape-empty-east": { base: "wildcraftfruit:block/plant/berrybush/bottomvirgingrapebush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 270 },
+		"*-virgingrape-empty-south": { base: "wildcraftfruit:block/plant/berrybush/bottomvirgingrapebush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 180 },
+		"*-virgingrape-empty-west": { base: "wildcraftfruit:block/plant/berrybush/bottomvirgingrapebush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 90 },
+		"*-virgingrape-*-north": { base: "wildcraftfruit:block/plant/berrybush/bottomvirgingrapebush*", rotateY: 0 },
+		"*-virgingrape-*-east": { base: "wildcraftfruit:block/plant/berrybush/bottomvirgingrapebush*", rotateY: 270 },
+		"*-virgingrape-*-south": { base: "wildcraftfruit:block/plant/berrybush/bottomvirgingrapebush*", rotateY: 180 },
+		"*-virgingrape-*-west": { base: "wildcraftfruit:block/plant/berrybush/bottomvirgingrapebush*", rotateY: 90 },
+
+		"*-kiwi-empty-north": { base: "wildcraftfruit:block/plant/berrybush/bottomkiwibush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 0 },
+		"*-kiwi-empty-east": { base: "wildcraftfruit:block/plant/berrybush/bottomkiwibush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 270 },
+		"*-kiwi-empty-south": { base: "wildcraftfruit:block/plant/berrybush/bottomkiwibush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 180 },
+		"*-kiwi-empty-west": { base: "wildcraftfruit:block/plant/berrybush/bottomkiwibush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 90 },
+		"*-kiwi-*-north": { base: "wildcraftfruit:block/plant/berrybush/bottomkiwibush*", rotateY: 0 },
+		"*-kiwi-*-east": { base: "wildcraftfruit:block/plant/berrybush/bottomkiwibush*", rotateY: 270 },
+		"*-kiwi-*-south": { base: "wildcraftfruit:block/plant/berrybush/bottomkiwibush*", rotateY: 180 },
+		"*-kiwi-*-west": { base: "wildcraftfruit:block/plant/berrybush/bottomkiwibush*", rotateY: 90 },
+
+		"*-kolomikta-empty-north": { base: "wildcraftfruit:block/plant/berrybush/bottomkolomiktabush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 0 },
+		"*-kolomikta-empty-east": { base: "wildcraftfruit:block/plant/berrybush/bottomkolomiktabush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 270 },
+		"*-kolomikta-empty-south": { base: "wildcraftfruit:block/plant/berrybush/bottomkolomiktabush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 180 },
+		"*-kolomikta-empty-west": { base: "wildcraftfruit:block/plant/berrybush/bottomkolomiktabush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 90 },
+		"*-kolomikta-*-north": { base: "wildcraftfruit:block/plant/berrybush/bottomkolomiktabush*", rotateY: 0 },
+		"*-kolomikta-*-east": { base: "wildcraftfruit:block/plant/berrybush/bottomkolomiktabush*", rotateY: 270 },
+		"*-kolomikta-*-south": { base: "wildcraftfruit:block/plant/berrybush/bottomkolomiktabush*", rotateY: 180 },
+		"*-kolomikta-*-west": { base: "wildcraftfruit:block/plant/berrybush/bottomkolomiktabush*", rotateY: 90 },
+
+		"*-passionfruit-empty-north": { base: "wildcraftfruit:block/plant/berrybush/bottompassionfruitbush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 0 },
+		"*-passionfruit-empty-east": { base: "wildcraftfruit:block/plant/berrybush/bottompassionfruitbush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 270 },
+		"*-passionfruit-empty-south": { base: "wildcraftfruit:block/plant/berrybush/bottompassionfruitbush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 180 },
+		"*-passionfruit-empty-west": { base: "wildcraftfruit:block/plant/berrybush/bottompassionfruitbush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 90 },
+		"*-passionfruit-*-north": { base: "wildcraftfruit:block/plant/berrybush/bottompassionfruitbush*", rotateY: 0 },
+		"*-passionfruit-*-east": { base: "wildcraftfruit:block/plant/berrybush/bottompassionfruitbush*", rotateY: 270 },
+		"*-passionfruit-*-south": { base: "wildcraftfruit:block/plant/berrybush/bottompassionfruitbush*", rotateY: 180 },
+		"*-passionfruit-*-west": { base: "wildcraftfruit:block/plant/berrybush/bottompassionfruitbush*", rotateY: 90 },
+
+		"*-granadilla-empty-north": { base: "wildcraftfruit:block/plant/berrybush/bottomgranadillabush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 0 },
+		"*-granadilla-empty-east": { base: "wildcraftfruit:block/plant/berrybush/bottomgranadillabush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 270 },
+		"*-granadilla-empty-south": { base: "wildcraftfruit:block/plant/berrybush/bottomgranadillabush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 180 },
+		"*-granadilla-empty-west": { base: "wildcraftfruit:block/plant/berrybush/bottomgranadillabush*", "selectiveElements": ["trunk1", "trunk2", "trunk3", "trunk4", "trunk5", "trunk6", "branchesN", "branchesS", "Leaves", "Largeleaves/*"], rotateY: 90 },
+		"*-granadilla-*-north": { base: "wildcraftfruit:block/plant/berrybush/bottomgranadillabush*", rotateY: 0 },
+		"*-granadilla-*-east": { base: "wildcraftfruit:block/plant/berrybush/bottomgranadillabush*", rotateY: 270 },
+		"*-granadilla-*-south": { base: "wildcraftfruit:block/plant/berrybush/bottomgranadillabush*", rotateY: 180 },
+		"*-granadilla-*-west": { base: "wildcraftfruit:block/plant/berrybush/bottomgranadillabush*", rotateY: 90 },
+	},
+	"blockmaterial": "Plant",
+	"textures": {
+		"leavessmall": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}*" },
+		"leaveslarge": { "base": "wildcraftfruit:block/plant/berrybush/large/leaves/{type}large" },
+		"leavesthin": { "base": "wildcraftfruit:block/plant/berrybush/large/leaves/{type}thin" },
+		"trunk": { "base": "wildcraftfruit:block/plant/berrybush/large/branches/{type}trunk" },
+		"branch": { "base": "wildcraftfruit:block/plant/berrybush/large/branches/{type}branch" },
+	},
+	"texturesByType": {
+		"*-flowering-*": {
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*" },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/flower/{type}large" },
+			"flowerberrythin": { "base": "wildcraftfruit:block/plant/berrybush/large/flower/{type}thin" }
+		},
+		"*-ripe-*": {
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*" },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/fruit/{type}large" },
+			"flowerberrythin": { "base": "wildcraftfruit:block/plant/berrybush/large/fruit/{type}thin" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": { 
+               "x1": 0.375, "y1": 0, "z1": 0.55, "x2": 0.625, "y2": 1.5, "z2": 1,
+		rotateYByType: {
+			"*-north": 180,
+			"*-east": 90,
+			"*-south": 0,
+			"*-west": 270
+		}
+	},
+	"selectionBox": { 
+		x1: 0, y1: 0, z1: 0.475, x2: 1, y2: 1, z2: 1,
+		rotateYByType: {
+			"*-north": 180,
+			"*-east": 90,
+			"*-south": 0,
+			"*-west": 270
+		}
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-passionfruit-flowering-*": [
+			{ "type": "item", "code": "wildcraftfruit:flower-passionflower", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-passionfruit-ripe-*": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-passionfruit", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-passionfruit-*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-granadilla-flowering-*": [
+			{ "type": "item", "code": "wildcraftfruit:flower-passionflower", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-granadilla-ripe-*": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-granadilla", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-granadilla-*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } }
+		],
+		"*-ripe-*": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 2.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		],
+		"*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1.4 } }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

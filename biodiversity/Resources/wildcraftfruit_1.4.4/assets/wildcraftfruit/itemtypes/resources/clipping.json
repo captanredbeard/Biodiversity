@@ -1,0 +1,277 @@
+{
+  "code": "clipping",
+  "class": "ItemClipping",
+  "attributes": {},
+  "maxstacksize": 16,
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "wildcraftfruit": [ "*" ]
+  },
+  "storageFlags": 33,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "dwarfpine", "juniper", "marita", "flaxlily", "kawakawa", "baneberry", "gooseberry", "josta", "blackcurrant", "redcurrant", "whitecurrant", "raspberry", "loganberry", "blueraspberry", "brambleberry", "boysenberry", "dewberry", "bushlawyer", "dogrose", "beachrose", "blossomquince", "sloe", "sallowthorn", "deserthackberry", "hazel", "spindle", "ugni", "midyimberry", "munthari", "feijoa", "lillypillypink", "lillypillyblue", "lillypillywhite", "bluetongue", "bladdernut", "turkscap", "wolfberry", "caper", "fingerlime", "kumquat", "sumac", "pistachio", "oldmansaltbush", "pokeberry", "bearberry", "pricklyheath", "cranberry", "bilberry", "blueberry", "huckleberry", "swamphuckle", "honeysuckle", "snowberry", "blackelder", "elderberry", "blacknightshade", "bitternightshade", "tomato", "oxheart", "romatomato", "wildtomato", "falsetomato", "naranjilla", "hairyeggplant", "eggplant", "belladonna", "husktomato", "newhusktomato", "tomatillo", "jalapeno", "cayenne", "habanero", "tabasco", "redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper", "beautyberry", "numnum", "seamango", "pilo", "mingimingi", "fractureberry" ]
+    },
+    {
+      "code": "state",
+      "states": [ "green", "dry" ]
+    }
+  ],
+  "transitionablePropsByType": {
+    "*-green": [
+      {
+        "type": "Dry",
+        "freshHours": { "avg": 0 },
+        "transitionHours": { "avg": 36 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "wildcraftfruit:clipping-{type}-dry"
+        },
+        "transitionRatio": 1
+      }
+    ]
+  },
+  "shapeByType": {
+    "*-baneberry-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-belladonna-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-elderberry-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-husktomato-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-pokeberry-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-turkscap-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-naranjilla-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-hairyeggplant-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-blacknightshade-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-bitternightshade-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-fractureberry-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-flaxlily-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-oldmansaltbush-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-baneberry-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-belladonna-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-elderberry-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-husktomato-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-pokeberry-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-turkscap-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-naranjilla-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-hairyeggplant-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-oldmansaltbush-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-blacknightshade-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-bitternightshade-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-fractureberry-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-flaxlily-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-marita-green": { "base": "wildcraftfruit:item/clipping/clipping_marita" },
+    "*-marita-dry": { "base": "wildcraftfruit:item/clipping/clipping_marita" },
+    "*-kawakawa-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-kawakawa-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+    "*-bushlawyer-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-bushlawyer-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+    "*-cranberry-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-cranberry-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+    "*-bluetongue-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-bluetongue-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+    "*-numnum-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-numnum-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+    "*-caper-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-caper-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+    "*-bearberry-green": { "base": "wildcraftfruit:item/clipping/grassyclipping" },
+    "*-bearberry-dry": { "base": "wildcraftfruit:item/clipping/grassyclipping_dry" },
+    "*-redbellpepper-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-orangebellpepper-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-yellowbellpepper-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-greenbellpepper-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-redbellpepper-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-orangebellpepper-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-yellowbellpepper-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-greenbellpepper-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-jalapeno-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-jalapeno-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-habanero-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-habanero-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-cayenne-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-cayenne-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-tabasco-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-tabasco-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-newhusktomato-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-newhusktomato-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-tomatillo-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-tomatillo-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-tomato-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-tomato-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-romatomato-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-romatomato-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-wildtomato-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-wildtomato-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-oxheart-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-oxheart-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-falsetomato-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-falsetomato-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-eggplant-green": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-eggplant-dry": { "base": "wildcraftfruit:item/clipping/clipping_shrub" },
+    "*-green": { "base": "wildcraftfruit:item/clipping/clipping" },
+    "*-dry": { "base": "wildcraftfruit:item/clipping/clipping_dry" }
+  },
+  "texturesByType": {
+    "*-blackcurrant-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/currant_dry*" }
+    },
+    "*-redcurrant-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/currant_dry*" }
+    },
+    "*-whitecurrant-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/currant_dry*" }
+    },
+    "*-blueberry-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/blueberry_dry*" }
+    },
+    "*-cranberry-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/cranberry_dry*" }
+    },
+    "*-redbellpepper-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/bellpepper_dry*" }
+    },
+    "*-orangebellpepper-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/bellpepper_dry*" }
+    },
+    "*-yellowbellpepper-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/bellpepper_dry*" }
+    },
+    "*-greenbellpepper-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/bellpepper_dry*" }
+    },
+    "*-jalapeno-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/chilipepper_dry*" }
+    },
+    "*-cayenne-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/chilipepper_dry*" }
+    },
+    "*-habanero-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/chilipepper_dry*" }
+    },
+    "*-tabasco-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/chilipepper_dry*" }
+    },
+    "*-romatomato-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/tomato_dry*" }
+    },
+    "*-oxheart-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/tomato_dry*" }
+    },
+    "*-dry": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/{type}_dry*" }
+    },
+    "*-blackcurrant-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/currant_green*" }
+    },
+    "*-redcurrant-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/currant_green*" }
+    },
+    "*-whitecurrant-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/currant_green*" }
+    },
+    "*-blueberry-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/blueberry_green*" }
+    },
+    "*-cranberry-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/cranberry_green*" }
+    },
+    "*-fractureberry-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/fractureberry_growing*" }
+    },
+    "*-redbellpepper-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/bellpepper_green*" }
+    },
+    "*-orangebellpepper-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/bellpepper_green*" }
+    },
+    "*-yellowbellpepper-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/bellpepper_green*" }
+    },
+    "*-greenbellpepper-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/bellpepper_green*" }
+    },
+    "*-jalapeno-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/chilipepper_green*" }
+    },
+    "*-cayenne-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/chilipepper_green*" }
+    },
+    "*-habanero-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/chilipepper_green*" }
+    },
+    "*-tabasco-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/chilipepper_green*" }
+    },
+    "*-romatomato-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/tomato_green*" }
+    },
+    "*-oxheart-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/tomato_green*" }
+    },
+    "*-green": {
+      "leaves": { "base": "wildcraftfruit:block/plant/clipping/{type}_green*" }
+    }
+  },
+  "materialDensity": 600,
+  "combustiblePropsByType": {
+           "*-fractureberry-*": null,
+           "*": {
+		burnTemperature: 600,
+		burnDuration: 10,
+                }
+	},
+	grindingPropsByType: {
+               "*-fractureberry-dry": {
+		groundStack: { type: "item", code: "game:powder-iron-oxide" },
+        },
+               "*": null
+	},
+  "guiTransformByType": {
+  "@*-(elderberry-green|elderberry-dry|turkscap-green|turkscap-dry|naranjilla-green|naranjilla-dry|flaxlily-green|flaxlily-dry|fractureberry-green|fractureberry-dry|baneberry-green|baneberry-dry|redbellpepper-green|redbellpepper-dry|orangebellpepper-green|orangebellpepper-dry|yellowbellpepper-green|yellowbellpepper-dry|greenbellpepper-green|greenbellpepper-dry|wildtomato-green|wildtomato-dry|falsetomato-green|falsetomato-dry|jalapeno-green|jalapeno-dry|cayenne-green|cayenne-dry|habanero-green|habanero-dry|tabasco-green|tabasco-dry)": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: -20, y: 179, z: 151 },
+        origin: { x: 0.45, y: 0.4, z: 0.55 },
+        scale: 4
+  },
+  "@*-(husktomato-green|husktomato-dry|pokeberry-green|pokeberry-dry|blacknightshade-green|blacknightshade-dry|bitternightshade-green|bitternightshade-dry|naranjilla-green|naranjilla-dry|oldmansaltbush-green|oldmansaltbush-dry|belladonna-green|belladonna-dry|hairyeggplant-green|hairyeggplant-dry|newhusktomato-green|newhusktomato-dry|tomatillo-green|tomatillo-dry|tomato-green|tomato-dry|romatomato-green|romatomato-dry|oxheart-green|oxheart-dry|eggplant-green|eggplant-dry)": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: -20, y: 179, z: 151 },
+        origin: { x: 0.46, y: 0.42, z: 0.55 },
+        scale: 4
+  },
+  "*": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: -167, y: -144, z: 33 },
+        origin: { x: 0.6, y: 0.4, z: 0.34 },
+        scale: 2.47
+  }
+  },
+  "tpHandTransformByType": {
+  "@*-(husktomato-green|husktomato-dry|elderberry-green|elderberry-dry|pokeberry-green|pokeberry-dry|turkscap-green|turkscap-dry|fractureberry-green|fractureberry-dry|blacknightshade-green|blacknightshade-dry|bitternightshade-green|bitternightshade-dry|naranjilla-green|naranjilla-dry|flaxlily-green|flaxlily-dry|oldmansaltbush-green|oldmansaltbush-dry|belladonna-green|belladonna-dry|baneberry-green|baneberry-dry|hairyeggplant-green|hairyeggplant-dry|redbellpepper-green|redbellpepper-dry|orangebellpepper-green|orangebellpepper-dry|yellowbellpepper-green|yellowbellpepper-dry|greenbellpepper-green|greenbellpepper-dry|wildtomato-green|wildtomato-dry|falsetomato-green|falsetomato-dry|jalapeno-green|jalapeno-dry|cayenne-green|cayenne-dry|habanero-green|habanero-dry|tabasco-green|tabasco-dry|newhusktomato-green|newhusktomato-dry|tomatillo-green|tomatillo-dry|tomato-green|tomato-dry|romatomato-green|romatomato-dry|oxheart-green|oxheart-dry|eggplant-green|eggplant-dry)": {
+      translation: { x: 0, y: 0, z: 0 },
+      rotation: { x: -14, y: -10, z: -56 },
+      origin: { x: 0.05, y: 0.16, z: 0.16 },
+      scale: 0.48
+  },
+  "*": {
+      translation: { x: 0, y: 0, z: 0 },
+      rotation: { x: -14, y: -10, z: -56 },
+      origin: { x: 0, y: 0.16, z: 0.12 },
+      scale: 0.34
+  }
+  },
+  "groundTransformByType": {
+  "@*-(husktomato-green|husktomato-dry|elderberry-green|elderberry-dry|pokeberry-green|pokeberry-dry|turkscap-green|turkscap-dry|fractureberry-green|fractureberry-dry|blacknightshade-green|blacknightshade-dry|bitternightshade-green|bitternightshade-dry|naranjilla-green|naranjilla-dry|flaxlily-green|flaxlily-dry|oldmansaltbush-green|oldmansaltbush-dry|belladonna-green|belladonna-dry|baneberry-green|baneberry-dry|hairyeggplant-green|hairyeggplant-dry|redbellpepper-green|redbellpepper-dry|orangebellpepper-green|orangebellpepper-dry|yellowbellpepper-green|yellowbellpepper-dry|greenbellpepper-green|greenbellpepper-dry|wildtomato-green|wildtomato-dry|falsetomato-green|falsetomato-dry|jalapeno-green|jalapeno-dry|cayenne-green|cayenne-dry|habanero-green|habanero-dry|tabasco-green|tabasco-dry|newhusktomato-green|newhusktomato-dry|tomatillo-green|tomatillo-dry|tomato-green|tomato-dry|romatomato-green|romatomato-dry|oxheart-green|oxheart-dry|eggplant-green|eggplant-dry)": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 82, "y": 2, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.56 },
+		"scale": 4.81
+  },
+  "*": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 82, "y": 2, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.56 },
+		"scale": 3.51
+        },
+	}
+}

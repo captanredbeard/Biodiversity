@@ -1,0 +1,150 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"root": "wildcraft:block/food/roots/iris_root"
+	},
+	"elements": [
+		{
+			"name": "IrisBulb1",
+			"from": [ 0.0, 0.0, 0.0 ], 
+			"to": [ 3.0, 3.0, 3.0 ], 
+			"faces": {
+				"north": { "texture": "#root", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#root", "uv": [ 0.0, 11.3333, 4.67, 16.0033 ], "autoUv": false },
+				"south": { "texture": "#root", "uv": [ 0.0, 0.0, 4.67, 4.67 ], "rotation": 270, "autoUv": false },
+				"west": { "texture": "#root", "uv": [ 10.0, 10.0, 14.67, 14.67 ], "autoUv": false },
+				"up": { "texture": "#root", "uv": [ 0.0, 0.0, 4.67, 4.67 ], "rotation": 270, "autoUv": false },
+				"down": { "texture": "#root", "uv": [ 0.0, 0.0, 4.67, 4.67 ], "rotation": 90, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "BulbRoot1",
+					"from": [ 3.0, 0.0, 1.5 ], 
+					"to": [ 6.0, 3.0, 1.5 ], 
+					"rotationOrigin": [ 3.0, 1.5, 1.5 ],
+					"faces": {
+						"north": { "texture": "#root", "uv": [ 8.6667, 0.0, 15.47, 5.97 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#root", "uv": [ 0.6667, 0.0, 1.3333, 2.6667 ], "enabled": false },
+						"south": { "texture": "#root", "uv": [ 0.0, 0.0, 2.6667, 2.6667 ], "enabled": false },
+						"west": { "texture": "#root", "uv": [ 0.0, 0.0, 0.6667, 2.6667 ], "enabled": false },
+						"up": { "texture": "#root", "uv": [ 0.0, 0.0, 2.6667, 0.6667 ], "enabled": false },
+						"down": { "texture": "#root", "uv": [ 0.0, 0.0, 2.6667, 0.6667 ], "enabled": false }
+					}
+				},
+				{
+					"name": "BulbRoot2",
+					"from": [ 3.0, 0.0, 1.5 ], 
+					"to": [ 5.0, 3.0, 1.5 ], 
+					"rotationOrigin": [ 3.0, 1.5, 1.5 ],
+					"rotationX": 90.0,
+					"faces": {
+						"north": { "texture": "#root", "uv": [ 8.6667, 2.0, 15.47, 5.97 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#root", "uv": [ 0.6667, 0.0, 1.3333, 2.6667 ], "enabled": false },
+						"south": { "texture": "#root", "uv": [ 0.0, 0.0, 2.0, 2.6667 ], "enabled": false },
+						"west": { "texture": "#root", "uv": [ 0.0, 0.0, 0.6667, 2.6667 ], "enabled": false },
+						"up": { "texture": "#root", "uv": [ 0.0, 0.0, 2.0, 0.6667 ], "enabled": false },
+						"down": { "texture": "#root", "uv": [ 0.0, 0.0, 2.0, 0.6667 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "IrisBulb2",
+			"from": [ 0.5, 0.0, 2.0 ], 
+			"to": [ 3.0, 2.5, 4.5 ], 
+			"rotationOrigin": [ 0.5, 0.0, 2.0 ],
+			"rotationY": -22.5,
+			"faces": {
+				"north": { "texture": "#root", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#root", "uv": [ 0.0, 11.3333, 4.67, 16.0033 ], "autoUv": false },
+				"south": { "texture": "#root", "uv": [ 0.0, 0.0, 4.67, 4.67 ], "rotation": 270, "autoUv": false },
+				"west": { "texture": "#root", "uv": [ 10.0, 10.0, 14.67, 14.67 ], "autoUv": false },
+				"up": { "texture": "#root", "uv": [ 0.0, 0.0, 4.67, 4.67 ], "rotation": 270, "autoUv": false },
+				"down": { "texture": "#root", "uv": [ 0.0, 0.0, 4.67, 4.67 ], "rotation": 90, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "BulbRoot3",
+					"from": [ 2.5, 0.0, 1.1 ], 
+					"to": [ 4.5, 2.5, 1.1 ], 
+					"rotationOrigin": [ 2.5, 1.5, 1.1 ],
+					"faces": {
+						"north": { "texture": "#root", "uv": [ 8.6667, 0.0, 15.47, 3.97 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#root", "uv": [ 0.6667, 0.0, 1.3333, 2.0 ], "enabled": false },
+						"south": { "texture": "#root", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false },
+						"west": { "texture": "#root", "uv": [ 0.0, 0.0, 0.6667, 2.0 ], "enabled": false },
+						"up": { "texture": "#root", "uv": [ 0.0, 0.0, 2.0, 0.6667 ], "enabled": false },
+						"down": { "texture": "#root", "uv": [ 0.0, 0.0, 2.0, 0.6667 ], "enabled": false }
+					}
+				},
+				{
+					"name": "BulbRoot4",
+					"from": [ 2.5, -0.4, 1.5 ], 
+					"to": [ 4.0, 2.1, 1.5 ], 
+					"rotationOrigin": [ 2.5, 1.1, 1.5 ],
+					"rotationX": 90.0,
+					"faces": {
+						"north": { "texture": "#root", "uv": [ 8.6667, 2.0, 15.47, 5.97 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#root", "uv": [ 0.6667, 0.0, 1.3333, 2.0 ], "enabled": false },
+						"south": { "texture": "#root", "uv": [ 0.0, 0.0, 1.3333, 2.0 ], "enabled": false },
+						"west": { "texture": "#root", "uv": [ 0.0, 0.0, 0.6667, 2.0 ], "enabled": false },
+						"up": { "texture": "#root", "uv": [ 0.0, 0.0, 1.3333, 0.6667 ], "enabled": false },
+						"down": { "texture": "#root", "uv": [ 0.0, 0.0, 1.3333, 0.6667 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "IrisBulb3",
+			"from": [ 0.2, 0.25, -2.0 ], 
+			"to": [ 2.7, 2.75, 0.5 ], 
+			"rotationOrigin": [ 0.2, 0.2, 0.5 ],
+			"rotationY": 15.0,
+			"faces": {
+				"north": { "texture": "#root", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#root", "uv": [ 0.0, 11.3333, 4.67, 16.0033 ], "autoUv": false },
+				"south": { "texture": "#root", "uv": [ 0.0, 0.0, 4.67, 4.67 ], "rotation": 270, "autoUv": false },
+				"west": { "texture": "#root", "uv": [ 10.0, 10.0, 14.67, 14.67 ], "autoUv": false },
+				"up": { "texture": "#root", "uv": [ 0.0, 0.0, 4.67, 4.67 ], "rotation": 270, "autoUv": false },
+				"down": { "texture": "#root", "uv": [ 0.0, 0.0, 4.67, 4.67 ], "rotation": 90, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "BulbRoot5",
+					"from": [ 2.5, 0.0, 1.1 ], 
+					"to": [ 4.5, 2.5, 1.1 ], 
+					"rotationOrigin": [ 2.5, 1.5, 1.1 ],
+					"faces": {
+						"north": { "texture": "#root", "uv": [ 8.6667, 0.0, 15.47, 3.97 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#root", "uv": [ 0.6667, 0.0, 1.3333, 2.0 ], "enabled": false },
+						"south": { "texture": "#root", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false },
+						"west": { "texture": "#root", "uv": [ 0.0, 0.0, 0.6667, 2.0 ], "enabled": false },
+						"up": { "texture": "#root", "uv": [ 0.0, 0.0, 2.0, 0.6667 ], "enabled": false },
+						"down": { "texture": "#root", "uv": [ 0.0, 0.0, 2.0, 0.6667 ], "enabled": false }
+					}
+				},
+				{
+					"name": "BulbRoot6",
+					"from": [ 2.5, -0.4, 1.5 ], 
+					"to": [ 4.0, 2.1, 1.5 ], 
+					"rotationOrigin": [ 2.5, 1.1, 1.5 ],
+					"rotationX": 90.0,
+					"faces": {
+						"north": { "texture": "#root", "uv": [ 8.6667, 2.0, 15.47, 5.97 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#root", "uv": [ 0.6667, 0.0, 1.3333, 2.0 ], "enabled": false },
+						"south": { "texture": "#root", "uv": [ 0.0, 0.0, 1.3333, 2.0 ], "enabled": false },
+						"west": { "texture": "#root", "uv": [ 0.0, 0.0, 0.6667, 2.0 ], "enabled": false },
+						"up": { "texture": "#root", "uv": [ 0.0, 0.0, 1.3333, 0.6667 ], "enabled": false },
+						"down": { "texture": "#root", "uv": [ 0.0, 0.0, 1.3333, 0.6667 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

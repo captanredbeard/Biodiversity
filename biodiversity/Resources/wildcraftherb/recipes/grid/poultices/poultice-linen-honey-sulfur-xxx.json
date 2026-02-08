@@ -1,0 +1,20 @@
+{
+  "name": "Poultice linen honey sulfur herb",
+  "ingredientPattern": "SBS,_L_,_T_",
+  "ingredients": {
+    "L": { "type": "block", "code": "game:linen-*" },
+    "S": { "type": "item", "code": "game:powderedsulfur" },
+    "B": { "type": "block", "code": "game:bowl-fired" },
+    "T": {
+      "type": "item",
+      "code": "wildcraftherb:herb-*",
+      "quantity": 2,
+      "name": "herb",
+      "allowedVariants": ["thyme", "lavender", "marshmallow", "holly", "marigold", "yarrow", "sage"]
+    }
+  },
+  "attributes": { "liquidContainerProps": { "requiresContent": { "type": "item", "code": "game:honeyportion" }, "requiresLitres": 0.25 } },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "item", "code": "wildcraftherb:advancedpoultice-linen-honey-sulfur-{herb}", "quantity": 4 }
+}

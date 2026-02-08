@@ -1,0 +1,48 @@
+{
+	code: "boatseat",
+	variantgroups: [
+		{ code: "wood", states: [], loadFromProperties: "wildcrafttree:block/wood" }
+	],
+	skipVariants: ["*-petrified"],
+	shape: { base: "game:item/wearable/boatseat" },
+	textures: {
+		wood: { 
+			base: "game:block/wood/debarked/{wood}"
+		},
+	},
+	attributes: {
+		attachableToEntity: {
+			texturePrefixCode: "boatseat-{wood}",
+			categoryCode: "seat",
+			seatConfig: {
+				controllable: false,
+				bodyYawLimit: 0.25,
+				mountOffset: { x: 2, y: 0.4, z: 1.5 },
+				eyeHeight: 1
+			}
+		}
+	},
+	maxStackSize: 8,
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcrafttree": ["*"] },
+	renderAlphaTest: 0.25,
+	tpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -55, y: -57, z: -31 },
+		origin: { x: -0.3, y: 0.73, z: -0.3 },
+		scale: 0.78
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -34, y: -43, z: -180 },
+		origin: { x: 0.5, y: 0.6, z: 0.5 },
+		scale: 1.29
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.53 },
+			scale: 5
+		}
+	}
+}

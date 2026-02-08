@@ -1,0 +1,208 @@
+{
+	code: "door",
+	class: "BlockGeneric",
+	entityClass: "Generic",
+	"__comment": "Lockable behavior first so that it prevents subsequent Door behavior if it is locked",
+	behaviors: [ 
+		{ name: "Lockable" },
+		{ name: "Door" }, 
+		{ name: "BlockEntityInteract" }
+	],
+	entityBehaviors: [{ name: "Door" }],
+	variantgroups: [
+		{ code: "style", states: ["sleek-windowed", "solid", "1x3gate", "2x2gate", "2x4gate", "2x3gate"] },
+		{ code: "wood", loadFromProperties: "wildcrafttree:block/wood" },
+	],
+	attributes: {
+		handbook: {
+			groupBy: ["door-{style}-*"]
+		},
+		airtightByType: {
+			"door-sleek*": false,
+			"door-crude": false,
+			"*": true,
+		},
+		widthByType: {
+			"door-2x2gate-*": 2,
+			"door-2x3gate-*": 2,
+			"door-2x4gate-*": 2,
+			"*": 1
+		},
+		heightByType: {
+			"door-1x3gate-*": 3,
+			"door-2x3gate-*": 3,
+			"door-2x4gate-*": 4,
+			"*": 2
+		},
+		openSoundByType: {
+			"door-1x3gate-*": "game:sounds/block/largedoor-open",
+			"door-2x4gate-*": "game:sounds/block/largedoor-open",
+			"door-2x3gate-*": "game:sounds/block/largedoor-open",
+			"door-2x2gate-*": "game:sounds/block/largedoor-open",
+			"*": "game:sounds/block/door"
+		},
+		closeSoundByType: {
+			"door-1x3gate-*": "game:sounds/block/largedoor-close",
+			"door-2x4gate-*": "game:sounds/block/largedoor-close",
+			"door-2x3gate-*": "game:sounds/block/largedoor-close",
+			"door-2x2gate-*": "game:sounds/block/largedoor-close",
+			"*": "game:sounds/block/door"
+		},
+		easingSpeedByType: {
+			"door-1x3gate-*": 3,
+			"door-2x2gate-*": 2,
+			"door-2x3gate-*": 2,
+			"door-2x4gate-*": 1,
+			
+			"door-ruined-rough2": 3,
+			"door-ruined-rough3": 3,
+			
+			"*": 10
+		}
+	},
+	creativeinventoryByType: {
+		"*": { "general": ["*"], "decorative": ["*"], "wildcrafttree": ["*"] },
+	},
+	shape: { base: "game:block/wood/door/{style}" },
+	texturesByType: {
+		"door-sleek-windowed-*": {
+			"wood": { base: "game:block/wood/debarked/{wood}", rotation: 90, blendedOverlays: [{ base: "block/wood/door/overlay-sleek", blendMode: "Overlay" }] }
+		},
+		"door-solid-*": {
+			"wood": { base: "game:block/wood/debarked/{wood}", rotation: 90, blendedOverlays: [{ base: "block/wood/door/overlay-solid", blendMode: "Overlay" }] }
+		},
+		"door-1x3gate-*": {
+			"wood": { base: "game:block/wood/debarked/{wood}", rotation: 90, blendedOverlays: [{ base: "block/wood/door/overlay-tall", blendMode: "Overlay" }] }
+		},
+		"door-2x2gate-*": {
+			"wood": { base: "game:block/wood/debarked/{wood}", rotation: 90, blendedOverlays: [{ base: "block/wood/door/overlay-wide", blendMode: "Overlay" }] }
+		},
+		"door-2x3gate-*": {
+			"wood": { base: "game:block/wood/debarked/{wood}", rotation: 90, blendedOverlays: [{ base: "block/wood/door/overlay-tall", blendMode: "Overlay" }] }
+		},
+		"door-2x4gate-*": {
+			"wood": { base: "game:block/wood/debarked/{wood}", rotation: 90 }
+		}
+	},
+	"__comment": "Needs to be no cull pass because for double doors we flip x coords, but indices don't change so i believe that inverts the winding order, making the graphics card believe the face is facing the other direction",
+	renderPass: "OpaqueNoCull",
+	faceCullMode: "NeverCull",
+	blockmaterial: "Wood",
+	sideAo: { all: false },
+	heldTpIdleAnimation: "holdunderarm",
+	replaceable: 500,
+	resistance: 3.5,
+	lightAbsorption: 0,
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	guiTransformByType: {
+		"door-2x2gate-*": {
+			origin: { x: 1, y: 1, z: 1 },
+			scale: 0.93
+		},
+		"door-2x4gate-*": {
+			origin: { x: 1, y: 2, z: 1 },
+			scale: 0.73
+		},
+		"door-1x3gate-*": {
+			origin: { x: 0.5, y: 1.5, z: 1 },
+			scale: 0.73
+		},
+		"door-2x3gate-*": {
+			origin: { x: 0.49, y: 1.6, z: 0.8 },
+			scale: 0.73
+		},
+		"*": {
+			origin: { x: 0.49, y: 1, z: 0.8 },
+			scale: 0.73
+		},
+	},
+	fpHandTransform: {
+		translation: { x: -0.77, y: 0.18, z: 0.72 },
+		rotation: { x: 98, y: 42, z: 0 },
+		origin: { x: 0.5, y: 0.7, z: 1 },
+		scale: 1.11
+	},
+	tpHandTransformByType: {
+		"door-2x2gate-*": {
+			translation: { x: -0.94, y: -1.42, z: -1.4 },
+			rotation: { x: 13, y: 11, z: 59 },
+			origin: { x: 1, y: 1, z: 1 },
+			scale: 0.71
+		},
+		"door-2x4gate-*": {
+				translation: { x: -0.84, y: -2.81, z: -1.46 },
+			rotation: { x: 12, y: 11, z: 59 },
+			origin: { x: 1, y: 2, z: 1 },
+			scale: 0.71
+		},
+		"door-1x3gate-*": {
+			translation: { x: -0.44, y: -1.82, z: -1.3 },
+			rotation: { x: 8, y: 11, z: 59 },
+			origin: { x: 0.5, y: 1.5, z: 1 },
+			scale: 0.71
+		},
+		"door-2x3gate-*": {
+			translation: { x: -0.74, y: -2.32, z: -1.6 },
+			rotation: { x: 8, y: -3, z: 59 },
+			origin: { x: 0.5, y: 1, z: 1 },
+			scale: 0.61
+		},
+		"*": {
+			translation: { x: -0.74, y: -1.22, z: -1.3 },
+			rotation: { x: 8, y: 11, z: 59 },
+			origin: { x: 0.5, y: 1, z: 1 },
+			scale: 0.71
+		}
+	},
+	groundTransformByType: {
+		"door-2x2gate-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 1, y: 1, z: 0.85 },
+			scale: 3
+		},
+		"door-2x4gate-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 1, y: 2, z: 0.85 },
+			scale: 3
+		},
+		"door-1x3gate-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 1.5, z: 0.85 },
+			scale: 3
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 1, z: 0.85 },
+			scale: 3
+		}
+	},
+	selectionbox: { 
+		x1: 0, y1: 0, z1: 0.875, x2: 1, y2: 1, z2: 1
+	},
+	collisionbox: { 
+		x1: 0, y1: 0, z1: 0.875, x2: 1, y2: 1, z2: 1
+	},
+	combustiblePropsByType: {
+                "*-petrified": null,
+		"*": {
+			burnTemperature: 600,
+			burnDuration: 25,
+		}
+	},
+	sounds: {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	materialDensity: 600
+}

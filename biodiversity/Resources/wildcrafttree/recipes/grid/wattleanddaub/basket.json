@@ -1,0 +1,25 @@
+[
+	{
+		ingredientPattern: "W_W,WWW",
+		ingredients: {
+			"W": { type: "item", code: "wildcrafttree:willowcane-*", name: "wood", quantity: 2 }
+		},
+		name: "wattlehandbasket",
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "wildcrafttree:basket"  }
+	},
+	{
+		ingredientPattern: "RSR,W_W,TWT",
+		ingredients: {
+			"R": { type: "item", code: "game:rope" },
+			"S": { type: "item", code: "game:stick" },
+			"T": { type: "item", code: "game:*", allowedVariants: ["papyrustops", "cattailtops" ], quantity: 3 },
+			"W": { type: "item", code: "wildcrafttree:willowcane-*", name: "wood", quantity: 3 }
+		},
+		name: "foragebasket",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wildcrafttree:foragebasket"  }
+	},
+]

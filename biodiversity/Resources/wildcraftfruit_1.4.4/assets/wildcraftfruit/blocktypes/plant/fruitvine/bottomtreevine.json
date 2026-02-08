@@ -1,0 +1,80 @@
+{
+	"code": "bottomtreevine",
+	"class": "BlockTreeVine",
+	"attributes": {
+		"stackable": true,
+		"reinforcable": true,
+                "handbook": {
+                   "groupBy": ["bottomtreevine-*"]
+                },
+                "isBottomBlock": true,
+		"isHuge": true,
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["blackgrape", "redgrape", "whitegrape", "foxgrape", "ivy"] },
+		{ "code": "side", "loadFromProperties": "game:abstract/horizontalorientation" }
+	],
+	"creativeinventory": { "general": ["*-north"], "flora": ["*-north"], "wildcraftfruit": ["*-north"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-ivy-north": { "base": "wildcraftfruit:block/plant/berrybush/bottomivybush*", rotateY: 0 },
+		"*-ivy-south": { "base": "wildcraftfruit:block/plant/berrybush/bottomivybush*", rotateY: 180 },
+		"*-ivy-east": { "base": "wildcraftfruit:block/plant/berrybush/bottomivybush*", rotateY: 270 },
+		"*-ivy-west": { "base": "wildcraftfruit:block/plant/berrybush/bottomivybush*", rotateY: 90 },
+
+		"*-north": { "base": "wildcraftfruit:block/plant/berrybush/bottomgrapebush*", rotateY: 0 },
+		"*-south": { "base": "wildcraftfruit:block/plant/berrybush/bottomgrapebush*", rotateY: 180 },
+		"*-east": { "base": "wildcraftfruit:block/plant/berrybush/bottomgrapebush*", rotateY: 270 },
+		"*-west": { "base": "wildcraftfruit:block/plant/berrybush/bottomgrapebush*", rotateY: 90 },
+	},
+	"blockmaterial": "Wood",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": { 
+               "x1": 0.375, "y1": 0, "z1": 0.75, "x2": 0.625, "y2": 1.5, "z2": 1,
+		rotateYByType: {
+			"*-north": 180,
+			"*-east": 90,
+			"*-south": 0,
+			"*-west": 270
+		}
+	},
+	"selectionBox": { 
+		x1: 0.3, y1: 0, z1: 0.6, x2: 0.7, y2: 1, z2: 1,
+		rotateYByType: {
+			"*-north": 180,
+			"*-east": 90,
+			"*-south": 0,
+			"*-west": 270
+		}
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks"
+	},
+	"rainPermeable": true,
+	"dropsByType": {
+		"*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.4 } },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 2.2 } }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 20
+	},
+	"frostable": true
+}

@@ -1,0 +1,175 @@
+{
+	code: "sapling",
+	class: "BlockSapling",
+	entityclassByType: {
+		"*": "Sapling",
+	},
+	variantgroups: [
+		{ code: "wood", states: ["bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap"], loadFromProperties: "wildcrafttree:block/wood" },
+		{ code: "cover", states: ["free", "snow"] },
+	],
+	skipVariants: [ "*-chlorociboria-*", "*-petrified-*", "*-charred-*" ],
+	shapeByType: {
+		"*": { base: "wildcrafttree:block/plant/sapling/plaintree/{wood}" },
+	},
+	textures: {
+		"fertlow": { base: "game:block/soil/fertlow" }
+	},
+	attributes: {
+		treeGenByType: {
+			"*-alder-*": "alderfromsapling",
+			"*-bearnut-*": "bearnut",
+			"*-beech-*": "beechfromsapling",
+			"*-poplar-*": "blackpoplar",
+			"*-pyramidalpoplar-*": "pyramidalpoplar",
+			"*-bluemahoe-*": "bluemahoe",
+			"*-bluespruce-*": "bluesprucefromsapling",
+			"*-brideinwhite-*": "brideinwhitefromsapling",
+			"*-catalpa-*": "catalpa",
+			"*-cedar-*": "cedar",
+			"*-dalbergia-*": "dalbergia",
+			"*-douglasfir-*": "coastdouglasfir",
+			"*-elm-*": "elm",
+			"*-empresstree-*": "empresstree",
+			"*-eucalyptus-*": "eucalyptus",
+			"*-ghostgum-*": "ghostgum",
+			"*-banyan-*": "banyan",
+			"*-ginkgo-*": "ginkgo",
+			"*-guajacum-*": "guajacum",
+			"*-honeylocust-*": "honeylocust",
+			"*-jacaranda-*": "jacaranda",
+			"*-kauri-*": "kauri",
+			"*-mahogany-*": "mahogany",
+			"*-ohia-*": "ohia",
+			"*-redcedar-*": "redcedar",
+			"*-redwillow-*": "redwillowfromsapling",
+			"*-sourwood-*": "sourwoodfromsapling",
+			"*-sal-*": "sal",
+			"*-saxaul-*": "saxaul",
+			"*-spruce-*": "spruce",
+			"*-sycamore-*": "sycamore",
+			"*-tuja-*": "tujafromsapling",
+			"*-umnini-*": "umnini",
+			"*-wiliwili-*": "wiliwilifromsapling",
+			"*-willow-*": "willow",
+			"*-weepingwillow-*": "weepingwillowfromsapling",
+			"*-yew-*": "yew",
+			"*-satinash-*": "satinashfromsapling",
+			"*-fir-*": "truefir",
+			"*-horsechestnut-*": "horsechestnut",
+			"*-mousetrap-*": "mousetrapfromsapling",
+			"*-aspen-*": "aspenfromsapling",
+			"*-azobe-*": "azobe",
+			"*-leadwood-*": "leadwood",
+			"*-tamanu-*": "tamanu",
+			"*-mangrove-*": "mangrove",
+			"*-tigerwood-*": "tigerwood",
+			"*-heather-*": "treeheatherfromsapling",
+			"*-linden-*": "linden",
+			"*-ash-*": "ash",
+			"*-sapele-*": "sapele",
+			"*-crownofthorns-*": "crownofthornsfromsapling",
+			"*-spurgetree-*": "spurgetree",
+		},
+		reinforcable: true,
+		sproutDays: { avg: 3, var: 1 },
+		matureDaysByType: {
+			"*-yew-*": { avg: 40, var: 8 },
+			"*-ginkgo-*": { avg: 30, var: 8 },
+			"*-saxaul-*": { avg: 30, var: 8 },
+			"*-mahogany-*": { avg: 25, var: 6 },
+			"*-umnini-*": { avg: 35, var: 6 },
+			"*-guajacum-*": { avg: 28, var: 6 },
+			"*-catalpa-*": { avg: 12, var: 2 },
+			"*-willow-*": { avg: 12, var: 2 },
+			"*-weepingwillow-*": { avg: 12, var: 2 },
+			"*-dalbergia-*": { avg: 40, var: 8 },
+			"*-bluemahoe-*": { avg: 12, var: 4 },
+			"*-honeylocust-*": { avg: 12, var: 4 },
+			"*-eucalyptus-*": { avg: 20, var: 4 },
+			"*-ghostgum-*": { avg: 20, var: 4 },
+			"*-fir-*": { avg: 20, var: 4 },
+			"*-leadwood-*": { avg: 25, var: 6 },
+			"*-ohia-*": { avg: 25, var: 6 },
+			"*-elm-*": { avg: 25, var: 6 },
+			"*-tigerwood-*": { avg: 20, var: 4 },
+			"*-wiliwili-*": { avg: 20, var: 4 },
+			"*-bluespruce-*": { avg: 25, var: 6 },
+			"*-spruce-*": { avg: 25, var: 6 },
+			"*-kauri-*": { avg: 25, var: 6 },
+			"*-alder-*": { avg: 10, var: 2 },
+			"*-sourwood-*": { avg: 10, var: 2 },
+			"*-redwillow-*": { avg: 10, var: 2 },
+			"*-brideinwhite-*": { avg: 10, var: 2 },
+			"*-aspen-*": { avg: 10, var: 2 },
+			"*-douglasfir-*": { avg: 70, var: 20 },
+			"*-redcedar-*": { avg: 60, var: 16 },
+			"*": { avg: 14, var: 4 },
+		},
+		plantContainable: {
+			largeContainer: {
+				shapeByType: {
+					"*": { base:  "wildcrafttree:block/plant/sapling/plaintree/potted/{wood}-large" }
+				}
+			}
+		}
+	},
+	creativeinventory: { "general": ["*-free"], "flora": ["*-free"], "wildcrafttree": ["*-free"] },
+	storageFlags: 33,
+	renderpass: "OpaqueNoCull",
+	drawtypeByType: {
+		"*-free": "JSON",
+		"*-snow": "JSONAndSnowLayer",
+	},
+	randomDrawOffset: true,
+	randomizeRotations: true,
+	drops: [
+		{ type: "block", code: "wildcrafttree:sapling-{wood}-free", quantity: { avg: 1, var: 0 }  }
+	],
+	blockmaterial: "Plant",
+	sideopaqueByType: {
+		"*-snow": { all: false, down: true },
+		"*": { all: false }
+	},
+	sidesolid: {
+		all: false
+	},
+	replaceable: 5200,
+	lightAbsorption: 0,
+	resistance: 1,
+	collisionbox: null,
+	selectionbox: {
+		x1: 0.3, y1: 0, z1: 0.2,
+		x2: 0.7, y2: 0.5, z2: 0.7
+	},
+	sounds: {
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant",
+	},
+	rainPermeable: true,
+	materialDensity: 200,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: -22, y: -44, z: 0 },
+			origin: { x: 0.5, y: 0.28, z: 0.5 },
+			scale: 2.6
+		}
+	},
+	tpHandTransform: {
+		translation: { x: -1.3, y: -1, z: -1 },
+		rotation: { x: 2, y: -12, z: -105 },
+		scale: 0.5
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3
+	},
+	frostable: true
+}

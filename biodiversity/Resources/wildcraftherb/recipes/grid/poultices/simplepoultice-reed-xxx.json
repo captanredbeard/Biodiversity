@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Simple poultice reed herb",
+    "ingredientPattern": "H,C,_",
+    "ingredients": {
+      "C": { "type": "item", "code": "game:*", "quantity": 2, "allowedVariants": ["papyrustops", "cattailtops"] },
+      "H": { "type": "item", "code": "wildcraftherb:herb-*", "quantity": 4, "name": "herb", "allowedVariants": ["stjohnswort", "poisonoak", "inula", "celandine", "jewelweed"] }
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "wildcraftherb:poultice-reed-{herb}", "quantity": 4 }
+  }
+]

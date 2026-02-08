@@ -1,0 +1,226 @@
+[
+	{
+		ingredientPattern: "_H,HP,PS",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofing-sod-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H,HP,_S",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "wood", quantity: 1 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		recipegroup: 1,
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofing-sod-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H_,HPH,PSP",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingridge-sod-ns-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H_,HPH,_S_",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "wood", quantity: 1 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		recipegroup: 1,
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingridge-sod-ns-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H_,HHH,PSP",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingtip-sod-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H_,HHH,PS_",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "wood", quantity: 1 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		recipegroup: 1,
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingtip-sod-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "PH_,PH_,PSH",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-sod-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H_,PH_,_SH",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "wood", quantity: 1 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		recipegroup: 1,
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-sod-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H,HH,PS",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerouter-sod-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H,HH,PS",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "block", code: "wildcrafttree:log-placed-*-ud", name: "wood", quantity: 1 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		recipegroup: 1,
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerouter-sod-east-free", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "__H,_H_,H__",
+		ingredients: {
+			"H": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:slantedroofing-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H_,H_H",
+		ingredients: {
+			"H": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "wildcrafttree:slantedroofingridge-{wood}-ns-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H_,HHH",
+		ingredients: {
+			"H": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "wildcrafttree:slantedroofingtip-{wood}-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H,H_,_H",
+		ingredients: {
+			"H": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:slantedroofingcornerinner-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H,HH",
+		ingredients: {
+			"H": { type: "item", code: "wildcrafttree:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "wildcrafttree:slantedroofingcornerouter-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,___,_H_",
+		ingredients: {
+			"H": { type: "block", code: "wildcrafttree:slantedroofing-*-east-free", name: "wood", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:slantedroofingbottom-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H_,___,___",
+		ingredients: {
+			"H": { type: "block", code: "wildcrafttree:slantedroofing-*-east-free", name: "wood", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:slantedroofingtop-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,H__,___",
+		ingredients: {
+			"H": { type: "block", code: "wildcrafttree:slantedroofing-*-east-free", name: "wood", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:slantedroofinghalfleft-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,__H,___",
+		ingredients: {
+			"H": { type: "block", code: "wildcrafttree:slantedroofing-*-east-free", name: "wood", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:slantedroofinghalfright-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,_H_,___",
+		ingredients: {
+			"H": { type: "block", code: "wildcrafttree:slantedroofingridge-*-ns-free", name: "wood", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:slantedroofingridgeend-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,H__,___",
+		ingredients: {
+			"H": { type: "block", code: "wildcrafttree:slantedroofingridge-*-ns-free", name: "wood", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:slantedroofingridgehalfleft-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,__H,___",
+		ingredients: {
+			"H": { type: "block", code: "wildcrafttree:slantedroofingridge-*-ns-free", name: "wood", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "wildcrafttree:slantedroofingridgehalfright-{wood}-east-free", quantity: 1  }
+	},
+]

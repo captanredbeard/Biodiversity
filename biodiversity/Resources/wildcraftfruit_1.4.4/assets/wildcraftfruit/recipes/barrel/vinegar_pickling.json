@@ -1,0 +1,652 @@
+[
+  {
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-fruit", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "olive" ] }
+	],
+	output: { type: "item", code: "game:pickledvegetable-{vegetable}", stackSize: 1 }
+  },
+  {
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-white", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "olive" ] }
+	],
+	output: { type: "item", code: "game:pickledvegetable-{vegetable}", stackSize: 1 }
+  },
+  {
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-apple", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "olive" ] }
+	],
+	output: { type: "item", code: "game:pickledvegetable-{vegetable}", stackSize: 1 }
+  },
+  {
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-wine", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "olive" ] }
+	],
+	output: { type: "item", code: "game:pickledvegetable-{vegetable}", stackSize: 1 }
+  },
+  {
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-citrus", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "olive" ] }
+	],
+	output: { type: "item", code: "game:pickledvegetable-{vegetable}", stackSize: 1 }
+  },
+  {
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-plum", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "olive" ] }
+	],
+	output: { type: "item", code: "game:pickledvegetable-{vegetable}", stackSize: 1 }
+  },
+  {
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-currant", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "olive" ] }
+	],
+	output: { type: "item", code: "game:pickledvegetable-{vegetable}", stackSize: 1 }
+  },
+  {
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-kiwi", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "olive" ] }
+	],
+	output: { type: "item", code: "game:pickledvegetable-{vegetable}", stackSize: 1 }
+  },
+  {
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-heath", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["carrot", "onion", "parsnip", "pumpkin", "turnip", "cabbage", "olive" ] }
+	],
+	output: { type: "item", code: "game:pickledvegetable-{vegetable}", stackSize: 1 }
+  },
+  {
+	code: "legume",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-fruit", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean" ] }
+	],
+	output: { type: "item", code: "game:pickledlegume-{legume}", stackSize: 1 }
+  },
+  {
+	code: "legume",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-white", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean" ] }
+	],
+	output: { type: "item", code: "game:pickledlegume-{legume}", stackSize: 1 }
+  },
+  {
+	code: "legume",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-apple", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean" ] }
+	],
+	output: { type: "item", code: "game:pickledlegume-{legume}", stackSize: 1 }
+  },
+  {
+	code: "legume",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-wine", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean" ] }
+	],
+	output: { type: "item", code: "game:pickledlegume-{legume}", stackSize: 1 }
+  },
+  {
+	code: "legume",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-citrus", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean" ] }
+	],
+	output: { type: "item", code: "game:pickledlegume-{legume}", stackSize: 1 }
+  },
+  {
+	code: "legume",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-plum", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean" ] }
+	],
+	output: { type: "item", code: "game:pickledlegume-{legume}", stackSize: 1 }
+  },
+  {
+	code: "legume",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-currant", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean" ] }
+	],
+	output: { type: "item", code: "game:pickledlegume-{legume}", stackSize: 1 }
+  },
+  {
+	code: "legume",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-kiwi", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean" ] }
+	],
+	output: { type: "item", code: "game:pickledlegume-{legume}", stackSize: 1 }
+  },
+  {
+	code: "legume",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-heath", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "game:legume-*", name: "legume", quantity: 1, allowedVariants: ["soybean" ] }
+	],
+	output: { type: "item", code: "game:pickledlegume-{legume}", stackSize: 1 }
+  },
+  {
+	code: "pickledcuke",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-fruit", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-cucumber", name: "vegetable", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-cucumber", stackSize: 1 }
+  },
+  {
+	code: "pickledcuke",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-white", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-cucumber", name: "vegetable", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-cucumber", stackSize: 1 }
+  },
+  {
+	code: "pickledcuke",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-apple", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-cucumber", name: "vegetable", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-cucumber", stackSize: 1 }
+  },
+  {
+	code: "pickledcuke",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-wine", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-cucumber", name: "vegetable", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-cucumber", stackSize: 1 }
+  },
+  {
+	code: "pickledcuke",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-citrus", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-cucumber", name: "vegetable", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-cucumber", stackSize: 1 }
+  },
+  {
+	code: "pickledcuke",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-plum", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-cucumber", name: "vegetable", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-cucumber", stackSize: 1 }
+  },
+  {
+	code: "pickledcuke",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-currant", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-cucumber", name: "vegetable", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-cucumber", stackSize: 1 }
+  },
+  {
+	code: "pickledcuke",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-kiwi", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-cucumber", name: "vegetable", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-cucumber", stackSize: 1 }
+  },
+  {
+	code: "pickledcuke",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-heath", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-cucumber", name: "vegetable", quantity: 1 }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-cucumber", stackSize: 1 }
+  },
+  {
+	code: "pickledcaper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-fruit", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:flower-*", name: "flower", quantity: 1, allowedVariants: ["caper", "jonjoli" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{flower}", stackSize: 1 }
+  },
+  {
+	code: "pickledcaper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-white", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:flower-*", name: "flower", quantity: 1, allowedVariants: ["caper", "jonjoli" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{flower}", stackSize: 1 }
+  },
+  {
+	code: "pickledcaper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-apple", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:flower-*", name: "flower", quantity: 1, allowedVariants: ["caper", "jonjoli" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{flower}", stackSize: 1 }
+  },
+  {
+	code: "pickledcaper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-wine", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:flower-*", name: "flower", quantity: 1, allowedVariants: ["caper", "jonjoli" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{flower}", stackSize: 1 }
+  },
+  {
+	code: "pickledcaper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-citrus", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:flower-*", name: "flower", quantity: 1, allowedVariants: ["caper", "jonjoli" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{flower}", stackSize: 1 }
+  },
+  {
+	code: "pickledcaper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-plum", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:flower-*", name: "flower", quantity: 1, allowedVariants: ["caper", "jonjoli" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{flower}", stackSize: 1 }
+  },
+  {
+	code: "pickledcaper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-currant", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:flower-*", name: "flower", quantity: 1, allowedVariants: ["caper", "jonjoli" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{flower}", stackSize: 1 }
+  },
+  {
+	code: "pickledcaper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-kiwi", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:flower-*", name: "flower", quantity: 1, allowedVariants: ["caper", "jonjoli" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{flower}", stackSize: 1 }
+  },
+  {
+	code: "pickledcaper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-heath", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:flower-*", name: "flower", quantity: 1, allowedVariants: ["caper", "jonjoli" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{flower}", stackSize: 1 }
+  },
+  {
+	code: "pickledfruit",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-fruit", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", quantity: 1, allowedVariants: ["caperberry" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{fruit}", stackSize: 1 }
+  },
+  {
+	code: "pickledfruit",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-white", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", quantity: 1, allowedVariants: ["caperberry" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{fruit}", stackSize: 1 }
+  },
+  {
+	code: "pickledfruit",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-apple", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", quantity: 1, allowedVariants: ["caperberry" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{fruit}", stackSize: 1 }
+  },
+  {
+	code: "pickledfruit",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-wine", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", quantity: 1, allowedVariants: ["caperberry" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{fruit}", stackSize: 1 }
+  },
+  {
+	code: "pickledfruit",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-citrus", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", quantity: 1, allowedVariants: ["caperberry" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{fruit}", stackSize: 1 }
+  },
+  {
+	code: "pickledfruit",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-plum", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", quantity: 1, allowedVariants: ["caperberry" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{fruit}", stackSize: 1 }
+  },
+  {
+	code: "pickledfruit",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-currant", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", quantity: 1, allowedVariants: ["caperberry" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{fruit}", stackSize: 1 }
+  },
+  {
+	code: "pickledfruit",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-kiwi", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", quantity: 1, allowedVariants: ["caperberry" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{fruit}", stackSize: 1 }
+  },
+  {
+	code: "pickledfruit",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-heath", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:fruit-*", name: "fruit", quantity: 1, allowedVariants: ["caperberry" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-{fruit}", stackSize: 1 }
+  },
+  {
+	code: "pickledpepper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-fruit", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-bellpepper", stackSize: 1 }
+  },
+  {
+	code: "pickledpepper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-white", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-bellpepper", stackSize: 1 }
+  },
+  {
+	code: "pickledpepper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-apple", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-bellpepper", stackSize: 1 }
+  },
+  {
+	code: "pickledpepper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-wine", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-bellpepper", stackSize: 1 }
+  },
+  {
+	code: "pickledpepper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-citrus", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-bellpepper", stackSize: 1 }
+  },
+  {
+	code: "pickledpepper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-plum", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-bellpepper", stackSize: 1 }
+  },
+  {
+	code: "pickledpepper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-currant", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-bellpepper", stackSize: 1 }
+  },
+  {
+	code: "pickledpepper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-kiwi", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-bellpepper", stackSize: 1 }
+  },
+  {
+	code: "pickledpepper",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-heath", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-bellpepper", stackSize: 1 }
+  },
+
+  {
+	code: "pickledchili",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-fruit", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["jalapeno", "cayenne", "habanero", "tabasco" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-chilipepper", stackSize: 1 }
+  },
+  {
+	code: "pickledchili",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-white", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["jalapeno", "cayenne", "habanero", "tabasco" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-chilipepper", stackSize: 1 }
+  },
+  {
+	code: "pickledchili",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-apple", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["jalapeno", "cayenne", "habanero", "tabasco" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-chilipepper", stackSize: 1 }
+  },
+  {
+	code: "pickledchili",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-wine", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["jalapeno", "cayenne", "habanero", "tabasco" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-chilipepper", stackSize: 1 }
+  },
+  {
+	code: "pickledchili",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-citrus", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["jalapeno", "cayenne", "habanero", "tabasco" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-chilipepper", stackSize: 1 }
+  },
+  {
+	code: "pickledchili",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-plum", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["jalapeno", "cayenne", "habanero", "tabasco" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-chilipepper", stackSize: 1 }
+  },
+  {
+	code: "pickledchili",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-currant", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["jalapeno", "cayenne", "habanero", "tabasco" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-chilipepper", stackSize: 1 }
+  },
+  {
+	code: "pickledchili",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-kiwi", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["jalapeno", "cayenne", "habanero", "tabasco" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-chilipepper", stackSize: 1 }
+  },
+  {
+	code: "pickledchili",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-heath", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["jalapeno", "cayenne", "habanero", "tabasco" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-chilipepper", stackSize: 1 }
+  },
+
+  {
+	code: "pickledtomato",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-fruit", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["tomato", "oxheart", "romatomato" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-tomato", stackSize: 1 }
+  },
+  {
+	code: "pickledtomato",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-white", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["tomato", "oxheart", "romatomato" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-tomato", stackSize: 1 }
+  },
+  {
+	code: "pickledtomato",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-apple", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["tomato", "oxheart", "romatomato" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-tomato", stackSize: 1 }
+  },
+  {
+	code: "pickledtomato",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-wine", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["tomato", "oxheart", "romatomato" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-tomato", stackSize: 1 }
+  },
+  {
+	code: "pickledtomato",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-citrus", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["tomato", "oxheart", "romatomato" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-tomato", stackSize: 1 }
+  },
+  {
+	code: "pickledtomato",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-plum", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["tomato", "oxheart", "romatomato" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-tomato", stackSize: 1 }
+  },
+  {
+	code: "pickledtomato",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-currant", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["tomato", "oxheart", "romatomato" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-tomato", stackSize: 1 }
+  },
+  {
+	code: "pickledtomato",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-kiwi", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["tomato", "oxheart", "romatomato" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-tomato", stackSize: 1 }
+  },
+  {
+	code: "pickledtomato",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "wildcraftfruit:vinegarportion-heath", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "wildcraftfruit:vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["tomato", "oxheart", "romatomato" ] }
+	],
+	output: { type: "item", code: "wildcraftfruit:pickledvegetable-tomato", stackSize: 1 }
+  },
+]

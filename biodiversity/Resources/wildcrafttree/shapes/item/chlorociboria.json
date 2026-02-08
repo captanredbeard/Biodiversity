@@ -1,0 +1,106 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"chlorociboria_debarked": "wildcrafttree:block/wood/debarked/chlorociboria"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 7.0, 0.0, 9.0 ], 
+			"to": [ 9.0, 1.0, 10.5 ], 
+			"rotationOrigin": [ 7.0, 0.0, 9.0 ],
+			"rotationY": 22.5,
+			"faces": {
+				"north": { "texture": "#chlorociboria_debarked", "uv": [ 5.5, 6.5, 7.5, 7.5 ] },
+				"east": { "texture": "#chlorociboria_debarked", "uv": [ 0.5, 1.5, 2.0, 2.5 ] },
+				"south": { "texture": "#chlorociboria_debarked", "uv": [ 1.5, 2.5, 3.5, 3.5 ] },
+				"west": { "texture": "#chlorociboria_debarked", "uv": [ 3.0, 3.0, 4.5, 4.0 ] },
+				"up": { "texture": "#chlorociboria_debarked", "uv": [ 0.0, 0.0, 2.0, 1.5 ] },
+				"down": { "texture": "#chlorociboria_debarked", "uv": [ 2.0, 1.5, 4.0, 3.0 ] }
+			}
+		},
+		{
+			"name": "Cube2",
+			"from": [ 6.0, 0.0, 6.0 ], 
+			"to": [ 8.5, 1.5, 7.5 ], 
+			"rotationOrigin": [ 6.0, 0.0, 6.0 ],
+			"rotationY": -23.0,
+			"faces": {
+				"north": { "texture": "#chlorociboria_debarked", "uv": [ 3.0, 1.0, 5.5, 2.5 ] },
+				"east": { "texture": "#chlorociboria_debarked", "uv": [ 3.0, 1.5, 4.5, 3.0 ] },
+				"south": { "texture": "#chlorociboria_debarked", "uv": [ 2.5, 3.0, 5.0, 4.5 ] },
+				"west": { "texture": "#chlorociboria_debarked", "uv": [ 2.5, 1.0, 4.0, 2.5 ] },
+				"up": { "texture": "#chlorociboria_debarked", "uv": [ 1.5, 2.5, 4.0, 4.0 ] },
+				"down": { "texture": "#chlorociboria_debarked", "uv": [ 3.5, 1.0, 6.0, 2.5 ] }
+			}
+		},
+		{
+			"name": "Cube3",
+			"from": [ 8.5, 0.0, 8.2 ], 
+			"to": [ 11.0, 1.0, 9.7 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 43.5,
+			"faces": {
+				"north": { "texture": "#chlorociboria_debarked", "uv": [ 4.0, 4.5, 6.5, 5.5 ] },
+				"east": { "texture": "#chlorociboria_debarked", "uv": [ 3.5, 4.0, 5.0, 5.0 ] },
+				"south": { "texture": "#chlorociboria_debarked", "uv": [ 9.5, 11.5, 12.0, 12.5 ] },
+				"west": { "texture": "#chlorociboria_debarked", "uv": [ 2.5, 2.5, 4.0, 3.5 ] },
+				"up": { "texture": "#chlorociboria_debarked", "uv": [ 4.5, 7.5, 7.0, 9.0 ] },
+				"down": { "texture": "#chlorociboria_debarked", "uv": [ 3.0, 2.0, 5.5, 3.5 ] }
+			}
+		},
+		{
+			"name": "Cube4",
+			"from": [ 6.0, 0.0, 6.0 ], 
+			"to": [ 8.0, 1.0, 7.5 ], 
+			"rotationOrigin": [ 8.0, 0.0, 6.0 ],
+			"rotationY": 45.0,
+			"rotationZ": -58.0,
+			"faces": {
+				"north": { "texture": "#chlorociboria_debarked", "uv": [ 9.0, 7.5, 11.0, 8.5 ] },
+				"east": { "texture": "#chlorociboria_debarked", "uv": [ 2.0, 3.5, 3.5, 4.5 ] },
+				"south": { "texture": "#chlorociboria_debarked", "uv": [ 3.0, 3.0, 5.0, 4.0 ] },
+				"west": { "texture": "#chlorociboria_debarked", "uv": [ 0.5, 5.5, 2.0, 6.5 ] },
+				"up": { "texture": "#chlorociboria_debarked", "uv": [ 4.5, 3.0, 6.5, 4.5 ] },
+				"down": { "texture": "#chlorociboria_debarked", "uv": [ 9.5, 7.0, 11.5, 8.5 ] }
+			}
+		},
+		{
+			"name": "Cube5",
+			"from": [ 8.7, 0.0, 9.0 ], 
+			"to": [ 10.7, 1.0, 10.5 ], 
+			"rotationOrigin": [ 10.7, 0.0, 9.0 ],
+			"rotationY": -11.0,
+			"rotationZ": -35.0,
+			"faces": {
+				"north": { "texture": "#chlorociboria_debarked", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+				"east": { "texture": "#chlorociboria_debarked", "uv": [ 0.0, 0.0, 1.5, 1.0 ] },
+				"south": { "texture": "#chlorociboria_debarked", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+				"west": { "texture": "#chlorociboria_debarked", "uv": [ 0.0, 0.0, 1.5, 1.0 ] },
+				"up": { "texture": "#chlorociboria_debarked", "uv": [ 0.0, 0.0, 2.0, 1.5 ] },
+				"down": { "texture": "#chlorociboria_debarked", "uv": [ 0.0, 0.0, 2.0, 1.5 ] }
+			}
+		},
+		{
+			"name": "Cube6",
+			"from": [ 6.0, 0.0, 9.0 ], 
+			"to": [ 7.5, 1.0, 10.0 ], 
+			"rotationOrigin": [ 6.0, 0.0, 9.0 ],
+			"rotationY": -51.0,
+			"faces": {
+				"north": { "texture": "#chlorociboria_debarked", "uv": [ 1.0, 1.0, 2.5, 2.0 ] },
+				"east": { "texture": "#chlorociboria_debarked", "uv": [ 7.5, 11.5, 8.5, 12.5 ] },
+				"south": { "texture": "#chlorociboria_debarked", "uv": [ 3.0, 3.0, 4.5, 4.0 ] },
+				"west": { "texture": "#chlorociboria_debarked", "uv": [ 7.5, 6.5, 8.5, 7.5 ] },
+				"up": { "texture": "#chlorociboria_debarked", "uv": [ 4.5, 3.5, 6.0, 4.5 ] },
+				"down": { "texture": "#chlorociboria_debarked", "uv": [ 1.0, 0.5, 2.5, 1.5 ] }
+			}
+		}
+	]}

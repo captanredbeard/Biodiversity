@@ -1,0 +1,33 @@
+[
+  {
+    "op": "replace",
+    "path": "/sounds",
+    "value": {
+        "place": "game:block/planks",
+        "hit": "game:block/stickhit",
+        "break": "game:block/stickbreak",
+        "walk": "game:walk/wood"
+    },
+    "file": "game:blocktypes/wood/wattlefence.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/sounds",
+    "value": {
+        "place": "game:block/planks",
+        "hit": "game:block/stickhit",
+        "break": "game:block/stickbreak",
+        "walk": "game:walk/wood"
+    },
+    "file": "game:blocktypes/wood/wattlegate.json",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/triggerSound",
+    "value": "sounds/block/hewnfancegate",
+    "file": "game:blocktypes/wood/wattlegate.json",
+    "side": "Server"
+  },
+]

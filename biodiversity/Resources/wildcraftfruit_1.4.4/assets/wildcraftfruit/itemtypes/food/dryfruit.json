@@ -1,0 +1,336 @@
+{
+  "code": "dryfruit",
+  "maxstacksize": 64,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	variantgroups: [
+		{ code: "type", states: ["juniper", "pandan", "marita", "commonhackberry", "sugarhackberry", "deserthackberry", "walnut", "bluequandong", "sumac", "pistachioberry"] },
+	],
+  "materialDensityByType": {
+    "*": 600
+  },
+  "attributesByType": {
+		"*-pandan": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-pandanbits" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.9
+		}
+		},
+		"*-marita": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-maritabits" },
+			nutritionPropsWhenInMeal: null,
+			inPieProperties: null,
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		}
+		},
+		"*-pistachioberry": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-turkscap" },
+			nutritionPropsWhenInMeal: { satiety: 100, foodcategory: "Fruit" },
+			inPieProperties: null,
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		}
+		},
+		"*-juniper": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-juniper" },
+			nutritionPropsWhenInMeal: { satiety: 60, health: 1, foodcategory: "Fruit" },
+			inPieProperties: { texture: "wildcraftfruit:block/food/pie/fill-juniper", partType: 'Filling' },
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		}
+		},
+		"*-bluequandong": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-bluequandong" },
+			nutritionPropsWhenInMeal: { satiety: 60, foodcategory: "Fruit" },
+			inPieProperties: { texture: "block/food/pie/fill-bluequandong", partType: 'Filling' },
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		}
+		},
+		"*-sumac": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-sumac" },
+			nutritionPropsWhenInMeal: { satiety: 60, foodcategory: "Fruit" },
+			inPieProperties: { texture: "block/food/pie/fill-{nut}", partType: 'Filling' },
+		groundStorageTransform: {
+			translation: { x: 0, y: -0.25, z: 0 },
+			scale: 0.5
+		}
+		},
+		"@*-(commonhackberry|sugarhackberry|deserthackberry)": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-{nut}" },
+			nutritionPropsWhenInMeal: { satiety: 90, foodcategory: "Fruit" },
+			inPieProperties: { texture: "block/food/pie/fill-{nut}", partType: 'Filling' },
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		}
+		},
+		"*-walnut": {
+			inContainerTexture: { base: "wildcraftfruit:block/food/pie/fill-walnut" },
+			nutritionPropsWhenInMeal: { satiety: 120, foodcategory: "Fruit" },
+			inPieProperties: { texture: "block/food/pie/fill-walnut", partType: 'Filling' },
+		groundStorageTransform: {
+			translation: { x: -0.04, y: -0.21, z: -0 },
+			scale: 0.58
+		}
+		}
+	},
+  "shapebytype": {
+    "*": { "base": "wildcraftfruit:item/fruit/{type}" }
+  },
+  "textureByType": {
+    "*": null
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "wildcraftfruit": [ "*" ]
+  },
+  "storageFlags": 33,
+  "nutritionPropsByType": {
+    "*-juniper": {
+      "satiety": 40,
+      "health": -0.25,
+      "foodcategory": "Fruit"
+    },
+    "*-sumac": {
+      "satiety": 40,
+      "foodcategory": "Fruit"
+    },
+    "*-walnut": {
+      "satiety": 80,
+      "foodcategory": "Fruit"
+    },
+      "@*-(commonhackberry|sugarhackberry|deserthackberry)": { 
+      "satiety": 60, 
+      "foodcategory": "Fruit" 
+    },
+      "*-pistachioberry": { 
+      "satiety": 80, 
+      "foodcategory": "Fruit" 
+    },
+      "*-bluequandong": { 
+      "satiety": 30, 
+      "foodcategory": "Fruit" 
+    }
+  },
+  "transitionablePropsByType": {
+		"*-bluequandong": [{
+			"type": "Perish",
+			"freshHours": { "avg": 360 },
+			"transitionHours": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "wildcraftfruit:quandongpits" },
+			"transitionRatio": 1
+		}],
+		"*-marita": [{
+			type: "Perish",
+			freshHours: { avg: 600 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"@*-(juniper|sumac)": [{
+			type: "Perish",
+			freshHours: { avg: 960 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { "type": "item", "code": "game:rot" },
+			transitionRatio: 0.25
+		}],
+		"*-pandan": [{
+			type: "Perish",
+			freshHours: { avg: 960 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { "type": "item", "code": "game:rot" },
+			transitionRatio: 1
+		}],
+		"@*-(commonhackberry|sugarhackberry|deserthackberry|pistachioberry)": [{
+			type: "Perish",
+			freshHours: { avg: 360 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { "type": "item", "code": "game:rot" },
+			transitionRatio: 0.33
+		}],
+		"*-walnut": [{
+			type: "Perish",
+			freshHours: { avg: 360 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { "type": "item", "code": "wildcraftfruit:nut-walnutshelled" },
+			transitionRatio: 1
+		}]
+  },
+  "guiTransformByType": {
+    "*-walnut": {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -74, y: -34, z: 167 },
+		origin: { x: 0.58, y: 0, z: 0.51 },
+		scale: 2.6
+    },
+    "*-juniper": {
+      translation: { x: 0, y: 0, z: 0 },
+      rotation: { x: -12, y: -101, z: -152 },
+      origin: { x: 0.6, y: 0.06, z: 0.48 },
+      scale: 3.39
+    },
+    "*-sumac":	{
+	"translation": { "x": 0, "y": 0, "z": 0 },
+	"rotation": { "x": 162, "y": 174, "z": 32 },
+	"origin": { "x": 0.445, "y": 0.2, "z": 0.1 },
+	"scale": 4.17
+    },
+	"*-marita": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 91, "y": -6, "z": -124 },
+		"origin": { "x": 0.65, "y": 0.19, "z": 0.5 },
+		"scale": 2.32
+	},
+	"*-pandan": {
+        rotation: { x: 3, y: -18, z: 146 },
+        origin: { x: 0.6, y: 0.3, z: 0.1 },
+        scale: 3.73
+	},
+	"@*-(commonhackberry|sugarhackberry|deserthackberry)": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -98, "y": -40, "z": -171 },
+		"origin": { "x": 0.42, "y": 0.4, "z": 0.6 },
+		"scale": 2.03
+	},
+    "*-bluequandong": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: 151, y: -165, z: 2 },
+        origin: { x: 0.63, y: -0.17, z: 0 },
+        scale: 2.97
+    },
+	"*-pistachioberry": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 124, "y": -106, "z": -8 },
+		"origin": { "x": 0.47, "y": 0.02, "z": 0.52 },
+		"scale": 4.04
+	}
+  },
+	tpHandTransformByType: {
+		"*-walnut": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 8, "y": 114, "z": 7 },
+			"origin": { "x": 0.1, "y": -0.1, "z": -0.2 },
+			"scale": 0.37
+		},
+		"*-juniper": {
+			"translation": { "x": 0, "y": 0, "z": -0.33 },
+			"rotation": { "x": 113, "y": -2, "z": -70 },
+			"origin": { "x": 0.05, "y": -0.11, "z": 0.38 },
+			"scale": 0.44
+		},
+		"*-sumac": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 87, "y": 29, "z": -77 },
+			"origin": { "x": 0.07, "y": -0.03, "z": 0.2 },
+			"scale": 0.48
+		},
+		"*-marita": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -89, "y": 41, "z": -13 },
+			"origin": { "x": 0.24, "y": 0.1, "z": 0 },
+			"scale": 0.64
+		},
+		"*-pandan": {
+			"translation": { "x": -0.14, "y": 0, "z": 0 },
+			"rotation": { "x": 12, "y": -2, "z": -77 },
+			"origin": { "x": 0, "y": 0.34, "z": 0.3 },
+			"scale": 0.86
+		},
+		"@*-(commonhackberry|sugarhackberry|deserthackberry)": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 90, "y": 158, "z": 2 },
+			"origin": { "x": -0.2, "y": 0.2, "z": 0.04 },
+			"scale": 0.3
+		},
+		"*-bluequandong": {
+			translation: { x: -0.1, y: 0.2, z: -0.8 },
+			rotation: { x: 138, y: -19, z: -66 },
+			origin: { x: 0.12, y: -0.25, z: 0.37 },
+			scale: 0.42
+		},
+		"*-pistachioberry": {
+			"translation": { "x": 0, "y": 0, "z": -0.33 },
+			"rotation": { "x": 117, "y": 0, "z": -68 },
+			"origin": { "x": 0.07, "y": -0.13, "z": 0.37 },
+			"scale": 0.51
+		},
+	},
+	"groundTransformByType": {
+		"*-walnut": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: -8 },
+			origin: { x: 0.5, y: 0, z: 0.53 },
+			scale: 2.4
+		},
+		"*-juniper": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: -0.02, z: 0 },
+			scale: 2.87
+		},
+		"*-sumac": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 105, y: 41, z: -135 },
+			origin: { x: 0.2, y: 0.2, z: 0.1 },
+			scale: 3
+		},
+		"*-marita": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 8, "y": 0, "z": 3 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.92
+		},
+		"*-pandan": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 111, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.52 },
+			"scale": 6
+		},
+		"*-bluequandong": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -5, y: 30, z: 1 },
+			origin: { x: 0.5, y: 0, z: 0.53 },
+			scale: 2.46
+		},
+		"@*-(commonhackberry|sugarhackberry|deserthackberry)": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -11, "y": 0, "z": -3 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 1.89
+		},
+		"*-pistachioberry": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 3.66
+		}
+    },
+	combustiblePropsByType: {
+		"*-pistachioberry": {
+			meltingPoint: 100,
+			meltingDuration: 15,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "wildcraftfruit:nut-pistachionut" },
+			requiresContainer: false
+		}
+	},
+	heldTpIdleAnimationByType: {
+		"@*-(pistachioberry|bluequandong|juniper)": "holdbothhands",
+	},
+	"heldRightReadyAnimationByType": {
+		"@*-(pistachioberry|bluequandong|juniper)": "holdbothhands"
+	},
+}

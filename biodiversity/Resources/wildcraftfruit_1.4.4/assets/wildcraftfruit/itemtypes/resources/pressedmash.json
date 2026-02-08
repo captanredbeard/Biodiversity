@@ -1,0 +1,63 @@
+{
+	"code": "pressedmash",
+	"class": "ItemPressedMash",
+	"maxstacksize": 64,
+    "variantgroups": [
+        { code: "fruit", states: ["rawginkgo", "maritabits", "avocado", "pumpkin", "cucumber", "carrot", "tomato", "tomatillo", "jalapeno", "orangebellpepper"], "loadFromProperties": "wildcraftfruit:block/fruit" }
+      ],
+	"skipVariants": ["*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-beachalmondwhole", "*-lillypillywhite", "*-lillypillyblue", "*-lemon", "*-burgundyapple", "*-wildapple", "*-mazzard", "*-nectarine", "*-waterapple", "*-bitterorange", "*-bilberry", "*-swamphuckle", "*-beachrose", "*-damsonplum", "*-redplum", "*-redcherryplum", "*-pittedjackfruit", "*-pittedmazzard", "*-greatroseapple", "*-kasturi", "*-cempedak", "*-pittedcempedak", "*-makrut", "*-pulasan", "*-greenstrawberry", "*-loganberry", "*-boysenberry", "*-josta", "*-ber", "*-marang", "*-pittedmarang", "*-hairyeggplant", "*-juaacu", "*-newhusktomato", "*-wildtomato", "*-quincelet", "*-ginkgowhole", "*-ginkgopulp"],
+	"attributes": {
+        "foodTagsByType": {
+			"*": ["fruitmash"],
+                          },
+		"juiceablePropertiesByType": {
+			"*-yew": {
+				"liquidStack": { "type": "item", "code": "wildcraftfruit:juiceportion-pittedyew", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "wildcraftfruit:pressedmash-yew", "stacksize": 1 }
+			},
+			"*-chinaberry": {
+				"liquidStack": { "type": "item", "code": "wildcraftfruit:juiceportion-pittedchinaberry", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "wildcraftfruit:pressedmash-chinaberry", "stacksize": 1 }
+			},
+			"*": {
+				"liquidStack": { "type": "item", "code": "wildcraftfruit:juiceportion-{fruit}", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "wildcraftfruit:pressedmash-{fruit}", "stacksize": 1 }
+			}
+		}		
+	},
+	"shape": { "base": "game:item/pressedmash" },
+	"textures": {
+		"material": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraftfruit": [ "*" ] },
+	"transitionableProps": [{		
+			"type": "Perish",
+			"freshHours": { "avg": 36 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+	}],
+	fpHandTransform: {
+		rotation: { x: 29, y: 113, z: -30 },
+		origin: { x: 0.5, y: 0.25, z: 0.5 },
+		scale: 1.44
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -28, y: -40, z: 0 },
+		origin: { x: 0.49, y: 0.04, z: 0.53 },
+		scale: 2.3
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: -1.1, y: -0.3, z: -0.9 },
+		rotation: { x: 1, y: -34, z: -11 },
+		origin: { x: 0.5, y: 0.25, z: 0.5 },
+		scale: 0.5
+	}
+}

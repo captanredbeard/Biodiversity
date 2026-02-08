@@ -1,0 +1,399 @@
+{
+	code: "vegetable",
+	maxstacksize: 64,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+  "attributes": {
+    "juiceablePropertiesByType": {
+			"*-cucumber": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-cucumber", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-cucumber", stacksize: 1 }
+			},
+			"*-maritabits": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-maritabits", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-maritabits", stacksize: 1 }
+			},
+			"*-tomato": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-tomato", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-tomato", stacksize: 1 }
+			},
+			"*-romatomato": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-tomato", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-tomato", stacksize: 1 }
+			},
+			"*-oxheart": {
+				litresPerItem: 0.625,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-tomato", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-tomato", stacksize: 1 }
+			},
+			"*-tomatillo": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-tomatillo", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-tomatillo", stacksize: 1 }
+			},
+			"*-jalapeno": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-jalapeno", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-jalapeno", stacksize: 1 }
+			},
+			"*-cayenne": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-jalapeno", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-jalapeno", stacksize: 1 }
+			},
+			"*-habanero": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-jalapeno", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-jalapeno", stacksize: 1 }
+			},
+			"*-tabasco": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-jalapeno", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-jalapeno", stacksize: 1 }
+			},
+			"*-redbellpepper": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-orangebellpepper", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-orangebellpepper", stacksize: 1 }
+			},
+			"*-orangebellpepper": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-orangebellpepper", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-orangebellpepper", stacksize: 1 }
+			},
+			"*-yellowbellpepper": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-orangebellpepper", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-orangebellpepper", stacksize: 1 }
+			},
+			"*-greenbellpepper": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-orangebellpepper", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-orangebellpepper", stacksize: 1 }
+			},
+			"*-avocado": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-avocado", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-avocado", stacksize: 1 }
+			},
+			"*-smoothavocado": {
+				litresPerItem: 0.3125,
+				liquidStack: { type: "item", code: "wildcraftfruit:juiceportion-avocado", stacksize: 1 },
+				pressedStack: { type: "item", code: "wildcraftfruit:pressedmash-avocado", stacksize: 1 }
+			},
+    },
+    "inContainerTextureByType": {
+	   "*-maritabits": { "base": "wildcraftfruit:block/food/pie/fill-maritabits" },
+	   "*-cucumber": { "base": "wildcraftfruit:block/food/pie/fill-cucumber" },
+	   "*-tomato": { "base": "wildcraftfruit:block/food/pie/fill-tomato" },
+	   "*-romatomato": { "base": "wildcraftfruit:block/food/pie/fill-tomato" },
+	   "*-oxheart": { "base": "wildcraftfruit:block/food/pie/fill-tomato" },
+	   "*-tomatillo": { "base": "wildcraftfruit:block/food/pie/fill-tomatillo" },
+	   "*-jalapeno": { "base": "game:block/food/pie/fill-bellpepper" },
+	   "*-cayenne": { "base": "game:block/food/pie/fill-bellpepper" },
+	   "*-habanero": { "base": "game:block/food/pie/fill-bellpepper" },
+	   "*-tabasco": { "base": "game:block/food/pie/fill-bellpepper" },
+	   "*-redbellpepper": { "base": "game:block/food/pie/fill-bellpepper" },
+	   "*-orangebellpepper": { "base": "game:block/food/pie/fill-bellpepper" },
+	   "*-yellowbellpepper": { "base": "game:block/food/pie/fill-bellpepper" },
+	   "*-greenbellpepper": { "base": "game:block/food/pie/fill-bellpepper" },
+	   "*-avocado": { "base": "wildcraftfruit:block/food/pie/fill-avocado" },
+	   "*-smoothavocado": { "base": "wildcraftfruit:block/food/pie/fill-avocado" },
+    },
+			groundStorageTransform: {
+				translation: { x: -0.3, y: -0.45, z: 0.2 },
+				rotation: { x: 0, y: 33, z: 90 },
+				scale: 0.6
+			},
+    "nutritionPropsWhenInMealByType": {
+    "@*-(avocado|redbellpepper|orangebellpepper|yellowbellpepper|greenbellpepper|maritabits|romatomato|tomatillo)": { 
+      "satiety": 120, 
+      "foodcategory": "Vegetable" 
+    },
+    "*-oxheart": {
+      "satiety": 180,
+      "foodcategory": "Vegetable"
+    },
+    "@*-(habanero|jalapeno|tabasco)": {
+      "satiety": 90,
+      "health": 1,
+      "foodcategory": "Vegetable"
+    },
+    "*-cayenne": {
+      "satiety": 120,
+      "health": 1,
+      "foodcategory": "Vegetable"
+    },
+    "@*-(smoothavocado|tomato)": { 
+      "satiety": 140, 
+      "foodcategory": "Vegetable" 
+    },
+    "*-cucumber": {
+      "satiety": 90,
+      "foodcategory": "Vegetable"
+    }
+    },
+    "inPiePropertiesByType": {
+      "*-maritabits": { texture: "wildcraftfruit:block/food/pie/fill-maritabits", partType: "Filling" },
+      "*-cucumber": { texture: "wildcraftfruit:block/food/pie/fill-cucumber", partType: "Filling" },
+      "*-tomato": { texture: "wildcraftfruit:block/food/pie/fill-tomato", partType: "Filling" },
+      "*-romatomato": { texture: "wildcraftfruit:block/food/pie/fill-tomato", partType: "Filling" },
+      "*-oxheart": { texture: "wildcraftfruit:block/food/pie/fill-tomato", partType: "Filling" },
+      "*-tomatillo": { texture: "wildcraftfruit:block/food/pie/fill-tomatillo", partType: "Filling" },
+      "*-jalapeno": { texture: "game:block/food/pie/fill-bellpepper", partType: "Filling" },
+      "*-cayenne": { texture: "game:block/food/pie/fill-bellpepper", partType: "Filling" },
+      "*-habanero": { texture: "game:block/food/pie/fill-bellpepper", partType: "Filling" },
+      "*-tabasco": { texture: "game:block/food/pie/fill-bellpepper", partType: "Filling" },
+      "*-redbellpepper": { texture: "game:block/food/pie/fill-bellpepper", partType: 'Filling' },
+      "*-orangebellpepper": { texture: "game:block/food/pie/fill-bellpepper", partType: 'Filling' },
+      "*-yellowbellpepper": { texture: "game:block/food/pie/fill-bellpepper", partType: 'Filling' },
+      "*-greenbellpepper": { texture: "game:block/food/pie/fill-bellpepper", partType: 'Filling' },
+      "*-avocado": { texture: "wildcraftfruit:block/food/pie/fill-avocado", partType: "Filling" },
+      "*-smoothavocado": { texture: "wildcraftfruit:block/food/pie/fill-avocado", partType: "Filling" }
+    },
+  },
+	variantgroups: [
+		{ code: "type", states: ["maritabits", "avocado", "smoothavocado", "cucumber", "tomato", "oxheart", "romatomato", "tomatillo", "jalapeno", "cayenne", "habanero", "tabasco", "redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper"] },
+	],
+	shapebytype: {
+		"*-maritabits": { base: "wildcraftfruit:item/fruit/maritabits" },
+		"*-cucumber": { base: "wildcraftfruit:item/fruit/cucumber" },
+		"*-tomato": { base: "wildcraftfruit:item/fruit/tomato" },
+		"*-oxheart": { base: "wildcraftfruit:item/fruit/oxheart" },
+		"*-romatomato": { base: "wildcraftfruit:item/fruit/romatomato" },
+		"*-tomatillo": { base: "wildcraftfruit:item/fruit/tomatillo" },
+		"*-jalapeno": { base: "wildcraftfruit:item/fruit/jalapeno" },
+		"*-cayenne": { base: "wildcraftfruit:item/fruit/cayenne" },
+		"*-habanero": { base: "wildcraftfruit:item/fruit/habanero" },
+		"*-tabasco": { base: "wildcraftfruit:item/fruit/tabasco" },
+		"*-redbellpepper": { base: "wildcraftfruit:item/fruit/redbellpepper" },
+		"*-orangebellpepper": { base: "wildcraftfruit:item/fruit/orangebellpepper" },
+		"*-yellowbellpepper": { base: "wildcraftfruit:item/fruit/yellowbellpepper" },
+		"*-greenbellpepper": { base: "wildcraftfruit:item/fruit/greenbellpepper" },
+		"*-avocado": { base: "wildcraftfruit:item/fruit/avocado" },
+		"*-smoothavocado": { base: "wildcraftfruit:item/fruit/smoothavocado" }
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "wildcraftfruit": ["*"] },
+	storageFlags: 33,
+	nutritionPropsByType: {
+		"@*-(avocado|redbellpepper|orangebellpepper|yellowbellpepper|greenbellpepper|maritabits|cayenne|romatomato|tomatillo)": { satiety: 80, foodcategory: "Vegetable" },
+		"@*-(cucumber|jalapeno|tabasco)": { satiety: 60, foodcategory: "Vegetable" },
+		"@*-(smoothavocado|tomato)": { satiety: 100, foodcategory: "Vegetable" },
+		"*-oxheart": { satiety: 120, foodcategory: "Vegetable" },
+		"*-habanero": { satiety: 60, health: -0.25, foodcategory: "Vegetable" },
+	},
+	transitionablePropsByType: {
+		"@*-(tomato|oxheart|cucumber)": [{
+			type: "Perish",
+			freshHours: { "avg": 192 },
+			transitionHours: { "avg": 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}],
+		"@*-(redbellpepper|orangebellpepper|yellowbellpepper|greenbellpepper|jalapeno|habanero|cayenne|tabasco)": [{
+			type: "Perish",
+			freshHours: { "avg": 360 },
+			transitionHours: { "avg": 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.25
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 360 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}]
+	},
+	materialDensity: 600,
+	guiTransformByType: {
+		"*-tomato": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -22, y: -2, z: 166 },
+			origin: { x: 0.51, y: 0.15, z: 0.51 },
+			scale: 3.51
+		},
+		"*-romatomato": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -22, y: -2, z: 166 },
+			origin: { x: 0.51, y: 0.17, z: 0.51 },
+			scale: 3.51
+		},
+		"*-oxheart": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -22, y: -2, z: 166 },
+			origin: { x: 0.52, y: 0.2, z: 0.51 },
+			scale: 3.19
+		},
+		"*-cayenne": {
+        		translation: { x: 0, y: 0, z: 0 },
+        		rotation: { x: -17, y: -112, z: 131 },
+        		origin: { x: 0.41, y: 0.2, z: 0.56 },
+        		scale: 2.64
+		},
+		"*-habanero": {
+        		translation: { x: 0, y: 0, z: 0 },
+        		rotation: { x: -17, y: -108, z: 140 },
+        		origin: { x: 0.51, y: 0.22, z: 0.53 },
+        		scale: 3.4
+		},
+		"*-jalapeno": {
+        		translation: { x: 0, y: 0, z: 0 },
+        		rotation: { x: -17, y: -112, z: 131 },
+        		origin: { x: 0.5, y: 0.19, z: 0.53 },
+        		scale: 3.4
+		},
+		"*-tabasco": {
+        		translation: { x: 0, y: 0, z: 0 },
+        		rotation: { x: -47, y: -2, z: -175 },
+        		origin: { x: 0.514, y: 0.09, z: 0.53 },
+        		scale: 3.84
+		},
+		"@*-(redbellpepper|orangebellpepper|yellowbellpepper|greenbellpepper)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.48, y: 0.23, z: 0.5 },
+			scale: 2.87
+		},
+		"*-tomatillo": {
+        		translation: { x: 0, y: 0, z: 0 },
+        		rotation: { x: 144, y: 168, z: -11 },
+        		origin: { x: 0.47, y: 0.09, z: 0.45 },
+        		scale: 3.51
+		},
+		"*-cucumber": {
+        		translation: { x: 0, y: 0, z: 0 },
+        		rotation: { x: -95, y: -11, z: -124 },
+        		origin: { x: 0.76, y: 0.2, z: 0.46 },
+        		scale: 2.66
+		},
+		"*-maritabits": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 6, z: -165 },
+			origin: { x: 0.45, y: -0.12, z: 0.15 },
+			scale: 2.6
+		},
+		"*-avocado": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 95, y: 68, z: 56 },
+			origin: { x: 0.5, y: 0.18, z: 0.49 },
+			scale: 3.04
+		},
+		"*-smoothavocado": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 95, y: 68, z: 56 },
+			origin: { x: 0.5, y: 0.21, z: 0.49 },
+			scale: 3.04
+		}
+	},
+	tpHandTransformByType: {
+		"*-tabasco": {
+			translation: { x: -0.14, y: 0.12, z: -0.7 },
+			rotation: { x: 138, y: -14, z: -69 },
+			origin: { x: 0.12, y: -0.25, z: 0.37 },
+			scale: 0.46
+		},
+		"@*-(tomato|oxheart|romatomato)": {
+			translation: { x: -0.8, y: -0.18, z: -0.7 },
+			rotation: { x: 0, y: 0, z: -76 },
+			origin: { x: 0.36, y: 0.11, z: 0.45 },
+			scale: 0.53
+		},
+		"@*-(jalapeno|cayenne|habanero)": {
+			translation: { x: -0.8, y: -0.18, z: -0.7 },
+			rotation: { x: 0, y: -13, z: -76 },
+			origin: { x: 0.39, y: 0.13, z: 0.47 },
+			scale: 0.53
+		},
+		"@*-(redbellpepper|orangebellpepper|yellowbellpepper|greenbellpepper)": {
+			translation: { x: -0.8, y: -0.18, z: -0.7 },
+			rotation: { x: 0, y: 0, z: -76 },
+			origin: { x: 0.4, y: 0.13, z: 0.45 },
+			scale: 0.53
+		},
+		"*-cucumber": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 4, "y": -54, "z": 180 },
+			"origin": { "x": -0.7, "y": 0.02, "z": -0.2 },
+			"scale": 0.48
+		},
+		"*-tomatillo": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -72, y: -51, z: -127 },
+			origin: { x: -0.53, y: 0.11, z: -0.3 },
+			scale: 0.48
+		},
+		"*-maritabits": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 38, y: -41, z: -2 },
+			origin: { x: 0.03, y: -0.65, z: 0.1 },
+			scale: 0.57
+		},
+		"@*-(avocado|smoothavocado)": {
+			translation: { x: -1.39, y: -0.96, z: -0.86 },
+			rotation: { x: -27, y: 0, z: -90 },
+			scale: 0.56
+		},
+        },
+	groundTransformByType: {
+		"@*-(tomato|oxheart|romatomato)": {
+			translation: { x: 0, y: 0.045, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3
+		},
+		"@*-(jalapeno|cayenne|habanero)": {
+			translation: { x: 0, y: 0.045, z: 0 },
+			rotation: { x: 12, y: 120, z: -81 },
+			origin: { x: 0.45, y: 0, z: 0.5 },
+			scale: 2.65
+		},
+		"*-tabasco": {
+			translation: { x: 0, y: 0.045, z: 0 },
+			rotation: { x: 0, y: 116, z: 0 },
+			origin: { x: 0.45, y: 0.1, z: 0.5 },
+			scale: 2.65
+		},
+		"*-tomatillo": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -2, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.53 },
+			scale: 3.23
+		},
+		"@*-(redbellpepper|orangebellpepper|yellowbellpepper|greenbellpepper)": {
+			translation: { x: 0, y: 0.045, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3
+		},
+		"*-cucumber": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.53 },
+			"scale": 2.9
+		},
+		"*-maritabits": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0, y: 0, z: 0 },
+			scale: 3.1
+		},
+		"@*-(avocado|smoothavocado)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 89 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3
+		}
+	},
+	heldTpIdleAnimationByType: {
+		"*-tabasco": "holdbothhands",
+	},
+	"heldRightReadyAnimationByType": {
+		"*-tabasco": "holdbothhands"
+	},
+}

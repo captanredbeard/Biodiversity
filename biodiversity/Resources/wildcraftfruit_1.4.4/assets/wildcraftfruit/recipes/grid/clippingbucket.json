@@ -1,0 +1,68 @@
+[
+	{
+		ingredientPattern: "WF",
+                shapeless: true,
+		ingredients: {
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+			"F": { 
+				type: "item", 
+				code: "wildcraftfruit:clipping-*-green", name: "type", allowedVariants: [ "pokeberry", "pricklyheath", "cranberry", "blueberry", "huckleberry", "snowberry", "honeysuckle", "elderberry", "blacknightshade", "bitternightshade", "husktomato", "naranjilla", "beautyberry", "numnum", "gooseberry", "redcurrant", "blackcurrant", "whitecurrant", "fractureberry", "dogrose", "blueraspberry", "brambleberry", "raspberry", "bushlawyer", "sallowthorn", "deserthackberry", "spindle", "ugni", "feijoa", "wolfberry", "turkscap", "kumquat", "sumac", "pistachio", "kawakawa", "flaxlily", "dwarfpine", "juniper", "lillypillypink", "lillypillywhite", "lillypillyblue", "fingerlime", "seamango", "munthari", "midyimberry", "bluetongue", "oldmansaltbush", "pilo", "mingimingi", "marita", "blackelder", "caper", "hazel", "sloe", "bilberry", "beachrose", "swamphuckle", "dewberry", "boysenberry", "loganberry", "josta", "bearberry", "baneberry", "belladonna", "hairyeggplant", "redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper", "jalapeno", "cayenne", "habanero", "tabasco", "eggplant", "newhusktomato", "tomatillo", "tomato", "romatomato", "oxheart", "wildtomato", "falsetomato", "blossomquince", "bladdernut" ] 
+			}
+		},
+		width: 2,
+		height: 1,
+		name: "clippingbucket",
+		output: { type: "item", code: "wildcraftfruit:clippingbucket-{type}"  }
+	},
+	{
+		ingredientPattern: "F",
+                shapeless: true,
+		ingredients: {
+			"F": { 
+				type: "item", 
+				code: "wildcraftfruit:clippingbucket-*", name: "type", allowedVariants: [ "pokeberry", "pricklyheath", "cranberry", "blueberry", "huckleberry", "snowberry", "honeysuckle", "elderberry", "blacknightshade", "bitternightshade", "husktomato", "naranjilla", "beautyberry", "numnum", "gooseberry", "redcurrant", "blackcurrant", "whitecurrant", "fractureberry", "dogrose", "blueraspberry", "brambleberry", "raspberry", "bushlawyer", "sallowthorn", "deserthackberry", "spindle", "ugni", "feijoa", "wolfberry", "turkscap", "kumquat", "sumac", "pistachio", "kawakawa", "flaxlily", "dwarfpine", "juniper", "lillypillypink", "lillypillywhite", "lillypillyblue", "fingerlime", "seamango", "munthari", "midyimberry", "bluetongue", "oldmansaltbush", "pilo", "mingimingi", "marita", "blackelder", "caper", "hazel", "sloe", "bilberry", "beachrose", "swamphuckle", "dewberry", "boysenberry", "loganberry", "josta", "bearberry", "baneberry", "belladonna", "hairyeggplant", "redbellpepper", "orangebellpepper", "yellowbellpepper", "greenbellpepper", "jalapeno", "cayenne", "habanero", "tabasco", "eggplant", "newhusktomato", "tomatillo", "tomato", "romatomato", "oxheart", "wildtomato", "falsetomato", "blossomquince", "bladdernut" ],
+				returnedStack: { type: "block", code: "game:woodbucket" }
+			}
+		},
+		width: 1,
+		height: 1,
+		name: "clipping",
+		output: { type: "item", code: "wildcraftfruit:clipping-{type}-green"  }
+	},
+	{
+		ingredientPattern: "WF",
+                shapeless: true,
+		ingredients: {
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+			"F": { 
+				type: "item", 
+				code: "wildcraftfruit:vineclipping-*-green", name: "type", allowedVariants: [ "blackgrape", "redgrape", "whitegrape", "foxgrape", "virgingrape", "ivy", "bryony", "kiwi", "cucumber", "passionfruit", "hairyappleberry", "purpleappleberry", "kolomikta", "granadilla", "woodbine" ] 
+			}
+		},
+		width: 2,
+		height: 1,
+		name: "clippingbucket",
+		output: { type: "item", code: "wildcraftfruit:clippingbucket-{type}"  }
+	},
+	{
+		ingredientPattern: "F",
+                shapeless: true,
+		ingredients: {
+			"F": { 
+				type: "item", 
+				code: "wildcraftfruit:clippingbucket-*", name: "type", allowedVariants: [ "blackgrape", "redgrape", "whitegrape", "foxgrape", "virgingrape", "ivy", "bryony", "kiwi", "cucumber", "passionfruit", "hairyappleberry", "purpleappleberry", "kolomikta", "granadilla", "woodbine" ],
+				returnedStack: { type: "block", code: "game:woodbucket" }
+			}
+		},
+		width: 1,
+		height: 1,
+		name: "clipping",
+		output: { type: "item", code: "wildcraftfruit:vineclipping-{type}-green"  }
+	}
+]

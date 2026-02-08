@@ -1,0 +1,74 @@
+{
+	"code": "tinctureportion",
+	"variantgroups": [
+		{ code: "fruit", states: ["raspberry", "elderberry", "rosehip", "orange", "citron", "lime", "grapefruit", "ivy", "aronia", "bearberry", "chili", "passionflower", "cloudberry", "hawthorn", "juniper"] }
+	  ],
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"attributes": {
+		"handbook": {
+			"groupBy": ["tinctureportion-*"],
+			"ignoreCreativeInvStacks": true,
+			"extraSections": [ { "title": "wildcraftfruit:handbook-item-about", "text": "wildcraftfruit:handbook-item-tincture" } ]
+		},
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texturebytype": {
+				"*-elderberry": { "base": "block/food/pie/fill-elderberry", "alpha": 120 },
+				"*-aronia": { "base": "block/food/pie/fill-aronia", "alpha": 120 },
+				"*-rosehip": { "base": "block/food/pie/fill-dogrose", "alpha": 100 },
+				"*-chili": { "base": "block/food/pie/fill-jalapeno", "alpha": 100 },
+				"*-orange": { "base": "game:block/food/pie/fill-orange", "alpha": 100 },
+				"*": { "base": "block/food/pie/fill-{fruit}", "alpha": 100 }
+			},
+			"allowSpill": true,
+			"whenSpilled": { 
+				"action": "DropContents",
+				"stack": { "type": "item", "code": "wildcraftfruit:tinctureportion-{fruit}"} 
+			},
+			"nutritionPropsPerLitreByType": {
+				"*-raspberry": { satiety: 60, health: 10, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-elderberry": { satiety: 60, health: 10, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-rosehip": { satiety: 60, health: 10, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-orange": { satiety: 60, health: 10, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-citron": { satiety: 60, health: 10, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-lime": { satiety: 60, health: 12, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-grapefruit": { satiety: 60, health: 12, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-ivy": { satiety: 60, health: 12, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-aronia": { satiety: 60, health: 12, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-bearberry": { satiety: 60, health: 12, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-chili": { satiety: 60, health: 12, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-passionflower": { satiety: 60, health: 14, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-cloudberry": { satiety: 60, health: 14, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-hawthorn": { satiety: 60, health: 14, intoxication: 2.25, foodcategory: "NoNutrition" },
+				"*-juniper": { satiety: 60, health: 16, intoxication: 2.25, foodcategory: "NoNutrition" },
+			}
+		},
+	},
+	"shape": { "base": "game:item/liquid" },
+	"texturebytype": {
+		"*-elderberry": { "base": "block/food/pie/fill-elderberry", "alpha": 120 },
+		"*-aronia": { "base": "block/food/pie/fill-aronia", "alpha": 120 },
+		"*-rosehip": { "base": "block/food/pie/fill-dogrose", "alpha": 100 },
+		"*-chili": { "base": "block/food/pie/fill-jalapeno", "alpha": 100 },
+		"*-orange": { "base": "game:block/food/pie/fill-orange", "alpha": 100 },
+		"*": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha": 100 }
+	},
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "wildcraftfruit"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "wildcraftfruit:tinctureportion-{fruit}", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 200,
+	"guiTransform": {
+		"translation": { "x": 0, "y": 1, "z": 0 },
+		"rotation": { "x": 123, "y": -33, "z": -13 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 25, "y": 157, "z": -5 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	}
+}

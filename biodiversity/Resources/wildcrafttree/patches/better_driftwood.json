@@ -1,0 +1,14 @@
+[
+    {
+        "op": "replace",
+        "path": "/texture",
+        "value": { base: "wildcrafttree:block/wood/driftwood" },
+        "file": "game:blocktypes/aquatic/flotsam"
+    },
+    {
+        "op": "replace",
+        "path": "/behaviors",
+        "value": [{name: "UnstableFalling"}, { name: "RightClickPickup", properties: { dropsPickupMode: true  } }],
+        "file": "game:blocktypes/aquatic/flotsam"
+    }
+]

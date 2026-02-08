@@ -1,0 +1,28 @@
+[
+  {
+    "op": "add",
+    "path": "/grindingPropsByType",
+    "value": {
+      "*-peanut": {
+        "groundStack": {
+          "type": "item",
+          "code": "wildcraftfruit:groundnut-peanut"
+        }
+      }
+    },
+    "file": "game:itemtypes/food/legume.json"
+  },
+  {
+    "op": "add",
+    "path": "/grindingPropsByType",
+    "value": {
+      "*-normal": {
+        "groundStack": {
+          "type": "item",
+          "code": "game:powder-iron-oxide"
+        }
+      }
+    },
+    "file": "game:blocktypes/devastation/growth.json"
+  }
+]

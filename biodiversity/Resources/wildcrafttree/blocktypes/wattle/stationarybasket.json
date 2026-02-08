@@ -1,0 +1,239 @@
+{
+	code: "wattlebasket",
+	class: "BlockGenericTypedContainer",
+	entityclass: "GenericTypedContainer",
+	attributes: {
+		inventoryClassName: "basket",
+		defaultType: "willow",
+		openSound: "game:sounds/block/basketopen",
+		closeSound: "game:sounds/block/basketclose",
+		types: ["larch", "tuja", "honeylocust", "birch", "brideinwhite", "alder", "bearnut", "willow", "redwillow", "poplar", "aspen", "eucalyptus", "kapok", "sapele"],
+		drop: {
+			alder: true,
+			birch: true,
+			bearnut: true,
+			willow: true,
+			eucalyptus: true,
+			brideinwhite: true,
+			poplar: true,
+			tuja: true,
+			larch: true,
+			kapok: true,
+			honeylocust: true,
+			aspen: true,
+			sapele: true,
+			redwillow: true
+		},
+		quantitySlots: {
+			alder: 8,
+			birch: 8,
+			bearnut: 8,
+			willow: 8,
+			eucalyptus: 8,
+			brideinwhite: 8,
+			poplar: 8,
+			tuja: 8,
+			larch: 8,
+		        kapok: 8,
+			aspen: 8,
+			sapele: 8,
+			honeylocust: 8,
+			redwillow: 8
+		},
+		dialogTitleLangCode: {
+			alder: "basketcontents",
+			birch: "basketcontents",
+			bearnut: "basketcontents",
+			willow: "basketcontents",
+			eucalyptus: "basketcontents",
+			brideinwhite: "basketcontents",
+			poplar: "basketcontents",
+			tuja: "basketcontents",
+			larch: "basketcontents",
+			kapok: "basketcontents",
+			aspen: "basketcontents",
+			sapele: "basketcontents",
+			honeylocust: "basketcontents",
+			redwillow: "basketcontents",
+		},
+		storageType: {
+			alder: 189,
+			birch: 189,
+			bearnut: 189,
+			willow: 189,
+			eucalyptus: 189,
+			brideinwhite: 189,
+			poplar: 189,
+			tuja: 189,
+			kapok: 189,
+			larch: 189,
+			aspen: 189,
+			sapele: 189,
+			honeylocust: 189,
+			redwillow: 189
+		},
+		retrieveOnly: {
+			alder: false,
+			birch: false,
+			bearnut: false,
+			willow: false,
+			eucalyptus: false,
+			brideinwhite: false,
+			poplar: false,
+			tuja: false,
+			kapok: false,
+			larch: false,
+			aspen: false,
+			sapele: false,
+			honeylocust: false,
+			redwillow: false
+		},
+		attachableCategoryCode: {
+			alder: "basket",
+			birch: "basket",
+			bearnut: "basket",
+			willow: "basket",
+			eucalyptus: "basket",
+			brideinwhite: "basket",
+			poplar: "basket",
+			tuja: "basket",
+			kapok: "basket",
+			larch: "basket",
+			aspen: "basket",
+			sapele: "basket",
+			honeylocust: "basket",
+			redwillow: "basket"
+		},
+		shape: {
+			alder: "wildcrafttree:block/wattle/baskets/basket-alder",
+			birch: "wildcrafttree:block/wattle/baskets/basket-birch",
+			bearnut: "wildcrafttree:block/wattle/baskets/basket-bearnut",
+			willow: "wildcrafttree:block/wattle/baskets/basket-willow",
+			eucalyptus: "wildcrafttree:block/wattle/baskets/basket-eucalyptus",
+			brideinwhite: "wildcrafttree:block/wattle/baskets/basket-brideinwhite",
+			poplar: "wildcrafttree:block/wattle/baskets/basket-poplar",
+			tuja: "wildcrafttree:block/wattle/baskets/basket-tuja",
+			kapok: "wildcrafttree:block/wattle/baskets/basket-kapok",
+			larch: "wildcrafttree:block/wattle/baskets/basket-larch",
+			aspen: "wildcrafttree:block/wattle/baskets/basket-aspen",
+			sapele: "wildcrafttree:block/wattle/baskets/basket-sapele",
+			honeylocust: "wildcrafttree:block/wattle/baskets/basket-honeylocust",
+			redwillow: "wildcrafttree:block/wattle/baskets/basket-redwillow"
+		},
+		creatureContainedShape: {
+			alder: "wildcrafttree:block/wattle/baskets/basket-alder",
+			birch: "wildcrafttree:block/wattle/baskets/basket-birch",
+			bearnut: "wildcrafttree:block/wattle/baskets/basket-bearnut",
+			willow: "wildcrafttree:block/wattle/baskets/basket-willow",
+			eucalyptus: "wildcrafttree:block/wattle/baskets/basket-eucalyptus",
+			brideinwhite: "wildcrafttree:block/wattle/baskets/basket-brideinwhite",
+			poplar: "wildcrafttree:block/wattle/baskets/basket-poplar",
+			tuja: "wildcrafttree:block/wattle/baskets/basket-tuja",
+			kapok: "wildcrafttree:block/wattle/baskets/basket-kapok",
+			larch: "wildcrafttree:block/wattle/baskets/basket-larch",
+			aspen: "wildcrafttree:block/wattle/baskets/basket-aspen",
+			sapele: "wildcrafttree:block/wattle/baskets/basket-sapele",
+			honeylocust: "wildcrafttree:block/wattle/baskets/basket-honeylocust",
+			redwillow: "wildcrafttree:block/wattle/baskets/basket-redwillow"
+		},
+		variantByGroup: "side",
+		variantByGroupInventory: null
+	},
+	behaviors: [
+		{name: "BoatableGenericTypedContainer" },
+		{name: "Lockable" }, 
+		{name: "CreatureContainer" }, 
+		{name: "Container"}, 
+		{name: "HorizontalOrientable", properties: {  dropBlockFace: "east" }}
+	],
+	entityBehaviors: [{ name: "Animatable" }],
+	variantgroups: [
+		{ code:"side", loadFromProperties: "game:abstract/horizontalorientation" }
+	],
+	creativeinventory: {  },
+	creativeinventoryStacksByType: {
+		"*-east": [
+			{
+				tabs: [ "general", "decorative", "wildcrafttree" ],
+				stacks: [
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "larch" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "tuja" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "honeylocust" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "birch" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "brideinwhite" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "alder" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "bearnut" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "willow" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "redwillow" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "poplar" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "aspen" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "eucalyptus" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "kapok" } },
+					{ type: "block", code: "wattlebasket-east", attributes: { type: "sapele" } }
+				]
+			}
+		]
+	},
+	heldTpIdleAnimation: "holdunderarm",
+        textures: {
+    "willow-willow-basket": { "base": "wildcrafttree:block/wattle/willow" },
+    "redwillow-redwillow-basket": { "base": "wildcrafttree:block/wattle/redwillow" },
+    "alder-alder-basket": { "base": "wildcrafttree:block/wattle/alder" },
+    "bearnut-bearnut-basket": { "base": "wildcrafttree:block/wattle/bearnut" },
+    "birch-birch-basket": { "base": "wildcrafttree:block/wattle/birch" },
+    "honeylocust-honeylocust-basket": { "base": "wildcrafttree:block/wattle/honeylocust" },
+    "larch-larch-basket": { "base": "wildcrafttree:block/wattle/larch" },
+    "tuja-tuja-basket": { "base": "wildcrafttree:block/wattle/tuja" },
+    "poplar-poplar-basket": { "base": "wildcrafttree:block/wattle/poplar" },
+    "kapok-kapok-basket": { "base": "wildcrafttree:block/wattle/kapok" },
+    "eucalyptus-eucalyptus-basket": { "base": "wildcrafttree:block/wattle/eucalyptus" },
+    "brideinwhite-brideinwhite-basket": { "base": "wildcrafttree:block/wattle/brideinwhite" },
+    "aspen-aspen-basket": { "base": "wildcrafttree:block/wattle/aspen" },
+    "sapele-sapele-basket": { "base": "wildcrafttree:block/wattle/sapele" },
+        },
+	blockmaterial: "Wood",
+	replaceable: 900,
+	resistance: 2,
+	lightAbsorption: 0,
+	sideAo: { all: false },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	collisionbox: {
+		x1: 0.125, y1: 0, z1: 0.125, x2: 0.8125, y2: 0.5, z2: 0.875,
+		rotateYByType: {
+			"*-north": 270,
+			"*-east": 180,
+			"*-south": 90,
+			"*-west": 0
+		}
+	},
+	selectionbox: {
+		x1: 0.125, y1: 0, z1: 0.125, x2: 0.8125, y2: 0.5, z2: 0.875,
+		rotateYByType: {
+			"*-north": 270,
+			"*-east": 180,
+			"*-south": 90,
+			"*-west": 0
+		}
+	},
+	sounds: {
+		place: "game:block/planks",
+		break: "game:block/stickbreak",
+		hit: "game:block/stickhit",
+		walk: "game:walk/wood",
+	},
+	materialDensity: 600,
+	tpHandTransform: {
+		translation: { x: -0.9, y: -0.5, z: -0.3 },
+		rotation: { x: 0, y: 90, z: -102 },
+		scale: 0.56
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.3, z: 0.5 },
+		scale: 1.3
+	}
+}

@@ -1,0 +1,660 @@
+[
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-petrified-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-petrified", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-chlorociboria-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-chlorociboria", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-mangrove-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-mangrove", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-ash-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-ash", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-sapele-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-sapele", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-tigerwood-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-tigerwood", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-horsechestnut-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-horsechestnut", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-linden-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-linden", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-leadwood-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-leadwood", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-azobe-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-azobe", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-spurgetree-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-spurgetree", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-tamanu-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-tamanu", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-kauri-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-kauri", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-redcedar-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-redcedar", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-tuja-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-tuja", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-yew-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-yew", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-douglasfir-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-douglasfir", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-ginkgo-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-ginkgo", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-sycamore-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-sycamore", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-mahogany-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-mahogany", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-sal-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-sal", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-bluemahoe-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-bluemahoe", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-ohia-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-ohia", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-ghostgum-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-ghostgum", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-eucalyptus-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-eucalyptus", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-willow-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-willow", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-poplar-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-poplar", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-bearnut-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-bearnut", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-beech-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-beech", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-banyan-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-banyan", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-umnini-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-umnini", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-guajacum-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-guajacum", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-elm-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-elm", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-saxaul-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-saxaul", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-catalpa-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-catalpa", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-jacaranda-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-jacaranda", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-empresstree-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-empresstree", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-satinash-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-satinash", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-honeylocust-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-honeylocust", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-dalbergia-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-dalbergia", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-fir-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-fir", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-spruce-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-spruce", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:log-placed-cedar-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-cedar", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:logsection-placed-*-ne-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-{wood}", quantity: 12  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:planks-*-ud", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-{wood}", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:plankstairs-*-up-north-free", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-{wood}", quantity: 3  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:plankslab-*-down-free", name: "wood" }
+		},
+		width: 2,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-{wood}", quantity: 2  }
+	},
+
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:lognarrow-placed-*-ud", allowedVariants: ["birch", "brideinwhite" ] }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-birch", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:lognarrow-placed-*-ud", allowedVariants: ["willow", "redwillow" ] }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-willow", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:lognarrow-placed-larch-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:plank-larch", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:lognarrow-placed-bearnut-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-bearnut", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:lognarrow-placed-bluemahoe-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-bluemahoe", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:lognarrow-placed-crownofthorns-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-elm", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:lognarrow-placed-leadwood-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-leadwood", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SL",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "wildcrafttree:lognarrow-placed-aspen-ud" }
+		},
+		width: 2,
+		height: 1,
+		recipeGroup: 1,
+		shapeless: true,
+		output: { type: "item", code: "wildcrafttree:plank-poplar", quantity: 4  }
+	},
+]

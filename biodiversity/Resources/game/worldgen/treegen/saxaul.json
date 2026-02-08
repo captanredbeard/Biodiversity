@@ -1,0 +1,36 @@
+{
+	treeWorldPropertyCode: "saxaul",
+	isTropical: true,
+	sizeMultiplier: 0.6,
+	trunks: [{
+		widthloss: 0.06,
+		dieAt: {avg: 0.11 },
+		branchStart: { dist: "gaussian", avg: 0.1, var: 0.2 },
+		branchSpacing: { avg: 0, var: 0 },
+		branchVerticalAngle:  { avg: 1.2, var: 0.2 },
+		branchHorizontalAngle: { avg: 0, var: 3 },
+		branchWidthMultiplier: { dist: "gaussian", avg: 0.7, var: 0.1 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 1 },
+		branchQuantity: { avg: 1.2, var: 0 },
+		branchQuantityEvolve: { transform: "linear", factor: 3 },
+		angleVertEvolve: { transform: "quadratic", factor: 2.2 }
+	}],
+	branches: [{
+		widthLoss: 0.1,
+		gravityDrag: 0,
+		dieAt: { avg: 0.06 },
+		branchStart:  { avg: 0.9, var: 0.1 },
+		branchSpacing: { avg: 0, var: 0 },
+		branchVerticalAngle: { avg: 1, var: 0.8 },
+		branchHorizontalAngle: { avg: 0.2, var: 1.5 },
+		branchQuantity: { avg: 2, var: 2 },
+		branchWidthMultiplier: { avg: 0.7, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "wildcrafttree:log-grown-saxaul-ud",
+		leavesBlockCode: "wildcrafttree:leaves-placed-saxaul",
+		leavesBranchyBlockCode: "wildcrafttree:leavesbranchy-placed-saxaul",
+		vinesBlockCode: "game:wildvine-tropical-section-north",
+		vinesEndBlockCode: "game:wildvine-tropical-end-north"
+	}
+}

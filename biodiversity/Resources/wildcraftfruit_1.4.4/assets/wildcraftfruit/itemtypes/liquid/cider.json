@@ -1,0 +1,201 @@
+{
+	"code": "ciderportion",
+	"variantgroups": [
+		{ code: "fruit", states: ["juniper", "maritabits", "avocado", "hackberry", "pumpkin", "cucumber", "bluequandong", "sumac", "carrot", "tomato", "tomatillo", "jalapeno", "orangebellpepper", "pomace"], "loadFromProperties": "wildcraftfruit:block/fruit" }
+	  ],
+	"skipVariants": ["*-pittedcherry", "*-pittedapricot", "*-pittedbreadfruit", "*-cashewwhole", "*-chinaberry", "*-beachalmondwhole", "*-lillypillywhite", "*-lillypillyblue", "*-lemon", "*-burgundyapple", "*-wildapple", "*-mazzard", "*-nectarine", "*-waterapple", "*-bitterorange", "*-bilberry", "*-swamphuckle", "*-beachrose", "*-yew", "*-damsonplum", "*-redplum", "*-redcherryplum", "*-pittedjackfruit", "*-pittedmazzard", "*-greatroseapple", "*-kasturi", "*-cempedak", "*-pittedcempedak", "*-makrut", "*-pulasan", "*-greenstrawberry", "*-loganberry", "*-boysenberry", "*-josta", "*-ber", "*-marang", "*-pittedmarang", "*-hairyeggplant", "*-juaacu", "*-newhusktomato", "*-wildtomato", "*-quincelet", "*-ginkgowhole"],
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"attributes": {
+		"handbook": {
+			"ignoreCreativeInvStacks": true,
+			"groupBy": ["ciderportion-*"]
+		},
+		"nutritionPropsWhenInMealByType": { 
+				"*-cloudberry": { satiety: 40, health: 1, foodcategory: "Fruit" },
+				"*-husktomato": { satiety: 40, health: 0.5, foodcategory: "Fruit" },
+				"*-juniper": { satiety: 40, health: 0.5, foodcategory: "Fruit" },
+				"*-bearberry": { satiety: 40, health: 0.5, foodcategory: "Fruit" },
+				"*-wolfberry": { satiety: 40, health: -12, foodcategory: "Fruit" },
+				"*-belladonna": { satiety: 40, health: -16, foodcategory: "Fruit" },
+				"*-bitternightshade": { satiety: 40, health: -8, foodcategory: "Fruit" },
+				"*-spindle": { satiety: 40, health: -4, foodcategory: "Fruit" },
+				"*-bryony": { satiety: 40, health: -4, foodcategory: "Fruit" },
+				"*-baneberry": { satiety: 40, health: -4, foodcategory: "Fruit" },
+				"*-crowseye": { satiety: 40, health: -22, foodcategory: "Fruit" },
+				"*-seamango": { satiety: 40, health: -18, foodcategory: "Fruit" },
+				"*-avocado": { satiety: 40, foodcategory: "Vegetable" },
+				"*-maritabits": { satiety: 40, foodcategory: "Vegetable" },
+				"*-cucumber": { satiety: 40, foodcategory: "Vegetable" },
+				"*-orangebellpepper": { satiety: 40, foodcategory: "Vegetable" },
+				"*-tomato": { satiety: 40, foodcategory: "Vegetable" },
+				"*-tomatillo": { satiety: 40, foodcategory: "Vegetable" },
+				"*-pumpkin": { satiety: 40, foodcategory: "Vegetable" },
+				"*-carrot": { satiety: 40, foodcategory: "Vegetable" },
+				"*-jalapeno": { satiety: 40, health: 0.5, foodcategory: "Vegetable" },
+				"*": { satiety: 40, foodcategory: "Fruit" }
+		},
+		"distillationPropsbytype": {
+			"*-juniper": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-juniper" },
+			"ratio": 0.05
+			},
+			"*-sumac": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-juniper" },
+			"ratio": 0.05
+			},
+			"*-bluequandong": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-bluequandong" },
+			"ratio": 0.05
+			},
+			"*-hackberry": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-hackberry" },
+			"ratio": 0.05
+			},
+			"*-pomace": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:finespiritportion-grappa" },
+			"ratio": 0.1
+			},
+			"*-blacknightshadeunripe": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-blacknightshade" },
+			"ratio": 0.1
+			},		
+			"*": {
+			"distilledStack": { "type": "item", "code": "wildcraftfruit:spiritportion-{fruit}" },
+			"ratio": 0.1
+			}
+		},
+		"waterTightContainerProps": {
+			"containable": true,
+			"itemsPerLitre": 100,
+			"texturebytype": {
+				"*-aronia": { "base": "wildcraftfruit:block/food/pie/fill-aronia", "alpha": 200 },
+				"*-blackgrape": { "base": "wildcraftfruit:block/food/pie/fill-blackgrape", "alpha": 200 },
+				"*-blackelder": { "base": "wildcraftfruit:block/food/pie/fill-blackelder", "alpha": 200 },
+				"*-elderberry": { "base": "wildcraftfruit:block/food/pie/fill-elderberry", "alpha": 200 },
+				"*-crowberry": { "base": "wildcraftfruit:block/food/pie/fill-crowberry", "alpha": 200 },
+				"*-purpleplum": { "base": "wildcraftfruit:block/food/pie/fill-purpleplum", "alpha": 200 },
+				"*-illawarra": { "base": "wildcraftfruit:block/food/pie/fill-illawarra", "alpha": 200 },
+				"*-blacknightshade": { "base": "wildcraftfruit:block/food/pie/fill-blacknightshade", "alpha": 200 },
+				"*-blacknightshadeunripe": { "base": "wildcraftfruit:block/food/pie/fill-blacknightshadeunripe", "alpha": 200 },
+				"*-huckleberry": { "base": "wildcraftfruit:block/food/pie/fill-huckleberry", "alpha": 200 },
+				"*-baneberry": { "base": "wildcraftfruit:block/food/pie/fill-baneberry", "alpha": 200 },
+				"*-belladonna": { "base": "wildcraftfruit:block/food/pie/fill-belladonna", "alpha": 200 },
+				"*-hackberry": { "base": "wildcraftfruit:block/food/pie/fill-hackberry", "alpha": 200 },
+				"*-pokeberry": { "base": "wildcraftfruit:block/food/pie/fill-pokeberry", "alpha": 190 },
+				"*-bluequandong": { "base": "wildcraftfruit:block/food/pie/fill-bluequandong", "alpha": 190 },
+				"*-pomace": { "base": "wildcraftfruit:block/food/pie/fill-pomace", "alpha": 200 },
+				"*": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha": 180 }
+			},
+			"allowSpill": true,
+			"whenSpilled": { 
+				"action": "DropContents",
+				"stack": { "type": "item", "code": "wildcraftfruit:ciderportion-{fruit}"} 
+			},
+			"nutritionPropsPerLitreByType": {
+				"*-cloudberry": { satiety: 80, health: 2, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-husktomato": { satiety: 80, health: 1, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-juniper": { satiety: 80, health: 1, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-bearberry": { satiety: 80, health: 1, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-wolfberry": { satiety: 80, health: -30, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-belladonna": { satiety: 80, health: -36, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-bitternightshade": { satiety: 80, health: -20, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-spindle": { satiety: 80, health: -10, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-bryony": { satiety: 80, health: -10, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-baneberry": { satiety: 80, health: -10, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-blacknightshadeunripe": { satiety: 80, health: -5, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-crowseye": { satiety: 80, health: -50, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-seamango": { satiety: 80, health: -40, intoxication: 0.15, foodcategory: "Fruit" },
+				"*-cucumber": { satiety: 80, intoxication: 0.1, foodcategory: "Vegetable" },
+				"*-maritabits": { satiety: 80, intoxication: 0.15, foodcategory: "Vegetable" },
+				"*-avocado": { satiety: 80, intoxication: 0.15, foodcategory: "Vegetable" },
+				"*-orangebellpepper": { satiety: 80, intoxication: 0.15, foodcategory: "Vegetable" },
+				"*-jalapeno": { satiety: 80, health: 1, intoxication: 0.15, foodcategory: "Vegetable" },
+				"*-tomato": { satiety: 80, intoxication: 0.15, foodcategory: "Vegetable" },
+				"*-tomatillo": { satiety: 80, intoxication: 0.15, foodcategory: "Vegetable" },
+				"*-carrot": { satiety: 80, intoxication: 0.15, foodcategory: "Vegetable" },
+				"*-pumpkin": { satiety: 80, intoxication: 0.15, foodcategory: "Vegetable" },
+				"*-pomace": { satiety: 70, intoxication: 0.15, foodcategory: "Fruit" },
+				"*": { satiety: 80, intoxication: 0.15, foodcategory: "Fruit" }
+			}
+		},
+	},
+	"shape": { "base": "game:item/liquid" },
+	"texturebytype": {
+		"*-aronia": { "base": "wildcraftfruit:block/food/pie/fill-aronia", "alpha": 200 },
+		"*-blackgrape": { "base": "wildcraftfruit:block/food/pie/fill-blackgrape", "alpha": 200 },
+		"*-blackelder": { "base": "wildcraftfruit:block/food/pie/fill-blackelder", "alpha": 200 },
+		"*-elderberry": { "base": "wildcraftfruit:block/food/pie/fill-elderberry", "alpha": 200 },
+		"*-crowberry": { "base": "wildcraftfruit:block/food/pie/fill-crowberry", "alpha": 200 },
+		"*-purpleplum": { "base": "wildcraftfruit:block/food/pie/fill-purpleplum", "alpha": 200 },
+		"*-illawarra": { "base": "wildcraftfruit:block/food/pie/fill-illawarra", "alpha": 200 },
+		"*-blacknightshade": { "base": "wildcraftfruit:block/food/pie/fill-blacknightshade", "alpha": 200 },
+		"*-blacknightshadeunripe": { "base": "wildcraftfruit:block/food/pie/fill-blacknightshadeunripe", "alpha": 200 },
+		"*-huckleberry": { "base": "wildcraftfruit:block/food/pie/fill-huckleberry", "alpha": 200 },
+		"*-baneberry": { "base": "wildcraftfruit:block/food/pie/fill-baneberry", "alpha": 200 },
+		"*-belladonna": { "base": "wildcraftfruit:block/food/pie/fill-belladonna", "alpha": 200 },
+		"*-hackberry": { "base": "wildcraftfruit:block/food/pie/fill-hackberry", "alpha": 200 },
+		"*-pokeberry": { "base": "wildcraftfruit:block/food/pie/fill-pokeberry", "alpha": 190 },
+		"*-bluequandong": { "base": "wildcraftfruit:block/food/pie/fill-bluequandong", "alpha": 190 },
+		"*-pomace": { "base": "wildcraftfruit:block/food/pie/fill-pomace", "alpha": 200 },
+		"*": { "base": "wildcraftfruit:block/food/pie/fill-{fruit}", "alpha": 180 }
+	},
+	"creativeinventoryStacks": [ { "tabs": ["general", "liquids", "wildcraftfruit"], "stacks": [ { "type": "block", "code": "game:woodbucket", "attributes": { "ucontents": [ { "type":"item", "code": "wildcraftfruit:ciderportion-{fruit}", "makefull": true } ] } } ] } ],
+	"maxstacksize": 5000,
+	"materialDensity": 200,
+	"guiTransform": {
+		"translation": { "x": 0, "y": 1, "z": 0 },
+		"rotation": { "x": 123, "y": -33, "z": -13 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 1.4
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 25, "y": 157, "z": -5 }
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.5, "y": -1, "z": -1.4 }
+	},
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 3360 },
+		transitionHours: { avg: 48 },
+		transitionedStackByType: {
+			"*-crabapple": { type: "item", code: "wildcraftfruit:vinegarportion-apple" },
+			"*-redgrape": { type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+			"*-whitegrape": { type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+			"*-blackgrape": { type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+			"*-foxgrape": { type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+			"*-pomace": { type: "item", code: "wildcraftfruit:vinegarportion-wine" },
+			"*-gooseberry": { type: "item", code: "wildcraftfruit:vinegarportion-currant" },
+			"*-lingonberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-huckleberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-crowberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-cheeseberry": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-pineheath": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-pricklyheath": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-honeypots": { type: "item", code: "wildcraftfruit:vinegarportion-heath" },
+			"*-citron": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-pomelo": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-lime": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-fingerlime": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-grapefruit": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-kumquat": { type: "item", code: "wildcraftfruit:vinegarportion-citrus" },
+			"*-purpleplum": { type: "item", code: "wildcraftfruit:vinegarportion-plum" },
+			"*-sloe": { type: "item", code: "wildcraftfruit:vinegarportion-plum" },
+			"*-greengage": { type: "item", code: "wildcraftfruit:vinegarportion-plum" },
+			"*-cherryplum": { type: "item", code: "wildcraftfruit:vinegarportion-plum" },
+			"*-kolomikta": { type: "item", code: "wildcraftfruit:vinegarportion-kiwi" },
+			"*-kiwi": { type: "item", code: "wildcraftfruit:vinegarportion-kiwi" },
+			"*-jujube": { type: "item", code: "wildcraftfruit:vinegarportion-jujube" },
+			"*-crowseye": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*-wolfberry": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*-bitternightshade": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*-spindle": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*-bryony": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*-seamango": { type: "item", code: "wildcraftfruit:vinegarportion-poison" },
+			"*": { type: "item", code: "wildcraftfruit:vinegarportion-fruit" }
+		},
+		transitionRatio: 1
+	}],
+}

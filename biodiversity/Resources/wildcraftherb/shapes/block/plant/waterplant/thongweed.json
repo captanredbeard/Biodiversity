@@ -1,0 +1,81 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"thongweed": "/Users/Пользователь/Desktop/Backups/Wildcraft textures/block/plant/leafygroundvegetable/thongweed",
+		"thongweed_plate": "/Users/Пользователь/Desktop/Backups/Wildcraft textures/block/plant/leafygroundvegetable/thongweed_plate"
+	},
+	"elements": [
+		{
+			"name": "Leaves",
+			"from": [ 8.0, 1.5, -4.0 ], 
+			"to": [ 8.0, 49.5, 20.0 ], 
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 8.0, 1.0, 8.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 0.5, 48.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"east": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+				"south": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 0.5, 48.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 24.0, 48.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Leaves2",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 48.0, 24.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 0.5, 48.0 ], "enabled": false },
+						"east": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 0.5, 48.0 ], "enabled": false },
+						"west": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 24.0, 48.0 ], "enabled": false },
+						"up": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"down": { "texture": "#thongweed", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "Cube1",
+			"from": [ 7.0, 0.0, 7.0 ], 
+			"to": [ 9.0, 1.0, 9.0 ], 
+			"rotationOrigin": [ 7.0, 0.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#thongweed_plate", "uv": [ 8.0, 3.0, 12.0, 5.0 ], "autoUv": false },
+				"east": { "texture": "#thongweed_plate", "uv": [ 9.0, 1.0, 13.0, 3.0 ], "autoUv": false },
+				"south": { "texture": "#thongweed_plate", "uv": [ 9.0, 2.0, 13.0, 4.0 ], "autoUv": false },
+				"west": { "texture": "#thongweed_plate", "uv": [ 8.0, 1.0, 12.0, 3.0 ], "autoUv": false },
+				"up": { "texture": "#thongweed_plate", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"down": { "texture": "#thongweed_plate", "uv": [ 9.0, 1.0, 13.0, 5.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Cube4",
+					"from": [ -0.75, 1.0, -0.75 ], 
+					"to": [ 2.75, 1.5, 2.75 ], 
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#thongweed_plate", "uv": [ 0.0, 0.0, 7.0, 1.0 ], "autoUv": false },
+						"east": { "texture": "#thongweed_plate", "uv": [ 0.0, 0.0, 1.0, 7.0 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#thongweed_plate", "uv": [ 0.0, 6.0, 7.0, 7.0 ], "autoUv": false },
+						"west": { "texture": "#thongweed_plate", "uv": [ 6.0, 0.0, 7.0, 7.0 ], "rotation": 90, "autoUv": false },
+						"up": { "texture": "#thongweed_plate", "uv": [ 0.0, 0.0, 7.0, 7.0 ], "autoUv": false },
+						"down": { "texture": "#thongweed_plate", "uv": [ 0.0, 0.0, 7.0, 7.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

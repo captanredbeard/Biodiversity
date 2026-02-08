@@ -1,0 +1,245 @@
+{
+    "code": "vineclipping",
+    "class": "BlockVineClipping",
+    "entityclassbytype": {
+      "*-alive-*": "BEClipping"
+    },
+    "attributes": {
+      "overrideRandomDrawOffset": 5,
+    "matureDaysByType": {
+	"*-kiwi-*": { avg: 12, var: 2 },
+	"*-passionfruit-*": { avg: 10, var: 1.4 },
+	"*-granadilla-*": { avg: 10, var: 1.4 },
+	"*-whitegrape-*": { avg: 10, var: 1.4 },
+	"*-redgrape-*": { avg: 10, var: 1.4 },
+	"*-blackgrape-*": { avg: 10, var: 1.4 },
+	"*-foxgrape-*": { avg: 10, var: 1.4 },
+	"*-hairyappleberry-*": { avg: 10, var: 1.4 },
+	"*-purpleappleberry-*": { avg: 10, var: 1.4 },
+	"*-kolomikta-*": { avg: 10, var: 1.4 },
+	"*-bryony-*": { avg: 6, var: 1 },
+	"*-cucumber-*": { avg: 6, var: 1 },
+	"*": { avg: 8, var: 1 }
+    },
+    "stopBelowTempByType": {
+	"*-passionfruit-*": 6,
+	"*-kiwi-*": 6,
+	"*-whitegrape-*": 6,
+	"*-granadilla-*": 8,
+	"*-hairyappleberry-*": 8,
+	"*-purpleappleberry-*": 6,
+	"*-redgrape-*": 2,
+	"*-cucumber-*": 2,
+	"*-kolomikta-*": 2,
+	"*-bryony-*": -6,
+	"*-virgingrape-*": -6,
+	"*-ivy-*": -10,
+	"*": 0,
+    },
+    "resetBelowTempByType": {
+	"*-passionfruit-*": 5,
+	"*-kiwi-*": 5,
+	"*-whitegrape-*": 5,
+	"*-granadilla-*": 7,
+	"*-hairyappleberry-*": 7,
+	"*-purpleappleberry-*": 5,
+	"*-redgrape-*": 1,
+	"*-cucumber-*": 1,
+	"*-kolomikta-*": 1,
+	"*-bryony-*": -7,
+	"*-virgingrape-*": -7,
+	"*-ivy-*": -11,
+	"*": -1,
+    },
+    "dieBelowTempByType": {
+	"*-passionfruit-*": 4,
+	"*-kiwi-*": 4,
+	"*-whitegrape-*": 4,
+	"*-granadilla-*": 6,
+	"*-hairyappleberry-*": 6,
+	"*-purpleappleberry-*": 4,
+	"*-redgrape-*": 0,
+	"*-cucumber-*": 0,
+	"*-kolomikta-*": 0,
+	"*-bryony-*": -8,
+	"*-virgingrape-*": -8,
+	"*-ivy-*": -12,
+	"*": -2,
+    },
+    "bushCodebyType": {
+      "*-blackgrape-alive-*": "wildcraftfruit:fruitvine-blackgrape-empty-{side}",
+      "*-redgrape-alive-*": "wildcraftfruit:fruitvine-redgrape-empty-{side}",
+      "*-whitegrape-alive-*": "wildcraftfruit:fruitvine-whitegrape-empty-{side}",
+      "*-foxgrape-alive-*": "wildcraftfruit:fruitvine-foxgrape-empty-{side}",
+      "*-virgingrape-alive-*": "wildcraftfruit:fruitvine-virgingrape-empty-{side}",
+      "*-cucumber-alive-*": "wildcraftfruit:fruitvine-cucumber-empty-{side}",
+      "*-bryony-alive-*": "wildcraftfruit:fruitvine-bryony-empty-{side}",
+      "*-passionfruit-alive-*": "wildcraftfruit:fruitvine-passionfruit-empty-{side}",
+      "*-granadilla-alive-*": "wildcraftfruit:fruitvine-granadilla-empty-{side}",
+      "*-kiwi-alive-*": "wildcraftfruit:fruitvine-kiwi-empty-{side}",
+      "*-kolomikta-alive-*": "wildcraftfruit:fruitvine-kolomikta-empty-{side}",
+      "*-ivy-alive-*": "wildcraftfruit:fruitvine-ivy-empty-{side}",
+      "*-woodbine-alive-*": "wildcraftfruit:fruitvine-woodbine-empty-{side}",
+      "*-hairyappleberry-alive-*": "wildcraftfruit:fruitvine-hairyappleberry-empty-{side}",
+      "*-purpleappleberry-alive-*": "wildcraftfruit:fruitvine-purpleappleberry-empty-{side}",
+    }
+    },
+    "variantgroups": [
+    { "code": "type", "states": [ "blackgrape", "redgrape", "whitegrape", "foxgrape", "virgingrape", "cucumber", "bryony", "passionfruit", "granadilla", "kiwi", "kolomikta", "woodbine", "ivy", "hairyappleberry", "purpleappleberry" ] },
+    { "code": "state", "states": [ "alive", "dead" ] },
+    { "code": "side", "states": ["north", "south", "east", "west"] }
+    ],
+    "renderpass": "OpaqueNoCull",
+    "drawtype": "JSON",
+    "randomDrawOffset": true,
+  "shapeByType": {
+    "*-cucumber-alive-north": { "base": "wildcraftfruit:block/plant/clipping/clipping_cucumber", rotateY: 0 },
+    "*-cucumber-alive-south": { "base": "wildcraftfruit:block/plant/clipping/clipping_cucumber", rotateY: 180 },
+    "*-cucumber-alive-east": { "base": "wildcraftfruit:block/plant/clipping/clipping_cucumber", rotateY: 270 },
+    "*-cucumber-alive-west": { "base": "wildcraftfruit:block/plant/clipping/clipping_cucumber", rotateY: 90 },
+
+    "*-kiwi-alive-north": { "base": "wildcraftfruit:block/plant/clipping/clipping_kiwi", rotateY: 0 },
+    "*-kiwi-alive-south": { "base": "wildcraftfruit:block/plant/clipping/clipping_kiwi", rotateY: 180 },
+    "*-kiwi-alive-east": { "base": "wildcraftfruit:block/plant/clipping/clipping_kiwi", rotateY: 270 },
+    "*-kiwi-alive-west": { "base": "wildcraftfruit:block/plant/clipping/clipping_kiwi", rotateY: 90 },
+
+    "*-kolomikta-alive-north": { "base": "wildcraftfruit:block/plant/clipping/clipping_kolomikta", rotateY: 0 },
+    "*-kolomikta-alive-south": { "base": "wildcraftfruit:block/plant/clipping/clipping_kolomikta", rotateY: 180 },
+    "*-kolomikta-alive-east": { "base": "wildcraftfruit:block/plant/clipping/clipping_kolomikta", rotateY: 270 },
+    "*-kolomikta-alive-west": { "base": "wildcraftfruit:block/plant/clipping/clipping_kolomikta", rotateY: 90 },
+
+    "*-ivy-alive-north": { "base": "wildcraftfruit:block/plant/clipping/clipping_ivy", rotateY: 0 },
+    "*-ivy-alive-south": { "base": "wildcraftfruit:block/plant/clipping/clipping_ivy", rotateY: 180 },
+    "*-ivy-alive-east": { "base": "wildcraftfruit:block/plant/clipping/clipping_ivy", rotateY: 270 },
+    "*-ivy-alive-west": { "base": "wildcraftfruit:block/plant/clipping/clipping_ivy", rotateY: 90 },
+
+    "*-virgingrape-alive-north": { "base": "wildcraftfruit:block/plant/clipping/clipping_virgingrape", rotateY: 0 },
+    "*-virgingrape-alive-south": { "base": "wildcraftfruit:block/plant/clipping/clipping_virgingrape", rotateY: 180 },
+    "*-virgingrape-alive-east": { "base": "wildcraftfruit:block/plant/clipping/clipping_virgingrape", rotateY: 270 },
+    "*-virgingrape-alive-west": { "base": "wildcraftfruit:block/plant/clipping/clipping_virgingrape", rotateY: 90 },
+
+    "*-bryony-alive-north": { "base": "wildcraftfruit:block/plant/clipping/clipping_bryony", rotateY: 0 },
+    "*-bryony-alive-south": { "base": "wildcraftfruit:block/plant/clipping/clipping_bryony", rotateY: 180 },
+    "*-bryony-alive-east": { "base": "wildcraftfruit:block/plant/clipping/clipping_bryony", rotateY: 270 },
+    "*-bryony-alive-west": { "base": "wildcraftfruit:block/plant/clipping/clipping_bryony", rotateY: 90 },
+
+    "*-passionfruit-alive-north": { "base": "wildcraftfruit:block/plant/clipping/clipping_passionfruit", rotateY: 0 },
+    "*-passionfruit-alive-south": { "base": "wildcraftfruit:block/plant/clipping/clipping_passionfruit", rotateY: 180 },
+    "*-passionfruit-alive-east": { "base": "wildcraftfruit:block/plant/clipping/clipping_passionfruit", rotateY: 270 },
+    "*-passionfruit-alive-west": { "base": "wildcraftfruit:block/plant/clipping/clipping_passionfruit", rotateY: 90 },
+
+    "*-granadilla-alive-north": { "base": "wildcraftfruit:block/plant/clipping/clipping_granadilla", rotateY: 0 },
+    "*-granadilla-alive-south": { "base": "wildcraftfruit:block/plant/clipping/clipping_granadilla", rotateY: 180 },
+    "*-granadilla-alive-east": { "base": "wildcraftfruit:block/plant/clipping/clipping_granadilla", rotateY: 270 },
+    "*-granadilla-alive-west": { "base": "wildcraftfruit:block/plant/clipping/clipping_granadilla", rotateY: 90 },
+
+    "*-hairyappleberry-alive-north": { "base": "wildcraftfruit:block/plant/clipping/clipping_hairyappleberry", rotateY: 0 },
+    "*-hairyappleberry-alive-south": { "base": "wildcraftfruit:block/plant/clipping/clipping_hairyappleberry", rotateY: 180 },
+    "*-hairyappleberry-alive-east": { "base": "wildcraftfruit:block/plant/clipping/clipping_hairyappleberry", rotateY: 270 },
+    "*-hairyappleberry-alive-west": { "base": "wildcraftfruit:block/plant/clipping/clipping_hairyappleberry", rotateY: 90 },
+
+    "*-purpleappleberry-alive-north": { "base": "wildcraftfruit:block/plant/clipping/clipping_purpleappleberry", rotateY: 0 },
+    "*-purpleappleberry-alive-south": { "base": "wildcraftfruit:block/plant/clipping/clipping_purpleappleberry", rotateY: 180 },
+    "*-purpleappleberry-alive-east": { "base": "wildcraftfruit:block/plant/clipping/clipping_purpleappleberry", rotateY: 270 },
+    "*-purpleappleberry-alive-west": { "base": "wildcraftfruit:block/plant/clipping/clipping_purpleappleberry", rotateY: 90 },
+
+    "*-alive-north": { "base": "wildcraftfruit:block/plant/clipping/vineclipping", rotateY: 0 },
+    "*-alive-south": { "base": "wildcraftfruit:block/plant/clipping/vineclipping", rotateY: 180 },
+    "*-alive-east": { "base": "wildcraftfruit:block/plant/clipping/vineclipping", rotateY: 270 },
+    "*-alive-west": { "base": "wildcraftfruit:block/plant/clipping/vineclipping", rotateY: 90 },
+
+    "*-dead-north": { "base": "wildcraftfruit:block/plant/clipping/vineclipping_dead", rotateY: 0 },
+    "*-dead-south": { "base": "wildcraftfruit:block/plant/clipping/vineclipping_dead", rotateY: 180 },
+    "*-dead-east": { "base": "wildcraftfruit:block/plant/clipping/vineclipping_dead", rotateY: 270 },
+    "*-dead-west": { "base": "wildcraftfruit:block/plant/clipping/vineclipping_dead", rotateY: 90 },
+  },
+    "blockmaterial": "Plant",
+    "sideopaqueByType": {
+      "*": { "all": false }
+    },
+    "sidesolid": {
+      "all": false
+    },
+    "texturesByType": {
+      "*": {
+        "leaves": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}*" }
+      }
+    },
+    "dropsByType": {
+    "*-cucumber-alive-*": [{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 0.6 } }],
+    "*-cucumber-dead-*": [{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.0 } }],
+
+    "*-bryony-alive-*": [{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 0.6 } }],
+    "*-bryony-dead-*": [{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.0 } }],
+
+    "*-passionfruit-alive-*": [{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 0.6 } }],
+    "*-passionfruit-dead-*": [{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.0 } }],
+
+    "*-granadilla-alive-*": [{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 0.6 } }],
+    "*-granadilla-dead-*": [{ "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.0 } }],
+
+    "*-dead-*": [{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.0 } }],
+    "*-alive-*": [{ "type": "item", "code": "game:stick", "quantity": { "avg": 0.6 } }]
+    },
+    "replaceable": 5200,
+    "lightAbsorption": 0,
+    "resistance": 1,
+    "collisionbox": null,
+	"selectionBoxByType": { 
+		"*-north": { x1: 0.3, y1: 0, z1: 0.6, x2: 0.7, y2: 0.5, z2: 1, rotateY: 180 },
+		"*-east": { x1: 0.3, y1: 0, z1: 0.6, x2: 0.7, y2: 0.5, z2: 1, rotateY: 90 },
+		"*-south": { x1: 0.3, y1: 0, z1: 0.6, x2: 0.7, y2: 0.5, z2: 1, rotateY: 0 },
+		"*-west": { x1: 0.3, y1: 0, z1: 0.6, x2: 0.7, y2: 0.5, z2: 1, rotateY: 270 },
+	},
+    "sounds": {
+      "place": "game:block/plant",
+      "break": "game:block/plant",
+      "hit": "game:block/plant"
+    },
+    "rainPermeable": true,
+    "materialDensity": 200,
+    "combustibleProps": {
+      "burnTemperature": 600,
+      "burnDuration": 10
+    },
+    "guiTransform": {
+          "rotation": { "x": -28, "y": 28, "z": 0 },
+          "origin": { "x": 0.6, "y": 0.37, "z": 0.36 },
+          "scale": 1.56
+    },
+    "fpHandTransform": {
+          "rotation": { "x": 46, "y": 57, "z": -33 },
+          "origin": { "x": 0.4, "y": 0.5, "z": 0.3 }
+      },
+    "tpHandTransform": {
+        "rotation": { "x": -58, "y": -2, "z": -41 },
+        "origin": { "x": 0.53, "y": 0.68, "z": 0.4 },
+        "scale": 0.34
+    },
+    "groundTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 3
+    },
+    "frostable": true,
+    "__comment": "Wind wave looks not good on ground and horrible in planters and flower post",
+    "vertexFlags": {
+      "weakWave": true,
+      "grassWindWave": false,
+      "leavesWindWave": false
+    }
+  }
+  

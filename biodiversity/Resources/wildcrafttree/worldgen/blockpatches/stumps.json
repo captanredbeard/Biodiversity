@@ -1,0 +1,1345 @@
+[
+	{
+        "comment": "Chlorociboria-infected tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-chlorociboria",
+        ],
+        "minTemp": 14,
+        "maxTemp": 30,
+        "minRain": 0.5,
+        "minForest": 0.5,
+	"maxY": 0.12,
+        "chance": 0.01,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Saxaul tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-saxaul",
+        ],
+        "minTemp": 18,
+        "maxTemp": 40,
+        "minRain": 0,
+        "maxRain": 0.2,
+        "maxForest": 0.4,
+	"maxY": 0.12,
+        "chance": 0.04,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Sal tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-sal",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.4,
+	"maxY": 0.12,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Umnini tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-umnini",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.5,
+	"maxY": 0.12,
+        "chance": 0.01,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Mahogany tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-mahogany",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.5,
+	"maxY": 0.12,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Guajacum tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-guajacum",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.5,
+	"maxY": 0.12,
+        "chance": 0.01,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Purpleheart tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-purpleheart",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.5,
+	"maxY": 0.12,
+        "chance": 0.01,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Banyan tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-purpleheart",
+        ],
+        "minTemp": 28,
+        "maxTemp": 37,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.6,
+	"maxY": 0.12,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Jacaranda tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-jacaranda",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.5,
+        "maxForest": 0.9,
+	"maxY": 0.12,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Kapok tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-kapok",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.4,
+	"maxY": 0.12,
+        "chance": 0.04,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Empress tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-empresstree",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.3,
+        "maxRain": 0.4,
+        "minForest": 0.3,
+        "maxForest": 0.8,
+	"maxY": 0.13,
+        "chance": 0.02,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Acacia tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-acacia",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.3,
+        "maxRain": 0.4,
+        "minForest": 0.2,
+        "maxForest": 0.8,
+	"maxY": 0.13,
+        "chance": 0.03,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Dalbergia tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-dalbergia",
+        ],
+        "minTemp": 28,
+        "maxTemp": 40,
+        "minRain": 0.3,
+        "maxRain": 0.4,
+        "minForest": 0.2,
+        "maxForest": 0.8,
+	"maxY": 0.03,
+        "chance": 0.01,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Ebony tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-ebony",
+        ],
+        "minTemp": 28,
+        "maxTemp": 40,
+        "minRain": 0.3,
+        "maxRain": 0.4,
+        "minForest": 0.2,
+        "maxForest": 0.8,
+	"maxY": 0.04,
+        "chance": 0.01,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Ghost gum tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-ghostgum",
+        ],
+        "minTemp": 26,
+        "maxTemp": 40,
+        "minRain": 0.2,
+        "maxRain": 0.4,
+        "minForest": 0.1,
+        "maxForest": 0.5,
+	"maxY": 0.05,
+        "chance": 0.04,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Eucalyptus tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-eucalyptus",
+        ],
+        "minTemp": 28,
+        "maxTemp": 40,
+        "minRain": 0.6,
+        "maxRain": 0.9,
+        "minForest": 0.5,
+        "maxForest": 0.9,
+	"maxY": 0.14,
+        "chance": 0.04,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Ohia tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-ohia",
+        ],
+        "minTemp": 28,
+        "maxTemp": 40,
+        "minRain": 0.6,
+        "maxRain": 0.9,
+        "minForest": 0.5,
+        "maxForest": 0.9,
+	"maxY": 0.14,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Kauri tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-kauri",
+        ],
+        "minTemp": 16,
+        "maxTemp": 26,
+        "minRain": 0.7,
+        "maxRain": 0.9,
+        "minForest": 0.5,
+        "maxForest": 0.9,
+	"maxY": 0.05,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Catalpa tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-catalpa",
+        ],
+        "minTemp": 18,
+        "maxTemp": 26,
+        "minRain": 0.7,
+        "maxRain": 0.9,
+        "minForest": 0.5,
+        "maxForest": 1,
+	"maxY": 0.13,
+        "chance": 0.04,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Satinash tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-satinash",
+        ],
+        "minTemp": 18,
+        "maxTemp": 26,
+        "minRain": 0.7,
+        "maxRain": 0.9,
+        "minForest": 0.5,
+        "maxForest": 1,
+	"maxY": 0.13,
+        "chance": 0.04,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Blue mahoe tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-bluemahoe",
+        ],
+        "minTemp": 23,
+        "maxTemp": 30,
+        "minRain": 0.7,
+        "maxRain": 0.9,
+        "minForest": 0.5,
+        "maxForest": 0.9,
+	"maxY": 0.04,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Sycamore tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-sycamore",
+        ],
+        "minTemp": 12,
+        "maxTemp": 24,
+        "minRain": 0.6,
+        "maxRain": 0.8,
+        "minForest": 0.5,
+        "maxForest": 1,
+	"maxY": 0.13,
+        "chance": 0.04,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Yew tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-yew",
+        ],
+        "minTemp": -4,
+        "maxTemp": 12,
+        "minRain": 0.4,
+        "maxRain": 0.8,
+        "minForest": 0.2,
+        "maxForest": 0.6,
+	"minY": 0.14,
+        "chance": 0.08,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Douglas fir tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-douglasfir",
+        ],
+        "minTemp": 12,
+        "maxTemp": 16,
+        "minRain": 0.6,
+        "maxRain": 0.8,
+        "minForest": 0.4,
+        "maxForest": 0.9,
+	"maxY": 0.15,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Red cedar tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-redcedar",
+        ],
+        "minTemp": 13,
+        "maxTemp": 17,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.4,
+        "maxForest": 0.9,
+	"maxY": 0.15,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Poplar tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-poplar",
+        ],
+        "minTemp": -2,
+        "maxTemp": 20,
+        "minRain": 0.5,
+        "maxRain": 0.8,
+        "minForest": 0.4,
+        "maxForest": 0.8,
+	"maxY": 0.13,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Spruce tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-spruce",
+        ],
+        "minTemp": -14,
+        "maxTemp": 2,
+        "minRain": 0.5,
+        "maxRain": 0.9,
+        "minForest": 0.6,
+        "maxForest": 1,
+	"maxY": 0.14,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Cedar pine tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-cedar",
+        ],
+        "minTemp": -14,
+        "maxTemp": 2,
+        "minRain": 0.4,
+        "maxRain": 0.9,
+        "minForest": 0.5,
+        "maxForest": 1,
+	"maxY": 0.15,
+        "chance": 0.04,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Elm tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-elm",
+        ],
+        "minTemp": 13,
+        "maxTemp": 18,
+        "minRain": 0.4,
+        "maxRain": 0.6,
+        "minForest": 0.4,
+        "maxForest": 1,
+	"maxY": 0.14,
+        "chance": 0.01,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Tuja tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-tuja",
+        ],
+        "minTemp": -4,
+        "maxTemp": 12,
+        "minRain": 0.3,
+        "maxRain": 0.7,
+        "minForest": 0.4,
+        "maxForest": 1,
+	"maxY": 0.16,
+        "chance": 0.01,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Honey locust tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-honeylocust",
+        ],
+        "minTemp": 8,
+        "maxTemp": 21,
+        "minRain": 0.4,
+        "maxRain": 0.6,
+        "minForest": 0.3,
+        "maxForest": 0.4,
+	"maxY": 0.14,
+        "chance": 0.02,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Bearnut tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-bearnut",
+        ],
+        "minTemp": 5,
+        "maxTemp": 20,
+        "minRain": 0.5,
+        "maxRain": 0.7,
+        "minForest": 0.4,
+        "maxForest": 0.9,
+	"maxY": 0.14,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Ginkgo tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-ginkgo",
+        ],
+        "minTemp": 5,
+        "maxTemp": 20,
+        "minRain": 0.4,
+        "maxRain": 0.9,
+        "minForest": 0.1,
+        "maxForest": 0.8,
+	"minY": 0.14,
+        "chance": 0.03,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Beech tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-beech",
+        ],
+        "minTemp": 7,
+        "maxTemp": 21,
+        "minRain": 0.5,
+        "maxRain": 0.7,
+        "minForest": 0.4,
+        "maxForest": 0.8,
+	"maxY": 0.14,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Willow tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-willow",
+        ],
+        "minTemp": -4,
+        "maxTemp": 14,
+        "minRain": 0.6,
+        "maxRain": 1,
+        "minForest": 0.3,
+        "maxForest": 0.9,
+	"maxY": 0.12,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Willow tree stumps near water",
+        "blockCodes": [
+          "wildcrafttree:stump-willow",
+        ],
+        "minTemp": 4,
+        "maxTemp": 14,
+        "minRain": 0.7,
+        "maxRain": 1,
+        "minForest": 0.3,
+        "maxForest": 0.9,
+	"maxY": 0.12,
+        "chance": 0.03,
+        "placement": "NearWater",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Birch tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-birch",
+        ],
+        "minTemp": 0,
+        "maxTemp": 22,
+        "minRain": 0.3,
+        "maxRain": 1,
+        "minForest": 0.3,
+        "maxForest": 1,
+	"maxY": 0.14,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Oak tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-oak",
+        ],
+        "minTemp": 2,
+        "maxTemp": 22,
+        "minRain": 0.4,
+        "maxRain": 0.7,
+        "minForest": 0.4,
+        "maxForest": 1,
+	"maxY": 0.13,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Maple tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-maple",
+        ],
+        "minTemp": 0,
+        "maxTemp": 23,
+        "minRain": 0.4,
+        "maxRain": 0.7,
+        "minForest": 0.3,
+        "maxForest": 1,
+	"maxY": 0.14,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Walnut tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-walnut",
+        ],
+        "minTemp": 6,
+        "maxTemp": 22,
+        "minRain": 0.4,
+        "maxRain": 0.7,
+        "minForest": 0.2,
+        "maxForest": 0.4,
+	"maxY": 0.14,
+        "chance": 0.02,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Pine tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-pine",
+        ],
+        "minTemp": -14,
+        "maxTemp": 12,
+        "minRain": 0.3,
+        "maxRain": 0.7,
+        "minForest": 0.4,
+        "maxForest": 1,
+	"maxY": 0.16,
+        "chance": 0.04,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Larch tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-larch",
+        ],
+        "minTemp": -17,
+        "maxTemp": -3,
+        "minRain": 0.4,
+        "maxRain": 1,
+        "minForest": 0.3,
+        "maxForest": 1,
+	"maxY": 0.17,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Redwood tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-redwood",
+        ],
+        "minTemp": 14,
+        "maxTemp": 18,
+        "minRain": 0.7,
+        "maxRain": 1,
+        "minForest": 0.4,
+        "maxForest": 1,
+	"maxY": 0.13,
+        "chance": 0.06,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Bald cypress tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-baldcypress",
+        ],
+        "minTemp": 15,
+        "maxTemp": 24,
+        "minRain": 0.7,
+        "maxRain": 1,
+        "minForest": 0.5,
+        "maxForest": 1,
+	"maxY": 0.12,
+        "chance": 0.03,
+        "placement": "NearWater",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Fir tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-fir",
+        ],
+        "minTemp": -10,
+        "maxTemp": 13,
+        "minRain": 0.3,
+        "maxRain": 0.6,
+        "minForest": 0,
+        "maxForest": 1,
+	"maxY": 0.17,
+        "placement": "OnSurfacePlusUnderTrees",
+        "chance": 0.02,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Horse chestnut tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-horsechestnut",
+        ],
+        "minTemp": 16,
+        "maxTemp": 23,
+        "minRain": 0.5,
+        "maxRain": 0.7,
+        "minForest": 0.5,
+        "maxForest": 0.9,
+	"maxY": 0.17,
+        "placement": "OnSurfacePlusUnderTrees",
+        "chance": 0.02,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Azobe tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-azobe",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.4,
+	"maxY": 0.12,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Leadwood tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-leadwood",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.3,
+        "maxRain": 0.4,
+        "minForest": 0.3,
+        "maxForest": 0.8,
+	"maxY": 0.13,
+        "chance": 0.02,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Tamanu tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-tamanu",
+        ],
+        "minTemp": 29,
+        "maxTemp": 40,
+        "minRain": 0.65,
+        "maxRain": 1,
+        "minForest": 0.4,
+        "maxForest": 0.8,
+	"maxY": 0.13,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Sapele tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-sapele",
+        ],
+        "minTemp": 27,
+        "maxTemp": 40,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0.4,
+	"maxY": 0.12,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Mangrove tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-mangrove",
+        ],
+        "minTemp": 29,
+        "maxTemp": 40,
+        "minRain": 0.75,
+        "maxRain": 1,
+        "minForest": 0.38,
+        "maxForest": 0.7,
+	"maxY": 0.12,
+        "chance": 0.02,
+        "placement": "NearWater",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Tigerwood tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-tigerwood",
+        ],
+        "minTemp": 26,
+        "maxTemp": 40,
+        "minRain": 0.8,
+        "maxRain": 1,
+        "minForest": 0,
+        "maxForest": 0.4,
+	"maxY": 0.13,
+        "chance": 0.02,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Ash tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-ash",
+        ],
+        "minTemp": 12,
+        "maxTemp": 24,
+        "minRain": 0.6,
+        "maxRain": 0.8,
+        "minForest": 0.5,
+        "maxForest": 1,
+	"maxY": 0.13,
+        "chance": 0.03,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Linden tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-linden",
+        ],
+        "minTemp": 2,
+        "maxTemp": 16,
+        "minRain": 0.65,
+        "maxRain": 0.8,
+        "minForest": 0.45,
+        "maxForest": 0.8,
+	"maxY": 0.12,
+        "chance": 0.02,
+        "placement": "OnSurfacePlusUnderTrees",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Spurge tree stumps",
+        "blockCodes": [
+          "wildcrafttree:stump-spurgetree",
+        ],
+        "minTemp": 28,
+        "maxTemp": 40,
+        "minRain": 0.3,
+        "maxRain": 0.7,
+        "minForest": 0.1,
+        "maxForest": 0.4,
+	"maxY": 0.07,
+        "chance": 0.02,
+        "placement": "OnSurface",
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+	},
+        {
+        "comment": "Petrified logs in caves",
+        "blockCodes": [
+          "wildcrafttree:log-grown-petrified-ud",
+          "wildcrafttree:log-grown-petrified-ns",
+          "wildcrafttree:log-grown-petrified-we",
+        ],
+        "minTemp": -20,
+        "maxTemp": 50,
+        "minRain": 0,
+        "maxRain": 0.4,
+	"maxY": 0.2,
+        "chance": 6,
+        "placement": "Underground",
+        "quantity": { "dist": "invexp", "avg": 2, "var": 2 }
+	},
+	{
+        "comment": "Mangrove roots",
+        "blockCodes": [
+          "wildcrafttree:mangroveroots",
+        ],
+        "minTemp": 29,
+        "maxTemp": 40,
+        "minRain": 0.68,
+        "maxRain": 1,
+        "minForest": 0.39,
+        "maxForest": 0.62,
+	"maxY": 0.12,
+	"MaxFert": 30,
+        "chance": 5,
+        "placement": "NearWater",
+	"offsetX": { avg: 0, var: 12 },
+	"offsetZ": { avg: 0, var: 12 },
+        "quantity": { "avg": 15, "var": 10 }
+	}
+]

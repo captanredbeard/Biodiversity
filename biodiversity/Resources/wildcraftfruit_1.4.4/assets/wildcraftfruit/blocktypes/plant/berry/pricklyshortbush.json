@@ -1,0 +1,207 @@
+{
+	"code": "pricklyshortbush",
+	"class": "PricklyBerryBush",
+	"attributes": {
+		"stackable": false,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"overrideRandomDrawOffset": 14,
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+                "handbook": {
+                   "groupBy": ["pricklyshortbush-*"]
+                },
+		"stopBelowTemperatureByType":{
+			"*-dewberry-*": -2,
+			"*-numnum-*": 16,
+			"*-bushlawyer-*": 10,
+			"*-pricklyheath-*": 8,
+			"*-caper-*": 8,
+		},
+		"resetBelowTemperatureByType":{
+			"*-dewberry-*": -4,
+			"*-numnum-*": 14,
+			"*-bushlawyer-*": 6,
+			"*-pricklyheath-*": 6,
+			"*-caper-*": 6,
+		},
+		"revertBlockBelowTemperatureByType":{
+			"*-dewberry-*": -8,
+			"*-numnum-*": 12,
+			"*-bushlawyer-*": 4,
+			"*-pricklyheath-*": 4,
+			"*-caper-*": 4,
+		},
+		"stopAboveTemperatureByType":{
+			"*-dewberry-*": 32,
+			"*-numnum-*": 44,
+			"*-bushlawyer-*": 34,
+			"*-pricklyheath-*": 34,
+			"*-caper-*": 36,
+		},
+		"resetAboveTemperatureByType":{
+			"*-dewberry-*": 34,
+			"*-numnum-*": 48,
+			"*-bushlawyer-*": 36,
+			"*-pricklyheath-*": 36,
+			"*-caper-*": 38,
+		},
+		"revertBlockAboveTemperatureByType":{
+			"*-dewberry-*": 36,
+			"*-numnum-*": 50,
+			"*-bushlawyer-*": 38,
+			"*-pricklyheath-*": 38,
+			"*-caper-*": 40,
+		},
+		"pruneItemByType":{
+			"*": "wildcraftfruit:clipping-{type}-green"
+		},
+		"prunedMeshFaces": [ "branchesN", "branchesS", "Leaves", "Berries" ],
+		"fruitingFaces": [ "Berries" ],
+                "isBottomBlock": false,
+		"floweringDaysByType":{
+			"*-numnum-*": { avg: 12.8, var: 0.8 },
+			"*-bushlawyer-*": { avg: 12.8, var: 0.8 },
+			"*-pricklyheath-*": { avg: 10.8, var: 0.8 },
+			"*-caper-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"ripeningDaysByType":{
+			"*-numnum-*": { avg: 12.8, var: 0.8 },
+			"*-bushlawyer-*": { avg: 12.8, var: 0.8 },
+			"*-pricklyheath-*": { avg: 10.8, var: 0.8 },
+			"*-caper-*": { avg: 10.8, var: 0.8 },
+			"*": { avg: 8.8, var: 0.8 },
+		},
+		"sheddingDaysByType":{
+			"*-numnum-*": { avg: 25.2, var: 3.2 },
+			"*-caper-*": { avg: 25.2, var: 3.2 },
+			"*-bushlawyer-*": { avg: 15.2, var: 3.2 },
+			"*-dewberry-*": { avg: 15.2, var: 3.2 },
+			"*": { avg: 35.2, var: 3.2 },
+		}
+	},
+	"walkspeedmultiplier": 0.55,
+	"entityclassByType": {
+		"*": "BEHerbariumBerryBush"
+	},
+	"behaviorsByType": {
+		"*-caper-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:flower-caper", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:pricklyshortbush-caper-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-caper-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-caperberry", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:pricklyshortbush-caper-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-pricklyheath-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-pricklyheath", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:pricklyshortbush-pricklyheath-empty",
+			"exchangeBlock": true
+		}} ],
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.2, 
+			"harvestedStack": { "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "wildcraftfruit:pricklyshortbush-{type}-empty",
+			"exchangeBlock": true
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["dewberry", "bushlawyer", "caper", "pricklyheath", "numnum"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraftfruit": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-numnum-empty": { "base": "wildcraftfruit:block/plant/berrybush/numnumbush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-numnum-flowering": { "base": "wildcraftfruit:block/plant/berrybush/numnumbush*" },
+		"*-numnum-ripe": { "base": "wildcraftfruit:block/plant/berrybush/numnumbush*" },
+		"*-bushlawyer-empty": { "base": "wildcraftfruit:block/plant/berrybush/bushlawyerbush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-bushlawyer-flowering": { "base": "wildcraftfruit:block/plant/berrybush/bushlawyerbush*" },
+		"*-bushlawyer-ripe": { "base": "wildcraftfruit:block/plant/berrybush/bushlawyerbush*" },
+		"*-caper-empty": { "base": "wildcraftfruit:block/plant/berrybush/caperbush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-caper-flowering": { "base": "wildcraftfruit:block/plant/berrybush/caperbush*" },
+		"*-caper-ripe": { "base": "wildcraftfruit:block/plant/berrybush/caperbush*" },
+		"*-pricklyheath-empty": { "base": "wildcraftfruit:block/plant/berrybush/pricklyheathbush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*-pricklyheath-flowering": { "base": "wildcraftfruit:block/plant/berrybush/pricklyheathbush*" },
+		"*-pricklyheath-ripe": { "base": "wildcraftfruit:block/plant/berrybush/pricklyheathbush*" },
+		"*-empty": { "base": "wildcraftfruit:block/plant/berrybush/shortbush*", "selectiveElements": ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
+		"*": { "base": "wildcraftfruit:block/plant/berrybush/shortbush*" }
+	},
+	"blockmaterial": "Plant",
+	"textures": {
+		"leavessmall": { "base": "wildcraftfruit:block/plant/berrybush/small/leaves/{type}*" },
+		"leaveslarge": { "base": "wildcraftfruit:block/plant/berrybush/large/leaves/{type}large" }
+	},
+	"texturesByType": {
+		"*-flowering": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/flower/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/flower/{type}large" }
+		},
+		"*-ripe": {
+			"flowerberrysmalltop": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*" },
+			"flowerberrysmall": { "base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*", "alternates": [{"base": "wildcraftfruit:block/plant/berrybush/small/fruit/{type}*"}] },
+			"flowerberrylarge": { "base": "wildcraftfruit:block/plant/berrybush/large/fruit/{type}large" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": { x1: 0.1, y1: 0, z1: 0.1, x2: 0.9, y2: 0.775, z2: 0.9 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-caper-flowering": [
+			{ "type": "item", "code": "wildcraftfruit:flower-caper", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.2 } }
+		],
+		"*-caper-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-caperberry", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.2 } }
+		],
+		"*-pricklyheath-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-pricklyheath", "quantity": { "avg": 4.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.2 } }
+		],
+		"*-ripe": [
+			{ "type": "item", "code": "wildcraftfruit:fruit-{type}", "quantity": { "avg": 3.4 }  },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.2 } }
+		],
+		"*": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.2 } }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

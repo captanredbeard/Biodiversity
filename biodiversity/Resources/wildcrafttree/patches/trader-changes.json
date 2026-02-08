@@ -1,0 +1,652 @@
+[
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-beech",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-willow",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-poplar",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-honeylocust",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-catalpa",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-sycamore",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-spruce",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-cedar",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-eucalyptus",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-elm",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-ginkgo",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-tuja",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-kauri",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-douglasfir",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-ohia",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-ghostgum",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-bearnut",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-empresstree",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-sal",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-saxaul",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 10, "var": 2.5 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-redcedar",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 10, "var": 2.5 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-bluemahoe",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 10, "var": 2.5 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-banyan",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 10, "var": 2.5 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-jacaranda",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 11, "var": 2.75 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-dalbergia",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 11, "var": 2.75 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-guajacum",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 11, "var": 2.75 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-umnini",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 11, "var": 2.75 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-mahogany",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 11, "var": 2.75 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-yew",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 10, "var": 2.5 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-petrified",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 11, "var": 2.75 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-chlorociboria",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 11, "var": 2.75 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-satinash",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-fir",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-ash",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-mangrove",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-sapele",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 8, "var": 2 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-linden",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-tamanu",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-leadwood",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-horsechestnut",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 9, "var": 2.25 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-tigerwood",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 10, "var": 2.5 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-azobe",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 10, "var": 2.5 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:door-sleek-windowed-spurgetree",
+	"type": "block",
+	    "stacksize": 1,
+	    "stock": { "avg": 2, "var": 0.5 },
+	    "price": { "avg": 10, "var": 2.5 }
+    },
+    "file": "game:config/tradelists/trader-furniture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:planks-bearnut-ud",
+	"type": "block",
+	    "stacksize": 32,
+	    "stock": { "avg": 4, "var": 1 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:planks-beech-ud",
+	"type": "block",
+	    "stacksize": 32,
+	    "stock": { "avg": 4, "var": 1 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:planks-poplar-ud",
+	"type": "block",
+	    "stacksize": 32,
+	    "stock": { "avg": 4, "var": 1 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:planks-cedar-ud",
+	"type": "block",
+	    "stacksize": 32,
+	    "stock": { "avg": 4, "var": 1 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/buying/list/-",
+    "value": {
+                "code": "wildcrafttree:crate", "type": "block",
+                "stacksize": 1,
+                "stock": { "avg": 2, "var": 0.5 },
+                "price": { "avg": 3, "var": 0.75 },
+                "attributes": { "type": "wood-willow" }
+    },
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/buying/list/-",
+    "value": {
+                "code": "wildcrafttree:crate", "type": "block",
+                "stacksize": 1,
+                "stock": { "avg": 2, "var": 0.5 },
+                "price": { "avg": 3, "var": 0.75 },
+                "attributes": { "type": "wood-willow" }
+    },
+    "file": "game:config/tradelists/trader-agriculture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/buying/list/-",
+    "value": {
+                "code": "wildcrafttree:crate", "type": "block",
+                "stacksize": 1,
+                "stock": { "avg": 2, "var": 0.5 },
+                "price": { "avg": 3, "var": 0.75 },
+                "attributes": { "type": "wood-willow" }
+    },
+    "file": "game:config/tradelists/trader-commodities.json",
+    "side": "Server"
+  },
+]
