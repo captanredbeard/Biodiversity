@@ -1,4 +1,0 @@
-darks on multiply
-
-
-whites on overlay

@@ -1,7 +1,19 @@
 {
-	"inheritFrom": "game:recipes/grid/plaster/stripes"
-	ingredients: {
-		"P": { type: "block", code: "game:plaster-plain" }
-	},
-	output: { type: "block", code: "game:plaster-stripes-ud"  }
+  "ingredientPattern": "W\tP\tW",
+  "ingredients": {
+    "W": {
+      "type": "item",
+      "code": "plank-*"
+    },
+    "P": {
+      "type": "block",
+      "code": "game:plaster-plain"
+    }
+  },
+  "width": 1,
+  "height": 3,
+  "output": {
+    "type": "block",
+    "code": "game:plaster-stripes-ud"
+  }
 }
