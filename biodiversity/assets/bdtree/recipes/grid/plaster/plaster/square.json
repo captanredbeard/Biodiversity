@@ -1,0 +1,7 @@
+{
+	"inheritFrom": "game:recipes/grid/plaster/square"
+	ingredients: {
+		"P": { type: "block", code: "game:plaster-plain" }
+	},
+	output: { type: "block", code: "game:plaster-square"  }
+}

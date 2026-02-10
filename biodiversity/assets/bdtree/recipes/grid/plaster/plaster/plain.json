@@ -1,0 +1,9 @@
+{
+	"inheritFrom": "game:recipes/grid/plaster/plain"
+	ingredientPattern: "L	S",
+	ingredients: {
+		"L": { type: "item", code: "quicklime" },
+		"S": { type: "block", code: "sand-*" }
+	},
+	output: { type: "block", code: "plaster-plain" }
+}

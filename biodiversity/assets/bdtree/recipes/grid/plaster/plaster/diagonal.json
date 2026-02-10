@@ -1,0 +1,11 @@
+{
+	"inheritFrom": "recipes/grid/plaster/diagonal",
+	ingredientPattern: "W__	_P_	__W",
+	ingredients: {
+		"W": { type: "item", code: "plank-*" },
+		"P": { type: "block", code: "plaster-plain" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "plaster-diagonal-ud"  }
+}
