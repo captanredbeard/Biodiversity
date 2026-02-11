@@ -60,15 +60,48 @@
   <Content Include="modicon.png" Condition="Exists('modicon.png')">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
+  <Content Include="modinfos\bdflower.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+  <Content Include="modinfos\bdorchard.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+  <Content Include="modinfos\bdherb.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+  <Content Include="modinfos\bdshrub.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+  <Content Include="modinfos\bdtree.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
+  <Content Include="modinfos\bdcrop.json">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </Content>
 </ItemGroup>
 
 <ItemGroup>
-  <Folder Include="assets\bdherb\" />
-  <Folder Include="assets\bdflower\" />
+  <Folder Include="assets\bdcrop\blocktypes\food\" />
+  <Folder Include="assets\bdcrop\blocktypes\plant\aquacrop\" />
+  <Folder Include="assets\bdcrop\blocktypes\plant\crop\" />
+  <Folder Include="assets\bdcrop\textures\block\plant\aquacrop\" />
+  <Folder Include="assets\bdcrop\textures\block\plant\crop\peppers\" />
+  <Folder Include="assets\bdcrop\textures\block\plant\crop\avacado\" />
+  <Folder Include="assets\bdcrop\textures\block\plant\crop\tomato\" />
+  <Folder Include="assets\bdcrop\textures\block\plant\crop\celery\" />
+  <Folder Include="assets\bdcrop\textures\block\food\grain\" />
+  <Folder Include="assets\bdcrop\textures\block\food\meal\" />
+  <Folder Include="assets\bdcrop\textures\block\food\dairy\" />
+  <Folder Include="assets\bdcrop\textures\block\food\pie\" />
+  <Folder Include="assets\bdherb\blocktypes\" />
   <Folder Include="assets\bdshrub\" />
-  <Folder Include="assets\bdcrop\" />
   <Folder Include="assets\bdorchard\" />
+  <Folder Include="assets\bdtree\textures\block\wood\bark\dead\" />
+  <Folder Include="assets\bdtree\textures\block\wood\bark\quad\ends\debarked\" />
+  <Folder Include="assets\bdtree\textures\block\wood\bark\quad\placed\" />
+  <Folder Include="assets\bdtree\textures\block\wood\bark\quad\debarked\" />
   <Folder Include="assets\bdtree\textures\block\wood\narrow\" />
+  <Folder Include="src\" />
 </ItemGroup>
 
 </Project>

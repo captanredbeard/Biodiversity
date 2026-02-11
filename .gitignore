@@ -403,10 +403,7 @@ FodyWeavers.xsd
 Resources/
 
 # Wildcraft folder
-wildcraft/
 
-# Resources folder
-Wildcraft/**
 
 ### Rider ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -682,4 +679,4 @@ fabric.properties
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp,visualstudio,visualstudiocode,rider
-/biodiversity/Wildcraft/game/worldgen/treegen/crookedtuja.json
+/biodiversity/Wildcraft

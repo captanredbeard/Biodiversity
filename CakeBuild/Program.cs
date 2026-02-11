@@ -27,6 +27,11 @@ namespace CakeBuild
     public class BuildContext : FrostingContext
     {
         public const string ProjectName = "biodiversity";
+
+        public string[] SubProjectNames = new[] { "bdcrop", "bdflower", "bdorchard", "bdshrub", "bdtree" };
+
+        public string SubProjectName = "";
+
         public string BuildConfiguration { get; }
         public string Version { get; }
         public string Name { get; }
