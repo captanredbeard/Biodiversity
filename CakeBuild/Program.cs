@@ -102,18 +102,22 @@ namespace CakeBuild
         {
             context.EnsureDirectoryExists("../Releases");
             context.CleanDirectory("../Releases");
-            context.EnsureDirectoryExists($"../Releases/{context.Name}");
-            context.CopyFiles($"../{BuildContext.ProjectName}/bin/{context.BuildConfiguration}/Mods/mod/publish/*", $"../Releases/{context.Name}");
-            if (context.DirectoryExists($"../{BuildContext.ProjectName}/assets"))
+
+            foreach (var item in context.SubProjectNames)
             {
-                context.CopyDirectory($"../{BuildContext.ProjectName}/assets", $"../Releases/{context.Name}/assets");
+                context.EnsureDirectoryExists($"../Releases/{item}");
+                context.CopyFiles($"../{BuildContext.ProjectName}/bin/{context.BuildConfiguration}/Mods/mod/publish/*", $"../Releases/{item}");
+                if (context.DirectoryExists($"../{BuildContext.ProjectName}/assets/{item}"))
+                {
+                    context.CopyDirectory($"../{BuildContext.ProjectName}/assets/{item}", $"../Releases/{item}/assets/{item}");
+                }
+                context.CopyFile($"../{BuildContext.ProjectName}/modinfo/{item}.json", $"../Releases/{item}/modinfo.json");
+                if (context.FileExists($"../{BuildContext.ProjectName}/modicon.png"))
+                {
+                    context.CopyFile($"../{BuildContext.ProjectName}/modicon.png", $"../Releases/{context.Name}/modicon.png");
+                }
+                context.Zip($"../Releases/{item}", $"../Releases/{context.Name}_{item}_{context.Version}.zip");
             }
-            context.CopyFile($"../{BuildContext.ProjectName}/modinfo.json", $"../Releases/{context.Name}/modinfo.json");
-            if (context.FileExists($"../{BuildContext.ProjectName}/modicon.png"))
-            {
-                context.CopyFile($"../{BuildContext.ProjectName}/modicon.png", $"../Releases/{context.Name}/modicon.png");
-            }
-            context.Zip($"../Releases/{context.Name}", $"../Releases/{context.Name}_{context.Version}.zip");
         }
     }
 
