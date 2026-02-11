@@ -1,0 +1,22 @@
+{
+	"inheritFrom": "game:itemtypes/resource/seeds",
+	"code": "seeds",
+	"class": "ItemPlantableSeed",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [],
+			"loadFromProperties": "bdcrop:block/vinecrops"
+		}
+	],
+	"shape": { "base": "game:item/resource/seeds/seedbag" },
+	"textures": {
+		"seed": { "base": "item/resource/seeds/{type}" }
+	},
+	"maxstacksize": 64,
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"bdcrop": [ "*" ]
+	}
+}

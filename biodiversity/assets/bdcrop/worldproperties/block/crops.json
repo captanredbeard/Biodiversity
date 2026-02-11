@@ -1,0 +1,14 @@
+{
+    "code": "crops",
+  "variants": [
+    {
+      "code": "leek"
+    },
+    {
+      "code": "rhubarb"
+    },
+    {
+      "code": "celery"
+    }
+  ]
+  }

@@ -1,0 +1,21 @@
+{
+  "code": "vinecrops",
+  "variants": [
+    {
+      "code": "honeydewmelon"
+    },
+    {
+      "code": "mirzamelon"
+    },
+    {
+      "code": "muskmelon"
+    },
+    {
+      "code": "watermelon"
+    },
+    {
+      "code": "naplessquash"
+    }
+
+  ]
+}

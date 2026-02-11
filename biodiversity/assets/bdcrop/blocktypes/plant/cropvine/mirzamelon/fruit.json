@@ -51,7 +51,7 @@
 		type: "Perish",
 		freshHours: { avg: 192 },
 		transitionHours: { avg: 48 },
-		transitionedStack: { type: "item", code: "melonseeds-mirzamelon" },
+		transitionedStack: { type: "item", code: "seeds-mirzamelon" },
 		transitionRatio: 1
 	}],
 	guiTransform: {

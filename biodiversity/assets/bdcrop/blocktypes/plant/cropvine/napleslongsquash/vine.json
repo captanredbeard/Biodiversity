@@ -1,5 +1,5 @@
 {
-	code: "watermelon",
+	code: "naplessquash",
 	class: "Block",
 	entityClass: "MelonVine",
 	variantgroups: [
@@ -30,7 +30,7 @@
 		vineSpawnProbability: 0.5,
 		preferredGrowthDirProbability: 0.75,
 		maxAllowedMelonGrowthTries: 4,
-		melonBlockCode: "watermelon",
+		melonBlockCode: "naplessquash",
 		domainCode: "bdcrop"
 	},
 	sideopaque: {
@@ -41,23 +41,23 @@
 	},
 	sideao: { all: false },
 	texturesByType: {
-		"watermelon-vine-3-blooming": {
+		"naplessquash-vine-3-blooming": {
 			"north": { base: "block/plant/cropvine/vinestage3-blooming-north" },
 			"south": { base: "block/plant/cropvine/vinestage3-blooming-south" }
 		},
-		"watermelon-vine-1-normal": {
+		"naplessquash-vine-1-normal": {
 			"north": { base: "block/plant/cropvine/vinestage1-north" },
 			"south": { base: "block/plant/cropvine/vinestage1-south" }
 		},
-		"watermelon-vine-2-normal": {
+		"naplessquash-vine-2-normal": {
 			"north": { base: "block/plant/cropvine/vinestage2-north" },
 			"south": { base: "block/plant/cropvine/vinestage2-south" }
 		},
-		"watermelon-vine-3-normal": {
+		"naplessquash-vine-3-normal": {
 			"north": { base: "block/plant/cropvine/vinestage3-north" },
 			"south": { base: "block/plant/cropvine/vinestage3-south" }
 		},
-		"watermelon-vine-4-withered": {
+		"naplessquash-vine-4-withered": {
 			"north": { base: "block/plant/cropvine/vinestage4-north" },
 			"south": { base: "block/plant/cropvine/vinestage4-south" }
 		}
