@@ -1,0 +1,113 @@
+{
+    "code": "herbs",
+  "variants": [
+    {
+      "code": "angelica"
+    },
+    {
+      "code": "arnica"
+    },
+    {
+      "code": "arrowhead"
+    },
+    {
+      "code": "bearleek"
+    },
+    {
+      "code": "blackpepper"
+    },
+    {
+      "code": "burdock"
+    },
+    {
+      "code": "burnet"
+    },
+    {
+      "code": "butterbur"
+    },
+    {
+      "code": "celandine"
+    },
+    {
+      "code": "chicory"
+    },
+    {
+      "code": "cicuta"
+    },
+    {
+      "code": "dill"
+    },
+    {
+      "code": "dock"
+    },
+    {
+      "code": "foxglove"
+    },
+    {
+      "code": "ginger"
+    },
+    {
+      "code": "ginseng"
+    },
+    {
+      "code": "holly"
+    },
+    {
+      "code": "horehound"
+    },
+    {
+      "code": "inula"
+    },
+    {
+      "code": "jewelweed"
+    },
+    {
+      "code": "katuk"
+    },
+    {
+      "code": "marigold"
+    },
+    {
+      "code": "marshmallow"
+    },
+    {
+      "code": "minerslettuce"
+    },
+    {
+      "code": "mustard"
+    },
+    {
+      "code": "plantain"
+    },
+    {
+      "code": "poisonoak"
+    },
+    {
+      "code": "rockrose"
+    },
+    {
+      "code": "rosemary"
+    },
+    {
+      "code": "saltwort"
+    },
+    {
+      "code": "skunkcabbage"
+    },
+    {
+      "code": "stingingnettle"
+    },
+    {
+      "code": "stjohnswort"
+    },
+    {
+      "code": "tansy"
+    },
+    {
+      "code": "woodspurge"
+    },
+    {
+      "code": "yarrow"
+    }
+  ]
+  }

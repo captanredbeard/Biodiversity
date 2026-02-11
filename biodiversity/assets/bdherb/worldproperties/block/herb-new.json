@@ -1,0 +1,107 @@
+{
+    "code": "herbs",
+    "variants": [
+      {
+        "code": "arrowhead"
+      },
+      {
+        "code": "bearleek"
+      },
+      {
+        "code": "blackpepper"
+      },
+      {
+        "code": "burdock"
+      },
+      {
+        "code": "burnet"
+      },
+      {
+        "code": "butterbur"
+      },
+      {
+        "code": "celandine"
+      },
+      {
+        "code": "celery"
+      },
+      {
+        "code": "cicuta"
+      },
+      {
+        "code": "dill"
+      },
+      {
+        "code": "dock"
+      },
+      {
+        "code": "ginger"
+      },
+      {
+        "code": "ginseng"
+      },
+      {
+        "code": "holly"
+      },
+      {
+        "code": "horehound"
+      },
+      {
+        "code": "inula"
+      },
+      {
+        "code": "jewelweed"
+      },
+      {
+        "code": "katuk"
+      },
+      {
+        "code": "leek"
+      },
+      {
+        "code": "marshmallow"
+      },
+      {
+        "code": "minerslettuce"
+      },
+      {
+        "code": "mustard"
+      },
+      {
+        "code": "plantain"
+      },
+      {
+        "code": "poisonoak"
+      },
+      {
+        "code": "rhubarb"
+      },
+      {
+        "code": "saltwort"
+      },
+      {
+        "code": "sedge"
+      },
+      {
+        "code": "skunkcabbage"
+      },
+      {
+        "code": "softsedge"
+      },
+      {
+        "code": "stingingnettle"
+      },
+      {
+        "code": "stjohnswort"
+      },
+      {
+        "code": "tansy"
+      },
+      {
+        "code": "waterchestnut"
+      },
+      {
+        "code": "woodspurge"
+      }
+    ]
+  }
