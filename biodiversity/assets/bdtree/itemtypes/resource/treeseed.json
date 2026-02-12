@@ -11,10 +11,11 @@
 	"variantgroups": [
 		{
 			"code": "type",
+			"states":[ "bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap" ],
 			"loadFromProperties": "bdtree:block/wood"
 		}
 	],
-	"skipVariants": [ "*-chlorociboria", "*-petrified", "*-charred" ],
+	"skipVariants": [ "*-chlorociboria", "*-charred" ],
 	"shape": { "base": "item/resource/seeds/{type}" },
 	"creativeinventory": {
 		"general": [ "*" ],

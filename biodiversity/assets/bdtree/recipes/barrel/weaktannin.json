@@ -12,7 +12,7 @@
 		code: "weaktannin",
 		sealHours: 24,
 		ingredients: [
-			{ type: "block", code: "wildcrafttree:log-placed-willow-ud",  quantity: 1 },
+			{ type: "block", code: "log-placed-willow-ud",  quantity: 1 },
 			{ type: "item", code: "game:waterportion",  litres: 10 },
 		],
 		output: { type: "item", code: "game:weaktanninportion", litres: 10 }
@@ -21,7 +21,7 @@
 		code: "weaktannin",
 		sealHours: 24,
 		ingredients: [
-			{ type: "block", code: "wildcrafttree:log-placed-beech-ud",  quantity: 1 },
+			{ type: "block", code: "log-placed-beech-ud",  quantity: 1 },
 			{ type: "item", code: "game:waterportion",  litres: 10 },
 		],
 		output: { type: "item", code: "game:weaktanninportion", litres: 10 }
@@ -30,7 +30,7 @@
 		code: "weaktannin",
 		sealHours: 24,
 		ingredients: [
-			{ type: "item", code: "wildcrafttree:leaves-oak", quantity: 4 },
+			{ type: "item", code: "leaves-oak", quantity: 4 },
 			{ type: "item", code: "game:waterportion",  litres: 1 }
 		],
 		output: { type: "item", code: "game:weaktanninportion", litres: 1 }
@@ -39,7 +39,7 @@
 		code: "weaktannin",
 		sealHours: 24,
 		ingredients: [
-			{ type: "block", code: "wildcrafttree:lognarrow-placed-alder-ud", quantity: 1 },
+			{ type: "block", code: "lognarrow-placed-alder-ud", quantity: 1 },
 			{ type: "item", code: "game:waterportion",  litres: 5 }
 		],
 		output: { type: "item", code: "game:weaktanninportion", litres: 5 }

@@ -204,7 +204,7 @@
   "drops": [
     {
       "type": "item",
-      "code": "treeseed-{wood}",
+      "code": "bdtree:treeseed-{wood}",
       "quantityByType": {
         "*-douglasfir": {
           "avg": 0.01,

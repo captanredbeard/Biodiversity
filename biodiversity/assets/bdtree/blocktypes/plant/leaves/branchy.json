@@ -103,7 +103,7 @@
 		"flora": [ "leavesbranchy-placed-*" ],
 		"bdtree": [ "leavesbranchy-placed-*" ]
 	},
-	"skipVariants": [ "*-chlorociboria-*" ],
+	"skipVariants": [ "*-chlorociboria*", "*-charred*" ],
 	"shape": {
 		"baseByType": {
 			"*-ash": "game:block/plant/leaves/branchy-larch",
@@ -229,7 +229,7 @@
 	"drops": [
 		{
 			"type": "item",
-			"code": "treeseed-{wood}",
+			"code": "bdtree:treeseed-{wood}",
 			"quantityByType": {
 				"*-douglasfir": {
 					"avg": 0.03,

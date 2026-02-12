@@ -1,4 +1,5 @@
 {
+	"enabled": false,
 	"inheritFrom": "game:blocktypes/wood/woodtyped/log-section",
 	"code": "logsection",
 	"class": "BlockLogSection",
