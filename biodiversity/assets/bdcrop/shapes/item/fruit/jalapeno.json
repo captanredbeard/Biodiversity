@@ -1,0 +1,98 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"jalapeno": "items/fruit/jalapeno"
+	},
+	"elements": [
+		{
+			"name": "Body",
+			"from": [ 7.25, 1.5, 6.25 ], 
+			"to": [ 9.25, 4.5, 8.25 ], 
+			"rotationOrigin": [ 9.0, 1.0, 8.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#jalapeno", "uv": [ 0.0, 2.0, 4.0, 8.0 ], "rotation": 180, "autoUv": false },
+				"east": { "texture": "#jalapeno", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false },
+				"south": { "texture": "#jalapeno", "uv": [ 0.0, 2.0, 4.0, 8.0 ], "rotation": 180, "autoUv": false },
+				"west": { "texture": "#jalapeno", "uv": [ 0.0, 0.0, 4.0, 6.0 ], "autoUv": false },
+				"up": { "texture": "#jalapeno", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180, "autoUv": false },
+				"down": { "texture": "#jalapeno", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Stem",
+					"from": [ 0.8, 3.2, 0.75 ], 
+					"to": [ 1.3, 4.2, 1.25 ], 
+					"rotationOrigin": [ 1.25, 3.2, 0.75 ],
+					"rotationX": 7.0,
+					"rotationY": -1.0,
+					"rotationZ": 21.0,
+					"faces": {
+						"north": { "texture": "#jalapeno", "uv": [ 13.0, 2.0, 14.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#jalapeno", "uv": [ 14.0, 2.0, 15.0, 4.0 ], "autoUv": false },
+						"south": { "texture": "#jalapeno", "uv": [ 15.0, 1.0, 16.0, 3.0 ], "autoUv": false },
+						"west": { "texture": "#jalapeno", "uv": [ 12.0, 0.0, 13.0, 2.0 ], "autoUv": false },
+						"up": { "texture": "#jalapeno", "uv": [ 10.0, 4.0, 11.0, 6.0 ], "enabled": false, "autoUv": false },
+						"down": { "texture": "#jalapeno", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube1",
+							"from": [ 0.0, 1.0, 0.0 ], 
+							"to": [ 0.5, 2.0, 0.5 ], 
+							"rotationOrigin": [ 0.5, 1.0, 0.0 ],
+							"rotationX": 8.0,
+							"rotationY": -1.0,
+							"rotationZ": 42.0,
+							"faces": {
+								"north": { "texture": "#jalapeno", "uv": [ 15.0, 3.0, 16.0, 5.0 ], "autoUv": false },
+								"east": { "texture": "#jalapeno", "uv": [ 13.0, 3.0, 14.0, 5.0 ], "autoUv": false },
+								"south": { "texture": "#jalapeno", "uv": [ 13.0, 0.0, 14.0, 2.0 ], "autoUv": false },
+								"west": { "texture": "#jalapeno", "uv": [ 13.0, 1.0, 14.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#jalapeno", "uv": [ 14.0, 1.0, 15.0, 2.0 ] },
+								"down": { "texture": "#jalapeno", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "Cap",
+					"from": [ 0.25, 2.8, 0.25 ], 
+					"to": [ 1.75, 3.3, 1.75 ], 
+					"rotationOrigin": [ 1.0, 2.8, 1.0 ],
+					"rotationY": 16.0,
+					"faces": {
+						"north": { "texture": "#jalapeno", "uv": [ 13.0, 3.0, 16.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#jalapeno", "uv": [ 12.0, 4.0, 15.0, 5.0 ], "autoUv": false },
+						"south": { "texture": "#jalapeno", "uv": [ 12.0, 2.0, 15.0, 3.0 ], "autoUv": false },
+						"west": { "texture": "#jalapeno", "uv": [ 12.0, 0.0, 15.0, 1.0 ], "autoUv": false },
+						"up": { "texture": "#jalapeno", "uv": [ 13.0, 1.0, 16.0, 4.0 ], "autoUv": false },
+						"down": { "texture": "#jalapeno", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Tail",
+					"from": [ 0.25, -2.0, 0.25 ], 
+					"to": [ 1.75, 0.0, 1.75 ], 
+					"rotationOrigin": [ 1.75, 0.0, 0.0 ],
+					"rotationX": -2.0,
+					"rotationZ": -13.0,
+					"faces": {
+						"north": { "texture": "#jalapeno", "uv": [ 1.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+						"east": { "texture": "#jalapeno", "uv": [ 0.0, 4.0, 3.0, 8.0 ], "autoUv": false },
+						"south": { "texture": "#jalapeno", "uv": [ 1.0, 0.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false },
+						"west": { "texture": "#jalapeno", "uv": [ 5.0, 0.0, 8.0, 4.0 ], "autoUv": false },
+						"up": { "texture": "#jalapeno", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#jalapeno", "uv": [ 0.0, 5.0, 3.0, 8.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

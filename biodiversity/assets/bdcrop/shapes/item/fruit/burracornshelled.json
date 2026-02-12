@@ -1,0 +1,95 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"acornshelled": "items/fruit/acornshelled"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 7.0, 0.0, 7.0 ], 
+			"to": [ 9.0, 2.0, 9.5 ], 
+			"rotationOrigin": [ 7.0, 0.0, 7.0 ],
+			"rotationX": -9.0,
+			"rotationY": 67.5,
+			"faces": {
+				"north": { "texture": "#acornshelled", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
+				"east": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"south": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+				"west": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false },
+				"down": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube2",
+			"from": [ 5.0, 0.0, 7.0 ], 
+			"to": [ 7.0, 2.0, 9.5 ], 
+			"rotationOrigin": [ 5.0, 0.0, 7.0 ],
+			"rotationX": 11.0,
+			"rotationY": 22.5,
+			"rotationZ": 5.0,
+			"faces": {
+				"north": { "texture": "#acornshelled", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
+				"east": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"south": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+				"west": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false },
+				"down": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube3",
+			"from": [ 8.0, 0.0, 10.0 ], 
+			"to": [ 10.0, 2.0, 12.5 ], 
+			"rotationOrigin": [ 8.0, 0.0, 10.0 ],
+			"rotationY": 90.0,
+			"rotationZ": 5.0,
+			"faces": {
+				"north": { "texture": "#acornshelled", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
+				"east": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"south": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+				"west": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false },
+				"down": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube4",
+			"from": [ 5.6, 0.0, 8.0 ], 
+			"to": [ 7.6, 2.0, 10.5 ], 
+			"rotationOrigin": [ 6.0, 0.0, 10.5 ],
+			"rotationX": 60.0,
+			"rotationY": -17.0,
+			"faces": {
+				"north": { "texture": "#acornshelled", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
+				"east": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"south": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+				"west": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false },
+				"down": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube5",
+			"from": [ 7.0, 2.0, 7.0 ], 
+			"to": [ 9.0, 4.0, 9.5 ], 
+			"rotationOrigin": [ 7.0, 2.0, 7.0 ],
+			"rotationX": 7.0,
+			"rotationZ": 12.0,
+			"faces": {
+				"north": { "texture": "#acornshelled", "uv": [ 0.0, 1.0, 4.0, 5.0 ], "autoUv": false },
+				"east": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"south": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+				"west": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false },
+				"down": { "texture": "#acornshelled", "uv": [ 0.0, 0.0, 4.0, 5.0 ], "autoUv": false }
+			}
+		}
+	]}

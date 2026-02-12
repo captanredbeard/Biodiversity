@@ -1,0 +1,15 @@
+{
+	"enabled": false,
+	"inheritFrom": "game:itemtypes/food/grain",
+	"code": "grain",
+	"variantgroups": [
+		{ "loadFromProperties": "bdcrop:item/food/grain" }
+	],
+	"texture": { "base": "block/food/grain/{type}-pile" },
+	"shape": { "base": "game:item/resource/crushed/normal" },
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"bdcrop": [ "*" ]
+	}
+}

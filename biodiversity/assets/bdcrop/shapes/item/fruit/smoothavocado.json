@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"avocado": "items/fruit/smoothavocado"
+	},
+	"elements": [
+		{
+			"name": "Avocado",
+			"from": [ 6.0, 0.0, 6.0 ], 
+			"to": [ 10.0, 4.0, 10.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#avocado", "uv": [ 0.0, 1.0, 8.0, 9.0 ], "rotation": 180, "autoUv": false },
+				"east": { "texture": "#avocado", "uv": [ 0.0, 1.0, 8.0, 9.0 ], "autoUv": false },
+				"south": { "texture": "#avocado", "uv": [ 0.0, 1.0, 8.0, 9.0 ], "rotation": 180, "autoUv": false },
+				"west": { "texture": "#avocado", "uv": [ 0.0, 1.0, 8.0, 9.0 ], "autoUv": false },
+				"up": { "texture": "#avocado", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "rotation": 180, "autoUv": false },
+				"down": { "texture": "#avocado", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "rotation": 180, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Cube1",
+					"from": [ 0.5, 4.0, 0.5 ], 
+					"to": [ 3.5, 6.5, 3.5 ], 
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#avocado", "uv": [ 1.0, 2.0, 7.0, 7.0 ], "autoUv": false },
+						"east": { "texture": "#avocado", "uv": [ 1.0, 4.0, 7.0, 9.0 ], "autoUv": false },
+						"south": { "texture": "#avocado", "uv": [ 1.0, 0.0, 7.0, 5.0 ], "autoUv": false },
+						"west": { "texture": "#avocado", "uv": [ 0.0, 1.0, 6.0, 6.0 ], "autoUv": false },
+						"up": { "texture": "#avocado", "uv": [ 1.0, 1.0, 7.0, 7.0 ], "autoUv": false },
+						"down": { "texture": "#avocado", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Cube3",
+							"from": [ 1.0, 2.5, 1.0 ], 
+							"to": [ 2.0, 3.0, 2.0 ], 
+							"rotationOrigin": [ 1.5, 2.0, 1.5 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#avocado", "uv": [ 9.0, 1.0, 11.0, 2.0 ], "autoUv": false },
+								"east": { "texture": "#avocado", "uv": [ 10.0, 2.0, 12.0, 3.0 ], "autoUv": false },
+								"south": { "texture": "#avocado", "uv": [ 9.0, 1.0, 11.0, 2.0 ], "autoUv": false },
+								"west": { "texture": "#avocado", "uv": [ 9.0, 2.0, 11.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#avocado", "uv": [ 10.0, 0.0, 12.0, 2.0 ], "autoUv": false },
+								"down": { "texture": "#avocado", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

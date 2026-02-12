@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"halva": "items/fruit/halva"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 6.0, 0.0, 5.0 ], 
+			"to": [ 10.0, 3.5, 10.0 ], 
+			"rotationOrigin": [ 6.0, 0.0, 5.0 ],
+			"faces": {
+				"north": { "texture": "#halva", "uv": [ 5.0, 7.0, 13.0, 14.0 ], "autoUv": false },
+				"east": { "texture": "#halva", "uv": [ 2.0, 6.0, 12.0, 13.0 ], "autoUv": false },
+				"south": { "texture": "#halva", "uv": [ 6.0, 6.0, 14.0, 13.0 ], "autoUv": false },
+				"west": { "texture": "#halva", "uv": [ 4.0, 8.0, 14.0, 15.0 ], "autoUv": false },
+				"up": { "texture": "#halva", "uv": [ 0.0, 0.0, 8.0, 10.0 ], "autoUv": false },
+				"down": { "texture": "#halva", "uv": [ 6.0, 2.0, 14.0, 12.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 0.0, 3.5, 2.5 ], 
+					"to": [ 4.0, 4.5, 6.0 ], 
+					"rotationOrigin": [ 0.0, 3.0, 2.0 ],
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#halva", "uv": [ 3.0, 6.0, 11.0, 8.0 ], "autoUv": false },
+						"east": { "texture": "#halva", "uv": [ 2.0, 8.0, 9.0, 10.0 ], "autoUv": false },
+						"south": { "texture": "#halva", "uv": [ 3.0, 3.0, 11.0, 5.0 ], "autoUv": false },
+						"west": { "texture": "#halva", "uv": [ 4.0, 1.0, 11.0, 3.0 ], "autoUv": false },
+						"up": { "texture": "#halva", "uv": [ 0.0, 0.0, 8.0, 7.0 ], "autoUv": false },
+						"down": { "texture": "#halva", "uv": [ 0.0, 0.0, 8.0, 7.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Cube3",
+					"from": [ -2.0, 0.0, 4.6 ], 
+					"to": [ 2.0, 3.5, 5.6 ], 
+					"rotationOrigin": [ -2.0, 0.0, 5.0 ],
+					"rotationX": -22.5,
+					"rotationY": -38.0,
+					"rotationZ": -14.0,
+					"faces": {
+						"north": { "texture": "#halva", "uv": [ 0.0, 0.0, 8.0, 7.0 ], "autoUv": false },
+						"east": { "texture": "#halva", "uv": [ 5.0, 3.0, 7.0, 10.0 ], "autoUv": false },
+						"south": { "texture": "#halva", "uv": [ 3.0, 3.0, 11.0, 10.0 ], "autoUv": false },
+						"west": { "texture": "#halva", "uv": [ 8.0, 3.0, 10.0, 10.0 ], "autoUv": false },
+						"up": { "texture": "#halva", "uv": [ 0.0, 0.0, 8.0, 2.0 ], "autoUv": false },
+						"down": { "texture": "#halva", "uv": [ 3.0, 5.0, 11.0, 7.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

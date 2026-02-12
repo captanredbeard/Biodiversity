@@ -1,0 +1,95 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"nectarine": "items/fruit/nectarine"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "bottom",
+					"from": [ -2.0, 0.5, -2.0 ], 
+					"to": [ 2.0, 3.5, 2.0 ], 
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#nectarine", "uv": [ 1.5, 4.0, 5.5, 7.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#nectarine", "uv": [ 3.5, 4.0, 7.5, 7.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#nectarine", "uv": [ 0.5, 4.0, 3.5, 8.0 ], "rotation": 270, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#nectarine", "uv": [ 0.5, 4.0, 3.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#nectarine", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "stem",
+							"from": [ 1.5, 3.1, 1.5 ], 
+							"to": [ 2.5, 5.1, 2.5 ], 
+							"rotationOrigin": [ 2.0, 3.1, 2.0 ],
+							"rotationX": -22.5,
+							"rotationZ": 22.5,
+							"faces": {
+								"north": { "texture": "#nectarine", "uv": [ 5.0, 2.0, 6.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#nectarine", "uv": [ 5.0, 2.0, 6.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#nectarine", "uv": [ 4.0, 2.0, 5.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#nectarine", "uv": [ 4.5, 2.0, 5.5, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#nectarine", "uv": [ 4.5, 2.5, 5.5, 3.5 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "leaf",
+									"from": [ 0.5, 1.0, -0.3 ], 
+									"to": [ 0.5, 5.0, 1.2 ], 
+									"rotationOrigin": [ 0.5, 1.0, 0.0 ],
+									"rotationX": -50.0,
+									"rotationY": -8.0,
+									"rotationZ": -34.0,
+									"faces": {
+										"north": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+										"east": { "texture": "#nectarine", "uv": [ 6.0, 0.0, 7.5, 4.0 ], "windMode": [-1,-1,-1,-1] },
+										"south": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+										"west": { "texture": "#nectarine", "uv": [ 6.0, 0.5, 7.5, 4.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+										"up": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#nectarine", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "enabled": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "Cube1",
+							"from": [ 0.5, -0.5, 0.5 ], 
+							"to": [ 3.5, 3.5, 3.5 ], 
+							"faces": {
+								"north": { "texture": "#nectarine", "uv": [ 0.5, 4.0, 3.5, 8.0 ] },
+								"east": { "texture": "#nectarine", "uv": [ 4.5, 4.0, 7.5, 8.0 ] },
+								"south": { "texture": "#nectarine", "uv": [ 4.5, 4.0, 7.5, 8.0 ] },
+								"west": { "texture": "#nectarine", "uv": [ 0.5, 4.0, 3.5, 8.0 ] },
+								"up": { "texture": "#nectarine", "uv": [ 0.5, 0.5, 3.5, 3.5 ] },
+								"down": { "texture": "#nectarine", "uv": [ 0.5, 4.5, 3.5, 7.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

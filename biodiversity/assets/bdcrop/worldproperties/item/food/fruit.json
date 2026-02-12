@@ -1,0 +1,479 @@
+{
+  "code": "fruit",
+  "variants": [
+    {
+      code: "yew"
+    },
+    {
+      code: "pittedyew"
+    },
+    {
+      code: "illawarra"
+    },
+    {
+      code: "creepingpine"
+    },
+    {
+      code: "ginkgowhole"
+    },
+    {
+      code: "ginkgopulp"
+    },
+    {
+      code: "pandanbits"
+    },
+    {
+      code: "crowseye"
+    },
+    {
+      code: "kakaha"
+    },
+    {
+      code: "flaxlily"
+    },
+    {
+      code: "engkala"
+    },
+    {
+      code: "kawakawa"
+    },
+    {
+      code: "baneberry"
+    },
+    {
+      code: "gooseberry"
+    },
+    {
+      code: "josta"
+    },
+    {
+      code: "blackgrape"
+    },
+    {
+      code: "redgrape"
+    },
+    {
+      code: "whitegrape"
+    },
+    {
+      code: "foxgrape"
+    },
+    {
+      code: "virgingrape"
+    },
+    {
+      code: "strawberry"
+    },
+    {
+      code: "greenstrawberry"
+    },
+    {
+      code: "gardenstrawberry"
+    },
+    {
+      code: "falsestrawberry"
+    },
+    {
+      code: "raspberry"
+    },
+    {
+      code: "loganberry"
+    },
+    {
+      code: "blueraspberry"
+    },
+    {
+      code: "brambleberry"
+    },
+    {
+      code: "boysenberry"
+    },
+    {
+      code: "dewberry"
+    },
+    {
+      code: "cloudberry"
+    },
+    {
+      code: "knyazberry"
+    },
+    {
+      code: "bushlawyer"
+    },
+    {
+      code: "dogrose"
+    },
+    {
+      code: "beachrose"
+    },
+    {
+      code: "hawthorn"
+    },
+    {
+      code: "rowanberry"
+    },
+    {
+      code: "sorb"
+    },
+    {
+      code: "aronia"
+    },
+    {
+      code: "wildapple"
+    },
+    {
+      code: "crabapple"
+    },
+    {
+      code: "burgundyapple"
+    },
+    {
+      code: "sandpear"
+    },
+    {
+      code: "quince"
+    },
+    {
+      code: "quincelet"
+    },
+    {
+      code: "loquat"
+    },
+    {
+      code: "pittedcherry"
+    },
+    {
+      code: "mazzard"
+    },
+    {
+      code: "pittedmazzard"
+    },
+    {
+      code: "apricot"
+    },
+    {
+      code: "pittedapricot"
+    },
+    {
+      code: "sloe"
+    },
+    {
+      code: "purpleplum"
+    },
+    {
+      code: "damsonplum"
+    },
+    {
+      code: "redplum"
+    },
+    {
+      code: "greengage"
+    },
+    {
+      code: "cherryplum"
+    },
+    {
+      code: "redcherryplum"
+    },
+    {
+      code: "nectarine"
+    },
+    {
+      code: "sallowthorn"
+    },
+    {
+      code: "jujube"
+    },
+    {
+      code: "ber"
+    },
+    {
+      code: "fig"
+    },
+    {
+      code: "falseorange"
+    },
+    {
+      code: "pittedbreadfruit"
+    },
+    {
+      code: "marang"
+    },
+    {
+      code: "pittedmarang"
+    },
+    {
+      code: "jackfruit"
+    },
+    {
+      code: "pittedjackfruit"
+    },
+    {
+      code: "cempedak"
+    },
+    {
+      code: "pittedcempedak"
+    },
+    {
+      code: "silvernettle"
+    },
+    {
+      code: "muskmelon"
+    },
+    {
+      code: "honeydewmelon"
+    },
+    {
+      code: "mirzamelon"
+    },
+    {
+      code: "watermelon"
+    },
+    {
+      code: "bryony"
+    },
+    {
+      code: "passionfruit"
+    },
+    {
+      code: "granadilla"
+    },
+    {
+      code: "achacha"
+    },
+    {
+      code: "spindle"
+    },
+    {
+      code: "ugni"
+    },
+    {
+      code: "midyimberry"
+    },
+    {
+      code: "munthari"
+    },
+    {
+      code: "guajava"
+    },
+    {
+      code: "feijoa"
+    },
+    {
+      code: "roseapple"
+    },
+    {
+      code: "greatroseapple"
+    },
+    {
+      code: "waterapple"
+    },
+    {
+      code: "lillypillypink"
+    },
+    {
+      code: "lillypillyblue"
+    },
+    {
+      code: "lillypillywhite"
+    },
+    {
+      code: "beachalmondwhole"
+    },
+    {
+      code: "pittedbeachalmond"
+    },
+    {
+      code: "bluetongue"
+    },
+    {
+      code: "turkscap"
+    },
+    {
+      code: "cocoa"
+    },
+    {
+      code: "wolfberry"
+    },
+    {
+      code: "caperberry"
+    },
+    {
+      code: "rambutan"
+    },
+    {
+      code: "pulasan"
+    },
+    {
+      code: "citron"
+    },
+    {
+      code: "lemon"
+    },
+    {
+      code: "bitterorange"
+    },
+    {
+      code: "pomelo"
+    },
+    {
+      code: "grapefruit"
+    },
+    {
+      code: "lime"
+    },
+    {
+      code: "makrut"
+    },
+    {
+      code: "fingerlime"
+    },
+    {
+      code: "kumquat"
+    },
+    {
+      code: "lemonaspen"
+    },
+    {
+      code: "cashewwhole"
+    },
+    {
+      code: "cashewapple"
+    },
+    {
+      code: "kasturi"
+    },
+    {
+      code: "wani"
+    },
+    {
+      code: "chinaberry"
+    },
+    {
+      code: "pittedchinaberry"
+    },
+    {
+      code: "redquandong"
+    },
+    {
+      code: "rubysaltbush"
+    },
+    {
+      code: "pokeberry"
+    },
+    {
+      code: "bunchberry"
+    },
+    {
+      code: "bearberry"
+    },
+    {
+      code: "cheeseberry"
+    },
+    {
+      code: "pineheath"
+    },
+    {
+      code: "pricklyheath"
+    },
+    {
+      code: "honeypots"
+    },
+    {
+      code: "crowberry"
+    },
+    {
+      code: "lingonberry"
+    },
+    {
+      code: "bilberry"
+    },
+    {
+      code: "huckleberry"
+    },
+    {
+      code: "swamphuckle"
+    },
+    {
+      code: "kiwi"
+    },
+    {
+      code: "kolomikta"
+    },
+    {
+      code: "woodbine"
+    },
+    {
+      code: "honeysuckle"
+    },
+    {
+      code: "snowberry"
+    },
+    {
+      code: "blackelder"
+    },
+    {
+      code: "elderberry"
+    },
+    {
+      code: "ivy"
+    },
+    {
+      code: "hairyappleberry"
+    },
+    {
+      code: "purpleappleberry"
+    },
+    {
+      code: "blacknightshade"
+    },
+    {
+      code: "blacknightshadeunripe"
+    },
+    {
+      code: "bitternightshade"
+    },
+    {
+      code: "wildtomato"
+    },
+    {
+      code: "falsetomato"
+    },
+    {
+      code: "naranjilla"
+    },
+    {
+      code: "hairyeggplant"
+    },
+    {
+      code: "belladonna"
+    },
+    {
+      code: "husktomato"
+    },
+    {
+      code: "newhusktomato"
+    },
+    {
+      code: "beautyberry"
+    },
+    {
+      code: "numnum"
+    },
+    {
+      code: "seamango"
+    },
+    {
+      code: "coralbead"
+    },
+    {
+      code: "pilo"
+    },
+    {
+      code: "mingimingi"
+    },
+    {
+      code: "fractureberry"
+    }
+  ]
+}
