@@ -1,7 +1,6 @@
 {
-  "enabled": false,
-  "inheritFrom": "game:blocktypes/glass/pane",
   "code": "glasspane",
+  "class": "BlockGlassPane",
   "variantgroups": [
     {
       "code": "glass",
@@ -9,7 +8,7 @@
     },
     {
       "code": "wood",
-      "states": [],
+      "states": [  ],
       "loadFromProperties": "bdtree:block/wood"
     },
     {
@@ -17,6 +16,14 @@
       "states": [ "ns", "ew" ]
     }
   ],
+  "attributesByType": {
+    "*-ns": {
+      "handbook": { "exclude": true }
+    },
+    "*-ew": {
+      "handbook": { "groupBy": [ "glasspane-*" ] }
+    }
+  },
   "shapebytype": {
     "*-ew": {
       "base": "game:block/glass/pane",
@@ -28,23 +35,32 @@
     }
   },
   "textures": {
-    "textures": {
-      "debarked": {
-        "base": "block/wood/debarked/{wood}",
-        "overlays": [ "game:block/slightlydarker" ]
-      },
-      "planks": {
-        "base": "block/wood/planks/{wood}1",
-        "overlays": [ "game:block/slightlydarker" ]
-      },
-      "glass": { "base": "game:block/glass/{glass}" },
-      "putty": { "base": "game:block/glass/frame" }
-    }
+    "debarked": {
+      "base": "block/wood/debarked/{wood}",
+      "overlays": [ "game:block/slightlydarker" ]
+    },
+    "planks": {
+      "base": "block/wood/planks/{wood}1",
+      "overlays": [ "game:block/slightlydarker" ]
+    },
+    "glass": { "base": "game:block/glass/{glass}" },
+    "putty": { "base": "game:block/glass/frame" }
   },
+  "drawtype": "json",
   "creativeinventory": {
     "general": [ "*-ew" ],
     "construction": [ "*-ew" ],
     "bdtree": [ "*-ew" ]
+  },
+  "blockmaterial": "Glass",
+  "replaceable": 900,
+  "lightAbsorption": 0,
+  "resistance": 0.2,
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
   },
   "sounds": {
     "place": "game:player/buildhigh",
@@ -55,5 +71,48 @@
     "ambientBlockCount": 4,
     "ambientSoundType": "Weather",
     "ambientMaxDistanceMerge": 1
+  },
+  "collisionselectionboxByType": {
+    "*-ns": {
+      "x1": 0,
+      "y1": 0,
+      "z1": 0.425,
+      "x2": 1,
+      "y2": 1,
+      "z2": 0.575
+    },
+    "*-ew": {
+      "x1": 0.425,
+      "y1": 0,
+      "z1": 0,
+      "x2": 0.575,
+      "y2": 1,
+      "z2": 1
+    }
+  },
+  "groundTransform": {
+    "origin": {
+      "x": 0.5,
+      "y": -0.01,
+      "z": 0.5
+    }
+  },
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldRightReadyAnimation": "heldblockready",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.23,
+      "y": -0.91,
+      "z": -0.8
+    },
+    "rotation": {
+      "x": -2,
+      "y": 25,
+      "z": -78
+    },
+    "scale": 0.4
   }
+
+
 }
