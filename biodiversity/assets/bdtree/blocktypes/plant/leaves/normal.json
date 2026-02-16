@@ -24,7 +24,7 @@
       ]
     },
     "treeFellingGroupCodeByType": {
-      "*-placed-willow": "0willow",
+      "*-grown-willow": "0willow",
       "*-placed1-willow": "1willow",
       "*-placed2-willow": "2willow",
       "*-placed3-willow": "3willow",
@@ -33,7 +33,7 @@
       "*-placed6-willow": "6willow",
       "*-placed7-willow": "7willow",
 
-      "*-placed-bearnut": "0bearnut",
+      "*-grown-bearnut": "0bearnut",
       "*-placed1-bearnut": "1bearnut",
       "*-placed2-bearnut": "2bearnut",
       "*-placed3-bearnut": "3bearnut",
@@ -42,7 +42,7 @@
       "*-placed6-bearnut": "6bearnut",
       "*-placed7-bearnut": "7bearnut",
 
-      "*-placed-leadwood": "0leadwood",
+      "*-grown-leadwood": "0leadwood",
       "*-placed1-leadwood": "1leadwood",
       "*-placed2-leadwood": "2leadwood",
       "*-placed3-leadwood": "3leadwood",
@@ -51,7 +51,7 @@
       "*-placed6-leadwood": "6leadwood",
       "*-placed7-leadwood": "7leadwood",
 
-      "*-placed-bluemahoe": "0bluemahoe",
+      "*-grown-bluemahoe": "0bluemahoe",
       "*-placed1-bluemahoe": "1bluemahoe",
       "*-placed2-bluemahoe": "2bluemahoe",
       "*-placed3-bluemahoe": "3bluemahoe",
@@ -60,7 +60,7 @@
       "*-placed6-bluemahoe": "6bluemahoe",
       "*-placed7-bluemahoe": "7bluemahoe",
 
-      "*-placed-pyramidalpoplar": "0poplar",
+      "*-grown-pyramidalpoplar": "0poplar",
       "*-placed1-pyramidalpoplar": "1poplar",
       "*-placed2-pyramidalpoplar": "2poplar",
       "*-placed3-pyramidalpoplar": "3poplar",
@@ -69,7 +69,7 @@
       "*-placed6-pyramidalpoplar": "6poplar",
       "*-placed7-pyramidalpoplar": "7poplar",
 
-      "*-placed-weepingwillow": "0willow",
+      "*-grown-weepingwillow": "0willow",
       "*-placed1-weepingwillow": "1willow",
       "*-placed2-weepingwillow": "2willow",
       "*-placed3-weepingwillow": "3willow",
@@ -78,7 +78,7 @@
       "*-placed6-weepingwillow": "6willow",
       "*-placed7-weepingwillow": "7willow",
 
-      "*-placed-bluespruce": "0spruce",
+      "*-grown-bluespruce": "0spruce",
       "*-placed1-bluespruce": "1spruce",
       "*-placed2-bluespruce": "2spruce",
       "*-placed3-bluespruce": "3spruce",
@@ -87,7 +87,7 @@
       "*-placed6-bluespruce": "6spruce",
       "*-placed7-bluespruce": "7spruce",
 
-      "*-placed-*": "0{wood}",
+      "*-grown-*": "0{wood}",
       "*-placed1-*": "1{wood}",
       "*-placed2-*": "2{wood}",
       "*-placed3-*": "3{wood}",
@@ -114,9 +114,9 @@
   ],
   "skipVariants": [ "*-chlorociboria*", "*-charred*" ],
   "creativeinventory": {
-    "general": [ "leaves-placed-*" ],
-    "flora": [ "leaves-placed-*" ],
-    "bdtree": [ "leaves-placed-*" ]
+    "general": [ "leaves-grown-*" ],
+    "flora": [ "leaves-grown-*" ],
+    "bdtree": [ "leaves-grown-*" ]
   },
   "shape": {
     "base": "game:block/plant/leaves/normal",
@@ -204,7 +204,7 @@
   "drops": [
     {
       "type": "item",
-      "code": "bdtree:treeseed-{wood}",
+      "code": "treeseed-{wood}",
       "quantityByType": {
         "*-douglasfir": {
           "avg": 0.01,
