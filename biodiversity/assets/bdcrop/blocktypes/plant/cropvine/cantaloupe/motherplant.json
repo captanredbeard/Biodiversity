@@ -2,7 +2,7 @@
 	code: "crop",
 	class: "BlockCrop",
 	variantgroups: [
-		{ code: "type", states: ["watermelon"] },
+		{ code: "type", states: ["cantaloupe"] },
 		{ code: "stage", states: ["1", "2", "3", "4", "5", "6", "7", "8"] },
 	],
 	creativeinventory: { "general": [""], "flora": [""], "bdcrop": [""] },
@@ -33,7 +33,7 @@
 	sideao: { all: false },
 	drops: [],
 	cropProps: {
-		behaviors: [{name: "Melon", properties: {vineGrowthStage: 3, vineWitherStage: 8, vineGrowthQuantity: { dist: "invexp", avg: 2, var: 3  }, melonBlockCode: "watermelon", domainCode: "bdcrop" }}],
+		behaviors: [{name: "Melon", properties: {vineGrowthStage: 3, vineWitherStage: 8, vineGrowthQuantity: { dist: "invexp", avg: 2, var: 3  }, melonBlockCode: "cantaloupe", domainCode: "bdcrop" }}],
 		requiredNutrient: "N",
 		nutrientConsumption: 30,
 		growthStages: 8,
@@ -44,10 +44,10 @@
 		heatDamageAbove: 44
 	},
 	texturesByType: {
-		"crop-watermelon-1": {
+		"crop-cantaloupe-1": {
 			"all": { base: "block/plant/cropvine/stage1-northandsouth" }
 		},
-		"crop-watermelon-*": {
+		"crop-cantaloupe-*": {
 			"south": { base: "block/plant/cropvine/stage{stage}-south" },
 			"north": { base: "block/plant/cropvine/stage{stage}-north" },
 		}
