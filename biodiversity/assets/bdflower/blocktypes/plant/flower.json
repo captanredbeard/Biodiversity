@@ -1,0 +1,294 @@
+{
+	code: "flower",
+	class: "BlockPlant",
+	behaviors: [ { name: "DropNotSnowCovered" } ],
+	variantgroups: [
+		{ code: "flower", states: [], loadFromProperties: "bdflower:block/flower" },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		butterflyFeedByType: {
+			"flower-horsetail-*": false,
+			"*": true
+		},
+		beeFeedByType: {
+			"flower-horsetail-*": false,
+			"*": true
+		},
+		reinforcable: true,
+		sitHeightByType: {
+			"flower-catmint-*": 0.8125,
+			"flower-cornflower-*": 0.6,
+			"flower-forgetmenot-*": 0.2,
+			"flower-lilyofthevalley-*": 0.2,
+			"flower-edelweiss-*": 0.46,
+			"flower-heather-*": 0.4375,
+			"flower-horsetail-*": 0.75,
+			"flower-orangemallow-*": 0.6875,
+			"flower-wilddaisy-*": 0.85,
+			"flower-westerngorse-*": 0.45,
+			"flower-cowparsley-*": 0.9375,
+			"flower-goldenpoppy-*": 0.41,
+			"flower-woad-*": 0.8125,
+			"flower-redtopgrass-*": 0.75
+		},
+		overrideRandomDrawOffsetByType: {
+			"flower-heather-*": 3
+		},
+		plantContainable: {
+			smallContainerByType: {
+				"flower-lilyofthevalley-*": { 
+					shape: { base: "block/clay/flowerpot/contents-lilyofthevalley" }
+				},
+				"*": {
+					shape: { base: "block/clay/flowerpot/contents" },
+					textures: {
+						"north": { base: "block/plant/potted/{flower}" },
+						"south": { base: "block/plant/potted/{flower}" }
+					}
+				}
+			},
+			largeContainerByType: {
+				"flower-lilyofthevalley-*": { 
+					shape: { base: "block/clay/planter/contents-lilyofthevalley" }
+				},
+				"*": {
+					shape: { base:  "block/clay/planter/contents" },
+					textures: {
+						"north": { base: "block/plant/potted/{flower}" },
+						"south": { base: "block/plant/potted/{flower}" }
+					}
+				}
+			}
+		},
+		drawnHeightByType: {
+			"flower-goldenpoppy-*": 32,
+			"flower-edelweiss-*": 36,
+			"flower-forgetmenot-*": 16,
+			"flower-horsetail-*": 40,
+			"flower-heather-*": 28,
+			"flower-redtopgrass-*": 38,
+			
+			"flower-lilyofthevalley-*": 48,
+			"flower-bluebell-*": 48,	
+			"*": 48
+		},
+		allowOverlays: false
+	},
+	creativeinventory: { "general": ["*-free"], "flora": ["*-free"] },
+	renderpass: "OpaqueNoCull",
+	drawtypeByType: {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	shapeInventoryByType: {
+		"flower-horsetail-*": { base: "item/resource/horsetail" }
+	},
+	shapeByType: {
+		"*": { base: "block/plant/flower/1patch-3faces-24x24" }
+	},
+	lod2shapeByType: {
+		"flower-edelweiss-*":  { base: "block/plant/flower/1patch-3faces-16x16" },
+		"flower-forgetmenot-*":  { base: "block/plant/flower/1patch-3faces-16x16" },
+		"*": { base: "block/plant/flower/1patch-cross-24x24" }
+	},
+	texturesByType: {
+		"flower-orangemallow-*": {
+			north1: { base: "block/plant/flower/petal/{flower}1" },
+			south1: { base: "block/plant/flower/petal/{flower}3" },
+			northTinted1: { base: "block/plant/flower/stem/{flower}1" },
+			southTinted1: { base: "block/plant/flower/stem/{flower}3" },
+			flower2: { base: "block/plant/flower/petal/{flower}2" },
+			flower2Tinted: { base: "block/plant/flower/stem/{flower}2" }
+		},
+		"@.*-(woad|horsetail|cowparsley|goldenpoppy)-.*": {
+			north1: { base: "block/plant/flower/petal/{flower}1" },
+			south1: { base: "block/plant/flower/petal/{flower}1" },
+			northTinted1: { base: "block/plant/flower/stem/{flower}1" },
+			southTinted1: { base: "block/plant/flower/stem/{flower}1" },
+			north2: { base: "block/plant/flower/petal/{flower}2" },
+			south2: { base: "block/plant/flower/petal/{flower}2" },
+			northTinted2: { base: "block/plant/flower/stem/{flower}2" },
+			southTinted2: { base: "block/plant/flower/stem/{flower}2" },
+			north3: { base: "block/plant/flower/petal/{flower}3" },
+			south3: { base: "block/plant/flower/petal/{flower}3" },
+			northTinted3: { base: "block/plant/flower/stem/{flower}3" },
+			southTinted3: { base: "block/plant/flower/stem/{flower}3" }
+		},
+		"flower-mugwort-*": {
+			north1: { base: "block/plant/flower/petal/{flower}1" },
+			north2: { base: "block/plant/flower/petal/{flower}2" },
+			north3: { base: "block/plant/flower/petal/{flower}3" },
+			south1: { base: "block/plant/flower/petal/{flower}1" },
+			south2: { base: "block/plant/flower/petal/{flower}2" },
+			south3: { base: "block/plant/flower/petal/{flower}3" },
+			northTinted1: { base: "block/transparent" },
+			southTinted1: { base: "block/transparent" },
+			northTinted2: { base: "block/transparent" },
+			southTinted2: { base: "block/transparent" },
+			northTinted3: { base: "block/transparent" },
+			southTinted3: { base: "block/transparent" }
+		},
+		"flower-ghostpipe*": {
+			north1: { base: "block/plant/flower/petal/{flower}*" },
+			south1: { base: "block/plant/flower/petal/{flower}*" },
+			northTinted1: { base: "block/transparent" },
+			southTinted1: { base: "block/transparent" }
+		},
+		"flower-lilyofthevalley-*": { 
+			stem1: { base: "block/plant/flower/stem/{flower}1" },
+			stem2: { base: "block/plant/flower/stem/{flower}2" },
+			stem3: { base: "block/plant/flower/stem/{flower}3" },
+			petal1: { base: "block/plant/flower/petal/{flower}1" },
+			petal2: { base: "block/plant/flower/petal/{flower}2" },
+			petal3: { base: "block/plant/flower/petal/{flower}3" },
+			leaves1: { base: "block/plant/flower/stem/{flower}leaves1" },
+			north1: { base: "block/transparent" },
+			south1: { base: "block/transparent" },
+			northTinted1: { base: "block/transparent" },
+			southTinted1: { base: "block/transparent" }
+		},
+		"flower-daffodil-*": {
+			stem1: { base: "block/plant/flower/stem/{flower}1" },
+			stem2: { base: "block/plant/flower/stem/{flower}2" },
+			stem3: { base: "block/plant/flower/stem/{flower}3" },
+			petal1: { base: "block/plant/flower/petal/{flower}1" },
+			petal2: { base: "block/plant/flower/petal/{flower}2" },
+			petal3: { base: "block/plant/flower/petal/{flower}3" },
+			leaves1: { base: "block/plant/flower/stem/{flower}leaves1" },
+			north1: { base: "block/transparent" },
+			south1: { base: "block/transparent" },
+			northTinted1: { base: "block/transparent" },
+			southTinted1: { base: "block/transparent" }
+		},
+		"flower-bluebell-*": {
+			stem1: { base: "block/plant/flower/stem/{flower}1" },
+			stem2: { base: "block/plant/flower/stem/{flower}2" },
+			stem3: { base: "block/plant/flower/stem/{flower}3" },
+			petal1: { base: "block/plant/flower/petal/{flower}1" },
+			petal2: { base: "block/plant/flower/petal/{flower}2" },
+			petal3: { base: "block/plant/flower/petal/{flower}3" },
+			leaves1: { base: "block/plant/flower/stem/{flower}leaves1" },
+			north1: { base: "block/transparent" },
+			south1: { base: "block/transparent" },
+			northTinted1: { base: "block/transparent" },
+			southTinted1: { base: "block/transparent" }
+		},
+		"*": {
+			north1: { base: "block/plant/flower/petal/{flower}*" },
+			south1: { base: "block/plant/flower/petal/{flower}*" },
+			northTinted1: { base: "block/plant/flower/stem/{flower}*" },
+			southTinted1: { base: "block/plant/flower/stem/{flower}*" },
+			north2: { base: "block/plant/flower/petal/{flower}*" },
+			south2: { base: "block/plant/flower/petal/{flower}*" },
+			northTinted2: { base: "block/plant/flower/stem/{flower}*" },
+			southTinted2: { base: "block/plant/flower/stem/{flower}*" },
+			north3: { base: "block/plant/flower/petal/{flower}*" },
+			south3: { base: "block/plant/flower/petal/{flower}*" },
+			northTinted3: { base: "block/plant/flower/stem/{flower}*" },
+			southTinted3: { base: "block/plant/flower/stem/{flower}*" },
+			flower2: { base: "block/plant/flower/petal/{flower}*" },
+			flower2Tinted: { base: "block/plant/flower/stem/{flower}*" }
+		}
+	},
+	randomDrawOffset: true,
+	blockmaterialByType: {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	faceCullModeByType: {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	sideopaqueByType: {
+		"*-snow": { all: false, down: true },
+		"*": { all: false }
+	},
+	sidesolid: {
+		all: false
+	},
+	replaceable: 3000,
+	lightAbsorption: 0,
+	randomizeRotations: true,
+	resistance: 0.5,
+	collisionbox: null,
+	selectionboxByType: {
+	 	"flower-cornflower-*": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.75, z2: 0.875 },
+	 	"flower-cowparsley-*": { x1: 0.0625, y1: 0, z1: 0.125, x2: 0.875, y2: 0.875, z2: 0.9375 },
+	 	"flower-woad-*": { x1: 0.0625, y1: 0, z1: 0.125, x2: 0.875, y2: 0.875, z2: 0.9375 },
+	 	"flower-wilddaisy-*": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.75, z2: 0.875 },
+	 	"flower-redtopgrass-*": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.5, z2: 0.875 },
+	 	"flower-catmint-*": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.625, z2: 0.875 },
+	 	"flower-heather-*": { x1: 0.0625, y1: 0, z1: 0.125, x2: 0.875, y2: 0.3125, z2: 0.9375 },
+	 	"*": { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.25, z2: 0.875 }
+	},
+	dropsByType: {
+		"flower-ghostpipe*": []
+	},
+	guitransformByType: {
+		"flower-forgetmenot-*": {
+			rotation: { x: -33, y: -18, z: 0 },
+			origin: { x: 0.44, y: 0.2, z: 0.57 },
+			scale: 1.63
+		},
+		"flower-lilyofthevalley-*": {
+			rotation: { x: -33, y: -150, z: 0 },
+			origin: { x: 0.5, y: 0.42, z: 0.5 },
+			scale: 1.63
+		},
+		"flower-edelweiss-*": {
+			rotation: { x: -33, y: -18, z: 0 },
+			origin: { x: 0.44, y: 0.4, z: 0.57 },
+			scale: 1.63
+		},
+		"flower-horsetail-*": {
+			rotation: { x: 166, y: 34, z: -40 },
+			origin: { x: 0.53, y: 0.13, z: 0.55 },
+			scale: 3.3
+		},
+		"*": {
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.6, z: 0.5 }
+		}
+	},
+	tpHandTransformByType: {
+		"flower-horsetail-*": {
+			translation: { x: -0.7, y: -0.2, z: -0.5 },
+			rotation: { x: 16, y: 25, z: -25 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.9
+		},
+		"*": {
+			translation: { x: -1, y: -0.1, z: -1 },
+			rotation: { x: 71, y: 0, z: -84 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.48
+		}
+	},
+	groundTransformByType: {
+		"flower-horsetail-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 4.5
+		},
+		"flower-forgetmenot-*": {
+			scale: 2.64
+		}
+	},
+	sounds: {
+		place: "block/plant",
+		break: "block/plant",
+		hit: "block/plant",
+	},
+	rainPermeableByType: {
+		"flower-horsetail-*": true,
+		"*": false
+	},
+	materialDensity: 200,
+	frostable: true,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	}
+}

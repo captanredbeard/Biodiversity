@@ -1,7 +1,26 @@
 {
-	"inheritFrom": "game:blocktypes/wood/woodtyped/log-section",
 	"code": "logsection",
+	// BlockLogSection contains placement orientation code
 	"class": "BlockLogSection",
+	"behaviorsByType": {
+		"*-grown-*": [
+			{
+				"name": "PushEventOnBlockBroken",
+				"properties": { "eventName": "testForDecay" }
+			}
+		]
+	},
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "logsection-*-{wood}-*" ]
+		},
+		"canChisel": false,
+		"preventsDecay": true,
+		"treeFellingGroupCodeByType": {
+			"*-grown-*": "{wood}"
+		},
+		"treeFellingGroupSpreadIndex": 4
+	},
 	"variantgroups": [
 		{
 			"code": "type",
@@ -38,10 +57,12 @@
 			"rotateZ": 270
 		}
 	},
+	"blockmaterial": "Wood",
+	"requiredMiningTier": 1,
 	"textures": {
 		"bark": { "base": "block/wood/bark/{wood}-2x2" },
 		"wood": { "base": "block/wood/treetrunk/{wood}-2x2" },
-		"inside": { "base": "block/wood/debarked/{wood}-2x2" },
+		"inside": { "base": "block/wood/debarked/redwood-2x2" },
 
 		"north": { "base": "block/wood/treetrunk/{wood}" },
 		"up": { "base": "block/wood/treetrunk/{wood}" },
@@ -57,6 +78,8 @@
 		"inside-west": { "base": "block/wood/debarked/{wood}" }
 
 	},
+	"replaceable": 500,
+	"resistance": 4.5,
 	"sounds": {
 		"place": "game:block/planks",
 		"walk": "game:walk/wood",
@@ -69,6 +92,13 @@
 			}
 		}
 	},
+	"drops": [
+		{
+			"type": "block",
+			"code": "bdtree:logsection-placed-{wood}-ne-ud",
+			"quantity": { "avg": 1 }
+		}
+	],
 	"combustiblePropsByType": {
 		"*-banyan-*": {
 			"burnTemperature": 800,
@@ -90,5 +120,23 @@
 			"burnTemperature": 800,
 			"burnDuration": 72
 		}
+	},
+	"maxStackSize": 16,
+	"materialDensity": 700,
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldRightReadyAnimation": "heldblockready",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.23,
+			"y": -0.91,
+			"z": -0.8
+		},
+		"rotation": {
+			"x": -2,
+			"y": 25,
+			"z": -78
+		},
+		"scale": 0.4
 	}
 }
