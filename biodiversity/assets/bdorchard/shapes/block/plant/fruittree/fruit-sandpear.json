@@ -10,7 +10,7 @@
 		"fruit": [16,16]
 	},
 	"textures": {
-		"base""block/plant/fruittree/sandpear/ripe"
+		"base":"block/plant/fruittree/sandpear/ripe"
 	},
 	"elements": [
 		{

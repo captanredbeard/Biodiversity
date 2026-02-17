@@ -9,7 +9,7 @@
 	},
 	"textures": {
 		"fruitleaves": "item/food/fruit/fruitleaves",
-		"ripe":"block/plant/fruittree/block/plant/fruittree/falseorange/ripe"
+		"ripe":"block/plant/fruittree/falseorange/ripe"
 	},
 	"elements": [
 		{

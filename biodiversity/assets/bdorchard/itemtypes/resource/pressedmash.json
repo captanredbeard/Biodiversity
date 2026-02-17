@@ -1,0 +1,41 @@
+{
+	"inheritFrom": "game:itemtypes/resource/pressedmash",
+	"code": "pressedmash",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{
+			"code": "fruit",
+			"states": [ "avocado" ],
+			"loadFromProperties": "bdorchard:block/fruit"
+		}
+	],
+	"skipVariants": [ "*-chinaberry", "*-nectarine", "*-waterapple", "*-bitterorange", "*-damsonplum", "*-redplum", "*-redcherryplum", "*-kasturi", "*-cempedak", "*-makrut", "*-pulasan", "*-ber", "*-marang", "*-quincelet" ],
+	"attributes": {
+		"juiceablePropertiesByType": {
+			"*": {
+				"liquidStack": {
+					"type": "item",
+					"code": "juiceportion-{fruit}",
+					"stacksize": 1
+				},
+				"pressedStack": {
+					"type": "item",
+					"code": "pressedmash-{fruit}",
+					"stacksize": 1
+				}
+			}
+		}
+	},
+	"shape": { "base": "game:item/pressedmash" },
+	"texturesbytype": {
+		"*": {
+			"material": { "base": "block/food/pie/fill-{fruit}" }
+
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"bdorchard": [ "*" ]
+	}
+}

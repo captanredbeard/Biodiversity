@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"ripe":"block/plant/fruittree/block/plant/fruittree/wildapple/ripe",
+		"ripe":"block/plant/fruittree/wildapple/ripe",
 		"fruitleaves": "game:item/food/fruit/fruitleaves"
 	},
 	"elements": [

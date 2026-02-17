@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"fill-cloudberry": "block/food/pie/fill-ginkgopulp",
+		"fill-cloudberry": "block/food/pie/fill-ginkgopulp"
 	},
 	"elements": [
 		{

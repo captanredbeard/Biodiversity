@@ -11,7 +11,7 @@
 	},
 	"textures": {
 		"saguaro": "game:item/food/fruit/saguaro",
-		"ripe":"block/plant/fruittree/block/plant/fruittree/cempedak/ripe"
+		"ripe":"block/plant/fruittree/cempedak/ripe"
 	},
 	"elements": [
 		{

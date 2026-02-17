@@ -9,7 +9,7 @@
 	},
 	"textures": {
 		"fruitleaves": "item/food/fruit/fruitleaves",
-		"ripe":"block/plant/fruittree/block/plant/fruittree/makrut/ripe"
+		"ripe":"block/plant/fruittree/makrut/ripe"
 	},
 	"elements": [
 		{

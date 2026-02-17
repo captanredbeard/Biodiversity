@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"ripe2":"block/plant/fruittree/block/plant/fruittree/burgundyapple/ripe",
+		"ripe2":"block/plant/fruittree/burgundyapple/ripe",
 		"fruitleaves": "game:item/food/fruit/fruitleaves"
 	},
 	"elements": [

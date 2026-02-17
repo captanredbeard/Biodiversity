@@ -1,0 +1,119 @@
+{
+  "code": "fruit",
+  "variants": [
+    {
+      "code": "achacha"
+    },
+    {
+      "code": "apricot"
+    },
+    {
+      "code": "aronia"
+    },
+    {
+      "code": "ber"
+    },
+    {
+      "code": "bitterorange"
+    },
+    {
+      "code": "cempedak"
+    },
+    {
+      "code": "cherryplum"
+    },
+    {
+      "code": "chinaberry"
+    },
+    {
+      "code": "crabapple"
+    },
+    {
+      "code": "damsonplum"
+    },
+    {
+      "code": "engkala"
+    },
+    {
+      "code": "fig"
+    },
+    {
+      "code": "grapefruit"
+    },
+    {
+      "code": "guajava"
+    },
+    {
+      "code": "hawthorn"
+    },
+    {
+      "code": "illawarra"
+    },
+    {
+      "code": "jujube"
+    },
+    {
+      "code": "kasturi"
+    },
+    {
+      "code": "lemon"
+    },
+    {
+      "code": "lemonaspen"
+    },
+    {
+      "code": "lime"
+    },
+    {
+      "code": "loquat"
+    },
+    {
+      "code": "makrut"
+    },
+    {
+      "code": "marang"
+    },
+    {
+      "code": "nectarine"
+    },
+    {
+      "code": "pomelo"
+    },
+    {
+      "code": "pulasan"
+    },
+    {
+      "code": "purpleplum"
+    },
+    {
+      "code": "quince"
+    },
+    {
+      "code": "rambutan"
+    },
+    {
+      "code": "redcherryplum"
+    },
+    {
+      "code": "redplum"
+    },
+    {
+      "code": "rowanberry"
+    },
+    {
+      "code": "sandpear"
+    },
+    {
+      "code": "silvernettle"
+    },
+    {
+      "code": "sorb"
+    },
+    {
+      "code": "wani"
+    },
+    {
+      "code": "waterapple"
+    }
+  ]
+}
