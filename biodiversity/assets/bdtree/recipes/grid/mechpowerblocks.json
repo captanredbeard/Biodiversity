@@ -16,7 +16,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "block", code: "windmillrotor-wood-north", quantity: 1 }
+		output: { type: "block", code: "game:windmillrotor-wood-north", quantity: 1 }
 	},
 	{
 		ingredientPattern: "_H_,_C_,RSF",
@@ -35,7 +35,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "block", code: "windmillrotor-wood-north", quantity: 1 }
+		output: { type: "block", code: "game:windmillrotor-wood-north", quantity: 1 }
 	},
 	{
 		ingredientPattern: "RBR,BAB,RBR",
@@ -197,7 +197,7 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "block", code: "spurgear-s", quantity: 1 }
+		output: { type: "block", code: "game:spurgear-s", quantity: 1 }
 	},
 	{
 		ingredientPattern: "HX_,PCP,RSF",

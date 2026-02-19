@@ -23,6 +23,6 @@
 		},
 		width: 3,
 		height: 3,
-		output: { type: "block", code: "drystonefence-mixed-ew-free", quantity: 1 }
+		output: { type: "block", code: "game:drystonefence-mixed-ew-free", quantity: 1 }
 	}
 ]
