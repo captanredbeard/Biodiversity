@@ -6,7 +6,7 @@
 		{
 			"code": "fruit",
 			"states": [ "avocado" ],
-			"loadFromProperties": "bdorchard:block/fruit"
+			//"loadFromProperties": "bdorchard:block/fruit"
 		}
 	],
 	"skipVariants": [ "*-chinaberry", "*-nectarine", "*-waterapple", "*-bitterorange", "*-damsonplum", "*-redplum", "*-redcherryplum", "*-kasturi", "*-cempedak", "*-makrut", "*-pulasan", "*-ber", "*-marang", "*-quincelet" ],
