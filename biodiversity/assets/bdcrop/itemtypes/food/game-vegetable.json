@@ -45,11 +45,11 @@
 	"storageFlags": 33,
 	"nutritionPropsByType": {
 		"*-potato": {
-			"satiety": 80,
+			"satiety": 100,
 			"foodcategory": "Vegetable"
 		},
 		"*-bakedpotato": {
-			"satiety": 110,
+			"satiety": 130,
 			"foodcategory": "Vegetable"
 		}
 	},
@@ -57,7 +57,7 @@
 		"*": [
 			{
 				"type": "Perish",
-				"freshHours": { "avg": 360 },
+				"freshHours": { "avg": 720 },
 				"transitionHours": { "avg": 48 },
 				"transitionedStack": {
 					"type": "item",

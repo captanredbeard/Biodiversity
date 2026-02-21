@@ -12,3 +12,10 @@ Disabled Grapes.json in fruit itemtype
 
 2/21/2026 - TLT
 removed all instances of strawberry, false strawberry, and garden strawberry from itemtype/food/fruit/fruit.json
+
+PUSH
+
+removed all instances of oxheart and roma tomato from: itemtypes, item/food, shapes, and textures.  Left regular tomato in files
+removed all instances of strawberry from textures and item folders
+moved potato blocktype up one folder
+Completed potato block V1 in game, still need to impliment making seed and cooking in fire recipies

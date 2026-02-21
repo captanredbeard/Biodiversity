@@ -18,9 +18,12 @@
 		"bdcrop": ["*"]
 	},
 	renderpass: "OpaqueNoCull",
-	shape: { base: "block/plant/croptuber/potato/tallcrosspotato" },
+	shape: { base: "block/plant/croptuber/crosspotato" },
 	blockmaterial: "Plant",
 	randomizeRotations: true,
+	textures: {
+		all : { base: "block/plant/crop/potato/w{stage}" },
+	},
 	attributes: {
 		butterflyFeedByType: {
 			"*-4": true,
@@ -71,7 +74,7 @@
 				code: "vegetable-potato",
 				quantity: {
 					avg: 5,
-					var: 2
+					var: 1
 				}
 			},
 		],
@@ -81,7 +84,7 @@
 				code: "vegetable-potato",
 				quantity: {
 					avg: 9,
-					var: 3
+					var: 2
 				}
 			},
 		],

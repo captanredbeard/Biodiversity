@@ -1,0 +1,21 @@
+[
+  {
+    "ingredientPattern": "K,H",
+    "enabled": true,
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "H": {
+        "type": "item",
+        "code": "game:game-vegtable-*",
+        "quantity": 1,
+        "name": "type",
+        "allowedVariants": ["potato"]
+      }
+    },
+    "name": "vegetableseeds",
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:seeds-{type}", "quantity": 2 }
+  },
+]
