@@ -70,6 +70,7 @@
 
 <ItemGroup>
   <Folder Include="assets\bdcrop\itemtypes\food\vegetable\" />
+  <Folder Include="assets\bdcrop\recipes\" />
   <Folder Include="assets\bdherb\blocktypes\plant\aquatic\" />
   <Folder Include="assets\bdherb\blocktypes\plant\NewFolder\" />
   <Folder Include="assets\bdtree\textures\block\wood\bark\dead\" />

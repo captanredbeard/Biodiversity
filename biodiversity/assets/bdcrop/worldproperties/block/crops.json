@@ -2,6 +2,9 @@
     "code": "crops",
   "variants": [
     {
+      "code": "potato"
+    },
+    {
       "code": "leek"
     },
     {

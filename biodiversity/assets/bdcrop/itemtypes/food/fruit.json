@@ -43,7 +43,6 @@
 			"*-pittedbreadfruit": { "base": "game:block/food/pie/fill-breadfruit" },
 			"*-marang": { "base": "game:block/food/pie/fill-breadfruit" },
 			"*-pittedmarang": { "base": "game:block/food/pie/fill-breadfruit" },
-			"*-greenstrawberry": { "base": "block/food/pie/fill-strawberry" },
 			"*-loganberry": { "base": "block/food/pie/fill-raspberry" },
 			"*-boysenberry": { "base": "block/food/pie/fill-brambleberry" },
 			"*-beachrose": { "base": "block/food/pie/fill-dogrose" },
@@ -88,11 +87,11 @@
 				"health": 2,
 				"foodcategory": "Fruit"
 			},
-			"@*-(gardenstrawberry|knyazberry|pittedcherry|redgrape|whitegrape|muskmelon|mirzamelon|honeydewmelon|burgundyapple|pittedjackfruit|grapefruit|boysenberry)": {
+			"@*-(knyazberry|pittedcherry|redgrape|whitegrape|muskmelon|mirzamelon|honeydewmelon|burgundyapple|pittedjackfruit|grapefruit|boysenberry)": {
 				"satiety": 140,
 				"foodcategory": "Fruit"
 			},
-			"@*-(brambleberry|gooseberry|honeysuckle|quince|apricot|nectarine|fig|ugni|guajava|foxgrape|blackgrape|naranjilla|hairyeggplant|cocona|pittedapticot|pittedbreadfruit|greenstrawberry|greatroseapple|pittedbeachalmond|lillypillypink|lillypillywhite|lillypillyblue|munthari|achacha|lemon|kolkhoznitsa|kiwi|redplum|purpleplum|greengage|wani|mazzard|bilberry|swamphuckle|rambutan|pulasan|granadilla|sorb|sandpear|loganberry|josta)": {
+			"@*-(brambleberry|gooseberry|honeysuckle|quince|apricot|nectarine|fig|ugni|guajava|foxgrape|blackgrape|naranjilla|hairyeggplant|cocona|pittedapticot|pittedbreadfruit|greatroseapple|pittedbeachalmond|lillypillypink|lillypillywhite|lillypillyblue|munthari|achacha|lemon|kolkhoznitsa|kiwi|redplum|purpleplum|greengage|wani|mazzard|bilberry|swamphuckle|rambutan|pulasan|granadilla|sorb|sandpear|loganberry|josta)": {
 				"satiety": 120,
 				"foodcategory": "Fruit"
 			},
@@ -196,7 +195,7 @@
 				"health": -18,
 				"foodcategory": "Fruit"
 			},
-			"@*-(huckleberry|cherryplum|damsonplum|sloe|citron|feijoa|falseorange|sallowthorn|kumquat|lingonberry|loquat|numnum|turkscap|rowanberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|pittedchinaberry|jujube|watermelon|blackelder|caperberry|hairyappleberry|wildapple|beachrose|bitterorange|roseapple|waterapple|dewberry|lime|kolomikta|kasturi|pittedcempedak|crabapple|strawberry|pittedmarang|juaacu|wildtomato|ginkgopulp)": {
+			"@*-(huckleberry|cherryplum|damsonplum|sloe|citron|feijoa|falseorange|sallowthorn|kumquat|lingonberry|loquat|numnum|turkscap|rowanberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|pittedchinaberry|jujube|watermelon|blackelder|caperberry|hairyappleberry|wildapple|beachrose|bitterorange|roseapple|waterapple|dewberry|lime|kolomikta|kasturi|pittedcempedak|crabapple|pittedmarang|juaacu|wildtomato|ginkgopulp)": {
 				"satiety": 90,
 				"foodcategory": "Fruit"
 			},
@@ -210,7 +209,7 @@
 				"health": 0.5,
 				"foodcategory": "Fruit"
 			},
-			"@*-(bunchberry|crowberry|dogrose|elderberry|beautyberry|falsestrawberry|fractureberry|silvernettle|pandanbits|bluetongue|rubysaltbush|pineheath|beachalmondwhole|illawarra|honeypots|cheeseberry|creepingpine|kakaha|pilo|mingimingi|purpleappleberry|virgingrape|pittedyew|redcherryplum|ber|quincelet|ginkgowhole)": {
+			"@*-(bunchberry|crowberry|dogrose|elderberry|beautyberry|fractureberry|silvernettle|pandanbits|bluetongue|rubysaltbush|pineheath|beachalmondwhole|illawarra|honeypots|cheeseberry|creepingpine|kakaha|pilo|mingimingi|purpleappleberry|virgingrape|pittedyew|redcherryplum|ber|quincelet|ginkgowhole)": {
 				"satiety": 60,
 				"foodcategory": "Fruit"
 			},
@@ -342,10 +341,6 @@
 			},
 			"*-ber": {
 				"texture": "block/food/pie/fill-jujube",
-				"partType": "Filling"
-			},
-			"*-greenstrawberry": {
-				"texture": "block/food/pie/fill-strawberry",
 				"partType": "Filling"
 			},
 			"*-kasturi": {
@@ -741,19 +736,6 @@
 					"stacksize": 1
 				}
 			},
-			"*-greenstrawberry": {
-				"litresPerItem": 0.3125,
-				"liquidStack": {
-					"type": "item",
-					"code": "juiceportion-strawberry",
-					"stacksize": 1
-				},
-				"pressedStack": {
-					"type": "item",
-					"code": "pressedmash-strawberry",
-					"stacksize": 1
-				}
-			},
 			"*-beachalmondwhole": {
 				"litresPerItem": 0.3125,
 				"liquidStack": {
@@ -1133,7 +1115,7 @@
 			"satiety": 160,
 			"foodcategory": "Fruit"
 		},
-		"@*-(pittedcherry|gardenstrawberry|knyazberry|redgrape|whitegrape|mirzamelon|muskmelon|honeydewmelon|burgundyapple|pittedjackfruit|grapefruit|boysenberry)": {
+		"@*-(pittedcherry|knyazberry|redgrape|whitegrape|mirzamelon|muskmelon|honeydewmelon|burgundyapple|pittedjackfruit|grapefruit|boysenberry)": {
 			"satiety": 100,
 			"foodcategory": "Fruit"
 		},
@@ -1142,7 +1124,7 @@
 			"health": 1,
 			"foodcategory": "Fruit"
 		},
-		"@*-(brambleberry|gooseberry|honeysuckle|loganberry|quince|apricot|nectarine|redplum|purpleplum|greengage|fig|guajava|ugni|foxgrape|blackgrape|naranjilla|hairyeggplant|cocona|pittedapticot|greenstrawberry|pittedbreadfruit|greatroseapple|pittedbeachalmond|lillypillypink|lillypillywhite|lillypillyblue|munthari|achacha|cocoa|lemon|kolkhoznitsa|kiwi|wani|mazzard|bilberry|swamphuckle|rambutan|pulasan|granadilla|sorb|sandpear|josta)": {
+		"@*-(brambleberry|gooseberry|honeysuckle|loganberry|quince|apricot|nectarine|redplum|purpleplum|greengage|fig|guajava|ugni|foxgrape|blackgrape|naranjilla|hairyeggplant|cocona|pittedapticot|pittedbreadfruit|greatroseapple|pittedbeachalmond|lillypillypink|lillypillywhite|lillypillyblue|munthari|achacha|cocoa|lemon|kolkhoznitsa|kiwi|wani|mazzard|bilberry|swamphuckle|rambutan|pulasan|granadilla|sorb|sandpear|josta)": {
 			"satiety": 80,
 			"foodcategory": "Fruit"
 		},
@@ -1252,11 +1234,11 @@
 			"health": -1,
 			"foodcategory": "Fruit"
 		},
-		"@*-(huckleberry|hawthorn|cherryplum|damsonplum|sloe|citron|feijoa|sallowthorn|kumquat|numnum|turkscap|loquat|lingonberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|jujube|watermelon|blackelder|passionfruit|caperberry|hairyappleberry|wildapple|beachrose|bitterorange|roseapple|waterapple|dewberry|lime|kolomikta|aronia|kasturi|pittedcempedak|crabapple|strawberry|raspberry|blueraspberry|pittedmarang|juaacu|wildtomato)": {
+		"@*-(huckleberry|hawthorn|cherryplum|damsonplum|sloe|citron|feijoa|sallowthorn|kumquat|numnum|turkscap|loquat|lingonberry|blacknightshade|pricklyheath|flaxlily|kawakawa|bushlawyer|engkala|cashewapple|fingerlime|lemonaspen|redquandong|midyimberry|jujube|watermelon|blackelder|passionfruit|caperberry|hairyappleberry|wildapple|beachrose|bitterorange|roseapple|waterapple|dewberry|lime|kolomikta|aronia|kasturi|pittedcempedak|crabapple|raspberry|blueraspberry|pittedmarang|juaacu|wildtomato)": {
 			"satiety": 60,
 			"foodcategory": "Fruit"
 		},
-		"@*-(bunchberry|crowberry|fractureberry|falsestrawberry|silvernettle|pandanbits|illawarra|rubysaltbush|pineheath|beachalmondwhole|honeypots|creepingpine|cheeseberry|kakaha|pilo|mingimingi|purpleappleberry|pittedyew|makrut|redcherryplum|ber|quincelet)": {
+		"@*-(bunchberry|crowberry|fractureberry|silvernettle|pandanbits|illawarra|rubysaltbush|pineheath|beachalmondwhole|honeypots|creepingpine|cheeseberry|kakaha|pilo|mingimingi|purpleappleberry|pittedyew|makrut|redcherryplum|ber|quincelet)": {
 			"satiety": 40,
 			"foodcategory": "Fruit"
 		},
@@ -1366,7 +1348,7 @@
 				"transitionRatio": 1
 			}
 		],
-		"@*-(strawberry|gardenstrawberry|greenstrawberry|honeysuckle|cashewapple|brambleberry|raspberry|blueraspberry|loganberry|boysenberry|gooseberry|redplum|redcherryplum|cherryplum|greengage|pokeberry|knyazberry|naranjilla|cocona|bushlawyer|kawakawa|pittedcherry|pittedapricot|achacha|rubysaltbush|watermelon|mirzamelon|muskmelon|kolkhoznitsa|hairyappleberry|nectarine|honeydewmelon|pittedmazzard|pittedcempedak|pittedmarang|ginkgopulp)": [
+		"@*-(honeysuckle|cashewapple|brambleberry|raspberry|blueraspberry|loganberry|boysenberry|gooseberry|redplum|redcherryplum|cherryplum|greengage|pokeberry|knyazberry|naranjilla|cocona|bushlawyer|kawakawa|pittedcherry|pittedapricot|achacha|rubysaltbush|watermelon|mirzamelon|muskmelon|kolkhoznitsa|hairyappleberry|nectarine|honeydewmelon|pittedmazzard|pittedcempedak|pittedmarang|ginkgopulp)": [
 			{
 				"type": "Perish",
 				"freshHours": { "avg": 48 },
@@ -1426,7 +1408,7 @@
 				"transitionRatio": 0.34
 			}
 		],
-		"@*-(wolfberry|huckleberry|swamphuckle|fig|sallowthorn|loquat|purpleplum|ugni|redgrape|whitegrape|foxgrape|blackgrape|crowseye|numnum|falsestrawberry|silvernettle|engkala|bluetongue|pittedbeachalmond|creepingpine|pilo|mingimingi|kakaha|kiwi|caperberry|purpleappleberry|bilberry|dewberry|kolomikta|granadilla|kasturi|pulasan|woodbine|josta|hairyeggplant|juaacu|newhusktomato)": [
+		"@*-(wolfberry|huckleberry|swamphuckle|fig|sallowthorn|loquat|purpleplum|ugni|redgrape|whitegrape|foxgrape|blackgrape|crowseye|numnum|silvernettle|engkala|bluetongue|pittedbeachalmond|creepingpine|pilo|mingimingi|kakaha|kiwi|caperberry|purpleappleberry|bilberry|dewberry|kolomikta|granadilla|kasturi|pulasan|woodbine|josta|hairyeggplant|juaacu|newhusktomato)": [
 			{
 				"type": "Perish",
 				"freshHours": { "avg": 96 },
@@ -2964,42 +2946,6 @@
 			},
 			"scale": 2.37
 		},
-		"@*-(gardenstrawberry|greenstrawberry)": {
-			"translation": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-			},
-			"rotation": {
-				"x": -74,
-				"y": 24,
-				"z": 31
-			},
-			"origin": {
-				"x": 0.47,
-				"y": 0,
-				"z": 0.67
-			},
-			"scale": 2.4
-		},
-		"@*-(strawberry|falsestrawberry)": {
-			"translation": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-			},
-			"rotation": {
-				"x": -74,
-				"y": 24,
-				"z": 31
-			},
-			"origin": {
-				"x": 0.49,
-				"y": 0,
-				"z": 0.67
-			},
-			"scale": 2.4
-		},
 		"@*-(cherryplum|greengage)": {
 			"translation": {
 				"x": 0,
@@ -4504,24 +4450,6 @@
 			},
 			"scale": 0.45
 		},
-		"@*-(gardenstrawberry|strawberry|greenstrawberry|falsestrawberry)": {
-			"translation": {
-				"x": -1.5,
-				"y": -1,
-				"z": -1.26
-			},
-			"rotation": {
-				"x": -138,
-				"y": -134,
-				"z": -127
-			},
-			"origin": {
-				"x": 0.44,
-				"y": 0.22,
-				"z": 0.54
-			},
-			"scale": 0.34
-		},
 		"*-honeysuckle": {
 			"translation": {
 				"x": -1.5,
@@ -5899,24 +5827,6 @@
 			},
 			"scale": 2.6
 		},
-		"@*-(gardenstrawberry|strawberry|greenstrawberry|falsestrawberry)": {
-			"translation": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-			},
-			"rotation": {
-				"x": 145,
-				"y": 0,
-				"z": -34
-			},
-			"origin": {
-				"x": 0.5,
-				"y": 0.3,
-				"z": 0.64
-			},
-			"scale": 2.2
-		},
 		"*-cashewwhole": {
 			"translation": {
 				"x": 0,
@@ -6642,10 +6552,10 @@
 		}
 	},
 	"heldTpIdleAnimationByType": {
-		"@*-(brambleberry|raspberry|blueraspberry|loganberry|boysenberry|crowberry|lingonberry|strawberry|greenstrawberry|falsestrawberry|husktomato|newhusktomato|cherryplum|redcherryplum|greengage|sloe|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|pittedjackfruit|gardenstrawberry|illawarra|pittedbeachalmond|ginkgopulp|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush|pilo|mingimingi|caperberry|pittedmazzard|rambutan|pulasan|pittedyew|pittedcempedak|pittedmarang|bearberry|falsetomato|wildtomato|ginkgopulp)": "holdbothhands",
+		"@*-(brambleberry|raspberry|blueraspberry|loganberry|boysenberry|crowberry|lingonberry|husktomato|newhusktomato|cherryplum|redcherryplum|greengage|sloe|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|pittedjackfruit|illawarra|pittedbeachalmond|ginkgopulp|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush|pilo|mingimingi|caperberry|pittedmazzard|rambutan|pulasan|pittedyew|pittedcempedak|pittedmarang|bearberry|falsetomato|wildtomato|ginkgopulp)": "holdbothhands",
 		"@*-(jackfruit|cempedak|marang)": "holdunderarm"
 	},
 	"heldRightReadyAnimationByType": {
-		"@*-(brambleberry|raspberry|blueraspberry|loganberry|boysenberry|crowberry|lingonberry|strawberry|greenstrawberry|falsestrawberry|husktomato|newhusktomato|cherryplum|redcherryplum|greengage|sloe|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|pittedjackfruit|gardenstrawberry|illawarra|pittedbeachalmond|ginkgopulp|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush|pilo|mingimingi|caperberry|pittedmazzard|rambutan|pulasan|pittedyew|pittedcempedak|pittedmarang|bearberry|falsetomato|wildtomato|ginkgopulp)": "holdbothhands"
+		"@*-(brambleberry|raspberry|blueraspberry|loganberry|boysenberry|crowberry|lingonberry|husktomato|newhusktomato|cherryplum|redcherryplum|greengage|sloe|turkscap|fractureberry|silvernettle|coralbead|pandanbits|pittedcherry|pittedbreadfruit|pittedjackfruit|illawarra|pittedbeachalmond|ginkgopulp|pittedchinaberry|cheeseberry|creepingpine|honeypots|pineheath|rubysaltbush|pilo|mingimingi|caperberry|pittedmazzard|rambutan|pulasan|pittedyew|pittedcempedak|pittedmarang|bearberry|falsetomato|wildtomato|ginkgopulp)": "holdbothhands"
 	}
 }
