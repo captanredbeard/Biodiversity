@@ -45,19 +45,27 @@
 	"storageFlags": 33,
 	"nutritionPropsByType": {
 		"*-potato": {
-			"satiety": 80,
+			"satiety": 100,
 			"foodcategory": "Vegetable"
 		},
 		"*-bakedpotato": {
-			"satiety": 110,
+			"satiety": 130,
 			"foodcategory": "Vegetable"
+		}
+	},
+	"attributesByType": {
+		"*-potato" : {
+			"foodTags" : ["{type}", "tastyvegetable"],
+			"inContanierTexture": { base: "game:block/food/pie/fill-potato" },
+			"nutritionPropsWhenInMeal": { satiety: 160, foodcategory: "vegetable" },
+			"inPieProperties" : { texture: "game:block/food/pie/fill-potato", partType: 'Filling', mixingCodes: ["potpie"] }
 		}
 	},
 	"transitionablePropsByType": {
 		"*": [
 			{
 				"type": "Perish",
-				"freshHours": { "avg": 360 },
+				"freshHours": { "avg": 540 },
 				"transitionHours": { "avg": 48 },
 				"transitionedStack": {
 					"type": "item",
