@@ -1,0 +1,15 @@
+[
+  {
+    "ingredientPattern": "K,P",
+    "width": 1,
+    "height": 2,
+    "enabled": true,
+    "shapeless": true,
+    "ingredients": {
+      "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+      "P": { "type": "item", "code": "bdcrop:vegetable-potato" }
+    },
+    "name": "potatoseeds",
+    "output": { "type": "item", "code": "bdcrop:seeds-potato", "quantity": 2 }
+  },
+]

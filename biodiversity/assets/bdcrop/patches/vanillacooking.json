@@ -1,0 +1,83 @@
+[
+  {
+    "file": "game:recipes/cooking/soup.json",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "bdcrop:vegtable-*",
+        "shapeElement": "bowl/vegetable 1/*",
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup.json",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "bdcrop:vegtable-*",
+        "shapeElement": "bowl/vegetable 2/*",
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup.json",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "bdcrop:vegtable-*",
+        "shapeElement": "bowl/vegetable 3/*",
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup.json",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "bdcrop:vegtable-*",
+        "shapeElement": "bowl/vegetable 4/*",
+    }
+  },
+  {
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "bdcrop:vegtable-*",
+        "shapeElement": "bowl/vegetable 1/*",
+    }
+  },
+  {
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "bdcrop:vegtable-*",
+        "shapeElement": "bowl/vegetable 2/*",
+    }
+  },
+  {
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "bdcrop:vegtable-*",
+        "shapeElement": "bowl/vegetable 3/*",
+    }
+  },
+  {
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "bdcrop:vegtable-*",
+        "shapeElement": "bowl/vegetable 4/*",
+    }
+  },
+    
+]
