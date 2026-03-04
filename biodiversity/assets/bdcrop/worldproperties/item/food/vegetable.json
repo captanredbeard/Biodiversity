@@ -5,13 +5,15 @@
       "code": "leek"
     },
     {
-      "code": "cucumber"
-    },
-    {
       "code": "tomato"
+    }
+    /*
+    {
+      "code": "cucumber"
     },
     {
       "code": "squash"
     },
+  */
   ]
 }

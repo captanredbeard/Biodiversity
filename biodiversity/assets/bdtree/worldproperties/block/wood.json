@@ -1,6 +1,6 @@
 {
 	Code: "wood",
-	"variants":[
+	"variants": [
 		{
 			Code: "ash",
 			treeType: "Decidious"
@@ -37,10 +37,12 @@
 			Code: "charred",
 			treeType: "Conifer"
 		},
+/*
 		{
 			Code: "chlorociboria",
 			treeType: "Decidious"
 		},
+	*/
 		{
 			Code: "dalbergia",
 			treeType: "Acacia"

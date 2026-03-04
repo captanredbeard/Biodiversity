@@ -1,12 +1,10 @@
 {
 	code: "wildvine",
-	class: "BlockVines",
+	//class: "BlockVines",
 	variantgroups: [
 		{ code: "part", states: ["section", "end", "tropical-section", "tropical-end"] },
-		{
-			"code": "side",
-			"states": [ "north", "east", "south", "west", "down" ]
-		}
+		{ loadFromProperties: "abstract/horizontalorientation" },
+		{ code: "extrafaces", states: ["0","1","2","3"] }
 	],
 	attributes: {
 		handbook: {
@@ -16,15 +14,24 @@
 			}
 		},
 	},
-	creativeinventory: { "general": ["wildvine-section-north", "wildvine-end-north"], "flora": ["wildvine-section-north", "wildvine-end-north", "wildvine-tropical-section-north", "wildvine-tropical-end-north"] },
+	creativeinventory: {
+		"general": [ "wildvine-section-north", "wildvine-end-north" ],
+		"flora": [ "wildvine-section-north", "wildvine-end-north", "wildvine-tropical-section-north", "wildvine-tropical-end-north" ],
+		"bdflower": ["*"]
+	},
 	shapeinventory: { base: "block/plant/vines-inventory" },
 	randomizeAxes: "XZ",
 	renderpass: "OpaqueNoCull",
 	shapeByType: {
-		"wildvine-*-north": { base: "block/plant/vines-n", rotateY: 180 },
-		"wildvine-*-east": { base: "block/plant/vines-n", rotateY: 90 },
-		"wildvine-*-south": { base: "block/plant/vines-n", rotateY: 0 },
-		"wildvine-*-west": { base: "block/plant/vines-n", rotateY: 270 },
+		"wildvine-*-north-0": { base: "game:block/plant/vines-n", rotateY: 180 },
+		"wildvine-*-east-0": { base: "game:block/plant/vines-n", rotateY: 90 },
+		"wildvine-*-south-0": { base: "game:block/plant/vines-n", rotateY: 0 },
+		"wildvine-*-west-0": { base: "game:block/plant/vines-n", rotateY: 270 },
+
+		"wildvine-*-north-*": { base: "block/plant/vines/vines-n-e{extrafaces}", rotateY: 180 },
+		"wildvine-*-east-*": { base:  "block/plant/vines/vines-n-e{extrafaces}", rotateY: 90 },
+		"wildvine-*-south-*": { base: "block/plant/vines/vines-n-e{extrafaces}", rotateY: 0 },
+		"wildvine-*-west-*": { base: "block/plant/vines/vines-n-e{extrafaces}", rotateY: 270 }
 	},
 	// The textures are non-tiling. They seem to require be placed in sequence => needs connected texture system
 	texturesByType: {
