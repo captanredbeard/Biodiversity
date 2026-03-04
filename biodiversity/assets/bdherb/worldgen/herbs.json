@@ -262,9 +262,9 @@
     "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
   },
   {
-    "comment": "Patches of horsehound in areas",
+    "comment": "Patches of horehound in areas",
     "blockCodes": [
-      "bdherb:perennialplant-horsehound-normal"
+      "bdherb:perennialplant-horehound-normal"
     ],
     "minTemp": 32,
     "minRain": 0.5,

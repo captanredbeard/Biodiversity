@@ -112,9 +112,9 @@
 		requiredNutrient: "P",
 		nutrientConsumption: 35,
 		growthStages: 7,
-		totalGrowthMonths: 1.5,
-		coldDamageBelow: 0,
-		heatDamageAbove: 35,
+		totalGrowthMonths: 1.2,
+		coldDamageBelow: 5,
+		heatDamageAbove: 40,
 	},
 	collisionbox: null,
 	selectionbox: {

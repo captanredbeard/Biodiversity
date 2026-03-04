@@ -40,15 +40,7 @@
 		"bdcrop": [ "naplessquash-fruit-*" ]
 	},
 	"shape": {
-		"base": "block/plant/cropvine/naplessquash/stage{stage}",
-		"alternates": [
-			{
-				"base": "block/plant/cropvine/naplessquash/stage{stage}1"
-			},
-			{
-				"base": "block/plant/cropvine/naplessquash/stage{stage}2"
-			}
-		]
+		"base": "bdcrop:block/plant/cropvine/naplessquash/stage{stage}"
 	},
 	"attributes": {
 		"groundStorageTransformByType": {
