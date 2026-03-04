@@ -1,7 +1,7 @@
 {
 	code: "fruitingbushcutting",
 	variantgroups: [
-		{ code: "type", states: [ "beautyberry", "blueberry", "cranberry", "currantblack", "currantred", "currantwhite", "strawberry" ] },
+		{ code: "type", states: [ "beautyberry", "blueberry", "cranberry", "blackcurrant", "redcurrant", "whitecurrant", "strawberry" ] },
 		{ code: "cover", states: ["free", "snow"] }
 	],
 	behaviors: [
@@ -12,13 +12,13 @@
 		{ name: "FruitingBushCutting" }
 	],
 	attributes: {
-		matureTotalMonthsMin: 6,
-		matureTotalMonthsMin: 12,
+		matureTotalMonthsMin: 3,
+		matureTotalMonthsMax: 6,
 		maturedBlockCode: "fruitingbush-{type}"
 	},
-	shape: { base: "game:block/plant/flower/1patch-cross-16x16" },
+	shape: { base: "block/plant/flower/1patch-cross-16x16" },
 	texturesByType: {
-		"fruitingbushcutting-currant*": {
+		"fruitingbushcutting-*currant-*": {
 			north1: { base: "block/plant/berrybush/cuttings/currant-stem1" },
 			south1: { base: "block/plant/berrybush/cuttings/currant-stem2" },
 			northTinted1: { base: "block/plant/berrybush/cuttings/currant-leaves1" },
@@ -31,7 +31,7 @@
 			southTinted1: { base: "block/plant/berrybush/cuttings/{type}-leaves2" }
 		}
 	},
-	creativeinventory: { "general": ["*-free"], "flora": ["*-free"], "bdshrub": ["*-free"] },
+	creativeinventory: { "general": ["*-free"], "flora": ["*-free"] },
 	renderpass: "OpaqueNoCull",
 	drawtypeByType: {
 		"*-free": "JSON",
@@ -50,7 +50,6 @@
 		"*-free": "Default",
 		"*": "MergeSnowLayer"
 	},
-	randomDrawOffset: true,
 	randomizeRotations: true,
 	drops: [
 		{ type: "block", code: "fruitingbushcutting-{type}-free", quantity: { avg: 1, var: 0 }  }
@@ -68,9 +67,9 @@
 		x2: 0.75, y2: 0.5, z2: 0.75
 	},
 	sounds: {
-		"place": "game:block/plant",
-		"break": "game:block/plant",
-		"hit": "game:block/plant"
+		place: "block/plant",
+		break: "block/plant",
+		hit: "block/plant",
 	},
 	rainPermeable: true,
 	materialDensity: 200,
@@ -89,7 +88,7 @@
 		type: "Perish",
 		freshHours: { avg: 360 },
 		transitionHours: { avg: 1 },
-		transitionedStack: { type: "item", code: "game:stick" },
+		transitionedStack: { type: "item", code: "stick" },
 		transitionRatio: 1
 	}],
 	tpHandTransform: {
