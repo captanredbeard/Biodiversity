@@ -9,7 +9,7 @@
 		"leek": [16,16]
 	},
 	"textures": {
-		"leek": "bdcrop:item/food/vegtable/leek"
+		"leek": "bdcrop:item/food/vegetable/leek"
 	},
 	"elements": [
 		{

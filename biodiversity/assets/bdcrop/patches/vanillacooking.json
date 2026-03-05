@@ -5,7 +5,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
         "type": "item",
-        "code": "bdcrop:vegtable-*",
+        "code": "bdcrop:vegetable-*",
         "shapeElement": "bowl/vegetable 1/*",
     }
   },
@@ -15,7 +15,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
         "type": "item",
-        "code": "bdcrop:vegtable-*",
+        "code": "bdcrop:vegetable-*",
         "shapeElement": "bowl/vegetable 2/*",
     }
   },
@@ -25,7 +25,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
         "type": "item",
-        "code": "bdcrop:vegtable-*",
+        "code": "bdcrop:vegetable-*",
         "shapeElement": "bowl/vegetable 3/*",
     }
   },
@@ -35,7 +35,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
         "type": "item",
-        "code": "bdcrop:vegtable-*",
+        "code": "bdcrop:vegetable-*",
         "shapeElement": "bowl/vegetable 4/*",
     }
   },
@@ -45,7 +45,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
         "type": "item",
-        "code": "bdcrop:vegtable-*",
+        "code": "bdcrop:vegetable-*",
         "shapeElement": "bowl/vegetable 1/*",
     }
   },
@@ -55,7 +55,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
         "type": "item",
-        "code": "bdcrop:vegtable-*",
+        "code": "bdcrop:vegetable-*",
         "shapeElement": "bowl/vegetable 2/*",
     }
   },
@@ -65,7 +65,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
         "type": "item",
-        "code": "bdcrop:vegtable-*",
+        "code": "bdcrop:vegetable-*",
         "shapeElement": "bowl/vegetable 3/*",
     }
   },
@@ -75,9 +75,38 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
         "type": "item",
-        "code": "bdcrop:vegtable-*",
+        "code": "bdcrop:vegetable-*",
         "shapeElement": "bowl/vegetable 4/*",
     }
   },
-    
+  {
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "op": "addmerge",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "bdcrop:vegetable-tomato",
+        "shapeElement": "bowl/vegetable2/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "op": "addmerge",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+        "type": "item",
+        "code": "bdcrop:vegetable-tomato*",
+        "shapeElement": "bowl/vegetable3/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/meatystew.json",
+    "op": "addmerge",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+       "type": "item",
+       "code": "bdcrop:vegetable-*",
+       "shapeElement": "bowl/vegetable 2/*",
+    }
+  }
 ]

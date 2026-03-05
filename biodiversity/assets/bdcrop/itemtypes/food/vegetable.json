@@ -20,21 +20,23 @@
 	],
 	variantgroups: [
 		{
-			"code": "vegetable",
-			"loadFromProperties": "bdcrop:item/food/vegetable",
-			"states": []
+			"code": "type",
+			//"loadFromProperties": "bdcrop:item/food/vegetable",
+			"states": ["leek","tomato"]
 		}
 	],
-	shape: { base: "item/vegetable/{vegetable}" },
-	texture: { base: "item/food/vegetable/{vegetable}" },
-	attributes: {
-		groundStorageTransformByType: {
-		"*-leek":{
-			translation: { x: 0.1, y: -0.46, z: 0.1 },
-			rotation: { x: 0, y: -60, z: -90 }
+	shape: { base: "item/vegetable/{type}" },
+	texture: { base: "item/food/vegetable/{type}" },
+	attributesByType: {
+		"*-leek" : {
+		   groundStorageTransform: {
+			  translation: { x: 0.1, y: -0.46, z: 0.1 },
+			  rotation: { x: 0, y: -60, z: -90 }
+		   },
+		   "nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "vegetable" },
+		   "inPieProperties" : { texture: "", partType: 'Filling', mixingCodes: ["potpie"] }
 		}
-    }
-	},
+    },
 	creativeinventory: {
 		"general": [ "*" ],
 		"items": [ "*" ],

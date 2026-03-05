@@ -17,6 +17,16 @@
   "item-seeds-potato": "Potato seeds",
   "item-seeds-tomato": "Tomato seeds",
 
+  //Block Crops
+  "block-crop-leek-*": "Leek plant",
+  "block-crop-potato-*": "Potato plant",
+  "block-crop-tomato-*": "Tomato plant",
+
+  //Food
+  "item-vegetable-leek": "Leek",
+  "item-vegetable-potato": "Potato",
+  "item-vegetable-tomato": "Tomatoes",
+
   //Vine Crops
   "item-melonseeds-watermelon": "Watermelon seeds",
   "block-crop-watermelon-*": "Growing watermelon plant",
