@@ -44,16 +44,12 @@
 	},
 	storageFlags: 33,
 	nutritionPropsByType: {
-		"@*-(cucumber)": {
-			satiety: 60,
-			foodcategory: "Vegetable"
-		},
 		"@*-(tomato)": {
-			satiety: 80,
+			satiety: 100,
 			foodcategory: "Vegetable"
 		},
 		"@*-(leek)": {
-			satiety: 80,
+			satiety: 100,
 			foodcategory: "Vegetable"
 		},
 		"@*-(squash)": {
@@ -62,7 +58,7 @@
 		},
 	},
 	transitionablePropsByType: {
-		"@*-(tomato|cucumber)": [
+		"@*-(tomato)": [
 			{
 				type: "Perish",
 				freshHours: { "avg": 192 },
@@ -74,7 +70,7 @@
 				transitionRatio: 0.5
 			}
 		],
-		"@*-(leek|squash)": [
+		"@*-(leek)": [
 			{
 				type: "Perish",
 				freshHours: { "avg": 288 },
@@ -130,24 +126,6 @@
 			},
 			scale: 2.0
 		},
-		"*-cucumber": {
-			translation: {
-				x: 0,
-				y: 0,
-				z: 0
-			},
-			rotation: {
-				x: -95,
-				y: -11,
-				z: -124
-			},
-			origin: {
-				x: 0.76,
-				y: 0.2,
-				z: 0.46
-			},
-			scale: 2.66
-		},	
 	},
 	tpHandTransformByType: {
 		"*-tomato": {
