@@ -17,7 +17,14 @@
 		"plants": [ "" ]
 	},
 	renderpass: "OpaqueNoCull",
-	shape: { base: "block/plant/crop/leek" },
+	shapeByType: { 
+		"*-3": { base: "bdcrop:block/plant/crop/leek/stage3" },
+		"*-4": { base: "bdcrop:block/plant/crop/leek/stage4" },
+		"*-5": { base: "bdcrop:block/plant/crop/leek/stage5" },
+		"*-6": { base: "bdcrop:block/plant/crop/leek/stage6" },
+		"*-7": { base: "bdcrop:block/plant/crop/leek/stage7" },
+		"*": { base: "bdcrop:block/plant/crop/leek/stage1to2" }
+	},
 	blockmaterial: "Plant",
 	randomizeRotations: true,
 	textures: {
