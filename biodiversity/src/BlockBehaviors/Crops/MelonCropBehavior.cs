@@ -29,11 +29,11 @@ namespace biodiversity.src.BlockBehaviors
             base.Initialize(properties);
 
             melonBlockCode = properties["melonBlockCode"].AsString();
-            //domainCode = Block.Code.ShortDomain();
+            domainCode = properties["domainCode"].AsString();
 
             vineGrowthStage = properties["vineGrowthStage"].AsInt();
             vineGrowthQuantityGen = properties["vineGrowthQuantity"].AsObject<NatFloat>();
-            vineBlockLocation = new AssetLocation("pumpkin-vine-1-normal");
+            vineBlockLocation = new AssetLocation(domainCode+":"+melonBlockCode+"-vine-1-normal");
         }
 
         public override void OnPlanted(ICoreAPI api, ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel)

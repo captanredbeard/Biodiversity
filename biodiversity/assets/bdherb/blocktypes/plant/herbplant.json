@@ -1,0 +1,125 @@
+{
+	code: "herb",
+	class: "BlockRequireFertileGround",
+	behaviors: [ 
+		{ name: "biodiversity.herbplant" }, 
+		{ name: "BlockEntityInteract" },
+		{ name: "Unstable" }
+	],
+	entityClassByType: {
+		"herbplant-wild-*": "biodiversity.WildHerbPlant",
+		"*": "Generic"
+	},
+	entityBehaviors: [ 
+		{ name: "biodiversity.HerbPlant" }, 
+		{ name: "biodiversity.HerbPlantMesh" }
+	],
+	variantgroups: [
+		{ code: "state", states: ["wild", "grown"] },
+		{ code: "type",	states: [ "rosemary", "thyme" ]},
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		textureVariants: 2,
+		//cuttingBlockCode: "fruitingbushcutting-{type}-free",
+		growthProperties: {
+			"*": {
+				pauseGrowthBelowTemperature: 4,
+				pauseGrowthAboveTemperature: 30,
+				resetGrowthBelowTemperature: -3,
+				resetGrowthAboveTemperature: 38,
+				goDormantBelowTemperatureByType: {
+					"*": -5
+				},
+				leaveDormantAboveTemperatureByType: {
+					"*": 15
+				},
+				nutrientUseByHealthStateByType: {
+					"*": {
+						"bountiful": { n: 5, p: 5, k: 5 },
+						"healthy": { n: 3, p: 3, k: 3 },
+						"struggling": { n: 2, p: 2, k: 2 },
+						"barren": { n: 1, p: 1, k: 1 }
+					}
+				},
+				youngStageMonths: { avg: 3, var: 1 },
+				matureStageMonths: { avg: 120, var: 20},  // Need this value, set to 10 years so it is nearly un-noticable
+				harvestedStageMonths: { avg: 0.5, var: 0.1 }
+			}
+		},
+		harvestedStacksByType: {
+			"*": [{ type: "item", code: "bdherb:herbbundle-{type}", quantity: { avg: 1.2 }  }]
+		},
+		textureMapping: {
+			"herbTex": "bdherb:block/{type}/e{variant}",
+		},
+		reinforcable: true,
+		overrideRandomDrawOffset: 14,
+		allowOverlays: false
+	},
+	shapeByType: {
+		"*": { base: "bdherb:block/herbtall" }
+	},
+	textures: {
+		//"particle": { base: "game:block/plant/berrybush/{type}/leaves/leavescenter1" }
+		"particle": { base: "bdherb:block/{type}/e1" }
+	},
+	drawtypeByType: {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	blockmaterialByType: {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	faceCullModeByType: {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},	
+	// Color maps are configured in survival/config/colormaps.json
+	// The ones defined in the shape file take precedence over the ones defined here
+	// However BE Behavior HerbPlantMesh inverts this behavior
+	climateColorMap: "climatePlantTint",
+	seasonColorMapByType: {
+		"*": "seasonalBirch"
+	},
+	particlesTextureCode: "particle",
+	creativeinventory: { "general": [ "*-free" ], "flora": [ "*-free" ], "bdherb":["*"] },
+	randomizeRotations: true,
+	renderpass: "OpaqueNoCull",
+	renderAlphaTest: 0.4,
+	blockmaterial: "Plant",
+	randomizeRotations: true,
+	sideopaqueByType: {
+		"*-snow": { all: false, down: true },
+		"*": { all: false }
+	},
+	sidesolid: {"all": false},
+	replaceable: 3000,
+	lightAbsorption: 0,
+	resistance: 0.5,
+	collisionbox: null,
+	selectionboxByType: {
+		"*": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 }
+	},
+	sounds: {
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant",
+		inside: "game:walk/inside/leafy/bushrustle*"
+	},
+	rainPermeable: false,
+	drops: [
+		{
+			type: "item",
+			code: "game:item-plantdebris-leafy",
+			quantity: { "avg": 1 }
+		}
+	],
+	materialDensity: 200,
+	frostable: true,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10
+	}
+}

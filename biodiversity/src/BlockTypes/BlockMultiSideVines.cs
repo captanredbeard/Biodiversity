@@ -15,6 +15,8 @@ namespace biodiversity.src.BlockTypes
     {
         public BlockFacing VineFacing;
 
+        public string extraSides;
+
         private int[] origWindMode;
 
         private BlockPos tmpPos = new BlockPos(0);
@@ -23,8 +25,9 @@ namespace biodiversity.src.BlockTypes
         {
             base.OnLoaded(api);
             VineFacing = BlockFacing.FromCode(Variant["horizontalorientation"]);
+            extraSides = Code.EndVariant();
         }
-
+        /*
         public override void OnDecalTesselation(IWorldAccessor world, MeshData decalMesh, BlockPos pos)
         {
             int verticesCount = decalMesh.VerticesCount;
@@ -67,7 +70,7 @@ namespace biodiversity.src.BlockTypes
 
             //otherwiseAllWave(decalMesh, verticesCount, num, windDatam);
         }
-
+        */
         public override void OnJsonTesselation(ref MeshData sourceMesh, ref int[] lightRgbsByCorner, BlockPos pos, Block[] chunkExtBlocks, int extIndex3d)
         {
             if (origWindMode == null)
@@ -166,6 +169,7 @@ namespace biodiversity.src.BlockTypes
             return false;
         }
         */
+        
         public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
         {
             if (!CanPlaceBlock(world, byPlayer, blockSel, ref failureCode))
@@ -190,7 +194,7 @@ namespace biodiversity.src.BlockTypes
             failureCode = "requirevineattachable";
             return false;
         }
-
+        
         public override BlockDropItemStack[] GetDropsForHandbook(ItemStack handbookStack, IPlayer forPlayer)
         {
             return GetHandbookDropsFromBreakDrops(handbookStack, forPlayer);
@@ -199,7 +203,7 @@ namespace biodiversity.src.BlockTypes
         public override ItemStack[] GetDrops(IWorldAccessor world, BlockPos pos, IPlayer byPlayer, float dropQuantityMultiplier = 1f)
         {
             string[] array = Code.Path.Split('-');
-            Block block = world.BlockAccessor.GetBlock(new AssetLocation(array[0] + "-" + array[^2].Replace("end", "section") + "-north"));
+            Block block = world.BlockAccessor.GetBlock(new AssetLocation(Code.ShortDomain()+":"+array[0] + "-" + array[^3].Replace("end", "section") + "-north-0"));
             return new ItemStack[1]
             {
             new ItemStack(block)
@@ -209,7 +213,7 @@ namespace biodiversity.src.BlockTypes
         public override ItemStack OnPickBlock(IWorldAccessor world, BlockPos pos)
         {
             string[] array = Code.Path.Split('-');
-            return new ItemStack(world.BlockAccessor.GetBlock(new AssetLocation(array[0] + "-" + array[^2] + "-north")));
+            return new ItemStack(world.BlockAccessor.GetBlock(new AssetLocation(Code.ShortDomain()+":"+array[0] + "-" + array[^3] + "-north-0")));
         }
 
         private bool TryAttachTo(IBlockAccessor blockAccessor, BlockPos blockpos, BlockFacing onBlockFace)
@@ -247,7 +251,7 @@ namespace biodiversity.src.BlockTypes
 
         public override AssetLocation GetRotatedBlockCode(int angle)
         {
-            BlockFacing blockFacing = BlockFacing.FromCode(LastCodePart());
+            BlockFacing blockFacing = BlockFacing.FromCode(LastCodePart(1));
             int k = ((angle == 180) ? blockFacing.HorizontalAngleIndex : blockFacing.Opposite.HorizontalAngleIndex) + angle / 90;
             BlockFacing blockFacing2 = BlockFacing.HORIZONTALS_ANGLEORDER[GameMath.Mod(k, 4)];
             return CodeWithParts(blockFacing2.Code);

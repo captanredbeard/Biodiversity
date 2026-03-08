@@ -1,5 +1,7 @@
 ﻿using biodiversity.src.BlockBehaviors;
+using biodiversity.src.BlockBehaviors.Herbs;
 using biodiversity.src.BlockEntities;
+using biodiversity.src.BlockTypes;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
@@ -18,6 +20,13 @@ namespace biodiversity
             
             api.RegisterBlockEntityClass(modID + ".MelonVine", typeof(BEMelonVine));
             api.RegisterCropBehavior(modID + ".BlockCropVine", typeof(MelonCropBehavior));
+
+            //Multiblock Vines
+            api.RegisterBlockClass(modID + ".BlockMultiSideVines", typeof(BlockMultiSideVines));
+
+            api.RegisterBlockEntityBehaviorClass(modID + ".HerbPlant", typeof(BEBehaviorHerbPlant));
+            api.RegisterBlockEntityBehaviorClass(modID + ".HerbPlantMesh", typeof(BEBehaviorHerbPlantMesh));
+            api.RegisterBlockBehaviorClass(modID + ".herbplant", typeof(BlockBehaviorHerbPlant));
         }
 
         public override void StartServerSide(ICoreServerAPI api)

@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"oak": "block/wood/bark/aspen",
+		"oak": "block/wood/bark/narrow/aspen",
 		"oak1": "block/plant/leaves/large/aspen1"
 	},
 	"elements": [

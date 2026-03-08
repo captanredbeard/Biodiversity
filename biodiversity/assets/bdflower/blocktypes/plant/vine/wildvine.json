@@ -1,10 +1,10 @@
 {
 	code: "wildvine",
-	//class: "BlockVines",
+	//class: "biodiversity.BlockMultiSideVines",
 	variantgroups: [
 		{ code: "part", states: ["section", "end", "tropical-section", "tropical-end"] },
-		{ loadFromProperties: "abstract/horizontalorientation" },
-		{ code: "extrafaces", states: ["0","1","2","3"] }
+		{ code: "extrafaces", states: ["0","1","2","3"] },
+		{ loadFromProperties: "abstract/horizontalorientation" }
 	],
 	attributes: {
 		handbook: {
@@ -15,36 +15,49 @@
 		},
 	},
 	creativeinventory: {
-		"general": [ "wildvine-section-north", "wildvine-end-north" ],
-		"flora": [ "wildvine-section-north", "wildvine-end-north", "wildvine-tropical-section-north", "wildvine-tropical-end-north" ],
-		"bdflower": ["*"]
+		"general": [ "wildvine-section-0-north", "wildvine-end-0-north" ],
+		"flora": [ "wildvine-section-*-north", "wildvine-end-*-north", "wildvine-tropical-section-*-north", "wildvine-tropical-end-*-north" ],
+		"bdflower": [ "wildvine-section-*-north", "wildvine-end-*-north", "wildvine-tropical-section-*-north", "wildvine-tropical-end-*-north" ]
 	},
-	shapeinventory: { base: "block/plant/vines-inventory" },
+	shapeinventory: { "base": "game:block/plant/vines-inventory" },
 	randomizeAxes: "XZ",
 	renderpass: "OpaqueNoCull",
 	shapeByType: {
-		"wildvine-*-north-0": { base: "game:block/plant/vines-n", rotateY: 180 },
-		"wildvine-*-east-0": { base: "game:block/plant/vines-n", rotateY: 90 },
-		"wildvine-*-south-0": { base: "game:block/plant/vines-n", rotateY: 0 },
-		"wildvine-*-west-0": { base: "game:block/plant/vines-n", rotateY: 270 },
-
-		"wildvine-*-north-*": { base: "block/plant/vines/vines-n-e{extrafaces}", rotateY: 180 },
-		"wildvine-*-east-*": { base:  "block/plant/vines/vines-n-e{extrafaces}", rotateY: 90 },
-		"wildvine-*-south-*": { base: "block/plant/vines/vines-n-e{extrafaces}", rotateY: 0 },
-		"wildvine-*-west-*": { base: "block/plant/vines/vines-n-e{extrafaces}", rotateY: 270 }
+		
+		"wildvine-*-0-north": { base: "game:block/plant/vines-n", rotateY: 180 },
+		"wildvine-*-0-east": { base: "game:block/plant/vines-n", rotateY: 90 },
+		"wildvine-*-0-south": { base: "game:block/plant/vines-n", rotateY: 0 },
+		"wildvine-*-0-west": { base: "game:block/plant/vines-n", rotateY: 270 },
+		
+		"wildvine-*-north": { base: "block/plant/vines/vines-n-e1", rotateY: 180 },
+		"wildvine-*-east": { base:  "block/plant/vines/vines-n-e1", rotateY: 90 },
+		"wildvine-*-south": { base: "block/plant/vines/vines-n-e1", rotateY: 0 },
+		"wildvine-*-west": { base: "block/plant/vines/vines-n-1", rotateY: 270 }
 	},
 	// The textures are non-tiling. They seem to require be placed in sequence => needs connected texture system
 	texturesByType: {
 		"*-section-*": {
 			north: {
-				base: "block/plant/wildvine/wildvine_1",
-				alternates: [{ base: "block/plant/wildvine/wildvine_2" }, { base: "block/plant/wildvine/wildvine_3" }, { base: "block/plant/wildvine/wildvine_4" }, { base: "block/plant/wildvine/wildvine_5" }, { base: "block/plant/wildvine/wildvine_6" }],
+				base: "game:block/plant/wildvine/wildvine_1",
+				alternates: [
+					{ "base": "game:block/plant/wildvine/wildvine_2" },
+					{ "base": "game:block/plant/wildvine/wildvine_3" },
+					{ "base": "game:block/plant/wildvine/wildvine_4" },
+					{ "base": "game:block/plant/wildvine/wildvine_5" },
+					{ "base": "game:block/plant/wildvine/wildvine_6" }
+				],
 			}
 		},
 		"*-end-*": {
 			north: {
-				base: "block/plant/wildvine/wildvineend_1",
-				alternates: [{ base: "block/plant/wildvine/wildvineend_2" }, { base: "block/plant/wildvine/wildvineend_3" }, { base: "block/plant/wildvine/wildvineend_4" }, { base: "block/plant/wildvine/wildvineend_5" }, { base: "block/plant/wildvine/wildvineend_6" }],
+				"base": "game:block/plant/wildvine/wildvineend_1",
+				"alternates": [
+					{ "base": "game:block/plant/wildvine/wildvineend_2" },
+					{ "base": "game:block/plant/wildvine/wildvineend_3" },
+					{ "base": "game:block/plant/wildvine/wildvineend_4" },
+					{ "base": "game:block/plant/wildvine/wildvineend_5" },
+					{ "base": "game:block/plant/wildvine/wildvineend_6" }
+				]
 			}
 		}
 	},
@@ -78,9 +91,9 @@
 		"*-west" : { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.125, rotateY: 270 },
 	},
 	sounds: {
-		place: "block/plant",
-		break: "block/plant",
-		hit: "block/plant"
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
 	},
 	rainPermeable: true,
 	materialDensity: 200,
