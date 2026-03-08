@@ -5,7 +5,7 @@
 	variantgroups: [
 		{
 			code: "type",
-			states: [ "leek" ]
+			states: [ "tomato" ]
 		},
 		{
 			code: "stage",
@@ -19,19 +19,14 @@
 	},
 	renderpass: "OpaqueNoCull",
 	shapeByType: { 
-		"*-3": { base: "bdcrop:block/plant/crop/leek/stage3" },
-		"*-4": { base: "bdcrop:block/plant/crop/leek/stage4" },
-		"*-5": { base: "bdcrop:block/plant/crop/leek/stage5" },
-		"*-6": { base: "bdcrop:block/plant/crop/leek/stage6" },
-		"*-7": { base: "bdcrop:block/plant/crop/leek/stage7" },
-		"*": { base: "bdcrop:block/plant/crop/leek/stage1to2" }
+		"*": { base: "bdcrop:block/plant/crop/tomato/stage{stage}" }
 	},
 	blockmaterial: "Plant",
-	randomizeRotations: false,
+	randomizeRotations: true,
 	textures: {
-		"s" : { base: "bdcrop:block/plant/crop/leek/s{stage}" },
-		"e" : { base: "bdcrop:block/plant/crop/leek/e{stage}" },
-		"stalk" : { base: "bdcrop:block/plant/crop/leek/stalk{stage}" },
+		"e" : { base: "bdcrop:block/plant/crop/tomato/e{stage}" },
+		"s" : { base: "bdcrop:block/plant/crop/tomato/s{stage}" },
+		"oak" : { base: "game:block/wood/oak" },
 	},
 	attributes: {
 		butterflyFeedByType: {
@@ -54,7 +49,7 @@
 		all: false
 	},
 	sidesolid: {
-		all: false
+		all: true
 	},
 	replaceable: 3000,
 	lightAbsorption: 0,
@@ -69,7 +64,7 @@
 		"*-6": [
 			{
 				type: "item",
-				code: "vegetable-leek",
+				code: "vegetable-tomato",
 				quantity: {
 					avg: 6,
 					var: 2
@@ -77,14 +72,14 @@
 			},
 			{ 
 				type: "item",
-				code: "seeds-leek",
+				code: "seeds-tomato",
 				quantity: { avg: 1.0 }  
 			},
 		],
 		"*-7": [
 			{
 				type: "item",
-				code: "vegetable-leek",
+				code: "vegetable-tomato",
 				quantity: {
 					avg: 12,
 					var: 4
@@ -92,14 +87,14 @@
 			},
 			{ 
 				type: "item",
-				code: "seeds-leek",
+				code: "seeds-tomato",
 				quantity: { avg: 1.2 }  
 			},
 		],
 		"*": [
 			{
 				type: "item",
-				code: "vegetable-leek",
+				code: "vegetable-tomato",
 				quantity: {
 					avg: 0.5,
 					var: 0
@@ -107,19 +102,19 @@
 			},
 			{ 
 				type: "item",
-				code: "seeds-leek",
+				code: "seeds-tomato",
 				quantity: { avg: 0.99 }  
 			},
 		]
 	},
 	cropProps: {
-		// Leeks require nitrogen. (FEDCO catalog)
-		requiredNutrient: "N",
+		// Tomatoes require Phosphorous. (FEDCO catalog)
+		requiredNutrient: "P",
 		nutrientConsumption: 35,
 		growthStages: 7,
-		totalGrowthMonths: 1.5,
-		coldDamageBelow: -5,
-		heatDamageAbove: 35,
+		totalGrowthMonths: 1.2,
+		coldDamageBelow: 5,
+		heatDamageAbove: 40,
 	},
 	collisionbox: null,
 	selectionbox: {

@@ -44,11 +44,11 @@
 	"storageFlags": 33,
 	"nutritionPropsByType": {
 		"*-potato": {
-			"satiety": 100,
+			"satiety": 110,
 			"foodcategory": "Vegetable"
 		},
 		"*-bakedpotato": {
-			"satiety": 130,
+			"satiety": 140,
 			"foodcategory": "Vegetable"
 		}
 	},

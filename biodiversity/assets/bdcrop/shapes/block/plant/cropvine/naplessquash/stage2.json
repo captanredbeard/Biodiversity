@@ -10,8 +10,8 @@
 		"stage1-2side": [16,16]
 	},
 	"textures": {
-		"stage1-2side": "block/plant/cropvine/naplessquash/stage1-2side",
-		"stage1-2top_bottom": "block/plant/cropvine/naplessquash/stage1-2top_bottom"
+		"stage1-2side": "bdcrop:block/plant/cropvine/naplessquash/stage1-2side",
+		"stage1-2top_bottom": "bdcrop:block/plant/cropvine/naplessquash/stage1-2top_bottom"
 	},
 	"elements": [
 		{

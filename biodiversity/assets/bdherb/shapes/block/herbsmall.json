@@ -10,7 +10,7 @@
 		"herbTex": [24,24]
 	},
 	"textures": {
-		"herbTex" : "bdherb:block/{type}/e{stage}",
+		"herbTex" : "bdherb:block/{type}/e{stage}"
 	},
 	"elements": [
 		{

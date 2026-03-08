@@ -20,13 +20,23 @@
 	],
 	variantgroups: [
 		{
-			"code": "vegetable",
-			"loadFromProperties": "bdcrop:item/food/vegetable",
-			"states": []
+			"code": "type",
+			//"loadFromProperties": "bdcrop:item/food/vegetable",
+			"states": ["leek","tomato"]
 		}
 	],
-	shape: { base: "item/vegetable/{vegetable}" },
-	texture: { base: "item/food/vegetable/{vegetable}" },
+	shape: { base: "item/vegetable/{type}" },
+	texture: { base: "item/food/vegetable/{type}" },
+	attributesByType: {
+		"*-leek" : {
+		   groundStorageTransform: {
+			  translation: { x: 0.1, y: -0.46, z: 0.1 },
+			  rotation: { x: 0, y: -60, z: -90 }
+		   },
+		   "nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "vegetable" },
+		   "inPieProperties" : { texture: "", partType: 'Filling', mixingCodes: ["potpie"] }
+		}
+    },
 	creativeinventory: {
 		"general": [ "*" ],
 		"items": [ "*" ],
@@ -34,16 +44,12 @@
 	},
 	storageFlags: 33,
 	nutritionPropsByType: {
-		"@*-(cucumber)": {
-			satiety: 60,
-			foodcategory: "Vegetable"
-		},
 		"@*-(tomato)": {
-			satiety: 80,
+			satiety: 100,
 			foodcategory: "Vegetable"
 		},
 		"@*-(leek)": {
-			satiety: 80,
+			satiety: 100,
 			foodcategory: "Vegetable"
 		},
 		"@*-(squash)": {
@@ -52,7 +58,7 @@
 		},
 	},
 	transitionablePropsByType: {
-		"@*-(tomato|cucumber)": [
+		"@*-(tomato)": [
 			{
 				type: "Perish",
 				freshHours: { "avg": 192 },
@@ -64,7 +70,7 @@
 				transitionRatio: 0.5
 			}
 		],
-		"@*-(leek|squash)": [
+		"@*-(leek)": [
 			{
 				type: "Perish",
 				freshHours: { "avg": 288 },
@@ -92,40 +98,15 @@
 	materialDensity: 600,
 	guiTransformByType: {
 		"*-tomato": {
-			translation: {
-				x: 0,
-				y: 0,
-				z: 0
-			},
-			rotation: {
-				x: 130,
-				y: 40,
-				z: 36
-			},
-			origin: {
-				x: 0.51,
-				y: 0.15,
-				z: 0.51
-			},
-			scale: 3.5
+			rotation: { x: 112, y: 21, z: 24 },
+			origin: { x: 0.52, y: 0.17, z: 0.55 },
+			scale: 3.41
 		},
 		"*-leek": {
-			translation: {
-				x: 0,
-				y: 0,
-				z: 0
-			},
-			rotation: {
-				x: 180,
-				y: -60,
-				z: -22
-			},
-			origin: {
-				x: 0.2,
-				y: 0.15,
-				z: 0.0
-			},
-			scale: 1.5
+			translation: { x: -7, y: 1, z: 0.5 },
+			rotation: { x: 155, y: -127, z: -48 },
+			origin: { x: 1, y: 0.4, z: 0 },
+			scaleXyz: { x: -2.5, y: 2.5, z: 2.5 }
 		},
 		"*-squash": {
 			translation: {
@@ -145,61 +126,19 @@
 			},
 			scale: 2.0
 		},
-		"*-cucumber": {
-			translation: {
-				x: 0,
-				y: 0,
-				z: 0
-			},
-			rotation: {
-				x: -95,
-				y: -11,
-				z: -124
-			},
-			origin: {
-				x: 0.76,
-				y: 0.2,
-				z: 0.46
-			},
-			scale: 2.66
-		},	
 	},
 	tpHandTransformByType: {
 		"*-tomato": {
-			"translation": {
-				x: -0.68,
-				y: -0.18,
-				z: 0.0
-			},
-			"rotation": {
-				x: 45,
-				y: 0,
-				z: -90
-			},
-			"origin": {
-				x: 0.36,
-				y: 0.11,
-				z: 0.45
-			},
-			"scale": 1
+			translation: { x: -1.05, y: -0.1, z: -0.75 },
+			rotation: { x: 43, y: 0, z: -90 },
+			origin: { x: 0.36, y: 0.11, z: 0.45 },
+			scale: 0.5
 		},
 		"*-leek": {
-			"translation": {
-				x: -0.8,
-				y: -0.18,
-				z: -0.7
-			},
-			"rotation": {
-				x: 45,
-				y: 90,
-				z: 0
-			},
-			"origin": {
-				x: 0.36,
-				y: 0.11,
-				z: 0.45
-			},
-			"scale": 1.0
+			translation: { x: -0.3, y: -0.02, z: -0.7 },
+			rotation: { x: 9, y: -2, z: -88 },
+			origin: { x: 0.5, y: 0, z: 0.6 },
+			scale: 1
 		},
 		"*-squash": {
 			"translation": {
@@ -240,40 +179,16 @@
 	},
 	groundTransformByType: {
 		"@*-(tomato)": {
-			translation: {
-				x: 0,
-				y: 0.045,
-				z: 0
-			},
-			rotation: {
-				x: 0,
-				y: 0,
-				z: 0
-			},
-			origin: {
-				x: 0.47,
-				y: 0,
-				z: 0.5
-			},
-			scale: 4.5
+			translation: { x: 0, y: 0.045, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 2.5
 		},
 		"@*-(leek)": {
-			translation: {
-				x: 0,
-				y: 0.045,
-				z: 0
-			},
-			rotation: {
-				x: 90,
-				y: 90,
-				z: 90
-			},
-			origin: {
-				x: 0.47,
-				y: 0,
-				z: 0.5
-			},
-			scale: 3
+			translation: { x: 0, y: 0.045, z: 0 },
+			rotation: { x: 90, y: 90, z: 90 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 5.25
 		},
 		"*-cucumber": {
 			"translation": {
@@ -293,5 +208,5 @@
 			},
 			"scale": 2.9
 		}
-	}
+    }
 }
