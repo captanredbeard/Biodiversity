@@ -147,7 +147,7 @@
 				{
 					"type": "block",
 					"code": "cabinet-{section}",
-					"attributes": { "wood": "jacaranda" }
+					"attributes": { "wood": "rosewood" }
 				},
 				{
 					"type": "block",

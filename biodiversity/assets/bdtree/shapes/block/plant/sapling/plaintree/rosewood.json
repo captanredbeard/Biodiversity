@@ -8,8 +8,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"oak": "block/wood/bark/jacaranda",
-		"oak1": "block/plant/leaves/large/jacaranda1"
+		"oak": "block/wood/bark/rosewood",
+		"oak1": "block/plant/leaves/large/rosewood1"
 	},
 	"elements": [
 		{

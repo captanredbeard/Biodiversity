@@ -108,7 +108,7 @@
 				{
 					"type": "item",
 					"code": "cabinetdoor-{size}-{type}",
-					"attributes": { "wood": "jacaranda" }
+					"attributes": { "wood": "rosewood" }
 				},
 				{
 					"type": "item",

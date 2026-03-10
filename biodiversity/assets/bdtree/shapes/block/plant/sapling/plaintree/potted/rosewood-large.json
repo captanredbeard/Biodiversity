@@ -11,9 +11,9 @@
 		"trunk": [16,16]
 	},
 	"textures": {
-		"leaves": "block/plant/leaves/large/jacaranda1",
-		"bark": "block/wood/bark/jacaranda",
-		"trunk": "block/wood/treetrunk/jacaranda"
+		"leaves": "block/plant/leaves/large/rosewood1",
+		"bark": "block/wood/bark/rosewood",
+		"trunk": "block/wood/treetrunk/rosewood"
 	},
 	"elements": [
 		{
