@@ -10,8 +10,8 @@
 		"stage4side": [16,16]
 	},
 	"textures": {
-		"stage4side": "block/plant/cropvine/naplessquash/stage4side",
-		"stage4top_bottom": "block/plant/cropvine/naplessquash/stage4top_bottom"
+		"stage4side": "bdcrop:block/plant/cropvine/naplessquash/stage4side",
+		"stage4top_bottom": "bdcrop:block/plant/cropvine/naplessquash/stage4top_bottom"
 	},
 	"elements": [
 		{
