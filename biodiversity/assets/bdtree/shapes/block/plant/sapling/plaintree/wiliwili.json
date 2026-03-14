@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"oak": "block/wood/bark/wiliwili",
+		"oak": "block/wood/bark/narrow/wiliwili",
 		"oak1": "block/plant/leaves/large/wiliwili1"
 	},
 	"elements": [

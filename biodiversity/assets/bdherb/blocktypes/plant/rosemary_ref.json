@@ -1,0 +1,82 @@
+{
+	"enabled":false,
+	code: "herb",
+	behaviors: [ 
+		{ name: "FruitingBush" }, 
+		{ name: "BlockEntityInteract" }
+	],
+	entityBehaviors: [ 
+		{ name: "FruitingBush" }, 
+		{ name: "FruitingBushMesh" }
+	],
+	variantgroups: [
+		{ code: "type",	states: [ "rosemary" ]}
+	],
+	attributes: {
+		textureVariants: 3,
+		//cuttingBlockCode: "fruitingbushcutting-{type}-free",
+		growthProperties: {
+			"*": {
+				pauseGrowthBelowTemperature: 4,
+				pauseGrowthAboveTemperature: 30,
+				resetGrowthBelowTemperature: -3,
+				resetGrowthAboveTemperature: 38,
+				goDormantBelowTemperature: -5,
+				leaveDormantAboveTemperature: 18,
+			}
+		},
+		harvestedStacksByType: {
+			"*": [{ type: "item", code: "bdherb:herbbundle-{type}", quantity: { avg: 2.0 }  }]
+		},
+		textureMapping: {
+			"Plant1": "bdherb:block/{type}/rosemary{varient}"
+		},
+		reinforcable: true,
+		overrideRandomDrawOffset: 14,
+		allowOverlays: false
+	},
+	shapeByType: {
+		"*": {
+			base: "bdherb:block/herbsmall"
+		}
+	},
+	creativeinventory: { "general": [ "*" ], "flora": [ "*" ], "bdherb": ["*"] },
+	renderpass: "OpaqueNoCull",
+	renderAlphaTest: 0.4,
+	blockmaterial: "Plant",
+	sideopaque: {"all": false},
+	sidesolid: {"all": false},
+	replaceable: 3000,
+	lightAbsorption: 0,
+	resistance: 0.5,
+	collisionbox: null,
+	sounds: {
+		place: "block/plant",
+		break: "block/plant",
+		hit: "block/plant",
+		inside: "walk/inside/leafy/bushrustle*"
+	},
+	rainPermeable: false,
+	dropsByType: {
+		"*-ripe": [
+			{
+				type: "item",
+				code: "bdherb:item-herbbundle-rosemary",
+				quantity: { "avg": 1.2 }
+			}
+		],
+		"*": [
+			{
+				type: "item",
+				code: "plantdebris-leafy",
+				quantity: { "avg": 1 }
+			}
+		]
+	},
+	materialDensity: 200,
+	frostable: true,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10
+	}
+}

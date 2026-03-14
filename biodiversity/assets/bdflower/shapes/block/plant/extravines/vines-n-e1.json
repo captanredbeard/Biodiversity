@@ -31,7 +31,6 @@
 			"to": [ 16.0, 16.0, 17.25 ],
 			"shade": false,
 			"climateColorMap": "climatePlantTint",
-			"seasonColorMap": "climatePlantTint",
 			"rotationOrigin": [ 0.0, 0.0, 16.0 ],
 			"rotationY": 90.0,
 			"faces": {

@@ -62,7 +62,7 @@
 	"textures": {
 		"bark": { "base": "block/wood/bark/{wood}-2x2" },
 		"wood": { "base": "block/wood/treetrunk/{wood}-2x2" },
-		"inside": { "base": "block/wood/debarked/redwood-2x2" },
+		"inside": { "base": "block/wood/debarked/{wood}-2x2" },
 
 		"north": { "base": "block/wood/treetrunk/{wood}" },
 		"up": { "base": "block/wood/treetrunk/{wood}" },

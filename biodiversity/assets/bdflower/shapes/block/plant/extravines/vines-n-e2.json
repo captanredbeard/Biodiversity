@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"north": "block/plant/wildvine/wildvine_1"
 	},
 	"elements": [
 		{
@@ -31,7 +32,6 @@
 			"to": [ 16.0, 16.0, 17.25 ],
 			"shade": false,
 			"climateColorMap": "climatePlantTint",
-			"seasonColorMap": "climatePlantTint",
 			"rotationOrigin": [ 0.0, 0.0, 16.0 ],
 			"rotationY": 90.0,
 			"faces": {
@@ -49,7 +49,6 @@
 			"to": [ 32.0, 16.0, 17.25 ],
 			"shade": false,
 			"climateColorMap": "climatePlantTint",
-			"seasonColorMap": "climatePlantTint",
 			"rotationOrigin": [ 16.0, 0.0, 16.0 ],
 			"rotationY": 180.0,
 			"faces": {

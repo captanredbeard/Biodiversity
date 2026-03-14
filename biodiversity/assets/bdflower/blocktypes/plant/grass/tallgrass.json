@@ -1,4 +1,5 @@
 {
+	"enabled": false,
 	code: "tallgrass",
 	class: "BlockPlant",
 	entityClassByType: {

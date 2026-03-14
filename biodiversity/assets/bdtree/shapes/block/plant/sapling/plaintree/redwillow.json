@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"oak": "block/wood/bark/redwillow",
+		"oak": "block/wood/bark/narrow/redwillow",
 		"oak1": "block/plant/leaves/large/redwillow1"
 	},
 	"elements": [

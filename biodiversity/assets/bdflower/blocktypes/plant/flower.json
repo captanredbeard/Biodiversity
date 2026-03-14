@@ -1,4 +1,5 @@
 {
+	"enabled": false,
 	code: "flower",
 	class: "BlockPlant",
 	behaviors: [ { name: "DropNotSnowCovered" } ],
