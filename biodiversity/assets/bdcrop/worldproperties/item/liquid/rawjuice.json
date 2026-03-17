@@ -1,5 +1,6 @@
 {
-    "code": "fruit",
+    "enabled": false,
+    "code": "juiceportion",
     "variants": [
         {
             "code": "cantaloupe"

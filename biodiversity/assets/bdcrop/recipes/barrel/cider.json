@@ -1,0 +1,23 @@
+[
+    {
+        "code": "cider",
+        "sealHours": 168,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "bdcrop:juiceportion-*",
+                "name": "fruit",
+                "allowedVariants": [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ],
+                "litres": 5
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "bdcrop:ciderportion-{fruit}",
+            "litres": 5
+        }
+    },
+    {
+
+    }
+]

@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"mirzamelonslice": [16,16]
+	},
+	"textures": {
+		"mirzamelonslice": "bdcrop:item/food/fruit/mirzamelon"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 1.5, 0.0, 4.5 ],
+			"to": [ 8.0, 3.5, 11.5 ],
+			"rotationOrigin": [ 7.0, 0.0, 10.0 ],
+			"faces": {
+				"north": { "texture": "#mirzamelonslice", "uv": [ 8.5, 1.0, 15.5, 4.5 ], "autoUv": false },
+				"east": { "texture": "#mirzamelonslice", "uv": [ 1.0, 5.5, 4.5, 12.5 ], "rotation": 270 },
+				"south": { "texture": "#mirzamelonslice", "uv": [ 8.5, 4.5, 15.5, 8.0 ], "autoUv": false },
+				"west": { "texture": "#mirzamelonslice", "uv": [ 1.0, 1.0, 8.0, 4.5 ], "rotation": 180, "autoUv": false },
+				"up": { "texture": "#mirzamelonslice", "uv": [ 1.0, 5.5, 8.0, 12.5 ], "autoUv": false },
+				"down": { "texture": "#mirzamelonslice", "uv": [ 8.5, 1.0, 15.5, 8.0 ], "rotation": 180, "autoUv": false }
+			}
+		}
+	]}

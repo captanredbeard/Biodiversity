@@ -1,0 +1,116 @@
+{
+	code: "pressedmash",
+	class: "ItemPressedMash",
+	maxstacksize: 64,
+	variantgroups: [
+		{
+			code: "fruit",
+			//loadFromProperties: "bdcrop:itemtype/food/fruit",
+			states: [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ]
+		}
+	],
+	attributes: {
+		foodTags: [ "fruitmash" ],
+		juiceablePropertiesByType: {
+			"*": {
+				liquidStack: {
+					type: "item",
+					code: "bdcrop:juiceportion-{fruit}",
+					stacksize: 1
+				},
+				pressedStack: {
+					type: "item",
+					code: "bdcrop:pressedmash-{fruit}",
+					stacksize: 1
+				}
+			}
+		},
+		inTrapTransform: {
+			translation: {
+				x: -0.03,
+				y: -0.09,
+				z: 0
+			},
+			scale: 0.7
+		},
+		handbook: {
+			groupBy: [ "pressedmash-*" ]
+		}
+	},
+	shape: { base: "game:item/pressedmash" },
+	textures: {
+		"material": { base: "bdcrop:item/food/pies/{fruit}" },
+	},
+	creativeinventory: {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"items": [ "*" ],
+		"bdcrop": [ "*" ]
+	},
+	transitionableProps: [
+		{
+			type: "Perish",
+			freshHours: { avg: 36 },
+			transitionHours: { avg: 12 },
+			transitionedStack: {
+				type: "item",
+				code: "rot"
+			},
+			transitionRatio: 1
+		}
+	],
+	guiTransform: {
+		translation: {
+			x: 0,
+			y: 0,
+			z: 0
+		},
+		rotation: {
+			x: -28,
+			y: -40,
+			z: 0
+		},
+		origin: {
+			x: 0.49,
+			y: 0.04,
+			z: 0.53
+		},
+		scale: 2.3
+	},
+	groundTransform: {
+		translation: {
+			x: 0,
+			y: 0,
+			z: 0
+		},
+		rotation: {
+			x: 0,
+			y: 0,
+			z: 0
+		},
+		origin: {
+			x: 0.5,
+			y: 0,
+			z: 0.5
+		},
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: {
+			x: -1.1,
+			y: -0.3,
+			z: -0.9
+		},
+		rotation: {
+			x: 1,
+			y: -34,
+			z: -11
+		},
+		origin: {
+			x: 0.5,
+			y: 0.25,
+			z: 0.5
+		},
+		scale: 0.5
+	}
+}

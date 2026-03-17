@@ -1,0 +1,26 @@
+[
+    {
+        "ingredientPattern": "K,P",
+        "width": 1,
+        "height": 2,
+        "enabled": true,
+        "shapeless": true,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            },
+            "P": {
+                "type": "block",
+                "code": "bdcrop:naplessquash-fruit-4"
+            }
+        },
+        "name": "naplessquashslice",
+        "output": {
+            "type": "item",
+            "code": "bdcrop:vegetable-naplessquash",
+            "quantity": 6
+        }
+    },
+]

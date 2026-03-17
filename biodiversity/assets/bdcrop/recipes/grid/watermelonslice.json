@@ -1,0 +1,26 @@
+[
+    {
+        "ingredientPattern": "K,P",
+        "width": 1,
+        "height": 2,
+        "enabled": true,
+        "shapeless": true,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            },
+            "P": {
+                "type": "block",
+                "code": "bdcrop:watermelon-fruit-4"
+            }
+        },
+        "name": "watermelonslice",
+        "output": {
+            "type": "item",
+            "code": "bdcrop:fruit-watermelon",
+            "quantity": 6
+        }
+    },
+]

@@ -22,21 +22,104 @@
 		{
 			"code": "type",
 			//"loadFromProperties": "bdcrop:item/food/vegetable",
-			"states": ["leek","tomato"]
+			"states": ["leek","tomato","naplessquash","butternutsquash"]
 		}
 	],
-	shape: { base: "item/vegetable/{type}" },
-	texture: { base: "item/food/vegetable/{type}" },
+	shape: { base: "bdcrop:item/vegetable/{type}" },
+	texture: { base: "bdcrop:item/food/vegetable/{type}" },
 	attributesByType: {
-		"*-leek" : {
-		   groundStorageTransform: {
-			  translation: { x: 0.1, y: -0.46, z: 0.1 },
-			  rotation: { x: 0, y: -60, z: -90 }
-		   },
-		   "nutritionPropsWhenInMeal": { satiety: 120, foodcategory: "vegetable" },
-		   "inPieProperties" : { texture: "", partType: 'Filling', mixingCodes: ["potpie"] }
+		"*-leek": {
+			"foodTags": [ "{type}" ],
+			"groundStorageTransform": {
+				"translation": {
+					"x": 0.1,
+					"y": -0.46,
+					"z": 0.1
+				},
+				"rotation": {
+					"x": 0,
+					"y": -60,
+					"z": -90
+				}
+			},
+			"nutritionPropsWhenInMeal": {
+				"satiety": 150,
+				"foodcategory": "vegetable"
+			},
+			"inPieProperties": {
+				"texture": "bdcrop:item/food/pies/leek",
+				"partType": "Filling",
+				"mixingCodes": [ "potpie", "vegetablepie" ]
+			},
+			"displayable": {
+				"shelf": {
+					"size": {
+						"width": 4,
+						"height": 4,
+						"length": 4
+					}
+				}
+			}
+		},
+		"*-tomato": {
+			"foodTags": [ "{type}" ],
+			"nutritionPropsWhenInMeal": {
+				"satiety": 150,
+				"foodcategory": "vegetable"
+			},
+			"displayable": {
+				"shelf": {
+					"size": {
+						"width": 4,
+						"height": 4,
+						"length": 4
+					}
+				}
+			}
+		},
+		"*-naplessquash": {
+			"foodTags": [ "{type}", "tastyvegetable" ],
+			"nutritionPropsWhenInMeal": {
+				"satiety": 180,
+				"foodcategory": "vegetable"
+			},
+			"inPieProperties": {
+				"texture": "bdcrop:item/food/pies/naplessquash",
+				"partType": "Filling",
+				"mixingCodes": [ "potpie", "vegetablepie" ]
+			},
+			"displayable": {
+				"shelf": {
+					"size": {
+						"width": 4,
+						"height": 4,
+						"length": 4
+					}
+				}
+			}
+		},
+		"*-butternutsquash": {
+			"foodTags": [ "{type}", "tastyvegetable" ],
+			"nutritionPropsWhenInMeal": {
+				"satiety": 180,
+				"foodcategory": "vegetable"
+			},
+			"inPieProperties": {
+				"texture": "bdcrop:item/food/pies/butternutsquash",
+				"partType": "Filling",
+				"mixingCodes": [ "potpie", "vegetablepie" ]
+			},
+			"displayable": {
+				"shelf": {
+					"size": {
+						"width": 4,
+						"height": 4,
+						"length": 4
+					}
+				}
+			}
 		}
-    },
+	},
 	creativeinventory: {
 		"general": [ "*" ],
 		"items": [ "*" ],
@@ -44,169 +127,261 @@
 	},
 	storageFlags: 33,
 	nutritionPropsByType: {
-		"@*-(tomato)": {
-			satiety: 100,
-			foodcategory: "Vegetable"
+		"@*-(naplessquash||butternutsquash)": {
+			"satiety": 140,
+			"foodcategory": "Vegetable"
 		},
-		"@*-(leek)": {
-			satiety: 100,
-			foodcategory: "Vegetable"
-		},
-		"@*-(squash)": {
-			satiety: 120,
-			foodcategory: "Vegetable"
-		},
+		"*": {
+			"satiety": 100,
+			"foodcategory": "vegetable"
+		}
 	},
 	transitionablePropsByType: {
-		"@*-(tomato)": [
+		"@*-(tomato||naplessquash||butternutsquash)": [
 			{
-				type: "Perish",
-				freshHours: { "avg": 192 },
-				transitionHours: { "avg": 24 },
-				transitionedStack: {
-					type: "item",
-					code: "game:rot"
+				"type": "Perish",
+				"freshHours": { "avg": 192 },
+				"transitionHours": { "avg": 24 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
 				},
-				transitionRatio: 0.5
-			}
-		],
-		"@*-(leek)": [
-			{
-				type: "Perish",
-				freshHours: { "avg": 288 },
-				transitionHours: { "avg": 48 },
-				transitionedStack: {
-					type: "item",
-					code: "game:rot"
-				},
-				transitionRatio: 0.25
+				"transitionRatio": 0.5
 			}
 		],
 		"*": [
 			{
-				type: "Perish",
-				freshHours: { avg: 360 },
-				transitionHours: { avg: 48 },
-				transitionedStack: {
-					type: "item",
-					code: "game:rot"
+				"type": "Perish",
+				"freshHours": { "avg": 360 },
+				"transitionHours": { "avg": 48 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
 				},
-				transitionRatio: 0.5
+				"transitionRatio": 0.5
 			}
 		]
 	},
 	materialDensity: 600,
 	guiTransformByType: {
 		"*-tomato": {
-			rotation: { x: 112, y: 21, z: 24 },
-			origin: { x: 0.52, y: 0.17, z: 0.55 },
-			scale: 3.41
+			"rotation": {
+				"x": 112,
+				"y": 21,
+				"z": 24
+			},
+			"origin": {
+				"x": 0.52,
+				"y": 0.17,
+				"z": 0.55
+			},
+			"scale": 3.41
 		},
 		"*-leek": {
-			translation: { x: -7, y: 1, z: 0.5 },
-			rotation: { x: 155, y: -127, z: -48 },
-			origin: { x: 1, y: 0.4, z: 0 },
-			scaleXyz: { x: -2.5, y: 2.5, z: 2.5 }
+			"translation": {
+				"x": -7,
+				"y": 1,
+				"z": 0.5
+			},
+			"rotation": {
+				"x": 155,
+				"y": -127,
+				"z": -48
+			},
+			"origin": {
+				"x": 1,
+				"y": 0.4,
+				"z": 0
+			},
+			"scaleXyz": {
+				"x": -2.5,
+				"y": 2.5,
+				"z": 2.5
+			}
 		},
-		"*-squash": {
-			translation: {
-				x: 0,
-				y: 0,
-				z: 0
+		"*-naplessquash": {
+			"translation": {
+				"x": 2,
+				"y": 2,
+				"z": 0
 			},
-			rotation: {
-				x: 0,
-				y: 0,
-				z: 0
+			"rotation": {
+				"x": 127,
+				"y": 180,
+				"z": 38
 			},
-			origin: {
-				x: 0.51,
-				y: 0.15,
-				z: 0.51
+			"origin": {
+				"x": 0.5,
+				"y": 0.05,
+				"z": 0.5
 			},
-			scale: 2.0
+			"scale": 3.5999
 		},
+		"*-butternutsquash": {
+			"translation": {
+				"x": 2,
+				"y": 2,
+				"z": 0
+			},
+			"rotation": {
+				"x": 127,
+				"y": 180,
+				"z": 38
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.05,
+				"z": 0.5
+			},
+			"scale": 3.5999
+		}
 	},
 	tpHandTransformByType: {
 		"*-tomato": {
-			translation: { x: -1.05, y: -0.1, z: -0.75 },
-			rotation: { x: 43, y: 0, z: -90 },
-			origin: { x: 0.36, y: 0.11, z: 0.45 },
-			scale: 0.5
+			"translation": {
+				"x": -1.05,
+				"y": -0.1,
+				"z": -0.75
+			},
+			"rotation": {
+				"x": 43,
+				"y": 0,
+				"z": -90
+			},
+			"origin": {
+				"x": 0.36,
+				"y": 0.11,
+				"z": 0.45
+			},
+			"scale": 0.5
 		},
 		"*-leek": {
-			translation: { x: -0.3, y: -0.02, z: -0.7 },
-			rotation: { x: 9, y: -2, z: -88 },
-			origin: { x: 0.5, y: 0, z: 0.6 },
-			scale: 1
-		},
-		"*-squash": {
 			"translation": {
-				x: -0.8,
-				y: -0.18,
-				z: -0.7
+				"x": -0.3,
+				"y": -0.02,
+				"z": -0.7
 			},
 			"rotation": {
-				x: 0,
-				y: 0,
-				z: -76
-			},
-			"origin": {
-				x: 0.36,
-				y: 0.11,
-				z: 0.45
-			},
-			"scale": 2.0
-		},
-		"*-cucumber": {
-			"translation": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-			},
-			"rotation": {
-				"x": 4,
-				"y": -54,
-				"z": 180
-			},
-			"origin": {
-				"x": -0.7,
-				"y": 0.02,
-				"z": -0.2
-			},
-			"scale": 0.48
-		},
-	},
-	groundTransformByType: {
-		"@*-(tomato)": {
-			translation: { x: 0, y: 0.045, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 2.5
-		},
-		"@*-(leek)": {
-			translation: { x: 0, y: 0.045, z: 0 },
-			rotation: { x: 90, y: 90, z: 90 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 5.25
-		},
-		"*-cucumber": {
-			"translation": {
-				"x": 0,
-				"y": 0,
-				"z": 0
-			},
-			"rotation": {
-				"x": 0,
-				"y": 0,
-				"z": 0
+				"x": 9,
+				"y": -2,
+				"z": -88
 			},
 			"origin": {
 				"x": 0.5,
 				"y": 0,
-				"z": 0.53
+				"z": 0.6
 			},
-			"scale": 2.9
+			"scale": 1
+		},
+		"*-naplessquash": {
+			"translation": {
+				"x": -0.8,
+				"y": -0.2,
+				"z": -0.59
+			},
+			"rotation": {
+				"x": 84,
+				"y": 3,
+				"z": 4
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.75
+		},
+		"*-butternutsquash": {
+			"translation": {
+				"x": -0.8,
+				"y": -0.2,
+				"z": -0.59
+			},
+			"rotation": {
+				"x": 84,
+				"y": 3,
+				"z": 4
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.75
 		}
-    }
+	},
+	groundTransformByType: {
+		"@*-(tomato)": {
+			"translation": {
+				"x": 0,
+				"y": 0.045,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 2.5
+		},
+		"@*-(leek)": {
+			"translation": {
+				"x": 0,
+				"y": 0.045,
+				"z": 0
+			},
+			"rotation": {
+				"x": 90,
+				"y": 90,
+				"z": 90
+			},
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 5.25
+		},
+		"*-naplessquash": {
+			"translation": {
+				"x": 0,
+				"y": 0.01,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 4.0
+		},
+		"*-butternutsquash": {
+			"translation": {
+				"x": 0,
+				"y": 0.01,
+				"z": 0
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"origin": {
+				"x": 0.47,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 4.0
+		}
+	}
 }

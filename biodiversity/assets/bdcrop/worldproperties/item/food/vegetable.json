@@ -6,14 +6,12 @@
     },
     {
       "code": "tomato"
+    },
+    {
+      "code": "naplessquash"
+    },
+    {
+      "code": "butternutsquash"
     }
-    /*
-    {
-      "code": "cucumber"
-    },
-    {
-      "code": "squash"
-    },
-  */
   ]
 }
