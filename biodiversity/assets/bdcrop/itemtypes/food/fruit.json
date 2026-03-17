@@ -1,9 +1,12 @@
 {
-	"enabled" : false,
 	"code": "fruit",
 	"maxstacksize": 64,
 	"variantgroups": [
-		{ "loadFromProperties": "bdcrop:item/food/fruit" }
+		{
+			"code": "type",
+			//"loadFromProperties": "bdcrop:item/food/fruit",
+			"states": [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ]
+		}
 	],
 	"behaviors": [
 		{
@@ -26,52 +29,46 @@
 	},
 	"attributes": {
 		"foodTags": [ "{fruit}" ],
-		"inContainerTextureByType": {
-			"*": { "base": "block/food/pie/fill-{fruit}" }
-		},
 		"nutritionPropsWhenInMealByType": {
-			"@*-(muskmelon|mirzamelon|honeydewmelon|canteloupe)": {
+			"@*-(watermelon|honeydewmelon|cantaloupe)": {
 				"satiety": 140,
 				"foodcategory": "Fruit"
 			},
 			"*": {
-				"satiety": 120,
+				"satiety": 100,
 				"foodcategory": "Fruit"
 			}
-		},
-		"inPiePropertiesByType": {
 		},
 		"groundStorageTransform": {
 			"translation": {
 				"x": 0,
-				"y": -0.25,
+				"y": 0,
 				"z": 0
 			},
-			"scale": 0.5
+			"scale": 1.0
 		},
-		/*
 		"juiceablePropertiesByType": {
-			"*-example": {
+			"*": {
 				"litresPerItem": 0.3125,
 				"liquidStack": {
 					"type": "item",
-					"code": "juiceportion-*",
+					"code": "bdcrop:juiceportion-{type}",
 					"stacksize": 1
 				},
 				"pressedStack": {
 					"type": "item",
-					"code": "pressedmash-*",
+					"code": "bdcrop:pressedmash-{type}",
 					"stacksize": 1
 				}
-			},
+			}
 		}
-		*/
 	},
 	"shapebytype": {
-		"*": { "base": "item/fruit/{fruit}" }
+		"*-mirzamelon": {"base": "bdcrop:item/fruit/mirzamelonslice"},
+		"*": { "base": "bdcrop:item/fruit/melonslice" }
 	},
 	"textureByType": {
-		"*": null
+		"*": {"base": "bdcrop:item/food/fruit/{type}"}
 	},
 	"creativeinventory": {
 		"general": [ "*" ],
@@ -80,7 +77,7 @@
 	},
 
 	"nutritionPropsByType": {
-		"@*-(mirzamelon|muskmelon|honeydewmelon|canteloupe)": {
+		"@*-(mirzamelon|honeydewmelon|cantaloupe)": {
 			"satiety": 100,
 			"foodcategory": "Fruit"
 		},
@@ -90,7 +87,7 @@
 		}
 	},
 	"transitionablePropsByType": {
-		"@*-(watermelon|mirzamelon|muskmelon|honeydewmelon|canteloupe)": [
+		"@*-(watermelon|mirzamelon|honeydewmelon|cantaloupe)": [
 			{
 				"type": "Perish",
 				"freshHours": { "avg": 48 },
@@ -104,7 +101,7 @@
 		],
 	},
 	"guiTransformByType": {
-		"@*-(watermelon|mirzamelon|muskmelon|honeydewmelon|canteloupe)": {
+		"@*-(watermelon|mirzamelon|honeydewmelon|cantaloupe)": {
 			"rotation": {
 				"x": 180,
 				"y": 152,
@@ -132,7 +129,7 @@
 		}
 	},
 	"tpHandTransformByType": {
-		"@*-(watermelon|mirzamelon|muskmelon|honeydewmelon|canteloupe)": {
+		"@*-(watermelon|mirzamelon|honeydewmelon|cantaloupe)": {
 			"translation": {
 				"x": 0,
 				"y": 0,
@@ -155,7 +152,7 @@
 		},
 	},
 	"groundTransformByType": {
-		"@*-(watermelon|mirzamelon|muskmelon|honeydewmelon|canteloupe)": {
+		"@*-(watermelon|mirzamelon|honeydewmelon|cantaloupe)": {
 			"translation": {
 				"x": 0,
 				"y": 0,
@@ -176,5 +173,5 @@
 		"*": {
 			"scale": 2.5
 		}
-	},
+	}
 }

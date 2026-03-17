@@ -2,7 +2,7 @@
 	code: "crop",
 	class: "BlockCrop",
 	variantgroups: [
-		{ code: "type", states: ["muskmelon"] },
+		{ code: "type", states: ["butternutsquash"] },
 		{ code: "stage", states: ["1", "2", "3", "4", "5", "6", "7", "8"] },
 	],
 	creativeinventory: { "general": [""], "flora": [""], "bdcrop": [""] },
@@ -33,21 +33,21 @@
 	sideao: { all: false },
 	drops: [],
 	cropProps: {
-		behaviors: [{name: "biodiversity.BlockCropVine", properties: {vineGrowthStage: 3, vineWitherStage: 8, vineGrowthQuantity: { dist: "invexp", avg: 2, var: 3  }, melonBlockCode: "muskmelon", domainCode: "bdcrop" }}],
-		requiredNutrient: "P",
-		nutrientConsumption: 40,
+		behaviors: [{name: "biodiversity.BlockCropVine", properties: {vineGrowthStage: 3, vineWitherStage: 8, vineGrowthQuantity: { dist: "invexp", avg: 6, var: 3  }, melonBlockCode: "butternutsquash", domainCode: "bdcrop" }}],
+		requiredNutrient: "N",
+		nutrientConsumption: 30,
 		growthStages: 8,
 		totalGrowthMonths: 2,
-		coldDamageBelow: 8,
+		coldDamageBelow: 0.0,
 		damageGrowthStuntMul: 0.75,
 		coldDamageRipeMul: 0.5,
-		heatDamageAbove: 46
+		heatDamageAbove: 44
 	},
 	texturesByType: {
-		"crop-muskmelon-1": {
+		"crop-butternutsquash-1": {
 			"all": { base: "block/plant/cropvine/motherplant/stage1-northandsouth" }
 		},
-		"crop-muskmelon-*": {
+		"crop-butternutsquash-*": {
 			"south": { base: "block/plant/cropvine/motherplant/stage{stage}-south" },
 			"north": { base: "block/plant/cropvine/motherplant/stage{stage}-north" },
 		}

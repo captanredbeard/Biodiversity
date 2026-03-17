@@ -1,5 +1,6 @@
 {
-    "code": "fruit",
+    "enabled": false,
+    "code": "pressedmash",
     "variants": [
         {
             "code": "cantaloupe"

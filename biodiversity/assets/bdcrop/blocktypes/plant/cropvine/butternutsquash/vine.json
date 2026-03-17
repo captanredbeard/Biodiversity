@@ -1,5 +1,5 @@
 {
-	code: "naplessquash",
+	code: "butternutsquash",
 	class: "Block",
 	entityClass: "biodiversity.MelonVine",
 	variantgroups: [
@@ -26,11 +26,11 @@
 		vineHoursToGrowFirstStage: 12,
 		vineHoursToGrowSecondStage: 6,
 		bloomProbability: 0.5,
-		debloomProbability: 0.5,
-		vineSpawnProbability: 0.5,
+		debloomProbability: 0.3,
+		vineSpawnProbability: 0.75,
 		preferredGrowthDirProbability: 0.75,
 		maxAllowedMelonGrowthTries: 4,
-		melonBlockCode: "naplessquash",
+		melonBlockCode: "butternutsquash",
 		domainCode: "bdcrop"
 	},
 	sideopaque: {
@@ -41,25 +41,25 @@
 	},
 	sideao: { all: false },
 	texturesByType: {
-		"naplessquash-vine-3-blooming": {
-			"north": { base: "block/plant/cropvine/vine/stage3-blooming-north" },
-			"south": { base: "block/plant/cropvine/vine/stage3-blooming-south" }
+		"butternutsquash-vine-3-blooming": {
+			"north": { "base": "block/plant/cropvine/vine/stage3-blooming-north" },
+			"south": { "base": "block/plant/cropvine/vine/stage3-blooming-south" }
 		},
-		"naplessquash-vine-1-normal": {
-			"north": { base: "block/plant/cropvine/vine/stage1-north" },
-			"south": { base: "block/plant/cropvine/vine/stage1-south" }
+		"butternutsquash-vine-1-normal": {
+			"north": { "base": "block/plant/cropvine/vine/stage1-north" },
+			"south": { "base": "block/plant/cropvine/vine/stage1-south" }
 		},
-		"naplessquash-vine-2-normal": {
-			"north": { base: "block/plant/cropvine/vine/stage2-north" },
-			"south": { base: "block/plant/cropvine/vine/stage2-south" }
+		"butternutsquash-vine-2-normal": {
+			"north": { "base": "block/plant/cropvine/vine/stage2-north" },
+			"south": { "base": "block/plant/cropvine/vine/stage2-south" }
 		},
-		"naplessquash-vine-3-normal": {
-			"north": { base: "block/plant/cropvine/vine/stage3-north" },
-			"south": { base: "block/plant/cropvine/vine/stage3-south" }
+		"butternutsquash-vine-3-normal": {
+			"north": { "base": "block/plant/cropvine/vine/stage3-north" },
+			"south": { "base": "block/plant/cropvine/vine/stage3-south" }
 		},
-		"naplessquash-vine-4-withered": {
-			"north": { base: "block/plant/cropvine/vine/stage4-north" },
-			"south": { base: "block/plant/cropvine/vine/stage4-south" }
+		"butternutsquash-vine-4-withered": {
+			"north": { "base": "block/plant/cropvine/vine/stage4-north" },
+			"south": { "base": "block/plant/cropvine/vine/stage4-south" }
 		}
 	},
 	replaceable: 5800,

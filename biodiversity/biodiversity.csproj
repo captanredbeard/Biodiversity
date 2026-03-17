@@ -68,20 +68,27 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <Compile Remove="assets\bdflower\**" />
+	  <Compile Remove="assets\bdherb\**" />
 	  <Compile Remove="assets\bdorchard\**" />
 	  <Compile Remove="assets\bdshrub\**" />
 	  <Compile Remove="assets\bdtree\**" />
 	  <Content Remove="assets\bdflower\**" />
+	  <Content Remove="assets\bdherb\**" />
 	  <Content Remove="assets\bdorchard\**" />
 	  <Content Remove="assets\bdshrub\**" />
 	  <Content Remove="assets\bdtree\**" />
 	  <EmbeddedResource Remove="assets\bdflower\**" />
+	  <EmbeddedResource Remove="assets\bdherb\**" />
 	  <EmbeddedResource Remove="assets\bdorchard\**" />
 	  <EmbeddedResource Remove="assets\bdshrub\**" />
 	  <EmbeddedResource Remove="assets\bdtree\**" />
 	  <None Remove="assets\bdflower\**" />
+	  <None Remove="assets\bdherb\**" />
 	  <None Remove="assets\bdorchard\**" />
 	  <None Remove="assets\bdshrub\**" />
 	  <None Remove="assets\bdtree\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="assets\bdcrop\textures\item\resource\pressedmash\" />
 	</ItemGroup>
 </Project>
