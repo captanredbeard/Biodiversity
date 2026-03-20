@@ -21,7 +21,7 @@
         "op": "add",
         "path": "/textures/contents-pressedmash-watermelon",
         "value": {
-            "base": "item/food/pies/watermelon", //block/food/pie/fill-watermelon
+            "base": "bdcrop:item/food/pies/watermelon",
             "overlays": [ "block/wood/trough/large/shadow" ]
         },
         "file": "game:blocktypes/wood/trough-large.json",
@@ -31,15 +31,15 @@
         "op": "add",
         "path": "/attributes/contentConfig/-",
         "value": {
-            "code": "mirzamelonmash",
+            "code": "honeydewmelonmash",
             "content": {
                 "type": "item",
-                "code": "bdcrop:pressedmash-honeydew"
+                "code": "bdcrop:pressedmash-honeydewmelon"
             },
             "quantityPerFillLevel": 2,
             "maxFillLevels": 8,
             "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
-            "textureCode": "contents-pressedmash-honeydew"
+            "textureCode": "contents-pressedmash-honeydewmelon"
         },
         "file": "game:blocktypes/wood/trough-large.json",
         "side": "server"
@@ -48,7 +48,7 @@
         "op": "add",
         "path": "/textures/contents-pressedmash-honeydew",
         "value": {
-            "base": "block/food/pie/fill-honeydew",
+            "base": "bdcrop:item/food/pies/honeydewmelon",
             "overlays": [ "block/wood/trough/large/shadow" ]
         },
         "file": "game:blocktypes/wood/trough-large.json",
@@ -75,7 +75,7 @@
         "op": "add",
         "path": "/textures/contents-pressedmash-mirzamelon",
         "value": {
-            "base": "block/food/pie/fill-mirzamelon",
+            "base": "bdcrop:item/food/pies/mirzamelon",
             "overlays": [ "block/wood/trough/large/shadow" ]
         },
         "file": "game:blocktypes/wood/trough-large.json",
@@ -102,7 +102,7 @@
         "op": "add",
         "path": "/textures/contents-pressedmash-cantaloupe",
         "value": {
-            "base": "block/food/pie/fill-cantaloupe",
+            "base": "bdcrop:item/food/pies/cantaloupe",
             "overlays": [ "block/wood/trough/large/shadow" ]
         },
         "file": "game:blocktypes/wood/trough-large.json",
@@ -118,7 +118,7 @@
             "code": "watermelonmash",
             "content": {
                 "type": "item",
-                "code": "wildcraftfruit:pressedmash-watermelon"
+                "code": "bdcrop:pressedmash-watermelon"
             },
             "quantityPerFillLevel": 1,
             "maxFillLevels": 8,
@@ -132,7 +132,7 @@
         "op": "add",
         "path": "/textures/contents-pressedmash-watermelon",
         "value": {
-            "base": "block/food/pie/fill-watermelon",
+            "base": "bdcrop:item/food/pies/watermelon",
             "overlays": [ "block/wood/trough/small/shadow" ]
         },
         "file": "game:blocktypes/wood/trough-small.json",
@@ -145,7 +145,7 @@
             "code": "mirzamelonmash",
             "content": {
                 "type": "item",
-                "code": "wildcraftfruit:pressedmash-mirzamelon"
+                "code": "bdcrop:pressedmash-mirzamelon"
             },
             "quantityPerFillLevel": 1,
             "maxFillLevels": 8,
@@ -159,7 +159,7 @@
         "op": "add",
         "path": "/textures/contents-pressedmash-mirzamelon",
         "value": {
-            "base": "block/food/pie/fill-mirzamelon",
+            "base": "bdcrop:item/food/pies/mirzamelon",
             "overlays": [ "block/wood/trough/small/shadow" ]
         },
         "file": "game:blocktypes/wood/trough-small.json",
@@ -172,7 +172,7 @@
             "code": "cantaloupemash",
             "content": {
                 "type": "item",
-                "code": "wildcraftfruit:pressedmash-cantaloupe"
+                "code": "bdcrop:pressedmash-cantaloupe"
             },
             "quantityPerFillLevel": 1,
             "maxFillLevels": 8,
@@ -186,7 +186,7 @@
         "op": "add",
         "path": "/textures/contents-pressedmash-cantaloupe",
         "value": {
-            "base": "block/food/pie/fill-cantaloupe",
+            "base": "bdcrop:item/food/pies/cantaloupe",
             "overlays": [ "block/wood/trough/small/shadow" ]
         },
         "file": "game:blocktypes/wood/trough-small.json",
@@ -199,7 +199,7 @@
             "code": "honeydewmelonmash",
             "content": {
                 "type": "item",
-                "code": "wildcraftfruit:pressedmash-honeydew"
+                "code": "bdcrop:pressedmash-honeydewmelon"
             },
             "quantityPerFillLevel": 1,
             "maxFillLevels": 8,
@@ -213,7 +213,7 @@
         "op": "add",
         "path": "/textures/contents-pressedmash-honeydewmelon",
         "value": {
-            "base": "block/food/pie/fill-honeydewmelon",
+            "base": "bdcrop:item/food/pies/honeydewmelon",
             "overlays": [ "block/wood/trough/small/shadow" ]
         },
         "file": "game:blocktypes/wood/trough-small.json",
