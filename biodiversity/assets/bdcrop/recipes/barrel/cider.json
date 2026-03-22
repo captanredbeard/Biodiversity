@@ -8,16 +8,13 @@
                 "code": "bdcrop:juiceportion-*",
                 "name": "fruit",
                 "allowedVariants": [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ],
-                "litres": 5
+                "litres": 0.01
             }
         ],
         "output": {
             "type": "item",
             "code": "bdcrop:ciderportion-{fruit}",
-            "litres": 5
+            "litres": 0.01
         }
-    },
-    {
-
     }
 ]

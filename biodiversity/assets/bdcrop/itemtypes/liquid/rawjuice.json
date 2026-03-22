@@ -1,14 +1,15 @@
 {
-	code: "juiceportion",
-	variantGroups: [
+	"code": "juiceportion",
+	"variantGroups": [
 		{
-			code: "fruit",
-			states: [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ]
+			"code": "fruit",
+			"loadFromProperties": "bdcrop:item/food/fruit",
+			"states": []
 		}
 	],
-	class: "ItemLiquidPortion",
-	matterState: "liquid",
-	attributes: {
+	"class": "ItemLiquidPortion",
+	"matterState": "liquid",
+	"attributes": {
 		"handbook": {
 			"ignoreCreativeInvStacks": true,
 			"groupBy": [ "juiceportion-*" ]
@@ -38,26 +39,26 @@
 				}
 			}
 		},
-		"inBowlShape": { "base": "game:block/food/meal/liquid" },
+		"inBowlShape": { "base": "game:block/food/meal/liquid" }
 	},
-	shape: { base: "game:item/liquid" },
-	texture: {
-		base: "bdcrop:item/food/pies/{fruit}",
-		alpha: 255
+	"shape": { "base": "game:item/liquid" },
+	"texture": {
+		"base": "bdcrop:item/food/pies/{fruit}",
+		"alpha": 255
 	},
-	creativeinventoryStacks: [
+	"creativeinventoryStacks": [
 		{
-			tabs: [ "general", "liquids", "bdcrop" ],
-			stacks: [
+			"tabs": [ "general", "liquids", "bdcrop" ],
+			"stacks": [
 				{
-					type: "block",
-					code: "game:woodbucket",
-					attributes: {
-						ucontents: [
+					"type": "block",
+					"code": "game:woodbucket",
+					"attributes": {
+						"ucontents": [
 							{
-								type: "item",
-								code: "bdcrop:juiceportion-{fruit}",
-								makefull: true
+								"type": "item",
+								"code": "bdcrop:juiceportion-{fruit}",
+								"makefull": true
 							}
 						]
 					}
@@ -65,43 +66,43 @@
 			]
 		}
 	],
-	maxstacksize: 5000,
-	materialDensity: 200,
-	guiTransform: {
-		translation: {
-			x: 0,
-			y: 1,
-			z: 0
+	"maxstacksize": 5000,
+	"materialDensity": 200,
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 1,
+			"z": 0
 		},
-		rotation: {
-			x: 123,
-			y: -33,
-			z: -13
+		"rotation": {
+			"x": 123,
+			"y": -33,
+			"z": -13
 		},
-		origin: {
-			x: 0.5,
-			y: 0,
-			z: 0.5
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
 		},
-		scale: 1.4
+		"scale": 1.4
 	},
-	tpHandTransform: {
-		translation: {
-			x: -1.5,
-			y: -1,
-			z: -1.4
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.5,
+			"y": -1,
+			"z": -1.4
 		}
 	},
-	transitionableProps: [
+	"transitionableProps": [
 		{
-			type: "Perish",
-			freshHours: { avg: 168 },
-			transitionHours: { avg: 48 },
-			transitionedStack: {
-				type: "item",
-				code: "rot"
+			"type": "Perish",
+			"freshHours": { "avg": 168 },
+			"transitionHours": { "avg": 48 },
+			"transitionedStack": {
+				"type": "item",
+				"code": "game:rot"
 			},
-			transitionRatio: 0.005
+			"transitionRatio": 0.005
 		}
-	],
+	]
 }
