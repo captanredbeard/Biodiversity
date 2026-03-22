@@ -878,7 +878,7 @@
 			"op": "add",
 			"path": "/treegens/-",
 			"value": {
-				"Generator": "bdtree:jacaranda",
+				"Generator": "bdtree:rosewood",
 				"Weight": 0.7,
 				"SuitabilitySizeBonus": 0.4,
 				"MinTemp": 27,

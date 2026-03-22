@@ -12,28 +12,28 @@
 		"defaults": [ "oak", "iron", "vintage" ],
 		"textureMappingByType": {
 			"cabinet-middle": {
-				"doors": "block/wood/cabinet/1block/doors/solid/middle/{wood}",
+				"doors": "bdtree:block/wood/cabinet/1block/doors/solid/middle/{wood}",
 				"hardware": "game:block/metal/plate/{metal}",
 				"glass": "game:block/glass/{glass}",
-				"wood-back": "block/wood/cabinet/1block/wood/side/{wood}",
-				"wood-side": "block/wood/cabinet/1block/wood/side/{wood}",
-				"wood-top": "block/wood/cabinet/1block/wood/top/wood-top2/{wood}"
+				"wood-back": "bdtree:block/wood/cabinet/1block/wood/side/{wood}",
+				"wood-side": "bdtree:block/wood/cabinet/1block/wood/side/{wood}",
+				"wood-top": "bdtree:block/wood/cabinet/1block/wood/top/wood-top2/{wood}"
 			},
 			"cabinet-bottom": {
-				"doors": "block/wood/cabinet/1block/doors/solid/middle/{wood}",
+				"doors": "bdtree:block/wood/cabinet/1block/doors/solid/middle/{wood}",
 				"hardware": "game:block/metal/plate/{metal}",
 				"glass": "game:block/glass/{glass}",
-				"wood-back": "block/wood/cabinet/1block/wood/side/{wood}",
-				"wood-side": "block/wood/cabinet/1block/wood/side/{wood}",
-				"wood-top": "block/wood/cabinet/1block/wood/top/wood-top2/{wood}"
+				"wood-back": "bdtree:block/wood/cabinet/1block/wood/side/{wood}",
+				"wood-side": "bdtree:block/wood/cabinet/1block/wood/side/{wood}",
+				"wood-top": "bdtree:block/wood/cabinet/1block/wood/top/wood-top2/{wood}"
 			},
 			"*": {
-				"doors": "block/wood/cabinet/1block/doors/solid/middle/{wood}",
+				"doors": "bdtree:block/wood/cabinet/1block/doors/solid/middle/{wood}",
 				"hardware": "game:block/metal/plate/{metal}",
 				"glass": "game:block/glass/{glass}",
-				"wood-back": "block/wood/cabinet/1block/wood/side/{wood}",
-				"wood-side": "block/wood/cabinet/1block/wood/side/{wood}",
-				"wood-top": "block/wood/cabinet/1block/wood/top/wood-top1/{wood}"
+				"wood-back": "bdtree:block/wood/cabinet/1block/wood/side/{wood}",
+				"wood-side": "bdtree:block/wood/cabinet/1block/wood/side/{wood}",
+				"wood-top": "bdtree:block/wood/cabinet/1block/wood/top/wood-top1/{wood}"
 			}
 		},
 		"handbook": {
@@ -147,7 +147,7 @@
 				{
 					"type": "block",
 					"code": "cabinet-{section}",
-					"attributes": { "wood": "jacaranda" }
+					"attributes": { "wood": "rosewood" }
 				},
 				{
 					"type": "block",

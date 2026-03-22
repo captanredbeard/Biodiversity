@@ -29,7 +29,7 @@
 				shape: { base: "game:block/wood/crate/label-wood" }
 			}
 		},
-		types: [ "wood-cedar", "wood-fir", "wood-spruce", "wood-douglasfir", "wood-tuja", "wood-redcedar", "wood-yew", "wood-kauri", "wood-ginkgo", "wood-sycamore", "wood-honeylocust", "wood-dalbergia", "wood-umnini", "wood-banyan", "wood-elm", "wood-beech", "wood-bearnut", "wood-willow", "wood-poplar", "wood-tamanu", "wood-spurgetree", "wood-azobe", "wood-guajacum", "wood-eucalyptus", "wood-ghostgum", "wood-ohia", "wood-satinash", "wood-leadwood", "wood-bluemahoe", "wood-linden", "wood-sal", "wood-horsechestnut", "wood-tigerwood", "wood-mahogany", "wood-sapele", "wood-saxaul", "wood-ash", "wood-catalpa", "wood-jacaranda", "wood-mangrove", "wood-empresstree", "wood-charred", "wood-chlorociboria" ],
+		types: [ "wood-cedar", "wood-fir", "wood-spruce", "wood-douglasfir", "wood-tuja", "wood-redcedar", "wood-yew", "wood-kauri", "wood-ginkgo", "wood-sycamore", "wood-honeylocust", "wood-dalbergia", "wood-umnini", "wood-banyan", "wood-elm", "wood-beech", "wood-bearnut", "wood-willow", "wood-poplar", "wood-tamanu", "wood-spurgetree", "wood-azobe", "wood-guajacum", "wood-eucalyptus", "wood-ghostgum", "wood-ohia", "wood-satinash", "wood-leadwood", "wood-bluemahoe", "wood-linden", "wood-sal", "wood-horsechestnut", "wood-tigerwood", "wood-mahogany", "wood-sapele", "wood-saxaul", "wood-ash", "wood-catalpa", "wood-rosewood", "wood-mangrove", "wood-empresstree", "wood-charred", "wood-chlorociboria" ],
 		properties: {
 			"wood-bluemahoe": {
 				quantitySlots: 25,
@@ -61,7 +61,7 @@
 					rotateY: 180
 				}
 			},
-			"wood-jacaranda": {
+			"wood-rosewood": {
 				quantitySlots: 25,
 				rotatatableInterval: "22.5deg",
 				storageType: 189,
@@ -472,7 +472,7 @@
 					code: "crate",
 					attributes: {
 						lidState: "closed",
-						type: "wood-jacaranda"
+						type: "wood-rosewood"
 					}
 				},
 				{
@@ -578,8 +578,8 @@
 		"wood-kauri-inside": { base: "block/wood/crate/kauri-inside" },
 		"wood-ginkgo-sides": { base: "block/wood/crate/ginkgo-sides" },
 		"wood-ginkgo-inside": { base: "block/wood/crate/ginkgo-inside" },
-		"wood-jacaranda-sides": { base: "block/wood/crate/jacaranda-sides" },
-		"wood-jacaranda-inside": { base: "block/wood/crate/jacaranda-inside" },
+		"wood-rosewood-sides": { base: "block/wood/crate/rosewood-sides" },
+		"wood-rosewood-inside": { base: "block/wood/crate/rosewood-inside" },
 		"wood-ghostgum-sides": { base: "block/wood/crate/ghostgum-sides" },
 		"wood-ghostgum-inside": { base: "block/wood/crate/ghostgum-inside" },
 		"wood-ohia-sides": { base: "block/wood/crate/ohia-sides" },

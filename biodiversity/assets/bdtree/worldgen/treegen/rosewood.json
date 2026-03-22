@@ -1,5 +1,5 @@
 {
-	treeWorldPropertyCode: "jacaranda",
+	treeWorldPropertyCode: "rosewood",
         isTropical: true,
 	sizeMultiplier: 0.9,
 	trunks: [{
@@ -28,9 +28,9 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-jacaranda-ud",
-		leavesBlockCode: "leaves-grown-jacaranda",
-		leavesBranchyBlockCode: "leavesbranchy-grown-jacaranda",
+		logBlockCode: "log-grown-rosewood-ud",
+		leavesBlockCode: "leaves-grown-rosewood",
+		leavesBranchyBlockCode: "leavesbranchy-grown-rosewood",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

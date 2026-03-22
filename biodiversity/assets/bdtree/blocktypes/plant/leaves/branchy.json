@@ -91,7 +91,7 @@
 			"*-sycamore": "game:block/plant/leaves/branchy-oak",
 			"*-bluespruce": "wildcrafttree:block/plant/leaves/branchy-bluespruce",
 			"*-wiliwili": "wildcrafttree:block/plant/leaves/branchy-wiliwili",
-			"*-jacaranda": "game:block/plant/leaves/branchy-redwood",
+			"*-rosewood": "game:block/plant/leaves/branchy-redwood",
 			"*-banyan": "game:block/plant/leaves/branchy-kapok",
 			"*-dalbergia": "wildcrafttree:block/plant/leaves/branchy-dalbergia",
 			"*-sourwood": "wildcrafttree:block/plant/leaves/branchy-sourwood",
@@ -147,7 +147,7 @@
 			"*-guajacum": "game:block/plant/leaves/branchy-kapok-lod0",
 			"*-heahter": "game:block/plant/leaves/branchy-pine-lod0",
 			"*-heather": "game:block/plant/leaves/branchy-pine-lod0",
-			"*-jacaranda": "game:block/plant/leaves/branchy-redwood-lod0",
+			"*-rosewood": "game:block/plant/leaves/branchy-redwood-lod0",
 			"*-kauri": "game:block/plant/leaves/branchy-pine-lod0",
 			"*-linden": "game:block/plant/leaves/branchy-birch-lod0",
 			"*-mahogany": "game:block/plant/leaves/branchy-kapok-lod0",
@@ -188,7 +188,7 @@
 			"*-fir": "game:block/plant/leaves/branchy-redwood-lod0",
 			"*-bluespruce": "block/plant/leaves/branchy-bluespruce-lod0",
 			"*-dalbergia": "block/plant/leaves/branchy-dalbergia-lod0",
-			"*-jacaranda": "game:block/plant/leaves/branchy-redwood-lod0",
+			"*-rosewood": "game:block/plant/leaves/branchy-redwood-lod0",
 			"*-wiliwili": "block/plant/leaves/branchy-wiliwili-lod0",
 			"*": "game:block/plant/leaves/branchy-lod0"
 		}
