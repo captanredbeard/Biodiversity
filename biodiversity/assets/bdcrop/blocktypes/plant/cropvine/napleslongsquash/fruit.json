@@ -39,7 +39,9 @@
 		"flora": [ "naplessquash-fruit-4" ],
 		"bdcrop": [ "naplessquash-fruit-4" ]
 	},
-	"shape": { "base": "block/plant/cropvine/naplessquash/stage{stage}" },
+	"shape": {
+		"base": "bdcrop:block/plant/cropvine/naplessquash/stage{stage}"
+	},
 	"attributes": {
 		"groundStorageTransformByType": {
 			"naplessquash-fruit-3": {

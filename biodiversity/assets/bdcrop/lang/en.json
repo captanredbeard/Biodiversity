@@ -17,6 +17,45 @@
   "item-seeds-potato": "Potato seeds",
   "item-seeds-tomato": "Tomato seeds",
 
+  //Block Crops
+  "block-crop-leek-*": "Leek plant",
+  "block-crop-potato-*": "Potato plant",
+  "block-crop-tomato-*": "Tomato plant",
+
+  //Food
+  "item-vegetable-leek": "Leek",
+  "itemdesc-vegetable-leek": "A green vegetable related to onions, keeps quite well.",
+  "item-vegetable-potato": "Potato",
+  "itemdesc-vegetable-potato": "A tuber that grows underground, a favorite of all seraphs.",
+  "item-vegetable-tomato": "Tomatoes",
+  "itemdesc-vegetable-tomato": "A summer vegetable best eaten fresh, does not keep long.  So enjoy this bite of summer.",
+
+  //Vanilla Cooking
+  "game:recipeingredient-item-vegetable-leek": "leek",
+  "game:recipeingredient-item-vegetable-leek-insturmentalcase": "leek",
+  "bdcrop:recipeingredient-item-vegetable-leek": "leek",
+  "bdcrop:recipeingredient-item-vegetable-leek-insturmentalcase": "leek",
+  "game:meal-ingredient-stew-primary-vegetable-leek": "leek",
+  "game:meal-ingredient-stew-secondary-vegetable-leek": "leek",
+  "game:meal-ingredient-soup-primary-vegetable-leek": "leek",
+
+  "game:recipeingredient-item-vegetable-tomato": "tomato",
+  "game:recipeingredient-item-vegetable-tomato-insturmentalcase": "tomato",
+  "bdcrop:recipeingredient-item-vegetable-tomato": "tomato",
+  "bdcrop:recipeingredient-item-vegetable-tomato-insturmentalcase": "tomato",
+  "game:meal-ingredient-stew-primary-vegetable-tomato": "tomato",
+  "game:meal-ingredient-stew-secondary-vegetable-tomato": "tomato",
+  "game:meal-ingredient-soup-primary-vegetable-tomato": "tomato",
+
+  "game:recipeingredient-item-vegetable-potato": "potato",
+  "game:recipeingredient-item-vegetable-potato-insturmentalcase": "potato",
+  "bdcrop:recipeingredient-item-vegetable-potato": "potato",
+  "bdcrop:recipeingredient-item-vegetable-potato-insturmentalcase": "potato",
+  "game:meal-ingredient-stew-primary-vegetable-potato": "potato",
+  "game:meal-ingredient-stew-secondary-vegetable-potato": "potato",
+  "game:meal-ingredient-soup-primary-vegetable-potato": "potato",
+
+
   //Vine Crops
   "item-melonseeds-watermelon": "Watermelon seeds",
   "block-crop-watermelon-*": "Growing watermelon plant",
