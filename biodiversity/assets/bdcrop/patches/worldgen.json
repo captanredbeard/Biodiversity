@@ -25,7 +25,7 @@
                 "bdcrop:crop-potato-2"
             ],
             "minTemp": 0,
-            "maxTemp": 25,
+            "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
             "maxForest": 0.5,
@@ -48,11 +48,11 @@
                 "bdcrop:crop-leek-7",
                 "bdcrop:crop-leek-2"
             ],
-            "minTemp": 0,
+            "minTemp": -5,
             "maxTemp": 25,
             "minRain": 0.35,
-            "maxRain": 0.75,
-            "maxForest": 0.5,
+            "maxRain": 0.80,
+            "maxForest": 0.75,
             "quantity": {
                 "avg": 5,
                 "var": 4
@@ -74,10 +74,10 @@
                 "bdcrop:crop-tomato-2"
             ],
             "minTemp": 0,
-            "maxTemp": 25,
+            "maxTemp": 35,
             "minRain": 0.35,
-            "maxRain": 0.75,
-            "maxForest": 0.5,
+            "maxRain": 0.80,
+            "maxForest": 0.25,
             "quantity": {
                 "avg": 5,
                 "var": 4

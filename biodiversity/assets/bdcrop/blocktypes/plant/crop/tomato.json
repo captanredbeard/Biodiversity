@@ -81,7 +81,7 @@
 				type: "item",
 				code: "vegetable-tomato",
 				quantity: {
-					avg: 12,
+					avg: 16,
 					var: 4
 				}
 			},
@@ -92,14 +92,6 @@
 			}
 		],
 		"*": [
-			{
-				type: "item",
-				code: "vegetable-tomato",
-				quantity: {
-					avg: 0.5,
-					var: 0
-				}
-			},
 			{ 
 				type: "item",
 				code: "seeds-tomato",

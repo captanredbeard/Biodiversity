@@ -67,36 +67,56 @@
 					var: 1
 				}
 			},
+			{
+				"type": "item",
+				"code": "seeds-potato",
+				"quantity": { "avg": 1.0 }
+			}
 		],
 		"*-6": [
 			{
-				type: "item",
-				code: "vegetable-potato",
-				quantity: {
-					avg: 5,
-					var: 1
+				"type": "item",
+				"code": "vegetable-potato",
+				"quantity": {
+					"avg": 5,
+					"var": 1
 				}
 			},
+			{
+				"type": "item",
+				"code": "seeds-potato",
+				"quantity": { "avg": 1.1 }
+			}
 		],
 		"*-7": [
 			{
-				type: "item",
-				code: "vegetable-potato",
-				quantity: {
-					avg: 9,
-					var: 2
+				"type": "item",
+				"code": "vegetable-potato",
+				"quantity": {
+					"avg": 12,
+					"var": 2
 				}
 			},
+			{
+				"type": "item",
+				"code": "seeds-potato",
+				"quantity": { "avg": 1.2 }
+			}
 		],
 		"*": [
 			{
-				type: "item",
-				code: "vegetable-potato",
-				quantity: {
-					avg: 0.5,
-					var: 0
+				"type": "item",
+				"code": "vegetable-potato",
+				"quantity": {
+					"avg": 0.5,
+					"var": 0
 				}
 			},
+			{
+				"type": "item",
+				"code": "seeds-potato",
+				"quantity": { "avg": 0.99 }
+			}
 		]
 	},
 	cropProps: {
