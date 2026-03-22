@@ -3,9 +3,9 @@
     "maxstacksize": 64,
     "variantgroups": [
         {
-            "code": "type",
-            //"loadFromProperties": "bdcrop:item/food/fruit",
-            "states": [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ]
+            "code": "fruit",
+            "loadFromProperties": "bdcrop:item/food/fruit"
+            //"states": [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ]
         }
     ],
     "behaviors": [
@@ -28,7 +28,10 @@
         "*": 600
     },
     "attributes": {
-        "foodTags": [ "{fruit}" ],
+        "foodTags": [ "{fruit}", "fruit" ],
+        "handbook": {
+            "groupBy": [ "fruit-*" ]
+        },
         "nutritionPropsWhenInMealByType": {
             "@*-(watermelon|honeydewmelon|cantaloupe)": {
                 "satiety": 140,
@@ -80,12 +83,12 @@
                 "litresPerItem": 0.3125,
                 "liquidStack": {
                     "type": "item",
-                    "code": "bdcrop:juiceportion-{type}",
+                    "code": "bdcrop:juiceportion-{fruit}",
                     "stacksize": 1
                 },
                 "pressedStack": {
                     "type": "item",
-                    "code": "bdcrop:pressedmash-{type}",
+                    "code": "bdcrop:pressedmash-{fruit}",
                     "stacksize": 1
                 }
             }
@@ -96,7 +99,7 @@
         "*": { "base": "bdcrop:item/fruit/melonslice" }
     },
     "textureByType": {
-        "*": { "base": "bdcrop:item/food/fruit/{type}" }
+        "*": { "base": "bdcrop:item/food/fruit/{fruit}" }
     },
     "creativeinventory": {
         "general": [ "*" ],

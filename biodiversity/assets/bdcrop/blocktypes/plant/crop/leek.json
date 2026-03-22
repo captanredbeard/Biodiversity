@@ -15,10 +15,10 @@
 	creativeinventory: {
 		"general": [ "" ],
 		"plants": [ "" ],
-		"bdcrop": ["*"]
+		"bdcrop": [ "*" ]
 	},
 	renderpass: "OpaqueNoCull",
-	shapeByType: { 
+	shapeByType: {
 		"*-3": { base: "bdcrop:block/plant/crop/leek/stage3" },
 		"*-4": { base: "bdcrop:block/plant/crop/leek/stage4" },
 		"*-5": { base: "bdcrop:block/plant/crop/leek/stage5" },
@@ -28,10 +28,29 @@
 	},
 	blockmaterial: "Plant",
 	randomizeRotations: false,
-	textures: {
-		"s" : { base: "bdcrop:block/plant/crop/leek/s{stage}" },
-		"e" : { base: "bdcrop:block/plant/crop/leek/e{stage}" },
-		"stalk" : { base: "bdcrop:block/plant/crop/leek/stalk{stage}" },
+	texturesByType: {
+		"*-7": {
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk7" }
+		},
+		"*-6": {
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk6" }
+		},
+		"*-5": {
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk5" }
+		},
+		"*-4": {
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk4" }
+		},
+		"*-3": {
+			"s": { "base": "bdcrop:block/plant/crop/leek/s3" },
+			"e": { "base": "bdcrop:block/plant/crop/leek/e3" },
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk3" }
+		},
+		"*": {
+			"s": { "base": "bdcrop:block/plant/crop/leek/s{stage}" },
+			"e": { "base": "bdcrop:block/plant/crop/leek/e{stage}" },
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk1to2" }
+		}
 	},
 	attributes: {
 		butterflyFeedByType: {

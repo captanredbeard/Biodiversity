@@ -88,7 +88,4 @@
 	  <None Remove="assets\bdshrub\**" />
 	  <None Remove="assets\bdtree\**" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="assets\bdcrop\textures\item\resource\pressedmash\" />
-	</ItemGroup>
 </Project>

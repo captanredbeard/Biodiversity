@@ -3,8 +3,7 @@
     "variantgroups": [
         {
             "code": "fruit",
-            "states": [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ],
-            //"loadFromProperties": "wildcraftfruit:block/fruit"
+            "loadFromProperties": "bdcrop:item/food/fruit"
         }
     ],
     "class": "ItemLiquidPortion",

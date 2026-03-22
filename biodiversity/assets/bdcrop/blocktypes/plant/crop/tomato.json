@@ -10,7 +10,7 @@
 		{
 			code: "stage",
 			states: [ "1", "2", "3", "4", "5", "6", "7" ]
-		},
+		}
 	],
 	creativeinventory: {
 		"general": [ "" ],
@@ -19,14 +19,14 @@
 	},
 	renderpass: "OpaqueNoCull",
 	shapeByType: { 
-		"*": { base: "bdcrop:block/plant/crop/tomato/stage{stage}" }
+		"*": { base: "bdcrop:block/plant/crop/tomato/crosstomato" }
 	},
 	blockmaterial: "Plant",
 	randomizeRotations: true,
 	textures: {
 		"e" : { base: "bdcrop:block/plant/crop/tomato/e{stage}" },
-		"s" : { base: "bdcrop:block/plant/crop/tomato/s{stage}" },
-		"oak" : { base: "game:block/wood/oak" },
+		"s" : { base: "bdcrop:block/plant/crop/tomato/s{stage}" }
+		//"oak" : { base: "game:block/wood/oak" },
 	},
 	attributes: {
 		butterflyFeedByType: {
@@ -74,7 +74,7 @@
 				type: "item",
 				code: "seeds-tomato",
 				quantity: { avg: 1.0 }  
-			},
+			}
 		],
 		"*-7": [
 			{
@@ -83,13 +83,13 @@
 				quantity: {
 					avg: 12,
 					var: 4
-				},
+				}
 			},
 			{ 
 				type: "item",
 				code: "seeds-tomato",
 				quantity: { avg: 1.2 }  
-			},
+			}
 		],
 		"*": [
 			{
@@ -104,7 +104,7 @@
 				type: "item",
 				code: "seeds-tomato",
 				quantity: { avg: 0.99 }  
-			},
+			}
 		]
 	},
 	cropProps: {
@@ -114,7 +114,7 @@
 		growthStages: 7,
 		totalGrowthMonths: 1.2,
 		coldDamageBelow: 5,
-		heatDamageAbove: 40,
+		heatDamageAbove: 40
 	},
 	collisionbox: null,
 	selectionbox: {
