@@ -9,11 +9,11 @@
 		"leek": [16,16]
 	},
 	"textures": {
-		"leek": "bdcrop:item/food/vegetable/leek"
+		"leek": "item/food/vegetable/leek"
 	},
 	"elements": [
 		{
-			"name": "leek",
+			"name": "body",
 			"from": [ 8.0, 0.0, 8.0 ],
 			"to": [ 8.0, 0.0, 8.0 ],
 			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
@@ -105,9 +105,9 @@
 											"rotationOrigin": [ 0.6, 1.4, 0.0 ],
 											"rotationX": 45.0,
 											"faces": {
-												"north": { "texture": "#leek", "uv": [ 6.0, 6.0, 8.5, 7.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+												"north": { "texture": "#leek", "uv": [ 6.0, 6.0, 8.5, 7.5 ], "rotation": 90 },
 												"east": { "texture": "#leek", "uv": [ 7.0, 2.5, 7.5, 5.0 ], "enabled": false },
-												"south": { "texture": "#leek", "uv": [ 8.0, 6.0, 10.5, 7.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "enabled": false },
+												"south": { "texture": "#leek", "uv": [ 8.0, 6.0, 10.5, 7.5 ], "rotation": 90 },
 												"west": { "texture": "#leek", "uv": [ 9.0, 2.5, 9.5, 5.0 ], "enabled": false },
 												"up": { "texture": "#leek", "uv": [ 7.0, 5.0, 8.5, 5.5 ], "enabled": false },
 												"down": { "texture": "#leek", "uv": [ 9.5, 3.0, 11.0, 3.5 ], "enabled": false }
@@ -154,7 +154,7 @@
 											"rotationOrigin": [ 0.6, 1.4, 0.5 ],
 											"rotationX": -45.0,
 											"faces": {
-												"north": { "texture": "#leek", "uv": [ 6.0, 6.0, 8.5, 7.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1], "enabled": false },
+												"north": { "texture": "#leek", "uv": [ 6.0, 6.0, 8.5, 7.5 ], "rotation": 90, "enabled": false },
 												"east": { "texture": "#leek", "uv": [ 7.5, 2.5, 8.0, 5.0 ], "enabled": false },
 												"south": { "texture": "#leek", "uv": [ 8.5, 6.0, 11.0, 7.5 ], "rotation": 90 },
 												"west": { "texture": "#leek", "uv": [ 9.5, 2.5, 10.0, 5.0 ], "enabled": false },
