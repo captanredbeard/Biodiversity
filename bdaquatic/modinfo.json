@@ -1,0 +1,19 @@
+{
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "Content",
+  "modid": "bdcrop",
+  "name": "Biodiversity: Aquatic Flora",
+  "authors": [
+    "Captanredbeard",
+    "WhiskeySunshine",
+    "The Last Thing"
+  ],
+  "contributors": [ "Sigmadron", "Greybones", "Pizza2004", "FuegoFish", "AllégroSky", "Alcoraiden", "AcuteAangle", "Emnierra" ],
+  "website": "https://discord.com/invite/w79wShAD8q",
+  "description": "Adds several new water plants to oceans and rivers. Part of the Biodiversity Suite",
+  "version": "0.1.0",
+  "dependencies": {
+    "game": "1.22.0-rc.5",
+    "biodiversity": "1.0.0"
+  }
+}
