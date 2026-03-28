@@ -4,7 +4,7 @@
 	entityClass: "biodiversity.MelonVine",
 	variantgroups: [
 		{ code: "variant", states: ["vine"] },
-		{ code: "stage", states: ["1-normal", "2-normal", "3-normal", "3-blooming", "4-withered"] },
+		{ code: "stage", states: ["1-normal", "2-normal", "3-normal", "3-blooming", "4-withered"] }
 	],
 	creativeinventory: { "general": [""], "flora": [""], "bdcrop": [""] },
 	renderpass: "OpaqueNoCull",
@@ -22,7 +22,7 @@
 			"*-4": false,
 			"*": true
 		},
-		melonHoursToGrow: 12,
+		melonHoursToGrow: 24,
 		vineHoursToGrowFirstStage: 12,
 		vineHoursToGrowSecondStage: 6,
 		bloomProbability: 0.5,

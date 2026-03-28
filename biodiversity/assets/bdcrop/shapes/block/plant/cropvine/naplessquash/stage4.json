@@ -10,8 +10,8 @@
 		"stage4side": [16,16]
 	},
 	"textures": {
-		"stage4side": "block/plant/cropvine/naplessquash/stage4side",
-		"stage4top_bottom": "block/plant/cropvine/naplessquash/stage4top_bottom"
+		"stage4side": "bdcrop:block/plant/cropvine/naplessquash/stage4side",
+		"stage4top_bottom": "bdcrop:block/plant/cropvine/naplessquash/stage4top_bottom"
 	},
 	"elements": [
 		{
@@ -137,7 +137,7 @@
 													"rotationOrigin": [ -10.2, -1.0, 2.0 ],
 													"faces": {
 														"north": { "texture": "#stage4side", "uv": [ 6.5, 7.5, 14.5, 11.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
-														"east": { "texture": "#stage3-4top_bottom", "uv": [ 4.5, 6.5, 11.5, 13.5 ], "autoUv": false, "snapUv": false },
+														"east": { "texture": "#stage4top_bottom", "uv": [ 4.5, 6.5, 11.5, 13.5 ], "autoUv": false, "snapUv": false },
 														"south": { "texture": "#stage4side", "uv": [ 4.0, 4.5, 12.0, 8.5 ], "rotation": 90, "autoUv": false, "snapUv": false },
 														"west": { "texture": "#stage4top_bottom", "uv": [ 4.5, 6.5, 11.5, 13.5 ], "rotation": 180, "autoUv": false, "snapUv": false },
 														"up": { "texture": "#stage4side", "uv": [ 12.0, 3.5, 4.0, 0.5 ], "rotation": 90, "autoUv": false, "snapUv": false },

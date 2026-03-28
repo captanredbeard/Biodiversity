@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"oak": "block/wood/bark/brideinwhite",
+		"oak": "block/wood/bark/narrow/brideinwhite",
 		"oak1": "block/plant/leaves/large/brideinwhite1"
 	},
 	"elements": [

@@ -27,15 +27,6 @@
 		output: { type: "item", code: "game:strongtanninportion", litres: 10 }
 	},
 	{
-		code: "strongtannin",
-		sealHours: 24,
-		ingredients: [
-			{ type: "item", code: "leaves-oak", quantity: 4 },
-			{ type: "item", code: "game:weaktanninportion",  litres: 1 }
-		],
-		output: { type: "item", code: "game:strongtanninportion", litres: 1 }
-	},
-	{
 		code: "weaktannin",
 		sealHours: 24,
 		ingredients: [

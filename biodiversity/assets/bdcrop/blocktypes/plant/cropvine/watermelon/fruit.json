@@ -12,7 +12,7 @@
 	],
 	maxstacksize: 8,
 	storageFlags: 33,
-	creativeinventory: { "general": ["watermelon-fruit-4"], "flora": ["watermelon-fruit-4"], "bdcrop": ["watermelon-fruit-*"] },
+	creativeinventory: { "general": ["watermelon-fruit-4"], "flora": ["watermelon-fruit-4"], "bdcrop": ["watermelon-fruit-4"] },
 	shape: { base: "block/plant/cropvine/watermelon/watermelon-stage{stage}" },
 	blockmaterial: "Plant",
 	randomizeRotations: true,
@@ -51,7 +51,7 @@
 		type: "Perish",
 		freshHours: { avg: 192 },
 		transitionHours: { avg: 48 },
-		transitionedStack: { type: "item", code: "seeds-watermelon" },
+		transitionedStack: { type: "item", code: "bdcrop:seeds-watermelon" },
 		transitionRatio: 1
 	}],
 	guiTransform: {

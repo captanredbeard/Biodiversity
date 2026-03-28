@@ -7,7 +7,7 @@
 				"type": "block",
 				"code": "log-placed-*-ud",
 				"name": "wood",
-				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "jacaranda", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
+				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "rosewood", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
 			}
 		},
 		width: 2,
@@ -24,7 +24,7 @@
 				"type": "block",
 				"code": "logsection-placed-*-ne-ud",
 				"name": "wood",
-				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "jacaranda", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
+				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "rosewood", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
 			}
 		},
 		width: 2,
@@ -41,7 +41,7 @@
 				"type": "block",
 				"code": "planks-*-ud",
 				"name": "wood",
-				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "jacaranda", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
+				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "rosewood", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
 			}
 		},
 		width: 2,
@@ -57,7 +57,7 @@
 				"type": "block",
 				"code": "planks-*-ns",
 				"name": "wood",
-				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "jacaranda", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
+				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "rosewood", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
 			}
 		},
 		width: 2,
@@ -73,7 +73,7 @@
 				"type": "block",
 				"code": "plankstairs-*-up-north-free",
 				"name": "wood",
-				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "jacaranda", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
+				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "rosewood", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
 			}
 		},
 		width: 2,
@@ -89,7 +89,7 @@
 				"type": "block",
 				"code": "plankslab-*-down-free",
 				"name": "wood",
-				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "jacaranda", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
+				"AllowVariants": [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "rosewood", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
 			}
 		},
 		width: 2,

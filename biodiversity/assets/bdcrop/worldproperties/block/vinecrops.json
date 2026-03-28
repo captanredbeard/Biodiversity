@@ -1,4 +1,3 @@
-
 {
   "code": "vinecrops",
   "variants": [
@@ -9,14 +8,16 @@
       "code": "mirzamelon"
     },
     {
-      "code": "muskmelon"
+      "code": "cantaloupe"
     },
     {
       "code": "watermelon"
     },
     {
       "code": "naplessquash"
+    },
+    {
+      "code": "butternutsquash"
     }
-
   ]
 }

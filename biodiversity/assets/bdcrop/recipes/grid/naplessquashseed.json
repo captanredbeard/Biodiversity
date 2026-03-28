@@ -1,0 +1,21 @@
+[
+    {
+        "ingredientPattern": "K",
+        "width": 1,
+        "height": 1,
+        "enabled": true,
+        "shapeless": true,
+        "ingredients": {
+            "K": {
+                "type": "block",
+                "code": "bdcrop:naplessquash-fruit-4"
+            }
+        },
+        "name": "naplessquashseed",
+        "output": {
+            "type": "item",
+            "code": "bdcrop:seeds-naplessquash",
+            "quantity": 1
+        }
+    },
+]

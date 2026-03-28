@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"oak": "block/wood/bark/mousetrap",
+		"oak": "block/wood/bark/narrow/mousetrap",
 		"oak1": "block/plant/leaves/large/mousetrap1"
 	},
 	"elements": [

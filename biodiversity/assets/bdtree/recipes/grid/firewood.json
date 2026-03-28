@@ -6,7 +6,7 @@
 			"L": {
 				type: "block",
 				code: "log-placed-*-ud",
-				allowedVariants: [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "jacaranda", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
+				allowedVariants: [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "rosewood", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
 			}
 		},
 		width: 1,

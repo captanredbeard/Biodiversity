@@ -1,5 +1,5 @@
 {
-	code: "crop",
+	"code": "crop",
 	class: "BlockCrop",
 	behaviors: [ { name: "Unstable" } ],
 	variantgroups: [
@@ -10,18 +10,47 @@
 		{
 			code: "stage",
 			states: [ "1", "2", "3", "4", "5", "6", "7" ]
-		},
+		}
 	],
 	creativeinventory: {
 		"general": [ "" ],
-		"plants": [ "" ]
+		"plants": [ "" ],
+		"bdcrop": [ "*" ]
 	},
 	renderpass: "OpaqueNoCull",
-	shape: { base: "block/plant/crop/leek" },
+	shapeByType: {
+		"*-3": { base: "bdcrop:block/plant/crop/leek/stage3" },
+		"*-4": { base: "bdcrop:block/plant/crop/leek/stage4" },
+		"*-5": { base: "bdcrop:block/plant/crop/leek/stage5" },
+		"*-6": { base: "bdcrop:block/plant/crop/leek/stage6" },
+		"*-7": { base: "bdcrop:block/plant/crop/leek/stage7" },
+		"*": { base: "bdcrop:block/plant/crop/leek/stage1to2" }
+	},
 	blockmaterial: "Plant",
-	randomizeRotations: true,
-	textures: {
-		all : { base: "block/plant/crop/leek/w{stage}" },
+	randomizeRotations: false,
+	texturesByType: {
+		"*-7": {
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk7" }
+		},
+		"*-6": {
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk6" }
+		},
+		"*-5": {
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk5" }
+		},
+		"*-4": {
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk4" }
+		},
+		"*-3": {
+			"s": { "base": "bdcrop:block/plant/crop/leek/s3" },
+			"e": { "base": "bdcrop:block/plant/crop/leek/e3" },
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk3" }
+		},
+		"*": {
+			"s": { "base": "bdcrop:block/plant/crop/leek/s{stage}" },
+			"e": { "base": "bdcrop:block/plant/crop/leek/e{stage}" },
+			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk1to2" }
+		}
 	},
 	attributes: {
 		butterflyFeedByType: {
@@ -34,7 +63,7 @@
 			"*-5": true,
 			"*": false
 		},
-		sitHeight: 0.5,
+		sitHeight: -2.0,
 		tickGrowthProbability: 0.05,
 		handbook: {
 			include: true
@@ -61,10 +90,15 @@
 				type: "item",
 				code: "vegetable-leek",
 				quantity: {
-					avg: 6,
-					var: 2
+					avg: 3,
+					var: 1
 				}
 			},
+			{ 
+				type: "item",
+				code: "seeds-leek",
+				quantity: { avg: 1.0 }  
+			}
 		],
 		"*-7": [
 			{
@@ -72,19 +106,21 @@
 				code: "vegetable-leek",
 				quantity: {
 					avg: 12,
-					var: 4
+					var: 2
 				}
 			},
+			{ 
+				type: "item",
+				code: "seeds-leek",
+				quantity: { avg: 1.2 }  
+			}
 		],
 		"*": [
-			{
+			{ 
 				type: "item",
-				code: "vegetable-potato",
-				quantity: {
-					avg: 0.5,
-					var: 0
-				}
-			},
+				code: "seeds-leek",
+				quantity: { avg: 0.99 }  
+			}
 		]
 	},
 	cropProps: {
@@ -94,7 +130,7 @@
 		growthStages: 7,
 		totalGrowthMonths: 1.5,
 		coldDamageBelow: -5,
-		heatDamageAbove: 35,
+		heatDamageAbove: 35
 	},
 	collisionbox: null,
 	selectionbox: {
@@ -108,7 +144,7 @@
 	materialDensity: 200,
 	combustibleProps: {
 		burnTemperature: 600,
-		burnDuration: 10,
+		burnDuration: 10
 	},
-	frostable: true
+	"frostable": true
 }
