@@ -1,0 +1,38 @@
+{
+  "inheritFrom": "game:blocktypes/wood/woodtyped/planks",
+  "code": "planks",
+
+  "variantgroups": [
+    {
+      "code": "wood",
+      "states": [],
+      "loadFromProperties": "bdtree:block/wood"
+    },
+    {
+      "code": "orientation",
+      "states": [ "ns", "we", "ud" ]
+    }
+  ],
+  "creativeinventory": {
+    "general": [ "*-ud" ],
+    "construction": [ "*-ud" ],
+    "bdtree": [ "*-ud" ]
+  },
+  "sounds": {
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "place": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+
+  "texturesByType": {
+    "*-charred-ns": {
+      "all": { "base": "game:block/wood/charred" },
+      "verticals": {
+        "base": "game:block/wood/charred",
+        "rotation": 90
+      }
+    }
+  },
+  "shape": { "base": "game:block/basic/cube" }
+}

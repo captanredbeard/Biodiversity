@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "LK",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"L": { type: "block", code: "log-*" }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:pan-wooden"  }
+	},
+	{
+		ingredientPattern: "LK",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"L": { type: "block", code: "logsection-placed-*" }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:pan-wooden"  }
+	}
+]

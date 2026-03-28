@@ -1,0 +1,56 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/ladder",
+	"code": "ladder",
+	"variantgroups": [
+		{
+			"code": "material",
+			"states": [ "wood" ]
+		},
+		{
+			"code": "wood",
+			"states": [ ],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "side",
+			"loadFromProperties": "abstract/horizontalorientation"
+		}
+	],
+	"shapebytype": {
+		"*-north": {
+			"base": "game:block/wood/ladder-plank",
+			"rotateY": 0
+		},
+		"*-east": {
+			"base": "game:block/wood/ladder-plank",
+			"rotateY": 270
+		},
+		"*-south": {
+			"base": "game:block/wood/ladder-plank",
+			"rotateY": 180
+		},
+		"*-west": {
+			"base": "game:block/wood/ladder-plank",
+			"rotateY": 90
+		}
+	},
+	"textures": {
+		"all": { "base": "block/wood/debarked/{wood}" }
+	},
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "ladder-wood-{wood}-*" ]
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*-{wood}-north" ],
+		"decorative": [ "*-{wood}-north" ],
+		"bdtree": [ "*-{wood}-north" ]
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	}
+}

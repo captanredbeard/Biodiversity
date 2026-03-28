@@ -1,0 +1,158 @@
+[
+	{
+		ingredientPattern: "H,B",
+		ingredients: {
+			"H": {
+				"type": "block",
+				"code": "game:hay-normal-ud"
+			},
+			"B": { type: "item", code: "plank-*" }
+		},
+		width: 1,
+		height: 2,
+		output: {
+			"type": "block",
+			"code": "game:mannequin-reed-head",
+			"quantity": 1
+		}
+	},
+	{
+		ingredientPattern: "_H_,_H_,BBB",
+		ingredients: {
+			"H": { type: "block", code: "game:hay-normal-ud" },
+			"B": { type: "item", code: "plank-*" }
+		},
+		width: 3,
+		height: 3,
+		output: {
+			"type": "block",
+			"code": "game:mannequin-reed-legs",
+			"quantity": 1
+		}
+	},
+	{
+		ingredientPattern: "BHB,BHB,BBB",
+		ingredients: {
+			"H": {
+				"type": "block",
+				"code": "game:hay-normal-ud"
+			},
+			"B": { type: "item", code: "plank-*" }
+		},
+		width: 3,
+		height: 3,
+		output: {
+			"type": "block",
+			"code": "game:mannequin-reed-torso",
+			"quantity": 1
+		}
+	},
+	{
+		ingredientPattern: "H,B",
+		ingredients: {
+			"H": {
+				"type": "item",
+				"code": "game:cattailtops",
+				"quantity": 4
+			},
+			"B": { type: "item", code: "plank-*" }
+		},
+		width: 1,
+		height: 2,
+		output: {
+			"type": "block",
+			"code": "game:mannequin-reed-head",
+			"quantity": 1
+		}
+	},
+	{
+		ingredientPattern: "_H_,_H_,BBB",
+		ingredients: {
+			"H": {
+				"type": "item",
+				"code": "game:cattailtops",
+				"quantity": 4
+			},
+			"B": { type: "item", code: "plank-*" }
+		},
+		width: 3,
+		height: 3,
+		output: {
+			"type": "block",
+			"code": "game:mannequin-reed-legs",
+			"quantity": 1
+		}
+	},
+	{
+		ingredientPattern: "BHB,BHB,BBB",
+		ingredients: {
+			"H": {
+				"type": "item",
+				"code": "game:cattailtops",
+				"quantity": 4
+			},
+			"B": { type: "item", code: "plank-*" }
+		},
+		width: 3,
+		height: 3,
+		output: {
+			"type": "block",
+			"code": "game:mannequin-reed-torso",
+			"quantity": 1
+		}
+	},
+	{
+		ingredientPattern: "H,B",
+		ingredients: {
+			"H": {
+				"type": "item",
+				"code": "game:papyrustops",
+				"quantity": 4
+			},
+			"B": { type: "item", code: "plank-*" }
+		},
+		width: 1,
+		height: 2,
+		output: {
+			"type": "block",
+			"code": "game:mannequin-reed-head",
+			"quantity": 1
+		}
+	},
+	{
+		ingredientPattern: "_H_,_H_,BBB",
+		ingredients: {
+			"H": {
+				"type": "item",
+				"code": "game:papyrustops",
+				"quantity": 4
+			},
+			"B": { type: "item", code: "plank-*" }
+		},
+		width: 3,
+		height: 3,
+		output: {
+			"type": "block",
+			"code": "game:mannequin-reed-legs",
+			"quantity": 1
+		}
+	},
+	{
+		ingredientPattern: "BHB,BHB,BBB",
+		ingredients: {
+			"H": {
+				"type": "item",
+				"code": "game:papyrustops",
+				"quantity": 4
+			},
+			"B": { type: "item", code: "plank-*" }
+		},
+		width: 3,
+		height: 3,
+		output: {
+			"type": "block",
+			"code": "game:mannequin-reed-torso",
+			"quantity": 1
+		}
+	}
+]

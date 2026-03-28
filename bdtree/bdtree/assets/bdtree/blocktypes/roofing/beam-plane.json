@@ -1,0 +1,36 @@
+{
+	"inheritFrom": "game:blocktypes/roofing/beam-plane",
+	"code": "beam-plane",
+	"variantgroups": [
+		{
+			"code": "material",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "cover",
+			"states": [ "free", "snow" ]
+		}
+	],
+	"creativeinventory": {
+		"general": [ "*-free" ],
+		"construction": [ "*-free" ],
+		"bdtree": [ "*-free" ]
+	},
+	"shapeByType": {
+		"*-free": { "base": "game:block/roofing/beam/planeshingle-free" },
+		"*-snow": { "base": "game:block/roofing/beam/planeshingle-snow*" }
+	},
+	"texturesByType": {
+		"*": {
+			"material": { "base": "block/wood/shingles/{material}-top" }
+		}
+	},
+	"soundsByType": {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks"
+		}
+	}
+}

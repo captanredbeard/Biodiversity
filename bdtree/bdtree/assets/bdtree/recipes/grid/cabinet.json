@@ -1,0 +1,203 @@
+[
+	{
+		ingredientPattern: "PPP,PPP,HNS",
+		ingredients: {
+			"S": {
+				"type": "item",
+				"code": "game:saw-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 1
+			},
+			"N": { type: "item", code: "game:metalnailsandstrips-{metal}" },
+			"P": { type: "item", code: "plank-{wood}", quantity: 2 }
+		},
+		allowedVariants: {
+			toolmetal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel" ],
+			metal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel", "electrum" ]
+		},
+		skipVariants: {
+			"wood": [ "charred" ]
+		},
+		name: "cabinet",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "cabinet-bottom", attributes: { "wood": "{wood}" } }
+	},
+	{
+		ingredientPattern: "PPP,HNS,PPP",
+		ingredients: {
+			"S": {
+				"type": "item",
+				"code": "game:saw-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 1
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}"
+			},
+			"P": { type: "item", code: "plank-{wood}", quantity: 2 }
+		},
+		allowedVariants: {
+			toolmetal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel" ],
+			metal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel", "electrum" ]
+		},
+		skipVariants: {
+			"wood": [ "charred" ]
+		},
+		name: "cabinet",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "cabinet-middle", attributes: { "wood": "{wood}" } }
+	},
+	{
+		ingredientPattern: "HNS,PPP,PPP",
+		ingredients: {
+			"S": {
+				"type": "item",
+				"code": "game:saw-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 1
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}"
+			},
+			"P": { type: "item", code: "plank-{wood}", quantity: 2 }
+		},
+		allowedVariants: {
+			toolmetal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel" ],
+			metal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel", "electrum" ]
+		},
+		skipVariants: {
+			"wood": [ "charred" ]
+		},
+		name: "cabinet",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "cabinet-top", attributes: { "wood": "{wood}" } }
+	},
+	{
+		ingredientPattern: "PPH,PPN,PPS",
+		ingredients: {
+			"S": {
+				"type": "item",
+				"code": "game:saw-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 4
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 1
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}"
+			},
+			"P": { type: "item", code: "plank-{wood}", quantity: 2 }
+		},
+		allowedVariants: {
+			toolmetal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel" ],
+			metal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel", "electrum" ]
+		},
+		skipVariants: {
+			"wood": [ "charred" ]
+		},
+		name: "cabinet",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "cabinet-topbottom", attributes: { "wood": "{wood}" } }
+	},
+
+	{
+		ingredientPattern: "HNS,P_P,P_P",
+		ingredients: {
+			"S": {
+				"type": "item",
+				"code": "game:saw-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 1
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 1
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}"
+			},
+			"P": { type: "item", code: "plank-{wood}", quantity: 1 }
+		},
+		allowedVariants: {
+			toolmetal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel" ],
+			metal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel", "electrum" ]
+		},
+		skipVariants: {
+			"wood": [ "charred" ]
+		},
+		name: "cabinetdoors",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "cabinetdoor-1block-solid", attributes: { "wood": "{wood}" } }
+	},
+	{
+		ingredientPattern: "HNS,PGP,PGP",
+		ingredients: {
+			"S": {
+				"type": "item",
+				"code": "game:saw-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 1
+			},
+			"H": {
+				"type": "item",
+				"code": "game:hammer-{toolmetal}",
+				"isTool": true,
+				"toolDurabilityCost": 1
+			},
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}"
+			},
+			"G": {
+				"type": "block",
+				"code": "game:glassslab-plain-down-free",
+				"quantity": 1
+			},
+			"P": { type: "item", code: "plank-{wood}", quantity: 1 }
+		},
+		allowedVariants: {
+			toolmetal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel" ],
+			metal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel", "electrum" ]
+		},
+		skipVariants: {
+			wood: [ "charred" ]
+		},
+		name: "cabinetdoors",
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "cabinetdoor-1block-glassframed", attributes: { "wood": "{wood}" } }
+	},
+]

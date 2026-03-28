@@ -1,0 +1,26 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/antlermount",
+	"code": "antlermount",
+
+	"attributes": {
+		"types": [ "square", "diamond", "shield" ],
+		"materials": {
+			"loadFromProperties": "bdtree:block/wood",
+			"states": []
+		},
+		"shape": { "base": "game:block/wood/antlermount-{type}" },
+		"textures": {
+			"wood": {
+				"base": "bdtree:block/wood/debarked/{material}",
+				"overlays": []
+			}
+		}
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"shape": { "base": "game:block/wood/antlermount-square" }
+}

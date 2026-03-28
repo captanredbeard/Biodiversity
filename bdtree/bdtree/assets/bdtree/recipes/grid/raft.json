@@ -1,0 +1,46 @@
+[
+	{
+		name: "Crude wood oar",
+		ingredientPattern: "LR,LR",
+		ingredients: {
+			"L": { type: "block", code: "log-placed-*-ud", name: "wood" },
+			"R": { type: "item", code: "game:rope" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "oar-crude-{wood}"  }
+	},
+	{
+		name: "Crude wood oar",
+		ingredientPattern: "LR,LR",
+		ingredients: {
+			"L": { type: "block", code: "logsection-placed-*-ne-ud", name: "wood" },
+			"R": { type: "item", code: "game:rope" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "oar-crude-{wood}"  }
+	},
+	{
+		name: "Wood raft",
+		ingredientPattern: "LRL,LRL,LRL",
+		ingredients: {
+			"L": { type: "block", code: "log-placed-*-ud", name: "wood", quantity: 2 },
+			"R": { type: "item", code: "game:rope" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "boat-raft-{wood}"  }
+	},
+	{
+		name: "Wood raft",
+		ingredientPattern: "LRL,LRL,LRL",
+		ingredients: {
+			"L": { type: "block", code: "logsection-placed-*-ne-ud", name: "wood", quantity: 2 },
+			"R": { type: "item", code: "game:rope" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "boat-raft-{wood}"  }
+	}
+]

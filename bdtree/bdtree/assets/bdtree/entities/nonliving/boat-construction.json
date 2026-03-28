@@ -1,0 +1,229 @@
+{
+	"inheritFrom": "game:entities/nonliving/boat-construction",
+	"code": "boatconstruction",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "sailed" ]
+		},
+		{
+			"code": "material",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		}
+	],
+	"skipVariants": [
+		//	"boatconstruction-sailed-aged"
+	],
+	"attributes": {
+		"stages": [
+			{ "addElements": [ "ORIGIN/ORIGIN0rollers" ] },
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "game:firewood",
+						"quantity": 8
+					},
+					{
+						"type": "block",
+						"name": "shipbuilding-ingredient-logs",
+						"code": "log-placed-*",
+						"quantity": 9,
+						"storeWildCard": "wood"
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN1Keel", "ORIGIN/ORIGIN1props" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 16
+					},
+					{
+						"type": "item",
+						"code": "game:plumbandsquare",
+						"quantity": 2
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN2Square1" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 20
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN3Planks1" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 24
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN4Planks2" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 28
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN5Planks3" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 16
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN6Square2" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 32
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN7Planks4" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 36
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN8Planks5" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 40
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN9Planks6" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 44
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN10Planks7" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "block",
+						"code": "supportbeam-{wood}",
+						"quantity": 14
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN11Ribs" ],
+				"removeElements": [ "ORIGIN/ORIGINBoat/ORIGIN2Square1", "ORIGIN/ORIGINBoat/ORIGIN6Square2" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "block",
+						"code": "supportbeam-{wood}",
+						"quantity": 14
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN12FloorBeams" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 36
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN13Floor" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "block",
+						"code": "supportbeam-{wood}",
+						"quantity": 3
+					},
+					{
+						"type": "item",
+						"code": "plank-{wood}",
+						"quantity": 6
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN14Rudder" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "block",
+						"code": "supportbeam-{wood}",
+						"quantity": 14
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN15Mast" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "game:rope",
+						"quantity": 17
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN16Rigging" ]
+			},
+			{
+				"requireStacks": [
+					{
+						"type": "item",
+						"code": "game:rope",
+						"quantity": 10
+					},
+					{
+						"type": "block",
+						"name": "shipbuilding-ingredient-linen",
+						"code": "game:linen-*-down",
+						"quantity": 21
+					}
+				],
+				"addElements": [ "ORIGIN/ORIGINBoat/ORIGIN17Sail" ]
+			},
+			{
+				"requireStacks": [],
+				"actionLangCode": "Launch"
+			},
+			{ "removeElements": [ "ORIGIN/ORIGIN1props" ] }
+		]
+	},
+	"client": {
+		"shapeByType": {
+			"boatconstruction-sailed-*": {
+				"base": "game:entity/nonliving/boat/sailed-construction"
+			}
+		}
+	}
+}

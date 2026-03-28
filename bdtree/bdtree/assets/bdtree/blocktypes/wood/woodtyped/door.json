@@ -1,0 +1,113 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/door",
+	"code": "door",
+	"variantgroups": [
+		{
+			"code": "style",
+			"states": [ "sleek-windowed", "solid", "1x3gate", "2x2gate", "2x4gate", "2x3gate" ]
+		},
+		{
+			"code": "wood",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		}
+	],
+	"attributes": {
+		"openSoundByType": {
+			"door-1x3gate-*": "game:sounds/block/largedoor-open",
+			"door-2x4gate-*": "game:sounds/block/largedoor-open",
+			"door-2x3gate-*": "game:sounds/block/largedoor-open",
+			"door-2x2gate-*": "game:sounds/block/largedoor-open",
+			"*": "game:sounds/block/door"
+		},
+		"closeSoundByType": {
+			"door-1x3gate-*": "game:sounds/block/largedoor-close",
+			"door-2x4gate-*": "game:sounds/block/largedoor-close",
+			"door-2x3gate-*": "game:sounds/block/largedoor-close",
+			"door-2x2gate-*": "game:sounds/block/largedoor-close",
+			"*": "game:sounds/block/door"
+		}
+	},
+	"creativeinventoryByType": {
+		"*": {
+			"general": [ "*" ],
+			"decorative": [ "*" ],
+			"bdtree": [ "*" ]
+		}
+	},
+	"shape": { "base": "game:block/wood/door/{style}" },
+	"texturesByType": {
+		"door-sleek-windowed-*": {
+			"wood": {
+				"base": "block/wood/debarked/{wood}",
+				"rotation": 90,
+				"blendedOverlays": [
+					{
+						"base": "game:block/wood/door/overlay-sleek",
+						"blendMode": "Overlay"
+					}
+				]
+			}
+		},
+		"door-solid-*": {
+			"wood": {
+				"base": "block/wood/debarked/{wood}",
+				"rotation": 90,
+				"blendedOverlays": [
+					{
+						"base": "game:block/wood/door/overlay-solid",
+						"blendMode": "Overlay"
+					}
+				]
+			}
+		},
+		"door-1x3gate-*": {
+			"wood": {
+				"base": "block/wood/debarked/{wood}",
+				"rotation": 90,
+				"blendedOverlays": [
+					{
+						"base": "game:block/wood/door/overlay-tall",
+						"blendMode": "Overlay"
+					}
+				]
+			}
+		},
+		"door-2x2gate-*": {
+			"wood": {
+				"base": "block/wood/debarked/{wood}",
+				"rotation": 90,
+				"blendedOverlays": [
+					{
+						"base": "game:block/wood/door/overlay-wide",
+						"blendMode": "Overlay"
+					}
+				]
+			}
+		},
+		"door-2x3gate-*": {
+			"wood": {
+				"base": "block/wood/debarked/{wood}",
+				"rotation": 90,
+				"blendedOverlays": [
+					{
+						"base": "game:block/wood/door/overlay-tall",
+						"blendMode": "Overlay"
+					}
+				]
+			}
+		},
+		"door-2x4gate-*": {
+			"wood": {
+				"base": "block/wood/debarked/{wood}",
+				"rotation": 90
+			}
+		}
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	}
+}

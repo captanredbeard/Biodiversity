@@ -1,0 +1,37 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/bookshelf",
+	"code": "bookshelf",
+	"class": "BlockBookshelf",
+	"entityClass": "Bookshelf",
+	"attributes": {
+		"materials": {
+			"loadFromProperties": "bdtree:block/wood",
+			"states": []
+		},
+		"shape": { "base": "game:block/wood/bookshelf/{type}" },
+		"textures": {
+			"material": {
+				"base": "bdtree:block/wood/debarked/{material}",
+				"overlays": []
+			},
+			"material-rim1": {
+				"base": "bdtree:block/wood/debarked/{material}",
+				"overlays": [ "game:block/wood/bookshelves/rim1" ]
+			},
+			"material-rim2": {
+				"base": "bdtree:block/wood/debarked/{material}",
+				"overlays": [ "game:block/wood/bookshelves/rim2" ]
+			}
+		}
+	},
+	"shape": {
+		"base": "game:block/wood/bookshelf/2row2col",
+		"rotateY": 0
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	}
+}

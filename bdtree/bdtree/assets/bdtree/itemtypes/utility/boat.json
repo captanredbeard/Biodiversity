@@ -1,0 +1,39 @@
+{
+	"inheritFrom": "game:itemtypes/utility/boat",
+	"code": "boat",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "raft", "sailed" ]
+		},
+		{
+			"code": "material",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		}
+	],
+	"shapeByType": {
+		"boat-raft-*": { "base": "game:entity/nonliving/boat/raft" },
+		"boat-sailed-*": {
+			"base": "game:entity/nonliving/boat/sailed",
+			"ignoreElements": [ "hideWater" ]
+		}
+	},
+	"texturesByType": {
+		"*-bamboo": {},
+		"*": {
+			"material": { "base": "block/wood/debarked/{material}" },
+			"oak": { "base": "block/wood/debarked/{material}" },
+			"oak1": { "base": "block/wood/planks/{material}*" },
+			"birch1": { "base": "block/wood/planks/{material}*" },
+			"plainoak": { "base": "block/wood/debarked/{material}" }
+
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"tools": [ "*" ],
+		"bdtree": [ "*" ]
+	}
+}

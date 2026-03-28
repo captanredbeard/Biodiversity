@@ -1,0 +1,24 @@
+[
+	{
+		ingredientPattern: "AS_	PSP",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"P": { type: "block", code: "log-placed-*-ud", name: "wood" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "roughhewnfence-{wood}-ew-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "AS_	PSP",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"P": { type: "block", code: "logsection-placed-*-ne-ud", name: "wood" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "roughhewnfence-{wood}-ew-free", quantity: 8  }
+	}
+]

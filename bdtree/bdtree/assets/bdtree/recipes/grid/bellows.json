@@ -1,0 +1,51 @@
+[
+	{
+		ingredientPattern: "NNN,LLL,PPP",
+		ingredients: {
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}",
+				"quantity": 1
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 2
+			},
+			"P": { type: "item", code: "plank-*", name: "wood", quantity: 2 }
+		},
+		allowedVariants: {
+			metal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel", "electrum" ]
+		},
+		width: 3,
+		height: 3,
+		name: "small bellows",
+		output: { type: "block", code: "game:bellows-small-north"  }
+	},
+	{
+		ingredientPattern: "NNN,LLL,PPP",
+		ingredients: {
+			"N": {
+				"type": "item",
+				"code": "game:metalnailsandstrips-{metal}",
+				"quantity": 4
+			},
+			"L": {
+				"type": "item",
+				"code": "game:leather-normal-plain",
+				"quantity": 8
+			},
+			"P": { type: "item", code: "plank-*", name: "wood", quantity: 8}
+		},
+		allowedVariants: {
+			metal: ["copper", "blackbronze", "tinbronze", "bismuthbronze", "iron", "silver", "gold", "meteoriciron", "steel", "electrum" ]
+		},
+		width: 3,
+		height: 3,
+		name: "large bellows",
+		output: {
+			"type": "block",
+			"code": "game:bellows-large-north"
+		}
+	}
+]

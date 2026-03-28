@@ -1,0 +1,35 @@
+{
+	"inheritFrom": "game:itemtypes/tool/oar",
+	"code": "oar",
+	"attributes": {
+		"attachableToEntity": {
+			"categoryCode": "oar",
+			"attachedShape": { "base": "game:item/tool/oar-crude-rafted" }
+		}
+	},
+	"variantgroups": [
+		{
+			"code": "material",
+			"states": [ "crude" ]
+		},
+		{
+			"code": "wood",
+			"states": [ ],
+			"loadFromProperties": "bdtree:block/wood"
+		}
+	],
+	"shape": { "base": "game:item/tool/oar-crude" },
+	"textures": {
+		"bark": {
+			"base": "block/wood/bark/{wood}",
+			"rotation": 270
+		},
+		"debarked": { "base": "block/wood/debarked/{wood}" }
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"tools": [ "*" ],
+		"bdtree": [ "*" ]
+	}
+}

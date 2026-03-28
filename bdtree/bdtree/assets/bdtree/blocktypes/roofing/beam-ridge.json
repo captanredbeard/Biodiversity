@@ -1,0 +1,36 @@
+{
+	"inheritFrom": "game:blocktypes/roofing/beam-ridge",
+	"code": "beam-ridge",
+	"variantgroups": [
+		{
+			"code": "material",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "cover",
+			"states": [ "free", "snow" ]
+		}
+	],
+	"creativeinventory": {
+		"general": [ "*-free" ],
+		"construction": [ "*-free" ],
+		"bdtree": [ "*-free" ]
+	},
+	"shapeByType": {
+		"*-free": { "base": "game:block/roofing/beam/ridgeshingle-free/16" },
+		"*-snow": { "base": "game:block/roofing/beam/ridgeshingle-snow/16" }
+	},
+	"texturesByType": {
+		"*": {
+			"material": { "base": "block/wood/shingles/{material}-side" }
+		}
+	},
+	"soundsByType": {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks"
+		}
+	}
+}

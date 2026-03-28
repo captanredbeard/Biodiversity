@@ -1,0 +1,62 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/path",
+	"code": "woodenpath",
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "orientation",
+			"states": [ "ns", "we" ]
+		}
+	],
+	"lod2shapeByType": {
+		"*-ns": {
+			"base": "game:block/basic/flat",
+			"offsetY": 0.02
+		},
+		"*-we": {
+			"base": "game:block/basic/flat",
+			"rotateY": 90,
+			"offsetY": 0.02
+		}
+	},
+	"textures": {
+		"wood": { "base": "block/wood/path/{wood}*" },
+		"-1": { "base": "game:block/wood/path/lod2*" }
+	},
+	"creativeinventory": {
+		"general": [ "*-ns" ],
+		"decorative": [ "*-ns" ],
+		"bdtree": [ "*-ns" ]
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"shapeByType": {
+		"*-ns": {
+			"base": "game:block/wood/path*",
+			"alternates": [
+				{
+					"base": "game:block/wood/path*",
+					"rotateY": 180
+				}
+			]
+		},
+		"*-we": {
+			"base": "game:block/wood/path*",
+			"rotateY": 90,
+			"alternates": [
+				{
+					"base": "game:block/wood/path*",
+					"rotateY": 270
+				}
+			]
+		}
+	}
+}

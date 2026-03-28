@@ -1,0 +1,42 @@
+[
+	{
+		ingredientPattern: "A	L",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"L": {
+				type: "block",
+				code: "log-placed-*-ud",
+				allowedVariants: [ "ash", "azobe", "banyan", "beech", "bearnut", "bluemahoe", "catalpa", "cedar", "charred", "chlorociboria", "dalbergia", "douglasfir", "elm", "empresstree", "eucalyptus", "fir", "ghostgum", "ginkgo", "guajacum", "honeylocust", "horsechestnut", "rosewood", "kauri", "leadwood", "linden", "mahogany", "mangrove", "ohia", "poplar", "redcedar", "sal", "sapele", "satinash", "saxaul", "spruce", "spurgetree", "sycamore", "tamanu", "tigerwood", "tuja", "umnini", "willow", "yew" ]
+			}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:firewood", quantity: 4  }
+	},
+	{
+		ingredientPattern: "A	L",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"L": {
+				type: "block",
+				code: "logsection-placed-*-ud",
+				allowedVariants: [ "banyan", "douglasfir", "elm", "kauri", "redcedar", "sycamore", "tamanu" ]
+			}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:firewood", quantity: 4  }
+	},
+	{
+		ingredientPattern: "A	L",
+		ingredients: {
+			"A": { type: "item", code: "axe-*", isTool: true  },
+			"L": { type: "block", code: "log-*", allowedVariants: ["placed-kapok-ud", "placed-purpleheart-ud", "placed-ebony-ud"] }
+		},
+		recipeGroup: 1,
+		width: 1,
+		height: 2,
+		name: "Kapok Firewood",
+		output: { type: "item", code: "game:firewood", quantity: 3  }
+	}
+]

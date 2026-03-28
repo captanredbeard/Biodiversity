@@ -1,0 +1,37 @@
+{
+	"inheritFrom": "game:blocktypes/roofing/slantedroofingtip",
+	"code": "slantedroofingtip",
+	"variantgroups": [
+		{
+			"code": "material",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "cover",
+			"states": [ "free", "snow" ]
+		}
+	],
+	"shapeByType": {
+		"*": { "base": "game:block/roofing/tip/wood-{cover}" }
+	},
+	"texturesByType": {
+		"*": {
+			"acacia1": { "base": "block/wood/planks/{material}1" },
+			"acacia-top": { "base": "block/wood/shingles/{material}-top" },
+			"acacia-side": { "base": "block/wood/shingles/{material}-side" }
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*-free" ],
+		"decorative": [ "*-free" ],
+		"bdtree": [ "*-free" ]
+	},
+	"soundsByType": {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks"
+		}
+	}
+}

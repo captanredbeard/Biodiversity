@@ -1,0 +1,60 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/roughhewnfencegate",
+	"code": "roughhewnfencegate",
+	"attributes": {
+		"triggerSound": "sounds/block/hewnfancegate"
+	},
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "type",
+			"states": [ "n", "w" ]
+		},
+		{
+			"code": "state",
+			"states": [ "opened", "closed" ]
+		},
+		{
+			"code": "cover",
+			"states": [ "free", "snow" ]
+		}
+	],
+	"creativeinventory": {
+		"general": [ "*-n-closed-free" ],
+		"decorative": [ "*-n-closed-free" ],
+		"bdtree": [ "*-n-closed-free" ]
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"shapebytype": {
+		"*-n-opened-free": { "base": "game:block/wood/fence/roughfence/gate-open" },
+		"*-w-opened-free": {
+			"base": "game:block/wood/fence/roughfence/gate-open",
+			"rotateY": 90
+		},
+		"*-n-closed-free": { "base": "game:block/wood/fence/roughfence/gate-closed" },
+		"*-w-closed-free": {
+			"base": "game:block/wood/fence/roughfence/gate-closed",
+			"rotateY": 90
+		},
+
+		"*-n-opened-snow": { "base": "game:block/wood/fence/roughfence/gate-open-snow" },
+		"*-w-opened-snow": {
+			"base": "game:block/wood/fence/roughfence/gate-open-snow",
+			"rotateY": 90
+		},
+		"*-n-closed-snow": { "base": "game:block/wood/fence/roughfence/gate-closed-snow" },
+		"*-w-closed-snow": {
+			"base": "game:block/wood/fence/roughfence/gate-closed-snow",
+			"rotateY": 90
+		}
+	}
+}

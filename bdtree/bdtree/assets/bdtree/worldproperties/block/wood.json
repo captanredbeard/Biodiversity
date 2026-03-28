@@ -1,0 +1,179 @@
+{
+	Code: "wood",
+	"variants": [
+		{
+			Code: "ash",
+			treeType: "Decidious"
+		},
+		{
+			Code: "azobe",
+			treeType: "Tropical"
+		},
+		{
+			Code: "banyan",
+			treeType: "Tropical"
+		},
+		{
+			Code: "beech",
+			treeType: "Decidious"
+		},
+		{
+			Code: "bearnut",
+			treeType: "Decidious"
+		},
+		{
+			Code: "bluemahoe",
+			treeType: "Tropical"
+		},
+		{
+			Code: "catalpa",
+			treeType: "Tropical"
+		},
+		{
+			Code: "cedar",
+			treeType: "Conifer"
+		},
+		{
+			Code: "charred",
+			treeType: "Conifer"
+		},
+/*
+		{
+			Code: "chlorociboria",
+			treeType: "Decidious"
+		},
+	*/
+		{
+			Code: "dalbergia",
+			treeType: "Acacia"
+		},
+		{
+			Code: "douglasfir",
+			treeType: "Conifer"
+		},
+		{
+			Code: "elm",
+			treeType: "Decidious"
+		},
+		{
+			Code: "empresstree",
+			treeType: "Decidious"
+		},
+		{
+			Code: "eucalyptus",
+			treeType: "Tropical"
+		},
+		{
+			Code: "fir",
+			treeType: "Conifer"
+		},
+		{
+			Code: "ghostgum",
+			treeType: "Tropical"
+		},
+		{
+			Code: "ginkgo",
+			treeType: "Conifer"
+		},
+		{
+			Code: "guajacum",
+			treeType: "Tropical"
+		},
+		{
+			Code: "honeylocust",
+			treeType: "Decidious"
+		},
+		{
+			Code: "horsechestnut",
+			treeType: "Decidious"
+		},
+		{
+			Code: "rosewood",
+			treeType: "Tropical"
+		},
+		{
+			Code: "kauri",
+			treeType: "Tropical"
+		},
+		{
+			Code: "leadwood",
+			treeType: "Tropical"
+		},
+		{
+			Code: "linden",
+			treeType: "Decidious"
+		},
+		{
+			Code: "mahogany",
+			treeType: "Tropical"
+		},
+		{
+			Code: "mangrove",
+			treeType: "Tropical"
+		},
+		{
+			Code: "ohia",
+			treeType: "Tropical"
+		},
+		{
+			Code: "poplar",
+			treeType: "Decidious"
+		},
+		{
+			Code: "redcedar",
+			treeType: "Conifer"
+		},
+		{
+			Code: "sal",
+			treeType: "Tropical"
+		},
+		{
+			Code: "sapele",
+			treeType: "Tropical"
+		},
+		{
+			Code: "satinash",
+			treeType: "Tropical"
+		},
+		{
+			Code: "saxaul",
+			treeType: "Acacia"
+		},
+		{
+			Code: "spruce",
+			treeType: "Conifer"
+		},
+		{
+			Code: "spurgetree",
+			treeType: "Acacia"
+		},
+		{
+			Code: "sycamore",
+			treeType: "Decidious"
+		},
+		{
+			Code: "tamanu",
+			treeType: "Tropical"
+		},
+		{
+			Code: "tigerwood",
+			treeType: "Tropical"
+		},
+		{
+			Code: "tuja",
+			treeType: "Conifer"
+		},
+		{
+			Code: "umnini",
+			treeType: "Tropical"
+		},
+		{
+			Code: "willow",
+			treeType: "Decidious"
+		},
+		{
+			Code: "yew",
+			treeType: "Conifer"
+		}
+	]
+}

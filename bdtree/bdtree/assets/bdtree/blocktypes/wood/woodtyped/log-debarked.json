@@ -1,0 +1,239 @@
+{
+  "inheritFrom": "game:blocktypes/wood/woodtyped/log-debarked",
+  "code": "debarkedlog",
+
+  "variantgroups": [
+    {
+      "code": "wood",
+      "states": [],
+      "loadFromProperties": "bdtree:block/wood"
+    },
+    {
+      "code": "rotation",
+      "states": [ "ud", "ns", "we" ]
+    }
+  ],
+
+  "creativeinventory": {
+    "general": [ "*-ud" ],
+    "flora": [ "*-ud" ],
+    "construction": [ "*-ud" ],
+    "bdtree": [ "*-ud" ]
+  },
+  "sounds": {
+    "place": "game:block/planks",
+    "walk": "game:walk/wood",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "byTool": {
+      "Axe": {
+        "hit": "game:block/chop",
+        "break": "game:block/planks"
+      }
+    }
+  },
+  "shape": { "base": "game:block/basic/cube" },
+  "attributes": {
+    "combustiblePropsByType": {
+      "debarkedlog-petrified-*": null,
+      "debarkedlog-bearnut-*": {
+        "burnTemperature": 800,
+        "burnDuration": 78
+      },
+      "debarkedlog-saxaul-*": {
+        "burnTemperature": 800,
+        "burnDuration": 98
+      },
+      "debarkedlog-elm-*": {
+        "burnTemperature": 800,
+        "burnDuration": 98
+      },
+      "debarkedlog-sapele-*": {
+        "burnTemperature": 800,
+        "burnDuration": 98
+      },
+      "debarkedlog-tigerwood-*": {
+        "burnTemperature": 800,
+        "burnDuration": 98
+      },
+      "debarkedlog-tamanu-*": {
+        "burnTemperature": 800,
+        "burnDuration": 98
+      },
+      "debarkedlog-dalbergia-*": {
+        "burnTemperature": 800,
+        "burnDuration": 110
+      },
+      "debarkedlog-umnini-*": {
+        "burnTemperature": 800,
+        "burnDuration": 110
+      },
+      "debarkedlog-leadwood-*": {
+        "burnTemperature": 800,
+        "burnDuration": 110
+      },
+      "debarkedlog-yew-*": {
+        "burnTemperature": 800,
+        "burnDuration": 110
+      },
+      "debarkedlog-tuja-*": {
+        "meltingPoint": 100,
+        "meltingDuration": 80,
+        "smeltedRatio": 1,
+        "smeltingType": "convert",
+        "smeltedStack": {
+          "type": "block",
+          "code": "debarkedlog-charred-ud"
+        },
+        "requiresContainer": false,
+
+        "burnTemperature": 800,
+        "burnDuration": 110
+      },
+      "debarkedlog-redcedar-*": {
+        "meltingPoint": 100,
+        "meltingDuration": 80,
+        "smeltedRatio": 1,
+        "smeltingType": "convert",
+        "smeltedStack": {
+          "type": "block",
+          "code": "debarkedlog-charred-ud"
+        },
+        "requiresContainer": false,
+
+        "burnTemperature": 800,
+        "burnDuration": 110
+      },
+      "debarkedlog-kauri-*": {
+        "burnTemperature": 800,
+        "burnDuration": 110
+      },
+      "debarkedlog-cedar-*": {
+        "meltingPoint": 100,
+        "meltingDuration": 80,
+        "smeltedRatio": 1,
+        "smeltingType": "convert",
+        "smeltedStack": {
+          "type": "block",
+          "code": "debarkedlog-charred-ud"
+        },
+        "requiresContainer": false,
+
+        "burnTemperature": 800,
+        "burnDuration": 60
+      },
+      "debarkedlog-willow-*": {
+        "burnTemperature": 700,
+        "burnDuration": 70
+      },
+      "debarkedlog-mangrove-*": {
+        "burnTemperature": 700,
+        "burnDuration": 70
+      },
+      "debarkedlog-spurgetree-*": {
+        "burnTemperature": 700,
+        "burnDuration": 66
+      },
+      "debarkedlog-guajacum-*": {
+        "burnTemperature": 800,
+        "burnDuration": 79
+      },
+      "debarkedlog-eucalyptus-*": {
+        "burnTemperature": 800,
+        "burnDuration": 68
+      },
+      "debarkedlog-douglasfir-*": {
+        "burnTemperature": 800,
+        "burnDuration": 68
+      },
+      "debarkedlog-fir-*": {
+        "burnTemperature": 800,
+        "burnDuration": 68
+      },
+      "debarkedlog-beech-*": {
+        "burnTemperature": 800,
+        "burnDuration": 89
+      },
+      "debarkedlog-ash-*": {
+        "burnTemperature": 800,
+        "burnDuration": 89
+      },
+      "debarkedlog-catalpa-*": {
+        "burnTemperature": 800,
+        "burnDuration": 54
+      },
+      "debarkedlog-sal-*": {
+        "burnTemperature": 800,
+        "burnDuration": 54
+      },
+      "debarkedlog-banyan-*": {
+        "burnTemperature": 800,
+        "burnDuration": 58
+      },
+      "debarkedlog-poplar-*": {
+        "burnTemperature": 800,
+        "burnDuration": 79
+      },
+      "debarkedlog-empresstree-*": {
+        "burnTemperature": 700,
+        "burnDuration": 92
+      },
+      "debarkedlog-honeylocust-*": {
+        "burnTemperature": 700,
+        "burnDuration": 92
+      },
+      "debarkedlog-chlorociboria-*": {
+        "burnTemperature": 700,
+        "burnDuration": 40
+      },
+      "*": {
+        "burnTemperature": 800,
+        "burnDuration": 72
+      }
+    }
+  },
+  "texturesByType": {
+    "*-charred-ud": {
+      "all": {
+        "base": "game:block/wood/charred",
+        "rotation": 90
+      }
+    },
+    "*-charred-we": {
+      "all": {
+        "base": "game:block/wood/charred",
+        "rotation": 0
+      }
+    },
+    "*-charred-ns": {
+      "all": { "base": "game:block/wood/charred" },
+      "verticals": {
+        "base": "game:block/wood/charred",
+        "rotation": 90
+      }
+    },
+    "*-ud": {
+      "all": {
+        "base": "block/wood/debarked/{wood}",
+        "rotation": 90
+      },
+      "up": { "base": "block/wood/treetrunk/{wood}" },
+      "down": { "base": "block/wood/treetrunk/{wood}" }
+    },
+    "*-ns": {
+      "all": {
+        "base": "block/wood/debarked/{wood}",
+        "rotation": 90
+      },
+      "east": { "base": "block/wood/debarked/{wood}" },
+      "west": { "base": "block/wood/debarked/{wood}" },
+      "north": { "base": "block/wood/treetrunk/{wood}" },
+      "south": { "base": "block/wood/treetrunk/{wood}" }
+    },
+    "*-we": {
+      "all": { "base": "block/wood/debarked/{wood}" },
+      "west": { "base": "block/wood/treetrunk/{wood}" },
+      "east": { "base": "block/wood/treetrunk/{wood}" }
+    }
+  }
+}

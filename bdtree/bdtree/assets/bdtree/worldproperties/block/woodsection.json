@@ -1,0 +1,26 @@
+{
+	"Code": "woodsection",
+	"variants": [
+		{
+			"code": "douglasfir"
+		},
+		{
+			"code": "redcedar"
+		},
+		{
+			"code": "kauri"
+		},
+		{
+			"code": "sycamore"
+		},
+		{
+			"code": "banyan"
+		},
+		{
+			"code": "elm"
+		},
+		{
+			"code": "tamanu"
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"inheritFrom": "game:itemtypes/resource/plank",
+	"code": "plank",
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "Stacking",
+				"placeRemoveSound": "game:sounds/block/planks",
+				"stackingModel": "game:block/wood/plankpile",
+				"stackingTextures": {
+					"wood": "block/wood/planks/{wood}1"
+				},
+				"modelItemsToStackSizeRatio": 1,
+				"upSolid": true,
+				"stackingCapacity": 48,
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.0625,
+					"z2": 1
+				},
+				"cbScaleYByLayer": 0.33333333333333333333333333333333,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 4,
+				"burnHoursPerItem": 0.166666667
+			}
+		}
+	],
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [ ],
+			"loadFromProperties": "bdtree:block/wood"
+		}
+	],
+	
+	"shape": { "base": "game:item/plank" },
+	"textures": {
+		"wood": {
+			"baseByType": {
+				"*": "block/wood/planks/{wood}1"
+			}
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"bdtree": [ "*" ]
+	},
+	"combustibleProps": {
+		"burnTemperature": 700,
+		"burnDuration": 6
+	}
+}

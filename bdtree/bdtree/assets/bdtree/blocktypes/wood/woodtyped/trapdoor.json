@@ -1,0 +1,40 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/trapdoor",
+	"code": "trapdoor",
+	"variantgroups": [
+		{
+			"code": "style",
+			"states": [ "solid", "window" ]
+		},
+		{
+			"code": "material",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "age",
+			"states": [ "1", "2", "3", "4" ]
+		}
+	],
+	"creativeinventoryByType": {
+		"*": {
+			"general": [ "*" ],
+			"decorative": [ "*" ],
+			"bdtree": [ "*" ]
+		}
+	},
+	"shape": { "base": "game:block/wood/trapdoor/{style}{age}" },
+	"texturesByType": {
+		"*": {
+			"material": {
+				"base": "block/wood/debarked/{material}",
+				"blendedOverlays": [
+					{
+						"base": "game:block/wood/trapdoor/overlay",
+						"blendMode": "Overlay"
+					}
+				]
+			}
+		}
+	}
+}

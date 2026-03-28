@@ -1,0 +1,24 @@
+[
+	{
+		ingredientPattern: "APS	PSP	SPS",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"P": { type: "block", code: "log-placed-*-ud", name: "wood" },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "roughhewnfencegate-{wood}-n-closed-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "APS	PSP	SPS",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"P": { type: "block", code: "logsection-placed-*-ne-ud", name: "wood", allowedVariants: ["douglasfir", "redcedar", "kauri", "sycamore", "banyan", "elm", "tamanu"] },
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "roughhewnfencegate-{wood}-n-closed-free", quantity: 2  }
+	}
+]

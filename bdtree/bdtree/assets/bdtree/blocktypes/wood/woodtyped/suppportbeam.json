@@ -1,0 +1,17 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/suppportbeam",
+	"code": "supportbeam",
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		}
+	],
+	"creativeinventory": {
+		"general": [ "*" ],
+		"construction": [ "*" ],
+		"bdtree": [ "*" ]
+	},
+	"shape": { "base": "game:block/wood/supportbeam/16" }
+}

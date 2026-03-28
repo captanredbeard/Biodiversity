@@ -1,0 +1,39 @@
+[
+	{
+		ingredientPattern: "P_P,PPP,P_P",
+		ingredients: {
+			"P": { type: "item", code: "plank-*", name: "wood" }
+		},
+		name: "foobar",
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "bookshelf", attributes: { "type": "2row1col", "material": "{wood}" } }
+	},
+	{
+		ingredientPattern: "PPP,P_P,PPP",
+		ingredients: {
+			"P": { type: "item", code: "plank-*", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "bookshelf", attributes: { "type": "1row1col", "material": "{wood}" } }
+	},
+	{
+		ingredientPattern: "PPP,_P_,PPP",
+		ingredients: {
+			"P": { type: "item", code: "plank-*", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "bookshelf", attributes: { "type": "1row2col", "material": "{wood}" } }
+	},
+	{
+		ingredientPattern: "P_P,_P_,P_P",
+		ingredients: {
+			"P": { type: "item", code: "plank-*", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "bookshelf", attributes: { "type": "2row2col", "material": "{wood}" } }
+	},
+]

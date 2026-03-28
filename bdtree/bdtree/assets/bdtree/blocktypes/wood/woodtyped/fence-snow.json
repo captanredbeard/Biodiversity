@@ -1,0 +1,92 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/fence-snow",
+	"code": "woodenfence",
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "type",
+			"states": [ "empty", "n", "e", "s", "w", "ne", "ns", "nw", "es", "ew", "sw", "nes", "new", "nsw", "esw", "nesw" ]
+		},
+		{
+			"code": "cover",
+			"states": [ "snow" ]
+		}
+	],
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"shapebytype": {
+		"*-empty-snow": { "base": "game:block/wood/fence/snow-empty" },
+		"*-n-snow": {
+			"base": "game:block/wood/fence/snow-w",
+			"rotateY": 270
+		},
+		"*-e-snow": {
+			"base": "game:block/wood/fence/snow-w",
+			"rotateY": 180
+		},
+		"*-s-snow": {
+			"base": "game:block/wood/fence/snow-w",
+			"rotateY": 90
+		},
+		"*-w-snow": {
+			"base": "game:block/wood/fence/snow-w",
+			"rotateY": 0
+		},
+
+		"*-ns-snow": {
+			"base": "game:block/wood/fence/snow-ew",
+			"rotateY": 90
+		},
+		"*-ew-snow": {
+			"base": "game:block/wood/fence/snow-ew",
+			"rotateY": 0
+		},
+
+		"*-ne-snow": {
+			"base": "game:block/wood/fence/snow-sw",
+			"rotateY": 180
+		},
+		"*-nw-snow": {
+			"base": "game:block/wood/fence/snow-sw",
+			"rotateY": 270
+		},
+		"*-es-snow": {
+			"base": "game:block/wood/fence/snow-sw",
+			"rotateY": 90
+		},
+		"*-sw-snow": {
+			"base": "game:block/wood/fence/snow-sw",
+			"rotateY": 0
+		},
+
+		"*-nes-snow": {
+			"base": "game:block/wood/fence/snow-nsw",
+			"rotateY": 180
+		},
+		"*-new-snow": {
+			"base": "game:block/wood/fence/snow-nsw",
+			"rotateY": 270
+		},
+		"*-nsw-snow": {
+			"base": "game:block/wood/fence/snow-nsw",
+			"rotateY": 0
+		},
+		"*-esw-snow": {
+			"base": "game:block/wood/fence/snow-nsw",
+			"rotateY": 90
+		},
+
+		"*-nesw-snow": {
+			"base": "game:block/wood/fence/snow-nesw",
+			"rotateY": 0
+		}
+	}
+}

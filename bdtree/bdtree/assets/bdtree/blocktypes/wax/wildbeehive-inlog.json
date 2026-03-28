@@ -1,0 +1,33 @@
+{
+  "inheritFrom": "game:blocktypes/wax/wildbeehive-inlog",
+  "code": "wildbeehive",
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "inlog" ]
+    },
+    {
+      "code": "wood",
+      "loadFromProperties": "bdtree:block/wood"
+    }
+  ],
+  "shape": { "base": "game:block/beehive/wild-{type}" },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "flora": [ "*" ],
+    "decorative": [ "*" ],
+    "bdtree": [ "*" ]
+  },
+  "drops": [
+    {
+      "type": "item",
+      "code": "game:honeycomb",
+      "quantity": { "avg": 3 }
+    }
+  ],
+  "sounds": {
+    "place": "game:block/planks",
+    "walk": "game:walk/wood",
+    "ambient": "game:creature/beehive-wild"
+  }
+}

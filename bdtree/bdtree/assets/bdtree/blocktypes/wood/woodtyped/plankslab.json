@@ -1,0 +1,41 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/plankslab",
+	"code": "plankslab",
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "rot",
+			"states": [ "north", "east", "south", "west", "up", "down" ]
+		},
+		{
+			"code": "cover",
+			"states": [ "free", "snow" ]
+		}
+	],
+	"creativeinventory": {
+		"general": [ "*-down-free" ],
+		"construction": [ "*-down-free" ]
+	},
+	"textures": {
+		"sides": {
+			"baseByType": {
+				"plankslab-aged-*": "block/wood/planks/aged1",
+				"*": "block/wood/planks/{wood}*"
+			}
+		}
+	},
+	"sounds": {
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"shapeByType": {
+		"*-snow": { "base": "game:block/basic/slab/snow-slab-{rot}" },
+		"*": { "base": "game:block/basic/slab/slab-{rot}" }
+	}
+}

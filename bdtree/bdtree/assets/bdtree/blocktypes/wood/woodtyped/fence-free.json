@@ -1,0 +1,105 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/fence-free",
+	"code": "woodenfence",
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "type",
+			"states": [ "empty", "n", "e", "s", "w", "ne", "ns", "nw", "es", "ew", "sw", "nes", "new", "nsw", "esw", "nesw" ]
+		},
+		{
+			"code": "cover",
+			"states": [ "free" ]
+		}
+	],
+	"creativeinventory": {
+		"general": [ "woodenfence-*-ew-free" ],
+		"decorative": [ "woodenfence-*-ew-free" ],
+		"bdtree": [ "woodenfence-*-ew-free" ]
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"shapebytype": {
+		"*-empty-free": { "base": "game:block/wood/fence/empty" },
+		"*-n-free": {
+			"base": "game:block/wood/fence/w",
+			"rotateY": 270
+		},
+		"*-e-free": {
+			"base": "game:block/wood/fence/w",
+			"rotateY": 180
+		},
+		"*-s-free": {
+			"base": "game:block/wood/fence/w",
+			"rotateY": 90
+		},
+		"*-w-free": {
+			"base": "game:block/wood/fence/w",
+			"rotateY": 0
+		},
+
+		"*-ns-free": {
+			"base": "game:block/wood/fence/ew",
+			"rotateY": 90
+		},
+		"*-ew-free": {
+			"base": "game:block/wood/fence/ew",
+			"rotateY": 0
+		},
+
+		"*-ne-free": {
+			"base": "game:block/wood/fence/sw",
+			"rotateY": 180
+		},
+		"*-nw-free": {
+			"base": "game:block/wood/fence/sw",
+			"rotateY": 270
+		},
+		"*-es-free": {
+			"base": "game:block/wood/fence/sw",
+			"rotateY": 90
+		},
+		"*-sw-free": {
+			"base": "game:block/wood/fence/sw",
+			"rotateY": 0
+		},
+
+		"*-nes-free": {
+			"base": "game:block/wood/fence/nsw",
+			"rotateY": 180
+		},
+		"*-new-free": {
+			"base": "game:block/wood/fence/nsw",
+			"rotateY": 270
+		},
+		"*-nsw-free": {
+			"base": "game:block/wood/fence/nsw",
+			"rotateY": 0
+		},
+		"*-esw-free": {
+			"base": "game:block/wood/fence/nsw",
+			"rotateY": 90
+		},
+
+		"*-nesw-free": {
+			"base": "game:block/wood/fence/nesw",
+			"rotateY": 0
+		}
+	},
+	"textures": {
+		"horizontal": {
+			"baseByType": {
+				"*": "block/wood/debarked/{wood}"
+			},
+			"overlays": [ "game:block/slightlydarker" ]
+		}
+	}
+}

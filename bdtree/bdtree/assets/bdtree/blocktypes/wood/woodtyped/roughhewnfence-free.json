@@ -1,0 +1,98 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/roughhewnfence-free",
+	"code": "roughhewnfence",
+
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "type",
+			"states": [ "empty", "n", "e", "s", "w", "ne", "ns", "nw", "es", "ew", "sw", "nes", "new", "nsw", "esw", "nesw" ]
+		},
+		{
+			"code": "cover",
+			"states": [ "free" ]
+		}
+	],
+	"sounds": {
+		"place": "block/planks",
+		"hit": "block/planks",
+		"break": "block/planks",
+		"walk": "walk/wood"
+	},
+	"creativeinventory": {
+		"general": [ "roughhewnfence-*-ew-free" ],
+		"decorative": [ "roughhewnfence-*-ew-free" ],
+		"bdtree": [ "roughhewnfence-*-ew-free" ]
+	},
+	"shapebytype": {
+		"*-empty-free": { "base": "game:block/wood/fence/roughfence/empty" },
+		"*-n-free": {
+			"base": "game:block/wood/fence/roughfence/w*",
+			"rotateY": 270
+		},
+		"*-e-free": {
+			"base": "game:block/wood/fence/roughfence/w*",
+			"rotateY": 180
+		},
+		"*-s-free": {
+			"base": "game:block/wood/fence/roughfence/w*",
+			"rotateY": 90
+		},
+		"*-w-free": {
+			"base": "game:block/wood/fence/roughfence/w*",
+			"rotateY": 0
+		},
+
+		"*-ns-free": {
+			"base": "game:block/wood/fence/roughfence/ew*",
+			"rotateY": 90
+		},
+		"*-ew-free": {
+			"base": "game:block/wood/fence/roughfence/ew*",
+			"rotateY": 0
+		},
+
+		"*-ne-free": {
+			"base": "game:block/wood/fence/roughfence/sw*",
+			"rotateY": 180
+		},
+		"*-nw-free": {
+			"base": "game:block/wood/fence/roughfence/sw*",
+			"rotateY": 270
+		},
+		"*-es-free": {
+			"base": "game:block/wood/fence/roughfence/sw*",
+			"rotateY": 90
+		},
+		"*-sw-free": {
+			"base": "game:block/wood/fence/roughfence/sw*",
+			"rotateY": 0
+		},
+
+		"*-nes-free": {
+			"base": "game:block/wood/fence/roughfence/nsw*",
+			"rotateY": 180
+		},
+		"*-new-free": {
+			"base": "game:block/wood/fence/roughfence/nsw*",
+			"rotateY": 270
+		},
+		"*-nsw-free": {
+			"base": "game:block/wood/fence/roughfence/nsw*",
+			"rotateY": 0
+		},
+		"*-esw-free": {
+			"base": "game:block/wood/fence/roughfence/nsw*",
+			"rotateY": 90
+		},
+
+		"*-nesw-free": {
+			"base": "game:block/wood/fence/roughfence/nesw*",
+			"rotateY": 0
+		}
+	}
+}

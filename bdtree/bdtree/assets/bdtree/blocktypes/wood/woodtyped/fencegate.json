@@ -1,0 +1,89 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/fencegate",
+	"code": "woodenfencegate",
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "type",
+			"states": [ "n", "w" ]
+		},
+		{
+			"code": "state",
+			"states": [ "opened", "closed" ]
+		},
+		{
+			"code": "knobOrientation",
+			"states": [ "left", "right" ]
+		},
+		{
+			"code": "cover",
+			"states": [ "free", "snow" ]
+		}
+	],
+	"creativeinventory": {
+		"general": [ "*-n-closed-left-free" ],
+		"decorative": [ "*-n-closed-left-free" ],
+		"bdtree": [ "*-n-closed-left-free" ]
+	},
+	"textures": {
+		"horizontal": {
+			"baseByType": {
+				"*": "block/wood/debarked/{wood}"
+			},
+			"overlays": [ "game:block/slightlydarker" ]
+		}
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"shapebytype": {
+		"*-n-opened-left-free": { "base": "game:block/wood/fencegate/opened_left" },
+		"*-w-opened-left-free": {
+			"base": "game:block/wood/fencegate/opened_left",
+			"rotateY": 90
+		},
+		"*-n-closed-left-free": { "base": "game:block/wood/fencegate/closed_left" },
+		"*-w-closed-left-free": {
+			"base": "game:block/wood/fencegate/closed_left",
+			"rotateY": 90
+		},
+		"*-n-opened-right-free": { "base": "game:block/wood/fencegate/opened_right" },
+		"*-w-opened-right-free": {
+			"base": "game:block/wood/fencegate/opened_right",
+			"rotateY": 90
+		},
+		"*-n-closed-right-free": { "base": "game:block/wood/fencegate/closed_right" },
+		"*-w-closed-right-free": {
+			"base": "game:block/wood/fencegate/closed_right",
+			"rotateY": 90
+		},
+
+		"*-n-opened-left-snow": { "base": "game:block/wood/fencegate/snow-opened_left" },
+		"*-w-opened-left-snow": {
+			"base": "game:block/wood/fencegate/snow-opened_left",
+			"rotateY": 90
+		},
+		"*-n-closed-left-snow": { "base": "game:block/wood/fencegate/snow-closed_left" },
+		"*-w-closed-left-snow": {
+			"base": "game:block/wood/fencegate/snow-closed_left",
+			"rotateY": 90
+		},
+		"*-n-opened-right-snow": { "base": "game:block/wood/fencegate/snow-opened_right" },
+		"*-w-opened-right-snow": {
+			"base": "game:block/wood/fencegate/snow-opened_right",
+			"rotateY": 90
+		},
+		"*-n-closed-right-snow": { "base": "game:block/wood/fencegate/snow-closed_right" },
+		"*-w-closed-right-snow": {
+			"base": "game:block/wood/fencegate/snow-closed_right",
+			"rotateY": 90
+		}
+	}
+}

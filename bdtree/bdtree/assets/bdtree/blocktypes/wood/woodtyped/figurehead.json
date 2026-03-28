@@ -1,0 +1,17 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/figurehead",
+	"code": "figurehead",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "bear", "eidolon", "erel", "gear", "seamonster", "siren", "skull", "thunderlord", "wolf" ]
+		}
+	],
+	"attributes": {
+		"materials": { "loadFromProperties": "bdtree:block/wood" },
+		"textures": {
+			"figureMat": { "base": "bdtree:block/wood/debarked/{material}" }
+		}
+	},
+	"shape": { "base": "game:entity/nonliving/boat/figurehead/{type}" }
+}

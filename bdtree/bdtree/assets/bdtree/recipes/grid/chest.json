@@ -1,0 +1,20 @@
+{
+	"ingredientPattern": "WWW,WNW,WWW",
+	"ingredients": {
+		"W": {
+			"type": "item",
+			"code": "*:plank-*"
+		},
+		"N": {
+			"type": "item",
+			"code": "game:metalnailsandstrips-*"
+		}
+	},
+	"width": 3,
+	"height": 3,
+	"output": {
+		"type": "block",
+		"code": "game:chest-east",
+		"attributes": { "type": "normal-generic" }
+	}
+}

@@ -1,0 +1,14 @@
+[
+	{
+		ingredientPattern: "AHL",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"H": { type: "item", code: "game:hammer-*", isTool: true  },
+			"L": { type: "block", code: "log-placed-*-ud", name: "wood" }
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: { type: "block", code: "debarkedlog-{wood}-ud", quantity: 1  }
+	}
+]

@@ -1,0 +1,53 @@
+{
+	"inheritFrom": "game:blocktypes/roofing/slantedroofingtop",
+	"code": "slantedroofingtop",
+	"variantgroups": [
+		{
+			"code": "material",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{ "loadFromProperties": "abstract/horizontalorientation" },
+		{
+			"code": "cover",
+			"states": [ "free", "snow" ]
+		}
+	],
+	"shapeByType": {
+		"*-north-*": {
+			"base": "game:block/roofing/main-top/wood-{cover}",
+			"rotateY": 90
+		},
+		"*-west-*": {
+			"base": "game:block/roofing/main-top/wood-{cover}",
+			"rotateY": 180
+		},
+		"*-south-*": {
+			"base": "game:block/roofing/main-top/wood-{cover}",
+			"rotateY": 270
+		},
+		"*-east-*": {
+			"base": "game:block/roofing/main-top/wood-{cover}",
+			"rotateY": 0
+		}
+	},
+	"texturesByType": {
+		"*": {
+			"acacia1": { "base": "block/wood/planks/{material}1" },
+			"acacia-top": { "base": "block/wood/shingles/{material}-top" },
+			"acacia-side": { "base": "block/wood/shingles/{material}-side" }
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*-east-free" ],
+		"decorative": [ "*-east-free" ],
+		"bdtree": [ "*-east-free" ]
+	},
+	"soundsByType": {
+		"*": {
+			"place": "game:block/planks",
+			"break": "game:block/planks",
+			"hit": "game:block/planks"
+		}
+	}
+}

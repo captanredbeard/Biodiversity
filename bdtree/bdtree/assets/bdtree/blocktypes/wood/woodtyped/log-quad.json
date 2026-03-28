@@ -1,0 +1,199 @@
+{
+	"inheritFrom": "game:blocktypes/wood/woodtyped/log-quad",
+	"code": "logquad",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "placed", "debarked" ]
+		},
+		{
+			"code": "wood",
+			"states": [],
+			"loadFromProperties": "bdtree:block/wood"
+		},
+		{
+			"code": "rotation",
+			"states": [ "ud", "ns", "we" ]
+		}
+	],
+	"skipVariants": [ "*-chlorociboria-*" ],
+	"creativeinventory": {
+		"general": [ "logquad-{type}-*-ud" ],
+		"flora": [ "logquad-{type}-*-ud" ],
+		"construction": [ "logquad-{type}-*-ud" ],
+		"bdtree": [ "logquad-{type}-*-ud" ]
+	},
+	"shape": { "base": "game:block/basic/cube" },
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": {
+				"hit": "game:block/chop",
+				"break": "game:block/planks"
+			}
+		}
+	},
+	"combustiblePropsByType": {
+		"log-*-bearnut-*": {
+			"burnTemperature": 800,
+			"burnDuration": 78
+		},
+		"log-*-saxaul-*": {
+			"burnTemperature": 800,
+			"burnDuration": 98
+		},
+		"log-*-elm-*": {
+			"burnTemperature": 800,
+			"burnDuration": 98
+		},
+		"log-*-sapele-*": {
+			"burnTemperature": 800,
+			"burnDuration": 98
+		},
+		"log-*-tigerwood-*": {
+			"burnTemperature": 800,
+			"burnDuration": 98
+		},
+		"log-*-tamanu-*": {
+			"burnTemperature": 800,
+			"burnDuration": 98
+		},
+		"log-*-dalbergia-*": {
+			"burnTemperature": 800,
+			"burnDuration": 110
+		},
+		"log-*-umnini-*": {
+			"burnTemperature": 800,
+			"burnDuration": 110
+		},
+		"log-*-leadwood-*": {
+			"burnTemperature": 800,
+			"burnDuration": 110
+		},
+		"log-*-yew-*": {
+			"burnTemperature": 800,
+			"burnDuration": 110
+		},
+		"log-*-tuja-*": {
+			"meltingPoint": 100,
+			"meltingDuration": 80,
+			"smeltedRatio": 1,
+			"smeltingType": "convert",
+			"smeltedStack": {
+				"type": "block",
+				"code": "log-quad-charred-ud"
+			},
+			"requiresContainer": false,
+
+			"burnTemperature": 800,
+			"burnDuration": 110
+		},
+		"log-*-redcedar-*": {
+			"meltingPoint": 100,
+			"meltingDuration": 80,
+			"smeltedRatio": 1,
+			"smeltingType": "convert",
+			"smeltedStack": {
+				"type": "block",
+				"code": "log-quad-charred-ud"
+			},
+			"requiresContainer": false,
+
+			"burnTemperature": 800,
+			"burnDuration": 110
+		},
+		"log-*-kauri-*": {
+			"burnTemperature": 800,
+			"burnDuration": 110
+		},
+		"log-*-cedar-*": {
+			"meltingPoint": 100,
+			"meltingDuration": 80,
+			"smeltedRatio": 1,
+			"smeltingType": "convert",
+			"smeltedStack": {
+				"type": "block",
+				"code": "log-quad-charred-ud"
+			},
+			"requiresContainer": false,
+
+			"burnTemperature": 800,
+			"burnDuration": 60
+		},
+		"log-*-willow-*": {
+			"burnTemperature": 700,
+			"burnDuration": 70
+		},
+		"log-*-mangrove-*": {
+			"burnTemperature": 700,
+			"burnDuration": 70
+		},
+		"log-*-spurgetree-*": {
+			"burnTemperature": 700,
+			"burnDuration": 66
+		},
+		"log-*-guajacum-*": {
+			"burnTemperature": 800,
+			"burnDuration": 79
+		},
+		"log-*-eucalyptus-*": {
+			"burnTemperature": 800,
+			"burnDuration": 68
+		},
+		"log-*-douglasfir-*": {
+			"burnTemperature": 800,
+			"burnDuration": 68
+		},
+		"log-*-fir-*": {
+			"burnTemperature": 800,
+			"burnDuration": 68
+		},
+		"log-*-beech-*": {
+			"burnTemperature": 800,
+			"burnDuration": 89
+		},
+		"log-*-ash-*": {
+			"burnTemperature": 800,
+			"burnDuration": 89
+		},
+		"log-*-catalpa-*": {
+			"burnTemperature": 800,
+			"burnDuration": 54
+		},
+		"log-*-sal-*": {
+			"burnTemperature": 800,
+			"burnDuration": 54
+		},
+		"log-*-satinash-*": {
+			"burnTemperature": 800,
+			"burnDuration": 54
+		},
+		"log-*-banyan-*": {
+			"burnTemperature": 800,
+			"burnDuration": 58
+		},
+		"log-*-poplar-*": {
+			"burnTemperature": 800,
+			"burnDuration": 79
+		},
+		"log-*-empresstree-*": {
+			"burnTemperature": 700,
+			"burnDuration": 92
+		},
+		"log-*-honeylocust-*": {
+			"burnTemperature": 700,
+			"burnDuration": 92
+		},
+		"log-*-chlorociboria-*": {
+			"burnTemperature": 700,
+			"burnDuration": 40
+		},
+		"*": {
+			"burnTemperature": 800,
+			"burnDuration": 72
+		}
+	}
+}

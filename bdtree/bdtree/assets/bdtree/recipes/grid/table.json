@@ -1,0 +1,11 @@
+[
+	{
+		ingredientPattern: "WWW	W_W	W_W",
+		ingredients: {
+			"W": { type: "item", code: "*:plank-*" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:table-normal" }
+	}
+]

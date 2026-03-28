@@ -1,0 +1,41 @@
+[
+	{
+		ingredientPattern: "P_P,PPP,P_P",
+		name: "cabinetdoor",
+		ingredients: {
+			"P": { type: "block", code: "log-placed-*-ud", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "cabinetdoor-1block-solid", attributes: { "wood": "{wood}" } }
+	},
+	{
+		"ingredientPattern": "PGP,PPP,P_P",
+		"name": "cabinetdoor",
+		"ingredients": {
+			"G": {
+				"type": "block",
+				"code": "game:glass-vintage",
+				"name": "glass"
+			},
+			"P": {
+				"type": "block",
+				"code": "log-placed-*-ud",
+				"name": "wood"
+			}
+		},
+		"skipVariants": {
+			"wood": [ "charred" ]
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "item",
+			"code": "cabinetdoor-1block-glassframed",
+			"attributes": {
+				"wood": "{wood}",
+				"glass": "{glass}"
+			}
+		}
+	}
+]
