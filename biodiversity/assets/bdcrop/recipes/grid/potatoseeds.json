@@ -16,7 +16,6 @@
                 "code": "bdcrop:vegetable-potato"
             }
         },
-        "showInCreatedBy": false,
         "name": "potatoseeds",
         "output": {
             "type": "item",
