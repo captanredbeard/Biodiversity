@@ -5,9 +5,7 @@
   <Project Path="bdherb/bdherb.csproj" Id="a751eb63-eade-4f71-ac68-53fb28fb6463" />
   <Project Path="bdorchard/bdorchard.csproj" Id="e1c29bfd-1168-4ea5-ba2a-471aeb6b35b6" />
   <Project Path="bdshrub/bdshrub.csproj" Id="f58e2ce5-c7c1-4ee8-9199-11b78965961e" />
-  <Project Path="bdtree/bdtree/bdtree.csproj" Id="247bd22d-4657-4898-b88d-28d1c3cde0d6" />
-  <Project Path="biodiversity/biodiversity core.csproj">
-    <BuildDependency Project="bdtree/bdtree/bdtree.csproj" />
-  </Project>
+   <Project Path="bdtree/bdtree.csproj"/>
+  <Project Path="biodiversity/biodiversity.csproj"/>
   <Project Path="CakeBuild/CakeBuild.csproj" />
 </Solution>
