@@ -1,0 +1,118 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "Quadrants",
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.125,
+					"z2": 1
+				}
+			}
+		}
+	],
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "potato", "bakedpotato" ]
+		}
+	],
+	"shapebytype": {
+		"*-bakedpotato": { "base": "game:item/food/vegetable/potato-baked" },
+		"*": { "base": "item/vegetable/potato" }
+	},
+	"texturesbytype": {
+		"*-bakedpotato": {
+			"group16-potato": { "base": "game:block/food/pie/fill-potato" },
+			"potato": { "base": "game:item/food/vegetable/potato" }
+		},
+		"*": {
+			"potato": { "base": "game:item/food/vegetable/potato" }
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"bdcrop": [ "*" ]
+	},
+	"storageFlags": 33,
+	"nutritionPropsByType": {
+		"*-potato": {
+			"satiety": 110,
+			"foodcategory": "Vegetable"
+		},
+		"*-bakedpotato": {
+			"satiety": 140,
+			"foodcategory": "Vegetable"
+		}
+	},
+	"attributesByType": {
+		"*-potato" : {
+			"foodTags" : ["{type}", "tastyvegetable"],
+			"inContanierTexture": { base: "game:block/food/pie/fill-potato" },
+			"nutritionPropsWhenInMeal": { satiety: 160, foodcategory: "vegetable" },
+			"inPieProperties" : { texture: "game:block/food/pie/fill-potato", partType: 'Filling', mixingCodes: ["potpie"] }
+		}
+	},
+	"transitionablePropsByType": {
+		"*": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 540 },
+				"transitionHours": { "avg": 48 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 0.5
+			}
+		]
+	},
+	"materialDensity": 600,
+	"tphandtransformbytype": {
+		"*": {
+			"translation": {
+				"x": -0.68,
+				"y": -0.18,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -84
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.8
+		}
+	},
+	"guiTransformbytype": {
+		"*": {
+			"translation": {
+				"x": 3,
+				"y": 0,
+				"z": 0
+			},
+			"rotation": {
+				"x": 104,
+				"y": -123,
+				"z": -5
+			},
+			"origin": {
+				"x": 0.48,
+				"y": 0.2,
+				"z": 0.5
+			},
+			"scale": 3.09
+		}
+	}
+	}

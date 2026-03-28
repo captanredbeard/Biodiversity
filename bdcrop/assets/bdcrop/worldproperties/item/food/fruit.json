@@ -1,0 +1,17 @@
+{
+    "code": "fruit",
+    "variants": [
+        {
+            "code": "cantaloupe"
+        },
+        {
+            "code": "honeydewmelon"
+        },
+        {
+            "code": "mirzamelon"
+        },
+        {
+            "code": "watermelon"
+        }
+    ]
+}

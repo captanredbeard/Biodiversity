@@ -1,0 +1,32 @@
+{
+    "code": "herbs",
+  "variants": [
+    {
+      "code": "angelica"
+    },
+    {
+      "code": "arnica"
+    },
+    {
+      "code": "chicory"
+    },
+    {
+      "code": "foxglove"
+    },
+    {
+      "code": "horehound"
+    },
+    {
+      "code": "marigold"
+    },
+    {
+      "code": "rockrose"
+    },
+    {
+      "code": "rosemary"
+    },
+    {
+      "code": "thyme"
+    }
+  ]
+  }

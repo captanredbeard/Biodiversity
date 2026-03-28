@@ -1,0 +1,106 @@
+[
+// Add vegetables to cooking pots attributes
+  // Add vegetables to soup recipies
+  {
+    "file": "game:recipes/cooking/soup.json",
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group1"]}
+    ],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/cooking/soup.json",
+    "op": "addeach",
+    "path": "/ingredients/2/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group1"]}
+    ],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/cooking/soup.json",
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 3/*", "textureMapping": ["vegetable", "group1"]}
+    ],
+    "side": "server"
+  },
+  // add vegetables to vegetable stew recipies
+  {
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "op": "addeach",
+    "path": "/ingredients/0/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group1"]}
+    ],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group1"]}
+    ],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "op": "addeach",
+    "path": "/ingredients/2/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 3/*", "textureMapping": ["vegetable", "group10"]}
+    ],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/cooking/vegetablestew.json",
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 4/*", "textureMapping": ["vegetable", "group10"]}
+    ],
+    "side": "server"
+  },
+  // Add vegetables to scrambled eggs recipies
+  {
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group1"]}
+    ],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs.json",
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group1"]}
+    ],
+    "side": "server"
+  },
+  // Add vegetables to meaty stew recipies
+  {
+    "file": "game:recipes/cooking/meatystew.json",
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable", "group1"]}
+    ],
+    "side": "server"
+  },
+  {
+    "file": "game:recipes/cooking/meatystew.json",
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value": [
+      { "type": "item", "code": "bdcrop:vegetable-*", "shapeElement": "bowl/vegetable 2/*", "textureMapping": ["vegetable", "group1"]}
+    ],
+    "side": "server"
+  }
+]

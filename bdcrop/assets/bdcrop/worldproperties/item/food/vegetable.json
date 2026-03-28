@@ -1,0 +1,17 @@
+﻿{
+  "code": "vegetable",
+  "variants": [
+    {
+      "code": "leek"
+    },
+    {
+      "code": "tomato"
+    },
+    {
+      "code": "naplessquash"
+    },
+    {
+      "code": "butternutsquash"
+    }
+  ]
+}

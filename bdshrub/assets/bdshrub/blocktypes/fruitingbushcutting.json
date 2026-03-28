@@ -1,0 +1,106 @@
+{
+	code: "fruitingbushcutting",
+	variantgroups: [
+		{ code: "type", states: [ "beautyberry", "blueberry", "cranberry", "blackcurrant", "redcurrant", "whitecurrant", "strawberry" ] },
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	behaviors: [
+		{ name: "FruitingBushCutting" },
+		{ name: "Unstable" }
+	],
+	entityBehaviors: [ 
+		{ name: "FruitingBushCutting" }
+	],
+	attributes: {
+		matureTotalMonthsMin: 3,
+		matureTotalMonthsMax: 6,
+		maturedBlockCode: "fruitingbush-{type}"
+	},
+	shape: { base: "block/plant/flower/1patch-cross-16x16" },
+	texturesByType: {
+		"fruitingbushcutting-*currant-*": {
+			north1: { base: "block/plant/berrybush/cuttings/currant-stem1" },
+			south1: { base: "block/plant/berrybush/cuttings/currant-stem2" },
+			northTinted1: { base: "block/plant/berrybush/cuttings/currant-leaves1" },
+			southTinted1: { base: "block/plant/berrybush/cuttings/currant-leaves2" }
+		},
+		"*": {
+			north1: { base: "block/plant/berrybush/cuttings/{type}-stem1" },
+			south1: { base: "block/plant/berrybush/cuttings/{type}-stem2" },
+			northTinted1: { base: "block/plant/berrybush/cuttings/{type}-leaves1" },
+			southTinted1: { base: "block/plant/berrybush/cuttings/{type}-leaves2" }
+		}
+	},
+	creativeinventory: { "general": ["*-free"], "flora": ["*-free"] },
+	renderpass: "OpaqueNoCull",
+	drawtypeByType: {
+		"*-free": "JSON",
+		"*": "JSONAndSnowLayer"
+	},
+	sideopaqueByType: {
+		"*-free": { all: false },
+		"*": { all: false, down: true }
+	},
+	sidesolid: { all: false },
+	blockmaterialByType: {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	faceCullModeByType: {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	randomizeRotations: true,
+	drops: [
+		{ type: "block", code: "fruitingbushcutting-{type}-free", quantity: { avg: 1, var: 0 }  }
+	],
+	frostable: true,
+	replaceable: 5200,
+	lightAbsorption: 0,
+	resistance: 1,
+	collisionbox: {
+		x1: 0.25, y1: 0, z1: 0.25,
+		x2: 0.75, y2: 0.5, z2: 0.75
+	},
+	selectionbox: {
+		x1: 0.25, y1: 0, z1: 0.25,
+		x2: 0.75, y2: 0.5, z2: 0.75
+	},
+	sounds: {
+		place: "block/plant",
+		break: "block/plant",
+		hit: "block/plant",
+	},
+	rainPermeable: true,
+	materialDensity: 200,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 2,
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: 0, y: -9, z: 0 },
+			origin: { x: 0.5299, y: 0.44, z: 0.51 },
+			scale: 1.5
+		}
+	},
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 360 },
+		transitionHours: { avg: 1 },
+		transitionedStack: { type: "item", code: "stick" },
+		transitionRatio: 1
+	}],
+	tpHandTransform: {
+		translation: { x: -1.24, y: -0.1, z: -1 },
+		rotation: { x: -12, y: 7, z: -82 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.52
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: -67 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3
+	}
+}

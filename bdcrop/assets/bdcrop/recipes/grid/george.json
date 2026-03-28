@@ -1,0 +1,25 @@
+[
+  {
+    "ingredientPattern": "H_,PK",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "H": {
+        "type": "item",
+        "code": "game:clothes-head-straw-hat"
+      },
+      "P": {
+        "type": "block",
+        "code": "naplessquash-fruit-4"
+      }
+    },
+    "showInCreatedBy": false,
+    "name": "george",
+    "output": { "type": "item", "code": "george", "quantity": 1 }
+  }
+]

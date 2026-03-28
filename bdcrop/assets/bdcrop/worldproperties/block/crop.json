@@ -1,0 +1,14 @@
+{
+    "code": "crop",
+  "variants": [
+    {
+      "code": "potato"
+    },
+    {
+      "code": "leek"
+    },
+    {
+      "code": "tomato"
+    }
+  ]
+  }

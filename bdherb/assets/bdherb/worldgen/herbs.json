@@ -1,0 +1,298 @@
+[
+  {
+    "comment": "Patches of basil in warm wet areas (tropical)",
+    "blockCodes": [
+      "bdherb:annualplant-basil-normal"
+    ],
+    "minTemp": 22,
+    "maxTemp": 42,
+    "minRain": 0.4,
+    "maxRain": 1,
+    "minFertility": 0.15,
+    "maxFertility": 1.0,
+    "chance": 0.03,
+    "minForest": 0.5,
+    "maxForest": 1,
+    "maxY": 0.62,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of chamomile in temperate dry fields",
+    "blockCodes": [
+      "bdherb:annualplant-chamomile-normal"
+    ],
+    "minTemp": 2,
+    "maxTemp": 22,
+    "minRain": 0.0,
+    "maxRain": 0.35,
+    "minFertility": 0.15,
+    "maxFertility": 1.0,
+    "chance": 0.03,
+    "minForest": 0.0,
+    "maxForest": 0.35,
+    "maxY": 0.62,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of cilantro in temperate areas",
+    "blockCodes": [
+      "bdherb:annualplant-cilantro-normal"
+    ],
+    "minTemp": 2,
+    "maxTemp": 22,
+    "minRain": 0.35,
+    "maxRain": 1,
+    "minFertility": 0.35,
+    "maxFertility": 1.0,
+    "chance": 0.03,
+    "minForest": 0.15,
+    "maxForest": 1.0,
+    "maxY": 0.62,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of chicory in temperate areas",
+    "blockCodes": [
+      "bdherb:annualplant-chicory-normal"
+    ],
+    "minTemp": 2,
+    "maxTemp": 22,
+    "minRain": 0.65,
+    "maxRain": 1,
+    "minFertility": 0.25,
+    "chance": 0.03,
+    "maxForest": 0.65,
+    "maxY": 0.62,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of marigold in subtropical areas",
+    "blockCodes": [
+      "bdherb:annualplant-marigold-normal"
+    ],
+    "minTemp": 22,
+    "maxTemp": 38,
+    "minRain": 0.15,
+    "maxRain": 0.75,
+    "minFertility": 0.25,
+    "chance": 0.04,
+    "maxForest": 0.65,
+    "maxY": 0.72,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of yarrow in  areas",
+    "blockCodes": [
+      "bdherb:perennialplant-yarrow-normal"
+    ],
+    "minTemp": 2,
+    "maxTemp": 38,
+    "maxRain": 0.45,
+    "maxFertility": 0.4,
+    "maxForest": 0.55,
+    "chance": 0.04,
+    "maxY": 0.72,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of thyme in temperate clear areas",
+    "blockCodes": [
+      "bdherb:evergreenplant-thyme-normal"
+    ],
+    "minTemp": 2,
+    "maxTemp": 28,
+    "minRain": 0.25,
+    "maxRain": 1.0,
+    "minFertility": 0.15,
+    "maxFertility": 0.55,
+    "chance": 0.03,
+    "minForest": 0.05,
+    "maxForest": 0.45,
+    "maxY": 0.62,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of mugwort in temperate clear and forestsed areas",
+    "blockCodes": [
+      "bdherb:perennialplant-mugwort-normal"
+    ],
+    "minTemp": 2,
+    "maxTemp": 28,
+    "minRain": 0.35,
+    "maxRain": 1.0,
+    "minFertility": 0.35,
+    "maxFertility": 1.0,
+    "chance": 0.01,
+    "minForest": 0.05,
+    "maxForest": 0.75,
+    "maxY": 0.62,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of mint in temperate areas",
+    "blockCodes": [
+      "bdherb:perennialplant-mint-normal"
+    ],
+    "minTemp": 0,
+    "maxTemp": 24,
+    "minRain": 0.35,
+    "maxRain": 1,
+    "minFertility": 0.35,
+    "maxFertility": 1.0,
+    "chance": 0.03,
+    "minForest": 0.15,
+    "maxForest": 1.0,
+    "maxY": 0.62,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of lavender in temperate areas",
+    "blockCodes": [
+      "bdherb:evergreenplant-lavender-normal"
+    ],
+    "minTemp": 2,
+    "maxTemp": 28,
+    "maxRain": 0.5,
+    "minFertility": 0.25,
+    "chance": 0.003,
+    "maxForest": 0.35,
+    "maxY": 0.72,
+    "quantity": { "dist": "invexp", "avg": 25, "var": 15 },
+    "offsetX": { "dist": "gaussian", "avg": 0, "var": 12 },
+    "offsetZ": { "dist": "gaussian", "avg": 0, "var": 12 }
+  },
+  {
+    "comment": "Patches of sage",
+    "blockCodes": [
+      "bdherb:perennialplant-sage-normal"
+    ],
+    "minTemp": 4,
+    "maxTemp": 28,
+    "minRain": 0.15,
+    "maxRain": 0.75,
+    "minFertility": 0.35,
+    "maxFertility": 1.0,
+    "chance": 0.04,
+    "minForest": 0.0,
+    "maxForest": 0.35,
+    "maxY": 0.62,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of rosemary",
+    "blockCodes": [
+      "bdherb:evergreenplant-rosemary-normal"
+    ],
+    "minTemp": 6,
+    "maxTemp": 28,
+    "minRain": 0.15,
+    "maxRain": 0.85,
+    "minFertility": 0.15,
+    "maxFertility": 0.85,
+    "chance": 0.03,
+    "minForest": 0.0,
+    "maxForest": 0.5,
+    "maxY": 0.62,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+  {
+    "comment": "Patches of foxglove in temperate forests",
+    "blockCodes": [
+      "bdherb:perennialplant-foxglove-normal"
+    ],
+    "minTemp": -4,
+    "maxTemp": 22,
+    "minRain": 0.45,
+    "maxRain": 1,
+    "minFertility": 0.25,
+    "chance": 0.014,
+    "minForest": 0.3,
+    "maxForest": 0.9,
+    "maxY": 0.62,
+    "quantity": { "dist": "invexp", "avg": 5, "var": 3 },
+    "offsetX": { "dist": "gaussian", "avg": 0, "var": 6 },
+    "offsetZ": { "dist": "gaussian", "avg": 0, "var": 6 }
+  },
+  {
+    "comment": "Patches of arnica in temperate/cold forests",
+    "blockCodes": [
+      "bdherb:perennialplant-arnica-normal"
+    ],
+    "minTemp": -10,
+    "maxTemp": 16,
+    "minRain": 0.45,
+    "maxRain": 1,
+    "minFertility": 0.25,
+    "chance": 0.06,
+    "minForest": 0.45,
+    "minY": 0.32,
+    "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+  },
+  {
+    "comment": "Patches of horehound in areas",
+    "blockCodes": [
+      "bdherb:perennialplant-horehound-normal"
+    ],
+    "minTemp": 32,
+    "minRain": 0.5,
+    "maxRain": 1,
+    "minFertility": 0.25,
+    "chance": 0.04,
+    "maxForest": 0.3,
+    "maxY": 0.62,
+    "quantity": { "dist": "invexp", "avg": 4, "var": 5 }
+  },
+  {
+    "comment": "Patches of marjoram",
+    "blockCodes": [
+      "bdherb:perennialplant-marjoram-normal"
+    ],
+    "minTemp": 15,
+    "maxTemp": 32,
+    "minRain": 0.65,
+    "maxRain": 1,
+    "minFertility": 0.45,
+    "maxFertility": 1.0,
+    "chance": 0.03,
+    "minForest": 0.0,
+    "maxForest": 0.35,
+    "maxY": 0.62,
+    "quantity": {
+      "avg": 4,
+      "var": 8
+    }
+  },
+]

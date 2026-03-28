@@ -1,0 +1,100 @@
+{
+  "game:tabname-bdorchard": "Biodiversity: Orchards",
+
+
+  //Fruit Items
+  "item-fruit-apricot": "Apricot",
+  "bdorchard:item-fruit-engkala": "Engkala",
+  "bdorchard:item-fruit-fig": "Fig",
+  "bdorchard:item-fruit-grapefruit": "Grapefruit)",
+  "bdorchard:item-fruit-lemon": "Lemon",
+  "bdorchard:item-fruit-lime": "Lime",
+  "bdorchard:item-fruit-nectarine": "Nectarine",
+  "bdorchard:item-fruit-sandpear": "Sandpear",
+  "bdorchard:item-vegetable-avocado": "Avocado",
+
+  //Tree Clippings
+  "game:fruittree-cutting-apricot": "Apricot tree cutting",
+  "game:fruittree-cutting-engkala": "engkala tree cutting",
+  "game:fruittree-cutting-fig": "Fig tree cutting",
+  "game:fruittree-cutting-grapefruit": "Grapefruit tree cutting",
+  "game:fruittree-cutting-lemon": "Lemon tree cutting",
+  "game:fruittree-cutting-lime": "Lime tree cutting",
+  "game:fruittree-cutting-nectarine": "Nectarine tree cutting",
+  "game:fruittree-cutting-sandpear": "Sandpear tree cutting",
+  "game:fruittree-cutting-avocado": "Avocado tree cutting",
+
+  "blockdesc-fruittree-cutting": "Can be planted or grafted.",
+
+  "game:fruittree-branch-apricot": "Apricot tree branch",
+  "game:fruittree-branch-engkala": "Engkala tree branch",
+  "game:fruittree-branch-fig": "Fig tree branch",
+  "game:fruittree-branch-grapefruit": "Grapefruit tree branch",
+  "game:fruittree-branch-lemon": "Lemon tree branch",
+  "game:fruittree-branch-lime": "Lime tree branch",
+  "game:fruittree-branch-nectarine": "Nectarine tree branch",
+  "game:fruittree-branch-sandpear": "Sandpear tree branch",
+  "game:fruittree-branch-avocado": "Avocado tree branch",
+
+  //FruitTree Leaves
+  "game:fruittree-foliage-avocado": "Avocado tree leaves ({0})",
+  "game:fruittree-foliage-apricot": "Apricot tree leaves ({0})",
+  "game:fruittree-foliage-engkala": "Engkala tree leaves ({0})",
+  "game:fruittree-foliage-fig": "Fig tree leaves ({0})",
+  "game:fruittree-foliage-grapefruit": "Grapefruit tree leaves ({0})",
+  "game:fruittree-foliage-lemon": "Lemon tree leaves ({0})",
+  "game:fruittree-foliage-lime": "Lime tree leaves ({0})",
+  "game:fruittree-foliage-nectarine": "Nectarine tree leaves ({0})",
+  "game:fruittree-foliage-sandpear": "Sandpear tree leaves ({0})",
+
+  "game:fruittree-young-apricot": "Young apricot tree stem",
+  "game:fruittree-young-engkala": "Young engkala tree stem",
+  "game:fruittree-young-fig": "Young fig tree stem",
+  "game:fruittree-young-grapefruit": "Young grapefruit tree stem",
+  "game:fruittree-young-lemon": "Young lemon tree stem",
+  "game:fruittree-young-lime": "Young lime tree stem",
+  "game:fruittree-young-nectarine": "Young nectarine tree stem",
+  "game:fruittree-young-sandpear": "Young sandpear tree stem",
+  "game:fruittree-young-avocado": "Young avocado tree stem",
+
+  "game:fruittree-stem-apricot": "Mature apricot tree stem",
+  "game:fruittree-stem-engkala": "Mature engkala tree stem",
+  "game:fruittree-stem-fig": "Mature fig tree stem",
+  "game:fruittree-stem-grapefruit": "Mature grapefruit tree stem",
+  "game:fruittree-stem-lemon": "Mature lemon tree stem",
+  "game:fruittree-stem-lime": "Mature lime tree stem",
+  "game:fruittree-stem-nectarine": "Mature nectarine tree stem",
+  "game:fruittree-stem-sandpear": "Mature sandpear tree stem",
+  "game:fruittree-stem-avocado": "Mature avocado tree stem",
+
+  //Oil
+  "item-oilportion-avocado": "Avocado oil",
+  "item-oilportion-engkala": "Engkala oil",
+
+  "incontainer-item-oilportion-avocado": "Avocado oil",
+  "incontainer-item-oilportion-engkala": "Engkala oil",
+
+  //Juice
+  "item-juiceportion-grapefruit": "Grapefruit juice",
+  "item-juiceportion-lemon": "Lemon juice",
+  "item-juiceportion-lime": "Lime juice",
+
+  "incontainer-item-juiceportion-grapefruit": "Grapefruit Juice",
+  "incontainer-item-juiceportion-lemon": "Lemon juice",
+  "incontainer-item-juiceportion-lime": "Lime juice",
+
+  //Mash
+  "itemdesc-pressedmash-*": "Crudely pressed fruit. Not too appetizing looking, but some animals might still eat this.",
+
+  "item-pressedmash-avocado-wet": "Avocado Guac",
+  "item-pressedmash-avocado-dry": "Dry Avocado Guac",
+
+  "item-pressedmash-lemon-wet": "Wet lemon mash ",
+  "item-pressedmash-lemon-dry": "Dry lemon mash ",
+  "item-pressedmash-lime-wet": "Wet lime mash ",
+  "item-pressedmash-lime-dry": "Dry lime mash ",
+  "item-pressedmash-engkala-dry": "Dry engkala mash ",
+  "item-pressedmash-engkala-wet": "Wet engkala mash ",
+  "item-pressedmash-grapefruit-dry": "Dry grapefruit mash ",
+  "item-pressedmash-grapefruit-wet": "Wet grapefruit mash "
+}

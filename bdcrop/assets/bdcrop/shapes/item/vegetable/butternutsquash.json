@@ -1,0 +1,45 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"slicedbutternutsquash": [16,16]
+	},
+	"textures": {
+		"slicedbutternutsquash": "bdcrop:item/food/vegetable/slicedbutternutsquash"
+	},
+	"elements": [
+		{
+			"name": "center",
+			"from": [ 0.0, 0.0, 1.0 ],
+			"to": [ 0.0, 0.0, 1.0 ],
+			"rotationOrigin": [ 0.0, 0.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Cube1",
+					"from": [ 5.0, 0.0, 5.0 ],
+					"to": [ 11.0, 1.0, 9.0 ],
+					"rotationOrigin": [ 8.0, 0.5, 7.0 ],
+					"faces": {
+						"north": { "texture": "#slicedbutternutsquash", "uv": [ 0.0, 0.0, 6.0, 1.0 ] },
+						"east": { "texture": "#slicedbutternutsquash", "uv": [ 12.0, 0.0, 13.0, 4.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#slicedbutternutsquash", "uv": [ 6.5, 3.5, 12.5, 4.5 ] },
+						"west": { "texture": "#slicedbutternutsquash", "uv": [ 12.0, 0.0, 13.0, 4.0 ], "rotation": 270 },
+						"up": { "texture": "#slicedbutternutsquash", "uv": [ 0.0, 0.0, 6.0, 4.0 ] },
+						"down": { "texture": "#slicedbutternutsquash", "uv": [ 6.0, 0.0, 12.0, 4.0 ] }
+					}
+				}
+			]
+		}
+	]}

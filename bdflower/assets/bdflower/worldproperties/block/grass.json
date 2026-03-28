@@ -1,0 +1,11 @@
+﻿{
+  "Code": "grass",
+  "variants": [
+    {
+      "code": "sedge"
+    },
+    {
+      "code": "softsedge"
+    }
+  ]
+}

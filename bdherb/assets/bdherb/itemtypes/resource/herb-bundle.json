@@ -1,0 +1,16 @@
+{
+	"code": "herbbundle",
+	"maxstacksize": 32,
+	"variantgroups": [
+		{
+			"code": "herb",
+			"loadFromProperties": "bdherb:block/herb"
+		}
+	],
+	"texture": { "base": "item/resource/herb/{herb}" },
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"bdherb": [ "*" ]
+	}
+}
