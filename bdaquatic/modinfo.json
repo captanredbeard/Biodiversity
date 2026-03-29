@@ -1,7 +1,7 @@
 {
   "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
   "type": "Content",
-  "modid": "bdcrop",
+  "modid": "bdaquatic",
   "name": "Biodiversity: Aquatic Flora",
   "authors": [
     "Captanredbeard",

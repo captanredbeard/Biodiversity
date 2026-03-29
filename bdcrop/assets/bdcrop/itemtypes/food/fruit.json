@@ -42,57 +42,59 @@
                 "foodcategory": "Fruit"
             }
         },
-        "groundStorageTransformByType": {
-            "@-(watermelon|honeydewmelon|cantaloupe)": {
-                "translation": {
-                    "x": -0.35,
-                    "y": -0.19,
-                    "z": 0
-                },
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 90
-                },
-                "origin": {
-                    "x": 0.5,
-                    "y": 0.5,
-                    "z": -0.5
-                }
-            },
-            "*": {
-                "translation": {
-                    "x": -0.35,
-                    "y": -0.09,
-                    "z": 0
-                },
-                "rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 90
-                },
-                "origin": {
-                    "x": 0.5,
-                    "y": 0.5,
-                    "z": -0.5
-                }
-            }
+      "groundStorageTransformByType": {
+        "@-(watermelon|honeydewmelon|cantaloupe)": {
+          "translation": {
+            "x": -0.35,
+            "y": -0.19,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 90
+          },
+          "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": -0.5
+          }
         },
-        "juiceablePropertiesByType": {
-            "*": {
-                "litresPerItem": 0.3125,
-                "liquidStack": {
-                    "type": "item",
-                    "code": "bdcrop:juiceportion-{fruit}",
-                    "stacksize": 1
-                },
-                "pressedStack": {
-                    "type": "item",
-                    "code": "bdcrop:pressedmash-{fruit}",
-                    "stacksize": 1
-                }
-            }
+        "*": {
+          "translation": {
+            "x": -0.35,
+            "y": -0.09,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 90
+          },
+          "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": -0.5
+          }
         }
+      },
+        /*
+      "juiceablePropertiesByType": {
+        "*": {
+          "litresPerItem": 0.3125,
+          "liquidStack": {
+            "type": "item",
+            "code": "bdcrop:juiceportion-{fruit}",
+            "stacksize": 1
+          },
+          "pressedStack": {
+            "type": "item",
+            "code": "bdcrop:pressedmash-{fruit}",
+            "stacksize": 1
+          }
+        }
+      }
+      */
     },
     "shapebytype": {
         "*-mirzamelon": { "base": "bdcrop:item/fruit/mirzamelonslice" },

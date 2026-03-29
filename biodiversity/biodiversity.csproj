@@ -51,12 +51,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Content Include="modinfo.json">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup>
 		<Content Include="modicon.png" Condition="Exists('modicon.png')">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
@@ -66,10 +60,14 @@
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</Content>
 	</ItemGroup>
-
+	<ItemGroup>
+		<Content Include="modinfo.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
 	<!-- an itemgroup given to me by Hugo Cortell, he stores his assets in an export folder, and it gets added to the mods folder -->
 	<ItemGroup>
-		<None Include="export\**\*.*">
+		<None Include="(name_of_mod_assets)\**\*.*">
 			<Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
