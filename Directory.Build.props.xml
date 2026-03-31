@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <!-- Forces all projects to output to a shared 'bin' folder at the root of your workspace -->
+    <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+    <OutputPath>$(MSBuildThisFileDirectory)bin\$(Configuration)\Mods\</OutputPath>
+
+    <!-- Prevents MSBuild from adding \net10.0\ to the end of the path -->
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+</Project>

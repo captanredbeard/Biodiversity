@@ -1,0 +1,92 @@
+[
+  {
+    "enabled": false,
+    "op": "addmerge",
+    "path": "/attributes/lootListByType/*-seed/-",
+    "value": {
+      "type": "item",
+      "chance": 0.3,
+      "minQuantity": 5,
+      "maxQuantity": 7,
+      "codes": [ "bdcrop:seeds-butternutsquash", "bdcrop:seeds-naplessquash", "bdcrop:seeds-watermelon", "bdcrop:seeds-mirzamelon", "bdcrop:seeds-honeydewmelon", "bdcrop:seeds-cantaloupe" ]
+    },
+    "file": "game:blocktypes/clay/lootvessel.json",
+    "side": "Server"
+  },
+  {
+    "enabled": false,
+    "file": "game:worldgen/blockpatches/crop.json",
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of potato",
+      "blockCodes": [
+        "bdcrop:crop-potato-4",
+        "bdcrop:crop-potato-6",
+        "bdcrop:crop-potato-7",
+        "bdcrop:crop-potato-2"
+      ],
+      "minTemp": 0,
+      "maxTemp": 35,
+      "minRain": 0.35,
+      "maxRain": 0.75,
+      "maxForest": 0.5,
+      "quantity": {
+        "avg": 5,
+        "var": 4
+      },
+      "chance": 0.036
+    }
+  },
+  {
+    "enabled": false,
+    "file": "game:worldgen/blockpatches/crop.json",
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of leek",
+      "blockCodes": [
+        "bdcrop:crop-leek-4",
+        "bdcrop:crop-leek-6",
+        "bdcrop:crop-leek-7",
+        "bdcrop:crop-leek-2"
+      ],
+      "minTemp": -5,
+      "maxTemp": 25,
+      "minRain": 0.35,
+      "maxRain": 0.80,
+      "maxForest": 0.75,
+      "quantity": {
+        "avg": 5,
+        "var": 4
+      },
+      "chance": 0.036
+    }
+  },
+  {
+    "enabled": false,
+    "file": "game:worldgen/blockpatches/crop.json",
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of tomato",
+      "blockCodes": [
+        "bdcrop:crop-tomato-4",
+        "bdcrop:crop-tomato-5",
+        "bdcrop:crop-tomato-6",
+        "bdcrop:crop-tomato-7",
+        "bdcrop:crop-tomato-2"
+      ],
+      "minTemp": 0,
+      "maxTemp": 35,
+      "minRain": 0.35,
+      "maxRain": 0.80,
+      "maxForest": 0.25,
+      "quantity": {
+        "avg": 5,
+        "var": 4
+      },
+      "chance": 0.036
+    }
+  }
+]

@@ -2,17 +2,16 @@
   "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
   "type": "Code",
   "modid": "biodiversity",
-  "name": "Biodiversity",
+  "name": "Biodiversity: Core",
   "authors": [
     "Captanredbeard",
-    "WhiskeySunshine",
     "The Last Thing"
   ],
-  "contributors": [ "Pizza2004", "Greybones", "FuegoFish", "Emnierra", "AllégroSky", "Alcoraiden", "AcuteAangle", "Sigmadron" ],
+  "contributors": ["Pizza2004" ],
   "website": "https://discord.com/invite/w79wShAD8q",
-  "description": "To be added",
-  "version": "0.2.0",
+  "description": "The Core mod for the Biodiversity Suite of mods",
+  "version": "1.0.0",
   "dependencies": {
-    "game": "1.22.0-pre.3"
+    "game": "1.22.0-rc.5"
   }
 }
