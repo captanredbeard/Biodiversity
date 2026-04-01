@@ -1,8 +1,11 @@
 using Cake.Common;
 using Cake.Common.IO;
+using Cake.Common.Solution;
 using Cake.Common.Tools.DotNet;
 using Cake.Common.Tools.DotNet.Clean;
+using Cake.Common.Tools.DotNet.MSBuild;
 using Cake.Common.Tools.DotNet.Publish;
+using Cake.Common.Tools.MSBuild;
 using Cake.Core;
 using Cake.Frosting;
 using Cake.Json;
@@ -10,6 +13,8 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.IO;
+using System.Linq;
+using System.Xml.Linq;
 using Vintagestory.API.Common;
 
 namespace CakeBuild
@@ -27,8 +32,6 @@ namespace CakeBuild
     public class BuildContext : FrostingContext
     {
         public const string ProjectName = "biodiversity";
-
-        public string[] SubProjectNames = new[] { "bdcrop", "bdflower", "bdorchard", "bdshrub", "bdtree", "biodiversity" };
 
         public string BuildConfiguration { get; }
         public string Version { get; }
@@ -55,7 +58,7 @@ namespace CakeBuild
             {
                 return;
             }
-            var jsonFiles = context.GetFiles($"../{BuildContext.ProjectName}/assets/**/*.json");
+            var jsonFiles = context.GetFiles($"../*/assets/**/*.json");
             foreach (var file in jsonFiles)
             {
                 try
@@ -77,18 +80,39 @@ namespace CakeBuild
     {
         public override void Run(BuildContext context)
         {
-            context.DotNetClean($"../{BuildContext.ProjectName}/{BuildContext.ProjectName}.csproj",
+            var projects = new[] { "biodiversity", "bdflower", "bdshrub", "bdaquatic", "bdherb", "bdcrop", "bdorchard", "bdtree" };
+
+            foreach (var project in projects)
+            {
+                var modInfo = context.DeserializeJsonFromFile<ModInfo>($"../{project}/modinfo.json");
+                var modType = modInfo.Type.ToString();
+
+                context.DotNetClean($"../{project}/{project}.csproj",
                 new DotNetCleanSettings
                 {
                     Configuration = context.BuildConfiguration
                 });
 
-
-            context.DotNetPublish($"../{BuildContext.ProjectName}/{BuildContext.ProjectName}.csproj",
-                new DotNetPublishSettings
+                if (modType != "Code")
                 {
-                    Configuration = context.BuildConfiguration
-                });
+                    continue;
+                }
+
+           //     var msBuildSettings = new DotNetMSBuildSettings()
+             //   .WithProperty("OutputPath", $"../Releases/{project}/");
+
+
+
+
+                context.DotNetPublish($"../{project}/{project}.csproj",
+                    new DotNetPublishSettings
+                    {
+                        Configuration = context.BuildConfiguration,
+                        //  OutputDirectory = $"../Releases/{project}",
+                        //       MSBuildSettings = msBuildSettings,
+                        NoBuild = false
+                    });
+            }
         }
     }
 
@@ -96,25 +120,64 @@ namespace CakeBuild
     [IsDependentOn(typeof(BuildTask))]
     public sealed class PackageTask : FrostingTask<BuildContext>
     {
+        /*
         public override void Run(BuildContext context)
         {
             context.EnsureDirectoryExists("../Releases");
             context.CleanDirectory("../Releases");
-
-            foreach (var item in context.SubProjectNames)
+            context.EnsureDirectoryExists($"../Releases/{context.Name}");
+            context.CopyFiles($"../{BuildContext.ProjectName}/bin/{context.BuildConfiguration}/Mods/mod/publish/*", $"../Releases/{context.Name}");
+            if (context.DirectoryExists($"../{BuildContext.ProjectName}/assets"))
             {
-                context.EnsureDirectoryExists($"../Releases/{item}");
-                context.CopyFiles($"../{BuildContext.ProjectName}/bin/{context.BuildConfiguration}/Mods/mod/publish/*", $"../Releases/{item}");
-                if (context.DirectoryExists($"../{BuildContext.ProjectName}/assets/{item}"))
+                context.CopyDirectory($"../{BuildContext.ProjectName}/assets", $"../Releases/{context.Name}/assets");
+            }
+            context.CopyFile($"../{BuildContext.ProjectName}/modinfo.json", $"../Releases/{context.Name}/modinfo.json");
+            if (context.FileExists($"../{BuildContext.ProjectName}/modicon.png"))
+            {
+                context.CopyFile($"../{BuildContext.ProjectName}/modicon.png", $"../Releases/{context.Name}/modicon.png");
+            }
+            context.Zip($"../Releases/{context.Name}", $"../Releases/{context.Name}_{context.Version}.zip");
+        }
+        */
+        public override void Run(BuildContext context)
+        {
+            var projects = new[] { "biodiversity", "bdflower", "bdshrub", "bdaquatic", "bdherb", "bdcrop", "bdorchard", "bdtree" };
+
+
+
+            foreach (var project in projects)
+            {
+                var projectPath = $"../{project}";
+                var releasePath = $"../Releases/{project}";
+
+
+                var modInfo = context.DeserializeJsonFromFile<ModInfo>($"{projectPath}/modinfo.json");
+                var projectVersion = modInfo.Version;
+                var modID = modInfo.ModID;
+
+                context.EnsureDirectoryExists(releasePath);
+                context.CleanDirectory(releasePath);
+                context.EnsureDirectoryExists(releasePath);
+
+                context.CopyFiles($"../bin/{context.BuildConfiguration}/Mods/{modID}/*", $"../Releases/{modID}");
+
+                // Copy assets
+                if (context.DirectoryExists($"{projectPath}/assets"))
                 {
-                    context.CopyDirectory($"../{BuildContext.ProjectName}/assets/{item}", $"../Releases/{item}/assets/{item}");
+                    context.CopyDirectory($"{projectPath}/assets", $"{releasePath}/assets");
                 }
-                context.CopyFile($"../{BuildContext.ProjectName}/modinfo/{item}.json", $"../Releases/{item}/modinfo.json");
-                if (context.FileExists($"../{BuildContext.ProjectName}/modicon/{item}.png"))
+
+                // Copy modinfo.json
+                context.CopyFile($"{projectPath}/modinfo.json", $"{releasePath}/modinfo.json");
+
+                // Copy icon if it exists
+                if (context.FileExists($"{projectPath}/modicon.png"))
                 {
-                    context.CopyFile($"../{BuildContext.ProjectName}/modicon/{item}.png", $"../Releases/{item}/modicon.png");
+                    context.CopyFile($"{projectPath}/modicon.png", $"{releasePath}/modicon.png");
                 }
-                context.Zip($"../Releases/{item}", $"../Releases/{context.Name}_{item}_{context.Version}.zip");
+
+                // Zip the release
+                context.Zip(releasePath, $"../Releases/{modID}_{projectVersion}.zip");
             }
         }
     }
