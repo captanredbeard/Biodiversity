@@ -28,8 +28,8 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-rosewood-ud",
-		leavesBlockCode: "leaves-grown-rosewood",
+		logBlockCode: "bdtree:log-grown-rosewood-ud",
+		leavesBlockCode: "bdtree:leaves-grown-rosewood",
 		leavesBranchyBlockCode: "leavesbranchy-grown-rosewood",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

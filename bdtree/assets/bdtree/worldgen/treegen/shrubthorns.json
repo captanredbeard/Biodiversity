@@ -22,7 +22,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-crownofthorns-ud",
-		leavesBlockCode: "leaves-grown-crownofthorns",
+		leavesBlockCode: "bdtree:leaves-grown-crownofthorns",
 		leavesBranchyBlockCode: "leavesbranchy-grown-crownofthorns",
 	}
 }

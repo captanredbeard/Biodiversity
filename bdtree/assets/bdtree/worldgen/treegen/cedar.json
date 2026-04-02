@@ -26,10 +26,10 @@
 		branchWidthMultiplier: { avg: 0.4, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-cedar-ud",
-		otherLogBlockCode: "log-resin-cedar-ud",
+		logBlockCode: "bdtree:log-grown-cedar-ud",
+		otherLogBlockCode: "bdtree:log-resin-cedar-ud",
 		otherLogChance: 0.01,
-		leavesBlockCode: "leaves-grown-cedar",
+		leavesBlockCode: "bdtree:leaves-grown-cedar",
 		leavesBranchyBlockCode: "leavesbranchy-grown-cedar",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",

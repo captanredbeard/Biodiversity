@@ -27,8 +27,8 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-azobe-ud",
-		leavesBlockCode: "leaves-grown-azobe",
+		logBlockCode: "bdtree:log-grown-azobe-ud",
+		leavesBlockCode: "bdtree:leaves-grown-azobe",
 		leavesBranchyBlockCode: "leavesbranchy-grown-azobe",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

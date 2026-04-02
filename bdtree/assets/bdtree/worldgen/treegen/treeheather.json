@@ -29,7 +29,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-heather-ud",
-		leavesBlockCode: "leaves-grown-heather",
+		leavesBlockCode: "bdtree:leaves-grown-heather",
 		leavesBranchyBlockCode: "leavesbranchy-grown-heather",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"

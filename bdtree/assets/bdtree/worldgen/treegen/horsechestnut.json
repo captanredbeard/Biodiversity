@@ -27,8 +27,8 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-horsechestnut-ud",
-		leavesBlockCode: "leaves-grown-horsechestnut",
+		logBlockCode: "bdtree:log-grown-horsechestnut-ud",
+		leavesBlockCode: "bdtree:leaves-grown-horsechestnut",
 		leavesBranchyBlockCode: "leavesbranchy-grown-horsechestnut",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",

@@ -27,8 +27,8 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-poplar-ud",
-		leavesBlockCode: "leaves-grown-poplar",
+		logBlockCode: "bdtree:log-grown-poplar-ud",
+		leavesBlockCode: "bdtree:leaves-grown-poplar",
 		leavesBranchyBlockCode: "leavesbranchy-grown-poplar",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",

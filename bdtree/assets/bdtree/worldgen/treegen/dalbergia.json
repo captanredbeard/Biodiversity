@@ -28,10 +28,10 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-dalbergia-ud",
-		otherLogBlockCode: "log-resin-dalbergia-ud",
+		logBlockCode: "bdtree:log-grown-dalbergia-ud",
+		otherLogBlockCode: "bdtree:log-resin-dalbergia-ud",
 		otherLogChance: 0.02,
-		leavesBlockCode: "leaves-grown-dalbergia",
+		leavesBlockCode: "bdtree:leaves-grown-dalbergia",
 		leavesBranchyBlockCode: "leavesbranchy-grown-dalbergia",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north", mossDecorCode: "game:attachingplant-spottymoss"

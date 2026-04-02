@@ -22,11 +22,11 @@
 	"texturesByType": {
 		"*-bamboo": {},
 		"*": {
-			"material": { "base": "block/wood/debarked/{material}" },
-			"oak": { "base": "block/wood/debarked/{material}" },
-			"oak1": { "base": "block/wood/planks/{material}*" },
-			"birch1": { "base": "block/wood/planks/{material}*" },
-			"plainoak": { "base": "block/wood/debarked/{material}" }
+			"material": { "base": "bdtree:block/wood/debarked/{material}" },
+			"oak": { "base": "bdtree:block/wood/debarked/{material}" },
+			"oak1": { "base": "bdtree:block/wood/planks/{material}*" },
+			"birch1": { "base": "bdtree:block/wood/planks/{material}*" },
+			"plainoak": { "base": "bdtree:block/wood/debarked/{material}" }
 
 		}
 	},

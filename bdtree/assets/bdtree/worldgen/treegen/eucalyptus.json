@@ -28,10 +28,10 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-eucalyptus-ud",
-		otherLogBlockCode: "log-resin-eucalyptus-ud",
+		logBlockCode: "bdtree:log-grown-eucalyptus-ud",
+		otherLogBlockCode: "bdtree:log-resin-eucalyptus-ud",
 		otherLogChance: 0.02,
-		leavesBlockCode: "leaves-grown-eucalyptus",
+		leavesBlockCode: "bdtree:leaves-grown-eucalyptus",
 		leavesBranchyBlockCode: "leavesbranchy-grown-eucalyptus",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

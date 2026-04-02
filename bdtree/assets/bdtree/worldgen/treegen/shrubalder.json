@@ -21,7 +21,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-alder-ud",
-		leavesBlockCode: "leaves-grown-alder",
+		leavesBlockCode: "bdtree:leaves-grown-alder",
 		leavesBranchyBlockCode: "leavesbranchy-grown-alder"
 	}
 }

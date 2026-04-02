@@ -49,13 +49,13 @@
 		branchWidthMultiplier: { avg: 1, var: 0.2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-sycamore-ud",
-		leavesBlockCode: "leaves-grown-sycamore",
+		logBlockCode: "bdtree:log-grown-sycamore-ud",
+		leavesBlockCode: "bdtree:leaves-grown-sycamore",
 		leavesBranchyBlockCode: "leavesbranchy-grown-sycamore",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss",
-		trunkSegmentBase: "logsection-grown-sycamore-",
+		trunkSegmentBase: "bdtree:logsection-grown-sycamore-",
 		trunkSegmentVariants: [ "ne", "se", "sw", "nw" ]
 	}
 }

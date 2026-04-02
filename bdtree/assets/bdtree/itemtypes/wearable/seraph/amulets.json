@@ -26,6 +26,9 @@
 	"shape": {
 		"base": "entity/humanoid/seraph/clothing/neck/{neck}-amulet"
 	},
+	"textures": {
+		"seraph": { "base": "game:block/transparent" }
+	},
 	"storageFlags": 128,
 	"attributes": {
 		"clothescategory": "neck",

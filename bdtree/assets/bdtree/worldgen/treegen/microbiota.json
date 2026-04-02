@@ -20,8 +20,8 @@
 		branchStart:  { avg: 2, var: 0.01 },
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-tuja-ud",
-		leavesBlockCode: "leaves-grown-tuja",
+		logBlockCode: "bdtree:log-grown-tuja-ud",
+		leavesBlockCode: "bdtree:leaves-grown-tuja",
 		leavesBranchyBlockCode: "leavesbranchy-grown-tuja",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"

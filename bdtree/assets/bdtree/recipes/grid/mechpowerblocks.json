@@ -8,7 +8,11 @@
 				"type": "item",
 				"code": "game:resin"
 			},
-			"S": { type: "block", code: "log-placed-*-ud", quantity: 2 },
+			"S": {
+				"type": "block",
+				"code": "log-placed-*-ud",
+				"quantity": 2
+			},
 			"F": {
 				"type": "item",
 				"code": "game:fat-rendered"
@@ -40,7 +44,12 @@
 	{
 		ingredientPattern: "RBR,BAB,RBR",
 		ingredients: {
-			"A": { type: "block", code: "supportbeam-{wood}", quantity: 4 },
+			"A": {
+				"type": "block",
+				"code": "supportbeam-{wood}",
+				"quantity": 4,
+				"SkipVariants": [ "chlorociboria" ]
+			},
 			"B": { type: "item", code: "game:bracket-heavy-{metal}" },
 			"R": {
 				"type": "item",
@@ -58,7 +67,6 @@
 				"catalpa",
 				"cedar",
 				"charred",
-				"chlorociboria",
 				"dalbergia",
 				"douglasfir",
 				"elm",
@@ -245,7 +253,6 @@
 					"catalpa",
 					"cedar",
 					"charred",
-					"chlorociboria",
 					"dalbergia",
 					"douglasfir",
 					"elm",
@@ -327,7 +334,6 @@
 				"catalpa",
 				"cedar",
 				"charred",
-				"chlorociboria",
 				"dalbergia",
 				"douglasfir",
 				"elm",

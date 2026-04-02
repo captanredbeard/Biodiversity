@@ -28,8 +28,8 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-satinash-ud",
-		leavesBlockCode: "leaves-grown-satinash",
+		logBlockCode: "bdtree:log-grown-satinash-ud",
+		leavesBlockCode: "bdtree:leaves-grown-satinash",
 		leavesBranchyBlockCode: "leavesbranchy-grown-satinash",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

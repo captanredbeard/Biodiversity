@@ -88,5 +88,13 @@
 			"base": "game:block/wood/fence/snow-nesw",
 			"rotateY": 0
 		}
+	},
+	"textures": {
+		"horizontal": {
+			"baseByType": {
+				"*": "block/wood/debarked/{wood}"
+			},
+			"overlays": [ "game:block/slightlydarker" ]
+		}
 	}
 }

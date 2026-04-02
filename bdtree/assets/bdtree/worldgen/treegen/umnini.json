@@ -28,8 +28,8 @@
 		branchWidthMultiplier: { avg: 0.5, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-umnini-ud",
-		leavesBlockCode: "leaves-grown-umnini",
+		logBlockCode: "bdtree:log-grown-umnini-ud",
+		leavesBlockCode: "bdtree:leaves-grown-umnini",
 		leavesBranchyBlockCode: "leavesbranchy-grown-umnini",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

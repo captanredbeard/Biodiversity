@@ -27,8 +27,8 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-willow-ud",
-		leavesBlockCode: "leaves-grown-weepingwillow",
+		logBlockCode: "bdtree:log-grown-willow-ud",
+		leavesBlockCode: "bdtree:leaves-grown-weepingwillow",
 		leavesBranchyBlockCode: "leavesbranchy-grown-weepingwillow",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",

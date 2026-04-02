@@ -27,8 +27,8 @@
         "branchQuantity": { "avg": 3, "var": 1 }
     }],
     "treeBlocks": {
-	"logBlockCode": "log-grown-sapele-ud",
-	"leavesBlockCode": "leaves-grown-sapele",
+	"logBlockCode": "bdtree:log-grown-sapele-ud",
+	"leavesBlockCode": "bdtree:leaves-grown-sapele",
 	"leavesBranchyBlockCode": "leavesbranchy-grown-sapele",
 	"vinesBlockCode": "game:wildvine-tropical-section-north",
 	"vinesEndBlockCode": "game:wildvine-tropical-end-north",

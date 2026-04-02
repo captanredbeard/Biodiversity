@@ -29,7 +29,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-leadwood-ud",
-		leavesBlockCode: "leaves-grown-leadwood",
+		leavesBlockCode: "bdtree:leaves-grown-leadwood",
 		leavesBranchyBlockCode: "leavesbranchy-grown-leadwood",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
