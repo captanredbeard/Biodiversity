@@ -78,7 +78,7 @@
           }
         }
       },
-        /*
+        
       "juiceablePropertiesByType": {
         "*": {
           "litresPerItem": 0.3125,
@@ -94,7 +94,6 @@
           }
         }
       }
-      */
     },
     "shapebytype": {
         "*-mirzamelon": { "base": "bdcrop:item/fruit/mirzamelonslice" },

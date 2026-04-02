@@ -12,6 +12,18 @@
 	"attributes": {
 		"foodTags": [ "fruitmash" ],
 		"juiceablePropertiesByType": {
+			"@*-(avocado|engkala)": {
+				"liquidStack": {
+					"type": "item",
+					"code": "oilportion-{fruit}",
+					"stacksize": 1
+				},
+				"pressedStack": {
+					"type": "item",
+					"code": "pressedmash-{fruit}",
+					"stacksize": 1
+				}
+			},
 			"*": {
 				"liquidStack": {
 					"type": "item",
@@ -39,7 +51,7 @@
 	},
 	"shape": { "base": "game:item/pressedmash" },
 	"textures": {
-		"material": { "base": "bdcrop:item/food/pies/{fruit}" }
+		"material": { "base": "block/food/pie/fill-{fruit}" }
 	},
 	"creativeinventory": {
 		"general": [ "*" ],

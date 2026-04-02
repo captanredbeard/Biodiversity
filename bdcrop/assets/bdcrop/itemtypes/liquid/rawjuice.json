@@ -1,11 +1,10 @@
 {
-	"enabled": false,
 	"code": "juiceportion",
-	"variantGroups": [
+	"variantgroups": [
 		{
 			"code": "fruit",
-			"loadFromProperties": "bdcrop:item/food/fruit",
-			"states": []
+			"loadFromProperties": "bdcrop:item/food/fruit"
+			//"states": [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ]
 		}
 	],
 	"class": "ItemLiquidPortion",
@@ -23,12 +22,13 @@
 			"containable": true,
 			"itemsPerLitre": 100,
 			"texture": {
-				"base": "bdcrop:item/food/pies/{fruit}",
+				"base": "bdcrop:block/food/pie/fill-{fruit}",
 				"alphaByType": {
 					"*": 178
 				}
 			},
 			"isOpaqueByType": {
+
 				"*": false
 			},
 			"allowSpill": true,
@@ -36,17 +36,17 @@
 				"action": "DropContents",
 				"stack": {
 					"type": "item",
-					"code": "bdcrop:juiceportion-{fruit}"
+					"code": "juiceportion-{fruit}"
 				}
 			}
-		},
-		"inBowlShape": { "base": "game:block/food/meal/liquid" }
+		}
 	},
 	"shape": { "base": "game:item/liquid" },
 	"texture": {
-		"base": "bdcrop:item/food/pies/{fruit}",
+		"base": "block/food/pie/fill-{fruit}",
 		"alpha": 255
 	},
+
 	"creativeinventoryStacks": [
 		{
 			"tabs": [ "general", "liquids", "bdcrop" ],
