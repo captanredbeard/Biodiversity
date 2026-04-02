@@ -9,7 +9,6 @@
 		"melonslice": [16,16]
 	},
 	"textures": {
-		"melonslice": "bdcrop:item/food/fruit/{type}"
 	},
 	"elements": [
 		{
