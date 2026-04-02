@@ -80,7 +80,7 @@ namespace CakeBuild
     {
         public override void Run(BuildContext context)
         {
-            var projects = new[] { "biodiversity", "bdflower", "bdshrub", "bdaquatic", "bdherb", "bdcrop", "bdorchard", "bdtree" };
+            var projects = new[] { "biodiversity", "bdflower", "bdshrub", "bdaqua", "bdherb", "bdcrop", "bdorchard", "bdtree" };
 
             foreach (var project in projects)
             {
@@ -141,7 +141,7 @@ namespace CakeBuild
         */
         public override void Run(BuildContext context)
         {
-            var projects = new[] { "biodiversity", "bdflower", "bdshrub", "bdaquatic", "bdherb", "bdcrop", "bdorchard", "bdtree" };
+            var projects = new[] { "biodiversity", "bdflower", "bdshrub", "bdaqua", "bdherb", "bdcrop", "bdorchard", "bdtree" };
 
 
 

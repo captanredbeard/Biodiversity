@@ -1,8 +1,8 @@
 {
   "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
   "type": "Content",
-  "modid": "bdaquatic",
-  "name": "Biodiversity: Aquatic Flora",
+  "modid": "bdaqua",
+  "name": "Biodiversity: Aquatic Additions",
   "authors": [
     "Captanredbeard",
     "WhiskeySunshine",
