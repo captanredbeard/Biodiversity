@@ -8,7 +8,7 @@
       "chance": 0.3,
       "minQuantity": 5,
       "maxQuantity": 7,
-      "codes": [ "bdcrop:seeds-butternutsquash", "bdcrop:seeds-naplessquash", "bdcrop:seeds-watermelon", "bdcrop:seeds-mirzamelon", "bdcrop:seeds-honeydewmelon", "bdcrop:seeds-cantaloupe" ]
+      "codes": [ "bdcrop:seeds-butternutsquash", "bdcrop:seeds-naplessquash", "bdcrop:seeds-watermelon", "bdcrop:seeds-mirzamelon", "bdcrop:seeds-honeydewmelon" /*, "bdcrop:seeds-cantaloupe"*/ ]
     },
     "file": "game:blocktypes/clay/lootvessel.json",
     "side": "Server"

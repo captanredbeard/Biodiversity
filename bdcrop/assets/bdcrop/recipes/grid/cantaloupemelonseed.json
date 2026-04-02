@@ -1,21 +1,22 @@
 [
-    {
-        "ingredientPattern": "K",
-        "width": 1,
-        "height": 1,
-        "enabled": true,
-        "shapeless": true,
-        "ingredients": {
-            "K": {
-                "type": "block",
-                "code": "bdcrop:cantaloupe-fruit-4"
-            }
-        },
-        "name": "cantaloupemelonseed",
-        "output": {
-            "type": "item",
-            "code": "bdcrop:seeds-cantaloupe",
-            "quantity": 1
-        }
+  {
+      "enabled": false,
+    "ingredientPattern": "K",
+    "width": 1,
+    "height": 1,
+    "enabled": true,
+    "shapeless": true,
+    "ingredients": {
+      "K": {
+        "type": "block",
+        "code": "bdcrop:cantaloupe-fruit-4"
+      }
     },
+    "name": "cantaloupemelonseed",
+    "output": {
+      "type": "item",
+      "code": "bdcrop:seeds-cantaloupe",
+      "quantity": 1
+    }
+  },
 ]

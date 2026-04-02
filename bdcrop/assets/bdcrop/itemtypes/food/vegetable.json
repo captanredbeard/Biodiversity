@@ -26,7 +26,12 @@
 		}
 	],
 	shape: { base: "bdcrop:item/vegetable/{type}" },
-	texture: { base: "bdcrop:item/food/vegetable/{type}" },
+	/*
+	texturesbytype: {
+		"@*-(naplessquash|butternutsquash)": {},
+		"*": { "base": "bdcrop:item/food/vegetable/{type}" }
+	},
+	*/
 	attributesByType: {
 		"*-leek": {
 			"foodTags": [ "{type}" ],
