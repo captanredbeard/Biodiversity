@@ -84,7 +84,11 @@
 		},
 		"*": { base: "block/plant/berrybush/berrybush-medium*" }
 	},
-	creativeinventory: { "general": [ "*" ], "flora": [ "*" ] },
+	creativeinventory: {
+		"general": [ "*" ],
+		"flora": [ "*" ],
+		"bdshrub": [ "*" ]
+	},
 	renderpass: "OpaqueNoCull",
 	renderAlphaTest: 0.4,
 	blockmaterial: "Plant",

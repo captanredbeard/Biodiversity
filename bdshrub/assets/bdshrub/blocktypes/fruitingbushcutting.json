@@ -31,7 +31,11 @@
 			southTinted1: { base: "block/plant/berrybush/cuttings/{type}-leaves2" }
 		}
 	},
-	creativeinventory: { "general": ["*-free"], "flora": ["*-free"] },
+	creativeinventory: {
+		"general": [ "*-free" ],
+		"flora": [ "*-free" ],
+		"bdshrub": [ "*-free" ]
+	},
 	renderpass: "OpaqueNoCull",
 	drawtypeByType: {
 		"*-free": "JSON",
