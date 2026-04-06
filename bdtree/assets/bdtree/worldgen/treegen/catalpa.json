@@ -1,6 +1,6 @@
 {
 	treeWorldPropertyCode: "catalpa",
-    isTropical: true,
+  isTropical: true,
 	sizeMultiplier: 0.9,
 	trunks: [{
 		widthloss: 0.1,
