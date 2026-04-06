@@ -53,20 +53,22 @@
 		}
 	},
 	attributes: {
-		butterflyFeedByType: {
+		"foodTags": [ "nibbleCrop" ],
+
+		"butterflyFeedByType": {
 			"*-4": true,
 			"*-5": true,
 			"*": false
 		},
-		beeFeedByType: {
+		"beeFeedByType": {
 			"*-4": true,
 			"*-5": true,
 			"*": false
 		},
-		sitHeight: -2.0,
-		tickGrowthProbability: 0.05,
-		handbook: {
-			include: true
+		"sitHeight": -2.0,
+		"tickGrowthProbability": 0.05,
+		"handbook": {
+			"include": true
 		}
 	},
 	sideopaque: {

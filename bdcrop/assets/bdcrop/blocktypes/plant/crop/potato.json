@@ -25,20 +25,21 @@
 		all : { base: "block/plant/crop/potato/w{stage}" },
 	},
 	attributes: {
-		butterflyFeedByType: {
+		"foodTags": [ "nibbleCrop" ],
+		"butterflyFeedByType": {
 			"*-4": true,
 			"*-5": true,
 			"*": false
 		},
-		beeFeedByType: {
+		"beeFeedByType": {
 			"*-4": true,
 			"*-5": true,
 			"*": false
 		},
-		sitHeight: 0.5,
-		tickGrowthProbability: 0.05,
-		handbook: {
-			include: true
+		"sitHeight": 0.5,
+		"tickGrowthProbability": 0.05,
+		"handbook": {
+			"include": true
 		}
 	},
 	sideopaque: {
