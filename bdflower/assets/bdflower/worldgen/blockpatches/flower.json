@@ -1,0 +1,17 @@
+[
+  {
+    "blockCodes": [ "bdtree:flower-iris-free" ],
+    "minTemp": 5,
+    "maxTemp": 19,
+    "minForest": 0.1,
+    "maxForest": 0.5,
+    "minRain": 0.39,
+    "maxRain": 0.86,
+    "quantity": {
+      "dist": "invexp",
+      "avg": 8,
+      "var": 15
+    },
+    "chance": 0.2
+  }
+]

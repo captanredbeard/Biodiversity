@@ -1,3 +1,7 @@
 {
   "game:tabname-bdflower": "Biodiversity: Flowers and Grass",
+
+
+  //Normal Flower Blocks
+  "bdflower:block-flower-iris-free": "Iris"
 }
