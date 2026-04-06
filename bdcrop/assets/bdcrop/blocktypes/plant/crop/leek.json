@@ -48,8 +48,7 @@
 		},
 		"*": {
 			"s": { "base": "bdcrop:block/plant/crop/leek/s{stage}" },
-			"e": { "base": "bdcrop:block/plant/crop/leek/e{stage}" },
-			"stalk": { "base": "bdcrop:block/plant/crop/leek/stalk1to2" }
+			"e": { "base": "bdcrop:block/plant/crop/leek/e{stage}" }
 		}
 	},
 	attributes: {

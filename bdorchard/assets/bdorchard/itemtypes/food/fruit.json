@@ -34,7 +34,7 @@
 				"satiety": 140,
 				"foodcategory": "Fruit"
 			},
-			"*-lime": {
+			"*-lime||lemon": {
 				"satiety": 90,
 				"foodcategory": "Fruit"
 			},
