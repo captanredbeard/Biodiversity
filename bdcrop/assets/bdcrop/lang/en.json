@@ -108,11 +108,11 @@
   "bdcrop:incontainer-item-ciderportion-mirzamelon": "Mirzamelon wine",
   "bdcrop:incontainer-item-spiritportion-mirzamelon": "Mirzamelon brandy",
 
-  "bdcrop:item-pressedmash-cantaloupe-wet": "Wet cantaloupe mash",
-  "bdcrop:item-pressedmash-cantaloupe-dry": "Dry cantaloupe mash",
-  "bdcrop:incontainer-item-juiceportion-cantaloupe": "Cantaloupe juice",
-  "bdcrop:incontainer-item-ciderportion-cantaloupe": "Cantaloupe wine",
-  "bdcrop:incontainer-item-spiritportion-cantaloupe": "Cantaloupe brandy",
+    "bdcrop:item-pressedmash-cantaloupe-wet": "Wet cantaloupe mash",
+    "bdcrop:item-pressedmash-cantaloupe-dry": "Dry cantaloupe mash",
+    "bdcrop:incontainer-item-juiceportion-cantaloupe": "Cantaloupe juice",
+    "bdcrop:incontainer-item-ciderportion-cantaloupe": "Cantaloupe wine",
+    "bdcrop:incontainer-item-spiritportion-cantaloupe": "Cantaloupe brandy",
 
   "bdcrop:item-pressedmash-honeydewmelon-wet": "Wet honeydew melon mash",
   "bdcrop:item-pressedmash-honeydewmelon-dry": "Dry honeydew melon mash",
