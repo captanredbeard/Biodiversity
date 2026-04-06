@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="bdaquatic/bdaqua.csproj" Id="18887c36-2351-4996-a1b7-b0877195b648" />
+  <Project Path="bdaqua/bdaqua.csproj" Id="fd6bc2d9-40c0-4078-9bda-1061c4ba07a0" />
   <Project Path="bdcrop/bdcrop.csproj" Id="3ff51a81-18b2-405e-aa02-01b5f350980c" />
   <Project Path="bdflower/bdflower.csproj" Id="470783e2-23d2-4a1e-9558-aee2d6ce2650" />
   <Project Path="bdherb/bdherb.csproj" Id="a751eb63-eade-4f71-ac68-53fb28fb6463" />
@@ -7,7 +7,6 @@
   <Project Path="bdshrub/bdshrub.csproj" Id="f58e2ce5-c7c1-4ee8-9199-11b78965961e" />
   <Project Path="bdtree/bdtree.csproj" />
   <Project Path="biodiversity/biodiversity.csproj">
-    <BuildDependency Project="bdaquatic/bdaqua.csproj" />
     <BuildDependency Project="bdcrop/bdcrop.csproj" />
     <BuildDependency Project="bdflower/bdflower.csproj" />
     <BuildDependency Project="bdherb/bdherb.csproj" />

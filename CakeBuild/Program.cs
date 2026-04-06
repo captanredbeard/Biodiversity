@@ -142,7 +142,9 @@ namespace CakeBuild
         public override void Run(BuildContext context)
         {
             var projects = new[] { "biodiversity", "bdflower", "bdshrub", "bdaqua", "bdherb", "bdcrop", "bdorchard", "bdtree" };
-
+            context.EnsureDirectoryExists($"../Releases");
+            context.CleanDirectory($"../Releases");
+            context.EnsureDirectoryExists($"../Releases");
 
 
             foreach (var project in projects)
@@ -177,7 +179,7 @@ namespace CakeBuild
                 }
 
                 // Zip the release
-                context.Zip(releasePath, $"../Releases/{modID}_{projectVersion}.zip");
+                context.Zip(releasePath, $"../Releases/biodiversity_{modID}_{projectVersion}.zip");
             }
         }
     }
