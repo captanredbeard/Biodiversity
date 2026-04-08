@@ -7,7 +7,7 @@
                 "type": "item",
                 "code": "bdcrop:juiceportion-*",
                 "name": "fruit",
-                "allowedVariants": [ /*"cantaloupe",*/ "honeydewmelon", "mirzamelon", "watermelon" ],
+                "allowedVariants": [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ],
                 "litres": 0.01
             }
         ],

@@ -1,0 +1,127 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"lemon": [8,8]
+	},
+	"textures": {
+		"lemon": "bdorchard:item/food/pickledcitrus/lemon"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 7.5 ],
+			"to": [ 8.0, 0.0, 7.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#lemon", "uv": [ 0.0, 1.0, 0.5, 1.5 ], "enabled": false },
+				"east": { "texture": "#lemon", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "enabled": false },
+				"south": { "texture": "#lemon", "uv": [ 2.0, 1.0, 2.5, 1.5 ], "enabled": false },
+				"west": { "texture": "#lemon", "uv": [ 3.0, 1.0, 3.5, 1.5 ], "enabled": false },
+				"up": { "texture": "#lemon", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#lemon", "uv": [ 1.0, 0.0, 1.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "LemonBody",
+					"from": [ -2.0, 0.5, -1.0 ],
+					"to": [ 1.0, 3.5, 3.0 ],
+					"rotationOrigin": [ 0.0, 2.5, 1.0 ],
+					"faces": {
+						"north": { "texture": "#lemon", "uv": [ 3.5, 0.0, 5.5, 2.0 ], "autoUv": false },
+						"east": { "texture": "#lemon", "uv": [ 0.0, 0.0, 3.5, 4.5 ], "autoUv": false },
+						"south": { "texture": "#lemon", "uv": [ 5.5, 0.0, 7.5, 2.0 ], "autoUv": false },
+						"west": { "texture": "#lemon", "uv": [ 0.0, 0.0, 3.5, 4.5 ], "autoUv": false },
+						"up": { "texture": "#lemon", "uv": [ 0.0, 0.0, 3.5, 4.5 ], "autoUv": false },
+						"down": { "texture": "#lemon", "uv": [ 0.0, 0.0, 3.5, 4.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "LemonEndLeft",
+							"from": [ 0.5, 0.5, -1.0 ],
+							"to": [ 2.5, 2.5, 0.0 ],
+							"rotationOrigin": [ 1.5, 0.5, 0.5 ],
+							"faces": {
+								"north": { "texture": "#lemon", "uv": [ 3.5, 0.0, 5.5, 2.0 ], "autoUv": false },
+								"east": { "texture": "#lemon", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "autoUv": false },
+								"south": { "texture": "#lemon", "uv": [ 6.5, 10.0, 8.5, 12.0 ], "enabled": false },
+								"west": { "texture": "#lemon", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#lemon", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "autoUv": false },
+								"down": { "texture": "#lemon", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "LemonEndRight",
+							"from": [ 0.5, 0.5, 4.0 ],
+							"to": [ 2.5, 2.5, 5.0 ],
+							"rotationOrigin": [ 1.5, 0.5, 3.5 ],
+							"faces": {
+								"north": { "texture": "#lemon", "uv": [ 8.0, 10.5, 10.0, 12.5 ], "enabled": false },
+								"east": { "texture": "#lemon", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "autoUv": false },
+								"south": { "texture": "#lemon", "uv": [ 5.5, 0.0, 7.5, 2.0 ] },
+								"west": { "texture": "#lemon", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "autoUv": false },
+								"up": { "texture": "#lemon", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "autoUv": false },
+								"down": { "texture": "#lemon", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				},
+				{
+					"name": "LemonStem",
+					"from": [ -0.6, 1.6, -1.82 ],
+					"to": [ -0.1, 3.6, -1.32 ],
+					"rotationOrigin": [ -0.6, 1.6, -1.8243 ],
+					"rotationX": -90.0,
+					"rotationY": -35.0,
+					"faces": {
+						"north": { "texture": "#lemon", "uv": [ 3.5, 2.0, 4.5, 5.0 ], "autoUv": false },
+						"east": { "texture": "#lemon", "uv": [ 3.5, 2.0, 4.5, 5.0 ], "autoUv": false },
+						"south": { "texture": "#lemon", "uv": [ 3.5, 2.0, 4.5, 5.0 ], "autoUv": false },
+						"west": { "texture": "#lemon", "uv": [ 3.5, 2.0, 4.5, 5.0 ], "autoUv": false },
+						"up": { "texture": "#lemon", "uv": [ 3.5, 2.0, 4.5, 5.0 ], "autoUv": false },
+						"down": { "texture": "#lemon", "uv": [ 7.0, 1.0, 7.5, 1.5 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "LemonLeaf1",
+							"from": [ -2.8, 1.1, 0.3 ],
+							"to": [ 0.7, 3.6, 0.3 ],
+							"rotationOrigin": [ 0.7, 1.1, 0.3 ],
+							"rotationX": 15.0,
+							"rotationY": 11.0,
+							"rotationZ": 13.0,
+							"faces": {
+								"north": { "texture": "#lemon", "uv": [ 2.5, 6.5, 6.0, 9.0 ], "enabled": false },
+								"east": { "texture": "#lemon", "uv": [ 8.0, 7.0, 8.5, 9.5 ], "enabled": false },
+								"south": { "texture": "#lemon", "uv": [ 4.5, 2.0, 7.5, 6.0 ], "rotation": 270, "autoUv": false },
+								"west": { "texture": "#lemon", "uv": [ 6.0, 3.5, 6.5, 6.0 ], "enabled": false },
+								"up": { "texture": "#lemon", "uv": [ 6.0, 8.5, 9.5, 9.0 ], "enabled": false },
+								"down": { "texture": "#lemon", "uv": [ 8.0, 1.5, 12.0, 2.0 ], "autoUv": false, "enabled": false }
+							}
+						},
+						{
+							"name": "LemonLeaf2",
+							"from": [ -2.9, -2.0, 0.6 ],
+							"to": [ -0.4, 1.0, 0.6 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.6 ],
+							"rotationX": 19.0,
+							"rotationY": -119.0,
+							"rotationZ": -58.0,
+							"faces": {
+								"north": { "texture": "#lemon", "uv": [ 2.5, 6.5, 5.0, 9.5 ], "enabled": false },
+								"east": { "texture": "#lemon", "uv": [ 8.0, 7.0, 8.5, 10.0 ], "enabled": false },
+								"south": { "texture": "#lemon", "uv": [ 4.5, 2.0, 7.5, 6.0 ], "rotation": 180, "autoUv": false },
+								"west": { "texture": "#lemon", "uv": [ 6.0, 3.5, 6.5, 6.5 ], "enabled": false },
+								"up": { "texture": "#lemon", "uv": [ 6.0, 8.5, 8.5, 9.0 ], "enabled": false },
+								"down": { "texture": "#lemon", "uv": [ 8.0, 1.5, 12.0, 2.0 ], "autoUv": false, "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

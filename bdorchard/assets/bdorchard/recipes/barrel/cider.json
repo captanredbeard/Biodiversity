@@ -1,20 +1,20 @@
 [
-    {
-        "code": "cider",
-        "sealHours": 168,
-        "ingredients": [
-            {
-                "type": "item",
-                "code": "bdorchard:juiceportion-*",
-                "name": "fruit",
-                "allowedVariants": [ "apricot", "nectarine", "sandpear" ],
-                "litres": 0.01
-            }
-        ],
-        "output": {
-            "type": "item",
-            "code": "bdorchard:ciderportion-{fruit}",
-            "litres": 0.01
-        }
+  {
+    "code": "cider",
+    "sealHours": 168,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "bdorchard:juiceportion-*",
+        "name": "fruit",
+        "allowedVariants": [ "apricot", "nectarine", "sandpear", "grapefruit" ],
+        "litres": 0.01
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "bdorchard:ciderportion-{fruit}",
+      "litres": 0.01
     }
+  }
 ]

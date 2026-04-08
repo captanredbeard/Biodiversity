@@ -1,0 +1,109 @@
+[
+  // Add fruit to cooking pots attributes
+  // Add fruit to jam recipies
+  //apricot
+  {
+    "file": "game:recipes/cooking/jam.json",
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "bdorchard:fruit-apricot",
+        "shapeElement": "bowl/fruit 1/*",
+        "textureMapping": [ "fruit", "group1" ]
+      }
+    ],
+    "side": "server"
+  },
+  //fig
+  {
+    "file": "game:recipes/cooking/jam.json",
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "bdorchard:fruit-fig",
+        "shapeElement": "bowl/fruit 1/*",
+        "textureMapping": [ "fruit", "group1" ]
+      }
+    ],
+    "side": "server"
+  },
+  //grapefruit
+  {
+    "file": "game:recipes/cooking/jam.json",
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "bdorchard:fruit-grapefruit",
+        "shapeElement": "bowl/fruit 1/*",
+        "textureMapping": [ "fruit", "group1" ]
+      }
+    ],
+    "side": "server"
+  },
+  //lemon
+  {
+    "file": "game:recipes/cooking/jam.json",
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "bdorchard:fruit-lemon",
+        "shapeElement": "bowl/fruit 1/*",
+        "textureMapping": [ "fruit", "group1" ]
+      }
+    ],
+    "side": "server"
+  },
+  //lime
+  {
+    "file": "game:recipes/cooking/jam.json",
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "bdorchard:fruit-lime",
+        "shapeElement": "bowl/fruit 1/*",
+        "textureMapping": [ "fruit", "group1" ]
+      }
+    ],
+    "side": "server"
+  },
+  //nectarine
+  {
+    "file": "game:recipes/cooking/jam.json",
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "bdorchard:fruit-nectarine",
+        "shapeElement": "bowl/fruit 1/*",
+        "textureMapping": [ "fruit", "group1" ]
+      }
+    ],
+    "side": "server"
+  },
+  //sandpear
+  {
+    "file": "game:recipes/cooking/jam.json",
+    "op": "addeach",
+    "path": "/ingredients/1/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "bdorchard:fruit-sandpear",
+        "shapeElement": "bowl/fruit 1/*",
+        "textureMapping": [ "fruit", "group1" ]
+      }
+    ],
+    "side": "server"
+  }
+]

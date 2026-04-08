@@ -1,0 +1,203 @@
+{
+  "code": "pickledcitrus",
+  "maxstacksize": 64,
+  "attributes": {
+    "inContainerTexture": { "base": "bdorchard:block/food/pie/fill-{type}" },
+    "crockable": true,
+    "handbook": {
+      "groupBy": [ "pickledcitrus-*" ]
+    },
+    "displayable": {
+      "shelf": {
+        "size": {
+          "width": 4,
+          "height": 3,
+          "length": 4
+        }
+      }
+    }
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "lemon", "lime" ]
+    }
+  ],
+  "shapebytype": {
+    "*": { "base": "bdorchard:item/food/pickledcitrus/{type}" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "bdorchard":  [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*": {
+      "satiety": 60,
+      "foodcategory": "fruit"
+    }
+  },
+  "transitionableProps": [
+    {
+      "type": "Perish",
+      "freshHours": { "avg": 2592 },
+      "transitionHours": { "avg": 480 },
+      "transitionedStack": {
+        "type": "item",
+        "code": "game:rot"
+      },
+      "transitionRatio": 0.5
+    }
+  ],
+  "materialDensity": 600,
+  "guiTransformByType": {
+    "*-grapefruit": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 145,
+        "y": -42,
+        "z": -19
+      },
+      "origin": {
+        "x": 0.52,
+        "y": 0.16,
+        "z": 0.56
+      },
+      "scale": 3.16
+    },
+    "*-lime": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 66,
+        "y": 143,
+        "z": -34
+      },
+      "origin": {
+        "x": 0.48,
+        "y": 0.12,
+        "z": 0.48
+      },
+      "scale": 3.54
+    },
+    "*-lemon": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 66,
+        "y": 143,
+        "z": -34
+      },
+      "origin": {
+        "x": 0.48,
+        "y": 0.12,
+        "z": 0.485
+      },
+      "scale": 3.28
+    }
+  },
+  "tpHandTransformByType": {
+    "*-lime": {
+      "translation": {
+        "x": -1.18,
+        "y": -0.97,
+        "z": -1.04
+      },
+      "rotation": {
+        "x": -8,
+        "y": -89,
+        "z": -1
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.8,
+        "z": 0.5
+      },
+      "scale": 0.5
+    },
+    "*-lemon": {
+      "translation": {
+        "x": -1.18,
+        "y": -0.97,
+        "z": -1.04
+      },
+      "rotation": {
+        "x": -8,
+        "y": -89,
+        "z": -1
+      },
+      "origin": {
+        "x": 0.45,
+        "y": 0.68,
+        "z": 0.5
+      },
+      "scale": 0.46
+    },
+    "*-grapefruit": {
+      "translation": {
+        "x": -1.39,
+        "y": -0.96,
+        "z": -0.86
+      },
+      "rotation": {
+        "x": -17,
+        "y": 4,
+        "z": -97
+      },
+      "origin": {
+        "x": 0.53,
+        "y": 0.5,
+        "z": 0.55
+      },
+      "scale": 0.55
+    }
+  },
+  "groundTransformByType": {
+    "@*-(lemon|lime)": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -2,
+        "y": 1,
+        "z": -174
+      },
+      "origin": {
+        "x": 0.6,
+        "y": 0.18,
+        "z": 0.5
+      },
+      "scale": 2.83
+    },
+    "*-grapefruit": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -87
+      },
+      "origin": {
+        "x": 0.66,
+        "y": 0.2,
+        "z": 0.5
+      },
+      "scale": 3.47
+    }
+  }
+}
