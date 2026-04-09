@@ -137,10 +137,78 @@
   "bdorchard:item-pressedmash-nectarine-wet": "Wet nectarine mash ",
   "bdorchard:item-pressedmash-nectarine-dry": "Dry nectarine mash ",
   "bdorchard:item-pressedmash-sandpear-wet": "Wet sandpear mash ",
-  "bdorchard:item-pressedmash-sandpear-dry": "Dry sandpear mash "
+  "bdorchard:item-pressedmash-sandpear-dry": "Dry sandpear mash ",
 
-  //Jam
+  //Pickled Citrus
+  "bdorchard:item-pickledcitrus-lemon": "Pickled Lemon",
+  "bdorchard:item-pickledcitrus-lime": "Pickled Lime",
 
+  //Vanillia Cooking
+  "game:recipeingredient-item-fruit-apricot": "apricot",
+  "game:recipeingredient-item-fruit-apricot-insturmentalcase": "apricot",
+  "bdorchard:recipeingredient-item-fruit-apricot": "apricot",
+  "bdorchard:recipeingredient-item-fruit-apricot-insturmentalcase": "apricot",
+  "game:meal-ingredient-jam-primary-fruit-apricot": "apricot",
+  "pie-single-bdorchard:fruit-apricot-raw": "Apricot pie (raw)",
+  "pie-single-bdorchard:fruit-apricot-partbaked": "Apricot pie (part-baked)",
+  "pie-single-bdorchard:fruit-apricot-perfect": "Apricot pie",
+  "pie-single-bdorchard:fruit-apricot-charred": "Apricot pie (charred)",
 
+  "game:recipeingredient-item-fruit-avocado": "avocado",
+  "game:recipeingredient-item-fruit-avocado-insturmentalcase": "avocado",
+  "bdorchard:recipeingredient-item-fruit-avocado": "avocado",
+  "bdorchard:recipeingredient-item-fruit-avocado-insturmentalcase": "avocado",
+  "game:meal-ingredient-jam-primary-fruit-avocado": "avocado",
+  "pie-single-bdorchard:fruit-avocado-raw": "Avocado pie (raw)",
+  "pie-single-bdorchard:fruit-avocado-partbaked": "Avocado pie (part-baked)",
+  "pie-single-bdorchard:fruit-avocado-perfect": "Avocado pie",
+  "pie-single-bdorchard:fruit-avocado-charred": "Avocado pie (charred)",
 
+  "game:recipeingredient-item-fruit-fig": "fig",
+  "game:recipeingredient-item-fruit-fig-insturmentalcase": "fig",
+  "bdorchard:recipeingredient-item-fruit-fig": "fig",
+  "bdorchard:recipeingredient-item-fruit-fig-insturmentalcase": "fig",
+  "game:meal-ingredient-jam-primary-fruit-fig": "fig",
+  "pie-single-bdorchard:fruit-fig-raw": "Fig pie (raw)",
+  "pie-single-bdorchard:fruit-fig-partbaked": "Fig pie (part-baked)",
+  "pie-single-bdorchard:fruit-fig-perfect": "Fig pie",
+  "pie-single-bdorchard:fruit-fig-charred": "Fig pie (charred)",
+
+  "game:recipeingredient-item-fruit-grapefruit": "grapefruit",
+  "game:recipeingredient-item-fruit-grapefruit-insturmentalcase": "grapefruit",
+  "bdorchard:recipeingredient-item-fruit-grapefruit": "grapefruit",
+  "bdorchard:recipeingredient-item-fruit-grapefruit-insturmentalcase": "grapefruit",
+  "game:meal-ingredient-jam-primary-fruit-grapefruit": "grapefruit",
+
+  "game:recipeingredient-item-fruit-lemon": "lemon",
+  "game:recipeingredient-item-fruit-lemon-insturmentalcase": "lemon",
+  "bdorchard:recipeingredient-item-fruit-lemon": "lemon",
+  "bdorchard:recipeingredient-item-fruit-lemon-insturmentalcase": "lemon",
+  "game:meal-ingredient-jam-primary-fruit-lemon": "lemon",
+
+  "game:recipeingredient-item-fruit-lime": "lime",
+  "game:recipeingredient-item-fruit-lime-insturmentalcase": "lime",
+  "bdorchard:recipeingredient-item-fruit-lime": "lime",
+  "bdorchard:recipeingredient-item-fruit-lime-insturmentalcase": "lime",
+  "game:meal-ingredient-jam-primary-fruit-lime": "lime",
+
+  "game:recipeingredient-item-fruit-nectarine": "nectarine",
+  "game:recipeingredient-item-fruit-nectarine-insturmentalcase": "nectarine",
+  "bdorchard:recipeingredient-item-fruit-nectarine": "nectarine",
+  "bdorchard:recipeingredient-item-fruit-nectarine-insturmentalcase": "nectarine",
+  "game:meal-ingredient-jam-primary-fruit-nectarine": "nectarine",
+  "pie-single-bdorchard:fruit-nectarine-raw": "Nectarine pie (raw)",
+  "pie-single-bdorchard:fruit-nectarine-partbaked": "Nectarine pie (part-baked)",
+  "pie-single-bdorchard:fruit-nectarine-perfect": "Nectarine pie",
+  "pie-single-bdorchard:fruit-nectarine-charred": "Nectarine pie (charred)",
+
+  "game:recipeingredient-item-fruit-sandpear": "sandpear",
+  "game:recipeingredient-item-fruit-sandpear-insturmentalcase": "sandpear",
+  "bdorchard:recipeingredient-item-fruit-sandpear": "sandpear",
+  "bdorchard:recipeingredient-item-fruit-sandpear-insturmentalcase": "sandpear",
+  "game:meal-ingredient-jam-primary-fruit-sandpear": "sandpear",
+  "pie-single-bdorchard:fruit-sandpear-raw": "Sandpear pie (raw)",
+  "pie-single-bdorchard:fruit-sandpear-partbaked": "Sandpear pie (part-baked)",
+  "pie-single-bdorchard:fruit-sandpear-perfect": "Sandpear pie",
+  "pie-single-bdorchard:fruit-sandpear-charred": "Sandpear pie (charred)"
 }
