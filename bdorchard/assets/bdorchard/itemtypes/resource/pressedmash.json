@@ -6,10 +6,10 @@
 		{
 			"code": "fruit",
 			"loadFromProperties": "bdorchard:block/fruit",
-			"states": [ "avocado" ]
+			"states": []
 		}
 	],
-	"skipVariants": [ "*-fig", "*-sandpear", "*-nectarine", "*-apricot" ],
+	"skipVariants": [ "*-fig" ],
 	"attributes": {
 		"foodTags": [ "fruitmash" ],
 		"juiceablePropertiesByType": {
@@ -51,8 +51,16 @@
 		}
 	},
 	"shape": { "base": "game:item/pressedmash" },
-	"textures": {
-		"material": { "base": "block/food/pie/fill-{fruit}" }
+	"texturesByType": {
+		"@*-(sandpear)": {
+			"material": { "base": "game:block/food/pie/fill-pear" }
+		},
+		"@*-(apricot|nectarine)": {
+			"material": { "base": "game:block/food/pie/fill-peach" }
+		},
+		"*": {
+			"material": { "base": "bdorchard:block/food/pie/fill-{fruit}" }
+		}
 	},
 	"creativeinventory": {
 		"general": [ "*" ],

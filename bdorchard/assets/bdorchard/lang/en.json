@@ -3,15 +3,15 @@
 
 
   //Fruit Items
-  "item-fruit-apricot": "Apricot",
+  "bdorchard:item-fruit-apricot": "Apricot",
   "bdorchard:item-fruit-engkala": "Engkala",
   "bdorchard:item-fruit-fig": "Fig",
-  "bdorchard:item-fruit-grapefruit": "Grapefruit)",
+  "bdorchard:item-fruit-grapefruit": "Grapefruit",
   "bdorchard:item-fruit-lemon": "Lemon",
   "bdorchard:item-fruit-lime": "Lime",
   "bdorchard:item-fruit-nectarine": "Nectarine",
   "bdorchard:item-fruit-sandpear": "Sandpear",
-  "bdorchard:item-vegetable-avocado": "Avocado",
+  "bdorchard:item-fruit-avocado": "Avocado",
 
   //Tree Clippings
   "game:fruittree-cutting-apricot": "Apricot tree cutting",
@@ -68,33 +68,147 @@
   "game:fruittree-stem-avocado": "Mature avocado tree stem",
 
   //Oil
-  "item-oilportion-avocado": "Avocado oil",
-  "item-oilportion-engkala": "Engkala oil",
+  "bdorchard:item-oilportion-avocado": "Avocado oil",
+  "bdorchard:item-oilportion-engkala": "Engkala oil",
 
-  "incontainer-item-oilportion-avocado": "Avocado oil",
-  "incontainer-item-oilportion-engkala": "Engkala oil",
+  "bdorchard:incontainer-item-oilportion-avocado": "Avocado oil",
+  "bdorchard:incontainer-item-oilportion-engkala": "Engkala oil",
 
   //Juice
-  "item-juiceportion-grapefruit": "Grapefruit juice",
-  "item-juiceportion-lemon": "Lemon juice",
-  "item-juiceportion-lime": "Lime juice",
+  "bdorchard:item-juiceportion-apricot": "Apricot juice",
+  "bdorchard:item-juiceportion-grapefruit": "Grapefruit juice",
+  "bdorchard:item-juiceportion-lemon": "Lemon juice",
+  "bdorchard:item-juiceportion-lime": "Lime juice",
+  "bdorchard:item-juiceportion-nectarine": "Nectarine juice",
+  "bdorchard:item-juiceportion-sandpear": "Sandpear juice",
 
-  "incontainer-item-juiceportion-grapefruit": "Grapefruit Juice",
-  "incontainer-item-juiceportion-lemon": "Lemon juice",
-  "incontainer-item-juiceportion-lime": "Lime juice",
+  "bdorchard:itemdesc-juiceportion-lemon": "Too acidic to make wine on its own",
+  "bdorchard:itemdesc-juiceportion-lime": "Too acidic to make wine on its own",
+
+  "bdorchard:incontainer-item-juiceportion-apricot": "Apricot Juice",
+  "bdorchard:incontainer-item-juiceportion-grapefruit": "Grapefruit Juice",
+  "bdorchard:incontainer-item-juiceportion-lemon": "Lemon juice",
+  "bdorchard:incontainer-item-juiceportion-lime": "Lime juice",
+  "bdorchard:incontainer-item-juiceportion-nectarine": "Nectarine Juice",
+  "bdorchard:incontainer-item-juiceportion-sandpear": "Sandpear Juice",
+
+  "bdorchard:incontainer-itemdesc-juiceportion-lemon": "Too acidic to make wine on its own",
+  "bdorchard:incontainer-itemdesc-juiceportion-lime": "Too acidic to make wine on its own",
+
+  //Cider & Spirits
+  "bdorchard:item-ciderportion-apricot": "Apricot wine",
+  "bdorchard:item-ciderportion-grapefruit": "Grapefruit wine",
+  "bdorchard:item-ciderportion-nectarine": "Nectarine wine",
+  "bdorchard:item-ciderportion-sandpear": "Sandpear wine",
+
+  "bdorchard:incontainer-item-ciderportion-apricot": "Apricot Wine",
+  "bdorchard:incontainer-item-ciderportion-grapefruit": "Grapefruit Wine",
+  "bdorchard:incontainer-item-ciderportion-nectarine": "Nectarine Wine",
+  "bdorchard:incontainer-item-ciderportion-sandpear": "Sandpear Wine",
+
+  "bdorchard:item-spiritportion-apricot": "Apricot brandy",
+  "bdorchard:item-spiritportion-grapefruit": "Grapefruit brandy",
+  "bdorchard:item-spiritportion-nectarine": "Nectarine brandy",
+  "bdorchard:item-spiritportion-sandpear": "Sandpear brandy",
+
+  "bdorchard:incontainer-item-spiritportion-apricot": "Apricot Brandy",
+  "bdorchard:incontainer-item-spiritportion-grapefruit": "Grapefruit Brandy",
+  "bdorchard:incontainer-item-spiritportion-nectarine": "Nectarine Brandy",
+  "bdorchard:incontainer-item-spiritportion-sandpear": "Sandpear Brandy",
 
   //Mash
-  "itemdesc-pressedmash-*": "Crudely pressed fruit. Not too appetizing looking, but some animals might still eat this.",
+  "bdorchard:itemdesc-pressedmash-*": "Crudely pressed fruit. Not too appetizing looking, but some animals might still eat this.",
+  "bdorchard:itemdesc-pressedmash-lemon": "Crudely pressed lemons. Too acidic and bitter to eat, even for animals.",
+  "bdorchard:itemdesc-pressedmash-lime": "Crudely pressed limes. Too acidic and bitter to eat, even for animals.",
 
-  "item-pressedmash-avocado-wet": "Avocado Guac",
-  "item-pressedmash-avocado-dry": "Dry Avocado Guac",
+  "bdorchard:item-pressedmash-avocado-wet": "Avocado Guac",
+  "bdorchard:item-pressedmash-avocado-dry": "Dry Avocado Guac",
 
-  "item-pressedmash-lemon-wet": "Wet lemon mash ",
-  "item-pressedmash-lemon-dry": "Dry lemon mash ",
-  "item-pressedmash-lime-wet": "Wet lime mash ",
-  "item-pressedmash-lime-dry": "Dry lime mash ",
-  "item-pressedmash-engkala-dry": "Dry engkala mash ",
-  "item-pressedmash-engkala-wet": "Wet engkala mash ",
-  "item-pressedmash-grapefruit-dry": "Dry grapefruit mash ",
-  "item-pressedmash-grapefruit-wet": "Wet grapefruit mash "
+  "bdorchard:item-pressedmash-apricot-wet": "Wet lemon mash ",
+  "bdorchard:item-pressedmash-apricot-dry": "Dry lemon mash ",
+  "bdorchard:item-pressedmash-engkala-dry": "Dry engkala mash ",
+  "bdorchard:item-pressedmash-engkala-wet": "Wet engkala mash ",
+  "bdorchard:item-pressedmash-grapefruit-dry": "Dry grapefruit mash ",
+  "bdorchard:item-pressedmash-grapefruit-wet": "Wet grapefruit mash ",
+  "bdorchard:item-pressedmash-lemon-wet": "Wet lemon mash ",
+  "bdorchard:item-pressedmash-lemon-dry": "Dry lemon mash ",
+  "bdorchard:item-pressedmash-lime-wet": "Wet lime mash ",
+  "bdorchard:item-pressedmash-lime-dry": "Dry lime mash ",
+  "bdorchard:item-pressedmash-nectarine-wet": "Wet nectarine mash ",
+  "bdorchard:item-pressedmash-nectarine-dry": "Dry nectarine mash ",
+  "bdorchard:item-pressedmash-sandpear-wet": "Wet sandpear mash ",
+  "bdorchard:item-pressedmash-sandpear-dry": "Dry sandpear mash ",
+
+  //Pickled Citrus
+  "bdorchard:item-pickledcitrus-lemon": "Pickled Lemon",
+  "bdorchard:item-pickledcitrus-lime": "Pickled Lime",
+
+  //Vanillia Cooking
+  "game:recipeingredient-item-fruit-apricot": "apricot",
+  "game:recipeingredient-item-fruit-apricot-insturmentalcase": "apricot",
+  "bdorchard:recipeingredient-item-fruit-apricot": "apricot",
+  "bdorchard:recipeingredient-item-fruit-apricot-insturmentalcase": "apricot",
+  "game:meal-ingredient-jam-primary-fruit-apricot": "apricot",
+  "pie-single-bdorchard:fruit-apricot-raw": "Apricot pie (raw)",
+  "pie-single-bdorchard:fruit-apricot-partbaked": "Apricot pie (part-baked)",
+  "pie-single-bdorchard:fruit-apricot-perfect": "Apricot pie",
+  "pie-single-bdorchard:fruit-apricot-charred": "Apricot pie (charred)",
+
+  "game:recipeingredient-item-fruit-avocado": "avocado",
+  "game:recipeingredient-item-fruit-avocado-insturmentalcase": "avocado",
+  "bdorchard:recipeingredient-item-fruit-avocado": "avocado",
+  "bdorchard:recipeingredient-item-fruit-avocado-insturmentalcase": "avocado",
+  "game:meal-ingredient-jam-primary-fruit-avocado": "avocado",
+  "pie-single-bdorchard:fruit-avocado-raw": "Avocado pie (raw)",
+  "pie-single-bdorchard:fruit-avocado-partbaked": "Avocado pie (part-baked)",
+  "pie-single-bdorchard:fruit-avocado-perfect": "Avocado pie",
+  "pie-single-bdorchard:fruit-avocado-charred": "Avocado pie (charred)",
+
+  "game:recipeingredient-item-fruit-fig": "fig",
+  "game:recipeingredient-item-fruit-fig-insturmentalcase": "fig",
+  "bdorchard:recipeingredient-item-fruit-fig": "fig",
+  "bdorchard:recipeingredient-item-fruit-fig-insturmentalcase": "fig",
+  "game:meal-ingredient-jam-primary-fruit-fig": "fig",
+  "pie-single-bdorchard:fruit-fig-raw": "Fig pie (raw)",
+  "pie-single-bdorchard:fruit-fig-partbaked": "Fig pie (part-baked)",
+  "pie-single-bdorchard:fruit-fig-perfect": "Fig pie",
+  "pie-single-bdorchard:fruit-fig-charred": "Fig pie (charred)",
+
+  "game:recipeingredient-item-fruit-grapefruit": "grapefruit",
+  "game:recipeingredient-item-fruit-grapefruit-insturmentalcase": "grapefruit",
+  "bdorchard:recipeingredient-item-fruit-grapefruit": "grapefruit",
+  "bdorchard:recipeingredient-item-fruit-grapefruit-insturmentalcase": "grapefruit",
+  "game:meal-ingredient-jam-primary-fruit-grapefruit": "grapefruit",
+
+  "game:recipeingredient-item-fruit-lemon": "lemon",
+  "game:recipeingredient-item-fruit-lemon-insturmentalcase": "lemon",
+  "bdorchard:recipeingredient-item-fruit-lemon": "lemon",
+  "bdorchard:recipeingredient-item-fruit-lemon-insturmentalcase": "lemon",
+  "game:meal-ingredient-jam-primary-fruit-lemon": "lemon",
+
+  "game:recipeingredient-item-fruit-lime": "lime",
+  "game:recipeingredient-item-fruit-lime-insturmentalcase": "lime",
+  "bdorchard:recipeingredient-item-fruit-lime": "lime",
+  "bdorchard:recipeingredient-item-fruit-lime-insturmentalcase": "lime",
+  "game:meal-ingredient-jam-primary-fruit-lime": "lime",
+
+  "game:recipeingredient-item-fruit-nectarine": "nectarine",
+  "game:recipeingredient-item-fruit-nectarine-insturmentalcase": "nectarine",
+  "bdorchard:recipeingredient-item-fruit-nectarine": "nectarine",
+  "bdorchard:recipeingredient-item-fruit-nectarine-insturmentalcase": "nectarine",
+  "game:meal-ingredient-jam-primary-fruit-nectarine": "nectarine",
+  "pie-single-bdorchard:fruit-nectarine-raw": "Nectarine pie (raw)",
+  "pie-single-bdorchard:fruit-nectarine-partbaked": "Nectarine pie (part-baked)",
+  "pie-single-bdorchard:fruit-nectarine-perfect": "Nectarine pie",
+  "pie-single-bdorchard:fruit-nectarine-charred": "Nectarine pie (charred)",
+
+  "game:recipeingredient-item-fruit-sandpear": "sandpear",
+  "game:recipeingredient-item-fruit-sandpear-insturmentalcase": "sandpear",
+  "bdorchard:recipeingredient-item-fruit-sandpear": "sandpear",
+  "bdorchard:recipeingredient-item-fruit-sandpear-insturmentalcase": "sandpear",
+  "game:meal-ingredient-jam-primary-fruit-sandpear": "sandpear",
+  "pie-single-bdorchard:fruit-sandpear-raw": "Sandpear pie (raw)",
+  "pie-single-bdorchard:fruit-sandpear-partbaked": "Sandpear pie (part-baked)",
+  "pie-single-bdorchard:fruit-sandpear-perfect": "Sandpear pie",
+  "pie-single-bdorchard:fruit-sandpear-charred": "Sandpear pie (charred)"
 }

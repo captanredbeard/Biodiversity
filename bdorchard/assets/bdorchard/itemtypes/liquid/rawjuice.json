@@ -3,11 +3,9 @@
 	"variantGroups": [
 		{
 			"code": "fruit",
-			"loadFromProperties": "bdorchard:block/fruit",
-			"states": []
+			"states": ["apricot", "grapefruit", "lemon", "lime", "nectarine", "sandpear"]
 		}
 	],
-	"skipVariants": [ "*-avocado", "*-engkala", "*-fig", "*-nectarine", "*-apricot", "*-sandpear" ],
 	"class": "ItemLiquidPortion",
 	"matterState": "liquid",
 	"attributes": {
@@ -22,14 +20,21 @@
 			},
 			"containable": true,
 			"itemsPerLitre": 100,
-			"texture": {
-				"base": "block/food/pie/fill-{fruit}",
-				"alphaByType": {
-					"*": 178
+			"textureByType": {
+				"@*-(sandpear)": {
+					"base": "game:block/food/pie/fill-pear",
+					"alpha": 255
+				},
+				"@*-(apricot|nectarine)": {
+					"base": "game:block/food/pie/fill-peach",
+					"alpha": 255
+				},
+				"*": {
+					"base": "bdorchard:block/food/pie/fill-{fruit}",
+					"alpha": 255
 				}
 			},
 			"isOpaqueByType": {
-
 				"*": false
 			},
 			"allowSpill": true,
@@ -43,11 +48,20 @@
 		}
 	},
 	"shape": { "base": "game:item/liquid" },
-	"texture": {
-		"base": "block/food/pie/fill-{fruit}",
-		"alpha": 255
+	"textureByType": {
+		"@*-(sandpear)": {
+			"base": "game:block/food/pie/fill-pear",
+			"alpha": 255
+		},
+		"@*-(apricot|nectarine)": {
+			"base": "game:block/food/pie/fill-peach",
+			"alpha": 255
+		},
+		"*": {
+			"base": "bdorchard:block/food/pie/fill-{fruit}",
+			"alpha": 255
+		}
 	},
-	
 	"creativeinventoryStacks": [
 		{
 			"tabs": [ "general", "liquids", "bdorchard" ],
