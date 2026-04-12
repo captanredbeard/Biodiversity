@@ -1,9 +1,9 @@
 {
     "treeWorldPropertyCode": "sapele",
     "isTropical": true,
-    "sizeMultiplier": 1,
+    "sizeMultiplier": 1.4,
     "trunks": [{
-        "widthloss": 0.044,
+        "widthloss": 0.034,
         "dieAt": { "avg": 0.08 },
         "branchStart": { "dist": "gaussian", "avg": 0.5,  "var": 0.3 },
         "branchSpacing": { "dist": "gaussian", "avg": 0.2,  "var": 0.1 },
@@ -27,8 +27,8 @@
         "branchQuantity": { "avg": 3, "var": 1 }
     }],
     "treeBlocks": {
-	"logBlockCode": "bdtree:log-grown-sapele-ud",
-	"leavesBlockCode": "bdtree:leaves-grown-sapele",
+	"logBlockCode": "log-grown-sapele-ud",
+	"leavesBlockCode": "leaves-grown-sapele",
 	"leavesBranchyBlockCode": "leavesbranchy-grown-sapele",
 	"vinesBlockCode": "game:wildvine-tropical-section-north",
 	"vinesEndBlockCode": "game:wildvine-tropical-end-north",

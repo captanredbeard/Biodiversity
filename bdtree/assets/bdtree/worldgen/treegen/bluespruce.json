@@ -26,10 +26,10 @@
 		branchWidthMultiplier: { avg: 0.4, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-spruce-ud",
-		otherLogBlockCode: "bdtree:log-resin-spruce-ud",
+		logBlockCode: "log-grown-spruce-ud",
+		otherLogBlockCode: "log-resin-spruce-ud",
 		otherLogChance: 0.02,
-		leavesBlockCode: "bdtree:leaves-grown-bluespruce",
+		leavesBlockCode: "leaves-grown-bluespruce",
 		leavesBranchyBlockCode: "leavesbranchy-grown-bluespruce",
 		mossDecorCode: "game:attachingplant-spottymoss"
 	}

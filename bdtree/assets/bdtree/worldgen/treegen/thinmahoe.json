@@ -29,7 +29,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-bluemahoe-ud",
-		leavesBlockCode: "bdtree:leaves-grown-bluemahoe",
+		leavesBlockCode: "leaves-grown-bluemahoe",
 		leavesBranchyBlockCode: "leavesbranchy-grown-bluemahoe",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north"

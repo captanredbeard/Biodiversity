@@ -1,16 +1,16 @@
 {
 	treeWorldPropertyCode: "sycamore",
-	sizeMultiplier: 0.75,
+	sizeMultiplier: 1.8,
 	trunks: [{
-		widthloss: 0.06,
+		widthloss: 0.09,
 		dieAt: { avg: 0.002 },
-		branchStart: { dist: "gaussian", avg: 0.2, var: 0.2 },
+		branchStart: { dist: "gaussian", avg: 0.15, var: 0.2 },
 		branchSpacing: { dist: "gaussian", avg: 0.2, var: 0.1 },
 		branchVerticalAngle:  { avg: 0.8, var: 0.1 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
-		branchWidthMultiplier: { avg: 0.07, var: 0 },
+		branchWidthMultiplier: { avg: 0.09, var: 0.09 },
 		branchWidthMultiplierEvolve: { transform: "linear", factor: 1.5 },
-		branchQuantity: { avg: 5, var: 0 },
+		branchQuantity: { avg: 6, var: 0 },
 		branchWidthLossMul: 0.98,
 	}],
 	branches: [{
@@ -18,7 +18,7 @@
 		gravityDrag: 0.1,
 		dieAt: { avg: 0.001 },
 
-		branchStart:  { avg: 0.1, var: 0.01 },
+		branchStart:  { avg: 0.3, var: 0.01 },
 		branchSpacing: { avg: 0.1, var: 0 },
 		branchVerticalAngle: { dist: "inversegaussian", avg: 0.5, var: 0.2 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
@@ -27,8 +27,8 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-sycamore-ud",
-		leavesBlockCode: "bdtree:leaves-grown-sycamore",
+		logBlockCode: "log-grown-sycamore-ud",
+		leavesBlockCode: "leaves-grown-sycamore",
 		leavesBranchyBlockCode: "leavesbranchy-grown-sycamore",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",

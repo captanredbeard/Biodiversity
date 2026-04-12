@@ -1,20 +1,20 @@
 {
 	treeWorldPropertyCode: "beech",
-	sizeMultiplier: 0.9,
+	sizeMultiplier: 2.3,
 	trunks: [{
-		widthloss: 0.05,
+		widthloss: 0.08,
 		dieAt: { avg: 0.0011 },
-		branchStart: { avg: 0.3, var: 0.1 },
-		branchSpacing: { avg: 0.07, var: 0.1 },
-		branchVerticalAngle:  { avg: 0.8, var: 0 },
+		branchStart: { avg: 0.15, var: 0.1 },
+		branchSpacing: { avg: 0.00, var: 0.1 },
+		branchVerticalAngle:  { avg: 1, var: 0 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
 		branchWidthMultiplier: { avg: 0.07, var: 0 },
 		branchWidthMultiplierEvolve: { transform: "linear", factor: 1 },
-		branchQuantity: { avg: 3, var: 1 },
+		branchQuantity: { avg: 4, var: 1 },
 		branchWidthLossMul: 0.98,
 	}],
 	branches: [{
-		widthLoss: 0.06,
+		widthLoss: 0.04,
 		gravityDrag: 0.1,
 		dieAt: { avg: 0.01 },
 
@@ -23,12 +23,12 @@
 		branchVerticalAngle: { dist: "inversegaussian", avg: 0.5, var: 0.2 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
 
-		branchQuantity: { avg: 1, var: 0 },
+		branchQuantity: { avg: 4, var: 0 },
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-beech-ud",
-		leavesBlockCode: "bdtree:leaves-grown-beech",
+		logBlockCode: "log-grown-beech-ud",
+		leavesBlockCode: "leaves-grown-beech",
 		leavesBranchyBlockCode: "leavesbranchy-grown-beech",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",

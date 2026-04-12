@@ -11,7 +11,7 @@
   "contributors": [ "Sigmadron", "Greybones", "Pizza2004", "FuegoFish", "AllégroSky", "Alcoraiden", "AcuteAangle" ],
   "website": "https://discord.com/invite/w79wShAD8q",
   "description": "Adds several new tree and leaf types to build with ingame. Part of the Biodiversity Suite",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "dependencies": {
     "game": "1.22.0-rc.5",
     "biodiversity": "1.0.0"

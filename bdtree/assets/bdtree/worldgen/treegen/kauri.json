@@ -1,18 +1,18 @@
 {
 	treeWorldPropertyCode: "kauri",
         isTropical: true,
-	sizeMultiplier: 0.4,
+	sizeMultiplier: 1.6,
 	trunks: [{
-		widthloss: 0.06,
+		widthloss: 0.08,
 		dieAt: { avg: 0.006 },
-		branchStart: { avg: 0.2, var: 0.2 },
+		branchStart: { avg: 0.45, var: 0.2 },
 		branchSpacing: { avg: 0.1, var: 0.1 },
 		branchVerticalAngle:  { avg: 0.8, var: 0.1 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
-		branchWidthMultiplier: { avg: 0.07, var: 0 },
+		branchWidthMultiplier: { avg: 0.1, var: 0 },
 		branchWidthMultiplierEvolve: { transform: "linear", factor: 1.5 },
-		branchQuantity: { avg: 2, var: 2 },
-		branchWidthLossMul: 0.98,
+		branchQuantity: { avg: 5, var: 2 },
+		branchWidthLossMul: 1,
 	}],
 	branches: [{
 		widthLoss: 0.06,
@@ -28,8 +28,8 @@
 		branchWidthMultiplier: { avg: 0.5, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-kauri-ud",
-		leavesBlockCode: "bdtree:leaves-grown-kauri",
+		logBlockCode: "log-grown-kauri-ud",
+		leavesBlockCode: "leaves-grown-kauri",
 		leavesBranchyBlockCode: "leavesbranchy-grown-kauri",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

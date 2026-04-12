@@ -49,13 +49,13 @@
 		branchWidthMultiplier: { avg: 1, var: 0.2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-elm-ud",
-		leavesBlockCode: "bdtree:leaves-grown-elm",
+		logBlockCode: "log-grown-elm-ud",
+		leavesBlockCode: "leaves-grown-elm",
 		leavesBranchyBlockCode: "leavesbranchy-grown-elm",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss",
-		trunkSegmentBase: "bdtree:logsection-grown-elm-",
+		trunkSegmentBase: "logsection-grown-elm-",
 		trunkSegmentVariants: [ "ne", "se", "sw", "nw" ]
 	}
 }

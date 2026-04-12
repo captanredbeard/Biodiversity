@@ -28,8 +28,10 @@
 		branchWidthMultiplier: { avg: 0.5, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-spurgetree-ud",
-		leavesBlockCode: "bdtree:leaves-grown-spurgetree",
+		logBlockCode: "log-grown-spurgetree-ud",
+		"otherLogBlockCode": "log-resin-spurgetree-ud",
+		"otherLogChance": 0.04,
+		leavesBlockCode: "leaves-grown-spurgetree",
 		leavesBranchyBlockCode: "leavesbranchy-grown-spurgetree",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

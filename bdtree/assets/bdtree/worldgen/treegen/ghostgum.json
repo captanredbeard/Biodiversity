@@ -29,10 +29,10 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-ghostgum-ud",
-		otherLogBlockCode: "bdtree:log-resin-ghostgum-ud",
+		logBlockCode: "log-grown-ghostgum-ud",
+		otherLogBlockCode: "log-resin-ghostgum-ud",
 		otherLogChance: 0.02,
-		leavesBlockCode: "bdtree:leaves-grown-ghostgum",
+		leavesBlockCode: "leaves-grown-ghostgum",
 		leavesBranchyBlockCode: "leavesbranchy-grown-ghostgum",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

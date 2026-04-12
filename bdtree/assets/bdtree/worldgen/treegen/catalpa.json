@@ -1,11 +1,11 @@
 {
 	treeWorldPropertyCode: "catalpa",
-  isTropical: true,
-	sizeMultiplier: 0.9,
+    isTropical: true,
+	sizeMultiplier: 1.2,
 	trunks: [{
-		widthloss: 0.1,
+		widthloss: 0.07,
 		branchStart: { avg: 0.3, var: 0.05 },
-		branchSpacing: { avg: 0, var: 0 },
+		branchSpacing: { avg: 0.05, var: 0 },
 		branchVerticalAngle:  { avg: 1.32, var: 0 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
 		branchWidthMultiplier: { avg: 0.1, var: 0 },
@@ -28,8 +28,8 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-catalpa-ud",
-		leavesBlockCode: "bdtree:leaves-grown-catalpa",
+		logBlockCode: "log-grown-catalpa-ud",
+		leavesBlockCode: "leaves-grown-catalpa",
 		leavesBranchyBlockCode: "leavesbranchy-grown-catalpa",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

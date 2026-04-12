@@ -28,7 +28,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-aspen-ud",
-		leavesBlockCode: "bdtree:leaves-grown-aspen",
+		leavesBlockCode: "leaves-grown-aspen",
 		leavesBranchyBlockCode: "leavesbranchy-grown-aspen",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"

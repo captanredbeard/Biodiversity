@@ -21,7 +21,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-redwillow-ud",
-		leavesBlockCode: "bdtree:leaves-grown-redwillow",
+		leavesBlockCode: "leaves-grown-redwillow",
 		leavesBranchyBlockCode: "leavesbranchy-grown-redwillow",
 	}
 }

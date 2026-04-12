@@ -28,8 +28,8 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-banyan-ud",
-		leavesBlockCode: "bdtree:leaves-grown-banyan",
+		logBlockCode: "log-grown-banyan-ud",
+		leavesBlockCode: "leaves-grown-banyan",
 		leavesBranchyBlockCode: "leavesbranchy-grown-banyan",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

@@ -29,10 +29,10 @@
 		branchWidthMultiplier: { avg: 0.8, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-tuja-ud",
-		otherLogBlockCode: "bdtree:log-resin-tuja-ud",
+		logBlockCode: "log-grown-tuja-ud",
+		otherLogBlockCode: "log-resin-tuja-ud",
 		otherLogChance: 0.02,
-		leavesBlockCode: "bdtree:leaves-grown-tuja",
+		leavesBlockCode: "leaves-grown-tuja",
 		leavesBranchyBlockCode: "leavesbranchy-grown-tuja",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"

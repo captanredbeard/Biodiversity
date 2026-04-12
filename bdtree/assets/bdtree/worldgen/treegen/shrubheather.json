@@ -21,7 +21,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-heather-ud",
-		leavesBlockCode: "bdtree:leaves-grown-heather",
+		leavesBlockCode: "leaves-grown-heather",
 		leavesBranchyBlockCode: "leavesbranchy-grown-heather",
 	}
 }
