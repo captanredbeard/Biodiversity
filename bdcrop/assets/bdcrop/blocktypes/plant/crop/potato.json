@@ -15,7 +15,7 @@
 	creativeinventory: {
 		"general": [ "" ],
 		"plants": [ "" ],
-		"bdcrop":  ["*"]
+		"bdcrop":  [""]
 	},
 	renderpass: "OpaqueNoCull",
 	shape: { base: "block/plant/crop/crosspotato" },
