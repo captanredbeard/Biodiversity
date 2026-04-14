@@ -50,12 +50,12 @@
 		"branchStart": { "avg": 2 }
 	}],
 	"treeBlocks": {
-		"logBlockCode": "log-grown-tamanu-ud",
-		"leavesBlockCode": "leaves-grown-tamanu",
+		"logBlockCode": "bdtree:log-grown-tamanu-ud",
+		"leavesBlockCode": "bdtree:leaves-grown-tamanu",
 		"leavesBranchyBlockCode": "leavesbranchy-grown-tamanu",
 		"vinesBlockCode": "game:wildvine-tropical-section-north",
 		"vinesEndBlockCode": "game:wildvine-tropical-end-north",
-		"trunkSegmentBase": "logsection-grown-tamanu-",
+		"trunkSegmentBase": "bdtree:logsection-grown-tamanu-",
 		"trunkSegmentVariants": [ "ne", "se", "sw", "nw" ],
 		"mossDecorCode": "game:attachingplant-spottymoss"
 	}

@@ -1,9 +1,9 @@
 {
 	treeWorldPropertyCode: "willow",
-	sizeMultiplier: 1.11,
+	sizeMultiplier: 0.6,
 	trunks: [{
-		widthloss: 0.10,
-		branchStart: { avg: 0.4, var: 0.05 },
+		widthloss: 0.1,
+		branchStart: { avg: 0.3, var: 0.05 },
 		branchSpacing: { avg: 0, var: 0 },
 		branchVerticalAngle:  { avg: 1.32, var: 0 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
@@ -14,7 +14,7 @@
 	}],
 	branches: [{
 		widthLoss: 0.08,
-		gravityDrag: 0.2,
+		gravityDrag: 0,
 
 		branchStart:  { avg: 0, var: 0 },
 		branchSpacing: { avg: 0.01, var: 0 },
@@ -27,8 +27,8 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-willow-ud",
-		leavesBlockCode: "leaves-grown-willow",
+		logBlockCode: "bdtree:log-grown-willow-ud",
+		leavesBlockCode: "bdtree:leaves-grown-willow",
 		leavesBranchyBlockCode: "leavesbranchy-grown-willow",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",

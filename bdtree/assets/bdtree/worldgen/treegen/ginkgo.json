@@ -29,8 +29,8 @@
 		branchWidthMultiplier: { avg: 0.4, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-ginkgo-ud",
-		leavesBlockCode: "leaves-grown-ginkgo",
+		logBlockCode: "bdtree:log-grown-ginkgo-ud",
+		leavesBlockCode: "bdtree:leaves-grown-ginkgo",
 		leavesBranchyBlockCode: "leavesbranchy-grown-ginkgo",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",

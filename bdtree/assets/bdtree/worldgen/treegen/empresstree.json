@@ -28,8 +28,8 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-empresstree-ud",
-		leavesBlockCode: "leaves-grown-empresstree",
+		logBlockCode: "bdtree:log-grown-empresstree-ud",
+		leavesBlockCode: "bdtree:leaves-grown-empresstree",
 		leavesBranchyBlockCode: "leavesbranchy-grown-empresstree",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"

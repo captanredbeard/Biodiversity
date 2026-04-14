@@ -28,7 +28,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-willow-ud",
-		leavesBlockCode: "leaves-grown-willow",
+		leavesBlockCode: "bdtree:leaves-grown-willow",
 		leavesBranchyBlockCode: "leavesbranchy-grown-willow",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"

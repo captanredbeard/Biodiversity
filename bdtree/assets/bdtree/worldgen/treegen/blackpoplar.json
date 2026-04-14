@@ -1,10 +1,10 @@
 {
 	treeWorldPropertyCode: "blackpoplar",
-	sizeMultiplier: 0.95,
+	sizeMultiplier: 0.8,
 	trunks: [{
-		widthloss: 0.033,
-		branchStart: { avg: 0.2, var: 0.1 },
-		branchSpacing: { avg: 0.05, var: 0 },
+		widthloss: 0.1,
+		branchStart: { avg: 0.3, var: 0.05 },
+		branchSpacing: { avg: 0, var: 0 },
 		branchVerticalAngle:  { avg: 1.32, var: 0 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
 		branchWidthMultiplier: { avg: 0.1, var: 0 },
@@ -27,8 +27,8 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-poplar-ud",
-		leavesBlockCode: "leaves-grown-poplar",
+		logBlockCode: "bdtree:log-grown-poplar-ud",
+		leavesBlockCode: "bdtree:leaves-grown-poplar",
 		leavesBranchyBlockCode: "leavesbranchy-grown-poplar",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",

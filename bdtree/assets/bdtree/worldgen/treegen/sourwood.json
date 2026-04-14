@@ -28,7 +28,7 @@
 	}],
 	treeBlocks: {
 		logBlockCode: "lognarrow-grown-sourwood-ud",
-		leavesBlockCode: "leaves-grown-sourwood",
+		leavesBlockCode: "bdtree:leaves-grown-sourwood",
 		leavesBranchyBlockCode: "leavesbranchy-grown-sourwood",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"

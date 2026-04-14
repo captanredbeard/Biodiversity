@@ -28,10 +28,8 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-mangrove-ud",
-		otherLogBlockCode: "log-resin-mangrove-ud",
-		otherLogChance: 0.3,
-		leavesBlockCode: "leaves-grown-mangrove",
+		logBlockCode: "bdtree:log-grown-mangrove-ud",
+		leavesBlockCode: "bdtree:leaves-grown-mangrove",
 		leavesBranchyBlockCode: "leavesbranchy-grown-mangrove",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",

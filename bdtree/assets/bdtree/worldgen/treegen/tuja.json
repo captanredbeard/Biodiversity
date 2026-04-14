@@ -1,10 +1,10 @@
 {
 	treeWorldPropertyCode: "tuja",
-	sizeMultiplier: 0.9,
+	sizeMultiplier: 0.55,
 	trunks: [{
 		widthloss: 0.06,
 		dieAt: { avg: 0.001 },
-		branchStart: { dist: "gaussian", avg: 0.00, var: 0.05 },
+		branchStart: { dist: "gaussian", avg: 0.15, var: 0.05 },
 		branchSpacing: { avg: 0, var: 0 },
 		branchVerticalAngle:  { avg: 1, var: 0.1 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
@@ -27,10 +27,10 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-tuja-ud",
-		otherLogBlockCode: "log-resin-tuja-ud",
+		logBlockCode: "bdtree:log-grown-tuja-ud",
+		otherLogBlockCode: "bdtree:log-resin-tuja-ud",
 		otherLogChance: 0.02,
-		leavesBlockCode: "leaves-grown-tuja",
+		leavesBlockCode: "bdtree:leaves-grown-tuja",
 		leavesBranchyBlockCode: "leavesbranchy-grown-tuja",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"

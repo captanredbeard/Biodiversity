@@ -49,13 +49,13 @@
 		branchWidthMultiplier: { avg: 0.4, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-kauri-ud",
-		leavesBlockCode: "leaves-grown-kauri",
+		logBlockCode: "bdtree:log-grown-kauri-ud",
+		leavesBlockCode: "bdtree:leaves-grown-kauri",
 		leavesBranchyBlockCode: "leavesbranchy-grown-kauri",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss",
-		trunkSegmentBase: "logsection-grown-kauri-",
+		trunkSegmentBase: "bdtree:logsection-grown-kauri-",
 		trunkSegmentVariants: [ "ne", "se", "sw", "nw" ]
 	}
 }

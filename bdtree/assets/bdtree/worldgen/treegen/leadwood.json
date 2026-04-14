@@ -1,9 +1,9 @@
 {
 	treeWorldPropertyCode: "leadwood",
 	isTropical: true,
-	sizeMultiplier: 1.7,
+	sizeMultiplier: 1.1,
 	trunks: [{
-		widthloss: 0.05,
+		widthloss: 0.06,
 		dieAt: { avg: 0.1 },
 		branchStart: { dist: "gaussian", avg: 0.25 },
 		branchSpacing: { avg: 0, var: 0 },
@@ -11,7 +11,7 @@
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
 		branchWidthMultiplier: { avg: 0.15, var: 0 },
 		branchWidthMultiplierEvolve: { transform: "linear", factor: 1.5 },
-		branchQuantity: { avg: 1.5, var: 1 },
+		branchQuantity: { avg: 2, var: 1 },
 		branchWidthLossMul: 0.98,
 	}],
 	branches: [{
@@ -28,8 +28,8 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0.2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-leadwood-ud",
-		leavesBlockCode: "leaves-grown-leadwood",
+		logBlockCode: "bdtree:log-grown-leadwood-ud",
+		leavesBlockCode: "bdtree:leaves-grown-leadwood",
 		leavesBranchyBlockCode: "leavesbranchy-grown-leadwood",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"

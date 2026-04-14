@@ -2,9 +2,9 @@
 	treeWorldPropertyCode: "spruce",
 	sizeMultiplier: 0.8,
 	trunks: [{
-		widthloss: 0.040,
+		widthloss: 0.044,
 		dieAt: { avg: 0.05 },
-		branchStart: { dist: "gaussian", avg: 0.1, var: 0.2 },
+		branchStart: { dist: "gaussian", avg: 0.2, var: 0.1 },
 		branchSpacing: { avg: 0.15, var: 0.005 },
 		branchVerticalAngle:  { dist: "gaussian", avg: 1.57, var: 0.3 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
@@ -26,10 +26,10 @@
 		branchWidthMultiplier: { avg: 0.4, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-spruce-ud",
-		otherLogBlockCode: "log-resin-spruce-ud",
+		logBlockCode: "bdtree:log-grown-spruce-ud",
+		otherLogBlockCode: "bdtree:log-resin-spruce-ud",
 		otherLogChance: 0.02,
-		leavesBlockCode: "leaves-grown-spruce",
+		leavesBlockCode: "bdtree:leaves-grown-spruce",
 		leavesBranchyBlockCode: "leavesbranchy-grown-spruce",
 		mossDecorCode: "game:attachingplant-spottymoss"
 	}

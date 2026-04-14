@@ -27,8 +27,8 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-ash-ud",
-		leavesBlockCode: "leaves-grown-ash",
+		logBlockCode: "bdtree:log-grown-ash-ud",
+		leavesBlockCode: "bdtree:leaves-grown-ash",
 		leavesBranchyBlockCode: "leavesbranchy-grown-ash",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",

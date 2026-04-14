@@ -48,12 +48,12 @@
 		branchWidthMultiplier: { avg: 0.4, var: 0 }
 	}],
     "treeBlocks": {
-    	"logBlockCode": "log-grown-redcedar-ud",
-		"leavesBlockCode": "leaves-grown-redcedar",
+    	"logBlockCode": "bdtree:log-grown-redcedar-ud",
+		"leavesBlockCode": "bdtree:leaves-grown-redcedar",
 		"leavesBranchyBlockCode": "leavesbranchy-grown-redcedar",
 		"vinesBlockCode": "game:wildvine-section-north",
 		"vinesEndBlockCode": "game:wildvine-end-north",
-		"trunkSegmentBase": "logsection-grown-redcedar-",
+		"trunkSegmentBase": "bdtree:logsection-grown-redcedar-",
 		"trunkSegmentVariants": [ "ne", "se", "sw", "nw" ],
 		"mossDecorCode": "game:attachingplant-spottymoss"
 	}

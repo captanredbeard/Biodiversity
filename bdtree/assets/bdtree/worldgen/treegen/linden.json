@@ -1,8 +1,8 @@
 {
 	treeWorldPropertyCode: "linden",
-	sizeMultiplier: 1.2,
+	sizeMultiplier: 1.1,
 	trunks: [{
-		widthloss: 0.055,
+		widthloss: 0.06,
 		dieAt: { avg: 0.001 },
 		branchStart: { dist: "gaussian", avg: 0.15, var: 0.05 },
 		branchSpacing: { avg: 0.05, var: 0.05 },
@@ -27,8 +27,8 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "log-grown-linden-ud",
-		leavesBlockCode: "leaves-grown-linden",
+		logBlockCode: "bdtree:log-grown-linden-ud",
+		leavesBlockCode: "bdtree:leaves-grown-linden",
 		leavesBranchyBlockCode: "leavesbranchy-grown-linden",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"
