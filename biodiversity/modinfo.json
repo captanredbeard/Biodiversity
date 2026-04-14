@@ -12,6 +12,6 @@
   "description": "The Core mod for the Biodiversity Suite of mods",
   "version": "1.0.0",
   "dependencies": {
-    "game": "1.22.0-rc.5"
+    "game": "1.22.0-rc.8"
   }
 }
