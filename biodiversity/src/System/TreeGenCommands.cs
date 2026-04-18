@@ -93,12 +93,12 @@ namespace biodiversity.src.System
         {
             string filter = args[0] as string;
             float sizeincrement = (float)args[1];
-            
+
             float verticalspacing = (float)args[2];
             float horizontalspacing = (float)args[3];
 
             IServerPlayer player = args.Caller.Player as IServerPlayer;
-            return MultiTreeVariants(player,filter,sizeincrement,verticalspacing,horizontalspacing);
+            return MultiTreeVariants(player, filter, sizeincrement, verticalspacing, horizontalspacing);
         }
 
         private TextCommandResult OnCmdTreelineup(TextCommandCallingArgs args)
@@ -162,13 +162,13 @@ namespace biodiversity.src.System
             }
 
 
-            
+
             blockAccessorBulkUpdate.Commit();
             return TextCommandResult.Success();
-         
+
         }
 
-        private TextCommandResult MultiTreeVariants(IServerPlayer player, string filter,float sizeincrement, float verticalspacing, float horizontalspacing)
+        private TextCommandResult MultiTreeVariants(IServerPlayer player, string filter, float sizeincrement, float verticalspacing, float horizontalspacing)
         {
             //Get a Deduplicated list of treekeys
             List<string> treeKeys = treeGenProps.Select(t => t.Generator.ToString()).Distinct().ToList();
@@ -176,14 +176,14 @@ namespace biodiversity.src.System
 
             treeGenerators.LoadTreeGenerators();
             int i = 0;
-            
+
             //get start position
             var asBlockPos = player.Entity.Pos.AsBlockPos;
 
-            
+
 
             //remove entries except in fiter
-            if(!filter.Equals("*") && filter != null)
+            if (!filter.Equals("*") && filter != null)
             {
                 treeKeys = treeKeys.Where(k => k.Contains(filter, StringComparison.OrdinalIgnoreCase)).ToList();
             }
@@ -197,7 +197,7 @@ namespace biodiversity.src.System
             var blacklist = new[] { "large", "dead", "viney", "small", "dwarf" };
 
             var sortedBySimularity = treeKeys
-                .OrderByDescending(key => treeKeys.Count(other => other != key && 
+                .OrderByDescending(key => treeKeys.Count(other => other != key &&
                 AreStringsSimilar(
                   RemoveBlacklistedTerms(key, blacklist),
                   RemoveBlacklistedTerms(other, blacklist)
@@ -207,9 +207,9 @@ namespace biodiversity.src.System
 
             for (int j = 0; j < sortedBySimularity.Count; j++)
             {
-                SingleTreeVariant(player, sortedBySimularity[j], sizeincrement, asBlockPos.AddCopy(0, 0, j * verticalspacing),horizontalspacing);
+                SingleTreeVariant(player, sortedBySimularity[j], sizeincrement, asBlockPos.AddCopy(0, 0, j * verticalspacing), horizontalspacing);
             }
-            if (filter == "*") 
+            if (filter == "*")
             {
                 return TextCommandResult.Success(string.Concat("All possible variants generated."));
             }
@@ -233,6 +233,12 @@ namespace biodiversity.src.System
         {
             return a.Contains(b, StringComparison.OrdinalIgnoreCase) ||
                    b.Contains(a, StringComparison.OrdinalIgnoreCase);
+        }
+
+        private static float getSize(TreeVariant treeGen, float random)
+        {
+            //Pulled this from TreeGeneratorsUtil.GetSuitableTreeSize
+            return treeGen.MinSize + random * (treeGen.MaxSize - treeGen.MinSize) + treeGen.SuitabilitySizeBonus; ;
         }
     }
 }
