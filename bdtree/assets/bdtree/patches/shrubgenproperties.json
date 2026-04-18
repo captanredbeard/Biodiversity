@@ -1,0 +1,178 @@
+[
+  {
+    "op": "add",
+    "path": "/shrubgens/-",
+    "value": {
+      "Generator": "bdtree:shrubsaxaul",
+      "Weight": 100,
+      "MinSize": 0.7,
+      "MaxSize": 1,
+      "MinTemp": 18,
+      "MaxTemp": 50,
+      "MinRain": 0,
+      "MaxRain": 80,
+      "MinFert": 0,
+      "MaxFert": 100,
+      "MinForest": 0,
+      "MaxForest": 140,
+      "MinHeight": 0,
+      "MaxHeight": 0.5
+    },
+    "file": "game:worldgen/treengenproperties.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/shrubgens/-",
+    "value": {
+      "Generator": "bdtree:shrubalder",
+      "Weight": 3,
+      "MinSize": 0.7,
+      "MaxSize": 1,
+      "MinTemp": -12,
+      "MaxTemp": 8,
+      "MinRain": 90,
+      "MaxRain": 255,
+      "MinFert": 30,
+      "MaxFert": 230,
+      "MinForest": 50,
+      "MaxForest": 140,
+      "MinHeight": 0.0,
+      "MaxHeight": 0.45
+    },
+    "file": "game:worldgen/treengenproperties.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/shrubgens/-",
+    "value": {
+      "Generator": "bdtree:shrubwillow",
+      "Weight": 5,
+      "MinSize": 0.7,
+      "MaxSize": 1,
+      "MinTemp": -12,
+      "MaxTemp": 14,
+      "MinRain": 100,
+      "MaxRain": 255,
+      "MinFert": 0,
+      "MaxFert": 200,
+      "MinForest": 0,
+      "MaxForest": 120,
+      "MinHeight": 0.0,
+      "MaxHeight": 0.5
+    },
+    "file": "game:worldgen/treengenproperties.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/shrubgens/-",
+    "value": {
+      "Generator": "bdtree:shrubheather",
+      "Weight": 25,
+      "MinSize": 0.6,
+      "MaxSize": 0.8,
+      "MinTemp": -30,
+      "MaxTemp": -6,
+      "MinRain": 60,
+      "MaxRain": 190,
+      "MinFert": 0,
+      "MaxFert": 200,
+      "MinForest": 0,
+      "MaxForest": 140,
+      "MinHeight": 0.0,
+      "MaxHeight": 0.6
+    },
+    "file": "game:worldgen/treengenproperties.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/shrubgens/-",
+    "value": {
+      "Generator": "bdtree:shrubredwillow",
+      "Weight": 5,
+      "MinSize": 0.7,
+      "MaxSize": 1,
+      "MinTemp": -24,
+      "MaxTemp": -4,
+      "MinRain": 100,
+      "MaxRain": 255,
+      "MinFert": 0,
+      "MaxFert": 200,
+      "MinForest": 0,
+      "MaxForest": 120,
+      "MinHeight": 0.0,
+      "MaxHeight": 0.5
+    },
+    "file": "game:worldgen/treengenproperties.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/shrubgens/-",
+    "value": {
+      "Generator": "bdtree:shrubohia",
+      "Weight": 2,
+      "MinSize": 0.7,
+      "MaxSize": 1,
+      "MinTemp": 28,
+      "MaxTemp": 40,
+      "MinRain": 155,
+      "MaxRain": 230,
+      "MinFert": 90,
+      "MaxFert": 255,
+      "MinForest": 50,
+      "MaxForest": 230,
+      "MinHeight": 0,
+      "MaxHeight": 0.5
+    },
+    "file": "game:worldgen/treengenproperties.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/shrubgens/-",
+    "value": {
+      "Generator": "bdtree:shrubmousetrap",
+      "Weight": 100,
+      "MinSize": 0.8,
+      "MaxSize": 1.2,
+      "MinTemp": 27,
+      "MaxTemp": 40,
+      "MinRain": 190,
+      "MaxRain": 255,
+      "MinFert": 90,
+      "MaxFert": 255,
+      "MinForest": 0,
+      "MaxForest": 120,
+      "MinHeight": 0,
+      "MaxHeight": 0.5
+    },
+    "file": "game:worldgen/treengenproperties.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/shrubgens/-",
+    "value": {
+      "Generator": "bdtree:shrubthorns",
+      "Weight": 8,
+      "MinSize": 0.6,
+      "MaxSize": 1,
+      "MinTemp": 27,
+      "MaxTemp": 40,
+      "MinRain": 80,
+      "MaxRain": 140,
+      "MinFert": 50,
+      "MaxFert": 240,
+      "MinForest": 50,
+      "MaxForest": 220,
+      "MinHeight": 0,
+      "MaxHeight": 0.8
+    },
+    "file": "game:worldgen/treengenproperties.json",
+    "side": "server"
+  }
+]
