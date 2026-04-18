@@ -30,7 +30,7 @@
 		otherLogBlockCode: "bdtree:log-resin-fir-ud",
 		otherLogChance: 0.01,
 		leavesBlockCode: "bdtree:leaves-grown-fir",
-		leavesBranchyBlockCode: "leavesbranchy-grown-fir",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-fir",
 		mossDecorCode: "game:attachingplant-spottymoss"
 	}
 }

@@ -29,7 +29,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-willow-ud",
 		leavesBlockCode: "bdtree:leaves-grown-weepingwillow",
-		leavesBranchyBlockCode: "leavesbranchy-grown-weepingwillow",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-weepingwillow",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

@@ -27,7 +27,7 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-birch-ud",
+		logBlockCode: "bdtree:lognarrow-grown-birch-ud",
 		leavesBlockCode: "game:leaves-grown-birch",
 		leavesBranchyBlockCode: "game:leavesbranchy-grown-birch",
 		vinesBlockCode: "game:wildvine-section-north",

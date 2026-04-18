@@ -27,9 +27,9 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-brideinwhite-ud",
+		logBlockCode: "bdtree:lognarrow-grown-brideinwhite-ud",
 		leavesBlockCode: "bdtree:leaves-grown-brideinwhite",
-		leavesBranchyBlockCode: "leavesbranchy-grown-brideinwhite",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-brideinwhite",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

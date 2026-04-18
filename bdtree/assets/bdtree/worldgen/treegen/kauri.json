@@ -30,7 +30,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-kauri-ud",
 		leavesBlockCode: "bdtree:leaves-grown-kauri",
-		leavesBranchyBlockCode: "leavesbranchy-grown-kauri",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-kauri",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

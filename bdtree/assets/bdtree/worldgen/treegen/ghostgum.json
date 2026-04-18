@@ -33,7 +33,7 @@
 		otherLogBlockCode: "bdtree:log-resin-ghostgum-ud",
 		otherLogChance: 0.02,
 		leavesBlockCode: "bdtree:leaves-grown-ghostgum",
-		leavesBranchyBlockCode: "leavesbranchy-grown-ghostgum",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-ghostgum",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

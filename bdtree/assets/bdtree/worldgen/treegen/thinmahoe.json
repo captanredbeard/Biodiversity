@@ -28,9 +28,9 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-bluemahoe-ud",
+		logBlockCode: "bdtree:lognarrow-grown-bluemahoe-ud",
 		leavesBlockCode: "bdtree:leaves-grown-bluemahoe",
-		leavesBranchyBlockCode: "leavesbranchy-grown-bluemahoe",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-bluemahoe",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north"
 	}

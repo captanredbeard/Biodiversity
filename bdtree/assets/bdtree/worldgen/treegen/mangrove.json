@@ -30,7 +30,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-mangrove-ud",
 		leavesBlockCode: "bdtree:leaves-grown-mangrove",
-		leavesBranchyBlockCode: "leavesbranchy-grown-mangrove",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-mangrove",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

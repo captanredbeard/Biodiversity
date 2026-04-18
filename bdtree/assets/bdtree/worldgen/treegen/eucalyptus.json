@@ -32,7 +32,7 @@
 		otherLogBlockCode: "bdtree:log-resin-eucalyptus-ud",
 		otherLogChance: 0.02,
 		leavesBlockCode: "bdtree:leaves-grown-eucalyptus",
-		leavesBranchyBlockCode: "leavesbranchy-grown-eucalyptus",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-eucalyptus",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

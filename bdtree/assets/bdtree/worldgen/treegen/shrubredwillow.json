@@ -20,8 +20,8 @@
 		branchStart:  { avg: 2, var: 0.01 },
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-redwillow-ud",
+		logBlockCode: "bdtree:lognarrow-grown-redwillow-ud",
 		leavesBlockCode: "bdtree:leaves-grown-redwillow",
-		leavesBranchyBlockCode: "leavesbranchy-grown-redwillow",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-redwillow",
 	}
 }

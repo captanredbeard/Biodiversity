@@ -30,7 +30,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-catalpa-ud",
 		leavesBlockCode: "bdtree:leaves-grown-catalpa",
-		leavesBranchyBlockCode: "leavesbranchy-grown-catalpa",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-catalpa",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

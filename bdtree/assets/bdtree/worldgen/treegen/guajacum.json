@@ -30,7 +30,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-guajacum-ud",
 		leavesBlockCode: "bdtree:leaves-grown-guajacum",
-		leavesBranchyBlockCode: "leavesbranchy-grown-guajacum",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-guajacum",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

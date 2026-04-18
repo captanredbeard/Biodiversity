@@ -20,8 +20,8 @@
 		branchStart:  { avg: 2, var: 0.01 },
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-heather-ud",
+		logBlockCode: "bdtree:lognarrow-grown-heather-ud",
 		leavesBlockCode: "bdtree:leaves-grown-heather",
-		leavesBranchyBlockCode: "leavesbranchy-grown-heather",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-heather",
 	}
 }

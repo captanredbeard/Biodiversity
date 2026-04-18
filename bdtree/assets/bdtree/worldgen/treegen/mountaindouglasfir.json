@@ -30,7 +30,7 @@
 		"otherLogBlockCode": "bdtree:log-resin-douglasfir-ud",
 		"otherLogChance": 0.02,
 		"leavesBlockCode": "bdtree:leaves-grown-douglasfir",
-		"leavesBranchyBlockCode": "leavesbranchy-grown-douglasfir",
+		"leavesBranchyBlockCode": "bdtree:leavesbranchy-grown-douglasfir",
 		"vinesBlockCode": "game:wildvine-section-north",
 		"vinesEndBlockCode": "game:wildvine-end-north",
 		"mossDecorCode": "game:attachingplant-spottymoss"

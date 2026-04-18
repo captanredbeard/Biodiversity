@@ -30,7 +30,7 @@
 		otherLogBlockCode: "bdtree:log-resin-cedar-ud",
 		otherLogChance: 0.01,
 		leavesBlockCode: "bdtree:leaves-grown-cedar",
-		leavesBranchyBlockCode: "leavesbranchy-grown-cedar",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-cedar",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

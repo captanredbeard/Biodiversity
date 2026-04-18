@@ -21,8 +21,8 @@
 		branchStart:  { avg: 2, var: 0.01 },
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-crownofthorns-ud",
+		logBlockCode: "bdtree:lognarrow-grown-crownofthorns-ud",
 		leavesBlockCode: "bdtree:leaves-grown-crownofthorns",
-		leavesBranchyBlockCode: "leavesbranchy-grown-crownofthorns",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-crownofthorns",
 	}
 }

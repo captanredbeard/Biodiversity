@@ -29,7 +29,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-saxaul-ud",
 		leavesBlockCode: "bdtree:leaves-grown-saxaul",
-		leavesBranchyBlockCode: "leavesbranchy-grown-saxaul",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-saxaul",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north"
 	}

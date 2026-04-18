@@ -22,7 +22,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-tuja-ud",
 		leavesBlockCode: "bdtree:leaves-grown-tuja",
-		leavesBranchyBlockCode: "leavesbranchy-grown-tuja",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-tuja",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"
 	}

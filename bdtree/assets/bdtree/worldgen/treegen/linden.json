@@ -29,7 +29,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-linden-ud",
 		leavesBlockCode: "bdtree:leaves-grown-linden",
-		leavesBranchyBlockCode: "leavesbranchy-grown-linden",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-linden",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"
 	}

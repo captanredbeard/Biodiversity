@@ -27,10 +27,10 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-aspen-ud",
-		leavesBlockCode: "bdtree:leaves-grown-aspen",
-		leavesBranchyBlockCode: "leavesbranchy-grown-aspen",
-		vinesBlockCode: "game:wildvine-section-north",
-		vinesEndBlockCode: "game:wildvine-end-north"
+		"logBlockCode": "bdtree:lognarrow-grown-aspen-ud",
+		"leavesBlockCode": "bdtree:leaves-grown-aspen",
+		"leavesBranchyBlockCode": "bdtree:leavesbranchy-grown-aspen",
+		"vinesBlockCode": "game:wildvine-section-north",
+		"vinesEndBlockCode": "game:wildvine-end-north"
 	}
 }

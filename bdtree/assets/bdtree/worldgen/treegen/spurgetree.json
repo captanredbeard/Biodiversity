@@ -30,7 +30,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-spurgetree-ud",
 		leavesBlockCode: "bdtree:leaves-grown-spurgetree",
-		leavesBranchyBlockCode: "leavesbranchy-grown-spurgetree",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-spurgetree",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

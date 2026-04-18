@@ -30,7 +30,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-empresstree-ud",
 		leavesBlockCode: "bdtree:leaves-grown-empresstree",
-		leavesBranchyBlockCode: "leavesbranchy-grown-empresstree",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-empresstree",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"
 	}

@@ -20,9 +20,9 @@
 		branchStart:  { avg: 2, var: 0.01 },
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-mousetrap-ud",
+		logBlockCode: "bdtree:lognarrow-grown-mousetrap-ud",
 		leavesBlockCode: "bdtree:leaves-grown-mousetrap",
-		leavesBranchyBlockCode: "leavesbranchy-grown-mousetrap",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-mousetrap",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north"
 	}

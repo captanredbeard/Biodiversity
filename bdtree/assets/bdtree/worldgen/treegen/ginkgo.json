@@ -31,7 +31,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-ginkgo-ud",
 		leavesBlockCode: "bdtree:leaves-grown-ginkgo",
-		leavesBranchyBlockCode: "leavesbranchy-grown-ginkgo",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-ginkgo",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

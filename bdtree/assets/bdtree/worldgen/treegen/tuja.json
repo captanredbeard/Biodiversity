@@ -31,7 +31,7 @@
 		otherLogBlockCode: "bdtree:log-resin-tuja-ud",
 		otherLogChance: 0.02,
 		leavesBlockCode: "bdtree:leaves-grown-tuja",
-		leavesBranchyBlockCode: "leavesbranchy-grown-tuja",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-tuja",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"
 	}

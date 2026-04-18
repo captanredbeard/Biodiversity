@@ -51,7 +51,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-elm-ud",
 		leavesBlockCode: "bdtree:leaves-grown-elm",
-		leavesBranchyBlockCode: "leavesbranchy-grown-elm",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-elm",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss",

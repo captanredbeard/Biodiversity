@@ -30,7 +30,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-ohia-ud",
 		leavesBlockCode: "bdtree:leaves-grown-ohia",
-		leavesBranchyBlockCode: "leavesbranchy-grown-ohia",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-ohia",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

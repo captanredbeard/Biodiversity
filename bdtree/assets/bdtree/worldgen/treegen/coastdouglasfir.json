@@ -50,7 +50,7 @@
     "treeBlocks": {
     	"logBlockCode": "bdtree:log-grown-douglasfir-ud",
 		"leavesBlockCode": "bdtree:leaves-grown-douglasfir",
-		"leavesBranchyBlockCode": "leavesbranchy-grown-douglasfir",
+		"leavesBranchyBlockCode": "bdtree:leavesbranchy-grown-douglasfir",
 		"vinesBlockCode": "game:wildvine-section-north",
 		"vinesEndBlockCode": "game:wildvine-end-north",
 		"trunkSegmentBase": "bdtree:logsection-grown-douglasfir-",

@@ -27,9 +27,9 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-sourwood-ud",
+		logBlockCode: "bdtree:lognarrow-grown-sourwood-ud",
 		leavesBlockCode: "bdtree:leaves-grown-sourwood",
-		leavesBranchyBlockCode: "leavesbranchy-grown-sourwood",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-sourwood",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

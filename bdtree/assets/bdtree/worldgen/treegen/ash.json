@@ -27,11 +27,11 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-ash-ud",
-		leavesBlockCode: "bdtree:leaves-grown-ash",
-		leavesBranchyBlockCode: "leavesbranchy-grown-ash",
-		vinesBlockCode: "game:wildvine-section-north",
-		vinesEndBlockCode: "game:wildvine-end-north",
-		mossDecorCode: "game:attachingplant-spottymoss"
+		"logBlockCode": "bdtree:log-grown-ash-ud",
+		"leavesBlockCode": "bdtree:leaves-grown-ash",
+		"leavesBranchyBlockCode": "bdtree:leavesbranchy-grown-ash",
+		"vinesBlockCode": "game:wildvine-section-north",
+		"vinesEndBlockCode": "game:wildvine-end-north",
+		"mossDecorCode": "game:attachingplant-spottymoss"
 	}
 }

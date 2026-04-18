@@ -29,7 +29,7 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-horsechestnut-ud",
 		leavesBlockCode: "bdtree:leaves-grown-horsechestnut",
-		leavesBranchyBlockCode: "leavesbranchy-grown-horsechestnut",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-horsechestnut",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

@@ -50,7 +50,7 @@
     "treeBlocks": {
     	"logBlockCode": "bdtree:log-grown-redcedar-ud",
 		"leavesBlockCode": "bdtree:leaves-grown-redcedar",
-		"leavesBranchyBlockCode": "leavesbranchy-grown-redcedar",
+		"leavesBranchyBlockCode": "bdtree:leavesbranchy-grown-redcedar",
 		"vinesBlockCode": "game:wildvine-section-north",
 		"vinesEndBlockCode": "game:wildvine-end-north",
 		"trunkSegmentBase": "bdtree:logsection-grown-redcedar-",

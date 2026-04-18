@@ -1,6 +1,6 @@
 {
 	treeWorldPropertyCode: "banyan",
-        isTropical: true,
+  isTropical: true,
 	sizeMultiplier: 0.9,
 	trunks: [{
 		widthloss: 0.1,
@@ -28,11 +28,11 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-banyan-ud",
-		leavesBlockCode: "bdtree:leaves-grown-banyan",
-		leavesBranchyBlockCode: "leavesbranchy-grown-banyan",
-		vinesBlockCode: "game:wildvine-tropical-section-north",
-		vinesEndBlockCode: "game:wildvine-tropical-end-north",
-		mossDecorCode: "game:attachingplant-spottymoss"
+		"logBlockCode": "bdtree:log-grown-banyan-ud",
+		"leavesBlockCode": "bdtree:leaves-grown-banyan",
+		"leavesBranchyBlockCode": "bdtree:leavesbranchy-grown-banyan",
+		"vinesBlockCode": "game:wildvine-tropical-section-north",
+		"vinesEndBlockCode": "game:wildvine-tropical-end-north",
+		"mossDecorCode": "game:attachingplant-spottymoss"
 	}
 }

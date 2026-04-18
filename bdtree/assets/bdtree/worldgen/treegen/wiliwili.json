@@ -29,9 +29,9 @@
 		branchWidthMultiplier: { avg: 0.38, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-wiliwili-ud",
+		logBlockCode: "bdtree:lognarrow-grown-wiliwili-ud",
 		leavesBlockCode: "bdtree:leaves-grown-wiliwili",
-		leavesBranchyBlockCode: "leavesbranchy-grown-wiliwili",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-wiliwili",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

@@ -32,7 +32,7 @@
 		otherLogBlockCode: "bdtree:log-resin-tamanu-ud",
 		otherLogChance: 0.02,
 		leavesBlockCode: "bdtree:leaves-grown-tamanu",
-		leavesBranchyBlockCode: "leavesbranchy-grown-tamanu",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-tamanu",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

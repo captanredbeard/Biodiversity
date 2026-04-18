@@ -22,6 +22,6 @@
 	treeBlocks: {
 		logBlockCode: "bdtree:log-grown-willow-ud",
 		leavesBlockCode: "bdtree:leaves-grown-willow",
-		leavesBranchyBlockCode: "leavesbranchy-grown-willow",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-willow",
 	}
 }
