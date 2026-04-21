@@ -12,6 +12,11 @@
 			"loadFromProperties": "bdtree:block/wood"
 		}
 	],
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "boat-{type}-*" ]
+		}
+	},
 	"shapeByType": {
 		"boat-raft-*": { "base": "game:entity/nonliving/boat/raft" },
 		"boat-sailed-*": {

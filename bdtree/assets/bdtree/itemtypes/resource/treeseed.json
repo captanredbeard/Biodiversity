@@ -15,7 +15,7 @@
 			"loadFromProperties": "bdtree:block/wood"
 		}
 	],
-	"skipVariants": [ "*-chlorociboria", "*-charred" ],
+	"skipVariants": ["*-charred" ],
 	"shape": { "base": "item/resource/seeds/{type}" },
 	"creativeinventory": {
 		"general": [ "*" ],

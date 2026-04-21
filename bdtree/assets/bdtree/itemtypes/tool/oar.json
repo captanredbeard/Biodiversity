@@ -5,6 +5,9 @@
 		"attachableToEntity": {
 			"categoryCode": "oar",
 			"attachedShape": { "base": "game:item/tool/oar-crude-rafted" }
+		},
+		"handbook": {
+			"groupBy": [ "oar-*" ]
 		}
 	},
 	"variantgroups": [
