@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cairo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Vintagestory.API.Common;
@@ -71,12 +72,12 @@ namespace biodiversity.src.System
                     .BeginSubCommand("single")
                     .WithDescription("Generates a line of all tree variants of the treeWorldPropertyCode within it's worldgen size params")
                     .RequiresPlayer()
-                    .WithArgs(parsers.Word("treeWorldPropertyCode", array), parsers.OptionalFloat("sizeincrement", 0.2f), parsers.OptionalFloat("horizontalspacing", 12))
+                    .WithArgs(parsers.Word("treeWorldPropertyCode", array), parsers.OptionalFloat("sizeincrement", 0.2f), parsers.OptionalFloat("horizontalspacing", 12), parsers.OptionalFloat("climatesuitability", 0f))
                     .HandleWith(OnCmdTreelineup)
                     .EndSubCommand()
 
                     .BeginSubCommand("multi")
-                    .WithArgs(parsers.Word("treeWorldPropertyFilter", array2), parsers.OptionalFloat("sizeincrement", 0.2f), parsers.OptionalFloat("verticalspacing", 12), parsers.OptionalFloat("horizontalspacing", 12))
+                    .WithArgs(parsers.Word("treeWorldPropertyFilter", array2), parsers.OptionalFloat("sizeincrement", 0.2f), parsers.OptionalFloat("verticalspacing", 12), parsers.OptionalFloat("horizontalspacing", 12), parsers.OptionalFloat("climatesuitability", 0f))
                     .WithDescription("Generates all tree variants loaded ingame in a grid")
                     .RequiresPlayer()
                     .HandleWith(OnCmdMultiTreeVariants)
@@ -93,26 +94,26 @@ namespace biodiversity.src.System
         {
             string filter = args[0] as string;
             float sizeincrement = (float)args[1];
-
             float verticalspacing = (float)args[2];
             float horizontalspacing = (float)args[3];
+            float climatesuitability = (float)args[4];
 
             IServerPlayer player = args.Caller.Player as IServerPlayer;
-            return MultiTreeVariants(player, filter, sizeincrement, verticalspacing, horizontalspacing);
+            return MultiTreeVariants(player, filter, sizeincrement, verticalspacing, horizontalspacing, climatesuitability);
         }
 
         private TextCommandResult OnCmdTreelineup(TextCommandCallingArgs args)
         {
             string asset = args[0] as string;
             float sizeincrement = (float)args[1];
-
             float horizontalspacing = (float)args[2];
+            float climatesuitability = (float)args[3];
 
             IServerPlayer player = args.Caller.Player as IServerPlayer;
-            return SingleTreeVariant(player, asset, sizeincrement, player.Entity.Pos.HorizontalAheadCopy(25.0).AsBlockPos, horizontalspacing);
+            return SingleTreeVariant(player, asset, sizeincrement, player.Entity.Pos.HorizontalAheadCopy(25.0).AsBlockPos, horizontalspacing, climatesuitability);
         }
 
-        private TextCommandResult SingleTreeVariant(IServerPlayer player, string asset, float sizeincrement, BlockPos asBlockPos, float horizontalspacing)
+        private TextCommandResult SingleTreeVariant(IServerPlayer player, string asset, float sizeincrement, BlockPos asBlockPos, float horizontalspacing,float climateSuitability)
         {
 
             TreeVariant[] treeVariants = treeGenProps.Where(t => t.Generator.Equals(asset)).ToArray();
@@ -123,6 +124,9 @@ namespace biodiversity.src.System
 
             IBlockAccessor blockAccessorBulkUpdate = api.World.GetBlockAccessorBulkUpdate(synchronize: true, relight: true, debug: true);
             AssetLocation treeName = new AssetLocation(asset);
+
+            var rnd = new LCGRandom();
+
             int num = 12;
             for (int i = -2 * num; i < 2 * num; i++)
             {
@@ -139,7 +143,8 @@ namespace biodiversity.src.System
             {
                 var treeProps = treeVariants[i];
                 var treeNum = (int)((treeProps.MaxSize + treeProps.SuitabilitySizeBonus - treeProps.MinSize) / sizeincrement);
-                var s = treeProps.MinSize;
+
+                var s = 0f;
                 //default sizes
                 /*
                 public float MinSize = 0.2f;
@@ -148,13 +153,13 @@ namespace biodiversity.src.System
                 */
 
                 treeGenerators.ReloadTreeGenerators();
-                var realMaxSize = treeProps.MaxSize + treeProps.SuitabilitySizeBonus;
+                var realMaxSize = getSize(treeProps, 1f, climateSuitability);
 
                 while (s >= 0 && s <= realMaxSize)
                 {
                     treeGenerators.RunGenerator(treeName, blockAccessorBulkUpdate, asBlockPos.AddCopy(num2 * horizontalspacing, -1, 0), new TreeGenParams
                     {
-                        size = s,
+                        size = getSize(treeProps, s, climateSuitability),
                     });
                     s += sizeincrement;
                     num2++;
@@ -168,7 +173,7 @@ namespace biodiversity.src.System
 
         }
 
-        private TextCommandResult MultiTreeVariants(IServerPlayer player, string filter, float sizeincrement, float verticalspacing, float horizontalspacing)
+        private TextCommandResult MultiTreeVariants(IServerPlayer player, string filter, float sizeincrement, float verticalspacing, float horizontalspacing, float climateSuitability)
         {
             //Get a Deduplicated list of treekeys
             List<string> treeKeys = treeGenProps.Select(t => t.Generator.ToString()).Distinct().ToList();
@@ -207,7 +212,7 @@ namespace biodiversity.src.System
 
             for (int j = 0; j < sortedBySimularity.Count; j++)
             {
-                SingleTreeVariant(player, sortedBySimularity[j], sizeincrement, asBlockPos.AddCopy(0, 0, j * verticalspacing), horizontalspacing);
+                SingleTreeVariant(player, sortedBySimularity[j], sizeincrement, asBlockPos.AddCopy(0, 0, j * verticalspacing), horizontalspacing,climateSuitability);
             }
             if (filter == "*")
             {
@@ -235,10 +240,10 @@ namespace biodiversity.src.System
                    b.Contains(a, StringComparison.OrdinalIgnoreCase);
         }
 
-        private static float getSize(TreeVariant treeGen, float random)
+        //VintageStory.Servermods.WgenTreeSupplier.GetRandomGenForClimate
+        private static float getSize(TreeVariant treeGen, float random, float climateSuitability)
         {
-            //Pulled this from TreeGeneratorsUtil.GetSuitableTreeSize
-            return treeGen.MinSize + random * (treeGen.MaxSize - treeGen.MinSize) + treeGen.SuitabilitySizeBonus; ;
+            return treeGen.MinSize + random * (treeGen.MaxSize - treeGen.MinSize) + (GameMath.Clamp(0.7f - climateSuitability, 0f, 0.7f) * 1f / 0.7f * treeGen.SuitabilitySizeBonus);
         }
     }
 }
