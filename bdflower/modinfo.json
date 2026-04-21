@@ -13,7 +13,7 @@
   "description": "New decorative flowers and grasses to make your world more vibrant. Part of the Biodiversity Suite",
   "version": "0.2.0",
   "dependencies": {
-    "game": "1.22.0-rc.5",
-    "biodiversity": "1.0.0"
+    "game": "1.22.0",
+    "biodiversity": "1.1.1"
   }
 }

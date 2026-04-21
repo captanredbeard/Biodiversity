@@ -10,8 +10,8 @@
   "contributors": ["Pizza2004" ],
   "website": "https://discord.com/invite/w79wShAD8q",
   "description": "The Core mod for the Biodiversity Suite of mods",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "dependencies": {
-    "game": "1.22.0-rc.8"
+    "game": "1.22.0"
   }
 }

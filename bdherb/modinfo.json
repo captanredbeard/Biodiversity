@@ -13,7 +13,7 @@
   "description": "Adds many new herbs and roots for you to forage in the world. Part of the Biodiversity Suite",
   "version": "0.2.0",
   "dependencies": {
-    "game": "1.22.0-rc.5",
-    "biodiversity": "1.0.0"
+    "game": "1.22.0",
+    "biodiversity": "1.1.1"
   }
 }
