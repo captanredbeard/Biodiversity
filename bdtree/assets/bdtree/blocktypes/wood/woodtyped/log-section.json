@@ -28,7 +28,7 @@
 		},
 		{
 			"code": "wood",
-			"states": [ "douglasfir", "redcedar", "kauri", "sycamore", "banyan", "elm", "tamanu" ]
+			"loadFromProperties": "bdtree:block/woodsection"
 		},
 		{
 			"code": "segment",

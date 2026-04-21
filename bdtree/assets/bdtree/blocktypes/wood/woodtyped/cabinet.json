@@ -3,13 +3,13 @@
 	"code": "cabinet",
 	"shape": {
 		"base": "game:block/wood/cabinet/1block/{section}",
-		"ignoreElements": [ "psurface0-w14-h5-d9-shelf", "psurface1-w14-h5-d9-shelf" ],
+		"ignoreElements": [ "psurface0-w14-h5-d9-shelf", "psurface1-w14-h5-d9-shelf", "psurface0-w14-h6-d9-shelf", "psurface1-w14-h6-d9-shelf" ],
 		"rotateY": 0
 	},
 	"attributes": {
 		"materialTypes": [ "wood", "metal", "glass" ],
 		"translationEntries": [ "material-{wood}", "material-{metal}", "glass-{glass}" ],
-		"defaults": [ "oak", "iron", "vintage" ],
+		"defaults": [ "ash", "iron", "vintage" ],
 		"textureMappingByType": {
 			"cabinet-middle": {
 				"doors": "bdtree:block/wood/cabinet/1block/doors/solid/middle/{wood}",
@@ -83,11 +83,6 @@
 					"type": "block",
 					"code": "cabinet-{section}",
 					"attributes": { "wood": "cedar" }
-				},
-				{
-					"type": "block",
-					"code": "cabinet-{section}",
-					"attributes": { "wood": "chlorociboria" }
 				},
 				{
 					"type": "block",
