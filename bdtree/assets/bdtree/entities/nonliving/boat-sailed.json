@@ -491,11 +491,11 @@
 		],
 		"texturesByType": {
 			"*": {
-				"material": { "base": "bdtree:block/wood/debarked/{material}" },
-				"oak": { "base": "bdtree:block/wood/debarked/{material}" },
+				"material": { "base": "game:block/wood/debarked/{material}" },
+				"oak": { "base": "game:block/wood/debarked/{material}" },
 				"oak1": { "base": "bdtree:block/wood/planks/{material}*" },
 				"birch1": { "base": "bdtree:block/wood/planks/{material}*" },
-				"plainoak": { "base": "bdtree:block/wood/debarked/{material}" }
+				"plainoak": { "base": "game:block/wood/debarked/{material}" }
 			}
 		},
 		"behaviors": [

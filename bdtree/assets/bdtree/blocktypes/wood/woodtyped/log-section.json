@@ -62,7 +62,7 @@
 	"textures": {
 		"bark": { "base": "block/wood/bark/{wood}-2x2" },
 		"wood": { "base": "block/wood/treetrunk/{wood}-2x2" },
-		"inside": { "base": "block/wood/debarked/{wood}-2x2" },
+		"inside": { "base": "game:block/wood/debarked/{wood}-2x2" },
 
 		"north": { "base": "block/wood/treetrunk/{wood}" },
 		"up": { "base": "block/wood/treetrunk/{wood}" },
@@ -72,10 +72,10 @@
 		"west": { "base": "block/wood/bark/{wood}" },
 
 
-		"inside-north": { "base": "block/wood/debarked/{wood}" },
-		"inside-east": { "base": "block/wood/debarked/{wood}" },
-		"inside-south": { "base": "block/wood/debarked/{wood}" },
-		"inside-west": { "base": "block/wood/debarked/{wood}" }
+		"inside-north": { "base": "game:block/wood/debarked/{wood}" },
+		"inside-east": { "base": "game:block/wood/debarked/{wood}" },
+		"inside-south": { "base": "game:block/wood/debarked/{wood}" },
+		"inside-west": { "base": "game:block/wood/debarked/{wood}" }
 
 	},
 	"replaceable": 500,

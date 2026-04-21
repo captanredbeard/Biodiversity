@@ -91,10 +91,12 @@
 	},
 	"textures": {
 		"horizontal": {
-			"baseByType": {
-				"*": "block/wood/debarked/{wood}"
-			},
+			"base": "game:block/wood/debarked/{wood}",
 			"overlays": [ "game:block/slightlydarker" ]
+		},
+		"vertical": {
+			"base": "game:block/wood/debarked/{wood}",
+			"rotation": 90
 		}
 	}
 }

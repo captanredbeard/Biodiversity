@@ -14,10 +14,11 @@
 	],
 	"attributes": {
 		"handbook": {
-			"groupBy": [ "boat-{type}-*" ]
+			"groupBy": [ "game:boat-{type}-*" ]
 		}
 	},
 	"shapeByType": {
+		"*-bamboo": { "base": "game:entity/nonliving/boat/raft-bamboo" },
 		"boat-raft-*": { "base": "game:entity/nonliving/boat/raft" },
 		"boat-sailed-*": {
 			"base": "game:entity/nonliving/boat/sailed",
@@ -25,13 +26,12 @@
 		}
 	},
 	"texturesByType": {
-		"*-bamboo": {},
 		"*": {
-			"material": { "base": "bdtree:block/wood/debarked/{material}" },
-			"oak": { "base": "bdtree:block/wood/debarked/{material}" },
+			"material": { "base": "game:block/wood/debarked/{material}" },
+			"oak": { "base": "game:block/wood/debarked/{material}" },
 			"oak1": { "base": "bdtree:block/wood/planks/{material}*" },
 			"birch1": { "base": "bdtree:block/wood/planks/{material}*" },
-			"plainoak": { "base": "bdtree:block/wood/debarked/{material}" }
+			"plainoak": { "base": "game:block/wood/debarked/{material}" }
 
 		}
 	},

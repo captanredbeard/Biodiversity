@@ -27,7 +27,7 @@
 			"base": "block/wood/bark/{wood}",
 			"rotation": 270
 		},
-		"debarked": { "base": "block/wood/debarked/{wood}" }
+		"debarked": { "base": "game:block/wood/debarked/{wood}" }
 	},
 	"creativeinventory": {
 		"general": [ "*" ],

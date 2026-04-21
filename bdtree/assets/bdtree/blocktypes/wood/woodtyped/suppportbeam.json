@@ -13,5 +13,8 @@
 		"construction": [ "*" ],
 		"bdtree": [ "*" ]
 	},
-	"shape": { "base": "game:block/wood/supportbeam/16" }
+	"shape": { "base": "game:block/wood/supportbeam/16" },
+	"textures": {
+		"wood": { "base": "game:block/wood/debarked/{wood}" }
+	}
 }

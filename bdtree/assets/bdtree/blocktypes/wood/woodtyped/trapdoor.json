@@ -27,7 +27,7 @@
 	"texturesByType": {
 		"*": {
 			"material": {
-				"base": "block/wood/debarked/{material}",
+				"base": "game:block/wood/debarked/{material}",
 				"blendedOverlays": [
 					{
 						"base": "game:block/wood/trapdoor/overlay",

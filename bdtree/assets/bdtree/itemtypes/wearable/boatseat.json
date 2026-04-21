@@ -10,7 +10,11 @@
 	],
 	"skipVariants": [ "*-petrified" ],
 	"shape": { "base": "game:item/wearable/boatseat" },
-
+	"textures": {
+		"wood": {
+			"base": "game:block/wood/debarked/{wood}"
+		}
+	},
 	"attributes": {
 	},
 	"maxStackSize": 8,
@@ -49,6 +53,6 @@
 			"z": 0.5
 		},
 		"scale": 0.71
-	},
+	}
 
 }

@@ -35,7 +35,7 @@
 		}
 	},
 	"textures": {
-		"all": { "base": "block/wood/debarked/{wood}" }
+		"all": { "base": "game:block/wood/debarked/{wood}" }
 	},
 	"attributes": {
 		"handbook": {

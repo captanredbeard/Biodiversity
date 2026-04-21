@@ -214,7 +214,7 @@
     },
     "*-ud": {
       "all": {
-        "base": "block/wood/debarked/{wood}",
+        "base": "game:block/wood/debarked/{wood}",
         "rotation": 90
       },
       "up": { "base": "block/wood/treetrunk/{wood}" },
@@ -222,16 +222,16 @@
     },
     "*-ns": {
       "all": {
-        "base": "block/wood/debarked/{wood}",
+        "base": "game:block/wood/debarked/{wood}",
         "rotation": 90
       },
-      "east": { "base": "block/wood/debarked/{wood}" },
-      "west": { "base": "block/wood/debarked/{wood}" },
+      "east": { "base": "game:block/wood/debarked/{wood}" },
+      "west": { "base": "game:block/wood/debarked/{wood}" },
       "north": { "base": "block/wood/treetrunk/{wood}" },
       "south": { "base": "block/wood/treetrunk/{wood}" }
     },
     "*-we": {
-      "all": { "base": "block/wood/debarked/{wood}" },
+      "all": { "base": "game:block/wood/debarked/{wood}" },
       "west": { "base": "block/wood/treetrunk/{wood}" },
       "east": { "base": "block/wood/treetrunk/{wood}" }
     }
