@@ -48,11 +48,6 @@
 				{
 					"type": "item",
 					"code": "cabinetdoor-{size}-{type}",
-					"attributes": { "wood": "chlorociboria" }
-				},
-				{
-					"type": "item",
-					"code": "cabinetdoor-{size}-{type}",
 					"attributes": { "wood": "dalbergia" }
 				},
 				{

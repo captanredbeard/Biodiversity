@@ -29,7 +29,7 @@
 				shape: { base: "game:block/wood/crate/label-wood" }
 			}
 		},
-		types: [ "wood-cedar", "wood-fir", "wood-spruce", "wood-douglasfir", "wood-tuja", "wood-redcedar", "wood-yew", "wood-kauri", "wood-ginkgo", "wood-sycamore", "wood-honeylocust", "wood-dalbergia", "wood-umnini", "wood-banyan", "wood-elm", "wood-beech", "wood-bearnut", "wood-willow", "wood-poplar", "wood-tamanu", "wood-spurgetree", "wood-azobe", "wood-guajacum", "wood-eucalyptus", "wood-ghostgum", "wood-ohia", "wood-satinash", "wood-leadwood", "wood-bluemahoe", "wood-linden", "wood-sal", "wood-horsechestnut", "wood-tigerwood", "wood-mahogany", "wood-sapele", "wood-saxaul", "wood-ash", "wood-catalpa", "wood-rosewood", "wood-mangrove", "wood-empresstree", "wood-charred", "wood-chlorociboria" ],
+		types: [ "wood-cedar", "wood-fir", "wood-spruce", "wood-douglasfir", "wood-tuja", "wood-redcedar", "wood-yew", "wood-kauri", "wood-ginkgo", "wood-sycamore", "wood-honeylocust", "wood-dalbergia", "wood-umnini", "wood-banyan", "wood-elm", "wood-beech", "wood-bearnut", "wood-willow", "wood-poplar", "wood-tamanu", "wood-spurgetree", "wood-azobe", "wood-guajacum", "wood-eucalyptus", "wood-ghostgum", "wood-ohia", "wood-satinash", "wood-leadwood", "wood-bluemahoe", "wood-linden", "wood-sal", "wood-horsechestnut", "wood-tigerwood", "wood-mahogany", "wood-sapele", "wood-saxaul", "wood-ash", "wood-catalpa", "wood-rosewood", "wood-mangrove", "wood-empresstree", "wood-charred" ],
 		properties: {
 			"wood-bluemahoe": {
 				quantitySlots: 25,
@@ -72,16 +72,6 @@
 				}
 			},
 			"wood-saxaul": {
-				quantitySlots: 25,
-				rotatatableInterval: "22.5deg",
-				storageType: 189,
-				retrieveOnly: false,
-				shape: {
-					base: "game:block/wood/crate/normal-closed",
-					rotateY: 180
-				}
-			},
-			"wood-chlorociboria": {
 				quantitySlots: 25,
 				rotatatableInterval: "22.5deg",
 				storageType: 189,
@@ -498,14 +488,6 @@
 						lidState: "closed",
 						type: "wood-charred"
 					}
-				},
-				{
-					type: "block",
-					code: "crate",
-					attributes: {
-						lidState: "closed",
-						type: "wood-chlorociboria"
-					}
 				}
 			]
 		}
@@ -560,8 +542,6 @@
 		"wood-sycamore-inside": { base: "block/wood/crate/sycamore-inside" },
 		"wood-willow-sides": { base: "block/wood/crate/willow-sides" },
 		"wood-willow-inside": { base: "block/wood/crate/willow-inside" },
-		"wood-chlorociboria-sides": { base: "block/wood/crate/chlorociboria-sides" },
-		"wood-chlorociboria-inside": { base: "block/wood/crate/chlorociboria-inside" },
 		"wood-guajacum-sides": { base: "block/wood/crate/guajacum-sides" },
 		"wood-guajacum-inside": { base: "block/wood/crate/guajacum-inside" },
 		"wood-umnini-sides": { base: "block/wood/crate/umnini-sides" },
