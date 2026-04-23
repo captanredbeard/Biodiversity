@@ -20,9 +20,9 @@
   "item-seeds-naplessquash": "Naples long squash seeds",
 
   //Block Crops
-  "block-crop-leek-*": "Leek plant",
-  "block-crop-potato-*": "Potato plant",
-  "block-crop-tomato-*": "Tomato plant",
+  "block-crop-leek-*": "Growing Leeks",
+  "block-crop-potato-*": "Growing Potatoes",
+  "block-crop-tomato-*": "Growing Tomatoes",
 
   //Food
   "item-vegetable-leek": "Leek",

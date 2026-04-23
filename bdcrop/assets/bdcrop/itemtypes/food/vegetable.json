@@ -142,7 +142,7 @@
 		}
 	},
 	transitionablePropsByType: {
-		"@*-(tomato||naplessquash||butternutsquash)": [
+		"@*-(tomato)": [
 			{
 				"type": "Perish",
 				"freshHours": { "avg": 192 },

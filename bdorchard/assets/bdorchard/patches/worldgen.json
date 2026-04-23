@@ -1,0 +1,22 @@
+[
+  {
+    "enabled": false,
+    "file": "game:worldgen/blockpatches/other.json",
+    "op": "addmerge",
+    "path": "/-",
+    "value": {
+      // Rare fruit tree
+      "blockCodes": [ "bdorchard:fruittree-branch" ],
+      "minTemp": -20,
+      "minForest": 0.3,
+      "maxForest": 0.8,
+      "minRain": 0,
+      "maxRain": 1,
+      "quantity": {
+        "avg": 1,
+        "var": 1
+      },
+        "chance": 0.04
+    }
+  }
+]
