@@ -1,4 +1,5 @@
 {
+	enabled: false,
 	treeWorldPropertyCode: "thinwillow",
 	sizeMultiplier: 0.45,
 	trunks: [{

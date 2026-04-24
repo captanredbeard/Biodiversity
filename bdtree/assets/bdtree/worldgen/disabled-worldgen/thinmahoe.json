@@ -1,17 +1,18 @@
 {
-	treeWorldPropertyCode: "thinleadwood",
-	isTropical: true,
+	enabled: false,
+	treeWorldPropertyCode: "thinmahoe",
+        isTropical: true,
 	sizeMultiplier: 0.3,
 	trunks: [{
 		widthloss: 0.06,
-		dieAt: { avg: 0.008 },
+		dieAt: { avg: 0.006 },
 		branchStart: { dist: "gaussian", avg: 0.2, var: 0.2 },
 		branchSpacing: { dist: "gaussian", avg: 0.2, var: 0.1 },
 		branchVerticalAngle:  { avg: 0.8, var: 0.1 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
 		branchWidthMultiplier: { avg: 0.07, var: 0 },
 		branchWidthMultiplierEvolve: { transform: "linear", factor: 1.5 },
-		branchQuantity: { avg: 3, var: 1 },
+		branchQuantity: { avg: 2, var: 1 },
 		branchWidthLossMul: 0.98,
 	}],
 	branches: [{
@@ -24,14 +25,14 @@
 		branchVerticalAngle: { dist: "inversegaussian", avg: 0.5, var: 0.2 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
 
-		branchQuantity: { avg: 1, var: 1 },
+		branchQuantity: { avg: 1, var: 0 },
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:lognarrow-grown-leadwood-ud",
-		leavesBlockCode: "bdtree:leaves-grown-leadwood",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-leadwood",
-		vinesBlockCode: "game:wildvine-section-north",
-		vinesEndBlockCode: "game:wildvine-end-north"
+		logBlockCode: "bdtree:lognarrow-grown-bluemahoe-ud",
+		leavesBlockCode: "bdtree:leaves-grown-bluemahoe",
+		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-bluemahoe",
+		vinesBlockCode: "game:wildvine-tropical-section-north",
+		vinesEndBlockCode: "game:wildvine-tropical-end-north"
 	}
 }

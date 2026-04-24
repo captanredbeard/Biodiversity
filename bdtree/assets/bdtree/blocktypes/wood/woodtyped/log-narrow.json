@@ -1,4 +1,5 @@
 {
+	"enabled": false,
 	"inheritFrom": "game:blocktypes/wood/woodtyped/log-narrow",
 	"code": "lognarrow",
 	"variantgroups": [
@@ -21,7 +22,7 @@
 		"bdtree": [ "lognarrow-placed-*-ud" ]
 	},
 	"shape": { "base": "block/wood/narrow" },
-	
+
 	"textures": {
 		"all": { "base": "block/wood/bark/narrow/{wood}" }
 	},

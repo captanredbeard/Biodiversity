@@ -22,6 +22,7 @@
     "side": "server"
   },
   {
+    "enabled": false,
     "op": "add",
     "path": "/shrubgens/-",
     "value": {
