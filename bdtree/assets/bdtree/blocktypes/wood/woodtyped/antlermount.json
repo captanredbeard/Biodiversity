@@ -11,7 +11,7 @@
 		"shape": { "base": "game:block/wood/antlermount-{type}" },
 		"textures": {
 			"wood": {
-				"base": "bdtree:block/wood/debarked/{material}",
+				"base": "game:block/wood/debarked/{material}",
 				"overlays": []
 			}
 		}

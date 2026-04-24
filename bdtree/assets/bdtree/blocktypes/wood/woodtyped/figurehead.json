@@ -10,7 +10,7 @@
 	"attributes": {
 		"materials": { "loadFromProperties": "bdtree:block/wood" },
 		"textures": {
-			"figureMat": { "base": "bdtree:block/wood/debarked/{material}" }
+			"figureMat": { "base": "game:block/wood/debarked/{material}" }
 		}
 	},
 	"shape": { "base": "game:entity/nonliving/boat/figurehead/{type}" }
