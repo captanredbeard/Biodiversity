@@ -3,6 +3,7 @@
     "ingredientPattern": "H_,PK",
     "width": 2,
     "height": 2,
+    "shapeless": true,
     "ingredients": {
       "K": {
         "type": "item",
@@ -20,6 +21,10 @@
     },
     "showInCreatedBy": false,
     "name": "george",
-    "output": { "type": "item", "code": "george", "quantity": 1 }
+    "output": {
+      "type": "item",
+      "code": "george",
+      "quantity": 1
+    }
   }
 ]
