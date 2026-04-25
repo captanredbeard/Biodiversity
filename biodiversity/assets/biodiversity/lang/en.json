@@ -1,3 +1,12 @@
 {
-    "hello": "hello world!"
+  "hello": "hello world!",
+
+
+
+  "biodiversity:serverwelcome": "Welcome, {0}! We hope you enjoy your time playing with biodiversity! \n\n You have the following sub-mods installed: {1}",
+  "biodiversity:singleplayerwelcome": "Welcome, {0}! We hope you enjoy your time playing with Biodiversity! You have the following sub-mods installed:\n{1} <a href=\"https://discord.com/invite/w79wShAD8q\">Join our Discord Community Here!</a>\n<a href=\"command://.nobdwelcome\">Click here to disable this message.</a>",
+  "biodiversity:nomodsmsg": "None. Please install sub mods to use biodiversity",
+  "biodiversity:newversion": " - New Version Avalible!",
+
+  "biodiversity:welcomedisabled": "Biodiversity welcome message disabled. You won't see it when joining the game anymore."
 }

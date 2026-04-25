@@ -2,17 +2,29 @@
 using biodiversity.src.BlockBehaviors.Herbs;
 using biodiversity.src.BlockEntities;
 using biodiversity.src.BlockTypes;
+using biodiversity.src.System;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
 using Vintagestory.API.Server;
+using Vintagestory.Client.NoObf;
 using Vintagestory.GameContent;
 
 namespace biodiversity
 {
     public class biodiversityModSystem : ModSystem
     {
-        // Called on server and client
+
+        public static ClientConfig cConfig = new ClientConfig();
+        
         // Useful for registering block/entity classes on both sides
         public override void Start(ICoreAPI api)
         {
@@ -28,15 +40,28 @@ namespace biodiversity
             api.RegisterBlockEntityBehaviorClass(modID + ".HerbPlantMesh", typeof(BEBehaviorHerbPlantMesh));
             api.RegisterBlockBehaviorClass(modID + ".herbplant", typeof(BlockBehaviorHerbPlant));
         }
-
-        public override void StartServerSide(ICoreServerAPI api)
+        override public void StartClientSide(ICoreClientAPI api)
         {
-            //Mod.Logger.Notification("Hello from template mod server side: " + Lang.Get("biodiversity:hello"));
+            TryToLoadClientConfig(api);
         }
 
-        public override void StartClientSide(ICoreClientAPI api)
+        private void TryToLoadClientConfig(ICoreAPI api)
         {
-            //Mod.Logger.Notification("Hello from template mod client side: " + Lang.Get("biodiversity:hello"));
+            try
+            {
+                cConfig = api.LoadModConfig<ClientConfig>("biodiversity/client.json");
+                if (cConfig == null)
+                {
+                    cConfig = new ClientConfig();
+                }
+                api.StoreModConfig<ClientConfig>(cConfig, "biodiversity/client.json");
+            }
+            catch (Exception e)
+            {
+                Mod.Logger.Error("Could not load client config! Loading default settings instead.");
+                Mod.Logger.Error(e);
+                cConfig = new ClientConfig();
+            }
         }
     }
 }
