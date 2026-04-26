@@ -9,6 +9,18 @@
   "bdtree:item-handbooktext-boat-raft-*": "- Place the raft with a <hk>rightmouse</hk> click.<br>- <hk>rightmouse</hk> click on the raft to board it.<br>- With an <a href=\"handbooksearch://oar\">oar</a> in your active hotbar slot, you can move the raft.<br>- Disembark from the raft using the <hk>shift</hk> key.<br>- Pick up the raft using the <hk>shift</hk> button combined with a <hk>rightmouse</hk> click.",
   "bdtree:itemdesc-oar-crude-*": "Suitable for: raft",
 
+  //Cabinets
+  "block-cabinet-*": "Cabinet",
+  "item-cabinetdoor-1block-glassframed": "Glass framed cabinet door",
+  "item-cabinetdoor-1block-solid": "Solid cabinet door",
+
+  //Doors
+  "block-door-solid-*": "Solid door",
+  "block-door-1x3gate-*": "3-tall door",
+  "block-door-2x2gate-*": "2 by 2 gate",
+  "block-door-2x4gate-*": "2 by 4 gate",
+  "block-door-2x3gate-*": "2 by 3 gate",
+
   //Tree Seeds
   "item-treeseed-alder": "Alder seed",
   "item-treeseed-bearnut": "Bearnut seed",
