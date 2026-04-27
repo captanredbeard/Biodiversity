@@ -1,0 +1,10 @@
+{
+  "hello": "hello world!",
+
+	"biodiversity:serverwelcome": "Добро пожаловать, {0}! Мы надеемся, вам понравится играть с Biodiversity! У вас установлены следующие подмоды:\n{1} <a href=\"https://discord.com/invite/w79wShAD8q\">Присоединяйтесь к нашему сообществу в Discord!</a>\n<a href=\"command://.nobdwelcome\">Нажмите здесь, чтобы отключить это сообщение.</a>",
+	"biodiversity:singleplayerwelcome": "Добро пожаловать, {0}! Мы надеемся, вам понравится играть с Biodiversity! У вас установлены следующие подмоды:\n{1} <a href=\"https://discord.com/invite/w79wShAD8q\">Присоединяйтесь к нашему сообществу в Discord!</a>\n<a href=\"command://.nobdwelcome\">Нажмите здесь, чтобы отключить это сообщение.</a>",
+	"biodiversity:nomodsmsg": "Нет установленных. Пожалуйста, установите подмоды для использования Biodiversity",
+	"biodiversity:newversion": " — Доступна новая версия!",
+
+	"biodiversity:welcomedisabled": "Приветственное сообщение Biodiversity отключено. Вы больше не увидите его при входе в игру."
+}

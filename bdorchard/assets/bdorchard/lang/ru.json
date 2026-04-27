@@ -1,0 +1,213 @@
+{
+  "game:tabname-bdorchard": "Biodiversity: Сады",
+
+  //Fruit Items
+  "bdorchard:item-fruit-apricot": "Абрикос",
+  "bdorchard:item-fruit-engkala": "Энгала",
+  "bdorchard:item-fruit-fig": "Инжир",
+  "bdorchard:item-fruit-grapefruit": "Грейпфрут",
+  "bdorchard:item-fruit-lemon": "Лимон",
+  "bdorchard:item-fruit-lime": "Лайм",
+  "bdorchard:item-fruit-nectarine": "Нектарин",
+  "bdorchard:item-fruit-sandpear": "Песчаная груша",
+  "bdorchard:item-fruit-avocado": "Авокадо",
+
+  //Tree Clippings
+  "game:fruittree-cutting-apricot": "Черенок абрикоса",
+  "game:fruittree-cutting-engkala": "Черенок энгалы",
+  "game:fruittree-cutting-fig": "Черенок инжира",
+  "game:fruittree-cutting-grapefruit": "Черенок грейпфрута",
+  "game:fruittree-cutting-lemon": "Черенок лимона",
+  "game:fruittree-cutting-lime": "Черенок лайма",
+  "game:fruittree-cutting-nectarine": "Черенок нектарина",
+  "game:fruittree-cutting-sandpear": "Черенок песчаной груши",
+  "game:fruittree-cutting-avocado": "Черенок авокадо",
+
+  "blockdesc-fruittree-cutting": "Можно посадить или привить.",
+
+  "game:fruittree-branch-apricot": "Ветка абрикоса",
+  "game:fruittree-branch-engkala": "Ветка энгалы",
+  "game:fruittree-branch-fig": "Ветка инжира",
+  "game:fruittree-branch-grapefruit": "Ветка грейпфрута",
+  "game:fruittree-branch-lemon": "Ветка лимона",
+  "game:fruittree-branch-lime": "Ветка лайма",
+  "game:fruittree-branch-nectarine": "Ветка нектарина",
+  "game:fruittree-branch-sandpear": "Ветка песчаной груши",
+  "game:fruittree-branch-avocado": "Ветка авокадо",
+
+  //FruitTree Leaves
+  "game:fruittree-foliage-avocado": "Листья авокадо ({0})",
+  "game:fruittree-foliage-apricot": "Листья абрикоса ({0})",
+  "game:fruittree-foliage-engkala": "Листья энгалы ({0})",
+  "game:fruittree-foliage-fig": "Листья инжира ({0})",
+  "game:fruittree-foliage-grapefruit": "Листья грейпфрута ({0})",
+  "game:fruittree-foliage-lemon": "Листья лимона ({0})",
+  "game:fruittree-foliage-lime": "Листья лайма ({0})",
+  "game:fruittree-foliage-nectarine": "Листья нектарина ({0})",
+  "game:fruittree-foliage-sandpear": "Листья песчаной груши ({0})",
+
+  "game:fruittree-young-apricot": "Молодой ствол абрикоса",
+  "game:fruittree-young-engkala": "Молодой ствол энгалы",
+  "game:fruittree-young-fig": "Молодой ствол инжира",
+  "game:fruittree-young-grapefruit": "Молодой ствол грейпфрута",
+  "game:fruittree-young-lemon": "Молодой ствол лимона",
+  "game:fruittree-young-lime": "Молодой ствол лайма",
+  "game:fruittree-young-nectarine": "Молодой ствол нектарина",
+  "game:fruittree-young-sandpear": "Молодой ствол песчаной груши",
+  "game:fruittree-young-avocado": "Молодой ствол авокадо",
+
+  "game:fruittree-stem-apricot": "Созревший ствол абрикоса",
+  "game:fruittree-stem-engkala": "Созревший ствол энгалы",
+  "game:fruittree-stem-fig": "Созревший ствол инжира",
+  "game:fruittree-stem-grapefruit": "Созревший ствол грейпфрута",
+  "game:fruittree-stem-lemon": "Созревший ствол лимона",
+  "game:fruittree-stem-lime": "Созревший ствол лайма",
+  "game:fruittree-stem-nectarine": "Созревший ствол нектарина",
+  "game:fruittree-stem-sandpear": "Созревший ствол песчаной груши",
+  "game:fruittree-stem-avocado": "Созревший ствол авокадо",
+
+  //Oil
+  "bdorchard:item-oilportion-avocado": "Масло авокадо",
+  "bdorchard:item-oilportion-engkala": "Масло энгалы",
+
+  "bdorchard:incontainer-item-oilportion-avocado": "Масло авокадо",
+  "bdorchard:incontainer-item-oilportion-engkala": "Масло энгалы",
+
+  //Juice
+  "bdorchard:item-juiceportion-apricot": "Абрикосовый сок",
+  "bdorchard:item-juiceportion-grapefruit": "Грейпфрутовый сок",
+  "bdorchard:item-juiceportion-lemon": "Лимонный сок",
+  "bdorchard:item-juiceportion-lime": "Сок лайма",
+  "bdorchard:item-juiceportion-nectarine": "Нектариновый сок",
+  "bdorchard:item-juiceportion-sandpear": "Сок песчаной груши",
+
+  "bdorchard:itemdesc-juiceportion-lemon": "Слишком кислый для самостоятельного виноделия",
+  "bdorchard:itemdesc-juiceportion-lime": "Слишком кислый для самостоятельного виноделия",
+
+  "bdorchard:incontainer-item-juiceportion-apricot": "Абрикосовый сок",
+  "bdorchard:incontainer-item-juiceportion-grapefruit": "Грейпфрутовый сок",
+  "bdorchard:incontainer-item-juiceportion-lemon": "Лимонный сок",
+  "bdorchard:incontainer-item-juiceportion-lime": "Сок лайма",
+  "bdorchard:incontainer-item-juiceportion-nectarine": "Нектариновый сок",
+  "bdorchard:incontainer-item-juiceportion-sandpear": "Сок песчаной груши",
+
+  "bdorchard:incontainer-itemdesc-juiceportion-lemon": "Слишком кислый для самостоятельного виноделия",
+  "bdorchard:incontainer-itemdesc-juiceportion-lime": "Слишком кислый для самостоятельного виноделия",
+
+  //Cider & Spirits
+  "bdorchard:item-ciderportion-apricot": "Абрикосовое вино",
+  "bdorchard:item-ciderportion-grapefruit": "Грейпфрутовое вино",
+  "bdorchard:item-ciderportion-nectarine": "Нектариновое вино",
+  "bdorchard:item-ciderportion-sandpear": "Вино из песчаной груши",
+
+  "bdorchard:incontainer-item-ciderportion-apricot": "Абрикосовое вино",
+  "bdorchard:incontainer-item-ciderportion-grapefruit": "Грейпфрутовое вино",
+  "bdorchard:incontainer-item-ciderportion-nectarine": "Нектариновое вино",
+  "bdorchard:incontainer-item-ciderportion-sandpear": "Вино из песчаной груши",
+
+  "bdorchard:item-spiritportion-apricot": "Абрикосовый бренди",
+  "bdorchard:item-spiritportion-grapefruit": "Грейпфрутовый бренди",
+  "bdorchard:item-spiritportion-nectarine": "Нектариновый бренди",
+  "bdorchard:item-spiritportion-sandpear": "Бренди из песчаной груши",
+
+  "bdorchard:incontainer-item-spiritportion-apricot": "Абрикосовый бренди",
+  "bdorchard:incontainer-item-spiritportion-grapefruit": "Грейпфрутовый бренди",
+  "bdorchard:incontainer-item-spiritportion-nectarine": "Нектариновый бренди",
+  "bdorchard:incontainer-item-spiritportion-sandpear": "Бренди из песчаной груши",
+
+  //Mash
+  "bdorchard:itemdesc-pressedmash-*": "Грубо отжатые фрукты. Выглядят неаппетитно, но некоторые животные могут это съесть.",
+  "bdorchard:itemdesc-pressedmash-lemon": "Грубо отжатые лимоны. Слишком кислые и горькие для еды, даже для животных.",
+  "bdorchard:itemdesc-pressedmash-lime": "Грубо отжатые лаймы. Слишком кислые и горькие для еды, даже для животных.",
+
+  "bdorchard:item-pressedmash-avocado-wet": "Влажная мякоть авокадо",
+  "bdorchard:item-pressedmash-avocado-dry": "Сухая мякоть авокадо",
+
+  "bdorchard:item-pressedmash-apricot-wet": "Влажная мякоть абрикоса",
+  "bdorchard:item-pressedmash-apricot-dry": "Сухая мякоть абрикоса",
+  "bdorchard:item-pressedmash-engkala-dry": "Сухая мякоть энгалы",
+  "bdorchard:item-pressedmash-engkala-wet": "Влажная мякоть энгалы",
+  "bdorchard:item-pressedmash-grapefruit-dry": "Сухая мякоть грейпфрута",
+  "bdorchard:item-pressedmash-grapefruit-wet": "Влажная мякоть грейпфрута",
+  "bdorchard:item-pressedmash-lemon-wet": "Влажная мякоть лимона",
+  "bdorchard:item-pressedmash-lemon-dry": "Сухая мякоть лимона",
+  "bdorchard:item-pressedmash-lime-wet": "Влажная мякоть лайма",
+  "bdorchard:item-pressedmash-lime-dry": "Сухая мякоть лайма",
+  "bdorchard:item-pressedmash-nectarine-wet": "Влажная мякоть нектарина",
+  "bdorchard:item-pressedmash-nectarine-dry": "Сухая мякоть нектарина",
+  "bdorchard:item-pressedmash-sandpear-wet": "Влажная мякоть песчаной груши",
+  "bdorchard:item-pressedmash-sandpear-dry": "Сухая мякоть песчаной груши",
+
+  //Pickled Citrus
+  "bdorchard:item-pickledcitrus-lemon": "Маринованный лимон",
+  "bdorchard:item-pickledcitrus-lime": "Маринованный лайм",
+
+  //Vanillia Cooking
+  "game:recipeingredient-item-fruit-apricot": "абрикос",
+  "game:recipeingredient-item-fruit-apricot-insturmentalcase": "абрикос",
+  "bdorchard:recipeingredient-item-fruit-apricot": "абрикос",
+  "bdorchard:recipeingredient-item-fruit-apricot-insturmentalcase": "абрикос",
+  "game:meal-ingredient-jam-primary-fruit-apricot": "абрикос",
+  "pie-single-bdorchard:fruit-apricot-raw": "Абрикосовый пирог (сырой)",
+  "pie-single-bdorchard:fruit-apricot-partbaked": "Абрикосовый пирог (полупропечённый)",
+  "pie-single-bdorchard:fruit-apricot-perfect": "Абрикосовый пирог",
+  "pie-single-bdorchard:fruit-apricot-charred": "Абрикосовый пирог (подгоревший)",
+
+  "game:recipeingredient-item-fruit-avocado": "авокадо",
+  "game:recipeingredient-item-fruit-avocado-insturmentalcase": "авокадо",
+  "bdorchard:recipeingredient-item-fruit-avocado": "авокадо",
+  "bdorchard:recipeingredient-item-fruit-avocado-insturmentalcase": "авокадо",
+  "game:meal-ingredient-jam-primary-fruit-avocado": "авокадо",
+  "pie-single-bdorchard:fruit-avocado-raw": "Пирог с авокадо (сырой)",
+  "pie-single-bdorchard:fruit-avocado-partbaked": "Пирог с авокадо (полупропечённый)",
+  "pie-single-bdorchard:fruit-avocado-perfect": "Пирог с авокадо",
+  "pie-single-bdorchard:fruit-avocado-charred": "Пирог с авокадо (подгоревший)",
+
+  "game:recipeingredient-item-fruit-fig": "инжир",
+  "game:recipeingredient-item-fruit-fig-insturmentalcase": "инжир",
+  "bdorchard:recipeingredient-item-fruit-fig": "инжир",
+  "bdorchard:recipeingredient-item-fruit-fig-insturmentalcase": "инжир",
+  "game:meal-ingredient-jam-primary-fruit-fig": "инжир",
+  "pie-single-bdorchard:fruit-fig-raw": "Пирог с инжиром (сырой)",
+  "pie-single-bdorchard:fruit-fig-partbaked": "Пирог с инжиром (полупропечённый)",
+  "pie-single-bdorchard:fruit-fig-perfect": "Пирог с инжиром",
+  "pie-single-bdorchard:fruit-fig-charred": "Пирог с инжиром (подгоревший)",
+
+  "game:recipeingredient-item-fruit-grapefruit": "грейпфрут",
+  "game:recipeingredient-item-fruit-grapefruit-insturmentalcase": "грейпфрут",
+  "bdorchard:recipeingredient-item-fruit-grapefruit": "грейпфрут",
+  "bdorchard:recipeingredient-item-fruit-grapefruit-insturmentalcase": "грейпфрут",
+  "game:meal-ingredient-jam-primary-fruit-grapefruit": "грейпфрут",
+
+  "game:recipeingredient-item-fruit-lemon": "лимон",
+  "game:recipeingredient-item-fruit-lemon-insturmentalcase": "лимон",
+  "bdorchard:recipeingredient-item-fruit-lemon": "лимон",
+  "bdorchard:recipeingredient-item-fruit-lemon-insturmentalcase": "лимон",
+  "game:meal-ingredient-jam-primary-fruit-lemon": "лимон",
+
+  "game:recipeingredient-item-fruit-lime": "лайм",
+  "game:recipeingredient-item-fruit-lime-insturmentalcase": "лайм",
+  "bdorchard:recipeingredient-item-fruit-lime": "лайм",
+  "bdorchard:recipeingredient-item-fruit-lime-insturmentalcase": "лайм",
+  "game:meal-ingredient-jam-primary-fruit-lime": "лайм",
+
+  "game:recipeingredient-item-fruit-nectarine": "нектарин",
+  "game:recipeingredient-item-fruit-nectarine-insturmentalcase": "нектарин",
+  "bdorchard:recipeingredient-item-fruit-nectarine": "нектарин",
+  "bdorchard:recipeingredient-item-fruit-nectarine-insturmentalcase": "нектарин",
+  "game:meal-ingredient-jam-primary-fruit-nectarine": "нектарин",
+  "pie-single-bdorchard:fruit-nectarine-raw": "Нектариновый пирог (сырой)",
+  "pie-single-bdorchard:fruit-nectarine-partbaked": "Нектариновый пирог (полупропечённый)",
+  "pie-single-bdorchard:fruit-nectarine-perfect": "Нектариновый пирог",
+  "pie-single-bdorchard:fruit-nectarine-charred": "Нектариновый пирог (подгоревший)",
+
+  "game:recipeingredient-item-fruit-sandpear": "песчаная груша",
+  "game:recipeingredient-item-fruit-sandpear-insturmentalcase": "песчаная груша",
+  "bdorchard:recipeingredient-item-fruit-sandpear": "песчаная груша",
+  "bdorchard:recipeingredient-item-fruit-sandpear-insturmentalcase": "песчаная груша",
+  "game:meal-ingredient-jam-primary-fruit-sandpear": "песчаная груша",
+  "pie-single-bdorchard:fruit-sandpear-raw": "Пирог с песчаной грушей (сырой)",
+  "pie-single-bdorchard:fruit-sandpear-partbaked": "Пирог с песчаной грушей (полупропечённый)",
+  "pie-single-bdorchard:fruit-sandpear-perfect": "Пирог с песчаной грушей",
+  "pie-single-bdorchard:fruit-sandpear-charred": "Пирог с песчаной грушей (подгоревший)"
+}
