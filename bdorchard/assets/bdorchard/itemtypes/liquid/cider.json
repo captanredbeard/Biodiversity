@@ -32,14 +32,6 @@
       "containable": true,
       "itemsPerLitre": 100,
       "texturebytype": {
-        "@*-(sandpear)": {
-          "base": "game:block/food/pie/fill-pear",
-          "alpha": 255
-        },
-        "@*-(apricot|nectarine)": {
-          "base": "game:block/food/pie/fill-peach",
-          "alpha": 255
-        },
         "*": {
           "base": "bdorchard:block/food/pie/fill-{fruit}",
           "alpha": 255
@@ -71,14 +63,6 @@
   },
   "shape": { "base": "game:item/liquid" },
   "texturebytype": {
-    "@*-(sandpear)": {
-      "base": "game:block/food/pie/fill-pear",
-      "alpha": 255
-    },
-    "@*-(apricot|nectarine)": {
-      "base": "game:block/food/pie/fill-peach",
-      "alpha": 255
-    },
     "*": {
       "base": "bdorchard:block/food/pie/fill-{fruit}",
       "alpha": 255
