@@ -1,6 +1,34 @@
 [
   // Add fruit to cooking pots attributes
   // Add fruit to jam recipies
+  // Jam Textures
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "op": "addmerge",
+    "path": "/textures",
+    "value": { "fruit-apricot": { "base": "bdorchard:block/food/pie/fill-apricot" },
+     "fruit-fig": { "base": "bdorchard:block/food/pie/fill-fig" },
+     "fruit-grapefruit": { "base": "bdorchard:block/food/pie/fill-grapefruit" },
+     "fruit-lemon": { "base": "bdorchard:block/food/pie/fill-lemon" },
+     "fruit-lime": { "base": "bdorchard:block/food/pie/fill-lime" },
+     "fruit-nectarine": { "base": "bdorchard:block/food/pie/fill-nectarine" },
+     "fruit-sandpear": { "base": "bdorchard:block/food/pie/fill-sandpear" }
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping",
+    "value": {
+      "fruit-apricot": [ "fruit", "fruit-apricot" ],
+      "fruit-fig": [ "fruit", "fruit-fig" ],
+      "fruit-grapefruit": [ "fruit", "fruit-grapefruit" ],
+      "fruit-lemon": [ "fruit", "fruit-lemon" ],
+      "fruit-lime": [ "fruit", "fruit-lime" ],
+      "fruit-nectarine": [ "fruit", "fruit-nectarine" ],
+      "fruit-sandpear": [ "fruit", "fruit-sandpear" ]
+    }
+  },
   //apricot
   {
     "file": "game:recipes/cooking/jam.json",
@@ -10,8 +38,7 @@
       {
         "type": "item",
         "code": "bdorchard:fruit-apricot",
-        "shapeElement": "bowl/fruit 1/*",
-        "textureMapping": [ "fruit", "group1" ]
+        "shapeElement": "bowl/fruit"
       }
     ],
     "side": "server"
@@ -25,8 +52,7 @@
       {
         "type": "item",
         "code": "bdorchard:fruit-fig",
-        "shapeElement": "bowl/fruit 1/*",
-        "textureMapping": [ "fruit", "group1" ]
+        "shapeElement": "bowl/fruit"
       }
     ],
     "side": "server"
@@ -40,8 +66,7 @@
       {
         "type": "item",
         "code": "bdorchard:fruit-grapefruit",
-        "shapeElement": "bowl/fruit 1/*",
-        "textureMapping": [ "fruit", "group1" ]
+        "shapeElement": "bowl/fruit"
       }
     ],
     "side": "server"
@@ -55,8 +80,7 @@
       {
         "type": "item",
         "code": "bdorchard:fruit-lemon",
-        "shapeElement": "bowl/fruit 1/*",
-        "textureMapping": [ "fruit", "group1" ]
+        "shapeElement": "bowl/fruit"
       }
     ],
     "side": "server"
@@ -70,8 +94,7 @@
       {
         "type": "item",
         "code": "bdorchard:fruit-lime",
-        "shapeElement": "bowl/fruit 1/*",
-        "textureMapping": [ "fruit", "group1" ]
+        "shapeElement": "bowl/fruit"
       }
     ],
     "side": "server"
@@ -85,8 +108,7 @@
       {
         "type": "item",
         "code": "bdorchard:fruit-nectarine",
-        "shapeElement": "bowl/fruit 1/*",
-        "textureMapping": [ "fruit", "group1" ]
+        "shapeElement": "bowl/fruit"
       }
     ],
     "side": "server"
@@ -100,8 +122,7 @@
       {
         "type": "item",
         "code": "bdorchard:fruit-sandpear",
-        "shapeElement": "bowl/fruit 1/*",
-        "textureMapping": [ "fruit", "group1" ]
+        "shapeElement": "bowl/fruit"
       }
     ],
     "side": "server"

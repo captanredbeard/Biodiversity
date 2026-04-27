@@ -26,39 +26,28 @@
   "attributes": {
     "foodTags": [ "{fruit}" ],
     "inContainerTextureByType": {
-      "@*-(nectarine|apricot)": { "base": "game:block/food/pie/fill-peach" },
-      "@*-(sandpear)": { "base": "game:block/food/pie/fill-pear" },
       "*": { "base": "bdorchard:block/food/pie/fill-{fruit}" }
     },
     "nutritionPropsWhenInMealByType": {
-      "*-lime|lemon": {
+      "@*-lime|lemon": {
         "satiety": 90,
         "foodcategory": "Fruit"
       },
-      "*": {
+      "@*": {
         "satiety": 120,
         "foodcategory": "Fruit"
       }
     },
     "inPiePropertiesByType": {
       "@*-(lemon|lime|grapefruit|avocado)": null,
-      "@*-(nectarine|apricot)": {
-        "texture": "game:block/food/pie/fill-peach",
-        "partType": "Filling",
-        "mixingCodes": [ "fruitpie" ]
-      },
-      "@*-(sandpear)": {
-        "texture": "game:block/food/pie/fill-pear",
-        "partType": "Filling",
-        "mixingCodes": [ "fruitpie" ]
-      },
-      "*": {
-        "texture": "bdorchard:block/food/pies/{fruit}",
+      "@*": {
+        "texture": "bdorchard:block/food/pie/fill-{fruit}",
         "partType": "Filling",
         "mixingCodes": [ "fruitpie" ]
       }
     },
     "groundStorageTransform": {
+
       "translation": {
         "x": 0,
         "y": -0.25,
