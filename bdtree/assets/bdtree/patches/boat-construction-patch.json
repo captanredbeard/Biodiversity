@@ -1,0 +1,154 @@
+﻿[
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/1/requireStacks/0/code",
+    "value": "game:firewood",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/1/requireStacks/1/code",
+    "value": "*:log-placed-*",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/2/requireStacks/0/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/2/requireStacks/1/code",
+    "value": "game:plumbandsquare",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/3/requireStacks/0/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/4/requireStacks/0/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/5/requireStacks/0/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/6/requireStacks/0/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/7/requireStacks/0/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/8/requireStacks/0/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/9/requireStacks/0/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/10/requireStacks/0/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/11/requireStacks/0/code",
+    "value": "*:supportbeam-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/12/requireStacks/0/code",
+    "value": "*:supportbeam-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/13/requireStacks/0/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/14/requireStacks/0/code",
+    "value": "*:supportbeam-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/14/requireStacks/1/code",
+    "value": "*:plank-{wood}",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/16/requireStacks/0/code",
+    "value": "game:rope",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/17/requireStacks/0/code",
+    "value": "game:rope",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "replace",
+    "path": "/attributes/stages/17/requireStacks/1/code",
+    "value": "game:linen-*-down",
+    "file": "game:entities/nonliving/boat-construction.json"
+  },
+  {
+    "enabled": false,
+    "op": "add",
+    "path": "/variantgroups/-",
+    "value": {
+      "code": "material",
+      "states": [],
+      "loadFromProperties": "bdtree:block/wood",
+      "combine": "Add"
+    },
+    "file": "game:entities/nonliving/boat-construction.json"
+  }
+]
