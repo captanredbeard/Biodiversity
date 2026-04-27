@@ -20,9 +20,9 @@
   "item-seeds-naplessquash": "Naples long squash seeds",
 
   //Block Crops
-  "block-crop-leek-*": "Growing Leeks",
-  "block-crop-potato-*": "Growing Potatoes",
-  "block-crop-tomato-*": "Growing Tomatoes",
+  "block-crop-leek-*": "Growing leeks",
+  "block-crop-potato-*": "Growing potatoes",
+  "block-crop-tomato-*": "Growing tomatoes",
 
   //Food
   "item-vegetable-leek": "Leek",
@@ -105,14 +105,14 @@
   "bdcrop:item-spiritportion-watermelon": "Watermelon brandy",
   "bdcrop:incontainer-item-spiritportion-watermelon": "Watermelon brandy",
 
-  "bdcrop:item-pressedmash-mirzamelon-wet": "Wet mirzamelon mash",
-  "bdcrop:item-pressedmash-mirzamelon-dry": "Dry mirzamelon mash",
-  "bdcrop:item-juiceportion-mirzamelon": "Mirzamelon juice",
-  "bdcrop:incontainer-item-juiceportion-mirzamelon": "Mirzamelon juice",
-  "bdcrop:item-ciderportion-mirzamelon": "Mirzamelon wine",
-  "bdcrop:incontainer-item-ciderportion-mirzamelon": "Mirzamelon wine",
-  "bdcrop:item-spiritportion-mirzamelon": "Mirzamelon brandy",
-  "bdcrop:incontainer-item-spiritportion-mirzamelon": "Mirzamelon brandy",
+  "bdcrop:item-pressedmash-mirzamelon-wet": "Wet mirza melon mash",
+  "bdcrop:item-pressedmash-mirzamelon-dry": "Dry mirza melon mash",
+  "bdcrop:item-juiceportion-mirzamelon": "Mirza melon juice",
+  "bdcrop:incontainer-item-juiceportion-mirzamelon": "Mirza melon juice",
+  "bdcrop:item-ciderportion-mirzamelon": "Mirza melon wine",
+  "bdcrop:incontainer-item-ciderportion-mirzamelon": "Mirza melon wine",
+  "bdcrop:item-spiritportion-mirzamelon": "Mirza melon brandy",
+  "bdcrop:incontainer-item-spiritportion-mirzamelon": "Mirza melon brandy",
 
   "bdcrop:item-pressedmash-cantaloupe-wet": "Wet cantaloupe mash",
   "bdcrop:item-pressedmash-cantaloupe-dry": "Dry cantaloupe mash",

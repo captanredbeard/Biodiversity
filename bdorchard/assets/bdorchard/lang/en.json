@@ -15,7 +15,7 @@
 
   //Tree Clippings
   "game:fruittree-cutting-apricot": "Apricot tree cutting",
-  "game:fruittree-cutting-engkala": "engkala tree cutting",
+  "game:fruittree-cutting-engkala": "Engkala tree cutting",
   "game:fruittree-cutting-fig": "Fig tree cutting",
   "game:fruittree-cutting-grapefruit": "Grapefruit tree cutting",
   "game:fruittree-cutting-lemon": "Lemon tree cutting",
@@ -85,12 +85,12 @@
   "bdorchard:itemdesc-juiceportion-lemon": "Too acidic to make wine on its own",
   "bdorchard:itemdesc-juiceportion-lime": "Too acidic to make wine on its own",
 
-  "bdorchard:incontainer-item-juiceportion-apricot": "Apricot Juice",
-  "bdorchard:incontainer-item-juiceportion-grapefruit": "Grapefruit Juice",
+  "bdorchard:incontainer-item-juiceportion-apricot": "Apricot juice",
+  "bdorchard:incontainer-item-juiceportion-grapefruit": "Grapefruit juice",
   "bdorchard:incontainer-item-juiceportion-lemon": "Lemon juice",
   "bdorchard:incontainer-item-juiceportion-lime": "Lime juice",
-  "bdorchard:incontainer-item-juiceportion-nectarine": "Nectarine Juice",
-  "bdorchard:incontainer-item-juiceportion-sandpear": "Sandpear Juice",
+  "bdorchard:incontainer-item-juiceportion-nectarine": "Nectarine juice",
+  "bdorchard:incontainer-item-juiceportion-sandpear": "Sandpear juice",
 
   "bdorchard:incontainer-itemdesc-juiceportion-lemon": "Too acidic to make wine on its own",
   "bdorchard:incontainer-itemdesc-juiceportion-lime": "Too acidic to make wine on its own",
@@ -101,28 +101,28 @@
   "bdorchard:item-ciderportion-nectarine": "Nectarine wine",
   "bdorchard:item-ciderportion-sandpear": "Sandpear wine",
 
-  "bdorchard:incontainer-item-ciderportion-apricot": "Apricot Wine",
-  "bdorchard:incontainer-item-ciderportion-grapefruit": "Grapefruit Wine",
-  "bdorchard:incontainer-item-ciderportion-nectarine": "Nectarine Wine",
-  "bdorchard:incontainer-item-ciderportion-sandpear": "Sandpear Wine",
+  "bdorchard:incontainer-item-ciderportion-apricot": "Apricot wine",
+  "bdorchard:incontainer-item-ciderportion-grapefruit": "Grapefruit wine",
+  "bdorchard:incontainer-item-ciderportion-nectarine": "Nectarine wine",
+  "bdorchard:incontainer-item-ciderportion-sandpear": "Sandpear wine",
 
   "bdorchard:item-spiritportion-apricot": "Apricot brandy",
   "bdorchard:item-spiritportion-grapefruit": "Grapefruit brandy",
   "bdorchard:item-spiritportion-nectarine": "Nectarine brandy",
   "bdorchard:item-spiritportion-sandpear": "Sandpear brandy",
 
-  "bdorchard:incontainer-item-spiritportion-apricot": "Apricot Brandy",
-  "bdorchard:incontainer-item-spiritportion-grapefruit": "Grapefruit Brandy",
-  "bdorchard:incontainer-item-spiritportion-nectarine": "Nectarine Brandy",
-  "bdorchard:incontainer-item-spiritportion-sandpear": "Sandpear Brandy",
+  "bdorchard:incontainer-item-spiritportion-apricot": "Apricot brandy",
+  "bdorchard:incontainer-item-spiritportion-grapefruit": "Grapefruit brandy",
+  "bdorchard:incontainer-item-spiritportion-nectarine": "Nectarine brandy",
+  "bdorchard:incontainer-item-spiritportion-sandpear": "Sandpear brandy",
 
   //Mash
   "bdorchard:itemdesc-pressedmash-*": "Crudely pressed fruit. Not too appetizing looking, but some animals might still eat this.",
   "bdorchard:itemdesc-pressedmash-lemon": "Crudely pressed lemons. Too acidic and bitter to eat, even for animals.",
   "bdorchard:itemdesc-pressedmash-lime": "Crudely pressed limes. Too acidic and bitter to eat, even for animals.",
 
-  "bdorchard:item-pressedmash-avocado-wet": "Avocado Guac",
-  "bdorchard:item-pressedmash-avocado-dry": "Dry Avocado Guac",
+  "bdorchard:item-pressedmash-avocado-wet": "Wet avocado guac",
+  "bdorchard:item-pressedmash-avocado-dry": "Dry avocado guac",
 
   "bdorchard:item-pressedmash-apricot-wet": "Wet lemon mash ",
   "bdorchard:item-pressedmash-apricot-dry": "Dry lemon mash ",
@@ -140,8 +140,8 @@
   "bdorchard:item-pressedmash-sandpear-dry": "Dry sandpear mash ",
 
   //Pickled Citrus
-  "bdorchard:item-pickledcitrus-lemon": "Pickled Lemon",
-  "bdorchard:item-pickledcitrus-lime": "Pickled Lime",
+  "bdorchard:item-pickledcitrus-lemon": "Pickled lemon",
+  "bdorchard:item-pickledcitrus-lime": "Pickled lime",
 
   //Vanillia Cooking
   "game:recipeingredient-item-fruit-apricot": "apricot",
