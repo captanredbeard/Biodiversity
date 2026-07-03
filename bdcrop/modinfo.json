@@ -2,12 +2,11 @@
   "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
   "type": "Content",
   "modid": "bdcrop",
-  "name": "Biodiversity: Crops",
-  "side": "Universal",
-  "authors": [
+  "name": "Biodiversity: Crops"
     "Captanredbeard",
     "WhiskeySunshine",
-    "The Last Thing"
+    "The Last Thing",
+    "tet"
   ],
   "contributors": [ "Sigmadron", "Greybones", "Pizza2004", "FuegoFish", "AllégroSky", "Alcoraiden", "AcuteAangle", "Emnierra" ],
   "website": "https://discord.com/invite/w79wShAD8q",
